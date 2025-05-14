@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- Use @terminal with ripgrep (rg) to search for text or files quickly.
+
+- Before creating or refactoring any component, page, custom hook, library, or utility:
+    - First, check if it already exists in the codebase.
+    - If it exists, reuse or update it instead of creating a duplicate.
+
+    - Only create new code if no suitable existing implementation is available.
