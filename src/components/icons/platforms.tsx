@@ -19,7 +19,8 @@ export type Platform =
   | 'kubernetes'
   | 'desktop'
   | 'self'
-  | 'cloud';
+  | 'cloud'
+  | 'macos';
 
 export interface PlatformIconsProps {
   platform: Platform;
@@ -62,6 +63,10 @@ const Icons = {
   cloud: {
     light: Cloudy,
     dark: Cloudy,
+  },
+  macos: {
+    light: AppleLight,
+    dark: AppleDark,
   },
 };
 

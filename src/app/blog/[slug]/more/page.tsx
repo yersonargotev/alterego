@@ -77,7 +77,7 @@ export default async function MorePage({
         {/* Display the README markdown content */}
         <div className="border-t pt-8">
           <h1 className="text-3xl font-bold mb-6 text-center">
-            Detailed Information
+            More Information
           </h1>
           <Prose>
             <MDXRemote source={readmeContent} />

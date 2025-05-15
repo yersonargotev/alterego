@@ -49,9 +49,9 @@ export default async function Page({ params }: { params: { slug: string } }) {
         <div className="mt-12 text-center">
           <Link
             href={`/blog/${slug}/more`}
-            className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors group"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-secondary text-muted-foreground rounded-md hover:bg-secondary/90 transition-colors group"
           >
-            <span>View Detailed Information</span>
+            <span>View More Information</span>
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Link>
         </div>
