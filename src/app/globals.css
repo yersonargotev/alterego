@@ -149,8 +149,8 @@
 
 /* view transition */
 ::view-transition-group(root) {
-  animation-duration: 0.5s;
-  animation-timing-function: var(--expo-in);
+  animation-duration: 0.8s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 ::view-transition-new(root) {
@@ -165,9 +165,9 @@
 
 @keyframes reveal {
   from {
-    clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
+    clip-path: circle(0% at 50% 50%);
   }
   to {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: circle(100% at 50% 50%);
   }
 }
