@@ -2,6 +2,7 @@
 
 import type React from 'react';
 import { useState, useEffect, useRef } from 'react';
+import { useTheme } from 'next-themes';
 import { Button } from '@/components/ui/button';
 import { codeToHtml, type BundledLanguage } from 'shiki';
 import { CopyIcon, type CopyIconHandle } from '@/components/ui/copy';
@@ -37,6 +38,7 @@ const Code = (props: CodeProps) => {
   const [highlightedCode, setHighlightedCode] = useState<string | null>(null);
   const [rawCode, setRawCode] = useState<string>("");
   const copyIconRef = useRef<CopyIconHandle>(null);
+  const { resolvedTheme } = useTheme();
 
   const { className, children } = props;
   const matches = className?.match(/language-(.*)/);
@@ -49,18 +51,14 @@ const Code = (props: CodeProps) => {
 
     const highlight = async () => {
       try {
-        // Ensure 'catppuccin-mocha' is a valid theme Shiki can load.
-        // Shiki might throw an error if the theme is not found.
-        // Themes need to be loaded or bundled with Shiki.
+        const shikiTheme = resolvedTheme === 'light' ? 'catppuccin-latte' : 'catppuccin-mocha';
         const html = await codeToHtml(codeString, {
           lang: language,
-          theme: 'catppuccin-mocha', // This theme must be available to Shiki
+          theme: shikiTheme,
         });
         setHighlightedCode(html);
       } catch (error) {
         console.error("Shiki highlighting error:", error);
-        // Fallback to plain text if highlighting fails (e.g. theme not found)
-        // Escape the codeString to prevent XSS if it's directly rendered without <pre><code> by Shiki
         const escapedCodeString = codeString.replace(/</g, "&lt;").replace(/>/g, "&gt;");
         setHighlightedCode(`<pre class="shiki-fallback"><code>${escapedCodeString}</code></pre>`);
       }
@@ -69,11 +67,9 @@ const Code = (props: CodeProps) => {
     if (codeString) {
       highlight();
     } else {
-      // If codeString is empty, set highlightedCode to an empty pre/code or null
-      // to avoid attempting to highlight an empty string which might error or look odd.
       setHighlightedCode('<pre><code></code></pre>');
     }
-  }, [children, language]); // Rerun when children or language changes
+  }, [children, language, resolvedTheme]); // Rerun when children, language or theme changes
 
   const handleCopy = () => {
     if (rawCode) {
