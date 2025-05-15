@@ -171,3 +171,7 @@
     clip-path: circle(100% at 50% 50%);
   }
 }
+
+.shiki-container > div > pre.shiki {
+  @apply my-0 rounded-b-lg rounded-t-none;
+}
