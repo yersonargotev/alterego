@@ -21,7 +21,6 @@ import {
     ArrowRight,
     ChevronRight,
 } from 'lucide-react';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 
 interface AlternativesProps {
     data: AlternativesData | null; // Allow data to be null initially
@@ -36,13 +35,13 @@ interface BadgeProps {
 const LicenseBadge: React.FC<BadgeProps> = ({ text, className }) => {
     const getLicenseBadgeStyle = () => {
         if (text.toLowerCase().includes('apache')) {
-            return "bg-green-100 dark:bg-green-900/20 border-green-200 dark:border-green-800";
+            return 'bg-green-100 dark:bg-green-900/20 border-green-200 dark:border-green-800';
         } else if (text.toLowerCase().includes('proprietary')) {
-            return "bg-amber-100 dark:bg-amber-900/20 border-amber-200 dark:border-amber-800";
+            return 'bg-amber-100 dark:bg-amber-900/20 border-amber-200 dark:border-amber-800';
         } else if (text.toLowerCase().includes('mit')) {
-            return "bg-blue-100 dark:bg-blue-900/20 border-blue-200 dark:border-blue-800";
+            return 'bg-blue-100 dark:bg-blue-900/20 border-blue-200 dark:border-blue-800';
         }
-        return "bg-slate-100 dark:bg-slate-800/40 border-slate-200 dark:border-slate-700";
+        return 'bg-slate-100 dark:bg-slate-800/40 border-slate-200 dark:border-slate-700';
     };
 
     return (
@@ -63,10 +62,14 @@ const PlatformBadge: React.FC<BadgeProps> = ({ text, className }) => {
         const isDocker = text.toLowerCase().includes('docker');
         const isSelfHosted = text.toLowerCase().includes('self-hosted');
 
-        if (isCloud) return 'bg-blue-100 dark:bg-blue-900/20 hover:bg-blue-200 dark:hover:bg-blue-800/40';
-        if (isKubernetes) return 'bg-indigo-100 dark:bg-indigo-900/20 hover:bg-indigo-200 dark:hover:bg-indigo-800/40';
-        if (isDocker) return 'bg-sky-100 dark:bg-sky-900/20 hover:bg-sky-200 dark:hover:bg-sky-800/40';
-        if (isSelfHosted) return 'bg-emerald-100 dark:bg-emerald-900/20 hover:bg-emerald-200 dark:hover:bg-emerald-800/40';
+        if (isCloud)
+            return 'bg-blue-100 dark:bg-blue-900/20 hover:bg-blue-200 dark:hover:bg-blue-800/40';
+        if (isKubernetes)
+            return 'bg-indigo-100 dark:bg-indigo-900/20 hover:bg-indigo-200 dark:hover:bg-indigo-800/40';
+        if (isDocker)
+            return 'bg-sky-100 dark:bg-sky-900/20 hover:bg-sky-200 dark:hover:bg-sky-800/40';
+        if (isSelfHosted)
+            return 'bg-emerald-100 dark:bg-emerald-900/20 hover:bg-emerald-200 dark:hover:bg-emerald-800/40';
 
         return 'bg-slate-100 dark:bg-slate-800/40 hover:bg-slate-200 dark:hover:bg-slate-700/60';
     };
@@ -101,7 +104,9 @@ const AlternativeCard: React.FC<{ alternative: Alternative }> = ({
         <Card className="flex flex-col h-full bg-card text-card-foreground border border-border/60 hover:shadow-md transition-all duration-300 hover:border-border overflow-hidden">
             <CardHeader className="pb-3">
                 <CardTitle className="flex flex-col items-start gap-2 w-full">
-                    <span className="w-full font-medium text-sm sm:text-base text-center line-clamp-2 break-words hyphens-auto">{alternative.name}</span>
+                    <span className="w-full font-medium text-sm sm:text-base text-center line-clamp-2 break-words hyphens-auto">
+                        {alternative.name}
+                    </span>
                     <div className="w-full flex justify-center">
                         <LicenseBadge text={alternative.license} />
                     </div>
@@ -115,9 +120,14 @@ const AlternativeCard: React.FC<{ alternative: Alternative }> = ({
                     </h4>
                     <ul className="list-none text-sm space-y-2 w-full p-0">
                         {alternative.mainFeatures.slice(0, 3).map((feature) => (
-                            <li key={feature} className="flex items-start gap-2 group w-full p-0">
+                            <li
+                                key={feature}
+                                className="flex items-start gap-2 group w-full p-0"
+                            >
                                 <ChevronRight className="h-3.5 w-3.5 text-primary flex-shrink-0 mt-0.5 group-hover:translate-x-0.5 transition-transform" />
-                                <span className="line-clamp-2 break-words hyphens-auto">{feature}</span>
+                                <span className="line-clamp-2 break-words hyphens-auto">
+                                    {feature}
+                                </span>
                             </li>
                         ))}
                         {alternative.mainFeatures.length > 3 && (
@@ -134,16 +144,7 @@ const AlternativeCard: React.FC<{ alternative: Alternative }> = ({
                     </h4>
                     <div className="flex flex-wrap gap-1.5 w-full">
                         {alternative.platforms.map((platform) => (
-                            <TooltipProvider key={platform}>
-                                <Tooltip>
-                                    <TooltipTrigger asChild>
-                                        <PlatformBadge text={platform} />
-                                    </TooltipTrigger>
-                                    <TooltipContent>
-                                        <p>{platform}</p>
-                                    </TooltipContent>
-                                </Tooltip>
-                            </TooltipProvider>
+                            <PlatformBadge text={platform} />
                         ))}
                     </div>
                 </div>
