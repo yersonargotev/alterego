@@ -7,33 +7,35 @@ import Link from 'next/link';
 import { BlogNav } from '@/components/blog-nav';
 import type { BlogItem } from '@/lib/get-blogs';
 import {
-    Sidebar,
-    SidebarContent,
-    SidebarHeader,
-    SidebarRail,
+  Sidebar,
+  SidebarContent,
+  SidebarHeader,
+  SidebarRail,
 } from '@/components/ui/sidebar';
 
 export function BlogSidebar({
-    blogs,
-    ...props
+  blogs,
+  ...props
 }: React.ComponentProps<typeof Sidebar> & {
-    blogs: BlogItem[];
+  blogs: BlogItem[];
 }) {
-    return (
-        <Sidebar collapsible="icon" {...props}>
-            <SidebarHeader>
-                <Link
-                    href="/blog"
-                    className="flex items-center gap-2 group-data-[state=expanded]:px-6 group-data-[state=collapsed]:px-1 py-4 hover:bg-muted/50 transition-colors overflow-hidden whitespace-nowrap"
-                >
-                    <BookOpen className="h-6 w-6 flex-shrink-0" />
-                    <span className="text-lg font-semibold truncate group-data-[state=collapsed]:hidden">Blog</span>
-                </Link>
-            </SidebarHeader>
-            <SidebarContent>
-                <BlogNav blogs={blogs} />
-            </SidebarContent>
-            <SidebarRail />
-        </Sidebar>
-    );
+  return (
+    <Sidebar collapsible="icon" {...props}>
+      <SidebarHeader>
+        <Link
+          href="/blog"
+          className="flex items-center gap-2 group-data-[state=expanded]:px-6 group-data-[state=collapsed]:px-1 py-4 hover:bg-muted/50 transition-colors overflow-hidden whitespace-nowrap"
+        >
+          <BookOpen className="h-6 w-6 flex-shrink-0" />
+          <span className="text-lg font-semibold truncate group-data-[state=collapsed]:hidden">
+            Blog
+          </span>
+        </Link>
+      </SidebarHeader>
+      <SidebarContent>
+        <BlogNav blogs={blogs} />
+      </SidebarContent>
+      <SidebarRail />
+    </Sidebar>
+  );
 }

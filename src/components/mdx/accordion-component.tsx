@@ -1,10 +1,10 @@
-import React, { type ComponentType, type ReactNode } from "react";
+import React, { type ComponentType, type ReactNode } from 'react';
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from '@/components/ui/accordion';
 
 // Accept either an MDX component or raw JSX/text
 interface AccordionItemProps {
@@ -14,23 +14,23 @@ interface AccordionItemProps {
 
 interface AccordionComponentProps {
   items: AccordionItemProps[];
-  type?: "single" | "multiple";
+  type?: 'single' | 'multiple';
   defaultValue?: string;
   className?: string;
 }
 
 export default function AccordionComponent({
   items,
-  type = "single",
+  type = 'single',
   defaultValue,
   className,
 }: AccordionComponentProps) {
-  if (type === "multiple") {
+  if (type === 'multiple') {
     return (
       <Accordion
         type="multiple"
         defaultValue={defaultValue ? [defaultValue] : undefined}
-        className={`w-full mb-6 ${className || ""}`}
+        className={`w-full mb-6 ${className || ''}`}
       >
         {items.map((item, i) => (
           <AccordionItem key={`${item.trigger}-${i}`} value={`item-${i + 1}`}>
@@ -38,7 +38,7 @@ export default function AccordionComponent({
               {item.trigger}
             </AccordionTrigger>
             <AccordionContent>
-              {typeof item.content === "function" ? (
+              {typeof item.content === 'function' ? (
                 <item.content /> // Render MDX component
               ) : (
                 item.content // Render plain text or JSX
@@ -55,7 +55,7 @@ export default function AccordionComponent({
       type="single"
       defaultValue={defaultValue}
       collapsible
-      className={`w-full mb-6 ${className || ""}`}
+      className={`w-full mb-6 ${className || ''}`}
     >
       {items.map((item, i) => (
         <AccordionItem key={`${item.trigger}-${i}`} value={`item-${i + 1}`}>
@@ -63,7 +63,7 @@ export default function AccordionComponent({
             {item.trigger}
           </AccordionTrigger>
           <AccordionContent>
-            {typeof item.content === "function" ? (
+            {typeof item.content === 'function' ? (
               <item.content /> // Render MDX component
             ) : (
               item.content // Render plain text or JSX

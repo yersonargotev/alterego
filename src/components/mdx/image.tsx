@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import NextImage from "next/image";
-import { cn } from "@/lib/utils";
+import NextImage from 'next/image';
+import { cn } from '@/lib/utils';
 
 interface ImageProps {
   src: string;
@@ -25,7 +25,7 @@ const Image = ({
   return (
     <figure className="w-full mb-4">
       <div
-        className={cn("relative overflow-hidden rounded-md border", className)}
+        className={cn('relative overflow-hidden rounded-md border', className)}
       >
         <NextImage
           src={src}
@@ -34,7 +34,7 @@ const Image = ({
           width={width}
           height={height}
           className="w-full h-auto"
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: 'cover' }}
         />
       </div>
       {caption && (

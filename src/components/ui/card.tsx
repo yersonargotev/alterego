@@ -32,7 +32,10 @@ function CardTitle({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
       data-slot="card-title"
-      className={cn('leading-none font-semibold max-w-full overflow-hidden text-ellipsis', className)}
+      className={cn(
+        'leading-none font-semibold max-w-full overflow-hidden text-ellipsis',
+        className,
+      )}
       {...props}
     />
   );
@@ -42,7 +45,10 @@ function CardDescription({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
       data-slot="card-description"
-      className={cn('text-muted-foreground text-sm max-w-full overflow-hidden', className)}
+      className={cn(
+        'text-muted-foreground text-sm max-w-full overflow-hidden',
+        className,
+      )}
       {...props}
     />
   );
@@ -75,7 +81,10 @@ function CardFooter({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
       data-slot="card-footer"
-      className={cn('flex items-center px-6 [.border-t]:pt-6 max-w-full overflow-hidden', className)}
+      className={cn(
+        'flex items-center px-6 [.border-t]:pt-6 max-w-full overflow-hidden',
+        className,
+      )}
       {...props}
     />
   );

@@ -14,7 +14,8 @@ interface CodeProps {
 
 // Helper function to extract string from ReactNode
 const getNodeText = (node: React.ReactNode): string => {
-  if (node == null) { // handles null and undefined
+  if (node == null) {
+    // handles null and undefined
     return '';
   }
   if (typeof node === 'string' || typeof node === 'number') {
@@ -36,14 +37,14 @@ const getNodeText = (node: React.ReactNode): string => {
 const Code = (props: CodeProps) => {
   const [copied, setCopied] = useState(false);
   const [highlightedCode, setHighlightedCode] = useState<string | null>(null);
-  const [rawCode, setRawCode] = useState<string>("");
+  const [rawCode, setRawCode] = useState<string>('');
   const copyIconRef = useRef<CopyIconHandle>(null);
   const { resolvedTheme } = useTheme();
 
   const { className, children } = props;
   const matches = className?.match(/language-(.*)/);
   // Ensure language is a valid BundledLanguage or fallback to plaintext
-  const language = (matches?.[1] || "plaintext") as BundledLanguage;
+  const language = (matches?.[1] || 'plaintext') as BundledLanguage;
 
   useEffect(() => {
     const codeString = getNodeText(children);
@@ -51,16 +52,21 @@ const Code = (props: CodeProps) => {
 
     const highlight = async () => {
       try {
-        const shikiTheme = resolvedTheme === 'light' ? 'catppuccin-latte' : 'catppuccin-mocha';
+        const shikiTheme =
+          resolvedTheme === 'light' ? 'catppuccin-latte' : 'catppuccin-mocha';
         const html = await codeToHtml(codeString, {
           lang: language,
           theme: shikiTheme,
         });
         setHighlightedCode(html);
       } catch (error) {
-        console.error("Shiki highlighting error:", error);
-        const escapedCodeString = codeString.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-        setHighlightedCode(`<pre class="shiki-fallback"><code>${escapedCodeString}</code></pre>`);
+        console.error('Shiki highlighting error:', error);
+        const escapedCodeString = codeString
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;');
+        setHighlightedCode(
+          `<pre class="shiki-fallback"><code>${escapedCodeString}</code></pre>`,
+        );
       }
     };
 
@@ -87,25 +93,26 @@ const Code = (props: CodeProps) => {
   // Initial rendering state (loading or before useEffect runs)
   if (highlightedCode === null) {
     return (
-      <div
-        className="rounded-lg border w-full max-w-full overflow-hidden mb-4"
-      >
+      <div className="rounded-lg border w-full max-w-full overflow-hidden mb-4">
         <div className="flex justify-between items-center bg-secondary py-2 px-4 rounded-t-lg border-b">
-          <span className="text-secondary-foreground text-sm">{language || 'code'}</span>
+          <span className="text-secondary-foreground text-sm">
+            {language || 'code'}
+          </span>
           <div className="text-xs text-muted-foreground">Copy</div>
         </div>
         <pre
           className="bg-card p-4 rounded-b-lg overflow-auto w-full block max-w-full"
           style={{
-            maxWidth: "100%",
-            overflowX: "auto",
-            wordWrap: "break-word",
-            whiteSpace: "pre-wrap",
-            wordBreak: "break-word",
+            maxWidth: '100%',
+            overflowX: 'auto',
+            wordWrap: 'break-word',
+            whiteSpace: 'pre-wrap',
+            wordBreak: 'break-word',
           }}
         >
-          <code className={`${className || ''} text-card-foreground block w-full font-mono text-sm`}
-            style={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }}
+          <code
+            className={`${className || ''} text-card-foreground block w-full font-mono text-sm`}
+            style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}
           >
             {/* Display raw code or children as placeholder during loading */}
             {rawCode || getNodeText(children) || 'Loading code...'}
@@ -116,9 +123,7 @@ const Code = (props: CodeProps) => {
   }
 
   return (
-    <div
-      className="rounded-lg border w-full max-w-full overflow-hidden mb-4 shiki-container"
-    >
+    <div className="rounded-lg border w-full max-w-full overflow-hidden mb-4 shiki-container">
       <div className="flex justify-between items-center bg-secondary py-2 px-4 rounded-t-lg border-b">
         <span className="text-secondary-foreground text-sm">{language}</span>
         <Button
@@ -138,7 +143,7 @@ const Code = (props: CodeProps) => {
           className="text-muted-foreground h-8 gap-1 text-xs flex items-center hover:bg-muted"
         >
           <CopyIcon ref={copyIconRef} size={16} />
-          <span className="ml-1">{copied ? "Copied!" : "Copy"}</span>
+          <span className="ml-1">{copied ? 'Copied!' : 'Copy'}</span>
         </Button>
       </div>
       <div dangerouslySetInnerHTML={{ __html: highlightedCode }} />

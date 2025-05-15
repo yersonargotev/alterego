@@ -1,11 +1,7 @@
 {
   "projectName": "qdrant",
   "projectPurpose": "To provide a high-performance, scalable, and feature-rich vector database and search engine specifically designed for AI applications, enabling efficient storage, management, and similarity search of high-dimensional vector data with powerful metadata filtering.",
-  "platforms": [
-    "Linux",
-    "macOS",
-    "Windows"
-  ],
+  "platforms": ["Linux", "macOS", "Windows"],
   "mainFeatures": [
     "High-performance vector search engine",
     "Massive-scale vector database",
@@ -23,9 +19,7 @@
     {
       "name": "Pinecone",
       "license": "Proprietary",
-      "platforms": [
-        "Web (Cloud)"
-      ],
+      "platforms": ["Web (Cloud)"],
       "mainFeatures": [
         "Fully managed cloud service",
         "High-performance vector search",
@@ -38,12 +32,7 @@
     {
       "name": "Milvus",
       "license": "Open Source - Apache License 2.0",
-      "platforms": [
-        "Docker",
-        "Kubernetes",
-        "Cloud",
-        "Self-hosted"
-      ],
+      "platforms": ["Docker", "Kubernetes", "Cloud", "Self-hosted"],
       "mainFeatures": [
         "High-performance and scalable",
         "Supports billions of vectors",
@@ -56,12 +45,7 @@
     {
       "name": "Weaviate",
       "license": "Open Source - Apache 2.0",
-      "platforms": [
-        "Docker",
-        "Kubernetes",
-        "Cloud",
-        "Self-hosted"
-      ],
+      "platforms": ["Docker", "Kubernetes", "Cloud", "Self-hosted"],
       "mainFeatures": [
         "Stores objects and vectors",
         "Semantic, keyword, and hybrid search",
@@ -74,12 +58,7 @@
     {
       "name": "Chroma",
       "license": "Open Source - Apache 2.0",
-      "platforms": [
-        "Desktop",
-        "Docker",
-        "Cloud",
-        "Self-hosted"
-      ],
+      "platforms": ["Desktop", "Docker", "Cloud", "Self-hosted"],
       "mainFeatures": [
         "AI-native and easy to use",
         "Vector search, full-text search, document storage",
@@ -92,9 +71,7 @@
     {
       "name": "Elasticsearch (with Vector Search)",
       "license": "Proprietary (with open-source options)",
-      "platforms": [
-        "Multi-platform (Self-hosted, Cloud)"
-      ],
+      "platforms": ["Multi-platform (Self-hosted, Cloud)"],
       "mainFeatures": [
         "Integrated search and analytics engine",
         "Vector search using HNSW",
@@ -107,9 +84,7 @@
     {
       "name": "pgvector (PostgreSQL extension)",
       "license": "Open Source",
-      "platforms": [
-        "PostgreSQL databases"
-      ],
+      "platforms": ["PostgreSQL databases"],
       "mainFeatures": [
         "PostgreSQL extension for vectors",
         "Similarity search using SQL",
@@ -120,8 +95,6 @@
       "website": "https://github.com/pgvector/pgvector"
     }
   ],
-  "mostWellKnownAlternative": [
-    "Pinecone"
-  ],
+  "mostWellKnownAlternative": ["Pinecone"],
   "marketPositioning": "Qdrant is positioned as a high-performance, scalable, and production-ready open-source vector database built with Rust, emphasizing rich filtering capabilities via payloads, advanced compression, and flexible deployment options (self-hosted and cloud). It competes directly with other dedicated vector databases like Milvus and Weaviate in the open-source space, often highlighting its performance and filtering features. Against proprietary solutions like Pinecone, Qdrant offers the benefit of open source with comparable performance and features. Compared to general-purpose databases with vector extensions (pgvector, Elasticsearch), Qdrant is a specialized solution optimized purely for vector workloads and next-generation AI applications like RAG, semantic search, and anomaly detection, particularly where detailed metadata-based filtering is crucial."
 }

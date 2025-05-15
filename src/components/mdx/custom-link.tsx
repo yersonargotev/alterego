@@ -1,5 +1,5 @@
-import type React from "react";
-import Link from "next/link";
+import type React from 'react';
+import Link from 'next/link';
 
 const CustomLink = ({
   href,
@@ -9,9 +9,10 @@ const CustomLink = ({
   children: React.ReactNode;
 }) => {
   // Automatically determine if the link is external based on the href value
-  const isExternalLink = href.startsWith("http");
+  const isExternalLink = href.startsWith('http');
 
-  const className = "text-primary hover:underline hover:text-primary/90 transition-colors";
+  const className =
+    'text-primary hover:underline hover:text-primary/90 transition-colors';
 
   if (isExternalLink) {
     return (

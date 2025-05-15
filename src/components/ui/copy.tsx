@@ -44,7 +44,7 @@ const CopyIcon = forwardRef<CopyIconHandle, CopyIconProps>(
           onMouseEnter?.(e);
         }
       },
-      [controls, onMouseEnter]
+      [controls, onMouseEnter],
     );
 
     const handleMouseLeave = useCallback(
@@ -55,7 +55,7 @@ const CopyIcon = forwardRef<CopyIconHandle, CopyIconProps>(
           onMouseLeave?.(e);
         }
       },
-      [controls, onMouseLeave]
+      [controls, onMouseLeave],
     );
     return (
       <div
@@ -101,7 +101,7 @@ const CopyIcon = forwardRef<CopyIconHandle, CopyIconProps>(
         </svg>
       </div>
     );
-  }
+  },
 );
 
 CopyIcon.displayName = 'CopyIcon';
