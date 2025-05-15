@@ -1,6 +1,7 @@
 "use client";
 import type React from "react";
 import { useRef, useState } from "react";
+import { Button } from "@/components/ui/button";
 
 interface CodeProps {
   className?: string;
@@ -27,21 +28,22 @@ const Code = (props: CodeProps) => {
 
   return (
     <div
-      className="gap-0 rounded-lg text-white pb-6 w-full max-w-full overflow-hidden"
+      className="rounded-lg border w-full max-w-full overflow-hidden mb-4"
       style={{ maxWidth: "100%", overflow: "hidden" }}
     >
-      <div className="flex justify-between items-center bg-gray-900 py-2 px-4 rounded-t-lg">
-        <span className="text-gray-300">{language}</span>
-        <button
-          type="button"
-          className="text-gray-300 hover:text-white"
+      <div className="flex justify-between items-center bg-secondary py-2 px-4 rounded-t-lg border-b">
+        <span className="text-secondary-foreground text-sm">{language}</span>
+        <Button
+          variant="ghost"
+          size="sm"
           onClick={handleCopy}
+          className="h-8 gap-1 text-xs"
         >
           {copied ? "Copied!" : "Copy"}
-        </button>
+        </Button>
       </div>
       <pre
-        className="bg-gray-800 p-4 rounded-b-lg overflow-auto w-full block max-w-full"
+        className="bg-card p-4 rounded-b-lg overflow-auto w-full block max-w-full"
         style={{
           maxWidth: "100%",
           overflowX: "auto",
@@ -52,7 +54,7 @@ const Code = (props: CodeProps) => {
       >
         <code
           ref={codeRef}
-          className={`${className} bg-gray-800 block w-full`}
+          className={`${className} text-card-foreground block w-full font-mono text-sm`}
           style={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }}
         >
           {props.children}

@@ -7,15 +7,15 @@ import Pre from "@/components/mdx/pre";
 import Image from "@/components/mdx/image";
 import CustomLink from "@/components/mdx/custom-link";
 import { Button } from "@/components/ui/button";
+import AccordionComponent from "@/components/mdx/accordion-component";
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     ...components,
     YouTube,
+    AccordionComponent,
     Button: (props) => (
-      <div className="pb-4">
-        <Button {...props} className="" />
-      </div>
+      <Button className="mb-4" {...props} />
     ),
     Image,
     pre: Pre,
@@ -30,64 +30,77 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       return <InlineCode>{children}</InlineCode>;
     },
     h1: (props) => (
-      <h1 className="text-4xl font-black pb-4 w-full" {...props} />
+      <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight mb-4" {...props} />
     ),
     h2: (props) => (
-      <h2 className="text-3xl font-black pb-4 w-full" {...props} />
+      <h2 className="scroll-m-20 text-3xl font-semibold tracking-tight mb-4" {...props} />
     ),
-    h3: (props) => <h3 className="text-2xl font-bold pb-4 w-full" {...props} />,
-    h4: (props) => <h4 className="text-xl font-bold pb-4 w-full" {...props} />,
-    h5: (props) => <h5 className="text-lg font-bold pb-4 w-full" {...props} />,
+    h3: (props) => (
+      <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-4" {...props} />
+    ),
+    h4: (props) => (
+      <h4 className="scroll-m-20 text-xl font-semibold tracking-tight mb-4" {...props} />
+    ),
+    h5: (props) => (
+      <h5 className="scroll-m-20 text-lg font-semibold tracking-tight mb-4" {...props} />
+    ),
     h6: (props) => (
-      <h6 className="text-base font-light pb-4 w-full" {...props} />
+      <h6 className="scroll-m-20 text-base font-semibold tracking-tight mb-4" {...props} />
     ),
-    p: (props) => <p className="text-xl sm:text-lg mb-4 w-full" {...props} />,
-    li: (props) => <li className="" {...props} />,
-    ul: (props) => <ul className="list-disc pl-6 pb-4 w-full" {...props} />,
-    ol: (props) => <ol className="list-decimal pl-6 pb-4 w-full" {...props} />,
-    hr: (props) => <hr className="pb-4 border-t w-full" {...props} />,
+    p: (props) => (
+      <p className="leading-7 mb-4" {...props} />
+    ),
+    li: (props) => (
+      <li className="mt-2" {...props} />
+    ),
+    ul: (props) => (
+      <ul className="list-disc pl-6 mb-4" {...props} />
+    ),
+    ol: (props) => (
+      <ol className="list-decimal pl-6 mb-4" {...props} />
+    ),
+    hr: (props) => (
+      <hr className="my-4 border-border" {...props} />
+    ),
     blockquote: (props) => (
       <blockquote
-        style={{ paddingBottom: 0 }}
-        className="border-l-4 pl-4 my-4"
+        className="border-l-4 border-border pl-4 my-4 italic"
         {...props}
       />
     ),
     a: ({ href = "", children, ...rest }) => {
-      // Use the CustomLink component to handle external/internal links
       return (
-        <CustomLink href={href}>
-          <span className="dark:text-primary text-primary decoration-primary hover:underline hover:decoration-primary">
-            {children}
-          </span>
+        <CustomLink href={href} {...rest}>
+          {children}
         </CustomLink>
       );
     },
-    // table
     table: (props) => (
-      <table
-        className="border-collapse w-full text-left table-auto border border-gray-300 dark:border-gray-700 "
-        {...props}
-      />
+      <div className="overflow-x-auto my-4">
+        <table
+          className="w-full border-collapse border border-border"
+          {...props}
+        />
+      </div>
     ),
     thead: (props) => (
-      <thead className="bg-gray-100 dark:bg-gray-800" {...props} />
+      <thead className="bg-muted" {...props} />
     ),
     tbody: (props) => (
-      <tbody className="bg-white dark:bg-gray-900" {...props} />
+      <tbody className="divide-y divide-border" {...props} />
     ),
     tr: (props) => (
-      <tr className="even:bg-gray-50 dark:even:bg-gray-800" {...props} />
+      <tr className="even:bg-muted/50" {...props} />
     ),
     th: (props) => (
       <th
-        className="px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-200 border border-gray-300 dark:border-gray-700"
+        className="px-4 py-2 text-sm font-medium text-foreground border border-border"
         {...props}
       />
     ),
     td: (props) => (
       <td
-        className="px-4 py-2 text-sm text-gray-600 dark:text-gray-300 border border-gray-300 dark:border-gray-700"
+        className="px-4 py-2 text-sm text-muted-foreground border border-border"
         {...props}
       />
     ),

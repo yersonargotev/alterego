@@ -1,50 +1,48 @@
 "use client";
 
 import NextImage from "next/image";
+import { cn } from "@/lib/utils";
 
-//ImageComponent
+interface ImageProps {
+  src: string;
+  alt: string;
+  caption?: string;
+  title?: string; // Optional title
+  width?: number;
+  height?: number;
+  className?: string;
+}
 
 const Image = ({
   src,
   alt,
   caption,
   title,
-  layout = "responsive",
   width = 700,
   height = 400,
-}: {
-  src: string;
-  alt: string;
-  caption?: string;
-  title?: string; // Optional title
-  layout?: "fill" | "responsive";
-  width?: number;
-  height?: number;
-}) => {
+  className,
+}: ImageProps) => {
   return (
-    <div
-      role="img"
-      aria-label={alt}
-      aria-describedby={caption ? "image-caption" : undefined}
-      className="relative"
-      style={{ width: "100%", height: "auto" }}
-    >
-      <NextImage
-        src={src}
-        alt={alt}
-        title={title || alt} // Use title if provided; fallback to alt
-        layout={layout}
-        width={width}
-        height={height}
-        objectFit="cover"
-        className="pb-4"
-      />
+    <figure className="w-full mb-4">
+      <div
+        className={cn("relative overflow-hidden rounded-md border", className)}
+      >
+        <NextImage
+          src={src}
+          alt={alt}
+          title={title || alt} // Use title if provided; fallback to alt
+          width={width}
+          height={height}
+          className="w-full h-auto"
+          style={{ objectFit: "cover" }}
+        />
+      </div>
       {caption && (
-        <div className="text-sm text-muted-foreground mt-[-12px] mb-4">
+        <figcaption className="text-sm text-muted-foreground mt-2 text-center">
           {caption}
-        </div>
+        </figcaption>
       )}
-    </div>
+    </figure>
   );
 };
 

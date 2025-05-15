@@ -8,7 +8,7 @@ interface InlineCodeProps {
 const InlineCode: React.FC<InlineCodeProps> = ({ children }) => {
   return (
     <code
-      className="bg-gray-200 text-gray-900 dark:bg-gray-700 dark:text-gray-100 px-2 py-1 rounded text-base"
+      className="bg-muted text-foreground px-2 py-1 rounded-md text-sm font-mono"
       style={{
         maxWidth: "100%",
         overflowX: "auto",

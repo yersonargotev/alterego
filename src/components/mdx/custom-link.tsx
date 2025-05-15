@@ -11,13 +11,15 @@ const CustomLink = ({
   // Automatically determine if the link is external based on the href value
   const isExternalLink = href.startsWith("http");
 
+  const className = "text-primary hover:underline hover:text-primary/90 transition-colors";
+
   if (isExternalLink) {
     return (
       <a
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="hover:underline font-semibold"
+        className={className}
       >
         {children}
       </a>
@@ -26,7 +28,7 @@ const CustomLink = ({
 
   // For internal links, use Next.js' `Link` component
   return (
-    <Link href={href} className="hover:underline font-semibold">
+    <Link href={href} className={className}>
       {children}
     </Link>
   );

@@ -6,15 +6,15 @@ interface YouTubeProps {
 
 const YouTube: React.FC<YouTubeProps> = ({ id }) => {
   return (
-    <div className="pb-4">
+    <div className="w-full mb-4">
       <div
+        className="border rounded-lg overflow-hidden"
         style={{
           position: "relative",
           paddingBottom: "56.25%", // 16:9 aspect ratio
           height: 0,
-          overflow: "hidden",
           maxWidth: "100%",
-          background: "#000",
+          background: "var(--card)",
         }}
       >
         <iframe
