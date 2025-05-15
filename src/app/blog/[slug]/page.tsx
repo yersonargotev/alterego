@@ -4,6 +4,7 @@ import { Prose } from '@/components/mdx/prose-wrapper';
 import AlternativesDisplay from '@/components/alternatives';
 import type { AlternativesData } from '@/types/alternatives';
 import Link from 'next/link';
+import { ArrowRight, BookOpen } from 'lucide-react';
 
 // Helper function to get content directory names
 async function getContentDirectories() {
@@ -18,17 +19,6 @@ export default async function Page({ params }: { params: { slug: string } }) {
     const { slug } = params;
 
     try {
-        // If slug is 'welcome' or 'about', just render the MDX file
-        if (slug === 'welcome' || slug === 'about') {
-            const { default: Content } = await import(`@/content/${slug}.mdx`);
-            return (
-                <Prose>
-                    <Content />
-                </Prose>
-            );
-        }
-
-        // Otherwise, it's a Rust project page
         // Load the alternatives.json file
         const alternativesPath = path.join(
             process.cwd(),
@@ -38,20 +28,34 @@ export default async function Page({ params }: { params: { slug: string } }) {
         const alternativesData: AlternativesData = JSON.parse(alternativesJson);
 
         return (
-            <div className="container mx-auto py-8">
+            <Prose className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <header className="mb-10 text-center">
+                    <div className="inline-flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                        <BookOpen className="h-4 w-4" />
+                        <span>Project Overview</span>
+                    </div>
+                    <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
+                        {alternativesData.projectName}
+                    </h1>
+                    <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                        {alternativesData.projectPurpose}
+                    </p>
+                </header>
+
                 {/* Display the alternatives data using our component */}
                 <AlternativesDisplay data={alternativesData} />
 
                 {/* Add link to detailed page */}
-                <div className="mt-8 text-center">
+                <div className="mt-12 text-center">
                     <Link
                         href={`/blog/${slug}/more`}
-                        className="inline-block px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+                        className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors group"
                     >
-                        View Detailed Information
+                        <span>View Detailed Information</span>
+                        <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </Link>
                 </div>
-            </div>
+            </Prose>
         );
     } catch (error) {
         console.error('Error rendering page:', error);
@@ -69,19 +73,13 @@ export default async function Page({ params }: { params: { slug: string } }) {
 }
 
 export async function generateStaticParams() {
-    // Include the static MDX files
-    const staticParams = [{ slug: 'welcome' }, { slug: 'about' }];
-
-    // Get the rust project directory names
+    // Get the project directory names
     const directories = await getContentDirectories();
 
     // Create params for each directory
-    const directoryParams = directories.map((dir) => ({
+    return directories.map((dir) => ({
         slug: dir,
     }));
-
-    // Combine all params
-    return [...staticParams, ...directoryParams];
 }
 
 export const dynamicParams = false;
