@@ -45,13 +45,16 @@ const LicenseBadge: React.FC<BadgeProps> = ({ text, className }) => {
     };
 
     return (
-        <Badge
-            variant="outline"
-            className={`text-xs font-normal max-w-[90%] truncate whitespace-nowrap overflow-hidden text-ellipsis inline-block ${getLicenseBadgeStyle()} ${className || ''}`}
-            title={text}
-        >
-            {text}
-        </Badge>
+        <div className="relative z-20">
+            <Badge
+                variant="outline"
+                className={`text-xs font-normal max-w-[90%] truncate whitespace-nowrap overflow-hidden text-ellipsis inline-block ${getLicenseBadgeStyle()} ${className || ''}`}
+                title={text}
+                aria-label={text}
+            >
+                {text}
+            </Badge>
+        </div>
     );
 };
 
@@ -75,25 +78,31 @@ const PlatformBadge: React.FC<BadgeProps> = ({ text, className }) => {
     };
 
     return (
-        <Badge
-            variant="secondary"
-            className={`transition-colors max-w-[90px] truncate text-xs overflow-hidden text-ellipsis ${getBadgeStyle()} ${className || ''}`}
-            title={text}
-        >
-            {text}
-        </Badge>
+        <div className="relative z-20">
+            <Badge
+                variant="secondary"
+                className={`transition-colors max-w-[90px] truncate text-xs inline-block flex-shrink-0 overflow-hidden text-ellipsis whitespace-nowrap ${getBadgeStyle()} ${className || ''}`}
+                title={text}
+                aria-label={text}
+            >
+                {text}
+            </Badge>
+        </div>
     );
 };
 
 const ComparisonBadge: React.FC<BadgeProps> = ({ text, className }) => {
     return (
-        <Badge
-            variant="secondary"
-            className={`bg-primary/10 hover:bg-primary/20 transition-colors max-w-[150px] truncate whitespace-nowrap overflow-hidden text-ellipsis ${className || ''}`}
-            title={text}
-        >
-            {text}
-        </Badge>
+        <div className="relative z-20">
+            <Badge
+                variant="secondary"
+                className={`bg-primary/10 hover:bg-primary/20 transition-colors max-w-[150px] truncate whitespace-nowrap overflow-hidden text-ellipsis ${className || ''}`}
+                title={text}
+                aria-label={text}
+            >
+                {text}
+            </Badge>
+        </div>
     );
 };
 
@@ -101,7 +110,7 @@ const AlternativeCard: React.FC<{ alternative: Alternative }> = ({
     alternative,
 }) => {
     return (
-        <Card className="flex flex-col h-full bg-card text-card-foreground border border-border/60 hover:shadow-md transition-all duration-300 hover:border-border overflow-hidden">
+        <Card className="flex flex-col h-full bg-card text-card-foreground border border-border/60 hover:shadow-md transition-all duration-300 hover:border-border">
             <CardHeader className="pb-3">
                 <CardTitle className="flex flex-col items-start gap-2 w-full">
                     <span className="w-full font-medium text-sm sm:text-base text-center line-clamp-2 break-words hyphens-auto">
@@ -113,7 +122,7 @@ const AlternativeCard: React.FC<{ alternative: Alternative }> = ({
                 </CardTitle>
             </CardHeader>
             <CardContent className="flex-grow space-y-4 pb-2">
-                <div className="w-full overflow-hidden">
+                <div className="w-full">
                     <h4 className="font-semibold mb-2 text-sm flex items-center gap-2">
                         <CheckSquare className="h-4 w-4 text-primary flex-shrink-0" />
                         <span className="truncate">Main Features</span>
@@ -178,7 +187,7 @@ const AlternativesDisplay: React.FC<AlternativesProps> = ({ data }) => {
             {/* Project Information Section */}
             <div className="rounded-lg border border-border/70 p-6 bg-card/50 backdrop-blur-sm">
                 <div className="flex flex-col md:flex-row items-start gap-6 mb-6">
-                    <div className="flex-1">
+                    <div className="flex-1 overflow-hidden">
                         <div className="flex items-center gap-2 mb-2">
                             <Globe className="h-4 w-4 text-muted-foreground" />
                             <h3 className="font-medium text-sm text-muted-foreground">
@@ -189,20 +198,20 @@ const AlternativesDisplay: React.FC<AlternativesProps> = ({ data }) => {
                             href={data.website}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-primary hover:text-primary/80 transition-colors flex items-center gap-1.5 group"
+                            className="text-primary hover:text-primary/80 transition-colors flex items-center gap-1.5 group truncate"
                         >
-                            <span>{data.website}</span>
-                            <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+                            <span className="truncate">{data.website}</span>
+                            <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 flex-shrink-0" />
                         </Link>
                     </div>
-                    <div className="flex-1">
+                    <div className="flex-1 overflow-hidden">
                         <div className="flex items-center gap-2 mb-2">
                             <Server className="h-4 w-4 text-muted-foreground" />
                             <h3 className="font-medium text-sm text-muted-foreground">
                                 Supported Platforms
                             </h3>
                         </div>
-                        <div className="flex flex-wrap gap-1.5">
+                        <div className="flex flex-wrap gap-1.5 overflow-hidden">
                             {data.platforms.map((platform) => (
                                 <PlatformBadge
                                     key={platform}
@@ -213,7 +222,7 @@ const AlternativesDisplay: React.FC<AlternativesProps> = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="overflow-hidden">
                     <div className="flex items-center gap-2 mb-3">
                         <Star className="h-4 w-4 text-amber-500" />
                         <h3 className="font-medium text-sm text-muted-foreground">
@@ -222,9 +231,9 @@ const AlternativesDisplay: React.FC<AlternativesProps> = ({ data }) => {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         {data.mainFeatures.map((feature) => (
-                            <div key={feature} className="flex items-start gap-2 group">
-                                <CheckSquare className="h-4 w-4 mt-0.5 text-primary group-hover:scale-110 transition-transform" />
-                                <span className="text-sm">{feature}</span>
+                            <div key={feature} className="flex items-start gap-2 group overflow-hidden">
+                                <CheckSquare className="h-4 w-4 mt-0.5 text-primary group-hover:scale-110 transition-transform flex-shrink-0" />
+                                <span className="text-sm truncate">{feature}</span>
                             </div>
                         ))}
                     </div>
@@ -259,12 +268,14 @@ const AlternativesDisplay: React.FC<AlternativesProps> = ({ data }) => {
                 </div>
                 {data.mostWellKnownAlternative &&
                     data.mostWellKnownAlternative.length > 0 && (
-                        <div className="mt-4 pt-4 border-t border-border/40">
-                            <p className="text-sm flex flex-wrap items-center gap-x-2">
-                                <span className="font-medium">Often compared with:</span>
-                                {data.mostWellKnownAlternative.map((alt, index) => (
-                                    <ComparisonBadge key={alt} text={alt} />
-                                ))}
+                        <div className="mt-4 pt-4 border-t border-border/40 overflow-hidden">
+                            <p className="text-sm flex flex-wrap items-center gap-x-2 overflow-hidden">
+                                <span className="font-medium flex-shrink-0">Often compared with:</span>
+                                <span className="flex flex-wrap gap-1.5 overflow-hidden">
+                                    {data.mostWellKnownAlternative.map((alt, index) => (
+                                        <ComparisonBadge key={alt} text={alt} />
+                                    ))}
+                                </span>
                             </p>
                         </div>
                     )}
