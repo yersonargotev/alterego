@@ -3,7 +3,7 @@ import path from 'node:path';
 import { Prose } from '@/components/mdx/prose-wrapper';
 import AlternativesDisplay from '@/components/alternatives';
 import type { AlternativesData } from '@/types/alternatives';
-import { MDXRemote } from 'next-mdx-remote/rsc';
+import Link from 'next/link';
 
 // Helper function to get content directory names
 async function getContentDirectories() {
@@ -37,26 +37,19 @@ export default async function Page({ params }: { params: { slug: string } }) {
         const alternativesJson = await fs.readFile(alternativesPath, 'utf-8');
         const alternativesData: AlternativesData = JSON.parse(alternativesJson);
 
-        // Load the readme.md file content
-        const readmePath = path.join(
-            process.cwd(),
-            `src/content/${slug}/readme.md`,
-        );
-        const readmeContent = await fs.readFile(readmePath, 'utf-8');
-
         return (
             <div className="container mx-auto py-8">
                 {/* Display the alternatives data using our component */}
                 <AlternativesDisplay data={alternativesData} />
 
-                {/* Display the README markdown content */}
-                <div className="mt-12 border-t pt-8">
-                    <h2 className="text-3xl font-bold mb-6 text-center">
-                        Detailed Information
-                    </h2>
-                    <Prose>
-                        <MDXRemote source={readmeContent} />
-                    </Prose>
+                {/* Add link to detailed page */}
+                <div className="mt-8 text-center">
+                    <Link
+                        href={`/blog/${slug}/more`}
+                        className="inline-block px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+                    >
+                        View Detailed Information
+                    </Link>
                 </div>
             </div>
         );
