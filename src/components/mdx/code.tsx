@@ -125,6 +125,16 @@ const Code = (props: CodeProps) => {
           variant="ghost"
           size="sm"
           onClick={handleCopy}
+          onMouseEnter={() => {
+            if (!copied) {
+              copyIconRef.current?.startAnimation();
+            }
+          }}
+          onMouseLeave={() => {
+            if (!copied) {
+              copyIconRef.current?.stopAnimation();
+            }
+          }}
           className="h-8 gap-1 text-xs flex items-center hover:bg-muted"
         >
           <CopyIcon ref={copyIconRef} size={16} />
