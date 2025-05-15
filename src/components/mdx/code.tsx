@@ -135,7 +135,7 @@ const Code = (props: CodeProps) => {
               copyIconRef.current?.stopAnimation();
             }
           }}
-          className="h-8 gap-1 text-xs flex items-center hover:bg-muted"
+          className="text-muted-foreground h-8 gap-1 text-xs flex items-center hover:bg-muted"
         >
           <CopyIcon ref={copyIconRef} size={16} />
           <span className="ml-1">{copied ? "Copied!" : "Copy"}</span>
