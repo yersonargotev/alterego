@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
   experimental: {
     ppr: true,
     reactCompiler: true,
+    mdxRs: true,
   },
 };
 
@@ -17,7 +18,6 @@ const withMDX = createMDX({
   options: {
     remarkPlugins: [remarkGfm, remarkFrontmatter],
     rehypePlugins: [rehypeHighlight],
-    providerImportSource: '@mdx-js/react',
     format: 'mdx',
   },
 });
