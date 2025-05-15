@@ -44,7 +44,7 @@ const RepoCard: React.FC<RepoCardProps> = ({
                         height={40}
                         className="rounded-md mr-3"
                     />
-                    <h3 className="text-xl font-semibold font-heading tracking-tight text-primary-foreground">
+                    <h3 className="text-xl font-semibold font-heading tracking-tight text-primary capitalize">
                         {name}
                     </h3>
                 </div>
