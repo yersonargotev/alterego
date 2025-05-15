@@ -1,0 +1,143 @@
+{
+  "projectName": "rustdesk",
+  "projectPurpose": "To provide a free, open-source, and self-hostable remote desktop solution as an alternative to proprietary software like TeamViewer.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android",
+    "iOS",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Remote desktop access",
+    "Open-source",
+    "Self-hosting capability (signaling and relay server)",
+    "Written in Rust",
+    "Alternative to TeamViewer/AnyDesk"
+  ],
+  "website": "https://rustdesk.com/",
+  "alternatives": [
+    {
+      "name": "TeamViewer",
+      "license": "Proprietary (Free for personal use, Paid for commercial)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS/iPadOS",
+        "Chrome OS"
+      ],
+      "mainFeatures": [
+        "Remote access and control",
+        "File transfer",
+        "Online meetings (screen sharing, chat, video/VoIP)",
+        "Unattended access",
+        "Large scalable infrastructure"
+      ],
+      "website": "https://www.teamviewer.com"
+    },
+    {
+      "name": "AnyDesk",
+      "license": "Proprietary (Free for personal use, Paid for commercial)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "FreeBSD",
+        "Raspberry Pi"
+      ],
+      "mainFeatures": [
+        "Remote control",
+        "File transfer",
+        "VPN",
+        "Unattended access",
+        "High performance (DeskRT codec)"
+      ],
+      "website": "https://anydesk.com"
+    },
+    {
+      "name": "Chrome Remote Desktop",
+      "license": "Proprietary (Free for personal and business use)",
+      "platforms": [
+        "ChromeOS",
+        "Linux",
+        "macOS",
+        "iOS",
+        "Windows",
+        "Android",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Remote control via web browser",
+        "Simple setup (Google account)",
+        "Cross-platform access",
+        "AES encryption"
+      ],
+      "website": "https://remotedesktop.google.com"
+    },
+    {
+      "name": "VNC (e.g., TightVNC, RealVNC)",
+      "license": "Various (e.g., GNU GPL, Proprietary/GPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Various Unix-like",
+        "Java",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Graphical desktop sharing (RFB protocol)",
+        "Platform independent",
+        "Multiple clients can connect",
+        "Various implementations with differing features"
+      ],
+      "website": "https://www.realvnc.com/"
+    },
+    {
+      "name": "Apache Guacamole",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Server: Linux/UNIX",
+        "Client: Web browsers (HTML5)"
+      ],
+      "mainFeatures": [
+        "Clientless (web-based access)",
+        "Supports VNC, RDP, SSH",
+        "Centralized gateway",
+        "Extensible authentication"
+      ],
+      "website": "https://guacamole.apache.org/"
+    },
+    {
+      "name": "NoMachine",
+      "license": "Proprietary (Free for non-commercial, Paid for commercial)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS/iPadOS",
+        "Raspberry Pi",
+        "ARM"
+      ],
+      "mainFeatures": [
+        "Fast performance (NX protocol)",
+        "Remote access and control",
+        "Collaboration features",
+        "File transfer"
+      ],
+      "website": "https://www.nomachine.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "TeamViewer",
+    "AnyDesk"
+  ],
+  "marketPositioning": "RustDesk is positioned as a privacy-focused, open-source remote desktop solution that directly competes with proprietary tools like TeamViewer and AnyDesk. Its key differentiator is the ability for users to self-host the infrastructure, offering greater control, security, and data privacy compared to reliance on third-party cloud servers. This appeals to users and organizations seeking autonomy and customization, setting it apart from mainstream cloud-based offerings. It stands as a robust open-source alternative alongside options like VNC and Apache Guacamole, aiming for a balance of features, performance, and user-friendliness."
+}
