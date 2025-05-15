@@ -144,7 +144,7 @@ const AlternativeCard: React.FC<{ alternative: Alternative }> = ({
                     </h4>
                     <div className="flex flex-wrap gap-1.5 w-full">
                         {alternative.platforms.map((platform) => (
-                            <PlatformBadge text={platform} />
+                            <PlatformBadge key={platform} text={platform} />
                         ))}
                     </div>
                 </div>
