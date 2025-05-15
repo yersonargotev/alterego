@@ -1,9 +1,10 @@
 'use client';
 
 import type React from 'react';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { codeToHtml, type BundledLanguage } from 'shiki';
+import { CopyIcon, type CopyIconHandle } from '@/components/ui/copy';
 
 interface CodeProps {
   className?: string;
@@ -35,6 +36,7 @@ const Code = (props: CodeProps) => {
   const [copied, setCopied] = useState(false);
   const [highlightedCode, setHighlightedCode] = useState<string | null>(null);
   const [rawCode, setRawCode] = useState<string>("");
+  const copyIconRef = useRef<CopyIconHandle>(null);
 
   const { className, children } = props;
   const matches = className?.match(/language-(.*)/);
@@ -77,7 +79,11 @@ const Code = (props: CodeProps) => {
     if (rawCode) {
       navigator.clipboard.writeText(rawCode).then(() => {
         setCopied(true);
-        setTimeout(() => setCopied(false), 2000);
+        copyIconRef.current?.startAnimation();
+        setTimeout(() => {
+          setCopied(false);
+          copyIconRef.current?.stopAnimation();
+        }, 2000);
       });
     }
   };
@@ -90,9 +96,7 @@ const Code = (props: CodeProps) => {
       >
         <div className="flex justify-between items-center bg-secondary py-2 px-4 rounded-t-lg border-b">
           <span className="text-secondary-foreground text-sm">{language || 'code'}</span>
-          <Button variant="ghost" size="sm" className="h-8 gap-1 text-xs" disabled>
-            Copy
-          </Button>
+          <div className="text-xs text-muted-foreground">Copy</div>
         </div>
         <pre
           className="bg-card p-4 rounded-b-lg overflow-auto w-full block max-w-full"
@@ -125,9 +129,10 @@ const Code = (props: CodeProps) => {
           variant="ghost"
           size="sm"
           onClick={handleCopy}
-          className="h-8 gap-1 text-xs"
+          className="h-8 gap-1 text-xs flex items-center hover:bg-muted"
         >
-          {copied ? "Copied!" : "Copy"}
+          <CopyIcon ref={copyIconRef} size={16} />
+          <span className="ml-1">{copied ? "Copied!" : "Copy"}</span>
         </Button>
       </div>
       <div dangerouslySetInnerHTML={{ __html: highlightedCode }} />
