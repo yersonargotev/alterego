@@ -12,6 +12,16 @@ const nextConfig: NextConfig = {
     reactCompiler: true,
     mdxRs: true,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'github.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
+  },
 };
 
 const withMDX = createMDX({
