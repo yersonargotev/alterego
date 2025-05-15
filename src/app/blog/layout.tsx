@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: ReactNode }) {
             <div className="row-span-2 flex">
                 <BlogSidebar blogs={blogs} />
                 <main className="flex flex-1 overflow-auto">
-                    <div className="grid flex-1">{children}</div>
+                    <div className="grid flex-1 px-4">{children}</div>
                 </main>
             </div>
         </SidebarProvider>

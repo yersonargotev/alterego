@@ -2,6 +2,7 @@
 
 import * as React from 'react';
 import { BookOpen } from 'lucide-react';
+import Link from 'next/link';
 
 import { BlogNav } from '@/components/blog-nav';
 import type { BlogItem } from '@/lib/get-blogs';
@@ -21,10 +22,13 @@ export function BlogSidebar({
     return (
         <Sidebar collapsible="icon" {...props}>
             <SidebarHeader>
-                <div className="flex items-center gap-2 px-6 py-4">
-                    <BookOpen className="h-6 w-6" />
-                    <h1 className="text-lg font-semibold">Blog</h1>
-                </div>
+                <Link
+                    href="/blog"
+                    className="flex items-center gap-2 group-data-[state=expanded]:px-6 group-data-[state=collapsed]:px-1 py-4 hover:bg-muted/50 transition-colors overflow-hidden whitespace-nowrap"
+                >
+                    <BookOpen className="h-6 w-6 flex-shrink-0" />
+                    <span className="text-lg font-semibold truncate group-data-[state=collapsed]:hidden">Blog</span>
+                </Link>
             </SidebarHeader>
             <SidebarContent>
                 <BlogNav blogs={blogs} />
