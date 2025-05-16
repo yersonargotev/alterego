@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState } from 'react';
 import { Star, GitFork } from 'lucide-react';
 import { GitHubDark, GitHubLight } from '@ridemountainpig/svgl-react';
 
@@ -31,14 +32,16 @@ const RepoCard: React.FC<RepoCardProps> = ({
   stars,
   forks,
 }) => {
+  const [imgError, setImgError] = useState(false);
+
   return (
     <div className="relative rounded-lg border border-card bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out">
-      {/* GitHub link in the top-right corner */}
+      {/* GitHub link in the bottom-right corner */}
       <Link
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="absolute top-3 right-3 p-2 rounded-full bg-background hover:bg-muted transition-colors"
+        className="absolute bottom-3 right-3 p-2 rounded-full bg-background hover:bg-muted transition-colors"
         onClick={(e) => e.stopPropagation()}
       >
         <GitHubDark className="w-5 h-5 hidden dark:block" />
@@ -50,11 +53,12 @@ const RepoCard: React.FC<RepoCardProps> = ({
         <div className="flex flex-col h-full p-5">
           <div className="flex items-center mb-3">
             <Image
-              src={avatar}
+              src={imgError ? '/images/repo-image-not-found.webp' : avatar}
               alt={`${author}'s avatar`}
               width={40}
               height={40}
               className="rounded-md mr-3"
+              onError={() => setImgError(true)}
             />
             <h3 className="text-xl font-semibold font-heading tracking-tight text-primary capitalize">
               {name}
