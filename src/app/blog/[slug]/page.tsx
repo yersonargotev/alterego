@@ -16,7 +16,7 @@ async function getContentDirectories() {
 }
 
 export default async function Page({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+  const { slug } = await params;
 
   try {
     // Load the alternatives.json file
