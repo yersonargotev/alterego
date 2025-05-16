@@ -15,7 +15,11 @@ async function getContentDirectories() {
   return entries.filter((entry) => entry.isDirectory()).map((dir) => dir.name);
 }
 
-export default async function Page({ params }: { params: { slug: string } }) {
+export default async function Page({
+  params
+}: {
+  params: Promise<{ slug: string }>
+}) {
   const { slug } = await params;
 
   try {

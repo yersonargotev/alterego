@@ -14,16 +14,12 @@ async function getContentDirectories() {
   return entries.filter((entry) => entry.isDirectory()).map((dir) => dir.name);
 }
 
-interface PageParams {
-  params: {
-    slug: string;
-  };
-  searchParams?: Record<string, string | string[]>;
-}
-
-export default async function MorePage({ params }: PageParams) {
-  const resolvedParams = await params;
-  const { slug } = resolvedParams;
+export default async function MorePage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
 
   try {
     // Load the readme.md file content
