@@ -1,4 +1,6 @@
-import React from 'react';
+"use client";
+
+import React, { useState } from 'react';
 import type { AlternativesData, Alternative } from '@/types/alternatives';
 import Grid from '@/components/ui/grid';
 import {
@@ -110,6 +112,8 @@ const ComparisonBadge: React.FC<BadgeProps> = ({ text, className }) => {
 const AlternativeCard: React.FC<{ alternative: Alternative }> = ({
     alternative,
 }) => {
+    const [showAllFeatures, setShowAllFeatures] = useState(false);
+
     return (
         <Card className="flex flex-col h-full gap-0 bg-card text-card-foreground border border-border/60 hover:shadow-md transition-all duration-300 hover:border-border">
             <CardHeader className="pb-3">
@@ -129,7 +133,10 @@ const AlternativeCard: React.FC<{ alternative: Alternative }> = ({
                         <span className="truncate">Main Features</span>
                     </h4>
                     <ul className="list-none text-sm space-y-2 w-full p-0">
-                        {alternative.mainFeatures.slice(0, 3).map((feature) => (
+                        {(showAllFeatures
+                            ? alternative.mainFeatures
+                            : alternative.mainFeatures.slice(0, 3)
+                        ).map((feature) => (
                             <li
                                 key={feature}
                                 className="flex items-start gap-2 group w-full p-0"
@@ -140,9 +147,24 @@ const AlternativeCard: React.FC<{ alternative: Alternative }> = ({
                                 </span>
                             </li>
                         ))}
-                        {alternative.mainFeatures.length > 3 && (
-                            <li className="text-xs text-muted-foreground pl-5 italic">
-                                ...and more
+                        {!showAllFeatures && alternative.mainFeatures.length > 3 && (
+                            <li
+                                className="text-xs text-primary hover:text-primary/80 pl-5 cursor-pointer flex items-center gap-1 transition-colors"
+                                onClick={() => setShowAllFeatures(true)}
+                                title="Show all features"
+                            >
+                                <span className="italic">...and more</span>
+                                <ChevronRight className="h-3 w-3 text-primary" />
+                            </li>
+                        )}
+                        {showAllFeatures && alternative.mainFeatures.length > 3 && (
+                            <li
+                                className="text-xs text-primary hover:text-primary/80 pl-5 cursor-pointer flex items-center gap-1 transition-colors"
+                                onClick={() => setShowAllFeatures(false)}
+                                title="Show fewer features"
+                            >
+                                <span>Show less</span>
+                                <ChevronRight className="h-3 w-3 text-primary rotate-90" />
                             </li>
                         )}
                     </ul>
