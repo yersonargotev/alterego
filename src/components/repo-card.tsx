@@ -64,7 +64,7 @@ const RepoCard: React.FC<RepoCardProps> = ({
               {name}
             </h3>
           </div>
-          <p className="text-sm text-muted-foreground mb-4 flex-grow clamp-3">
+          <p className="text-sm text-muted-foreground mb-4 flex-grow line-clamp-3">
             {description}
           </p>
           <div className="mt-auto">
@@ -99,27 +99,3 @@ const RepoCard: React.FC<RepoCardProps> = ({
 };
 
 export default RepoCard;
-
-// Basic clamp utility for description text (won't be perfect without JS)
-// For a pure CSS solution, consider line-clamp if browser support is adequate
-// or ensure descriptions are of a manageable length.
-// This style is a fallback.
-const styles = `
-  .clamp-3 {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    min-height: 3.75em; /* Assuming line-height of 1.25em, for 3 lines */
-  }
-`;
-
-// Inject styles for clamping. In a real app, this might go into a global CSS
-// or be handled by a CSS-in-JS solution if not using Tailwind's line-clamp plugin.
-if (typeof window !== 'undefined') {
-  const styleSheet = document.createElement('style');
-  styleSheet.type = 'text/css';
-  styleSheet.innerText = styles;
-  document.head.appendChild(styleSheet);
-}
