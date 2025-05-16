@@ -80,11 +80,11 @@ const RepoCard: React.FC<RepoCardProps> = ({
             <div className="flex items-center space-x-4 text-sm text-muted-foreground">
               <div className="flex items-center">
                 <Star className="w-4 h-4 mr-1 text-yellow-500" />
-                <span>{stars.toLocaleString()}</span>
+                <span>{stars?.toLocaleString() || '0'}</span>
               </div>
               <div className="flex items-center">
                 <GitFork className="w-4 h-4 mr-1 text-blue-500" />
-                <span>{forks.toLocaleString()}</span>
+                <span>{forks?.toLocaleString() || '0'}</span>
               </div>
             </div>
           </div>

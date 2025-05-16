@@ -29,7 +29,7 @@ const BlogPage = () => {
       {projects && projects.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
-            <RepoCard key={project.url || project.name} {...project} />
+            <RepoCard key={project.url || project.name || project.author} {...project} />
           ))}
         </div>
       ) : (

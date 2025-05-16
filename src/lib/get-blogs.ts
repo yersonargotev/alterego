@@ -95,8 +95,8 @@ export function getBlogs(): BlogItem[] {
           description: project.description,
           url: project.url,
           avatar: project.avatar,
-          stars: project.stars,
-          forks: project.fork,
+          stars: project.stars || 0,
+          forks: project.fork || 0, // Map 'fork' to 'forks' and ensure it's never null
           language: project.language || language, // Use project language if available, fallback to file language
           languageColor: project.languageColor || color, // Use project color if available, fallback to file color
         });

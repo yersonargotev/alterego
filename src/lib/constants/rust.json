@@ -4150,46 +4150,6 @@
         ]
     },
     {
-        "author": "apache",
-        "name": "incubator-opendal",
-        "avatar": "https://github.com/apache.png",
-        "sponsor": null,
-        "url": "https://github.com/apache/incubator-opendal",
-        "description": "Apache OpenDAL: access data freely.",
-        "language": "Rust",
-        "languageColor": "#dea584",
-        "stars": 2387,
-        "fork": 371,
-        "currentPeriodStars": 2,
-        "builtBy": [
-            {
-                "href": "https://github.com/Xuanwo",
-                "avatar": "https://avatars.githubusercontent.com/u/5351546?s=40&v=4",
-                "username": "Xuanwo"
-            },
-            {
-                "href": "https://github.com/suyanhanx",
-                "avatar": "https://avatars.githubusercontent.com/u/24221472?s=40&v=4",
-                "username": "suyanhanx"
-            },
-            {
-                "href": "https://github.com/tisonkun",
-                "avatar": "https://avatars.githubusercontent.com/u/18818196?s=40&v=4",
-                "username": "tisonkun"
-            },
-            {
-                "href": "https://github.com/apps/dependabot",
-                "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&v=4",
-                "username": "apps/dependabot"
-            },
-            {
-                "href": "https://github.com/silver-ymz",
-                "avatar": "https://avatars.githubusercontent.com/u/78400701?s=40&v=4",
-                "username": "silver-ymz"
-            }
-        ]
-    },
-    {
         "author": "dandavison",
         "name": "delta",
         "avatar": "https://github.com/dandavison.png",
@@ -6856,46 +6816,6 @@
                 "href": "https://github.com/kdheepak",
                 "avatar": "https://avatars.githubusercontent.com/u/1813121?s=40&v=4",
                 "username": "kdheepak"
-            }
-        ]
-    },
-    {
-        "author": "apache",
-        "name": "arrow-datafusion",
-        "avatar": "https://github.com/apache.png",
-        "sponsor": null,
-        "url": "https://github.com/apache/arrow-datafusion",
-        "description": "Apache DataFusion SQL Query Engine",
-        "language": "Rust",
-        "languageColor": "#dea584",
-        "stars": 4927,
-        "fork": 907,
-        "currentPeriodStars": 7,
-        "builtBy": [
-            {
-                "href": "https://github.com/alamb",
-                "avatar": "https://avatars.githubusercontent.com/u/490673?s=40&v=4",
-                "username": "alamb"
-            },
-            {
-                "href": "https://github.com/andygrove",
-                "avatar": "https://avatars.githubusercontent.com/u/934084?s=40&v=4",
-                "username": "andygrove"
-            },
-            {
-                "href": "https://github.com/kou",
-                "avatar": "https://avatars.githubusercontent.com/u/27350?s=40&v=4",
-                "username": "kou"
-            },
-            {
-                "href": "https://github.com/wesm",
-                "avatar": "https://avatars.githubusercontent.com/u/329591?s=40&v=4",
-                "username": "wesm"
-            },
-            {
-                "href": "https://github.com/kszucs",
-                "avatar": "https://avatars.githubusercontent.com/u/961747?s=40&v=4",
-                "username": "kszucs"
             }
         ]
     },
