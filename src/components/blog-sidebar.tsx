@@ -12,7 +12,13 @@ import {
   SidebarContent,
   SidebarHeader,
   SidebarRail,
+  useSidebar,
 } from '@/components/ui/sidebar';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from '@/components/ui/tooltip';
 
 export function BlogSidebar({
   blogs,
@@ -21,19 +27,30 @@ export function BlogSidebar({
   blogs: BlogItem[];
 }) {
   const [filteredBlogs, setFilteredBlogs] = React.useState<BlogItem[]>(blogs);
+  const { state } = useSidebar();
+  const isCollapsed = state === 'collapsed';
 
   return (
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
-        <Link
-          href="/blog"
-          className="flex items-center gap-2 group-data-[state=expanded]:px-6 group-data-[state=collapsed]:px-1 py-4 hover:bg-muted/50 transition-colors overflow-hidden whitespace-nowrap"
-        >
-          <BookOpen className="h-6 w-6 flex-shrink-0" />
-          <span className="text-lg font-semibold truncate group-data-[state=collapsed]:hidden">
-            Blog
-          </span>
-        </Link>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <Link
+              href="/blog"
+              className="flex items-center gap-2 group-data-[state=expanded]:px-6 group-data-[state=collapsed]:px-1 py-4 hover:bg-muted/50 transition-colors overflow-hidden whitespace-nowrap"
+            >
+              <BookOpen className="h-6 w-6 flex-shrink-0" />
+              <span className="text-lg font-semibold truncate group-data-[state=collapsed]:hidden">
+                Blog
+              </span>
+            </Link>
+          </TooltipTrigger>
+          {isCollapsed && (
+            <TooltipContent side="right">
+              Blog
+            </TooltipContent>
+          )}
+        </Tooltip>
       </SidebarHeader>
       <SidebarContent>
         <BlogFilter blogs={blogs} onFilter={setFilteredBlogs} />
