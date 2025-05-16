@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layers } from 'lucide-react';
 import Grid from '@/components/ui/grid';
-import AlternativeCard from './AlternativeCard';
+import AlternativeCard from '@/components/alternatives/alternative-card';
 import type { Alternative } from '@/types/alternatives';
 
 interface AlternativesGridProps {

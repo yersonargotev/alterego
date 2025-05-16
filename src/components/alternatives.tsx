@@ -1,8 +1,8 @@
 import React from 'react';
 import type { AlternativesData } from '@/types/alternatives';
-import ProjectInfoSection from '@/components/alternatives/ProjectInfoSection';
-import AlternativesGrid from '@/components/alternatives/AlternativesGrid';
-import MarketPositioningSection from '@/components/alternatives/MarketPositioningSection';
+import ProjectInfoSection from '@/components/alternatives/project-info-section';
+import AlternativesGrid from '@/components/alternatives/alternatives-grid';
+import MarketPositioningSection from '@/components/alternatives/market-positioning-section';
 
 interface AlternativesProps {
     data: AlternativesData | null; // Allow data to be null initially

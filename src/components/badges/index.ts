@@ -1,3 +1,3 @@
-export { default as LicenseBadge } from './LicenseBadge';
-export { default as PlatformBadge } from './PlatformBadge';
-export { default as ComparisonBadge } from './ComparisonBadge';
+export { default as LicenseBadge } from './license-badge';
+export { default as PlatformBadge } from './platform-badge';
+export { default as ComparisonBadge } from './comparison-badge';

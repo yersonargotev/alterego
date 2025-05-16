@@ -1,4 +1,4 @@
-export { default as AlternativeCard } from './AlternativeCard';
-export { default as AlternativesGrid } from './AlternativesGrid';
-export { default as ProjectInfoSection } from './ProjectInfoSection';
-export { default as MarketPositioningSection } from './MarketPositioningSection';
+export { default as AlternativeCard } from './alternative-card';
+export { default as AlternativesGrid } from './alternatives-grid';
+export { default as ProjectInfoSection } from './project-info-section';
+export { default as MarketPositioningSection } from './market-positioning-section';
