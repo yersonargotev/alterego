@@ -22,7 +22,8 @@ interface PageParams {
 }
 
 export default async function MorePage({ params }: PageParams) {
-  const { slug } = params;
+  const resolvedParams = await params;
+  const { slug } = resolvedParams;
 
   try {
     // Load the readme.md file content
