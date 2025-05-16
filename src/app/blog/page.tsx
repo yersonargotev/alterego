@@ -1,34 +1,21 @@
 import RepoCard, { type RepoCardProps } from '@/components/repo-card';
-import rustProjectsData from '@/lib/constants/rust.json';
-
-// Define a more specific type for the items in rust.json to help with mapping
-interface RustProjectJsonItem {
-  author: string;
-  name: string;
-  avatar: string;
-  url: string;
-  description: string;
-  language: string;
-  languageColor?: string; // Already optional
-  stars: number;
-  fork: number; // Note: this is 'fork' not 'forks'
-  // other properties from json like sponsor, currentPeriodStars, builtBy can be listed here if needed elsewhere
-}
+import { getBlogs } from '@/lib/get-blogs';
 
 const BlogPage = () => {
-  // Map the imported JSON data to match RepoCardProps
-  const projects: RepoCardProps[] = (
-    rustProjectsData as RustProjectJsonItem[]
-  ).map((item) => ({
-    author: item.author,
-    name: item.name,
-    avatar: item.avatar,
-    url: item.url,
-    description: item.description,
-    language: item.language,
-    languageColor: item.languageColor, // Pass through if available
-    stars: item.stars,
-    forks: item.fork, // Map 'fork' to 'forks'
+  // Get blog items from the getBlogs function
+  const blogs = getBlogs();
+
+  // Map blog items to RepoCardProps
+  const projects: RepoCardProps[] = blogs.map((blog) => ({
+    author: blog.author,
+    name: blog.name,
+    avatar: blog.avatar,
+    url: blog.url,
+    description: blog.description,
+    language: 'Rust', // All projects are Rust
+    languageColor: '#dea584', // Rust color
+    stars: blog.stars,
+    forks: blog.forks,
   }));
 
   return (
