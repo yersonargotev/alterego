@@ -111,7 +111,7 @@ const AlternativeCard: React.FC<{ alternative: Alternative }> = ({
     alternative,
 }) => {
     return (
-        <Card className="flex flex-col h-full bg-card text-card-foreground border border-border/60 hover:shadow-md transition-all duration-300 hover:border-border">
+        <Card className="flex flex-col h-full gap-0 bg-card text-card-foreground border border-border/60 hover:shadow-md transition-all duration-300 hover:border-border">
             <CardHeader className="pb-3">
                 <CardTitle className="flex flex-col items-start gap-2 w-full">
                     <span className="w-full font-medium text-sm sm:text-base text-center line-clamp-2 break-words hyphens-auto">
