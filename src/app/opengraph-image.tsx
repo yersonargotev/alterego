@@ -33,7 +33,7 @@ export default async function OGImage() {
                     }}
                 >
                     <img
-                        src="https://alterego-repos.vercel.app/web-app-manifest-512x512.png"
+                        src="https://alterego-amber.vercel.app/web-app-manifest-512x512.png"
                         width={120}
                         height={120}
                         alt="AlterEgo Logo"

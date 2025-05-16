@@ -21,19 +21,19 @@ const APP_TITLE_TEMPLATE = '%s | Alterego';
 const APP_DESCRIPTION = 'Alterego is a web app that finds alternative projects for your favorite GitHub repositories.';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://alterego-repos.vercel.app'),
+  metadataBase: new URL('https://alterego-amber.vercel.app/'),
   title: {
     default: APP_DEFAULT_TITLE,
     template: APP_TITLE_TEMPLATE,
   },
   description: APP_DESCRIPTION,
   applicationName: APP_NAME,
-  authors: [{ name: 'AlterEgo Team' }],
+  authors: [{ name: 'yersonargotev' }],
   generator: 'Next.js',
   keywords: ['github', 'repositories', 'alternatives', 'open source', 'projects', 'code'],
   referrer: 'origin-when-cross-origin',
-  creator: 'AlterEgo Team',
-  publisher: 'AlterEgo',
+  creator: 'yersonargotev',
+  publisher: 'yersonargotev',
   formatDetection: {
     email: false,
     address: false,

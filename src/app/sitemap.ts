@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://alterego-repos.vercel.app';
+  const baseUrl = 'https://alterego-amber.vercel.app';
 
   // Base routes
   const routes = [
@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/dashboard`,
+      url: `${baseUrl}/blog`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: 0.8,

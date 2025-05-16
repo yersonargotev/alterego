@@ -5,8 +5,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/api/*', '/dashboard/admin'],
+      disallow: ['/api/*'],
     },
-    sitemap: 'https://alterego-repos.vercel.app/sitemap.xml',
+    sitemap: 'https://alterego-amber.vercel.app/sitemap.xml',
   };
 }
