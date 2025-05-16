@@ -1,0 +1,142 @@
+{
+  "projectName": "anakin",
+  "projectPurpose": "To identify and terminate orphan processes on Linux-like systems.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Identifies orphan processes",
+    "Terminates orphan processes"
+  ],
+  "website": "https://github.com/Timmmm/anakin",
+  "alternatives": [
+    {
+      "name": "kill",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Sends signals to processes",
+        "Terminates processes by PID",
+        "Supports various signal types"
+      ],
+      "website": null
+    },
+    {
+      "name": "pkill",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Kills processes based on name and other attributes",
+        "Supports regular expressions",
+        "Can signal process groups"
+      ],
+      "website": null
+    },
+    {
+      "name": "ps",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Reports a snapshot of current processes",
+        "Displays process information (PID, parent PID, user, status, etc.)",
+        "Supports various output formats and filtering"
+      ],
+      "website": null
+    },
+    {
+      "name": "pstree",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Displays processes in a tree format showing parent-child relationships",
+        "Can show PIDs",
+        "Can sort by PID"
+      ],
+      "website": null
+    },
+    {
+      "name": "htop",
+      "license": "Open Source - GPL-2.0-or-later",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD",
+        "OpenBSD",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Interactive process viewer",
+        "Real-time monitoring",
+        "Tree view of processes",
+        "Easily kill processes",
+        "Sort and filter processes"
+      ],
+      "website": "https://htop.dev/"
+    },
+    {
+      "name": "Task Manager",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "View running processes and resource usage",
+        "Terminate processes",
+        "View process hierarchy",
+        "Manage startup programs",
+        "Monitor system performance"
+      ],
+      "website": "https://learn.microsoft.com/en-us/windows/client-management/task-manager"
+    },
+    {
+      "name": "systemd",
+      "license": "Open Source - GPL-2.0-or-later",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "System and service manager",
+        "Manages process lifetimes",
+        "Automatically restarts processes",
+        "Supports user-specific services",
+        "Process control via cgroups"
+      ],
+      "website": "https://systemd.io/"
+    },
+    {
+      "name": "Supervisord",
+      "license": "Open Source - BSD-like",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Solaris",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "Process control system",
+        "Starts, stops, and monitors processes",
+        "Automatically restarts crashed processes",
+        "Provides command-line interface",
+        "Provides web interface"
+      ],
+      "website": "http://supervisord.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Task Manager (Windows)",
+    "htop (Linux Command Line)"
+  ],
+  "marketPositioning": "anakin is a specialized command-line utility written in Rust designed to identify and terminate orphan processes on Linux-like systems. Unlike general process monitoring tools or system supervisors, anakin focuses specifically on cleaning up processes whose parent process has terminated, ensuring system hygiene and preventing potential resource leaks or unintended background execution of orphaned tasks. It provides a dedicated solution for a specific process management concern."
+}

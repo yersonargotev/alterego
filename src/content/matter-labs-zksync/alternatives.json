@@ -1,0 +1,83 @@
+{
+  "projectName": "zksync",
+  "projectPurpose": "To provide a trustless scaling solution and enhance privacy for the Ethereum blockchain using Zero-Knowledge Rollup technology, enabling higher transaction throughput and lower costs.",
+  "platforms": [
+    "Ethereum (Layer 2)"
+  ],
+  "mainFeatures": [
+    "Trustless scaling for Ethereum via ZK-rollups",
+    "Enhanced privacy through zero-knowledge proofs",
+    "Faster transaction finality compared to optimistic rollups",
+    "Reduced transaction costs and increased throughput",
+    "EVM compatibility (specifically with zkSync Era)"
+  ],
+  "website": "https://github.com/matter-labs/zksync",
+  "alternatives": [
+    {
+      "name": "Arbitrum",
+      "license": "Open Source (various components may have different licenses)",
+      "platforms": [
+        "Ethereum (Layer 2)"
+      ],
+      "mainFeatures": [
+        "Optimistic Rollup scaling",
+        "High EVM compatibility",
+        "Lower transaction fees than Ethereum L1",
+        "Faster transaction speeds",
+        "Fraud proofs for security"
+      ],
+      "website": "https://arbitrum.io/"
+    },
+    {
+      "name": "Optimism",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Ethereum (Layer 2)"
+      ],
+      "mainFeatures": [
+        "Optimistic Rollup scaling",
+        "EVM compatibility",
+        "Reduced gas fees",
+        "Simple design philosophy",
+        "Decentralized governance (Optimism Collective)"
+      ],
+      "website": "https://www.optimism.io/"
+    },
+    {
+      "name": "StarkNet",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Ethereum (Layer 2)"
+      ],
+      "mainFeatures": [
+        "ZK-STARK based Validity Rollup",
+        "High scalability",
+        "Uses Cairo programming language",
+        "Native account abstraction",
+        "Trustless security derived from Ethereum"
+      ],
+      "website": "https://www.starknet.io/"
+    },
+    {
+      "name": "Polygon PoS",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Ethereum (Sidechain)"
+      ],
+      "mainFeatures": [
+        "EVM-compatible sidechain",
+        "Proof-of-Stake consensus",
+        "Low transaction fees",
+        "High transaction speed",
+        "Large ecosystem and adoption"
+      ],
+      "website": "https://polygon.technology/solutions/polygon-pos"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Arbitrum",
+    "Optimism",
+    "Polygon PoS"
+  ],
+  "marketPositioning": "zkSync is positioned as a leading Zero-Knowledge Rollup (ZK-rollup) scaling solution for Ethereum, emphasizing trustless security and faster transaction finality compared to optimistic rollups. With its focus on EVM compatibility in zkSync Era, it aims to attract existing Ethereum developers and applications, competing directly with other ZK-rollup implementations like StarkNet and indirectly with dominant optimistic rollups like Arbitrum and Optimism, as well as other scaling solutions like Polygon PoS. Its core value proposition lies in leveraging the cryptographic guarantees of ZK proofs for a highly secure and efficient scaling experience."
+}

@@ -1,0 +1,78 @@
+{
+  "projectName": "sage",
+  "projectPurpose": "To define and implement a new programming language.",
+  "platforms": [
+    "Cross-platform (as it's a language, its compiler/runtime would target various OSes)"
+  ],
+  "mainFeatures": [
+    "It is a programming language",
+    "Implemented in Rust (suggests potential focus on performance/safety)",
+    "Described as \"wise beyond its bytes!\" (implies unique design goals or elegance)"
+  ],
+  "website": "https://github.com/adam-mcdaniel/sage",
+  "alternatives": [
+    {
+      "name": "Python",
+      "license": "Open Source - PSF License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Easy to learn syntax",
+        "Large standard library and ecosystem",
+        "Dynamic typing",
+        "Supports multiple programming paradigms",
+        "Strong community support"
+      ],
+      "website": "https://www.python.org/"
+    },
+    {
+      "name": "Rust",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Web",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Memory safety without garbage collection",
+        "Performance comparable to C/C++",
+        "Fearless concurrency",
+        "Strong static type system",
+        "Ownership system for memory management"
+      ],
+      "website": "https://www.rust-lang.org/"
+    },
+    {
+      "name": "Go",
+      "license": "Open Source - BSD-style license",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Plan 9",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Strong support for concurrency (goroutines, channels)",
+        "Fast compilation times",
+        "Garbage collection",
+        "Static typing",
+        "Simple and clean syntax"
+      ],
+      "website": "https://go.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Python"
+  ],
+  "marketPositioning": "Sage is positioned as a new, emerging programming language project. Implemented in Rust, it potentially aims for performance and safety. Its 'wise beyond its bytes!' tagline suggests unique design goals or paradigms. It currently stands as an experimental or niche language, exploring new ideas rather than competing directly with established languages on ecosystem or widespread adoption."
+}

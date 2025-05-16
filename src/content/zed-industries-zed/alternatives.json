@@ -1,0 +1,120 @@
+{
+  "projectName": "Zed",
+  "projectPurpose": "To provide developers with a modern, high-performance, collaborative, and AI-ready code editing experience by leveraging Rust and integrating collaboration and AI features natively.",
+  "platforms": [
+    "macOS",
+    "Linux",
+    "Windows (Planned)",
+    "Web (Planned)"
+  ],
+  "mainFeatures": [
+    "High-performance, built in Rust",
+    "Real-time multiplayer collaboration",
+    "AI-powered coding assistance",
+    "Native Git support",
+    "Integrated terminal",
+    "Modal editing (Vim bindings)",
+    "Remote development",
+    "Extensive customization"
+  ],
+  "website": "https://zed.dev/",
+  "alternatives": [
+    {
+      "name": "Visual Studio Code",
+      "license": "Proprietary (based on MIT-licensed Code - OSS)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Rich code editing",
+        "Debugging support",
+        "Integrated Git control",
+        "Extensive extension marketplace",
+        "IntelliSense code completion"
+      ],
+      "website": "https://code.visualstudio.com/"
+    },
+    {
+      "name": "Sublime Text",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast performance",
+        "Goto Anything navigation",
+        "Multiple Selections",
+        "Command Palette",
+        "Powerful API and package control"
+      ],
+      "website": "https://www.sublimetext.com/"
+    },
+    {
+      "name": "Vim",
+      "license": "Vim License (Charityware, GPL compatible)",
+      "platforms": [
+        "Unix",
+        "Linux",
+        "Windows",
+        "macOS",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Modal editing interface",
+        "Highly configurable",
+        "Extensive plugin system",
+        "Powerful search and replace",
+        "Support for splits and tabs"
+      ],
+      "website": "https://www.vim.org/"
+    },
+    {
+      "name": "Neovim",
+      "license": "Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Haiku"
+      ],
+      "mainFeatures": [
+        "Refactored Vim fork",
+        "Focus on extensibility and maintainability",
+        "Built-in LSP support",
+        "Lua scripting",
+        "Asynchronous I/O"
+      ],
+      "website": "https://neovim.io/"
+    },
+    {
+      "name": "GNU Emacs",
+      "license": "GNU GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Highly customizable (Emacs Lisp)",
+        "Integrated environment with many tools",
+        "Content-aware editing modes",
+        "Package management",
+        "Remote file editing (Tramp)"
+      ],
+      "website": "https://www.gnu.org/software/emacs/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Visual Studio Code"
+  ],
+  "marketPositioning": "Zed is positioned as a high-performance, collaborative, and AI-ready code editor that prioritizes speed and efficiency through its Rust-based architecture. It differentiates itself with built-in real-time multiplayer features and integrated AI assistance, aiming to provide a modern, fast, and seamless development experience, contrasting with the perceived overhead of some established Electron-based editors. Its open-source nature encourages community involvement while exploring a sustainable business model."
+}

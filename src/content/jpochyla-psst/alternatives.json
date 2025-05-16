@@ -1,0 +1,124 @@
+{
+  "projectName": "psst",
+  "projectPurpose": "To provide a fast, multi-platform Spotify client with a native GUI, offering a more performant and resource-efficient alternative to the official client.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Fast performance",
+    "Multi-platform support",
+    "Native GUI (built with Rust)",
+    "Lower resource usage compared to Electron-based clients",
+    "Spotify client functionality (playback, browsing saved items, searching)"
+  ],
+  "website": "https://github.com/jpochyla/psst",
+  "alternatives": [
+    {
+      "name": "Spotify (Official Client)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Vast music and podcast library",
+        "Personalized recommendations and playlists",
+        "Offline listening (Premium)",
+        "High-quality audio streaming (Premium)",
+        "Social features (Friend Activity)"
+      ],
+      "website": "https://www.spotify.com/"
+    },
+    {
+      "name": "ncspot",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "BSDs"
+      ],
+      "mainFeatures": [
+        "Ncurses (TUI) interface",
+        "Low resource footprint",
+        "Vim keybindings",
+        "Supports tracks, albums, playlists, searching",
+        "Requires Spotify Premium"
+      ],
+      "website": "https://github.com/hrkfdn/ncspot"
+    },
+    {
+      "name": "Spotifyd",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD",
+        "OpenBSD"
+      ],
+      "mainFeatures": [
+        "Runs as a background daemon",
+        "Supports Spotify Connect",
+        "Lightweight",
+        "Requires Spotify Premium",
+        "Headless operation capable"
+      ],
+      "website": "https://github.com/Spotifyd/spotifyd"
+    },
+    {
+      "name": "Spotube",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Desktop, Mobile)"
+      ],
+      "mainFeatures": [
+        "Streams music using YouTube (no Spotify Premium needed)",
+        "Lightweight and ad-free",
+        "No tracking or telemetry",
+        "Full playback control",
+        "Offline downloads (via YouTube)"
+      ],
+      "website": "https://alternativeto.net/software/psst/"
+    },
+    {
+      "name": "Spot (GTK Spotify Client)",
+      "license": "Open Source",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "GTK native GUI",
+        "Uses librespot library",
+        "Lightweight alternative",
+        "Requires Spotify Premium",
+        "Adaptive UI for smaller screens"
+      ],
+      "website": "https://github.com/xou816/spot"
+    },
+    {
+      "name": "Spotify-qt",
+      "license": "Open Source",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Qt native GUI",
+        "Simpler and lighter than the official client",
+        "Requires a running Spotify client (like librespot)",
+        "Unofficial client",
+        "Available as AppImage"
+      ],
+      "website": "https://appimagehub.com/p/1682251"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Spotify (Official Client)"
+  ],
+  "marketPositioning": "Psst is positioned as a performance-oriented, open-source alternative desktop client for Spotify Premium users. By leveraging Rust and a native GUI, it aims to provide a faster and more resource-efficient experience compared to the official Electron-based client. It caters to users who prefer native applications and prioritize performance and a clean interface, while still being in an early stage of development compared to more mature alternatives."
+}

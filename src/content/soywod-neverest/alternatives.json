@@ -1,0 +1,101 @@
+{
+  "projectName": "neverest",
+  "projectPurpose": "To provide a command-line interface tool for synchronizing, backing up, and restoring emails.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Synchronize emails",
+    "Backup emails",
+    "Restore emails",
+    "Command-line interface (CLI)"
+  ],
+  "website": "https://github.com/soywod/neverest",
+  "alternatives": [
+    {
+      "name": "Thunderbird",
+      "license": "Open Source - MPL 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Desktop email client",
+        "Supports POP3 and IMAP",
+        "Local email storage/archiving",
+        "Manual import/export capabilities"
+      ],
+      "website": "https://www.thunderbird.net/"
+    },
+    {
+      "name": "imapsync",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Command-line IMAP migration/synchronization",
+        "Transfers mailboxes between IMAP servers",
+        "Incremental transfers",
+        "Recursive folder copying"
+      ],
+      "website": "https://imapsync.lamiral.info/"
+    },
+    {
+      "name": "Got Your Back (GYB)",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Command-line utility for Gmail/Google Workspace",
+        "Backup Gmail to local storage (.eml format)",
+        "Restore to Gmail accounts",
+        "Supports incremental backups"
+      ],
+      "website": "https://github.com/GAM-team/got-your-back"
+    },
+    {
+      "name": "Mail Backup X",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Backup and restore multiple email services",
+        "Supports major email clients and services",
+        "Incremental backups",
+        "Email conversion options"
+      ],
+      "website": "https://www.mailbackupx.com/"
+    },
+    {
+      "name": "Handy Backup",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Comprehensive backup software",
+        "Supports webmail (IMAP) and local clients",
+        "Automated scheduling",
+        "Various storage options"
+      ],
+      "website": "https://www.handybackup.net/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Thunderbird",
+    "Microsoft Outlook (via PST export/import)",
+    "Commercial backup solutions (e.g., Mail Backup X, offerings from Veeam, Dropsuite for business/enterprise)"
+  ],
+  "marketPositioning": "neverest is positioned as a specialized, open-source command-line interface (CLI) tool for email synchronization, backup, and restoration. Its primary market appeal is to technical users, developers, and system administrators who prefer or require automation, scripting, and terminal-based workflows for managing their email data. Unlike many mainstream GUI-based email clients or commercial backup software, neverest focuses on providing core sync, backup, and restore functionalities via a command line, built with a modern language (Rust) for potential performance and reliability advantages. This differentiates it from migration-focused tools like imapsync or platform-specific tools like GYB, offering a more general-purpose CLI solution for email archiving and management."
+}

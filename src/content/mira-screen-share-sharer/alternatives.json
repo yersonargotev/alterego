@@ -1,0 +1,201 @@
+{
+  "projectName": "sharer",
+  "projectPurpose": "To provide a high-performance, open-source, and easy-to-use screen sharing and remote collaboration tool with a focus on low latency and high resolution, suitable for tasks like remote pair programming and troubleshooting.",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "High-performance screen capturing and streaming (4k @ 60 FPS, 110ms E2E latency)",
+    "System audio capturing & streaming",
+    "Remote mouse & keyboard control",
+    "Secure peer-to-peer connections (WebRTC)",
+    "0 setup required for viewers (browser-based)",
+    "Free & no sign-ups required",
+    "Concurrent viewers support"
+  ],
+  "website": "https://github.com/mira-screen-share/sharer",
+  "alternatives": [
+    {
+      "name": "RustDesk",
+      "license": "Open Source (AGPLv3 for server, MIT for client)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Remote control and access",
+        "File transfer",
+        "End-to-end encryption",
+        "Self-hosting options",
+        "Customizable client"
+      ],
+      "website": "https://rustdesk.com/"
+    },
+    {
+      "name": "TeamViewer",
+      "license": "Proprietary (Free for personal use)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "ChromeOS",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Remote access and control",
+        "File transfer",
+        "Online meetings",
+        "Chat",
+        "Unattended access"
+      ],
+      "website": "https://www.teamviewer.com/"
+    },
+    {
+      "name": "AnyDesk",
+      "license": "Proprietary (Free for personal use)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "iOS",
+        "Android",
+        "Raspberry Pi"
+      ],
+      "mainFeatures": [
+        "Remote access and control",
+        "High frame rates and low latency",
+        "File transfer",
+        "Unattended access",
+        "VPN"
+      ],
+      "website": "https://anydesk.com/"
+    },
+    {
+      "name": "Chrome Remote Desktop",
+      "license": "Proprietary (Free)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "ChromeOS",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Remote access via browser/app",
+        "Simple setup with Google account",
+        "Secure connections",
+        "Cross-platform"
+      ],
+      "website": "https://remotedesktop.google.com/"
+    },
+    {
+      "name": "RealVNC (VNC Connect)",
+      "license": "Proprietary (Free Home license, paid subscriptions)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Raspberry Pi",
+        "Android",
+        "iOS",
+        "Web",
+        "Java"
+      ],
+      "mainFeatures": [
+        "Remote access and control",
+        "Cross-platform compatibility",
+        "File transfer",
+        "Remote printing",
+        "Cloud and direct connections"
+      ],
+      "website": "https://www.realvnc.com/"
+    },
+    {
+      "name": "TightVNC",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Windows",
+        "Unix/Linux",
+        "Java"
+      ],
+      "mainFeatures": [
+        "Remote control",
+        "File transfers (Windows)",
+        "Efficient encoding",
+        "Compatible with standard VNC"
+      ],
+      "website": "https://www.tightvnc.com/"
+    },
+    {
+      "name": "Screego",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Multi User Screenshare",
+        "Secure transfer via WebRTC",
+        "Low latency / High resolution",
+        "Simple Install (Docker/binary)",
+        "Integrated TURN Server"
+      ],
+      "website": "https://screego.net/"
+    },
+    {
+      "name": "Zoom (Screen Sharing)",
+      "license": "Proprietary (Free basic plan)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Video conferencing",
+        "Desktop/application sharing",
+        "Annotation tools",
+        "Multiple participants sharing",
+        "Audio/video sharing"
+      ],
+      "website": "https://zoom.us/"
+    },
+    {
+      "name": "Jitsi Meet (Screen Sharing)",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Video conferencing",
+        "Screen sharing",
+        "Interactive whiteboard",
+        "Open Source",
+        "No account needed"
+      ],
+      "website": "https://jitsi.org/meet/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "TeamViewer",
+    "AnyDesk",
+    "Zoom"
+  ],
+  "marketPositioning": "Mira Screenshare (Sharer) is positioned as a high-performance, open-source, and easy-to-use screen sharing and remote collaboration tool. It differentiates itself from more general remote desktop software by focusing on low-latency, high-resolution screen streaming built with modern technologies (Rust, WebRTC). Its primary use case appears to be collaborative scenarios like pair programming and troubleshooting, emphasized by features like concurrent viewer support and a no-setup browser-based viewer. This focus, combined with its open-source nature, positions it as a performant, customizable alternative to larger, often proprietary, remote support and meeting tools, particularly for users who prioritize performance and control over extensive feature sets like unattended access or mobile device management."
+}

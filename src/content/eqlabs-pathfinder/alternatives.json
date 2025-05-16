@@ -1,0 +1,138 @@
+{
+  "projectName": "pathfinder",
+  "projectPurpose": "To provide an open-source, performant, and secure implementation of a full node for the Starknet network, written in Rust, allowing users and developers to independently verify the Starknet state, interact with the network via RPC, and contribute to decentralization.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Starknet full node implementation",
+    "Written in Rust",
+    "Provides a secure view into Starknet",
+    "Accesses the full Starknet state history",
+    "Verifies state using Ethereum Layer 1",
+    "Implements the Starknet JSON-RPC API",
+    "Allows running Starknet functions without requiring a transaction (local execution)",
+    "Supports fee estimation for transactions"
+  ],
+  "website": "https://github.com/eqlabs/pathfinder",
+  "alternatives": [
+    {
+      "name": "Juno",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Starknet full node written in Golang",
+        "User-friendly and easy to deploy",
+        "Compatibility with Ethereum tools",
+        "Implements JSON-RPC API",
+        "Supports snapshot sync"
+      ],
+      "website": "https://github.com/NethermindEth/juno"
+    },
+    {
+      "name": "Papyrus",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Starknet full node written in Rust",
+        "Focuses on security and robustness",
+        "Tracks Starknet state and supports querying via JSON-RPC",
+        "Provides foundations for the Starknet Sequencer",
+        "Aims to provide an efficient storage layer"
+      ],
+      "website": "https://github.com/starkware-libs/papyrus"
+    },
+    {
+      "name": "Deoxys",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Starknet full node client written in Rust",
+        "Powered by Substrate",
+        "Easy-to-use",
+        "Blazing-fast performance",
+        "Powerful features"
+      ],
+      "website": "https://github.com/kasar/deoxys"
+    },
+    {
+      "name": "Alchemy",
+      "license": "Proprietary (Commercial with Free Tier)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Starknet node access via API",
+        "Enhanced APIs for complex queries",
+        "Real-time data and notifications",
+        "Developer tools and dashboards",
+        "Reliable and scalable infrastructure"
+      ],
+      "website": "https://www.alchemy.com/"
+    },
+    {
+      "name": "Infura",
+      "license": "Proprietary (Commercial)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Starknet node access via API",
+        "High availability and reliability",
+        "Supports all RPC methods",
+        "Integration with MetaMask",
+        "Provides developer tools"
+      ],
+      "website": "https://infura.io/"
+    },
+    {
+      "name": "Blast API",
+      "license": "Proprietary (Commercial with Free Tier)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Starknet node access via API",
+        "Decentralized API platform",
+        "High throughput public and paid APIs",
+        "Builder APIs for structured data",
+        "NFT APIs for NFT-specific data"
+      ],
+      "website": "https://blastapi.io/"
+    },
+    {
+      "name": "Chainstack",
+      "license": "Proprietary (Commercial)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Starknet node access via RPC endpoints",
+        "Support for multiple blockchain protocols",
+        "Fast and reliable infrastructure",
+        "Node hosting options",
+        "Developer tools"
+      ],
+      "website": "https://chainstack.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Alchemy",
+    "Infura"
+  ],
+  "marketPositioning": "Pathfinder is positioned as a key open-source, Rust-based full node implementation for Starknet, emphasizing independent state verification against Ethereum L1 and direct interaction with the network via RPC. It competes with other open-source node implementations by offering a performant and memory-safe alternative written in Rust, and with commercial API providers by enabling users to run their own infrastructure and contribute to the decentralization of the Starknet network."
+}

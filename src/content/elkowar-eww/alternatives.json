@@ -1,0 +1,112 @@
+{
+  "projectName": "eww",
+  "projectPurpose": "A standalone and highly customizable widget system for Linux desktops, allowing users to create and display bespoke graphical elements independent of their window manager.",
+  "platforms": [
+    "Linux (X11, Wayland)"
+  ],
+  "mainFeatures": [
+    "Standalone widget system independent of window manager",
+    "Configured using a Lisp-like language (yuck) and styled with CSS",
+    "Enables creation of custom, visually appealing widgets (bars, dashboards, etc.)",
+    "Supports both X11 and Wayland display servers",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/elkowar/eww",
+  "alternatives": [
+    {
+      "name": "Conky",
+      "license": "Open Source (GPL-3.0, BSD)",
+      "platforms": [
+        "Linux",
+        "BSD",
+        "macOS",
+        "Haiku",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Displays various system information and other data",
+        "Over 300 built-in objects",
+        "Supports text, bars, and graph widgets",
+        "Extensible with Lua and external programs",
+        "Lightweight"
+      ],
+      "website": "https://github.com/brndnmtthws/conky"
+    },
+    {
+      "name": "Polybar",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Linux (X11)"
+      ],
+      "mainFeatures": [
+        "Fast and easy-to-use status bar",
+        "Built-in modules for common services",
+        "Highly customizable appearance",
+        "Supports scripting"
+      ],
+      "website": "https://polybar.github.io/"
+    },
+    {
+      "name": "Waybar",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Linux (Wayland)"
+      ],
+      "mainFeatures": [
+        "Highly customizable Wayland bar",
+        "Built-in modules for various compositors and services",
+        "Supports custom scripts and images"
+      ],
+      "website": "https://github.com/Alexays/Waybar"
+    },
+    {
+      "name": "Rainmeter",
+      "license": "Open Source (GNU GPL v2)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Desktop customization utility using 'skins'",
+        "Displays system info, weather, RSS, etc.",
+        "Skins configured via INI files",
+        "Supports plugins",
+        "Large community and skin library"
+      ],
+      "website": "https://www.rainmeter.net/"
+    },
+    {
+      "name": "Screenlets",
+      "license": "Open Source (GNU GPL)",
+      "platforms": [
+        "Linux (X11)"
+      ],
+      "mainFeatures": [
+        "Desktop gadgets/widgets tool and engine",
+        "Wide range of pre-made screenlets",
+        "Supports compositing",
+        "Highly customizable and scalable"
+      ],
+      "website": null
+    },
+    {
+      "name": "Argos/Kargos/XBar",
+      "license": "Open Source (Varies, e.g., GPLv3, MIT)",
+      "platforms": [
+        "Linux (GNOME, KDE)",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Place widgets on the menu/status bar",
+        "Run any script or program",
+        "Widget display controlled by script output via markup",
+        "Can display dynamic information"
+      ],
+      "website": "https://github.com/p-gen/argos (Argos)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Rainmeter (Overall, especially on Windows)",
+    "Conky (On Linux)"
+  ],
+  "marketPositioning": "Eww is positioned as a modern, highly flexible, and window-manager-agnostic widget system for Linux. Unlike traditional status bars (Polybar, Waybar) or purely system-monitoring tools (Conky), eww emphasizes deep visual customization and the ability to create complex, arbitrary graphical elements using a declarative configuration language and CSS. This places it as a powerful tool for users seeking detailed desktop personalization beyond standard panels, offering more layout freedom than typical bars while providing a more modern configuration approach compared to older tools like Conky or Screenlets. Its support for both X11 and Wayland is a key advantage in the evolving Linux desktop landscape."
+}

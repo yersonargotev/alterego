@@ -1,0 +1,178 @@
+{
+  "projectName": "meteroid",
+  "projectPurpose": "To provide a flexible, open-source infrastructure for software companies to handle complex pricing models, subscription management, billing, and revenue analytics, particularly for usage-based billing and product-led growth strategies.",
+  "platforms": [
+    "Platform-independent (deployable)"
+  ],
+  "mainFeatures": [
+    "Subscription management",
+    "Invoicing",
+    "Pricing",
+    "Usage-based billing",
+    "Cost limiting",
+    "Grandfathering",
+    "Experiments",
+    "Revenue analytics & Actionable insights"
+  ],
+  "website": "https://github.com/meteroid-oss/meteroid",
+  "alternatives": [
+    {
+      "name": "Kill Bill",
+      "license": "Open Source",
+      "platforms": [
+        "Platform-independent (Java-based, deployable)"
+      ],
+      "mainFeatures": [
+        "Subscription management",
+        "Billing",
+        "Payment processing",
+        "Extensible plugin architecture",
+        "Real-time analytics"
+      ],
+      "website": "https://killbill.io/"
+    },
+    {
+      "name": "Lago",
+      "license": "Open Source",
+      "platforms": [
+        "Platform-independent (deployable)"
+      ],
+      "mainFeatures": [
+        "Usage-based billing",
+        "Metering",
+        "Invoicing",
+        "Subscription management",
+        "Real-time data ingestion"
+      ],
+      "website": "https://www.getlago.com/"
+    },
+    {
+      "name": "UniBee",
+      "license": "Open Source",
+      "platforms": [
+        "Platform-independent (deployable or cloud version)"
+      ],
+      "mainFeatures": [
+        "Subscription management",
+        "Payment management (multiple gateways, including crypto)",
+        "Automated invoicing",
+        "Revenue analytics",
+        "Customizable billing models"
+      ],
+      "website": "https://unibee.dev/"
+    },
+    {
+      "name": "Chargebee",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Subscription management",
+        "Recurring billing",
+        "Invoicing",
+        "Payment gateway integrations",
+        "Revenue analytics"
+      ],
+      "website": "https://www.chargebee.com/"
+    },
+    {
+      "name": "Zuora",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Subscription management",
+        "Billing",
+        "Revenue recognition",
+        "Analytics",
+        "CPQ (Configure, Price, Quote)"
+      ],
+      "website": "https://www.zuora.com/"
+    },
+    {
+      "name": "Stripe Billing",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "mainFeatures": [
+        "Recurring billing",
+        "Invoicing",
+        "Subscription management",
+        "Integrated payment processing",
+        "Proration"
+      ],
+      "website": "https://stripe.com/billing"
+    },
+    {
+      "name": "Recurly",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Subscription billing",
+        "Churn management",
+        "Payment gateway integrations",
+        "Analytics",
+        "Developer-friendly API"
+      ],
+      "website": "https://recurly.com/"
+    },
+    {
+      "name": "Maxio (formerly SaaSOptics and Chargify)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Subscription billing",
+        "Revenue operations",
+        "Analytics",
+        "CRM integration",
+        "B2B SaaS focus"
+      ],
+      "website": "https://maxio.com/"
+    },
+    {
+      "name": "Zoho Billing (formerly Zoho Subscriptions)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Subscription management",
+        "Automated billing",
+        "Invoicing",
+        "Payment gateway integrations",
+        "Revenue recovery"
+      ],
+      "website": "https://www.zoho.com/billing/"
+    },
+    {
+      "name": "Paddle",
+      "license": "Proprietary (Merchant of Record)",
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "mainFeatures": [
+        "Payment processing",
+        "Subscription billing",
+        "Tax and compliance handling",
+        "Fraud prevention",
+        "Analytics"
+      ],
+      "website": "https://paddle.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Stripe Billing",
+    "Chargebee",
+    "Zuora"
+  ],
+  "marketPositioning": "Meteroid positions itself as an open-source pricing and billing infrastructure specifically designed for modern software companies, particularly those adopting usage-based billing and product-led growth (PLG) principles. It emphasizes flexibility, extensibility, and the ability to handle complex and evolving pricing models without the limitations and potential vendor lock-in of proprietary SaaS solutions. Its focus on usage-based billing and PLG distinguishes it from some traditional subscription billing platforms. While other open-source options like Kill Bill and Lago exist, Meteroid highlights its modern architecture (Rust-based) and focus on addressing the specific needs of PLG companies. The project is currently in alpha, indicating it's an emerging player in the market aiming to capture businesses looking for a self-hostable, highly customizable, and transparent billing solution."
+}

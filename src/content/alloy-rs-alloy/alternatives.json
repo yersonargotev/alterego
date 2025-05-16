@@ -1,0 +1,99 @@
+{
+  "projectName": "alloy",
+  "projectPurpose": "To provide a high-performance, modular, and comprehensive set of Rust libraries for interacting with Ethereum Virtual Machine (EVM) based blockchains, serving as a foundational toolkit for developers building decentralized applications and infrastructure in Rust.",
+  "platforms": [
+    "Rust environment (Windows, macOS, Linux)",
+    "WASM (WebAssembly)",
+    "no_std environments"
+  ],
+  "mainFeatures": [
+    "Pluggable Transports (HTTP, WebSocket, IPC)",
+    "Modular Middleware and Provider Layers leveraging Tower",
+    "Network Abstractions for EVM chains",
+    "Core Libraries for Ethereum development (primitives, ABI encoding/decoding)",
+    "High-performance and well-tested building blocks"
+  ],
+  "website": "https://github.com/alloy-rs/alloy",
+  "alternatives": [
+    {
+      "name": "ethers-rs",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Rust environment (Windows, macOS, Linux)",
+        "WASM (WebAssembly)"
+      ],
+      "mainFeatures": [
+        "Ethereum JSON-RPC Client",
+        "Smart Contract Interaction and Type-safe Bindings",
+        "Event Handling and Monitoring",
+        "ENS Support",
+        "Multi-chain Support (Celo, Polygon, Avalanche, Optimism)"
+      ],
+      "website": "https://github.com/gakonst/ethers-rs"
+    },
+    {
+      "name": "rust-web3",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust environment (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Ethereum JSON-RPC multi-transport client",
+        "HTTP, IPC, and WebSockets transports",
+        "Basic account and balance operations",
+        "Smart contract deployment (requires solc)"
+      ],
+      "website": "https://github.com/tomusdrw/rust-web3"
+    },
+    {
+      "name": "web3.js",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web (Browser)",
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Connect to Ethereum nodes via HTTP, WebSocket, or IPC",
+        "Manage Ethereum accounts and keys",
+        "Send transactions and sign data",
+        "Interact with smart contracts via ABI"
+      ],
+      "website": "https://web3js.org/"
+    },
+    {
+      "name": "ethers.js",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web (Browser)",
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Connect to Ethereum nodes",
+        "Wallet and Signer implementations",
+        "Utilities for ABI encoding/decoding",
+        "Interact with smart contracts",
+        "ENS resolution"
+      ],
+      "website": "https://ethers.org/"
+    },
+    {
+      "name": "web3.py",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Python environment"
+      ],
+      "mainFeatures": [
+        "Python interface to Ethereum JSON-RPC API",
+        "Supports various transports",
+        "Transaction signing and broadcasting",
+        "Contract interaction"
+      ],
+      "website": "https://web3py.readthedocs.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "web3.js",
+    "ethers.js"
+  ],
+  "marketPositioning": "Alloy is positioned as the next-generation, high-performance, and modular Rust library for interacting with EVM blockchains, serving as a direct successor and improved rewrite of the widely adopted `ethers-rs`. It differentiates itself through a focus on performance, a highly modular architecture leveraging the Tower ecosystem for transports and providers, and a commitment to being well-tested and documented. Within the Rust ecosystem, it aims to be the premier client-side toolkit, forming a core component for other significant blockchain projects written in Rust. Compared to cross-language alternatives like `web3.js` and `ethers.js`, Alloy caters specifically to developers who require the performance, safety, and ecosystem benefits of Rust for building decentralized applications, infrastructure, and high-performance services."
+}

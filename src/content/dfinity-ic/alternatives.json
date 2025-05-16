@@ -1,0 +1,125 @@
+{
+  "projectName": "ic",
+  "projectPurpose": "To provide the core client and replica software for the nodes operating the Internet Computer blockchain network.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Provides the fundamental software for Internet Computer nodes",
+    "Enables processing transactions and maintaining blockchain state",
+    "Executes canister smart contracts",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/dfinity/ic",
+  "alternatives": [
+    {
+      "name": "Ethereum",
+      "license": "Open Source (various licenses)",
+      "platforms": [
+        "Network of decentralized nodes (runs on various OS)"
+      ],
+      "mainFeatures": [
+        "Smart Contracts (Solidity)",
+        "Decentralized Applications (DApps)",
+        "Ethereum Virtual Machine (EVM)",
+        "Large Ecosystem",
+        "Proof-of-Stake Consensus"
+      ],
+      "website": "https://ethereum.org/"
+    },
+    {
+      "name": "Solana",
+      "license": "Open Source (various licenses)",
+      "platforms": [
+        "Network of decentralized nodes (runs on various OS)"
+      ],
+      "mainFeatures": [
+        "High Transaction Throughput",
+        "Low Transaction Fees",
+        "Proof-of-History (PoH) and Proof-of-Stake (PoS)",
+        "Parallel Transaction Processing"
+      ],
+      "website": "https://solana.com/"
+    },
+    {
+      "name": "Polkadot",
+      "license": "Open Source (various licenses)",
+      "platforms": [
+        "Network of decentralized nodes (runs on various OS)"
+      ],
+      "mainFeatures": [
+        "Interoperability (connecting blockchains)",
+        "Scalability (Parachains)",
+        "On-chain Governance (Forkless Upgrades)",
+        "Shared Security"
+      ],
+      "website": "https://polkadot.network/"
+    },
+    {
+      "name": "Tezos",
+      "license": "Open Source (various licenses)",
+      "platforms": [
+        "Network of decentralized nodes (runs on various OS)"
+      ],
+      "mainFeatures": [
+        "Self-Amending Blockchain",
+        "On-Chain Governance",
+        "Liquid Proof-of-Stake (LPoS)",
+        "Formal Verification",
+        "Energy Efficient"
+      ],
+      "website": "https://tezos.com/"
+    },
+    {
+      "name": "BNB Smart Chain",
+      "license": "Open Source (various licenses)",
+      "platforms": [
+        "Network of decentralized nodes (runs on various OS)"
+      ],
+      "mainFeatures": [
+        "EVM Compatibility",
+        "Fast Transaction Speed",
+        "Low Transaction Cost",
+        "Proof-of-Staked-Authority Consensus",
+        "Large User Base and Ecosystem"
+      ],
+      "website": "https://www.bnbchain.org/"
+    },
+    {
+      "name": "Cardano",
+      "license": "Open Source (various licenses)",
+      "platforms": [
+        "Network of decentralized nodes (runs on various OS)"
+      ],
+      "mainFeatures": [
+        "Proof-of-Stake (Ouroboros)",
+        "Peer-Reviewed Research Approach",
+        "Smart Contracts (Plutus)",
+        "Layered Architecture",
+        "On-Chain Governance"
+      ],
+      "website": "https://cardano.org/"
+    },
+    {
+      "name": "EOSIO (Antelope)",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Network of decentralized nodes (runs on various OS)"
+      ],
+      "mainFeatures": [
+        "High Performance and Scalability",
+        "Free Transactions (for users)",
+        "Delegated Proof-of-Stake (DPoS)",
+        "Parallel Execution",
+        "Developer-Friendly"
+      ],
+      "website": "https://antelope.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "The Internet Computer (ICP) is positioned as a 'World Computer' and a decentralized alternative to traditional cloud computing platforms, aiming to host the entire stack of decentralized applications directly on a public blockchain. Its key differentiators include powerful 'canister' smart contracts, web-speed performance, scalability, direct integration with other blockchains via chain-key cryptography, and a reverse-gas model making it free for end-users. This places it in direct competition with both other blockchain platforms and traditional centralized cloud providers, focusing on building a censorship-resistant and fully decentralized internet."
+}

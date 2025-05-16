@@ -1,0 +1,133 @@
+{
+  "projectName": "nutype",
+  "projectPurpose": "To provide a convenient and robust way to implement the \"newtype pattern\" in Rust, enhancing type safety and enforcing data invariants through compile-time checks, integrated validation, and sanitization.",
+  "platforms": [
+    "Rust/Cargo (primarily Linux, macOS, Windows)"
+  ],
+  "mainFeatures": [
+    "Procedural macro for defining newtypes",
+    "Integrated sanitization and validation rules",
+    "Guarantees valid value instantiation (including Serde deserialization)",
+    "Supports String, Integer, Float, and other inner types",
+    "Allows custom sanitizers and validators",
+    "Generates specific error types based on validation failures"
+  ],
+  "website": "https://github.com/greyblake/nutype",
+  "alternatives": [
+    {
+      "name": "validator",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Rust/Cargo (primarily Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Derive macro for struct validation",
+        "Built-in validators (email, url, length, range, etc.)",
+        "Custom validation functions",
+        "Supports nested validation"
+      ],
+      "website": "https://github.com/Keats/validator"
+    },
+    {
+      "name": "garde",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Rust/Cargo (primarily Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Derive macro for validation",
+        "Wide range of built-in validation rules",
+        "Custom validation logic",
+        "Support for various data types"
+      ],
+      "website": "https://github.com/jprochazk/garde"
+    },
+    {
+      "name": "constrained_int",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Rust/Cargo (primarily Linux, macOS, Windows) - requires nightly compiler"
+      ],
+      "mainFeatures": [
+        "Defines integers constrained by compile-time ranges",
+        "Provides fallible APIs for construction",
+        "Implements checked arithmetic operations",
+        "`no_std` support"
+      ],
+      "website": "https://docs.rs/constrained_int/latest/constrained_int/"
+    },
+    {
+      "name": "validify",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Rust/Cargo (primarily Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Derive macros for validation and modification",
+        "Supports various validation rules",
+        "Allows data modification during validation",
+        "Integrates with Serde"
+      ],
+      "website": "https://crates.io/crates/validify"
+    },
+    {
+      "name": "refinement",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Rust/Cargo (primarily Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Define refinement types with predicates",
+        "Leverages the type system for correctness",
+        "Aims for type-safe data representation"
+      ],
+      "website": "https://crates.io/crates/refinement"
+    },
+    {
+      "name": "prae",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Rust/Cargo (primarily Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Define types with invariants/constraints",
+        "Enforce data correctness",
+        "Integrate with Serde"
+      ],
+      "website": "https://crates.io/crates/prae"
+    },
+    {
+      "name": "Pydantic",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Python (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Data validation with Python type hints",
+        "Settings management",
+        "Integrates with web frameworks (e.g., FastAPI)",
+        "Generates JSON Schema"
+      ],
+      "website": "https://docs.pydantic.dev/"
+    },
+    {
+      "name": "Zod",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "JavaScript/TypeScript (Web, Node.js, etc.)"
+      ],
+      "mainFeatures": [
+        "TypeScript-first schema definition",
+        "Runtime validation",
+        "Static type inference",
+        "Composable schema"
+      ],
+      "website": "https://zod.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Pydantic",
+    "Zod"
+  ],
+  "marketPositioning": "Nutype is specifically positioned as a tool for implementing the newtype pattern in Rust with strong guarantees. Unlike general validation libraries that validate data after creation, Nutype integrates sanitization and validation directly into the type's construction process using a procedural macro, ensuring that invalid values cannot be created. This focus on compile-time enforcement and integration with type definition sets it apart from broader validation frameworks like `validator` or `garde`, and type-specific solutions like `constrained_int`. Its approach aligns well with domain-driven design by using the type system to enforce business invariants, offering a Rust-native alternative to some aspects of data validation seen in libraries like Pydantic or Zod in other languages."
+}

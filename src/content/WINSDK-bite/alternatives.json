@@ -1,0 +1,132 @@
+{
+  "projectName": "bite",
+  "projectPurpose": "To provide a disassembler and executable analysis tool with a strong focus on supporting binaries compiled from the Rust programming language.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Disassembly of executable binaries",
+    "Comprehensive support for Rust-compiled binaries",
+    "Inspection of binary content and debug information (DWARF/PDB)",
+    "Support for multiple architectures (X86-64, AArch64/Armv7, Riscv64gc/Riscv32gc, MIPS-V)",
+    "Viewing assembly listing alongside source code"
+  ],
+  "website": "https://github.com/WINSDK/bite",
+  "alternatives": [
+    {
+      "name": "IDA Pro",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Multi-processor and multi-platform disassembler",
+        "Interactive debugger",
+        "Decompiler (Hex-Rays)",
+        "Extensive scripting capabilities (IDAPython)",
+        "Supports a vast array of file formats and architectures"
+      ],
+      "website": "https://hex-rays.com/ida-pro/"
+    },
+    {
+      "name": "Ghidra",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Disassembler and decompiler",
+        "Debugger",
+        "Supports a wide range of processors and file formats",
+        "Extensible through scripting (Java, Python) and plugins",
+        "GUI-based interface"
+      ],
+      "website": "https://ghidra-sre.org/"
+    },
+    {
+      "name": "radare2",
+      "license": "Open Source - LGPLv3 (mostly)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Android",
+        "iOS",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Command-line reverse engineering framework",
+        "Disassembler and assembler",
+        "Debugger",
+        "Binary analysis tools",
+        "Highly scriptable (r2pipe)"
+      ],
+      "website": "https://www.radare.org/r/"
+    },
+    {
+      "name": "Binary Ninja",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (Cloud)"
+      ],
+      "mainFeatures": [
+        "Interactive disassembler, decompiler, and binary analysis platform",
+        "High-quality API for automation (C++, Python, Rust)",
+        "Visualize control flow and stack layouts",
+        "Plugin architecture",
+        "Supports various architectures and file formats"
+      ],
+      "website": "https://binary.ninja/"
+    },
+    {
+      "name": "Capstone Engine",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Android",
+        "iOS",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Lightweight multi-platform, multi-architecture disassembly framework",
+        "Clean and simple API",
+        "Provides instruction details and semantics",
+        "Implemented in pure C with bindings for many languages (including Rust)",
+        "Thread-safe design"
+      ],
+      "website": "https://www.capstone-engine.org/"
+    },
+    {
+      "name": "iced-x86",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust compatible platforms"
+      ],
+      "mainFeatures": [
+        "Fast and correct x86/x64 instruction decoder, disassembler, assembler, encoder library",
+        "Written in Rust",
+        "Supports all Intel and AMD instructions",
+        "Supports various formatter syntaxes (masm, nasm, gas, Intel)",
+        "Designed for performance and correctness"
+      ],
+      "website": "https://github.com/icedland/iced"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "IDA Pro"
+  ],
+  "marketPositioning": "BiTE positions itself as a disassembler with a unique emphasis on providing comprehensive support for binaries compiled from the Rust programming language. While established tools like IDA Pro, Ghidra, Binary Ninja, and radare2 offer broad architectural support, BiTE aims to provide deeper, more integrated analysis capabilities specifically for the nuances of Rust binaries and their associated debug information. Its open-source nature and implementation in Rust differentiate it from commercial offerings and provide a specialized alternative within the broader reverse engineering tool landscape."
+}

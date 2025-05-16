@@ -1,0 +1,142 @@
+{
+  "projectName": "chroma",
+  "projectPurpose": "To provide a simple, open-source, and scalable database specifically designed for storing and querying AI embeddings, facilitating the development of AI-native applications like those using Large Language Models (LLMs) for tasks such as semantic search and retrieval augmented generation (RAG).",
+  "platforms": [
+    "Docker",
+    "Kubernetes",
+    "Python (embeddable)",
+    "JavaScript/TypeScript (embeddable)"
+  ],
+  "mainFeatures": [
+    "AI-native embedding storage and search",
+    "Open-source and embeddable",
+    "Simple, fully-typed API with integrations (LangChain, LlamaIndex)",
+    "Automatic tokenization, embedding, and indexing (with custom options)",
+    "Metadata filtering and advanced query capabilities"
+  ],
+  "website": "https://github.com/chroma-core/chroma",
+  "alternatives": [
+    {
+      "name": "Milvus",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Docker",
+        "Kubernetes",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "High-performance vector search at scale",
+        "Distributed architecture",
+        "Supports various index types",
+        "Metadata filtering and hybrid search",
+        "Multi-language SDKs"
+      ],
+      "website": "https://milvus.io/"
+    },
+    {
+      "name": "Pinecone",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (Cloud Service)"
+      ],
+      "mainFeatures": [
+        "Fully managed cloud service",
+        "High performance and low latency",
+        "Scalable to billions of vectors",
+        "Filtered vector search",
+        "Real-time data updates"
+      ],
+      "website": "https://www.pinecone.io/"
+    },
+    {
+      "name": "Weaviate",
+      "license": "Open Source - BSD 3-Clause (and Proprietary Cloud Service)",
+      "platforms": [
+        "Docker",
+        "Kubernetes",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Cloud-native vector database",
+        "Supports vector, keyword, and hybrid search",
+        "Stores objects and vectors",
+        "Integrates with ML models",
+        "GraphQL and REST APIs"
+      ],
+      "website": "https://weaviate.io/"
+    },
+    {
+      "name": "Qdrant",
+      "license": "Open Source - Apache 2.0 (and Proprietary Cloud/Managed)",
+      "platforms": [
+        "Docker",
+        "Kubernetes",
+        "Cloud",
+        "Self-hosted"
+      ],
+      "mainFeatures": [
+        "High-performance vector search engine",
+        "Payload (metadata) filtering",
+        "Vector quantization and on-disk storage",
+        "Hybrid search",
+        "Written in Rust"
+      ],
+      "website": "https://qdrant.tech/"
+    },
+    {
+      "name": "Vespa",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Fully featured search engine and vector database",
+        "Vector, lexical, and structured data search",
+        "Integrated ML model inference",
+        "Scalable and real-time performance",
+        "Designed for large-scale AI applications"
+      ],
+      "website": "https://vespa.ai/"
+    },
+    {
+      "name": "Vald",
+      "license": "Open Source - Apache v2",
+      "platforms": [
+        "Kubernetes (Cloud-Native)"
+      ],
+      "mainFeatures": [
+        "Highly scalable distributed ANN search engine",
+        "Automatic vector indexing and backup",
+        "Horizontal scalability",
+        "Index replication for high availability",
+        "Multi-language SDKs"
+      ],
+      "website": "https://vald.vdaas.org/"
+    },
+    {
+      "name": "Pgvector",
+      "license": "Open Source - PostgreSQL License (MIT-style)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "PostgreSQL extension for vector search",
+        "Supports various index types (Ivfflat, HNSW)",
+        "Combines vector search with SQL queries",
+        "Integrates vector data into relational databases",
+        "Leverages PostgreSQL's maturity and features"
+      ],
+      "website": "https://github.com/pgvector/pgvector"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Pinecone",
+    "Milvus",
+    "Pgvector"
+  ],
+  "marketPositioning": "Chroma positions itself as the AI-native open-source embedding database with a strong emphasis on developer experience and ease of use. It targets developers building AI applications, particularly those leveraging LLMs, by simplifying the process of working with embeddings. Its open-source nature and embeddable capabilities offer flexibility compared to managed services. While competing with other open-source vector databases offering broad feature sets and scalability, Chroma carves out a niche by focusing specifically on the embedding workflow and seamless integration with popular AI frameworks."
+}

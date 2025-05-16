@@ -1,0 +1,106 @@
+{
+  "projectName": "ruff",
+  "projectPurpose": "To provide an extremely fast and integrated Python linter and code formatter.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Extremely fast Python linting (written in Rust)",
+    "Extremely fast Python code formatting (written in Rust)",
+    "Consolidates multiple tools (linter, formatter, import sorting, etc.)",
+    "Large number of built-in rules",
+    "Automatic error correction"
+  ],
+  "website": "https://github.com/astral-sh/ruff",
+  "alternatives": [
+    {
+      "name": "Black",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Uncompromising code formatting",
+        "PEP 8 compliance",
+        "Minimal configuration",
+        "Deterministic output"
+      ],
+      "website": "https://github.com/psf/black"
+    },
+    {
+      "name": "Flake8",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Combines PyFlakes, pycodestyle, and McCabe",
+        "Checks for syntax and style issues",
+        "Analyzes code complexity",
+        "Extensible via plugins"
+      ],
+      "website": "https://flake8.pycqa.org/"
+    },
+    {
+      "name": "Pylint",
+      "license": "Open Source - LGPL-2.1 License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Comprehensive static code analysis",
+        "Checks for errors and code smells",
+        "Enforces coding standards",
+        "Highly configurable",
+        "Supports plugins"
+      ],
+      "website": "https://www.pylint.org/"
+    },
+    {
+      "name": "Mypy",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Optional static type checking",
+        "Supports PEP 484 type hints",
+        "Finds bugs without running code",
+        "Supports gradual typing"
+      ],
+      "website": "https://www.mypy-lang.org/"
+    },
+    {
+      "name": "autopep8",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Automatically formats to PEP 8",
+        "Uses pycodestyle to identify issues",
+        "Fixes most formatting problems",
+        "Supports aggressive formatting"
+      ],
+      "website": "https://pypi.org/project/autopep8/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Black",
+    "Flake8"
+  ],
+  "marketPositioning": "Ruff is positioned as an extremely fast, all-in-one Python linter and code formatter. Its core differentiator is its performance, being written in Rust, which allows it to significantly outperform traditional Python-based tools like Flake8 and Black. It aims to replace multiple separate tools with a single, integrated, and faster solution, simplifying development workflows and reducing overhead."
+}

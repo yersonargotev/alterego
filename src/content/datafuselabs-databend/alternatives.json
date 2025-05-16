@@ -1,0 +1,114 @@
+{
+  "projectName": "databend",
+  "projectPurpose": "To provide a modern, cost-effective, and simple open-source cloud data warehouse solution for massive-scale data analytics and AI workloads, serving as an alternative to proprietary services like Snowflake.",
+  "platforms": [
+    "Cloud-native"
+  ],
+  "mainFeatures": [
+    "Cloud data warehouse",
+    "Massive-scale analytics",
+    "Cost-effective",
+    "Simple to use",
+    "Built in Rust",
+    "Decoupled storage and compute"
+  ],
+  "website": "https://databend.com",
+  "alternatives": [
+    {
+      "name": "Snowflake",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud-native (AWS, Azure, GCP)"
+      ],
+      "mainFeatures": [
+        "Decoupled storage and compute",
+        "Auto-scaling",
+        "Secure data sharing",
+        "Time Travel",
+        "Supports structured and semi-structured data"
+      ],
+      "website": "https://www.snowflake.com"
+    },
+    {
+      "name": "Google BigQuery",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud-native (Google Cloud, AWS, Azure via Omni)"
+      ],
+      "mainFeatures": [
+        "Serverless architecture",
+        "Highly scalable",
+        "Real-time analytics",
+        "Built-in ML (BigQuery ML)",
+        "Supports ANSI SQL"
+      ],
+      "website": "https://cloud.google.com/bigquery"
+    },
+    {
+      "name": "Amazon Redshift",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud-native (AWS)"
+      ],
+      "mainFeatures": [
+        "Massively Parallel Processing (MPP)",
+        "Scalable to petabytes",
+        "Tight AWS integration",
+        "Supports SQL",
+        "Optimized for OLAP"
+      ],
+      "website": "https://aws.amazon.com/redshift/"
+    },
+    {
+      "name": "ClickHouse",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Column-oriented storage",
+        "Real-time analytics",
+        "High compression rates",
+        "Vectorized query execution",
+        "SQL support"
+      ],
+      "website": "https://clickhouse.com"
+    },
+    {
+      "name": "Trino",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Distributed SQL query engine",
+        "Query federation across sources",
+        "ANSI SQL compliant",
+        "Interactive analytics"
+      ],
+      "website": "https://trino.io"
+    },
+    {
+      "name": "DuckDB",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, Web)"
+      ],
+      "mainFeatures": [
+        "Embedded OLAP database",
+        "In-process (no server)",
+        "Supports SQL",
+        "Vectorized query execution",
+        "Integrates with data science tools"
+      ],
+      "website": "https://duckdb.org"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Snowflake",
+    "Google BigQuery",
+    "Amazon Redshift"
+  ],
+  "marketPositioning": "Databend is an open-source, cloud-native data warehouse built in Rust, designed to be a modern, cost-effective, and simple alternative to proprietary solutions like Snowflake. It focuses on providing high-performance analytics for massive-scale datasets, leveraging a decoupled storage and compute architecture similar to modern cloud data warehouses. Databend supports standard SQL for data analysis and is engineered for elastic scalability and efficient resource utilization, aiming to reduce the total cost of ownership for analytical workloads in the cloud. It positions itself by offering the flexibility and control of open source while competing on features and performance with established proprietary cloud data warehouses."
+}

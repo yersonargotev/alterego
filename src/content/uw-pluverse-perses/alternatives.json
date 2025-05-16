@@ -1,0 +1,76 @@
+{
+  "projectName": "perses",
+  "projectPurpose": "To automatically minimize a program that exhibits a specific behavior (e.g., triggers a bug) while ensuring that the minimized program still exhibits that same behavior, primarily for debugging language implementations.",
+  "platforms": [],
+  "mainFeatures": [
+    "Language-agnostic program reduction",
+    "Minimizes programs based on user-defined constraints via a test script",
+    "Uses syntax information (Antlr grammars) to guide reduction and maintain syntactic correctness",
+    "Supports a wide range of programming languages"
+  ],
+  "website": "https://github.com/uw-pluverse/perses",
+  "alternatives": [
+    {
+      "name": "C-Reduce",
+      "license": "BSD-3-Clause",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Program reduction for C/C++ ( extensible to other languages)",
+        "Based on Delta Debugging and other reduction passes",
+        "Minimizes code while preserving a specified property",
+        "Widely used in compiler testing"
+      ],
+      "website": "https://github.com/csmith-project/creduce"
+    },
+    {
+      "name": "Delta Debugging (General Concept/Implementations)",
+      "license": "Varies (often Open Source)",
+      "platforms": [
+        "Varies (often scriptable/cross-platform)"
+      ],
+      "mainFeatures": [
+        "Algorithmic approach to isolate failure-inducing inputs",
+        "Reduces test cases by systematically removing parts",
+        "Language-independent at its core",
+        "Requires a test function/script to determine 'interestingness'"
+      ],
+      "website": "https://www.st.cs.uni-saarland.de/dd/"
+    },
+    {
+      "name": "Vulcan",
+      "license": "Open Source",
+      "platforms": [
+        "Likely Linux, macOS (based on research context)"
+      ],
+      "mainFeatures": [
+        "Language-agnostic program reduction framework",
+        "Aims to further minimize results from other reducers (like Perses)",
+        "Exploits formal syntax for aggressive transformations",
+        "Research-oriented tool"
+      ],
+      "website": "https://github.com/PLSysSec/vulcan"
+    },
+    {
+      "name": "Latra",
+      "license": "Open Source",
+      "platforms": [
+        "Likely Linux, macOS (based on research context)"
+      ],
+      "mainFeatures": [
+        "Template-based language-agnostic framework",
+        "Balances generality with language-specific effectiveness",
+        "Uses user-defined, language-specific transformations via templates",
+        "Aims to reduce engineering effort for new languages"
+      ],
+      "website": "https://github.com/PLSysSec/latra"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "C-Reduce",
+    "Delta Debugging"
+  ],
+  "marketPositioning": "Perses is positioned as a state-of-the-art, language-agnostic program reducer that distinguishes itself by leveraging formal syntax information (Antlr grammars) to guide the reduction process. This syntax-aware approach helps it avoid generating invalid code and improves efficiency and effectiveness compared to purely structural or line-based reduction methods. While language-specific tools like C-Reduce might achieve deeper reductions for their target languages, Perses offers broader applicability and a good balance of effectiveness and generality across a wide range of programming languages with less per-language engineering effort. It is a key tool in the research area of automated program reduction and is sometimes used in conjunction with newer techniques and tools like Vulcan to achieve even greater minimization."
+}

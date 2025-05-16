@@ -1,0 +1,123 @@
+{
+  "projectName": "turborepo",
+  "projectPurpose": "To provide a high-performance build system optimized for JavaScript and TypeScript monorepos to accelerate development workflows through efficient caching and parallel execution.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Optimized build system for JavaScript and TypeScript",
+    "High-performance task runner",
+    "Efficient local and distributed caching",
+    "Parallel task execution",
+    "Incremental builds",
+    "Interactive terminal UI",
+    "Dependency-aware watch mode"
+  ],
+  "website": "https://turbo.build/",
+  "alternatives": [
+    {
+      "name": "Lerna",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Manages multi-package repositories",
+        "Versioning and publishing packages",
+        "Runs scripts across packages",
+        "Dependency management"
+      ],
+      "website": "https://lerna.js.org/"
+    },
+    {
+      "name": "Nx",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Extensible monorepo toolkit",
+        "Smart rebuilds and caching",
+        "Task orchestration",
+        "Code generation",
+        "Dependency graph analysis"
+      ],
+      "website": "https://nx.dev/"
+    },
+    {
+      "name": "Bazel",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Scalable and fast builds",
+        "Multi-language support",
+        "Strict dependency analysis",
+        "Remote caching and execution"
+      ],
+      "website": "https://bazel.build/"
+    },
+    {
+      "name": "Rush",
+      "license": "Open Source - Various (part of Rush Stack)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Scalable monorepo manager for web",
+        "Centralized dependency installation (PNPM)",
+        "Incremental builds",
+        "Parallel task execution"
+      ],
+      "website": "https://rushstack.io/"
+    },
+    {
+      "name": "Yarn Workspaces",
+      "license": "Open Source - BSD 2-Clause",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Manages multiple packages in one repository",
+        "Simplifies dependency management",
+        "Local package linking",
+        "Integrated with Yarn package manager"
+      ],
+      "website": "https://yarnpkg.com/"
+    },
+    {
+      "name": "pnpm",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Efficient disk usage with content-addressable store",
+        "Strict dependency management",
+        "Faster package installations",
+        "Workspace support for monorepos"
+      ],
+      "website": "https://pnpm.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Bazel",
+    "Nx"
+  ],
+  "marketPositioning": "Turborepo is positioned as a modern, high-performance build system specifically for JavaScript and TypeScript monorepos. It differentiates itself with its focus on speed achieved through aggressive caching and parallelization, its implementation in Rust, and its ease of adoption compared to more complex multi-language build systems like Bazel or feature-heavy toolkits like Nx. While Lerna is a historical leader in the JS monorepo space, Turborepo is a newer entrant emphasizing out-of-the-box performance. Rush targets large enterprise monorepos with a broader toolchain, while Turborepo focuses on core build system efficiency for JS/TS."
+}

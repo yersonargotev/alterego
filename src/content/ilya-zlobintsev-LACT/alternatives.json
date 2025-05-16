@@ -1,0 +1,124 @@
+{
+  "projectName": "LACT",
+  "projectPurpose": "To provide a comprehensive graphical user interface (GUI) for configuring and monitoring various aspects of graphics processing units (GPUs) from different vendors (AMD, Nvidia, Intel) on Linux systems.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Viewing detailed GPU information",
+    "Power and thermals monitoring and configuration",
+    "Customizable fan curve control (AMD, Nvidia)",
+    "Overclocking (GPU/VRAM clockspeed and voltage)",
+    "Power states configuration (AMD)",
+    "Desktop session independent operation",
+    "Remote management capability"
+  ],
+  "website": "https://github.com/ilya-zlobintsev/LACT",
+  "alternatives": [
+    {
+      "name": "NVIDIA X Server Settings",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Basic GPU information display",
+        "Temperature monitoring",
+        "Limited fan speed control",
+        "OpenGL settings configuration",
+        "Brightness and gamma adjustment"
+      ],
+      "website": "https://www.nvidia.com/object/x_display_settings.html"
+    },
+    {
+      "name": "AMD Radeon Software for Linux",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux (Specific Distributions)"
+      ],
+      "mainFeatures": [
+        "Provides official drivers for AMD GPUs",
+        "Includes command-line utilities",
+        "May include limited GUI components depending on distribution and version"
+      ],
+      "website": "https://www.amd.com/en/support/linux-drivers"
+    },
+    {
+      "name": "CoreCtrl",
+      "license": "Open Source",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "GPU and CPU monitoring and configuration",
+        "Fan curve control",
+        "Overclocking capabilities",
+        "Per-application profiles",
+        "Qt-based GUI"
+      ],
+      "website": "https://gitlab.com/corectrl/corectrl"
+    },
+    {
+      "name": "nvtop",
+      "license": "Open Source (GPLv3 or Apache-2.0)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "htop-like terminal interface for GPU monitoring",
+        "Supports multiple GPU vendors (AMD, Intel, NVIDIA, etc.)",
+        "Displays process list using the GPU",
+        "GPU and memory utilization graphs",
+        "Shows temperatures, fan speed, power usage, clock speeds"
+      ],
+      "website": "https://github.com/Syllo/nvtop"
+    },
+    {
+      "name": "nvidia-smi",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Command-line GPU monitoring utility",
+        "Provides memory usage, utilization, temperature",
+        "Lists processes running on the GPU",
+        "Management capabilities for supported GPUs"
+      ],
+      "website": "https://developer.nvidia.com/nvidia-system-management-interface"
+    },
+    {
+      "name": "intel_gpu_top",
+      "license": "Open Source",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Command-line tool for monitoring Intel GPU usage",
+        "Shows usage data",
+        "Displays power consumption",
+        "Reports memory bandwidth usage"
+      ],
+      "website": "https://gitlab.freedesktop.org/drm/intel-gpu-tools"
+    },
+    {
+      "name": "RadeonTop",
+      "license": "Open Source",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Command-line tool for monitoring AMD GPU usage",
+        "Provides basic GPU statistics",
+        "Works with the open-source Mesa driver"
+      ],
+      "website": "https://github.com/clbr/radeontop"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "NVIDIA X Server Settings",
+    "nvidia-smi"
+  ],
+  "marketPositioning": "LACT positions itself as a comprehensive, vendor-agnostic GUI tool for advanced GPU configuration and monitoring on Linux. While vendor-specific tools exist (NVIDIA, AMD) and offer proprietary features, and other open-source tools focus primarily on monitoring (nvtop, intel_gpu_top, RadeonTop) or include CPU controls (CoreCtrl), LACT differentiates itself by providing a unified graphical interface with extensive control options (overclocking, fan curves, power states) across AMD, Nvidia, and Intel GPUs. It aims to fill the gap for Linux users seeking a single, powerful GUI application for managing their graphics card's performance and thermals, comparable to the control offered by proprietary software on other operating systems."
+}

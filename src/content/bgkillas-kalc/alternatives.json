@@ -1,0 +1,179 @@
+{
+  "projectName": "kalc",
+  "projectPurpose": "A scientific/mathematical calculator with advanced features and graphing capabilities, designed for a terminal user interface.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Complex numbers support",
+    "2D/3D graphing",
+    "Arbitrary precision arithmetic",
+    "Vector and matrix operations",
+    "Terminal User Interface (TUI)",
+    "Real-time output"
+  ],
+  "website": "https://github.com/bgkillas/kalc",
+  "alternatives": [
+    {
+      "name": "GNU Octave",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "High-level language for numerical computation",
+        "MATLAB compatibility",
+        "Built-in 2D/3D plotting and visualization",
+        "Supports complex numbers, vectors, matrices",
+        "Extensive function libraries"
+      ],
+      "website": "https://www.gnu.org/software/octave/"
+    },
+    {
+      "name": "SciPy (with NumPy)",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fundamental package for scientific computing with Python",
+        "Supports multi-dimensional arrays (NumPy)",
+        "Modules for optimization, linear algebra, integration, etc. (SciPy)",
+        "Extensive libraries for mathematical and scientific routines",
+        "Integrates with plotting libraries like Matplotlib"
+      ],
+      "website": "https://scipy.org/"
+    },
+    {
+      "name": "Julia",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "High-performance dynamic programming language",
+        "Designed for technical computing",
+        "Strong support for numerical and scientific computing",
+        "Built-in primitives for parallel computing",
+        "Functions for matrix manipulation and data visualization"
+      ],
+      "website": "https://julialang.org/"
+    },
+    {
+      "name": "SpeedCrunch",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "High-precision scientific desktop calculator",
+        "Keyboard-driven user interface",
+        "Supports complex numbers and variables",
+        "Built-in functions and constants",
+        "Scrollable history and syntax highlighting"
+      ],
+      "website": "https://speedcrunch.org/"
+    },
+    {
+      "name": "Wolfram Alpha",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Computational knowledge engine",
+        "Answers factual queries and performs calculations",
+        "Supports complex numbers, vectors, matrices, graphing",
+        "Provides step-by-step solutions",
+        "Natural language input"
+      ],
+      "website": "https://www.wolframalpha.com/"
+    },
+    {
+      "name": "MATLAB",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Multi-paradigm programming language and environment",
+        "Designed for matrix manipulations and numerical computing",
+        "Extensive toolboxes for various applications",
+        "Powerful plotting and visualization tools",
+        "Interactive environment and GUI development tools"
+      ],
+      "website": "https://www.mathworks.com/products/matlab.html"
+    },
+    {
+      "name": "Kalker",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Command-line calculator",
+        "Supports math-like syntax",
+        "User-defined variables and functions",
+        "Supports complex numbers, vectors, and matrices",
+        "Differentiation and integration"
+      ],
+      "website": "https://kalker.xyz/"
+    },
+    {
+      "name": "Calcpad",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Mathematical and engineering calculations",
+        "Supports real and complex numbers",
+        "Vectors and matrices support",
+        "Units of measurement",
+        "HTML report generation"
+      ],
+      "website": "https://calcpad.eu/"
+    },
+    {
+      "name": "Euler Mathematical Toolbox",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Numerical software package",
+        "Matrix language",
+        "Graphical notebook style interface",
+        "Supports real, complex, and interval numbers, vectors, matrices",
+        "2D/3D plots"
+      ],
+      "website": "https://www.euler-math-toolbox.de/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Wolfram Alpha",
+    "MATLAB"
+  ],
+  "marketPositioning": "kalc is positioned as a powerful, open-source scientific calculator focusing on a terminal user interface (TUI). It targets users who need advanced mathematical capabilities, including complex numbers, vector/matrix operations, arbitrary precision, and 2D/3D graphing, all accessible from the command line. While more comprehensive mathematical software like MATLAB, Octave, or the Python scientific stack offer similar computational power and graphing (usually in a GUI or scripting environment), and TUI calculators like Kalker provide a command-line interface with some advanced features, kalc carves a niche by combining a rich set of advanced mathematical functions and graphing within a performant, real-time TUI, distinguishing itself from both simpler TUI calculators and more complex, GUI-dependent mathematical environments."
+}

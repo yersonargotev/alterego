@@ -1,0 +1,85 @@
+{
+  "projectName": "mise",
+  "projectPurpose": "To provide a fast, user-friendly, and unified command-line tool for developers to manage project-specific development environments, including different versions of programming languages and tools, environment variables, and project-specific tasks, serving as a modern alternative to tools like asdf and direnv.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Polyglot version manager (installs and manages multiple language runtimes via plugins)",
+    "Environment variable management (set project-specific env vars)",
+    "Task runner",
+    "Compatible with asdf plugins and .tool-versions files",
+    "Faster performance than asdf",
+    "Does not use shims"
+  ],
+  "website": "https://github.com/jdx/mise",
+  "alternatives": [
+    {
+      "name": "asdf",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Extendable version manager via plugins",
+        "Consistent CLI for different languages",
+        "Per-project .tool-versions config",
+        "Automatically switches versions by directory"
+      ],
+      "website": "https://asdf-vm.com/"
+    },
+    {
+      "name": "direnv",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Loads and unloads environment variables based on directory",
+        "Integrates with various shells",
+        "Manages project-specific settings and secrets"
+      ],
+      "website": "https://direnv.net/"
+    },
+    {
+      "name": "Just",
+      "license": "Open Source - CC0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Command runner for project-specific recipes",
+        "Simpler syntax than Make",
+        "Supports variables and arguments",
+        "Loads .env files"
+      ],
+      "website": "https://github.com/casey/just"
+    },
+    {
+      "name": "Task",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Task runner/build tool",
+        "Single binary with no dependencies",
+        "Easy installation",
+        "Cross-platform compatibility"
+      ],
+      "website": "https://taskfile.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "asdf"
+  ],
+  "marketPositioning": "mise (formerly rtx) is positioned as a faster, more user-friendly, and unified alternative to existing polyglot version managers like asdf and environment variable managers like direnv. It aims to provide a single tool for managing language versions, environment variables, and tasks, addressing performance and usability issues found in some alternatives while maintaining compatibility with established ecosystems like asdf plugins. Its Rust implementation is a key differentiator for performance."
+}

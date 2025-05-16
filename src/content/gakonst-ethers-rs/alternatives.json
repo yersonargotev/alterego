@@ -1,0 +1,131 @@
+{
+  "projectName": "ethers-rs",
+  "projectPurpose": "To provide a comprehensive and type-safe library in the Rust programming language for interacting with the Ethereum and Celo blockchains, including functionalities for wallet management, smart contract interaction, and accessing blockchain data via JSON-RPC.",
+  "platforms": [
+    "Rust environment (Linux, macOS, Windows)"
+  ],
+  "mainFeatures": [
+    "Complete Ethereum and Celo library and wallet implementation",
+    "Ethereum JSON-RPC Client",
+    "Interacting and deploying smart contracts",
+    "Type-safe smart contract bindings code generation",
+    "Querying past events and event monitoring as Streams",
+    "ENS as a first-class citizen",
+    "Support for EVM-compatible chains (Celo, Polygon, Avalanche, Optimism, etc.)",
+    "Modular architecture with Provider, Middleware, and Signer traits"
+  ],
+  "website": "https://github.com/gakonst/ethers-rs",
+  "alternatives": [
+    {
+      "name": "web3.js",
+      "license": "MIT License",
+      "platforms": [
+        "Web (Browser)",
+        "Node.js (Server-side)"
+      ],
+      "mainFeatures": [
+        "Interact with Ethereum nodes via HTTP, IPC, or WebSocket",
+        "Handle transactions and manage accounts",
+        "Interact with smart contracts",
+        "Get blockchain information"
+      ],
+      "website": "https://web3js.org/"
+    },
+    {
+      "name": "ethers.js",
+      "license": "MIT License",
+      "platforms": [
+        "Web (Browser)",
+        "Node.js (Server-side)"
+      ],
+      "mainFeatures": [
+        "Complete and compact Ethereum library",
+        "Wallet management (JSON, mnemonic, HD)",
+        "Connect to various Ethereum node services",
+        "ENS names as first-class citizens",
+        "Meta-classes for contract ABI interaction"
+      ],
+      "website": "https://docs.ethers.org/"
+    },
+    {
+      "name": "web3.py",
+      "license": "MIT License",
+      "platforms": [
+        "Python environments (Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Python library for Ethereum interaction",
+        "Connect to Ethereum nodes via JSON-RPC",
+        "Smart contract interaction",
+        "Account and transaction management",
+        "Utility functions for data handling"
+      ],
+      "website": "https://web3py.readthedocs.io/"
+    },
+    {
+      "name": "Geth (Go Ethereum)",
+      "license": "LGPL-3.0 License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux (Command-line)"
+      ],
+      "mainFeatures": [
+        "Run a full Ethereum node",
+        "Synchronize with the blockchain",
+        "Execute smart contracts",
+        "Manage Ethereum accounts",
+        "Exposes JSON-RPC API"
+      ],
+      "website": "https://geth.ethereum.org/"
+    },
+    {
+      "name": "Nethereum",
+      "license": "MIT License",
+      "platforms": [
+        ".NET-supported platforms (Windows, Linux, macOS, Android, iOS, etc.)"
+      ],
+      "mainFeatures": [
+        ".NET integration library for Ethereum",
+        "JSON RPC / IPC Ethereum core methods",
+        "Simplified smart contract interaction",
+        "HD Wallet creation and management",
+        "Supports various Ethereum node implementations"
+      ],
+      "website": "https://nethereum.com/"
+    },
+    {
+      "name": "Foundry",
+      "license": "MIT License",
+      "platforms": [
+        "Command-line tool (Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Smart contract development toolchain in Rust",
+        "Manages dependencies and compiles projects",
+        "Runs tests",
+        "Deploys contracts and interacts from command line"
+      ],
+      "website": "https://book.getfoundry.sh/"
+    },
+    {
+      "name": "Alloy",
+      "license": "MIT License",
+      "platforms": [
+        "Rust environments (Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "High-performance libraries for EVM interaction",
+        "Successor to ethers-rs",
+        "Modular and well-tested",
+        "Focus on performance and documentation"
+      ],
+      "website": "https://getalloy.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "web3.js",
+    "ethers.js"
+  ],
+  "marketPositioning": "ethers-rs is positioned as a comprehensive and type-safe library for Ethereum and EVM-compatible chain interaction, specifically targeting developers working in the Rust programming language. It leverages Rust's strengths in performance and memory safety, differentiating itself from the more widely used JavaScript/TypeScript libraries (web3.js, ethers.js) and Python libraries (web3.py). While it offers a comparable feature set for wallet management, smart contract interaction, and blockchain data access, its niche is the Rust ecosystem. The project's planned deprecation in favor of the Alloy project signals a continuation of focus on high-performance EVM development within Rust."
+}

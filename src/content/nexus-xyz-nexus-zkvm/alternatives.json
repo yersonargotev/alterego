@@ -1,0 +1,89 @@
+{
+  "projectName": "nexus-zkvm",
+  "projectPurpose": "To provide a high-performance, scalable, and flexible zero-knowledge virtual machine that can prove the correct execution of arbitrary computations, enabling verifiable computing at internet scale.",
+  "platforms": [],
+  "mainFeatures": [
+    "Modular, extensible, prover-optimized zkVM",
+    "Written in Rust for performance and security",
+    "Generates succinct, verifiable zero-knowledge proofs for arbitrary computations",
+    "Architected for massively parallelized incremental proof generation",
+    "Supports high-speed recursive proof systems (Jolt, HyperNova) and IVC/PCD",
+    "Features the NVM, optimized for prover performance and ISA simulation",
+    "Open-source and built on open scientific research"
+  ],
+  "website": "https://github.com/nexus-xyz/nexus-zkvm",
+  "alternatives": [
+    {
+      "name": "RISC Zero zkVM",
+      "license": "Open Source (Apache 2.0, MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "RISC-V based zkVM",
+        "Proves arbitrary Rust code execution",
+        "Generates zero-knowledge proofs (receipts)",
+        "Supports recursive proofs (zk-STARKs, Groth16)",
+        "Universal verifier for cross-chain proof verification"
+      ],
+      "website": "https://www.risczero.com/"
+    },
+    {
+      "name": "Polygon Miden",
+      "license": "Open Source (MIT)",
+      "platforms": [],
+      "mainFeatures": [
+        "STARK-based zero-knowledge virtual machine",
+        "Focuses on private data storage and local transaction execution",
+        "Designed for general-purpose computing",
+        "Aims for a future-proof VM design"
+      ],
+      "website": "https://polygon.technology/solutions/polygon-miden"
+    },
+    {
+      "name": "Cairo VM (StarkWare)",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Virtual machine for the Cairo programming language",
+        "Generates STARK proofs for general computation",
+        "Turing-complete",
+        "Supports smart contracts (within Starknet ecosystem)"
+      ],
+      "website": "https://starkware.co/starknet/"
+    },
+    {
+      "name": "zkSync Era VM (EraVM)",
+      "license": "Open Source (MIT)",
+      "platforms": [],
+      "mainFeatures": [
+        "Custom zkVM for the zkSync Era network",
+        "EVM compatible via compiler",
+        "Uses zk-rollup technology for Ethereum scaling",
+        "Processes transactions off-chain with ZKP generation"
+      ],
+      "website": "https://zksync.io/"
+    },
+    {
+      "name": "Scroll zkEVM",
+      "license": "Open Source",
+      "platforms": [],
+      "mainFeatures": [
+        "EVM-equivalent zkRollup for Ethereum scaling",
+        "Bytecode-level compatibility with EVM",
+        "Allows easy deployment of existing smart contracts",
+        "Generates zkEVM validity proofs"
+      ],
+      "website": "https://scroll.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Polygon zkEVM"
+  ],
+  "marketPositioning": "The Nexus zkVM positions itself as a high-performance, modular, and extensible general-purpose zero-knowledge virtual machine, focusing on proving *any* computation efficiently through features like parallelization, incremental verification, and advanced proof systems. While other notable zkVMs often focus on specific ecosystems (like zkEVMs for Ethereum compatibility) or particular architectures (like RISC-V), Nexus emphasizes its own NVM architecture and its ambition to be a foundational technology for a verifiable internet beyond just blockchain scaling, aiming for massive compute capacity."
+}

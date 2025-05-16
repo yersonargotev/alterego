@@ -1,0 +1,99 @@
+{
+  "projectName": "egui",
+  "projectPurpose": "To provide an easy-to-use, immediate mode GUI library in Rust that supports both native and web platforms.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Immediate mode GUI paradigm",
+    "Easy-to-use API",
+    "Written in Rust",
+    "Cross-platform (Native and WebAssembly)",
+    "Lightweight"
+  ],
+  "website": "https://github.com/emilk/egui",
+  "alternatives": [
+    {
+      "name": "dear imgui",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (Emscripten)",
+        "Consoles",
+        "Mobile",
+        "Embedded"
+      ],
+      "mainFeatures": [
+        "Immediate mode GUI",
+        "Lightweight and portable",
+        "Rendering backend agnostic",
+        "Suitable for tools and debugging"
+      ],
+      "website": "https://github.com/ocornut/imgui"
+    },
+    {
+      "name": "iced",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Elm architecture",
+        "Cross-platform (Native and Web)",
+        "Functional-reactive paradigm",
+        "Uses wgpu or glow for rendering"
+      ],
+      "website": "https://github.com/iced-rs/iced"
+    },
+    {
+      "name": "Qt",
+      "license": "Open Source (GPL/LGPL), Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "Mobile",
+        "Embedded"
+      ],
+      "mainFeatures": [
+        "Comprehensive retained mode framework",
+        "Large widget set",
+        "QML for declarative UI",
+        "Strong tooling"
+      ],
+      "website": "https://www.qt.io/"
+    },
+    {
+      "name": "Electron",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Uses web technologies (HTML, CSS, JS)",
+        "Access to Node.js APIs",
+        "Large ecosystem",
+        "Automatic updates"
+      ],
+      "website": "https://www.electronjs.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Qt",
+    "Electron"
+  ],
+  "marketPositioning": "egui is positioned as an easy-to-use, immediate mode GUI library for Rust developers. Its core value proposition lies in combining the benefits of the immediate mode paradigm (simplicity for certain use cases like tools and debugging) with the performance and safety guarantees of Rust. It stands out from larger, retained-mode frameworks like Qt or GTK by offering a different UI programming model and a focus on simplicity. Compared to other Rust GUI toolkits, its immediate mode nature and strong web support are key differentiators. It competes with immediate mode libraries like dear imgui but offers a native Rust implementation. Its cross-platform capability, especially supporting both native and web from a single codebase, makes it a compelling choice for developers seeking a straightforward, performant, and versatile GUI solution in the Rust ecosystem."
+}

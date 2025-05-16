@@ -1,0 +1,96 @@
+{
+  "projectName": "r-nacos",
+  "projectPurpose": "To provide a high-performance, memory-safe, and efficient alternative implementation of the Nacos server for dynamic service discovery and configuration management using the Rust programming language.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Service Discovery",
+    "Dynamic Configuration Management"
+  ],
+  "website": "https://github.com/r-nacos/r-nacos",
+  "alternatives": [
+    {
+      "name": "Consul",
+      "license": "Open Source - MPL 2.0, Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Service Discovery",
+        "Health Checking",
+        "Key/Value Store",
+        "Multi-Datacenter"
+      ],
+      "website": "https://www.consul.io/"
+    },
+    {
+      "name": "etcd",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Distributed Key-Value Store",
+        "Configuration Management",
+        "Service Discovery",
+        "Leader Election"
+      ],
+      "website": "https://etcd.io/"
+    },
+    {
+      "name": "Apache ZooKeeper",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java-based (runs on various OS)"
+      ],
+      "mainFeatures": [
+        "Distributed Coordination",
+        "Configuration Management",
+        "Naming Service",
+        "Distributed Synchronization"
+      ],
+      "website": "https://zookeeper.apache.org/"
+    },
+    {
+      "name": "Spring Cloud Config",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java-based (runs on various OS)"
+      ],
+      "mainFeatures": [
+        "Centralized Configuration Management",
+        "Multiple Backend Support (Git, Vault, etc.)",
+        "Dynamic Updates",
+        "Environment Profiles"
+      ],
+      "website": "https://spring.io/projects/spring-cloud-config"
+    },
+    {
+      "name": "Eureka",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java-based (runs on various OS)"
+      ],
+      "mainFeatures": [
+        "Service Registration and Discovery",
+        "High Availability",
+        "Resilience",
+        "Client-side and Server-side Discovery"
+      ],
+      "website": "https://github.com/Netflix/eureka"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Consul",
+    "etcd"
+  ],
+  "marketPositioning": "r-nacos is positioned as a Rust-based re-implementation of the popular Nacos server. It enters the market for service discovery and configuration management, competing directly with the original Java-based Nacos and other established tools like Consul and etcd. Its key differentiator is leveraging the performance, memory safety, and concurrency benefits of the Rust programming language, targeting users who prioritize these technical advantages for critical infrastructure components. While potentially offering a smaller feature set initially compared to mature platforms, it appeals to the Rust ecosystem and those seeking highly efficient cloud-native infrastructure."
+}

@@ -1,0 +1,69 @@
+{
+  "projectName": "min-sized-rust",
+  "projectPurpose": "A guide and collection of techniques for minimizing the size of compiled Rust binaries.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Comprehensive guide on Rust binary size reduction",
+    "Explanation of compiler flags and options",
+    "Advice on linker usage and options",
+    "Recommendations for binary size analysis tools",
+    "Tips for code-level size optimizations"
+  ],
+  "website": "https://github.com/johnthagen/min-sized-rust",
+  "alternatives": [
+    {
+      "name": "cargo-bloat",
+      "license": "Open Source (MIT/Apache-2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Analyze binary size contribution by function",
+        "Dependency size analysis",
+        "Compare size between builds",
+        "Output in various formats"
+      ],
+      "website": "https://github.com/RazrFalcon/cargo-bloat"
+    },
+    {
+      "name": "twiggy",
+      "license": "Open Source (MIT/Apache-2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Code size profiling (functions, types, etc.)",
+        "Supports WebAssembly and native binaries",
+        "Hierarchical view of size contributions",
+        "Diffing builds for size changes"
+      ],
+      "website": "https://github.com/rustwasm/twiggy"
+    },
+    {
+      "name": "Rustc Documentation",
+      "license": "Permissive",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Official details on compiler flags and options",
+        "Explanation of optimization levels (opt-level)",
+        "Information on Link Time Optimization (LTO)",
+        "Details on code generation units"
+      ],
+      "website": "https://doc.rust-lang.org/rustc/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "cargo-bloat",
+    "twiggy",
+    "Official Rust Documentation on compilation/optimization"
+  ],
+  "marketPositioning": "min-sized-rust is positioned as a curated, comprehensive guide that educates Rust developers on techniques and tools for reducing binary size. It complements official documentation and analysis tools like cargo-bloat by providing a centralized, practical resource for optimizing compiled Rust executables, rather than being a tool that performs the action itself."
+}

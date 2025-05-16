@@ -1,0 +1,142 @@
+{
+  "projectName": "ja4",
+  "projectPurpose": "To provide a comprehensive and modular set of standards and implementations for network fingerprinting across various protocols, improving network security analysis, threat hunting, and the identification of malicious activity in encrypted traffic.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Suite of network fingerprinting methods (JA4, JA4S, JA4H, JA4L, JA4X, JA4SSH, JA4T, JA4TS, JA4TScan)",
+    "Fingerprinting for multiple protocols (TLS, HTTP, SSH, TCP, QUIC, X.509 certificates)",
+    "Human and machine-readable fingerprints",
+    "Modular fingerprint format (a_b_c) allowing for granular analysis",
+    "Successor to JA3 TLS fingerprinting"
+  ],
+  "website": "https://github.com/FoxIO-LLC/ja4",
+  "alternatives": [
+    {
+      "name": "JA3/JA3S",
+      "license": "Open Source (BSD 3-Clause or similar)",
+      "platforms": "Platform-independent (method/standard), implementations available for various platforms/tools",
+      "mainFeatures": [
+        "TLS client fingerprinting",
+        "TLS server fingerprinting",
+        "Based on TLS handshake parameters",
+        "Generates MD5 hashes"
+      ],
+      "website": "https://github.com/salesforce/ja3"
+    },
+    {
+      "name": "HASSH",
+      "license": "Open Source (Likely similar to BSD 3-Clause)",
+      "platforms": "Platform-independent (method/standard), implementations available in various tools",
+      "mainFeatures": [
+        "SSH client fingerprinting",
+        "SSH server fingerprinting",
+        "Identifies SSH client/server implementations"
+      ],
+      "website": "https://github.com/salesforce/hassh"
+    },
+    {
+      "name": "p0f",
+      "license": "Open Source (GPLv2)",
+      "platforms": [
+        "Linux",
+        "FreeBSD",
+        "OpenBSD",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Passive OS fingerprinting",
+        "Analyzes TCP/IP stack details",
+        "Identifies connection types",
+        "Low-level network analysis"
+      ],
+      "website": "http://lcamtuf.coredump.cx/p0f3/"
+    },
+    {
+      "name": "Zeek",
+      "license": "Open Source (BSD 3-clause)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "Network security monitoring (NSM)",
+        "Deep packet inspection",
+        "Extensive logging",
+        "Scripting for custom analysis and detection",
+        "Supports various fingerprinting techniques (JA3, HASSH, etc. via scripts)"
+      ],
+      "website": "https://zeek.org/"
+    },
+    {
+      "name": "Suricata",
+      "license": "Open Source (GPLv2)",
+      "platforms": [
+        "Linux",
+        "FreeBSD",
+        "OpenBSD",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Intrusion Detection System (IDS)",
+        "Intrusion Prevention System (IPS)",
+        "Network Security Monitoring (NSM)",
+        "Deep packet inspection",
+        "Supports HASSH and exploring/implementing JA4+"
+      ],
+      "website": "https://suricata.io/"
+    },
+    {
+      "name": "tshark",
+      "license": "Open Source (GPLv2)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Network packet capture",
+        "Protocol dissection",
+        "Filtering network traffic",
+        "Command-line interface"
+      ],
+      "website": "https://www.wireshark.org/docs/wsug_html_chunked/AppToolstshark.html"
+    },
+    {
+      "name": "Fatt",
+      "license": "Open Source",
+      "platforms": "Requires tshark (Windows, macOS, Linux, BSD)",
+      "mainFeatures": [
+        "Extracts network metadata",
+        "Acquires JA3 fingerprints",
+        "Acquires HASSH fingerprints",
+        "Supports various protocols (HTTP, SSH, SSL/TLS, RDP)"
+      ],
+      "website": "https://github.com/census-labs/fatt"
+    },
+    {
+      "name": "JARM",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": "Go (portable)",
+      "mainFeatures": [
+        "Active TLS server fingerprinting",
+        "Sends specific TLS probes",
+        "Generates a fuzzy hash for identification"
+      ],
+      "website": "https://github.com/salesforce/jarm"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "JA3 (as a fingerprinting standard)",
+    "Zeek (as a comprehensive NSM platform)",
+    "Suricata (as a comprehensive IDS/IPS/NSM platform)"
+  ],
+  "marketPositioning": "JA4+ is positioned as the next-generation suite of network fingerprinting standards, succeeding and improving upon the widely adopted JA3. It differentiates itself by offering broader protocol support, a modular and human-readable fingerprint format for granular analysis, improved evasion resistance, and extensibility. It serves as a foundational technology for network security, providing advanced fingerprinting capabilities that can be integrated into various existing security tools and platforms (NSM, IDS/IPS, threat intelligence) to enhance visibility and threat detection in encrypted traffic. Its competition lies primarily with older, less comprehensive fingerprinting standards and the fingerprinting capabilities built into broader security platforms."
+}

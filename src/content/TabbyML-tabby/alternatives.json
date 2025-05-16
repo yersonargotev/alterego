@@ -1,0 +1,112 @@
+{
+  "projectName": "tabby",
+  "projectPurpose": "To provide a self-hosted, open-source AI coding assistant that serves as a privacy-focused and on-premises alternative to cloud-based AI coding tools, offering features like code completion, chat, and code assistance with full control over data and infrastructure.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web (via Cloud IDE integration)"
+  ],
+  "mainFeatures": [
+    "Self-hosted/On-premises deployment",
+    "Open-source",
+    "AI-powered code completion",
+    "Codebase chat and interaction",
+    "Supports consumer-grade GPUs",
+    "Self-contained (no external DBMS or cloud required)",
+    "OpenAPI interface for integration",
+    "IDE integrations (VS Code, IntelliJ, Vim/NeoVIM)",
+    "Team usage analytics"
+  ],
+  "website": "https://tabby.tabbyml.com/",
+  "alternatives": [
+    {
+      "name": "GitHub Copilot",
+      "license": "Proprietary (Subscription)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "AI-powered code completion",
+        "Code suggestions based on context",
+        "Chat interface for code assistance",
+        "Integrates with major IDEs",
+        "Supports a wide range of languages"
+      ],
+      "website": "https://github.com/features/copilot/"
+    },
+    {
+      "name": "Amazon CodeWhisperer (part of Amazon Q Developer)",
+      "license": "Proprietary (Free tier for individuals, Paid for organizations)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Real-time, AI-driven code suggestions",
+        "Suggestions based on code and comments",
+        "Optimized for AWS services",
+        "Built-in security scans",
+        "Reference tracker for open-source code"
+      ],
+      "website": "https://aws.amazon.com/codewhisperer/"
+    },
+    {
+      "name": "Tabnine",
+      "license": "Proprietary (Free, Pro, Enterprise - Enterprise includes on-premises)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "AI-powered code completion (line, function)",
+        "Generates code from comments",
+        "Supports over 80 programming languages",
+        "Privacy and security focus",
+        "On-premises deployment option (Enterprise)"
+      ],
+      "website": "https://www.tabnine.com/"
+    },
+    {
+      "name": "Continue",
+      "license": "Open Source (Apache-2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "AI-powered code assistant",
+        "Inline autocomplete",
+        "Chat to understand and iterate on code",
+        "Highly customizable (add any LLM)",
+        "Supports self-hosted and cloud solutions"
+      ],
+      "website": "https://continue.dev/"
+    },
+    {
+      "name": "Cody by Sourcegraph",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Supercharges coding workflow in IDE",
+        "Leverages search for codebase context",
+        "Chat with your codebase",
+        "Inline edits and suggestions",
+        "Auto-completion"
+      ],
+      "website": "https://sourcegraph.com/cody"
+    }
+  ],
+  "mostWellKnownAlternative": "GitHub Copilot",
+  "marketPositioning": "Tabby is positioned as a leading open-source and self-hosted AI coding assistant, offering a strong alternative to proprietary cloud-based tools like GitHub Copilot and Amazon CodeWhisperer. Its core value proposition lies in providing developers and organizations with privacy, security, and data control by enabling them to run the AI models on their own infrastructure. It competes in the self-hosted segment against offerings like Tabnine Enterprise and other open-source assistants, differentiating itself through its self-contained architecture and focus on easy integration with existing development environments."
+}

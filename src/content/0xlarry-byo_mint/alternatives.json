@@ -1,0 +1,110 @@
+{
+  "projectName": "byo_mint",
+  "projectPurpose": "To provide a programmatic tool for minting compressed Non-Fungible Tokens (NFTs) on the Solana blockchain, leveraging state compression for cost efficiency and scalability.",
+  "platforms": [
+    "Solana"
+  ],
+  "mainFeatures": [
+    "Compressed NFT minting",
+    "Solana blockchain integration",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/0xlarry/byo_mint",
+  "alternatives": [
+    {
+      "name": "Metaplex Bubblegum Program",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Solana",
+        "Web (SDKs)",
+        "Rust (SDK)"
+      ],
+      "mainFeatures": [
+        "Core standard for compressed NFTs on Solana",
+        "Leverages state compression and Merkle trees",
+        "Provides instructions for cNFT creation and management",
+        "Supported by Metaplex SDKs"
+      ],
+      "website": "https://developers.metaplex.com/bubblegum"
+    },
+    {
+      "name": "Metaplex Token Metadata Program",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Solana",
+        "Web (SDKs)",
+        "Rust (SDK)"
+      ],
+      "mainFeatures": [
+        "Original Solana NFT standard",
+        "Widely supported by ecosystem (marketplaces, wallets)",
+        "Based on SPL Token program",
+        "Allows attaching rich off-chain metadata"
+      ],
+      "website": "https://developers.metaplex.com/token-metadata"
+    },
+    {
+      "name": "Crossmint",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (API/Console)"
+      ],
+      "mainFeatures": [
+        "NFT minting API (supports compressed NFTs on Solana)",
+        "No-code minting tools",
+        "Supports credit card payments for minting",
+        "Handles underlying blockchain infrastructure"
+      ],
+      "website": "https://www.crossmint.com/"
+    },
+    {
+      "name": "Helius",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (API)"
+      ],
+      "mainFeatures": [
+        "RPC provider with compressed NFT support (DAS API)",
+        "Offers simplified minting APIs",
+        "Focuses on high-performance Solana infrastructure",
+        "Provides developer tools and analytics"
+      ],
+      "website": "https://helius.xyz/"
+    },
+    {
+      "name": "Mirror World",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (SDKs)",
+        "Mobile (SDKs)"
+      ],
+      "mainFeatures": [
+        "Web3 application development platform",
+        "Includes NFT minting capabilities on Solana",
+        "Provides SDKs for various platforms",
+        "Focuses on simplifying web3 development"
+      ],
+      "website": "https://www.mirrorworld.fun/"
+    },
+    {
+      "name": "Nifty Asset Standard (Nifty OSS)",
+      "license": "Open Source",
+      "platforms": [
+        "Solana",
+        "Web (SDKs)"
+      ],
+      "mainFeatures": [
+        "New single-account digital asset standard on Solana",
+        "Aims for reduced storage and compute costs",
+        "Supports features via extensions (traits, metadata, royalties)",
+        "Open-source protocols and tools"
+      ],
+      "website": "https://niftyoss.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Metaplex",
+    "Metaplex Bubblegum Program"
+  ],
+  "marketPositioning": "byo_mint is an open-source program, written in Rust, designed for minting compressed Non-Fungible Tokens (NFTs) on the Solana blockchain. It focuses specifically on leveraging Solana's state compression technology, often implemented via the Metaplex Bubblegum program and the account-compression program, to significantly reduce the on-chain storage costs and improve the scalability of NFT minting compared to traditional Solana NFT standards. This project provides developers with a programmatic tool to implement cost-efficient and high-volume NFT minting directly within their Solana applications."
+}

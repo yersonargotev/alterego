@@ -1,0 +1,128 @@
+{
+  "projectName": "rye",
+  "projectPurpose": "To provide a unified, hassle-free, and comprehensive workflow tool for Python development, integrating Python version management, dependency management, virtual environments, and common development tasks into a single executable.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Comprehensive project and package management",
+    "Automatic Python installation and version management",
+    "Seamless dependency and virtual environment management",
+    "Bundled linting and formatting (Ruff)",
+    "Support for building and publishing packages",
+    "Facilitates global tool installations",
+    "Support for workspaces (monorepos)",
+    "Unified command-line interface",
+    "Written in Rust for performance and ease of installation"
+  ],
+  "website": "https://rye-up.com/",
+  "alternatives": [
+    {
+      "name": "pip (and venv)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Installs packages from PyPI",
+        "Manages dependencies via requirements.txt",
+        "Creates lightweight virtual environments (venv)",
+        "Comes bundled with Python"
+      ],
+      "website": "https://pip.pypa.io/"
+    },
+    {
+      "name": "pyenv (and pyenv-win)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows (pyenv-win)"
+      ],
+      "mainFeatures": [
+        "Manages multiple Python versions",
+        "Allows switching between Python versions",
+        "Supports installing various Python distributions",
+        "Integrates with virtual environment tools"
+      ],
+      "website": "https://github.com/pyenv/pyenv"
+    },
+    {
+      "name": "pipenv",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Combines package installation and virtual environments",
+        "Uses Pipfile and Pipfile.lock for dependencies",
+        "Automatically creates and manages virtual environments",
+        "Automatically installs Python versions (with pyenv/asdf)",
+        "Shows dependency graph"
+      ],
+      "website": "https://pipenv.pypa.io/"
+    },
+    {
+      "name": "Poetry",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Dependency management and packaging",
+        "Uses pyproject.toml for configuration",
+        "Robust dependency resolver",
+        "Creates and manages isolated virtual environments",
+        "Supports building and publishing packages"
+      ],
+      "website": "https://python-poetry.org/"
+    },
+    {
+      "name": "Conda (Anaconda/Miniconda)",
+      "license": "Freemium (BSD for Conda)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Cross-platform package and environment management",
+        "Manages dependencies for multiple languages",
+        "Handles different Python versions",
+        "Uses package channels (defaults, conda-forge)",
+        "Provides pre-compiled binaries"
+      ],
+      "website": "https://docs.conda.io/"
+    },
+    {
+      "name": "Hatch",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Project and dependency management",
+        "Adheres to Python standards (PEP 621, 517)",
+        "Supports custom environments",
+        "Integrated testing and coverage features"
+      ],
+      "website": "https://hatch.pypa.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Poetry",
+    "pipenv",
+    "Conda"
+  ],
+  "marketPositioning": "Rye is positioned as an ambitious, all-in-one workflow tool aiming to be the 'Cargo for Python'. It seeks to provide a single, streamlined, and hassle-free experience for Python development by deeply integrating Python version management, dependency management, virtual environments, and common tooling (linting, formatting, building, publishing). Unlike alternatives that often require combining separate tools (e.g., pyenv + pip + venv), Rye bundles these functionalities, leveraging a fast Rust backend and pre-compiled Python distributions for easy installation and performance. Its market position is that of a modern, opinionated solution seeking to simplify and unify the often fragmented Python tooling landscape, particularly appealing to developers looking for a more cohesive experience from project initialization to deployment."
+}

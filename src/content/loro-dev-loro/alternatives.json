@@ -1,0 +1,92 @@
+{
+  "projectName": "loro",
+  "projectPurpose": "To provide a high-performance state management library using CRDTs to enable seamless real-time collaboration and time-travel capabilities in applications.",
+  "platforms": [
+    "Cross-platform (via Rust and potential bindings/WASM)"
+  ],
+  "mainFeatures": [
+    "Seamless collaboration",
+    "Effortless time-travel features",
+    "Utilizes CRDTs for state management",
+    "High performance (written in Rust)"
+  ],
+  "website": "https://github.com/loro-dev/loro",
+  "alternatives": [
+    {
+      "name": "Yjs",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web (JavaScript/WASM)",
+        "Various (via bindings)"
+      ],
+      "mainFeatures": [
+        "High-performance CRDT (YATA algorithm)",
+        "Real-time collaborative editing",
+        "Large ecosystem and editor integrations",
+        "Support for various data types (Text, Array, Map, XML)"
+      ],
+      "website": "https://yjs.dev/"
+    },
+    {
+      "name": "Automerge",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web (JavaScript/WASM)",
+        "Various (via Rust implementation)"
+      ],
+      "mainFeatures": [
+        "JSON-like CRDT data structure (RGA algorithm)",
+        "Concurrent modification and automatic merging",
+        "Offline-first support",
+        "Rust and JavaScript implementations"
+      ],
+      "website": "https://automerge.org/"
+    },
+    {
+      "name": "Y-Octo",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Various (via Rust and bindings)"
+      ],
+      "mainFeatures": [
+        "Tiny, ultra-fast CRDT",
+        "Yjs compatibility (YATA algorithm)",
+        "Supports collaborative text, array, map, xml",
+        "Thread-safe state sync"
+      ],
+      "website": "https://github.com/y-crdt/y-octo"
+    },
+    {
+      "name": "json-joy",
+      "license": "Open Source",
+      "platforms": [
+        "Web (JavaScript)"
+      ],
+      "mainFeatures": [
+        "High-performance JSON CRDT (Block-wise RGA algorithm)",
+        "Fast list CRDT operations",
+        "Supports JSON data types"
+      ],
+      "website": "https://github.com/streamich/json-joy"
+    },
+    {
+      "name": "Evolu",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Local-first framework based on SQLite",
+        "CRDT-based synchronization",
+        "Supports SQL queries",
+        "Designed for general-purpose apps"
+      ],
+      "website": "https://evolu.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Yjs"
+  ],
+  "marketPositioning": "Loro positions itself as a high-performance, Rust-based CRDT framework for state management, emphasizing seamless collaboration and effortless time-travel. It competes in the growing market for local-first and collaborative applications, offering a performant alternative to established CRDT libraries like Yjs and Automerge, particularly highlighting its potential for efficient state synchronization and the inherent time-travel benefits of its CRDT implementation."
+}

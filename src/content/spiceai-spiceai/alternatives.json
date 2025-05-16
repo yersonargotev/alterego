@@ -1,0 +1,96 @@
+{
+  "projectName": "spiceai",
+  "projectPurpose": "To provide a portable, accelerated, and unified data access layer for applications and AI workloads across diverse data sources, enabling fast queries and data-grounded AI.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "Docker",
+    "Kubernetes"
+  ],
+  "mainFeatures": [
+    "Unified SQL query interface across databases, data warehouses, and data lakes.",
+    "Portable runtime for co-locating data access with applications and AI agents.",
+    "Data acceleration through local materialization and caching using embedded engines (DuckDB, SQLite, Arrow).",
+    "Integrated AI inference capabilities with OpenAI-compatible APIs.",
+    "Multiple standard APIs supported (HTTP, Arrow Flight, ODBC, JDBC, ADBC, Iceberg Catalog, MCP).",
+    "Open Source and self-hostable."
+  ],
+  "website": "https://spiceai.org/",
+  "alternatives": [
+    {
+      "name": "Trino",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Docker",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Distributed SQL query engine for federated data sources.",
+        "Connectors for numerous databases, data lakes, and other systems.",
+        "High performance for analytical queries.",
+        "Scalable, fault-tolerant architecture."
+      ],
+      "website": "https://trino.io/"
+    },
+    {
+      "name": "Dremio",
+      "license": "Commercial (Community Edition available)",
+      "platforms": [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Data lakehouse platform with integrated SQL engine.",
+        "Data virtualization across diverse sources.",
+        "Data acceleration using Reflections.",
+        "Self-service data access."
+      ],
+      "website": "https://www.dremio.com/"
+    },
+    {
+      "name": "Denodo Platform",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Enterprise data virtualization platform.",
+        "Connects to and abstracts numerous data sources.",
+        "Real-time data access without replication.",
+        "Data catalog and governance features."
+      ],
+      "website": "https://www.denodo.com/"
+    },
+    {
+      "name": "Apache Spark",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Kubernetes",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Unified analytics engine for large-scale data processing.",
+        "Spark SQL for structured data queries.",
+        "Supports batch and stream processing.",
+        "Integrates with a wide range of data sources."
+      ],
+      "website": "https://spark.apache.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Trino",
+    "Dremio",
+    "Apache Spark"
+  ],
+  "marketPositioning": "Spice AI positions itself as an application-focused, portable data acceleration and query engine with integrated AI inference capabilities. Unlike centralized data virtualization/federation platforms (Trino, Denodo, Dremio) or broad processing engines (Spark), Spice emphasizes co-locating data access and acceleration directly with applications and AI agents to provide low-latency data for data-grounded AI and interactive experiences. Its unique combination of unified SQL, portable runtime, local data materialization/acceleration, and integrated AI APIs targets developers building AI-native applications that require fast, relevant data at the edge or within the application stack."
+}

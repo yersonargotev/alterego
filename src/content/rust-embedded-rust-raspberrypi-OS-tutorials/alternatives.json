@@ -1,0 +1,100 @@
+{
+  "projectName": "rust-raspberrypi-OS-tutorials",
+  "projectPurpose": "To educate individuals on the fundamental concepts and practical implementation of writing an operating system kernel for embedded systems using the Rust programming language, specifically targeting Raspberry Pi boards.",
+  "platforms": [
+    "Raspberry Pi 3",
+    "Raspberry Pi 4",
+    "QEMU (emulator)"
+  ],
+  "mainFeatures": [
+    "Step-by-step tutorial for writing an OS kernel from scratch",
+    "Focuses on ARMv8-A architecture",
+    "Covers core OS concepts (memory, exceptions, I/O)",
+    "Uses the Rust programming language",
+    "Each tutorial is a bootable kernel binary",
+    "Designed for hobbyists and beginners in OS development"
+  ],
+  "website": "https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials",
+  "alternatives": [
+    {
+      "name": "Operating System Concepts (Textbook)",
+      "license": "Proprietary (Textbook)",
+      "platforms": [
+        "N/A (Concepts applicable to various platforms)"
+      ],
+      "mainFeatures": [
+        "Comprehensive theoretical OS concepts",
+        "Covers process management, memory management, storage",
+        "Includes examples from real operating systems (Linux, Windows, macOS)",
+        "Exercises and programming problems",
+        "Often used in academic settings"
+      ],
+      "website": "https://www.os-book.com/"
+    },
+    {
+      "name": "The Embedded Rust Book",
+      "license": "Open Source - CC-BY-SA 4.0",
+      "platforms": [
+        "N/A (Focuses on ARM Cortex-M examples, concepts general)"
+      ],
+      "mainFeatures": [
+        "Introduction to embedded Rust on bare metal",
+        "Setting up embedded Rust development environment",
+        "Best practices for embedded Rust",
+        "Covers hardware interfacing (GPIO, peripherals)",
+        "Aims for writing correct embedded software with Rust"
+      ],
+      "website": "https://docs.rust-embedded.org/book/"
+    },
+    {
+      "name": "xv6 (Educational Operating System)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "x86",
+        "RISC-V (primarily via emulation)"
+      ],
+      "mainFeatures": [
+        "Simple, Unix-like teaching OS",
+        "Accompanied by a concise book",
+        "Designed to illustrate OS concepts",
+        "Written in C",
+        "Runs on emulators like QEMU"
+      ],
+      "website": "https://xv6.dgs.name/"
+    },
+    {
+      "name": "Linux Kernel Development Resources",
+      "license": "Open Source - GPL-2.0 (for Linux Kernel)",
+      "platforms": [
+        "Various (where Linux runs)"
+      ],
+      "mainFeatures": [
+        "Documentation on Linux kernel internals",
+        "Guides for contributing to the Linux kernel",
+        "Covers kernel architecture and subsystems",
+        "Large, complex, real-world OS",
+        "Community-driven development process"
+      ],
+      "website": "https://www.kernel.org/"
+    },
+    {
+      "name": "Online OS Courses (e.g., Coursera, edX)",
+      "license": "Proprietary (Enrollment Fee)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Structured course format (videos, readings)",
+        "Covers fundamental OS concepts",
+        "Includes assignments and quizzes",
+        "Taught by academics/industry experts",
+        "May offer certificates"
+      ],
+      "website": "https://www.coursera.org/courses?query=operating%20system"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Operating System Concepts (Textbook)"
+  ],
+  "marketPositioning": "The rust-raspberrypi-OS-tutorials project is positioned as a practical, hands-on, and hardware-specific tutorial series for learning the fundamentals of embedded operating system development. It uniquely combines the modern Rust programming language with the popular and accessible Raspberry Pi platform, targeting hobbyists and those new to ARMv8-A bare-metal development. Unlike purely theoretical resources or educational OSes using older languages/hardware, it offers a step-by-step guide to building a functional kernel on widely available boards, emphasizing user-friendliness and practical application."
+}

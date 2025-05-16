@@ -1,0 +1,123 @@
+{
+  "projectName": "trippy",
+  "projectPurpose": "To provide a modern, comprehensive, and user-friendly network diagnostic tool for troubleshooting connectivity and performance issues by combining and enhancing the functionalities of traditional tools like ping, traceroute, and MTR, offering deeper insights, better visualization (via TUI), and more control across various platforms.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "BSD"
+  ],
+  "mainFeatures": [
+    "Combines functionality of traceroute and ping",
+    "Modern, cross-platform, feature-rich alternative to MTR with a fancy TUI",
+    "Supports multiple protocols: ICMP, UDP, TCP over IPv4 & IPv6",
+    "Provides per-hop statistics (sent, received, loss%, RTT stats, jitter, status)",
+    "Supports Equal Cost Multi-path Routing strategies (classic, paris, dublin)",
+    "Interactive GeoIp world map and ASN lookups",
+    "Traces multiple targets simultaneously",
+    "Highly customizable TUI and tracing options",
+    "Forward and reverse packet loss analysis"
+  ],
+  "website": "https://trippy.cli.rs/",
+  "alternatives": [
+    {
+      "name": "ping",
+      "license": "Open Source (OS dependent)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Most network-enabled systems"
+      ],
+      "mainFeatures": [
+        "Tests host reachability using ICMP",
+        "Measures Round-Trip Time (RTT)",
+        "Reports packet loss",
+        "Provides basic statistics",
+        "Tests DNS resolution"
+      ],
+      "website": "N/A (Built-in OS command)"
+    },
+    {
+      "name": "traceroute / tracert",
+      "license": "Open Source (OS dependent)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Most network-enabled systems"
+      ],
+      "mainFeatures": [
+        "Maps the network path to a destination",
+        "Identifies intermediate hops (routers)",
+        "Measures RTT to each hop",
+        "Uses varying TTL values",
+        "Helps locate points of delay or failure"
+      ],
+      "website": "N/A (Built-in OS command)"
+    },
+    {
+      "name": "MTR (My Traceroute)",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Windows (via WinMTR)"
+      ],
+      "mainFeatures": [
+        "Combines ping and traceroute functionality",
+        "Continuously probes the network path",
+        "Provides real-time statistics (packet loss, latency) per hop",
+        "Displays results in a table format",
+        "Identifies problematic network segments"
+      ],
+      "website": "N/A (Often distributed via OS package managers)"
+    },
+    {
+      "name": "Wireshark",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Network protocol analyzer",
+        "Captures and interactively browses network traffic",
+        "Deep inspection of hundreds of protocols",
+        "Filtering and analysis capabilities",
+        "Supports various capture file formats"
+      ],
+      "website": "https://www.wireshark.org/"
+    },
+    {
+      "name": "SolarWinds Network Performance Monitor (NPM)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Linux (agents)",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Comprehensive network performance monitoring",
+        "Real-time and historical statistics",
+        "Network mapping and topology visualization",
+        "Automated alerting",
+        "Deep Packet Inspection (DPI)"
+      ],
+      "website": "https://www.solarwinds.com/network-performance-monitor"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ping",
+    "traceroute",
+    "MTR",
+    "Wireshark"
+  ],
+  "marketPositioning": "Trippy is positioned as a modern, advanced, and highly customizable command-line/TUI network diagnostic tool that builds upon the foundation of traditional utilities like ping, traceroute, and MTR. It offers a richer feature set than standard MTR, including advanced ECMP support, forward/reverse loss analysis, jitter measurement, and enhanced visualization, while remaining open-source and cross-platform. It targets network professionals and power users who need detailed network path and performance analysis capabilities beyond what basic built-in tools provide, differentiating itself from comprehensive enterprise monitoring suites by its focus on direct, on-demand diagnostics via a powerful terminal interface."
+}

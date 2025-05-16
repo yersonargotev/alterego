@@ -1,0 +1,150 @@
+{
+  "projectName": "flawz",
+  "projectPurpose": "To provide a convenient, terminal-based interface for browsing and searching security vulnerabilities (CVEs), primarily using data from the National Vulnerability Database (NVD).",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "NetBSD"
+  ],
+  "mainFeatures": [
+    "Terminal User Interface (TUI) for browsing CVEs",
+    "Search and list vulnerabilities from NVD",
+    "Customizable theming options",
+    "Easy installation via package managers (cargo, pacman, apk, Homebrew, Nixpkgs, NetBSD)",
+    "Options for force data update and offline mode"
+  ],
+  "website": "https://github.com/orhun/flawz",
+  "alternatives": [
+    {
+      "name": "National Vulnerability Database (NVD)",
+      "license": "U.S. Government work (Public Domain)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Central repository of vulnerability management data",
+        "Enriched CVE data (CVSS scores, CPE, summaries, references)",
+        "Search and filtering capabilities",
+        "Data feeds (XML, JSON, CSV)",
+        "Supports automation via SCAP"
+      ],
+      "website": "https://nvd.nist.gov/"
+    },
+    {
+      "name": "MITRE CVE",
+      "license": "Open Source (CVE Terms of Use)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Assigns CVE IDs to publicly disclosed vulnerabilities",
+        "Provides a standardized list of vulnerabilities",
+        "Basic vulnerability information",
+        "Search functionality",
+        "API for programmatic access"
+      ],
+      "website": "https://www.cve.org/"
+    },
+    {
+      "name": "cve-search",
+      "license": "Open Source (AGPL-3.0)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via Docker)"
+      ],
+      "mainFeatures": [
+        "Import CVE and CPE data into a local database (MongoDB)",
+        "Perform local searches for vulnerabilities",
+        "Web interface for search and management",
+        "Tools for querying the system",
+        "Web API interface"
+      ],
+      "website": "https://github.com/cve-search/cve-search"
+    },
+    {
+      "name": "OpenCVE",
+      "license": "Open Source (AGPL-3.0)",
+      "platforms": [
+        "Web",
+        "Linux (Self-hosted)"
+      ],
+      "mainFeatures": [
+        "Aggregates data from multiple CVE providers",
+        "Web interface with dashboards and filtering",
+        "Organize subscriptions into projects",
+        "Advanced notification methods (email, webhooks)",
+        "Customizable dashboards and views"
+      ],
+      "website": "https://www.opencve.io/"
+    },
+    {
+      "name": "CVEdetails.com",
+      "license": "Proprietary (Free access with limitations)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Comprehensive CVE database",
+        "Includes advisories, exploits, and tools information",
+        "Advanced filtering and search options",
+        "Tracks vulnerabilities in CISA KEV catalog",
+        "Provides EPSS scores"
+      ],
+      "website": "https://www.cvedetails.com/"
+    },
+    {
+      "name": "CVE-Dash",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Terminal-based dashboard for NVD exploration",
+        "Search by vendor, product, date, and severity",
+        "View detailed vulnerability information (CVSS, attack vectors)",
+        "Export findings to markdown",
+        "Save vulnerabilities for later reference"
+      ],
+      "website": "https://github.com/zlac261/cve-dash"
+    },
+    {
+      "name": "Vulners.com",
+      "license": "Proprietary (Offers free tier)",
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "mainFeatures": [
+        "Security intelligence search engine",
+        "Aggregates vulnerability data from various sources",
+        "Provides information on exploits and patches",
+        "API for integration",
+        "Offers vulnerability scanning services"
+      ],
+      "website": "https://vulners.com/"
+    },
+    {
+      "name": "OSV.dev",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "mainFeatures": [
+        "Focuses on open-source software vulnerabilities",
+        "Aggregates data from multiple sources (including NVD, GitHub Advisories)",
+        "Provides vulnerability data in OSV format",
+        "API for accessing vulnerability information",
+        "Alerts about malicious packages"
+      ],
+      "website": "https://osv.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "National Vulnerability Database (NVD)"
+  ],
+  "marketPositioning": "flawz is positioned as a lightweight, terminal-native tool for quick and convenient browsing of CVE data, primarily from NVD. Its focus on a TUI provides a distinct experience compared to web-based databases or more complex vulnerability management platforms. It appeals to users who prefer command-line workflows and need direct access to vulnerability information without the overhead of a full web application or local database setup required by some alternatives. Its ease of installation across various platforms is a key differentiator for users already accustomed to package managers."
+}

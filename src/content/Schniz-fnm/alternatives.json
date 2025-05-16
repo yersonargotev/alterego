@@ -1,0 +1,116 @@
+{
+  "projectName": "fnm",
+  "projectPurpose": "To provide a fast, simple, and cross-platform command-line tool for managing multiple Node.js versions.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Fast Node.js version switching",
+    "Simple command-line interface",
+    "Cross-platform compatibility (native)",
+    "Built in Rust for performance",
+    "Supports .nvmrc files for project versions"
+  ],
+  "website": "https://github.com/Schniz/fnm",
+  "alternatives": [
+    {
+      "name": "nvm",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows WSL"
+      ],
+      "mainFeatures": [
+        "Install specific Node.js versions",
+        "Switch between versions",
+        "Supports .nvmrc files",
+        "Supports LTS aliases"
+      ],
+      "website": "https://github.com/nvm-sh/nvm"
+    },
+    {
+      "name": "n",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows WSL"
+      ],
+      "mainFeatures": [
+        "Install Node.js versions",
+        "Interactive version selection",
+        "Read version from package.json engines field"
+      ],
+      "website": "https://github.com/tj/n"
+    },
+    {
+      "name": "nvs",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Cross-platform support",
+        "Switch between Node.js versions and forks",
+        "Interactive menus"
+      ],
+      "website": "https://github.com/jasongin/nvs"
+    },
+    {
+      "name": "volta",
+      "license": "Open Source - BSD 2-Clause",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Per-project toolchain management (.voltarc or package.json)",
+        "Automatically switches Node, npm/yarn/pnpm versions",
+        "Manages global tool binaries",
+        "Built in Rust for speed"
+      ],
+      "website": "https://volta.sh/"
+    },
+    {
+      "name": "asdf",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Universal version manager (polyglot)",
+        "Plugin system for various languages",
+        "Consistent CLI",
+        "Supports .tool-versions and other config files"
+      ],
+      "website": "https://asdf-vm.com/"
+    },
+    {
+      "name": "mise",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast (built in Rust)",
+        "asdf-compatible (uses asdf plugins)",
+        "Polyglot runtime manager",
+        "Supports .tool-versions, .nvmrc, .node-version"
+      ],
+      "website": "https://mise-en-place.github.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "nvm",
+    "nvm-windows"
+  ],
+  "marketPositioning": "Fnm positions itself as a fast, simple, and natively cross-platform Node.js version manager built with Rust. It competes primarily with nvm by offering better performance and out-of-the-box Windows support, unlike the standard nvm which is POSIX-centric. While Volta also offers speed and cross-platform support via Rust, Fnm focuses solely on Node.js version management, providing a less opinionated and potentially simpler solution compared to Volta's broader toolchain management. Against universal managers like asdf and mise, Fnm offers a specialized tool for users who only need Node.js versioning, potentially simplifying setup. Its core appeal lies in its speed and seamless cross-platform usability powered by Rust."
+}

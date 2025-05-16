@@ -1,0 +1,122 @@
+{
+  "projectName": "mcfly",
+  "projectPurpose": "To provide an intelligent, context-aware, and user-friendly replacement for the standard shell history search.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Replaces default Ctrl+R shell history search",
+    "Intelligent search engine with neural network prioritization",
+    "Context-aware suggestions (working directory, recent commands, exit status)",
+    "Augments history with metadata in SQLite database",
+    "Maintains original shell history file",
+    "Full-screen interactive interface"
+  ],
+  "website": "https://github.com/cantino/mcfly",
+  "alternatives": [
+    {
+      "name": "Default Shell History Search (e.g., Bash/Zsh)",
+      "license": "Varies by shell (e.g., GPL, MIT/BSD)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Windows (via WSL)"
+      ],
+      "mainFeatures": [
+        "Reverse incremental search (Ctrl+R)",
+        "Substring matching",
+        "Cycle through matches",
+        "Basic history file management"
+      ],
+      "website": "N/A (Built into the shell)"
+    },
+    {
+      "name": "fzf",
+      "license": "MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "General-purpose fuzzy finder",
+        "Interactive full-screen interface",
+        "Integrates with shell history search (Ctrl+R)",
+        "Fast and customizable",
+        "Supports various lists (files, history, processes)"
+      ],
+      "website": "https://github.com/junegunn/fzf"
+    },
+    {
+      "name": "Atuin",
+      "license": "MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Sync history across multiple machines",
+        "Stores history in SQLite database",
+        "Enhanced history search with context (hostname, exit code)",
+        "Optional end-to-end encryption",
+        "Command duration tracking"
+      ],
+      "website": "https://atuin.sh/"
+    },
+    {
+      "name": "Advanced Shell History",
+      "license": "MIT",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Logs history to SQLite database",
+        "Records exit code, duration, and working directory",
+        "Query history database via command-line tool",
+        "Supports Bash and Zsh"
+      ],
+      "website": "https://github.com/barabo/advanced-shell-history"
+    },
+    {
+      "name": "zsh-autosuggestions",
+      "license": "MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Suggests commands as you type",
+        "Based on history and completions",
+        "Fish-like suggestion behavior",
+        "Configurable suggestion strategy"
+      ],
+      "website": "https://github.com/zsh-users/zsh-autosuggestions"
+    },
+    {
+      "name": "history-search-multi-word",
+      "license": "MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Search history by multiple words",
+        "Matches words in any order",
+        "Zsh plugin",
+        "Integrates with Ctrl+R"
+      ],
+      "website": "https://github.com/matthewnessworthy/history-search-multi-word"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "fzf"
+  ],
+  "marketPositioning": "McFly positions itself as a smart, context-aware replacement for the standard shell history search (Ctrl+R). Its key differentiator is its intelligent prioritization of command suggestions using a small neural network and contextual information like the current directory and command exit status. While other tools like fzf offer fuzzy search and interactive interfaces, McFly focuses specifically on enhancing the history search experience with machine learning to provide more relevant results. It competes with simpler built-in shell features, general-purpose fuzzy finders, and more comprehensive history management/sync tools by emphasizing its intelligent, context-sensitive suggestion ranking and user-friendly interface."
+}

@@ -1,0 +1,155 @@
+{
+  "projectName": "cloud-hypervisor",
+  "projectPurpose": "To provide a fast, secure, and lightweight Virtual Machine Monitor specifically designed for modern cloud workloads, efficiently running contemporary operating systems with minimal overhead and a reduced attack surface.",
+  "platforms": [
+    "Linux (KVM)",
+    "Windows (MSHV)"
+  ],
+  "mainFeatures": [
+    "Virtual Machine Monitor for modern Cloud workloads",
+    "CPU, memory, and device hotplug",
+    "Support for running Windows and Linux guests",
+    "Device offload with vhost-user",
+    "Minimal compact footprint and emulation",
+    "Written in Rust with a strong focus on security",
+    "Supports x86-64, AArch64, and experimental riscv64 architectures",
+    "Supports paravirtualized devices (virtio)",
+    "Live migration support",
+    "Powerful REST API"
+  ],
+  "website": "https://cloudhypervisor.github.io/",
+  "alternatives": [
+    {
+      "name": "QEMU",
+      "license": "Open Source (LGPL, GPL)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Full system emulation",
+        "User-mode emulation",
+        "Hardware virtualization acceleration (with KVM, Xen)",
+        "Wide range of emulated devices",
+        "Snapshot support"
+      ],
+      "website": "https://www.qemu.org/"
+    },
+    {
+      "name": "Firecracker",
+      "license": "Open Source (Apache-2.0)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Lightweight VMM for container workloads",
+        "Minimal guest surface area for security",
+        "Uses KVM",
+        "Focus on speed and efficiency",
+        "Built for multi-tenant workloads"
+      ],
+      "website": "https://firecracker-vmm.github.io/"
+    },
+    {
+      "name": "crosvm",
+      "license": "Open Source (BSD-3-Clause)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "VMM for ChromeOS",
+        "Uses KVM",
+        "Focus on security and sandboxing",
+        "Minimal emulated devices",
+        "Written in Rust"
+      ],
+      "website": "https://chromium.googlesource.com/chromiumos/platform/crosvm/"
+    },
+    {
+      "name": "VirtualBox",
+      "license": "Proprietary (PUEL for personal/evaluation)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "User-friendly GUI",
+        "Broad guest OS support",
+        "Snapshot management",
+        "Virtual networking modes",
+        "Guest Additions"
+      ],
+      "website": "https://www.virtualbox.org/"
+    },
+    {
+      "name": "VMware vSphere/ESXi",
+      "license": "Proprietary",
+      "platforms": [
+        "Bare-metal"
+      ],
+      "mainFeatures": [
+        "Enterprise-grade virtualization platform",
+        "High availability and fault tolerance",
+        "Live migration (vMotion)",
+        "Resource management (DRS)",
+        "Broad hardware and OS support"
+      ],
+      "website": "https://www.vmware.com/products/vsphere.html"
+    },
+    {
+      "name": "Microsoft Hyper-V",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows Server",
+        "Windows Pro/Enterprise/Education"
+      ],
+      "mainFeatures": [
+        "Native Windows hypervisor",
+        "Supports Windows and Linux guests",
+        "Virtual networking",
+        "Checkpoints (snapshots)",
+        "Replication"
+      ],
+      "website": "https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/"
+    },
+    {
+      "name": "KVM",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Part of the Linux kernel",
+        "Leverages hardware virtualization",
+        "Provides core virtualization infrastructure",
+        "Used by various VMMs (QEMU, Cloud Hypervisor, Firecracker)"
+      ],
+      "website": "https://www.linux-kvm.org/"
+    },
+    {
+      "name": "Xen",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Linux",
+        "Various others"
+      ],
+      "mainFeatures": [
+        "Type 1 bare-metal hypervisor",
+        "Supports paravirtualization and full virtualization",
+        "Used in cloud environments",
+        "Live migration"
+      ],
+      "website": "https://xenproject.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "QEMU",
+    "VMware vSphere/ESXi",
+    "Microsoft Hyper-V"
+  ],
+  "marketPositioning": "Cloud Hypervisor is positioned as a modern, secure, and lightweight Virtual Machine Monitor (VMM) specifically optimized for cloud-native workloads and containerization. It differentiates itself from general-purpose VMMs like QEMU by minimizing emulation and focusing on paravirtualized I/O for a smaller attack surface and improved performance. Compared to other lightweight cloud VMMs like Firecracker, Cloud Hypervisor offers broader guest OS (Windows and Linux) and hypervisor (KVM and MSHV) compatibility. It targets users and platforms requiring secure, efficient, and scalable virtualization for contemporary applications in cloud and edge environments, often serving as a foundational component for secure container runtimes like Kata Containers, rather than being a full-fledged, user-facing virtualization platform like VirtualBox or enterprise solutions like VMware vSphere."
+}

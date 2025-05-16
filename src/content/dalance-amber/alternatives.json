@@ -1,0 +1,134 @@
+{
+  "projectName": "amber",
+  "projectPurpose": "A command-line tool for searching and replacing patterns within codebases.",
+  "platforms": [
+    "Likely Cross-platform (due to Rust) - Needs verification"
+  ],
+  "mainFeatures": [
+    "Code search",
+    "Code replace"
+  ],
+  "website": "https://github.com/dalance/amber",
+  "alternatives": [
+    {
+      "name": "grep",
+      "license": "Open Source (GNU GPL)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Other Unix-like"
+      ],
+      "mainFeatures": [
+        "Regular expression search",
+        "Line-oriented pattern matching",
+        "Standard input/output support",
+        "Various output formatting options"
+      ],
+      "website": "https://www.gnu.org/software/grep/"
+    },
+    {
+      "name": "ack",
+      "license": "Open Source (Artistic License 2.0)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (requires Perl)"
+      ],
+      "mainFeatures": [
+        "Optimized for code search",
+        "Ignores VCS and common non-code files by default",
+        "File type filtering",
+        "Portable (pure Perl)"
+      ],
+      "website": "https://beyondgrep.com/"
+    },
+    {
+      "name": "The Silver Searcher (ag)",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Very fast code search",
+        "Ignores VCS and build files",
+        "ack-compatible interface",
+        "Available on multiple platforms"
+      ],
+      "website": "https://github.com/ggreer/the_silver_searcher"
+    },
+    {
+      "name": "ripgrep (rg)",
+      "license": "Open Source (MIT or UNLICENSE)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Extremely fast (written in Rust)",
+        "Respects .gitignore",
+        "First-class Windows support",
+        "Full Unicode support",
+        "Search compressed files"
+      ],
+      "website": "https://github.com/BurntSushi/ripgrep"
+    },
+    {
+      "name": "Comby",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Structural code search and replace",
+        "Supports many programming languages",
+        "Handles syntax variations",
+        "Useful for large-scale refactoring"
+      ],
+      "website": "https://comby.dev/"
+    },
+    {
+      "name": "Semgrep",
+      "license": "Open Source (LGPL 2.1 for core) / Proprietary (AppSec Platform)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via Docker/CLI)"
+      ],
+      "mainFeatures": [
+        "Semantic code search (patterns look like code)",
+        "Finds bugs and enforces coding standards",
+        "Supports 30+ languages",
+        "Integrates with CI/CD workflows"
+      ],
+      "website": "https://semgrep.dev/"
+    },
+    {
+      "name": "Visual Studio Code",
+      "license": "Proprietary (Microsoft Software License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Multi-file search and replace (including regex)",
+        "Integrated code editor features",
+        "Large extension ecosystem",
+        "Integrated terminal and version control"
+      ],
+      "website": "https://code.visualstudio.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Visual Studio Code"
+  ],
+  "marketPositioning": "amber is a fast, command-line utility built in Rust for efficient searching and replacing of patterns within codebases. Designed as a dedicated tool for developers, it aims to provide a streamlined workflow for common code manipulation tasks, serving as a modern alternative to traditional tools like grep combined with scripting for replacement. Its positioning emphasizes performance and the combined search/replace functionality in a single command-line tool."
+}

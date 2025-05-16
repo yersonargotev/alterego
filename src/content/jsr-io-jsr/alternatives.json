@@ -1,0 +1,107 @@
+{
+  "projectName": "jsr",
+  "projectPurpose": "To provide a modern, open-source package registry specifically designed for the contemporary JavaScript and TypeScript ecosystem, addressing shortcomings of existing registries by offering features like native TypeScript support, mandatory ESM, improved security, and better developer experience across different JavaScript runtimes and package managers.",
+  "platforms": [
+    "Web",
+    "Packages usable by various JS runtimes and package managers"
+  ],
+  "mainFeatures": [
+    "Open-source package registry",
+    "Native TypeScript support (publish source directly, auto-docs)",
+    "ECMAScript Modules (ESM) only",
+    "Cross-runtime compatibility (Deno, Node.js, Bun, Cloudflare Workers, etc.)",
+    "Automatic API documentation generation",
+    "Secure publishing (OIDC, tokenless CI, provenance)",
+    "Package scoring system",
+    "Fast and efficient downloads (CDN, caching)",
+    "Immutable package uploads",
+    "Interoperability with npm and npm-compatible package managers (Yarn, pnpm)"
+  ],
+  "website": "https://jsr.io",
+  "alternatives": [
+    {
+      "name": "npm Registry (npmjs.org)",
+      "license": "Public registry is free to use (CLI is typically ISC)",
+      "platforms": [
+        "Web",
+        "Packages usable by Node.js and compatible tools"
+      ],
+      "mainFeatures": [
+        "World's largest software registry for JavaScript",
+        "Hosts public and private packages",
+        "Supports semantic versioning",
+        "Integrates with npm CLI",
+        "Supports granular access tokens for publishing"
+      ],
+      "website": "https://www.npmjs.com/"
+    },
+    {
+      "name": "Yarn",
+      "license": "Open Source (typically BSD-3-Clause)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast and reliable dependency installation",
+        "Compatible with the npm registry",
+        "Uses yarn.lock for deterministic installs",
+        "Supports workspaces",
+        "Offline installation via caching"
+      ],
+      "website": "https://yarnpkg.com/"
+    },
+    {
+      "name": "pnpm",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Efficient disk space usage (content-addressable storage)",
+        "Faster installation times",
+        "Strict dependency management",
+        "Supports workspaces",
+        "Compatible with the npm registry and JSR"
+      ],
+      "website": "https://pnpm.io/"
+    },
+    {
+      "name": "GitHub Package Registry",
+      "license": "Proprietary (part of GitHub plans)",
+      "platforms": [
+        "Web",
+        "Packages usable by various tools"
+      ],
+      "mainFeatures": [
+        "Hosts packages alongside code on GitHub",
+        "Supports various package ecosystems (including npm)",
+        "Integrates with GitHub Actions",
+        "Permissions inherited from repository access",
+        "Public and private package hosting"
+      ],
+      "website": "https://github.com/features/packages"
+    },
+    {
+      "name": "Verdaccio",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Node.js (Windows, macOS, Linux)",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Lightweight private npm proxy registry",
+        "Proxies public registries",
+        "Caches downloaded modules",
+        "Supports private package hosting",
+        "Works with npm, Yarn, and pnpm clients"
+      ],
+      "website": "https://verdaccio.org/"
+    }
+  ],
+  "mostWellKnownAlternative": "npm Registry (npmjs.org)",
+  "marketPositioning": "JSR positions itself as a modern, TypeScript-first, and runtime-agnostic package registry designed to enhance the JavaScript ecosystem. Unlike the dominant npm registry, JSR natively supports TypeScript source publishing, enforces ESM, and offers enhanced security and quality features. Its key differentiator is its focus on the evolving needs of modern JavaScript and TypeScript development across diverse runtimes, while ensuring interoperability with existing npm-based workflows and package managers like Yarn and pnpm. JSR aims to be a forward-thinking alternative and complement to the traditional npm registry."
+}

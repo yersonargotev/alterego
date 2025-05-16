@@ -1,0 +1,110 @@
+{
+  "projectName": "LO",
+  "projectPurpose": "To provide a small and simple programming language and toolchain for compiling code specifically to WebAssembly (WASM), emphasizing ease of understanding, minimal dependencies, and a small footprint.",
+  "platforms": [
+    "WebAssembly environments (browsers, servers via WASI runtimes)"
+  ],
+  "mainFeatures": [
+    "Small programming language size",
+    "Simple language design",
+    "Compiler targets WebAssembly directly",
+    "Minimal dependencies",
+    "Compiler designed to be easy to understand and modify"
+  ],
+  "website": "https://github.com/glebbash/LO",
+  "alternatives": [
+    {
+      "name": "Rust",
+      "license": "Open Source - MIT / Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "WebAssembly environments (browsers, servers via WASI runtimes)"
+      ],
+      "mainFeatures": [
+        "Memory safety without a garbage collector",
+        "Concurrency",
+        "Performance",
+        "Rich type system",
+        "Official WebAssembly target support with excellent tooling (wasm-bindgen, wasm-pack)"
+      ],
+      "website": "https://www.rust-lang.org/"
+    },
+    {
+      "name": "AssemblyScript",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "WebAssembly environments (browsers, servers via WASI runtimes)"
+      ],
+      "mainFeatures": [
+        "Strict subset of TypeScript syntax",
+        "Compiles to WebAssembly",
+        "Familiar syntax for web developers",
+        "Focuses on WebAssembly's capabilities",
+        "Integrates with npm ecosystem"
+      ],
+      "website": "https://www.assemblyscript.org/"
+    },
+    {
+      "name": "C/C++ (via Emscripten)",
+      "license": "Open Source (Emscripten has an MIT license)",
+      "platforms": [
+        "WebAssembly environments (browsers, servers via WASI runtimes)",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Compile C/C++ code to WebAssembly",
+        "Port existing C/C++ codebases to the web/WASM",
+        "Provides a POSIX-like environment emulation",
+        "Access to a vast ecosystem of C/C++ libraries",
+        "Optimization tools included"
+      ],
+      "website": "https://emscripten.org/"
+    },
+    {
+      "name": "Go (via TinyGo)",
+      "license": "Open Source - BSD-3-Clause (Go), BSD-3-Clause (TinyGo)",
+      "platforms": [
+        "WebAssembly environments (browsers, servers via WASI runtimes)",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Embedded systems"
+      ],
+      "mainFeatures": [
+        "Compile Go code to WebAssembly",
+        "Focus on small binary sizes (TinyGo)",
+        "Fast compilation times (TinyGo)",
+        "Suitable for embedded and WASM environments (TinyGo)",
+        "Concurrency features"
+      ],
+      "website": "https://tinygo.org/"
+    },
+    {
+      "name": "Blazor (C#)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web (client-side via WebAssembly)",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Build interactive web UI with C#",
+        "Runs .NET code client-side via WebAssembly",
+        "Leverages the .NET ecosystem",
+        "Component-based architecture",
+        "Integration with existing JavaScript"
+      ],
+      "website": "https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Rust",
+    "C/C++ (via Emscripten)"
+  ],
+  "marketPositioning": "LO is positioned as a minimalist programming language for WebAssembly development, prioritizing extreme simplicity, ease of understanding, and a small toolchain footprint over the extensive features and ecosystems offered by more established languages like Rust, C++, or Go. It targets developers who need a straightforward path to creating small, dependency-light WASM modules, potentially for educational purposes, micro-scripting within WASM, or resource-constrained environments where complexity and binary size are critical concerns."
+}

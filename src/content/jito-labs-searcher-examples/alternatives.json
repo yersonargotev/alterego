@@ -1,0 +1,81 @@
+{
+  "projectName": "searcher-examples",
+  "projectPurpose": "To provide developers with practical code examples in Rust for building and running MEV searcher bots that interact with Jito Labs' specialized infrastructure on the Solana blockchain, demonstrating features like transaction bundling and private submission.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Provides Rust code examples for Jito Block Engine interaction",
+    "Demonstrates building and submitting Jito transaction bundles",
+    "Includes a CLI tool for exploring Jito searcher functionality",
+    "Shows how to work with protobufs for Jito API communication"
+  ],
+  "website": "https://github.com/jito-labs/searcher-examples",
+  "alternatives": [
+    {
+      "name": "Solana Web3.js",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Web",
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Account management",
+        "Transaction building and signing",
+        "Interacting with Solana programs",
+        "Fetching blockchain data",
+        "Connecting to RPC endpoints"
+      ],
+      "website": "https://solana-labs.github.io/solana-web3.js/"
+    },
+    {
+      "name": "Solana-rs",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Client for Solana RPC and websockets",
+        "Cryptographic operations",
+        "Transaction construction",
+        "Account handling",
+        "Program interaction"
+      ],
+      "website": "https://docs.rs/solana-client/latest/solana_client/"
+    },
+    {
+      "name": "Direct RPC Interaction",
+      "license": "N/A (depends on client library)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Low-level control over RPC calls",
+        "Potential high performance",
+        "Manual protocol handling",
+        "Direct communication with Solana nodes"
+      ],
+      "website": "https://docs.solana.com/developing/clients/jsonrpc-api"
+    },
+    {
+      "name": "Other MEV Infrastructure Providers (e.g., Paladin, BloxRoute - on other chains)",
+      "license": "Varied (Proprietary/Open Source)",
+      "platforms": [
+        "Varied"
+      ],
+      "mainFeatures": [
+        "Alternative MEV relay services",
+        "Transaction ordering mechanisms",
+        "Bundle submission APIs",
+        "Different fee/tip structures"
+      ],
+      "website": "Varied"
+    }
+  ],
+  "mostWellKnownAlternative": "Solana Web3.js (for general Solana development); Jito (for Solana MEV infrastructure)",
+  "marketPositioning": "Searcher-examples is positioned not as a direct competitor to general Solana development SDKs (like solana-web3.js or solana-rs), but as a supplementary, essential resource for developers specifically targeting MEV strategies on the Solana network using Jito Labs' specialized infrastructure. It serves as the primary code example kit for onboarding developers to the Jito Block Engine and Relayer, highlighting Jito's unique features like atomic transaction bundling and private transaction submission as the preferred method for sophisticated MEV searchers on Solana."
+}

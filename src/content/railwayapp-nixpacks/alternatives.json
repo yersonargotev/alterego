@@ -1,0 +1,69 @@
+{
+  "projectName": "nixpacks",
+  "projectPurpose": "To simplify building reproducible Docker images from application source code using Nix packages for dependency management, without requiring manual Dockerfile creation.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Automatic environment detection",
+    "Dependency management via Nix",
+    "Reproducible builds",
+    "Generates Docker images from source",
+    "No Dockerfile required"
+  ],
+  "website": "https://github.com/railwayapp/nixpacks",
+  "alternatives": [
+    {
+      "name": "Cloud Native Buildpacks",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Builds reproducible OCI images from source code",
+        "Automatically detects language/framework",
+        "No Dockerfile required",
+        "Supports various languages",
+        "Layered caching for efficiency"
+      ],
+      "website": "https://buildpacks.io/"
+    },
+    {
+      "name": "Jib",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "JVM-based (runs on any OS with Java)",
+        "Builds images for Linux containers"
+      ],
+      "mainFeatures": [
+        "Builds optimized Java container images from Maven/Gradle",
+        "Requires no Docker daemon/CLI",
+        "Applies build best practices automatically",
+        "Fast deployments with layered images"
+      ],
+      "website": "https://github.com/GoogleContainerTools/jib"
+    },
+    {
+      "name": "Source-to-Image (S2I)",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Combines application source with builder images",
+        "Simplifies image creation for developers",
+        "Supports incremental builds",
+        "Integrates with container platforms like OpenShift"
+      ],
+      "website": "https://github.com/openshift/source-to-image"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Cloud Native Buildpacks"
+  ],
+  "marketPositioning": "Nixpacks positions itself as a tool that simplifies Docker image creation from source code by automatically detecting languages and dependencies, similar to Buildpacks. Its key differentiator and market position lie in its integration with the Nix package manager, offering superior build reproducibility and environment consistency compared to alternatives that rely on traditional package management. It targets developers seeking a 'no Dockerfile' experience combined with strong guarantees about the build environment."
+}

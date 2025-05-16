@@ -1,0 +1,77 @@
+{
+  "projectName": "advent-of-code-rust",
+  "projectPurpose": "To provide a starter template and structure for solving Advent of Code programming challenges using the Rust programming language.",
+  "platforms": [
+    "Cross-platform (requires Rust environment)"
+  ],
+  "mainFeatures": [
+    "Starter project template for Advent of Code",
+    "Configured for the Rust programming language",
+    "Reduces initial setup time for participants"
+  ],
+  "website": "https://github.com/fspoettel/advent-of-code-rust",
+  "alternatives": [
+    {
+      "name": "gahjelle/template-aoc-python",
+      "license": "Open Source (MIT or similar, common for GitHub templates)",
+      "platforms": [
+        "Cross-platform (requires Python environment)"
+      ],
+      "mainFeatures": [
+        "Copier template for Python",
+        "Scaffolding for each day",
+        "Reads test and live inputs",
+        "Input parsing capabilities",
+        "Can download personal input data"
+      ],
+      "website": "https://github.com/gahjelle/template-aoc-python"
+    },
+    {
+      "name": "bcooperstl/advent-of-code-cpp-starter",
+      "license": "Open Source (MIT or similar, common for GitHub templates)",
+      "platforms": [
+        "Cross-platform (requires C++ environment)"
+      ],
+      "mainFeatures": [
+        "Simple C++ setup",
+        "Starter template for Advent of Code in C++",
+        "Includes a test runner"
+      ],
+      "website": "https://github.com/bcooperstl/advent-of-code-cpp-starter"
+    },
+    {
+      "name": "devries/aoc_template",
+      "license": "Open Source (MIT or similar, common for GitHub templates)",
+      "platforms": [
+        "Cross-platform (requires Go environment)"
+      ],
+      "mainFeatures": [
+        "Template for Advent of Code in Go",
+        "Puts problems into a single executable",
+        "Measures execution time",
+        "Reduces boilerplate",
+        "Commands for starting days and running solutions"
+      ],
+      "website": "https://github.com/devries/aoc_template"
+    },
+    {
+      "name": "JetBrains Kotlin Template",
+      "license": "Open Source (likely Apache 2.0 or MIT, common for JetBrains projects)",
+      "platforms": [
+        "Cross-platform (requires Kotlin environment, often used with IntelliJ IDEA)"
+      ],
+      "mainFeatures": [
+        "Official Advent of Code template for Kotlin",
+        "Instant project setup",
+        "Streamlines workflow",
+        "Customizes project with user info",
+        "Integrates well with JetBrains IDEs"
+      ],
+      "website": "https://github.com/Kotlin/advent-of-code-kotlin-template"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Python templates/helper libraries (e.g., gahjelle/template-aoc-python, advent-of-code-data)"
+  ],
+  "marketPositioning": "advent-of-code-rust is positioned as a language-specific tool within the broader Advent of Code community, offering a tailored starter experience for Rust developers. It competes indirectly with starter templates and helper libraries available for other programming languages by providing a Rust-native environment to solve the challenges. Its unique value proposition lies in catering specifically to the Rust ecosystem, enabling developers familiar with or learning Rust to efficiently participate in Advent of Code without significant language-specific setup hurdles."
+}

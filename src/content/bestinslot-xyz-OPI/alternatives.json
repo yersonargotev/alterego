@@ -1,0 +1,116 @@
+{
+  "projectName": "OPI",
+  "projectPurpose": "To provide a robust, open-source, and modular infrastructure for indexing various meta-protocols built on top of the Bitcoin blockchain, such as BRC-20, Runes, Bitmaps, and others.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Open-source indexing client for Bitcoin meta-protocols",
+    "Modular design for extending with different meta-protocols",
+    "Includes modules for BRC-20, Bitmap, and SNS (with more planned)",
+    "Modules are built with reorg protection",
+    "Uses PostgreSQL for data storage",
+    "Offers a light client (OPI-LC) option"
+  ],
+  "website": "https://github.com/bestinslot-xyz/OPI",
+  "alternatives": [
+    {
+      "name": "ord (Ordinals)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Indexes Ordinal inscriptions",
+        "Provides a block explorer",
+        "Includes a command-line wallet",
+        "Assigns ordinal numbers to satoshis"
+      ],
+      "website": "https://github.com/ordinals/ord"
+    },
+    {
+      "name": "Hiro Systems Bitcoin Indexer / Ordinals API",
+      "license": "Proprietary (APIs), Open Source components (Indexer)",
+      "platforms": [
+        "Web",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Indexes Ordinals, BRC-20, and Runes",
+        "Provides REST APIs for data access",
+        "Requires a synced Bitcoin node",
+        "Uses PostgreSQL"
+      ],
+      "website": "https://www.hiro.so/developer-tools/bitcoin-indexer"
+    },
+    {
+      "name": "Gaze Indexer",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Modular design",
+        "Supports Bitcoin and Runes out-of-the-box",
+        "Unified consistent APIs",
+        "Reorg detection"
+      ],
+      "website": "https://github.com/gaze-network/gaze-indexer"
+    },
+    {
+      "name": "UniSat API",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Provides access to BRC-20 and Ordinals data",
+        "Supports querying token balances",
+        "Allows fetching transaction history",
+        "Integrated with UniSat wallet and marketplace"
+      ],
+      "website": "https://unisat.io/"
+    },
+    {
+      "name": "Trac Core",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Functions as an oracle",
+        "Indexes Bitcoin data",
+        "Provides data via APIs",
+        "Supports TAP Protocol"
+      ],
+      "website": "https://tapprotocol.io/"
+    },
+    {
+      "name": "SRC Protocol Indexer",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Indexes SRC-20, SRC-721, and SRC-101 (Bitcoin Stamps)",
+        "Requires a Bitcoin node",
+        "Uses MySQL database"
+      ],
+      "website": "https://github.com/stampchain/stamp-indexer"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ord (Ordinals)",
+    "Hiro Systems Bitcoin Indexer/Ordinals API",
+    "UniSat API"
+  ],
+  "marketPositioning": "OPI positions itself as a comprehensive, modular, and open-source indexing client specifically designed to handle the increasing diversity of meta-protocols emerging on the Bitcoin blockchain. By building on the foundational 'ord' indexer and offering a modular architecture, it aims to be a versatile tool for indexing various protocols like BRC-20, Runes, and others. Its open-source nature differentiates it from proprietary API providers, while its focus on multiple meta-protocols and the inclusion of a light client option distinguish it from indexers focused on a single protocol."
+}

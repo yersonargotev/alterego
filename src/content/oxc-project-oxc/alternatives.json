@@ -1,0 +1,107 @@
+{
+  "projectName": "oxc",
+  "projectPurpose": "To provide a collection of high-performance tools (parser, linter, formatter, transformer, minifier, resolver) for JavaScript and TypeScript development by leveraging the Rust programming language.",
+  "platforms": [
+    "Cross-platform"
+  ],
+  "mainFeatures": [
+    "High-performance parsing (written in Rust)",
+    "Collection of tools: linter, formatter, transformer, minifier, resolver",
+    "Supports JavaScript and TypeScript",
+    "Aims to be a unified, fast toolchain"
+  ],
+  "website": "https://oxc.rs/",
+  "alternatives": [
+    {
+      "name": "ESLint",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Static code analysis (linting)",
+        "Highly configurable rules",
+        "Extensive plugin ecosystem",
+        "Supports JavaScript, TypeScript, JSX, CSS, JSON, Markdown"
+      ],
+      "website": "https://eslint.org/"
+    },
+    {
+      "name": "Prettier",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Opinionated code formatter",
+        "Supports many languages (JS, TS, CSS, HTML, etc.)",
+        "Integrates with editors and build tools",
+        "Enforces consistent code style"
+      ],
+      "website": "https://prettier.io/"
+    },
+    {
+      "name": "SWC",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Fast JavaScript/TypeScript compilation",
+        "Bundling (under development)",
+        "Minification",
+        "Extensible with plugins",
+        "Written in Rust"
+      ],
+      "website": "https://swc.rs/"
+    },
+    {
+      "name": "esbuild",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Extremely fast bundling",
+        "Minification",
+        "Transpilation (JS/TS/JSX)",
+        "Tree shaking",
+        "Written in Go"
+      ],
+      "website": "https://esbuild.github.io/"
+    },
+    {
+      "name": "Babel",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "JavaScript transpilation/compilation",
+        "Supports latest ECMAScript features",
+        "Extensive plugin and preset ecosystem",
+        "Supports JSX and TypeScript"
+      ],
+      "website": "https://babeljs.io/"
+    },
+    {
+      "name": "Terser",
+      "license": "Open Source - BSD 2-Clause \"Simplified\" License",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "JavaScript minifier",
+        "Compresses code",
+        "Supports modern JS features",
+        "Generates source maps"
+      ],
+      "website": "https://github.com/terser/terser"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ESLint",
+    "Prettier"
+  ],
+  "marketPositioning": "Oxc positions itself as a high-performance, unified toolchain for JavaScript and TypeScript, built in Rust to achieve industry-leading speeds, particularly in parsing. It aims to compete with or replace collections of existing tools (like ESLint, Prettier, Babel, Terser) and other performance-focused toolchains (like SWC and esbuild) by offering a faster, integrated alternative for core development tasks such as linting, formatting, and transpilation. Its focus on a complete, fast suite built on a modern language like Rust is its key differentiator in the market."
+}

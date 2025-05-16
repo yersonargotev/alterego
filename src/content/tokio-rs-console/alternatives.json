@@ -1,0 +1,71 @@
+{
+  "projectName": "console",
+  "projectPurpose": "To provide a specialized debugging and observation tool for asynchronous Rust applications using the Tokio runtime, offering visibility into async task execution and runtime state.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Debugging asynchronous Rust code",
+    "Observing Tokio runtime state",
+    "Visualizing async task execution",
+    "Identifying async-specific issues (e.g., blocking)",
+    "Interactive console interface"
+  ],
+  "website": "https://github.com/tokio-rs/console",
+  "alternatives": [
+    {
+      "name": "VS Code Debugger (with CodeLLDB)",
+      "license": "VS Code (MIT), CodeLLDB (MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Graphical interface for debugging",
+        "Breakpoints and stepping",
+        "Variable inspection",
+        "Call stack visualization",
+        "Integrated into VS Code IDE"
+      ],
+      "website": "https://code.visualstudio.com/"
+    },
+    {
+      "name": "GDB / LLDB",
+      "license": "GDB (GPL), LLDB (Apache 2.0 with LLVM exceptions)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Windows (partial)"
+      ],
+      "mainFeatures": [
+        "Command-line interface",
+        "Breakpoints and stepping",
+        "Memory inspection",
+        "Register inspection",
+        "Attaching to running processes"
+      ],
+      "website": "https://www.gnu.org/software/gdb/"
+    },
+    {
+      "name": "Rust tracing Ecosystem",
+      "license": "MIT",
+      "platforms": [
+        "N/A (Library/Framework)"
+      ],
+      "mainFeatures": [
+        "Structured logging and events",
+        "Hierarchical spans for code paths",
+        "Context propagation",
+        "Customizable output subscribers",
+        "Foundation for runtime diagnostics"
+      ],
+      "website": "https://crates.io/crates/tracing"
+    }
+  ],
+  "mostWellKnownAlternative": "VS Code Debugger (with CodeLLDB)",
+  "marketPositioning": "tokio-rs/console is positioned as a specialized, essential diagnostic tool for the Rust async ecosystem, particularly for developers using the Tokio runtime. It fills a gap left by general-purpose debuggers by providing deep, interactive visibility into the state and behavior of asynchronous tasks, which is crucial for diagnosing concurrency issues in complex async applications. It complements the `tracing` infrastructure by offering a unique, debugger-like view tailored specifically for async runtime analysis."
+}

@@ -1,0 +1,144 @@
+{
+  "projectName": "CADmium",
+  "projectPurpose": "To provide a free and open-source Computer-Aided Design (CAD) software application that runs entirely within a web browser.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Runs in the browser (Web-based)",
+    "Computer-Aided Design capabilities",
+    "Open Source"
+  ],
+  "website": "https://github.com/CADmium-Co/CADmium",
+  "alternatives": [
+    {
+      "name": "Onshape",
+      "license": "Proprietary (Subscription-based)",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Full parametric 3D CAD",
+        "Integrated data management",
+        "Real-time collaboration",
+        "Version control",
+        "Custom features with FeatureScript"
+      ],
+      "website": "https://www.onshape.com/"
+    },
+    {
+      "name": "Tinkercad",
+      "license": "Proprietary (Free for personal, educational, small business)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Beginner-friendly 3D modeling",
+        "Constructive solid geometry (shapes combining)",
+        "Electronics design and simulation",
+        "Block-based coding (Codeblocks)",
+        "Easy export for 3D printing"
+      ],
+      "website": "https://www.tinkercad.com/"
+    },
+    {
+      "name": "AutoCAD Web",
+      "license": "Proprietary (Subscription-based, free for students/educators, basic free version)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "2D drafting and editing in browser",
+        "View and share DWG files online",
+        "Access core AutoCAD commands",
+        "Collaboration tools"
+      ],
+      "website": "https://web.autocad.com/"
+    },
+    {
+      "name": "Fusion 360 (Web Access)",
+      "license": "Proprietary (Subscription-based, free for personal use, students, educators)",
+      "platforms": [
+        "Web (via Fusion Team/A360 Viewer)",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Cloud-based 3D CAD/CAM/CAE",
+        "3D modeling and simulation",
+        "Collaboration and data management",
+        "Browser-based viewing and limited editing"
+      ],
+      "website": "https://www.autodesk.com/products/fusion-360/overview"
+    },
+    {
+      "name": "FreeCAD",
+      "license": "Open Source (LGPL-2.0-or-later)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Parametric 3D modeling",
+        "Modular architecture and workbenches",
+        "Supports various file formats",
+        "Finite Element Method (FEM) support",
+        "Python scripting"
+      ],
+      "website": "https://www.freecad.org/"
+    },
+    {
+      "name": "LibreCAD",
+      "license": "Open Source (GPLv2)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "2D CAD drafting",
+        "Familiar user interface",
+        "Supports DXF format",
+        "Large community support"
+      ],
+      "website": "https://librecad.org/"
+    },
+    {
+      "name": "Chili3D",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Browser-based 3D CAD",
+        "Intuitive user interface",
+        "Basic shape creation and manipulation",
+        "Local-first support",
+        "Uses OpenCascade and Three.js"
+      ],
+      "website": "https://chili3d.com/"
+    },
+    {
+      "name": "OpenJSCAD.org",
+      "license": "Open Source (MIT license)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Script-based 2D/3D modeling",
+        "Uses JavaScript for design",
+        "Runs entirely in the browser",
+        "Generative design approach"
+      ],
+      "website": "https://openjscad.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Onshape",
+    "Fusion 360"
+  ],
+  "marketPositioning": "CADmium positions itself as a free and open-source, local-first CAD program running directly in the browser. This distinguishes it from proprietary web-based CAD solutions like Onshape (full-featured, subscription-based) and Tinkercad (beginner-focused, free), as well as desktop open-source options like FreeCAD and LibreCAD. Its key market differentiator is the combination of open-source freedom and the accessibility and convenience of a pure web application that aims to perform computations client-side using modern technologies like Rust and WebAssembly."
+}

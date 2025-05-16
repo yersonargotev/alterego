@@ -1,0 +1,80 @@
+{
+  "projectName": "template",
+  "projectPurpose": "To provide a pre-configured, boilerplate structure for quickly starting new Rust projects, likely tailored for a specific context like the 'tyr-rust-bootcamp'.",
+  "platforms": [
+    "Cross-platform (as it's a template, usage depends on Rust/Cargo compatibility)"
+  ],
+  "mainFeatures": [
+    "Provides a basic project structure for a Rust application or library.",
+    "Includes initial configuration files (e.g., Cargo.toml).",
+    "Serves as a starting point to save manual setup time.",
+    "Tailored for the 'tyr-rust-bootcamp' context (inferred)."
+  ],
+  "website": "https://github.com/tyr-rust-bootcamp/template",
+  "alternatives": [
+    {
+      "name": "cargo new",
+      "license": "Open Source - MIT OR Apache-2.0 (Rust/Cargo license)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Creates a new Cargo package with basic structure and Cargo.toml.",
+        "Initializes a VCS repository (defaults to git). [20]",
+        "Can create library or binary packages.",
+        "Included with the standard Rust toolchain."
+      ],
+      "website": "https://doc.rust-lang.org/cargo/commands/cargo-new.html"
+    },
+    {
+      "name": "cargo generate",
+      "license": "Open Source - Apache-2.0 OR MIT [13]",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Generates a new Rust project from a git repository template. [13]",
+        "Supports placeholders for project name, authors, etc. [11]",
+        "Allows using local or remote git repositories as templates. [11]",
+        "Can define favorite templates in a config file. [12]"
+      ],
+      "website": "https://github.com/cargo-generate/cargo-generate"
+    },
+    {
+      "name": "Rust GitHub Template (rust-github/template)",
+      "license": "Open Source - MIT license [1]",
+      "platforms": [
+        "Cross-platform (used with cargo generate)"
+      ],
+      "mainFeatures": [
+        "Template designed for Rust projects hosted on GitHub. [3]",
+        "Includes pre-configured GitHub Actions for CI/CD (tests, rustfmt, clippy, docs, publish). [3]",
+        "Sets up security checks.",
+        "Aims to reduce copy-pasting of common GitHub files. [3]"
+      ],
+      "website": "https://github.com/rust-github/template"
+    },
+    {
+      "name": "actix-template (Unleash/actix-template)",
+      "license": "Open Source (license not explicitly stated in snippets, but common for GitHub templates)",
+      "platforms": [
+        "Cross-platform (used with cargo generate or cloning)"
+      ],
+      "mainFeatures": [
+        "Template for building Actix web applications. [17]",
+        "Includes setup for logging and Prometheus metrics. [17]",
+        "Shows how to build with caches and Docker images. [17]",
+        "Configures GitHub Actions for testing, building, and Docker image creation. [17]"
+      ],
+      "website": "https://github.com/Unleash/actix-template"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "cargo new"
+  ],
+  "marketPositioning": "The 'tyr-rust-bootcamp/template' project is positioned as a specific, opinionated project template for Rust, likely tailored for participants or followers of the 'tyr-rust-bootcamp'. Unlike the fundamental `cargo new` which provides a minimal structure, or the general-purpose `cargo generate` which requires finding or creating a template, this project *is* a pre-built template. Its market niche is providing a ready-to-use starting point with a specific set of configurations, dependencies, and structure that aligns with the practices or curriculum of the associated bootcamp, saving users the effort of setting up these elements themselves when starting new projects within that context. It competes with other specialized Rust template repositories by offering a structure defined by the 'tyr-rust-bootcamp'."
+}

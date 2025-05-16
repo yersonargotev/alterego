@@ -1,0 +1,165 @@
+{
+  "projectName": "broot",
+  "projectPurpose": "To provide an efficient, interactive, and visually clear command-line tool for navigating and managing file systems, offering a modern alternative or enhancement to traditional command-line tools and graphical file managers.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Interactive tree-like view",
+    "Real-time fuzzy search",
+    "File management operations (copy, move, delete, create)",
+    "Integration with shell (cd on quit)",
+    "Respects .gitignore",
+    "Customizable keybindings and commands",
+    "Multi-panel view",
+    "Preview file contents",
+    "Shows directory sizes"
+  ],
+  "website": "https://dystroy.org/broot",
+  "alternatives": [
+    {
+      "name": "Ranger",
+      "license": "Open Source - GNU GPLv3",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Unix"
+      ],
+      "mainFeatures": [
+        "Vim-inspired key bindings",
+        "Multi-column display",
+        "File preview",
+        "Tabs",
+        "Bookmarks"
+      ],
+      "website": "https://ranger.fm/"
+    },
+    {
+      "name": "Midnight Commander (mc)",
+      "license": "Open Source - GNU GPLv3 or later",
+      "platforms": [
+        "Unix-like (Linux, macOS, BSD)",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Dual-pane interface",
+        "Text-based user interface",
+        "File operations",
+        "Built-in editor (mcedit)",
+        "Works over SSH"
+      ],
+      "website": "https://midnight-commander.org/"
+    },
+    {
+      "name": "nnn",
+      "license": "Open Source - BSD 2-Clause Simplified License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Haiku",
+        "Cygwin",
+        "WSL",
+        "Android (Termux)"
+      ],
+      "mainFeatures": [
+        "Fast and resource-sensitive",
+        "Nearly 0-config",
+        "Disk usage analyzer",
+        "Batch rename",
+        "Plugin support"
+      ],
+      "website": "https://github.com/jarun/nnn"
+    },
+    {
+      "name": "Vifm",
+      "license": "Open Source - GNU GPLv2 or later",
+      "platforms": [
+        "GNU/Linux",
+        "BSD",
+        "Solaris",
+        "Windows (via Cygwin)",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Vim-like key bindings and environment",
+        "Curses interface",
+        "Dual-pane layout",
+        "File operations",
+        "Integrates with Vim"
+      ],
+      "website": "https://vifm.info/"
+    },
+    {
+      "name": "lf",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSDs",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Written in Go",
+        "Single binary",
+        "Fast startup and low memory footprint",
+        "Asynchronous IO",
+        "Customizable keybindings"
+      ],
+      "website": "https://github.com/gokcehan/lf"
+    },
+    {
+      "name": "tree",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Recursively displays directory structure as a tree",
+        "Controls for depth and filtering",
+        "Can ignore .gitignore",
+        "Creates shell aliases for files"
+      ],
+      "website": "https://peteretelej.github.io/tree/"
+    },
+    {
+      "name": "Windows File Explorer",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Graphical user interface",
+        "Standard file operations",
+        "Search functionality",
+        "Various view options",
+        "Tabs"
+      ],
+      "website": "https://www.microsoft.com/en-us/windows/file-explorer"
+    },
+    {
+      "name": "macOS Finder",
+      "license": "Proprietary",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Graphical user interface",
+        "Manages files, disks, network volumes",
+        "Launching applications",
+        "Various view options",
+        "Quick Look previews"
+      ],
+      "website": "https://support.apple.com/guide/mac-help/use-the-finder-mchlp2605/mac"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Windows File Explorer",
+    "macOS Finder"
+  ],
+  "marketPositioning": "broot is positioned as a modern, interactive command-line file manager that provides a visually intuitive tree-like view of the file system. It differentiates itself from traditional command-line tools by integrating navigation, search, and file management in a single interface, offering a more engaging user experience. Compared to other terminal file managers, broot's strength lies in its interactive tree visualization and efficient fuzzy search for quick exploration and file discovery within deep directory structures. It serves users who prefer the command line but desire a more visual and interactive file management experience than is typically offered by standard tools."
+}

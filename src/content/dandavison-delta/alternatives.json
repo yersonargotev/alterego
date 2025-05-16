@@ -1,0 +1,87 @@
+{
+  "projectName": "delta",
+  "projectPurpose": "To enhance the command-line experience of viewing differences and other version control output (like blame and grep) by providing advanced syntax highlighting, improved layout options, and better readability, making it easier for developers to review code changes.",
+  "platforms": [
+    "Linux",
+    "FreeBSD",
+    "NetBSD",
+    "OpenBSD",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Syntax highlighting for multiple languages with themes",
+    "Word-level difference highlighting",
+    "Side-by-side diff view with line wrapping",
+    "Line numbering",
+    "Customizable layout and styling with decorative elements"
+  ],
+  "website": "https://github.com/dandavison/delta",
+  "alternatives": [
+    {
+      "name": "colordiff",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Colorizes diff output",
+        "Customizable color schemes",
+        "Wrapper around the standard 'diff' command"
+      ],
+      "website": "https://www.colordiff.org/"
+    },
+    {
+      "name": "diff-so-fancy",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (requires Ruby and Git)"
+      ],
+      "mainFeatures": [
+        "Simplifies git header chunks",
+        "Improves diff readability with enhanced highlighting",
+        "Strips leading +/- signs",
+        "Marks empty lines"
+      ],
+      "website": "https://github.com/so-fancy/diff-so-fancy"
+    },
+    {
+      "name": "vimdiff",
+      "license": "Open Source - Vim License",
+      "platforms": [
+        "Cross-platform (runs within Vim)"
+      ],
+      "mainFeatures": [
+        "Side-by-side file comparison within Vim",
+        "Highlights differences with colors",
+        "Allows editing files directly during diff",
+        "Supports comparing multiple files"
+      ],
+      "website": "https://www.vim.org/"
+    },
+    {
+      "name": "Meld",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Graphical diff and merge tool",
+        "Supports two- and three-way comparison",
+        "File and directory comparison",
+        "Integrated with version control systems"
+      ],
+      "website": "https://meldmerge.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "diff-so-fancy",
+    "Meld"
+  ],
+  "marketPositioning": "Delta is a modern, high-performance command-line utility written in Rust that acts as a syntax-highlighting pager for git, diff, grep, and blame output. Aimed at developers who primarily work in the terminal but require enhanced readability and analysis capabilities for code changes and version control history, Delta moves beyond basic coloring provided by tools like colordiff or the readability improvements of diff-so-fancy. It offers advanced features such as rich language-aware syntax highlighting using popular themes, intelligent word-level difference highlighting, a convenient side-by-side viewing mode, line numbering, and navigation shortcuts. Delta is highly customizable, allowing users to tailor the appearance with extensive options for colors, styles, and layout, including the addition of hyperlinks for commits and files and decorative elements. By handling various types of output beyond just git diff, including grep and blame, Delta establishes itself as a comprehensive terminal-based tool for understanding code evolution and history, providing a significantly more efficient and visually appealing experience than default command-line tools while remaining within the familiar terminal environment."
+}

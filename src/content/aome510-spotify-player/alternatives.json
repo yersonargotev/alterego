@@ -1,0 +1,133 @@
+{
+  "projectName": "spotify-player",
+  "projectPurpose": "To provide a fast, resource-efficient, and fully-featured alternative client for Spotify that runs within a terminal interface, targeting users who prefer command-line tools and a minimalist experience while offering the same capabilities as the official graphical application, requiring a Spotify Premium account.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Terminal-based user interface (TUI)",
+    "Full feature parity with the official Spotify application",
+    "Support for Spotify Connect remote control",
+    "Direct streaming of songs from the terminal",
+    "Synced lyrics display",
+    "Cross-platform media control",
+    "Image rendering (for album art)",
+    "Desktop notifications",
+    "Highly configurable",
+    "Minimalist UI with intuitive paging and popup system",
+    "Supports CLI commands for interaction",
+    "Can run as a daemon",
+    "Optional mouse support and fuzzy search",
+    "Requires Spotify Premium account"
+  ],
+  "website": "https://github.com/aome510/spotify-player",
+  "alternatives": [
+    {
+      "name": "Spotify App (Desktop)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Stream music, podcasts, audiobooks",
+        "Create and share playlists",
+        "Offline listening (Premium)",
+        "Spotify Connect",
+        "High audio quality (Premium)"
+      ],
+      "website": "https://www.spotify.com/"
+    },
+    {
+      "name": "Spotify Web Player",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Stream music, podcasts, audiobooks",
+        "Access playlists",
+        "Browser-based, no installation required",
+        "Spotify Connect"
+      ],
+      "website": "https://open.spotify.com/"
+    },
+    {
+      "name": "ncspot",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "BSDs"
+      ],
+      "mainFeatures": [
+        "Ncurses-based terminal UI",
+        "Resource-efficient",
+        "Supports MPRIS",
+        "Keybinding support",
+        "Requires Spotify Premium"
+      ],
+      "website": "https://github.com/hrkfdn/ncspot"
+    },
+    {
+      "name": "Tizonia",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Command-line music player",
+        "Supports multiple streaming services (Spotify, YouTube, etc.)",
+        "OpenMAX IL 1.2 implementation",
+        "Can act as a streaming server",
+        "Requires Spotify Premium for Spotify features"
+      ],
+      "website": "https://github.com/tizonia/tizonia-openmax-il"
+    },
+    {
+      "name": "Spicetify",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Customize official Spotify client",
+        "Change UI colors and inject CSS",
+        "Inject Extensions and Custom apps",
+        "Remove bloated components"
+      ],
+      "website": "https://spicetify.app/"
+    },
+    {
+      "name": "spotify-tui",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Terminal user interface",
+        "Vim keybindings",
+        "Playback control",
+        "Library browsing",
+        "Playlist management"
+      ],
+      "website": "https://github.com/Rigellute/spotify-tui"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Spotify App (Desktop)",
+    "Spotify App (Mobile)",
+    "Spotify Web Player"
+  ],
+  "marketPositioning": "spotify-player is positioned as a niche, high-performance alternative to the official Spotify clients, specifically targeting users who prefer or require a terminal-based interface. Its key differentiators are its full feature parity with the official client within a TUI, its speed, resource efficiency compared to the official desktop app, and its extensive configurability. While other terminal clients like ncspot and spotify-tui exist, spotify-player aims for \"full feature parity,\" suggesting a more comprehensive implementation of Spotify's capabilities within the terminal environment than some competitors. It caters to developers, power users, or those with limited system resources or a preference for keyboard-driven workflows. It explicitly requires a Spotify Premium account, aligning it with users already invested in the Spotify ecosystem but seeking a different interface."
+}

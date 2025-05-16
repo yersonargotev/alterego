@@ -1,0 +1,84 @@
+{
+  "projectName": "mini-redis",
+  "projectPurpose": "Educational tool to learn about building network applications with Rust and Tokio by implementing an incomplete Redis client and server.",
+  "platforms": [
+    "Any platform supporting Rust and Tokio"
+  ],
+  "mainFeatures": [
+    "Incomplete Redis client implementation",
+    "Incomplete Redis server implementation",
+    "Utilizes Tokio asynchronous runtime",
+    "Designed purely for learning purposes"
+  ],
+  "website": "https://github.com/tokio-rs/mini-redis",
+  "alternatives": [
+    {
+      "name": "Redis",
+      "license": "Open Source (AGPLv3, SSPLv1, RSALv2), Proprietary",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD",
+        "OpenBSD",
+        "Solaris",
+        "Windows (experimental)",
+        "Cloud (Managed Services)"
+      ],
+      "mainFeatures": [
+        "In-memory data structure store",
+        "Supports various data structures (strings, hashes, lists, sets, sorted sets, etc.)",
+        "Persistence (RDB and AOF)",
+        "Replication and clustering",
+        "Pub/Sub and Lua scripting"
+      ],
+      "website": "https://redis.io/"
+    },
+    {
+      "name": "redis-rs",
+      "license": "Open Source (MIT OR Apache-2.0)",
+      "platforms": [
+        "Any platform supported by Rust"
+      ],
+      "mainFeatures": [
+        "High-level and low-level Redis APIs",
+        "Supports various Redis commands and data types",
+        "Connection pooling",
+        "Asynchronous and synchronous operations",
+        "TLS/SSL support"
+      ],
+      "website": "https://crates.io/crates/redis"
+    },
+    {
+      "name": "Jedis",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Any platform supporting Java"
+      ],
+      "mainFeatures": [
+        "Supports various Redis commands and data types",
+        "Connection pooling",
+        "Failover support",
+        "Token-based authentication",
+        "Supports Redis modules"
+      ],
+      "website": "https://github.com/redis/jedis"
+    },
+    {
+      "name": "go-redis",
+      "license": "Open Source (BSD-2-Clause)",
+      "platforms": [
+        "Any platform supporting Go"
+      ],
+      "mainFeatures": [
+        "Automatic connection pooling",
+        "Pub/Sub, pipelines and transactions",
+        "Scripting support",
+        "Supports Redis Sentinel, Cluster, and Ring",
+        "OpenTelemetry instrumentation"
+      ],
+      "website": "https://github.com/redis/go-redis"
+    }
+  ],
+  "mostWellKnownAlternative": "Redis",
+  "marketPositioning": "mini-redis is positioned as an educational project specifically designed for developers learning asynchronous programming with Rust and Tokio. It provides a simplified, incomplete implementation of the Redis protocol for this purpose and is not intended for production use, contrasting sharply with the full-featured, production-grade official Redis server and various language-specific client libraries that serve real-world application needs."
+}

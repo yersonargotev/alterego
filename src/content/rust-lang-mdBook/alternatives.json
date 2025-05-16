@@ -1,0 +1,130 @@
+{
+  "projectName": "mdBook",
+  "projectPurpose": "To provide a command-line tool written in Rust for generating online books or documentation from Markdown files, serving as an open-source alternative to tools like GitBook.",
+  "platforms": [
+    "Cross-platform (requires Rust)"
+  ],
+  "mainFeatures": [
+    "Creates books from Markdown files",
+    "Command-line interface",
+    "Generates static websites",
+    "Search functionality",
+    "Customizable themes"
+  ],
+  "website": "https://github.com/rust-lang/mdBook",
+  "alternatives": [
+    {
+      "name": "GitBook",
+      "license": "Freemium and Proprietary (older versions may be open source)",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Online authoring and hosting platform",
+        "Markdown support",
+        "Real-time collaboration",
+        "Integrates with Git",
+        "Multiple export formats (HTML, PDF, ePub, MOBI)"
+      ],
+      "website": "https://www.gitbook.com/"
+    },
+    {
+      "name": "MkDocs",
+      "license": "BSD License",
+      "platforms": [
+        "Cross-platform (requires Python)"
+      ],
+      "mainFeatures": [
+        "Converts Markdown to static HTML sites",
+        "Simple and fast",
+        "Theme support (e.g., Material for MkDocs)",
+        "Easy deployment to GitHub Pages",
+        "Plugin ecosystem"
+      ],
+      "website": "https://www.mkdocs.org/"
+    },
+    {
+      "name": "Sphinx",
+      "license": "BSD License",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS (requires Python)"
+      ],
+      "mainFeatures": [
+        "Uses reStructuredText (primary) and Markdown",
+        "Extensive cross-referencing",
+        "Multiple output formats (HTML, PDF, ePub, etc.)",
+        "Automatic indices",
+        "Rich extension ecosystem"
+      ],
+      "website": "https://www.sphinx-doc.org/"
+    },
+    {
+      "name": "Docusaurus",
+      "license": "MIT License",
+      "platforms": [
+        "Cross-platform (requires Node.js)"
+      ],
+      "mainFeatures": [
+        "Static site generator for documentation",
+        "Built with React",
+        "Localization support",
+        "Document versioning",
+        "Search functionality"
+      ],
+      "website": "https://docusaurus.io/"
+    },
+    {
+      "name": "Jekyll",
+      "license": "MIT License",
+      "platforms": [
+        "Cross-platform (requires Ruby)"
+      ],
+      "mainFeatures": [
+        "Static site generator for blogs and websites",
+        "Markdown support",
+        "Templating with Liquid",
+        "Extensive themes and plugins",
+        "Integrated with GitHub Pages"
+      ],
+      "website": "https://jekyllrb.com/"
+    },
+    {
+      "name": "BookStack",
+      "license": "MIT License",
+      "platforms": [
+        "Web (Self-hosted)"
+      ],
+      "mainFeatures": [
+        "Simple wiki system",
+        "Structured books, chapters, and pages",
+        "Visual editor",
+        "Search capabilities",
+        "Permission control"
+      ],
+      "website": "https://www.bookstackapp.com/"
+    },
+    {
+      "name": "Wiki.js",
+      "license": "Affero General Public License v3",
+      "platforms": [
+        "Web (Self-hosted)"
+      ],
+      "mainFeatures": [
+        "Modern wiki engine",
+        "Stores content as Markdown",
+        "Git synchronization",
+        "Multiple editors",
+        "Authentication strategies"
+      ],
+      "website": "https://wiki.js.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GitBook"
+  ],
+  "marketPositioning": "mdBook is positioned as an open-source, command-line tool for generating online books and documentation from Markdown, serving as a direct, free alternative to the more commercially oriented GitBook platform. Its core strength lies in its simplicity, speed (attributed to its Rust implementation), and its clear focus on structuring content into a book format. While other open-source generators like MkDocs and Sphinx are versatile, mdBook offers a streamlined workflow specifically for book-like documentation, appealing particularly to developers and technical writers who prefer a command-line interface and the benefits of the Rust ecosystem."
+}

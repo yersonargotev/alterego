@@ -1,0 +1,95 @@
+{
+  "projectName": "sui",
+  "projectPurpose": "To provide a highly performant and efficient layer 1 blockchain platform designed for building decentralized applications (dApps) and managing digital assets, addressing limitations in existing blockchains regarding speed, scalability, and secure asset handling.",
+  "platforms": [
+    "Blockchain"
+  ],
+  "mainFeatures": [
+    "Next-generation smart contract platform",
+    "High throughput",
+    "Low latency",
+    "Asset-oriented programming model",
+    "Powered by the Move programming language",
+    "Parallel transaction processing",
+    "Object-centric model"
+  ],
+  "website": "https://github.com/MystenLabs/sui",
+  "alternatives": [
+    {
+      "name": "Ethereum",
+      "license": "Open Source (various licenses)",
+      "platforms": [
+        "Blockchain"
+      ],
+      "mainFeatures": [
+        "Smart contracts (Solidity)",
+        "Large established ecosystem",
+        "Decentralized application platform",
+        "Proof-of-Stake consensus (after Merge)",
+        "Extensive Layer 2 scaling solutions"
+      ],
+      "website": "https://ethereum.org/"
+    },
+    {
+      "name": "Solana",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Blockchain"
+      ],
+      "mainFeatures": [
+        "High transaction speed (TPS)",
+        "Low transaction fees",
+        "Proof-of-History (PoH) consensus",
+        "Parallel transaction processing (Sealevel)",
+        "Growing ecosystem for DeFi, NFTs, and gaming"
+      ],
+      "website": "https://solana.com/"
+    },
+    {
+      "name": "Polkadot",
+      "license": "Open Source (GPL-3.0)",
+      "platforms": [
+        "Blockchain"
+      ],
+      "mainFeatures": [
+        "Interoperability between blockchains (Parachains)",
+        "Shared security (Relay Chain)",
+        "Forkless upgrades",
+        "On-chain governance"
+      ],
+      "website": "https://polkadot.network/"
+    },
+    {
+      "name": "Cosmos",
+      "license": "Open Source (various licenses)",
+      "platforms": [
+        "Blockchain"
+      ],
+      "mainFeatures": [
+        "Interoperability (Inter-Blockchain Communication - IBC)",
+        "Tendermint BFT consensus",
+        "Ability to build application-specific blockchains",
+        "Modular framework (Cosmos SDK)"
+      ],
+      "website": "https://cosmos.network/"
+    },
+    {
+      "name": "Aptos",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Blockchain"
+      ],
+      "mainFeatures": [
+        "High throughput and scalability",
+        "Move programming language",
+        "Parallel execution engine (Block-STM)",
+        "Focus on reliability and upgrades"
+      ],
+      "website": "https://aptosfoundation.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "Sui positions itself as a high-performance Layer 1 blockchain optimized for speed, scalability, and efficient digital asset management through its unique object-centric model, parallel transaction processing, and the Move programming language. It competes with other high-throughput chains like Solana and Aptos, differentiating itself with its specific approach to asset handling and its aim to provide a user and developer experience closer to Web2 for applications in DeFi, gaming, and NFTs."
+}

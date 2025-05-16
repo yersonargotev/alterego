@@ -1,0 +1,114 @@
+{
+  "projectName": "materialize",
+  "projectPurpose": "To provide a system for integrating and transforming data streams in real-time using standard SQL queries, enabling users to build and maintain materialized views over streaming data sources for low-latency querying of up-to-date results.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Real-time Data Integration",
+    "Real-time Data Transformation",
+    "SQL Interface",
+    "Handles Fast-Changing Data",
+    "Incremental Materialized Views"
+  ],
+  "website": "https://materialize.com",
+  "alternatives": [
+    {
+      "name": "Apache Flink",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (Cluster environments like YARN, Kubernetes, standalone)"
+      ],
+      "mainFeatures": [
+        "Unified stream and batch processing",
+        "Sophisticated state management",
+        "Event-time processing",
+        "Exactly-once consistency",
+        "Flexible APIs (SQL, Table API, DataStream API)"
+      ],
+      "website": "https://flink.apache.org/"
+    },
+    {
+      "name": "Apache Spark Structured Streaming",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (Hadoop YARN, Apache Mesos, Kubernetes, standalone)"
+      ],
+      "mainFeatures": [
+        "Scalable and fault-tolerant stream processing",
+        "Integrates with Spark ecosystem",
+        "Supports various data sources and sinks",
+        "DataFrame/Dataset API"
+      ],
+      "website": "https://spark.apache.org/"
+    },
+    {
+      "name": "ksqlDB",
+      "license": "Source-available - Confluent Community License",
+      "platforms": [
+        "Runs as a cluster adjacent to Kafka"
+      ],
+      "mainFeatures": [
+        "SQL interface for Kafka Streams",
+        "Real-time queries and materialized views on Kafka topics",
+        "Integrates with Kafka Connect",
+        "Designed for event-driven applications"
+      ],
+      "website": "https://ksqldb.io/"
+    },
+    {
+      "name": "RisingWave",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cloud-native",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Distributed SQL engine for stream processing",
+        "Postgres-compatible interface",
+        "Real-time materialized views",
+        "Integrates with various streaming sources",
+        "Built-in storage"
+      ],
+      "website": "https://risingwave.com/"
+    },
+    {
+      "name": "Azure Stream Analytics",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (Azure)",
+        "Edge"
+      ],
+      "mainFeatures": [
+        "Fully managed, serverless service",
+        "SQL-based query language",
+        "Integrates with Azure sources/sinks",
+        "Low latency",
+        "Built-in machine learning capabilities"
+      ],
+      "website": "https://azure.microsoft.com/en-us/products/stream-analytics/"
+    },
+    {
+      "name": "AWS Kinesis Data Analytics",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (AWS)"
+      ],
+      "mainFeatures": [
+        "Fully managed service for real-time analytics",
+        "Supports Apache Flink and SQL",
+        "Integrates with Kinesis, S3, Redshift",
+        "Scalable and fault-tolerant"
+      ],
+      "website": "https://aws.amazon.com/kinesis/data-analytics/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Flink",
+    "ksqlDB"
+  ],
+  "marketPositioning": "Materialize is positioned as a real-time streaming database that allows users to query live data streams using standard SQL. It differentiates itself from general-purpose stream processing frameworks by providing a database-like experience with a strong emphasis on SQL and automatically maintaining incremental materialized views. Compared to SQL interfaces built on specific messaging systems like ksqlDB (for Kafka), Materialize aims to be a more general platform connecting to various sources. It competes with traditional real-time analytical databases by offering native, continuous processing of streaming data. Its core value proposition is enabling low-latency, up-to-date queries on fast-changing data with the ease of SQL."
+}

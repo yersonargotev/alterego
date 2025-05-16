@@ -1,0 +1,122 @@
+{
+  "projectName": "riverraidrust",
+  "projectPurpose": "To recreate a simplified, text-based version of the classic game River Raid in Rust, potentially as a coding exercise or demonstration.",
+  "platforms": [
+    "Likely cross-platform compatible with Rust and terminal environments (Linux, macOS, Windows)"
+  ],
+  "mainFeatures": [
+    "Text-based graphics and gameplay",
+    "Clone of the classic River Raid game concept",
+    "Implemented in Rust",
+    "Developed interactively (streamed)"
+  ],
+  "website": "https://github.com/jadijadi/riverraidrust",
+  "alternatives": [
+    {
+      "name": "Ruscii",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Easy-to-use terminal graphics library",
+        "Optimized for fast rendering in terminals",
+        "Provides key press and release events",
+        "Simplistic API for terminal games"
+      ],
+      "website": "https://github.com/lemunozm/ruscii"
+    },
+    {
+      "name": "RTGE",
+      "license": "Open Source",
+      "platforms": [
+        "Likely cross-platform with Rust"
+      ],
+      "mainFeatures": [
+        "Terminal game engine library for Rust",
+        "Automatic terminal settings setup",
+        "Input processing helpers",
+        "Entity and sprite handling for terminal display"
+      ],
+      "website": "https://crates.io/crates/rtge"
+    },
+    {
+      "name": "Twine",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Tool for interactive fiction and non-linear stories",
+        "Node-based visual editor",
+        "Uses HTML, CSS, and JavaScript",
+        "Easy to use for non-programmers"
+      ],
+      "website": "https://twinery.org/"
+    },
+    {
+      "name": "Quest",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Tool for creating text adventures and interactive stories",
+        "Visual editor",
+        "Built-in testing mode",
+        "Simple scripting language",
+        "Supports traditional parser and hypertext interfaces"
+      ],
+      "website": "https://textadventures.co.uk/quest"
+    },
+    {
+      "name": "Inform",
+      "license": "Open Source (various licenses for components)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Design system for interactive fiction (text adventures)",
+        "Natural language-like syntax",
+        "Generates Z-code or Glulx story files",
+        "Powerful for creating complex parser-based games"
+      ],
+      "website": "http://inform7.com/"
+    },
+    {
+      "name": "Ren'Py",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Visual novel engine",
+        "Supports text-based games with graphics and sound",
+        "Python-based scripting language",
+        "Suitable for branching narratives",
+        "Drag-and-drop interface"
+      ],
+      "website": "https://www.renpy.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Twine",
+    "Ren'Py",
+    "Inform",
+    "Quest"
+  ],
+  "marketPositioning": "Riverraidrust is positioned not as a general tool for creating text-based games or interactive fiction, but as a specific, niche implementation of a classic arcade game concept within the constraints of a text-based terminal interface, built using the Rust programming language. Its development during a stream also places it partly as an educational or demonstrative project for Rust development in this unconventional domain. It appeals primarily to Rust developers interested in terminal applications and retro game enthusiasts."
+}

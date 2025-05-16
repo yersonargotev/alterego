@@ -1,0 +1,149 @@
+{
+  "projectName": "bionic-gpt",
+  "projectPurpose": "To provide an open-source, self-hosted (on-premise) platform that replicates the functionality and user experience of ChatGPT while prioritizing data confidentiality and security for organizations.",
+  "platforms": [
+    "Linux",
+    "Windows",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "On-premise deployment (laptop to data center)",
+    "Strict data confidentiality and advanced encryption",
+    "Familiar ChatGPT-like chat interface",
+    "No-Code Retrieval-Augmented Generation (RAG) with diverse document support",
+    "Team-based permissions, RBAC, and multi-user support",
+    "Full observability and cost control",
+    "Support for local and remote open-source LLMs",
+    "Scalable architecture (Kubernetes-based)"
+  ],
+  "website": "https://github.com/bionic-gpt/bionic-gpt",
+  "alternatives": [
+    {
+      "name": "LibreChat",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web (Self-hosted)"
+      ],
+      "mainFeatures": [
+        "Enhanced ChatGPT clone UI",
+        "Multiple AI model support (local & cloud)",
+        "AI Agents with tool integration",
+        "RAG support",
+        "Multi-user with authentication"
+      ],
+      "website": "https://www.librechat.ai/"
+    },
+    {
+      "name": "Open WebUI",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web (Self-hosted)"
+      ],
+      "mainFeatures": [
+        "User-friendly self-hosted chat interface",
+        "Supports various LLM runners (Ollama, OpenAI API, local)",
+        "Built-in RAG integration",
+        "Granular permissions and user groups",
+        "Extensible with pipelines/plugins"
+      ],
+      "website": "https://www.openwebui.com/"
+    },
+    {
+      "name": "AnythingLLM",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Desktop (Windows, macOS, Linux)",
+        "Web (Self-hosted, Cloud)"
+      ],
+      "mainFeatures": [
+        "All-in-one to chat with documents",
+        "Supports various local/enterprise LLMs",
+        "Built-in RAG",
+        "AI Agent capabilities",
+        "Privacy-focused (local by default)"
+      ],
+      "website": "https://anythingllm.com/"
+    },
+    {
+      "name": "Jan.ai",
+      "license": "Open Source - AGPLv3",
+      "platforms": [
+        "Desktop (Windows, macOS, Linux)",
+        "Mobile (Coming soon)"
+      ],
+      "mainFeatures": [
+        "Runs LLMs locally 100% offline",
+        "Download models from Hugging Face",
+        "Connect to cloud AI APIs (optional)",
+        "Local API Server (OpenAI-compatible)",
+        "Customizable with extensions"
+      ],
+      "website": "https://jan.ai/"
+    },
+    {
+      "name": "LM Studio",
+      "license": "Free for personal use",
+      "platforms": [
+        "Desktop (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Discover, download, run local LLMs offline",
+        "Familiar chat interface",
+        "Built-in local server (OpenAI-like)",
+        "Chat with documents (RAG)"
+      ],
+      "website": "https://lmstudio.ai/"
+    },
+    {
+      "name": "GPT4All",
+      "license": "Open Source - Apache 2.0 / MIT",
+      "platforms": [
+        "Desktop (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Ecosystem for running local LLMs",
+        "Data privacy (no data leaves device)",
+        "LocalDocs (chat with personal documents)",
+        "Code Interpreter and Tool Calling"
+      ],
+      "website": "https://gpt4all.io/"
+    },
+    {
+      "name": "H2O.ai (Enterprise)",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (Managed, VPC)",
+        "Hybrid",
+        "On-Premise",
+        "Air-gapped"
+      ],
+      "mainFeatures": [
+        "End-to-end enterprise AI platform",
+        "Supports open-source and proprietary LLMs",
+        "Designed for data privacy and control",
+        "RAG capabilities",
+        "Model risk management"
+      ],
+      "website": "https://h2o.ai/"
+    },
+    {
+      "name": "Qualcomm AI On-Prem Appliance Solution",
+      "license": "Proprietary",
+      "platforms": [
+        "On-Premise Appliance"
+      ],
+      "mainFeatures": [
+        "Hardware & software for on-premise inference",
+        "Designed for data privacy and cost savings",
+        "Supports generative AI and computer vision",
+        "OpenAI API compatibility",
+        "RAG support"
+      ],
+      "website": "https://www.qualcomm.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ChatGPT"
+  ],
+  "marketPositioning": "BionicGPT is a secure, privacy-preserving, enterprise-ready, open-source platform designed as an on-premise alternative to public generative AI services like ChatGPT. It targets organizations that require the capabilities of a large language model chat interface but need to maintain strict data confidentiality and control within their own infrastructure. Its combination of open source flexibility, enterprise features (security, RAG, teams, scalability), and a familiar user interface carves out a position between purely local desktop AI tools and comprehensive, often proprietary, enterprise AI platforms."
+}

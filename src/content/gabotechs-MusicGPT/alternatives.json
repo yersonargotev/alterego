@@ -1,0 +1,142 @@
+{
+  "projectName": "MusicGPT",
+  "projectPurpose": "To provide an open-source, locally runnable application for generating music from text descriptions using AI models, focusing on performance, ease of use across different operating systems, and independence from heavy machine learning dependencies.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Generate music from natural language prompts",
+    "Runs AI models locally",
+    "Performant execution using Rust and ONNX runtime",
+    "Does not require heavy dependencies (Python, ML frameworks)",
+    "Can utilize hardware accelerators (GPUs)",
+    "Includes a web UI for chat-like interaction and history",
+    "Supports MusicGen, with plans for more models"
+  ],
+  "website": "https://github.com/gabotechs/MusicGPT",
+  "alternatives": [
+    {
+      "name": "MusicGen (model)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Platform-dependent implementations (e.g., PyTorch)",
+        "Various interfaces (including web demos)"
+      ],
+      "mainFeatures": [
+        "Core AI model for text-to-music",
+        "Melody conditioning",
+        "Developed by Meta"
+      ],
+      "website": "https://github.com/facebookresearch/audiocraft"
+    },
+    {
+      "name": "Suno AI",
+      "license": "Proprietary (Free and Paid tiers)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Generates full songs with vocals/lyrics",
+        "Text-to-song generation",
+        "User-friendly interface",
+        "Various musical styles"
+      ],
+      "website": "https://www.suno.ai/"
+    },
+    {
+      "name": "Udio",
+      "license": "Proprietary (Free and Paid tiers)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "High-quality music generation",
+        "Text-to-music",
+        "Customization options",
+        "Fast generation"
+      ],
+      "website": "https://www.udio.com/"
+    },
+    {
+      "name": "Beatoven.ai",
+      "license": "Proprietary (Subscription-based)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Royalty-free background music",
+        "Customizable tracks (genre, mood, duration)",
+        "AI prompt generation",
+        "Focus on video/podcast use cases"
+      ],
+      "website": "https://www.beatoven.ai/"
+    },
+    {
+      "name": "Loudly",
+      "license": "Proprietary (Subscription-based)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Text-to-music generation",
+        "Extensive customization options",
+        "Genre-specific generation",
+        "Aimed at content creators"
+      ],
+      "website": "https://www.loudly.com/"
+    },
+    {
+      "name": "Mubert",
+      "license": "Proprietary (Free and Paid tiers)",
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "mainFeatures": [
+        "Royalty-free music streams",
+        "Generation based on prompts, moods, activities",
+        "Ideal for background music"
+      ],
+      "website": "https://mubert.com/"
+    },
+    {
+      "name": "YuE",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Generates full songs locally",
+        "Text-to-music (genre + lyrics)",
+        "Apache 2.0 license for commercial use",
+        "Requires Python setup"
+      ],
+      "website": "https://github.com/multimodal-art-projection/YuE"
+    },
+    {
+      "name": "ACE-Step",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Local music generation",
+        "Faster than real-time generation possible",
+        "Diffusion-based generation",
+        "Requires Python setup"
+      ],
+      "website": "https://github.com/ace-step/ACE-Step"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Suno AI",
+    "Udio"
+  ],
+  "marketPositioning": "MusicGPT positions itself as a privacy-focused and performance-oriented open-source alternative to cloud-based AI music generators. By enabling local execution on Windows, macOS, and Linux without requiring complex Python or ML framework installations, it targets users who prioritize data control, leverage their own hardware for faster generation, and seek a simpler setup process compared to other open-source tools. It differentiates from popular online services like Suno and Udio by offering a self-hosted solution, appealing to developers, power users, and those concerned about recurring subscription costs or data privacy inherent in cloud platforms."
+}

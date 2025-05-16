@@ -1,0 +1,230 @@
+{
+  "projectName": "slint",
+  "projectPurpose": "To provide a modern, efficient, and cross-platform graphical user interface toolkit for building native UIs with a focus on performance and low resource usage, supporting applications written in Rust, C++, JavaScript, and Python, and particularly suitable for embedded systems.",
+  "platforms": [
+    "Embedded",
+    "Desktop (Windows, macOS, Linux)",
+    "Mobile (iOS, Android - under development)",
+    "Web (WebAssembly - primarily for demos)"
+  ],
+  "mainFeatures": [
+    "Open-source declarative GUI toolkit",
+    "Builds native user interfaces by compiling to machine code",
+    "Supports Rust, C++, JavaScript, and Python applications",
+    "Uses a dedicated .slint declarative markup language for UI design",
+    "Lightweight with low resource consumption (<300KiB RAM runtime)",
+    "Performant and delivers a smooth user experience",
+    "Multiple rendering backends (OpenGL ES 2.0, Skia, Software)",
+    "Tooling for live preview and editor integration (LSP), Figma plugin",
+    "Stable 1.x API",
+    "Supports GUI test automation",
+    "Multiple built-in styles (Fluent, Material, Cupertino, Cosmic)"
+  ],
+  "website": "https://slint.dev/",
+  "alternatives": [
+    {
+      "name": "Qt",
+      "license": "Commercial, GPL, LGPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Embedded",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "Comprehensive cross-platform framework (GUI, network, multimedia, etc.)",
+        "Native look and feel",
+        "C++ based with bindings for other languages (Python, etc.)",
+        "Declarative UI with QML",
+        "Strong tooling and IDE (Qt Creator)"
+      ],
+      "website": "https://www.qt.io/"
+    },
+    {
+      "name": "GTK",
+      "license": "LGPL",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "HTML5 (Broadway)"
+      ],
+      "mainFeatures": [
+        "Cross-platform widget toolkit",
+        "C-based with bindings for many languages (C++, Python, Rust, JS)",
+        "Comprehensive set of widgets",
+        "Object-oriented approach",
+        "Integration with GNOME desktop environment"
+      ],
+      "website": "https://gtk.org/"
+    },
+    {
+      "name": "wxWidgets",
+      "license": "Modified LGPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Various Unix"
+      ],
+      "mainFeatures": [
+        "Cross-platform C++ GUI library",
+        "Uses native controls for native look",
+        "Extensive documentation",
+        "Bindings for multiple languages (Python, Ruby, etc.)",
+        "Mature and stable"
+      ],
+      "website": "https://www.wxwidgets.org/"
+    },
+    {
+      "name": "Electron",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Build desktop apps using web technologies (HTML, CSS, JS)",
+        "Based on Node.js and Chromium",
+        "Access to OS features",
+        "Large ecosystem and community",
+        "Rapid development for web developers"
+      ],
+      "website": "https://www.electronjs.org/"
+    },
+    {
+      "name": "Flutter",
+      "license": "New BSD License",
+      "platforms": [
+        "iOS",
+        "Android",
+        "Web",
+        "Desktop (Windows, macOS, Linux)",
+        "Embedded"
+      ],
+      "mainFeatures": [
+        "Single codebase for multiple platforms",
+        "Fast development with Hot Reload",
+        "Rich, customizable widget library (Material/Cupertino)",
+        "High performance (compiles to native code)",
+        "Uses Dart programming language"
+      ],
+      "website": "https://flutter.dev/"
+    },
+    {
+      "name": "Avalonia UI",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "Cross-platform .NET UI framework",
+        "XAML-based, WPF-inspired",
+        "Flexible styling system",
+        "Supports C#, F#, VB.NET",
+        "Custom rendering engine for consistent look"
+      ],
+      "website": "https://avaloniaui.net/"
+    },
+    {
+      "name": "Dear ImGui",
+      "license": "MIT License",
+      "platforms": [
+        "Cross-platform (integrated into applications)"
+      ],
+      "mainFeatures": [
+        "Immediate Mode GUI library",
+        "Bloat-free and lightweight",
+        "Designed for developer tools/debugging",
+        "Easy integration into 3D applications",
+        "Basic set of widgets"
+      ],
+      "website": "https://github.com/ocornut/imgui"
+    },
+    {
+      "name": "Iced",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Cross-platform GUI library for Rust",
+        "Inspired by Elm architecture",
+        "Simple and type-safe API",
+        "Reactive programming model",
+        "Responsive layout"
+      ],
+      "website": "https://iced.rs/"
+    },
+    {
+      "name": "egui",
+      "license": "MIT OR Apache-2.0",
+      "platforms": [
+        "Web",
+        "Native (Windows, macOS, Linux, Android)"
+      ],
+      "mainFeatures": [
+        "Easy-to-use immediate mode GUI in pure Rust",
+        "Fast and highly portable",
+        "Runs on web and native",
+        "Easy to integrate into existing engines",
+        "Minimal dependencies"
+      ],
+      "website": "https://www.egui.rs/"
+    },
+    {
+      "name": "Tauri",
+      "license": "MIT OR Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Build tiny, fast, and secure desktop/mobile apps",
+        "Uses web frontend (HTML, JS, CSS) with Rust backend",
+        "Leverages system webview",
+        "Security-first design",
+        "Built-in bundler and updater"
+      ],
+      "website": "https://tauri.app/"
+    },
+    {
+      "name": "Tkinter",
+      "license": "Python Software Foundation License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Standard Python GUI library",
+        "Bundled with Python (on Windows/macOS)",
+        "Simple API for beginners",
+        "Basic set of widgets",
+        "Cross-platform"
+      ],
+      "website": "https://docs.python.org/3/library/tkinter.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Qt",
+    "Electron",
+    "Flutter"
+  ],
+  "marketPositioning": "Slint is positioned as a modern, open-source, declarative GUI toolkit that distinguishes itself through its native performance, lightweight runtime, and multi-language support (Rust, C++, JavaScript, Python). Its compilation to machine code provides a significant advantage in resource-constrained environments like embedded systems compared to web-based alternatives like Electron. While competing with established toolkits like Qt and GTK and newer frameworks like Flutter and Avalonia UI in the cross-platform space, Slint's dedicated focus on a lightweight, performant, and natively compiled UI, coupled with its specific language bindings and tooling, makes it a strong contender for applications where efficiency and native integration are paramount, particularly in the embedded and performance-sensitive desktop domains."
+}

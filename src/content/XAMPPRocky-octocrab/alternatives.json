@@ -1,0 +1,98 @@
+{
+  "projectName": "octocrab",
+  "projectPurpose": "To provide Rust developers with a comprehensive, user-friendly, and flexible library for interacting with the GitHub API, simplifying the creation of GitHub integrations and bots.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "GitHub API Client for Rust",
+    "Modern and extensible design",
+    "High-level strongly-typed semantic API",
+    "Lower-level HTTP API for extensibility",
+    "Support for static client instances",
+    "Deserialization of GitHub webhook payloads",
+    "Authentication handling"
+  ],
+  "website": "https://github.com/XAMPPRocky/octocrab",
+  "alternatives": [
+    {
+      "name": "PyGithub",
+      "license": "GNU Lesser General Public Licence",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Access to GitHub REST API",
+        "Manage repositories, users, and organizations",
+        "Supports GitHub API v3",
+        "Typed interactions"
+      ],
+      "website": "https://pygithub.readthedocs.io/"
+    },
+    {
+      "name": "Octokit.js",
+      "license": "MIT",
+      "platforms": [
+        "JavaScript",
+        "Node.js",
+        "Browsers",
+        "Deno"
+      ],
+      "mainFeatures": [
+        "Official GitHub SDK",
+        "Supports REST and GraphQL APIs",
+        "Universal (browser, Node.js, Deno)",
+        "Typed (TypeScript)",
+        "Extensible via plugins"
+      ],
+      "website": "https://github.com/octokit/octokit.js"
+    },
+    {
+      "name": "Octokit.rb",
+      "license": "MIT",
+      "platforms": [
+        "Ruby"
+      ],
+      "mainFeatures": [
+        "Official GitHub toolkit for Ruby",
+        "Follows Ruby conventions",
+        "Supports authentication",
+        "Handles pagination"
+      ],
+      "website": "https://github.com/octokit/octokit.rb"
+    },
+    {
+      "name": "go-github",
+      "license": "BSD-3-Clause",
+      "platforms": [
+        "Go"
+      ],
+      "mainFeatures": [
+        "Go client library for GitHub API v3",
+        "Organizes API into logical services",
+        "Supports OAuth2 authentication",
+        "Compatible with modern Go releases"
+      ],
+      "website": "https://github.com/google/go-github"
+    },
+    {
+      "name": "Octokit.net",
+      "license": "MIT",
+      "platforms": [
+        ".NET",
+        "C#"
+      ],
+      "mainFeatures": [
+        "Official GitHub client library for .NET",
+        "Integrate .NET apps with GitHub API",
+        "Supports common API interactions"
+      ],
+      "website": "https://github.com/octokit/octokit.net"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Octokit (across languages, particularly .js and .rb)",
+    "PyGithub"
+  ],
+  "marketPositioning": "Octocrab is a prominent third-party GitHub API client specifically for the Rust ecosystem. It distinguishes itself by providing a modern, extensible API that caters to both common and advanced use cases through its high-level semantic and lower-level HTTP interfaces. Its Rust implementation emphasizes performance and safety, positioning it as a strong choice for developers building robust GitHub integrations in Rust, complementing the official Octokit libraries available in other languages."
+}

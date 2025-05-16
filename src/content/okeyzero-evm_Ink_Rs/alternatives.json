@@ -1,0 +1,129 @@
+{
+  "projectName": "evm_Ink_Rs",
+  "projectPurpose": "To provide a fast and universal tool in Rust for performing inscription operations on various EVM-compatible blockchain networks.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Supports multiple EVM chains (Ethereum, BSC, Polygon, Avalanche, OKXChain, etc.)",
+    "Fast inscription tool",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/okeyzero/evm_Ink_Rs",
+  "alternatives": [
+    {
+      "name": "ethers-rs",
+      "license": "MIT License, Apache-2.0 License",
+      "platforms": [
+        "Rust/Backend",
+        "WASM"
+      ],
+      "mainFeatures": [
+        "Ethereum JSON-RPC Client",
+        "Smart Contract Interaction",
+        "Type-safe smart contract bindings",
+        "Event monitoring",
+        "ENS support"
+      ],
+      "website": "https://github.com/gakonst/ethers-rs"
+    },
+    {
+      "name": "web3-rs",
+      "license": "MIT License, Apache-2.0 License",
+      "platforms": [
+        "Rust/Backend"
+      ],
+      "mainFeatures": [
+        "Ethereum JSON-RPC multi-transport client",
+        "Signing capabilities",
+        "Web3 types and helpers",
+        "Contract interaction"
+      ],
+      "website": "https://github.com/tomusdrw/rust-web3"
+    },
+    {
+      "name": "Alloy",
+      "license": "Apache License, Version 2.0 or MIT license",
+      "platforms": [
+        "Rust/Backend"
+      ],
+      "mainFeatures": [
+        "High performance",
+        "Modular design",
+        "Contract interaction",
+        "Provider and Signer abstractions",
+        "JSON-RPC support"
+      ],
+      "website": "https://github.com/alloy-rs/alloy"
+    },
+    {
+      "name": "ethers.js",
+      "license": "MIT License",
+      "platforms": [
+        "Web (JavaScript/TypeScript)",
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Complete Ethereum wallet implementation",
+        "Connect to Ethereum nodes via various providers",
+        "ENS support",
+        "Contract interaction",
+        "Utilities for transactions and data handling"
+      ],
+      "website": "https://github.com/ethers-io/ethers.js"
+    },
+    {
+      "name": "web3.js",
+      "license": "LGPL-3.0 License",
+      "platforms": [
+        "Web (JavaScript/TypeScript)",
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Interact with Ethereum nodes (HTTP, IPC, WebSocket)",
+        "Smart contract interaction",
+        "Account and transaction management",
+        "Get block and state information",
+        "Utility functions"
+      ],
+      "website": "https://github.com/ChainSafe/web3.js"
+    },
+    {
+      "name": "web3.py",
+      "license": "MIT License",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Interact with Ethereum blockchain using Python",
+        "Build decentralized applications",
+        "Interact with smart contracts",
+        "Manage transactions and handle events",
+        "Utility functions"
+      ],
+      "website": "https://github.com/ethereum/web3.py"
+    },
+    {
+      "name": "Foundry (cast CLI)",
+      "license": "Likely MIT or Apache 2.0",
+      "platforms": [
+        "Command Line (Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Sending transactions",
+        "Interacting with smart contracts",
+        "Converting data types",
+        "Offline transaction signing",
+        "Fetching blockchain data"
+      ],
+      "website": "https://github.com/foundry-rs/foundry"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ethers.js",
+    "web3.js"
+  ],
+  "marketPositioning": "evm_Ink_Rs is a fast and universal command-line tool written in Rust designed specifically for performing inscription operations across a variety of EVM-compatible blockchain networks. It supports popular chains such as Ethereum, Binance Smart Chain (BSC), Polygon (Matic), Avalanche (AVAX), and OKXChain, among others within the EVM ecosystem. The tool leverages the performance of Rust to enable rapid execution of inscription tasks, offering a specialized solution compared to general-purpose blockchain interaction libraries or CLIs. Its core focus is on providing an efficient workflow for users looking to embed data onto these blockchain networks."
+}

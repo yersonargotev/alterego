@@ -1,0 +1,101 @@
+{
+  "projectName": "feroxbuster",
+  "projectPurpose": "To rapidly and recursively discover hidden files and directories on web servers using wordlists.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Fast content discovery",
+    "Simple command-line interface",
+    "Recursive directory scanning",
+    "Written in Rust for performance"
+  ],
+  "website": "https://github.com/epi052/feroxbuster",
+  "alternatives": [
+    {
+      "name": "gobuster",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Directory/File busting",
+        "DNS subdomain busting",
+        "Virtual Host busting",
+        "Supports multiple extensions"
+      ],
+      "website": "https://github.com/OJ/gobuster"
+    },
+    {
+      "name": "dirb",
+      "license": "Open Source - GPL-3.0 or GPL-2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Command-line interface",
+        "Dictionary-based attack",
+        "Web content scanner",
+        "Easy to use"
+      ],
+      "website": "http://dirb.sourceforge.net/"
+    },
+    {
+      "name": "DirBuster",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "GUI interface",
+        "Dictionary-based attack",
+        "Multi-threading",
+        "Wordlist generation from crawling"
+      ],
+      "website": "https://wiki.owasp.org/index.php/DirBuster"
+    },
+    {
+      "name": "wfuzz",
+      "license": "Open Source - GPLv2 or GPL-3.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Web application fuzzer",
+        "Replaces FUZZ keyword with payloads",
+        "Modular framework",
+        "Supports various web components"
+      ],
+      "website": "https://github.com/xmendez/wfuzz"
+    },
+    {
+      "name": "ffuf",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast web fuzzer",
+        "Supports recursion",
+        "Filter and match HTTP status codes",
+        "Auto-calibration"
+      ],
+      "website": "https://github.com/ffuf/ffuf"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "gobuster",
+    "wfuzz"
+  ],
+  "marketPositioning": "Feroxbuster is positioned as a high-performance, simple, and recursive content discovery tool written in Rust. It competes directly with other fast command-line tools like gobuster and ffuf, emphasizing its speed and automatic recursive scanning capabilities as key advantages for penetration testers and security professionals seeking efficient web server reconnaissance."
+}

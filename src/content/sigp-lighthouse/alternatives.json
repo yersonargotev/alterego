@@ -1,0 +1,109 @@
+{
+  "projectName": "lighthouse",
+  "projectPurpose": "To provide an open-source, secure, and performant implementation of an Ethereum consensus client, written in Rust, enabling users to participate in the Ethereum proof-of-stake consensus mechanism.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Ethereum consensus client (beacon node and validator)",
+    "Implemented in Rust for performance and safety",
+    "Security-focused (fuzzing, external reviews)",
+    "Open-source under Apache 2.0 license",
+    "Connects to other consensus clients and an execution client"
+  ],
+  "website": "https://github.com/sigp/lighthouse",
+  "alternatives": [
+    {
+      "name": "Prysm",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Full beacon node and validator client",
+        "Written in Go",
+        "Focuses on usability, security, and reliability",
+        "Includes tools for production servers",
+        "Supports MEV builders"
+      ],
+      "website": "https://prysmaticlabs.com/"
+    },
+    {
+      "name": "Teku",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Java-based, designed for institutional needs",
+        "Full beacon node and validator client",
+        "Supports external key management",
+        "Detailed documentation",
+        "Metrics and logging"
+      ],
+      "website": "https://consensys.io/teku/"
+    },
+    {
+      "name": "Nimbus",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Resource-restricted devices"
+      ],
+      "mainFeatures": [
+        "Written in Nim",
+        "Lightweight and resource-efficient",
+        "Good for solo stakers and embedded systems",
+        "Combines beacon node and validator client",
+        "Supports multiple node connections for resilience"
+      ],
+      "website": "https://nimbus.team/"
+    },
+    {
+      "name": "Lodestar",
+      "license": "Open Source - LGPL-3.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Written in TypeScript/JavaScript",
+        "Focuses on accessibility for web developers",
+        "Supports light clients",
+        "Beacon node and validator client"
+      ],
+      "website": "https://lodestar.chainsafe.io/"
+    },
+    {
+      "name": "Geth (Go Ethereum)",
+      "license": "Open Source - GNU LGPL v3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Most widely used execution client",
+        "Written in Go",
+        "Supports full, light, and archive nodes",
+        "Extensive community support",
+        "Built-in key management"
+      ],
+      "website": "https://geth.ethereum.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Prysm (Consensus Client)",
+    "Geth (Overall Ethereum Client)"
+  ],
+  "marketPositioning": "Lighthouse is positioned as a leading open-source Ethereum consensus client built in Rust, emphasizing security and performance. It competes directly with other major consensus clients like Prysm, Teku, Nimbus, and Lodestar by offering a robust, reliable, and highly performant implementation, particularly appealing to users and institutions prioritizing these attributes and those within the Rust ecosystem. It holds a significant share of the consensus client market."
+}

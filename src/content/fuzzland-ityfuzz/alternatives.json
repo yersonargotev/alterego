@@ -1,0 +1,118 @@
+{
+  "projectName": "ityfuzz",
+  "projectPurpose": "To provide a highly efficient and automated tool for finding security vulnerabilities in smart contracts (EVM and MoveVM bytecode) using a hybrid approach of fuzzing and symbolic execution.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Blazing Fast Bytecode-Level Hybrid Fuzzer (EVM and MoveVM)",
+    "Combines Fuzzing and Symbolic Execution",
+    "Supports On-chain and Off-chain Fuzzing via Chain Forking",
+    "Automated Exploit Generation for Various Vulnerabilities",
+    "Minimal Manual Effort Required"
+  ],
+  "website": "https://github.com/fuzzland/ityfuzz",
+  "alternatives": [
+    {
+      "name": "Echidna",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Property-Based Fuzzing",
+        "Tests User-Defined Predicates/Assertions",
+        "Supports Various Build Systems (Foundry, Hardhat, Truffle)",
+        "Can Test Deployed Contracts",
+        "Grammar-Based Fuzzing Campaigns"
+      ],
+      "website": "https://github.com/crytic/echidna"
+    },
+    {
+      "name": "Mythril",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via Docker)"
+      ],
+      "mainFeatures": [
+        "Security Analysis for EVM Bytecode",
+        "Uses Symbolic Execution, SMT Solving, and Taint Analysis",
+        "Detects Various Vulnerability Types",
+        "Analyzes Source Code or Deployed Contracts",
+        "Supports Multi-Contract Analysis"
+      ],
+      "website": "https://github.com/ConsenSys/mythril-classic"
+    },
+    {
+      "name": "Foundry",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Comprehensive Smart Contract Development Toolkit",
+        "Write Tests in Solidity",
+        "Built-in Fuzz Testing",
+        "Supports Invariant Testing",
+        "Fast Execution (Written in Rust)"
+      ],
+      "website": "https://github.com/foundry-rs/foundry"
+    },
+    {
+      "name": "Medusa",
+      "license": "Open Source",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Open-Source EVM-Based Fuzzer (Based on Echidna)",
+        "Coverage-Guided Fuzzing",
+        "Parallel Fuzzing",
+        "On-Chain Fuzzing",
+        "Smart Mutational Value Generation"
+      ],
+      "website": "https://github.com/trailofbits/medusa"
+    },
+    {
+      "name": "Halmos",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Python-based)"
+      ],
+      "mainFeatures": [
+        "Symbolic Testing for EVM Smart Contracts",
+        "Uses Bounded Symbolic Execution",
+        "Aids in Formal Verification",
+        "Can Prove Assertions or Provide Counter-examples",
+        "Integrates with Solidity and Foundry"
+      ],
+      "website": "https://github.com/a16z/halmos"
+    },
+    {
+      "name": "SMARTIAN",
+      "license": "Open Source",
+      "platforms": [],
+      "mainFeatures": [
+        "Open-Source Smart Contract Fuzzer",
+        "Uses Static and Dynamic Data-Flow Analyses for Guidance",
+        "Generates Critical Transaction Sequences Systematically",
+        "Can Discover Bugs Without Requiring Source Code",
+        "Effective in Bug Finding and Code Coverage"
+      ],
+      "website": "https://github.com/Donggyeong/SMARTIAN"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Echidna",
+    "Foundry",
+    "Mythril"
+  ],
+  "marketPositioning": "ItyFuzz is positioned as a cutting-edge, blazing-fast bytecode-level hybrid fuzzer for smart contracts. It differentiates itself through its combination of fuzzing and symbolic execution, emphasis on speed and automation (including autonomous exploit generation), ability to handle complex DeFi scenarios, and support for both on-chain and off-chain fuzzing. While competing with established fuzzers like Echidna and integrated testing frameworks like Foundry, ItyFuzz highlights its minimal manual effort requirement and its performance in finding bugs and generating exploits directly from bytecode."
+}

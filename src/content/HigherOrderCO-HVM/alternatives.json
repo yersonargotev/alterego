@@ -1,0 +1,83 @@
+{
+  "projectName": "HVM",
+  "projectPurpose": "To provide a highly efficient and massively parallel runtime environment for functional programs, leveraging an optimal reduction strategy and a non-garbage-collected architecture implemented in Rust.",
+  "platforms": [
+    "Cross-platform (primarily Linux/macOS/WSL, Windows support via WSL)",
+    "GPU (CUDA - Nvidia)"
+  ],
+  "mainFeatures": [
+    "Massively parallel execution",
+    "Optimal functional runtime (beta-optimal)",
+    "Implemented in Rust",
+    "Lazy evaluation",
+    "Non-garbage-collected memory management (based on Interaction Nets)"
+  ],
+  "website": "https://github.com/HigherOrderCO/HVM",
+  "alternatives": [
+    {
+      "name": "BEAM (Erlang Virtual Machine)",
+      "license": "Open Source - Apache License 2.0 (for Erlang/OTP)",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, BSD, Solaris, etc.)"
+      ],
+      "mainFeatures": [
+        "Lightweight processes (Actor Model)",
+        "Fault Tolerance",
+        "Distribution",
+        "Hot Code Swapping",
+        "Per-process garbage collection"
+      ],
+      "website": "https://www.erlang.org/"
+    },
+    {
+      "name": "GHC Runtime System",
+      "license": "Open Source - BSD-3-Clause (for GHC)",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, BSD, Solaris, etc.)"
+      ],
+      "mainFeatures": [
+        "Lazy evaluation support",
+        "Concurrent and Parallel programming models (STM, Data Parallelism)",
+        "Generational and Parallel Garbage Collection",
+        "Native code generation"
+      ],
+      "website": "https://www.haskell.org/ghc/"
+    },
+    {
+      "name": "JVM (Java Virtual Machine) / OpenJDK",
+      "license": "Open Source - GPLv2 with Classpath Exception (for OpenJDK), Proprietary versions exist",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, various others)"
+      ],
+      "mainFeatures": [
+        "Bytecode execution",
+        "Just-In-Time (JIT) Compilation",
+        "Automatic Memory Management (Garbage Collection)",
+        "Threading and Concurrency APIs",
+        "Supports various languages (including functional)"
+      ],
+      "website": "https://openjdk.org/"
+    },
+    {
+      "name": "CLR (.NET Common Language Runtime) / .NET",
+      "license": "Open Source - MIT License (for .NET), Proprietary (.NET Framework)",
+      "platforms": [
+        "Cross-platform (Windows, macOS, Linux for .NET)"
+      ],
+      "mainFeatures": [
+        "CIL Execution",
+        "Just-In-Time (JIT) Compilation",
+        "Automatic Memory Management (Garbage Collection)",
+        "Task-based Asynchronous Programming",
+        "Interoperability",
+        "Supports various languages (including functional)"
+      ],
+      "website": "https://dotnet.microsoft.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OpenJDK (JVM)",
+    "BEAM (Erlang Virtual Machine)"
+  ],
+  "marketPositioning": "HVM is positioned as a cutting-edge, research-driven runtime aiming to redefine the performance and parallelism achievable for functional programs. By implementing an optimal (beta-optimal) reduction strategy based on Interaction Nets and utilizing Rust for efficiency and a non-garbage-collected model, it seeks to surpass the performance of established functional runtimes like GHC and BEAM in specific, highly parallelizable functional computations. It serves as a low-level target for future high-performance functional languages and distinguishes itself from general-purpose runtimes like JVM and CLR by its specialized focus on optimal functional execution and massive parallelism."
+}

@@ -1,0 +1,137 @@
+{
+  "projectName": "aichat",
+  "projectPurpose": "To provide a unified command-line interface (CLI) for interacting with a wide variety of large language models (LLMs) and AI platforms, offering features like conversational chat, shell command generation, document interaction, and agent/tool execution from the terminal.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Integrates 20+ AI platforms/models (OpenAI, Gemini, Claude, Ollama, etc.)",
+    "CLI with Chat-REPL and CMD mode",
+    "Shell Assistant (natural language to shell commands)",
+    "RAG (Retrieval Augmented Generation) for documents",
+    "AI Tools & Agents functionality",
+    "Configurable settings and themes"
+  ],
+  "website": "https://github.com/sigoden/aichat",
+  "alternatives": [
+    {
+      "name": "Ollama",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Run LLMs locally",
+        "Seamless model management",
+        "API interface",
+        "Data privacy and control"
+      ],
+      "website": "https://ollama.com/"
+    },
+    {
+      "name": "LLM (Simon Willison's tool)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "CLI and Python library",
+        "Supports remote and local models via plugins",
+        "Logs interactions to SQLite",
+        "Supports fragments for long context"
+      ],
+      "website": "https://llm.datasette.io/"
+    },
+    {
+      "name": "GPT4All",
+      "license": "Open Source - Apache 2.0 (Platform)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Run LLMs locally (CPU/GPU)",
+        "Privacy-focused (no data leaves device)",
+        "Offers GUI and CLI",
+        "Chat with local files (LocalDocs)"
+      ],
+      "website": "https://gpt4all.io/"
+    },
+    {
+      "name": "ChatGPT",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android",
+        "Desktop"
+      ],
+      "mainFeatures": [
+        "Conversational AI",
+        "Web browsing",
+        "Data analysis",
+        "Image input and generation"
+      ],
+      "website": "https://chat.openai.com/"
+    },
+    {
+      "name": "Google Gemini",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Multimodal capabilities",
+        "Integrates with Google services",
+        "Real-time collaboration (Canvas)",
+        "Data analysis"
+      ],
+      "website": "https://gemini.google.com/"
+    },
+    {
+      "name": "GitHub Copilot",
+      "license": "Proprietary",
+      "platforms": [
+        "IDE Extensions (VS Code, JetBrains, etc.)",
+        "CLI"
+      ],
+      "mainFeatures": [
+        "AI pair programmer",
+        "Real-time code suggestions",
+        "Code completion",
+        "In-IDE chat interface"
+      ],
+      "website": "https://github.com/features/copilot"
+    },
+    {
+      "name": "HermesCLI",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "CLI tool for LLMs",
+        "Supports various LLMs",
+        "Extendable architecture (plugins)",
+        "Advanced media input"
+      ],
+      "website": "https://github.com/KoStard/HermesCLI"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ChatGPT",
+    "Google Gemini"
+  ],
+  "marketPositioning": "AIChat positions itself as a comprehensive, all-in-one CLI tool distinguished by its extensive integration with over 20 diverse AI platforms and models. While other CLI tools exist, AIChat's strength lies in providing a single terminal interface to access a broad spectrum of AI capabilities, from major commercial APIs to local open-source models. Its focus on a rich CLI experience with features like Shell Assistant, Chat-REPL, RAG, and agent support caters specifically to developers and power users who prioritize command-line efficiency and require flexibility across multiple AI backends. It competes by offering greater model variety and terminal-native features compared to general web interfaces, and broader platform support compared to other multi-model CLI tools."
+}

@@ -1,0 +1,121 @@
+{
+  "projectName": "abstreet",
+  "projectPurpose": "To provide tools for urban planners, community advocates, researchers, and citizens to model and simulate urban transportation systems, with a specific focus on improving conditions and promoting modes like walking, biking, and public transit.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Transportation planning",
+    "Traffic simulation",
+    "Focus on walking, biking, and public transit",
+    "City modeling",
+    "Explore impact of urban design changes"
+  ],
+  "website": "https://github.com/a-b-street/abstreet",
+  "alternatives": [
+    {
+      "name": "SUMO (Simulation of Urban MObility)",
+      "license": "Open Source (EPL 2.0 or GPL2 or later)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Microscopic simulation",
+        "Intermodal simulation (vehicles, pedestrians, public transport)",
+        "Large network support",
+        "Online interaction (TraCI)",
+        "Extensive toolset for scenario creation and analysis"
+      ],
+      "website": "https://www.eclipse.org/sumo/"
+    },
+    {
+      "name": "MATSim (Multi-Agent Transport Simulation)",
+      "license": "Open Source (GNU Public License (GPL))",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "Mac OS X"
+      ],
+      "mainFeatures": [
+        "Agent-based, multi-modal simulation",
+        "Large-scale scenarios",
+        "Modular architecture",
+        "Demand modeling",
+        "Replanning"
+      ],
+      "website": "https://www.matsim.org/"
+    },
+    {
+      "name": "PTV Vissim",
+      "license": "Proprietary",
+      "platforms": [
+        "Microsoft Windows"
+      ],
+      "mainFeatures": [
+        "Microscopic multi-modal traffic flow simulation",
+        "Detailed modeling of vehicles, pedestrians, public transport",
+        "Signal control optimization",
+        "ITS communication analysis",
+        "Integration with PTV Visum and Vistro"
+      ],
+      "website": "https://www.myumovity.com/en/products/ptv-vissim"
+    },
+    {
+      "name": "CUBE (Bentley Systems)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Predictive modeling and transportation simulation",
+        "Analysis of project and policy impacts",
+        "Multimodal support",
+        "GIS integration",
+        "Scenario management"
+      ],
+      "website": "https://www.bentley.com/software/cube/"
+    },
+    {
+      "name": "TransCAD (Caliper Corporation)",
+      "license": "Proprietary",
+      "platforms": [
+        "Microsoft Windows"
+      ],
+      "mainFeatures": [
+        "Integrated GIS and transportation modeling",
+        "Supports all modes and scales",
+        "Travel demand forecasting (4-step, activity-based, agent-based)",
+        "Logistics and routing",
+        "Network analysis"
+      ],
+      "website": "https://www.caliper.com/tcsdana.htm"
+    },
+    {
+      "name": "AnyLogic",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Multi-method simulation (Agent-Based, Discrete Event, System Dynamics)",
+        "Traffic simulation library",
+        "Pedestrian simulation library",
+        "GIS integration",
+        "3D animation"
+      ],
+      "website": "https://www.anylogic.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "TransCAD",
+    "PTV Vissim"
+  ],
+  "marketPositioning": "A/B Street is an open-source transportation planning and traffic simulation tool uniquely positioned to empower urban planners, advocates, and citizens in creating cities that prioritize walking, biking, and public transit. Unlike broader commercial tools that often cater extensively to car-centric analysis, A/B Street focuses specifically on sustainable mobility modes, offering a more accessible platform for visualizing and advocating for urban design changes that support active and public transportation."
+}

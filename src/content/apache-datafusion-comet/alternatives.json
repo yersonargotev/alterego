@@ -1,0 +1,99 @@
+{
+  "projectName": "datafusion-comet",
+  "projectPurpose": "To improve the performance and efficiency of Apache Spark workloads by providing a high-performance, native execution engine plugin built on Apache DataFusion and Apache Arrow.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Accelerates Apache Spark query execution using a native runtime",
+    "Built on Apache DataFusion and Apache Arrow",
+    "Seamless integration with Spark, no code changes required",
+    "Aims for feature parity with Spark operators and expressions",
+    "Automatic fallback to Spark for unsupported features",
+    "Supports native Parquet read and write",
+    "UDF framework for native migration"
+  ],
+  "website": "https://datafusion.apache.org/comet/",
+  "alternatives": [
+    {
+      "name": "Velox",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Composable and extensible C++ execution engine library",
+        "Reusable data processing components",
+        "Integrates with various data systems (e.g., Presto, Spark via Gluten)",
+        "Supports columnar memory layout and vectorized execution",
+        "Used by major tech companies"
+      ],
+      "website": "https://github.com/facebookincubator/velox"
+    },
+    {
+      "name": "Gluten",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Middle layer to offload Spark SQL to native engines",
+        "Bridge between Spark JVM and native execution engines (like Velox)",
+        "Uses Apache Arrow and Substrait",
+        "Enables leveraging vectorized libraries and hardware accelerators in Spark"
+      ],
+      "website": "https://github.com/IntelLabs/gluten"
+    },
+    {
+      "name": "Blaze",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Spark accelerator using native vectorized execution",
+        "Leverages Apache DataFusion as core execution engine",
+        "Compatible with Spark programming interface",
+        "Maps Spark physical plan to DataFusion execution plan",
+        "Supports different Spark versions"
+      ],
+      "website": "https://github.com/kwai/blaze"
+    },
+    {
+      "name": "NVIDIA RAPIDS Accelerator for Apache Spark",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Accelerates Spark applications using GPUs",
+        "Focuses on Spark SQL and DataFrame operations",
+        "Integrates with RAPIDS libraries",
+        "Requires no code changes to Spark applications"
+      ],
+      "website": "https://github.com/NVIDIA/spark-rapids"
+    },
+    {
+      "name": "Databricks Photon",
+      "license": "Proprietary",
+      "platforms": [
+        "Databricks Platform"
+      ],
+      "mainFeatures": [
+        "Vectorized native query engine",
+        "Written in C++",
+        "Designed for fast data processing on data lakes",
+        "Integrated within the Databricks Lakehouse Platform"
+      ],
+      "website": "https://databricks.com/product/photon"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Velox"
+  ],
+  "marketPositioning": "Apache DataFusion Comet is positioned as a high-performance open-source accelerator for Apache Spark, unique in its foundation on the Rust-based DataFusion query engine and the Apache Arrow columnar format. It aims to provide a seamless, drop-in replacement for parts of Spark's execution layer, offering performance benefits through native, vectorized execution without requiring users to alter their existing Spark code. This distinguishes it from proprietary solutions like Databricks Photon and offers an alternative technical approach to other native acceleration efforts like those based on C++ engines such as Velox (often integrated via Gluten) or GPU-focused solutions like NVIDIA RAPIDS. Its commitment to feature parity and automatic fallback makes it an accessible option for Spark users seeking performance improvements within the Apache open-source ecosystem."
+}

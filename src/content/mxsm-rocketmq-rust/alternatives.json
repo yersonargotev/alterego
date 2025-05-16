@@ -1,0 +1,104 @@
+{
+  "projectName": "rocketmq-rust",
+  "projectPurpose": "To provide a client library in Rust for interacting with Apache RocketMQ messaging clusters.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Apache RocketMQ implementation in Rust",
+    "Faster messaging operations",
+    "Safer messaging interactions",
+    "Lower memory usage"
+  ],
+  "website": "https://github.com/mxsm/rocketmq-rust",
+  "alternatives": [
+    {
+      "name": "rust-rdkafka",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Asynchronous/futures-based Kafka client",
+        "Wraps librdkafka for performance",
+        "Supports Kafka producers and consumers",
+        "Integrates with Tokio"
+      ],
+      "website": "https://github.com/fede1024/rust-rdkafka"
+    },
+    {
+      "name": "lapin",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "AMQP 0.9.1 client for RabbitMQ",
+        "Asynchronous/futures-based API",
+        "Supports multiple TLS backends",
+        "Integrates with Tokio, async-std, smol"
+      ],
+      "website": "https://github.com/mathstuf/rust-lapin"
+    },
+    {
+      "name": "pulsar-rs",
+      "license": "Open Source - Apache 2.0, MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Pure Rust Apache Pulsar client",
+        "Async/await API (Tokio, async-std compatible)",
+        "Multi-topic consumers",
+        "Message batching and compression"
+      ],
+      "website": "https://github.com/streamnative/pulsar-rs"
+    },
+    {
+      "name": "async-nats",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Asynchronous NATS client (Tokio-based)",
+        "Supports Core NATS and JetStream",
+        "Key-Value Store and Object Store support",
+        "TLS support"
+      ],
+      "website": "https://github.com/nats-io/nats.rs"
+    },
+    {
+      "name": "AWS SDK for Rust (for SNS/SQS)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Official AWS SDK for Rust",
+        "Interacts with AWS SNS (Pub/Sub)",
+        "Interacts with AWS SQS (Queues)",
+        "Integrates with other AWS services"
+      ],
+      "website": "https://github.com/awslabs/aws-sdk-rust"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Kafka",
+    "RabbitMQ",
+    "AWS SNS/SQS"
+  ],
+  "marketPositioning": "rocketmq-rust is positioned as a high-performance, safe, and memory-efficient native Rust client for the Apache RocketMQ messaging system. It caters specifically to Rust developers who need to integrate with an existing RocketMQ infrastructure or choose RocketMQ for its specific features (like strong transaction support). Its key differentiator among RocketMQ clients is its implementation language (Rust), emphasizing performance and memory safety. Compared to Rust clients for other messaging systems (Kafka, RabbitMQ, Pulsar), its position depends on the user's requirement for the underlying messaging platform, where it serves the niche of the RocketMQ ecosystem within the Rust community."
+}

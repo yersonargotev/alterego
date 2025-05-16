@@ -1,0 +1,135 @@
+{
+  "projectName": "pgcat",
+  "projectPurpose": "To provide a robust and scalable middleware solution for PostgreSQL databases, offering efficient connection pooling, integrated sharding, load balancing, and failover support.",
+  "platforms": [],
+  "mainFeatures": [
+    "PostgreSQL connection pooling",
+    "Sharding",
+    "Load balancing",
+    "Failover support"
+  ],
+  "website": "https://github.com/postgresml/pgcat",
+  "alternatives": [
+    {
+      "name": "PgBouncer",
+      "license": "Open Source - ISC",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Lightweight connection pooling",
+        "Supports session, transaction, and statement pooling",
+        "Easy to set up"
+      ],
+      "website": "https://www.pgbouncer.org/"
+    },
+    {
+      "name": "Pgpool-II",
+      "license": "Open Source - BSD-like",
+      "platforms": [
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Connection pooling",
+        "Load balancing (read/write splitting)",
+        "Replication",
+        "Failover"
+      ],
+      "website": "https://www.pgpool.net/"
+    },
+    {
+      "name": "Odyssey",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Scalable multi-threaded connection pooling",
+        "Designed for high-load/cloud environments",
+        "Supports various pooling modes",
+        "Prometheus integration"
+      ],
+      "website": "https://github.com/yandex/odyssey"
+    },
+    {
+      "name": "HAProxy",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "High-performance TCP and HTTP load balancing",
+        "Proxying",
+        "Health checking",
+        "SSL termination"
+      ],
+      "website": "http://www.haproxy.org/"
+    },
+    {
+      "name": "MariaDB MaxScale",
+      "license": "Business Source License (BSL) with GPLv2 fallback",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Database proxy",
+        "Load balancing",
+        "Query routing",
+        "Firewall"
+      ],
+      "website": "https://mariadb.com/products/maxscale/"
+    },
+    {
+      "name": "Citus",
+      "license": "Open Source - PostgreSQL License",
+      "platforms": [
+        "Integrated into PostgreSQL"
+      ],
+      "mainFeatures": [
+        "Distributed PostgreSQL",
+        "Automatic sharding (row-based and schema-based)",
+        "Distributed queries",
+        "Horizontal scaling"
+      ],
+      "website": "https://www.citusdata.com/"
+    },
+    {
+      "name": "Supavisor",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Cloud-native"
+      ],
+      "mainFeatures": [
+        "Scalable, cloud-native connection pooler",
+        "Handles high connection counts",
+        "Designed for serverless environments",
+        "Multi-threaded"
+      ],
+      "website": "https://github.com/supabase/supavisor"
+    },
+    {
+      "name": "PgDog",
+      "license": "Open Source - AGPL v3",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Application layer load balancer",
+        "Read/write splitting",
+        "Health checks and failover",
+        "Automatic sharding"
+      ],
+      "website": "https://github.com/pgdogdev/pgdog"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "PgBouncer",
+    "HAProxy"
+  ],
+  "marketPositioning": "Pgcat is positioned as a modern, high-performance, and comprehensive middleware solution for PostgreSQL. Unlike traditional single-threaded poolers like PgBouncer, pgcat is multi-threaded, offering better resource utilization and concurrency. Its key differentiator is the integration of connection pooling, sophisticated sharding logic that routes queries directly, load balancing, and failover into a single layer. This provides a more unified approach to scaling and ensuring high availability compared to solutions that require combining multiple tools (e.g., a separate pooler, a generic load balancer, and application-level sharding). Written in Rust, it emphasizes performance and reliability. Pgcat competes as a more feature-rich alternative to basic poolers and load balancers, offering built-in sharding capabilities that are distinct from full distributed databases like Citus or application-managed sharding."
+}

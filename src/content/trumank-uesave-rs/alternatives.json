@@ -1,0 +1,75 @@
+{
+  "projectName": "uesave-rs",
+  "projectPurpose": "To provide a Rust library for reading and writing Unreal Engine save files (GVAS), facilitating programmatic interaction for developers and modders.",
+  "platforms": [],
+  "mainFeatures": [
+    "Rust library for reading and writing Unreal Engine save files (GVAS)",
+    "Supports a wide range of object structures",
+    "Includes a CLI utility for converting saves to/from JSON format"
+  ],
+  "website": "https://github.com/trumank/uesave-rs",
+  "alternatives": [
+    {
+      "name": "UeSaveGame",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        ".NET library for UE4 and UE5 save files",
+        "Supports standard save game files",
+        "Optional JSON serialization library"
+      ],
+      "website": "https://github.com/CrystalFerrai/UeSaveGame"
+    },
+    {
+      "name": "UESaveEditor",
+      "license": "Unknown (WIP)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "WIP graphical save editor for non-encrypted saves",
+        "Allows browsing and editing save data",
+        "Supports saving modified files"
+      ],
+      "website": "https://www.nexusmods.com/site/mods/587"
+    },
+    {
+      "name": "pyUE4Parse",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Python library for parsing UE4/5 asset files",
+        "Supports .uasset, .umap, .uexp, .ubulk formats",
+        "Can read .pak/.utoc containers",
+        "Convert assets to JSON"
+      ],
+      "website": "https://github.com/MinshuG/pyUE4Parse"
+    },
+    {
+      "name": "Save Editor Online",
+      "license": "Free (Web-based)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Online save editor for various game formats",
+        "Supports .sav files for Unreal Engine games",
+        "Allows editing of variables (int, float)",
+        "Web-based interface"
+      ],
+      "website": "https://saveeditonline.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Save Editor Online"
+  ],
+  "marketPositioning": "uesave-rs is an open-source library written in Rust specifically targeting developers and modders who need programmatic access to Unreal Engine save files (GVAS). Its position is distinct from graphical save editors by providing a library for building custom tools and integrations within the Rust ecosystem. Compared to libraries in other languages, it leverages Rust's performance and safety features. The included JSON conversion utility makes it a versatile tool for both automated processing and human-assisted editing workflows."
+}

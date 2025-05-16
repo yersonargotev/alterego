@@ -1,0 +1,131 @@
+{
+  "projectName": "greptimedb",
+  "projectPurpose": "To provide a single, high-performance, scalable, and cost-effective database solution for storing and analyzing all types of observability data (metrics, logs, and traces) in cloud-native and distributed environments, simplifying the data stack with unified query languages (SQL, PromQL) and streaming capabilities.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows (via WSL)",
+    "Docker",
+    "Kubernetes",
+    "Cloud",
+    "Edge (ARM/Android)"
+  ],
+  "mainFeatures": [
+    "Open-source (Apache 2.0 License)",
+    "Cloud-native and distributed architecture",
+    "Unified database for metrics, logs, and traces",
+    "Supports SQL, PromQL, and Streaming",
+    "Written in Rust for high performance",
+    "Optimized columnar storage and rich indexing",
+    "Separated compute and storage, supports object storage",
+    "High scalability and performance for large datasets",
+    "Supports various data ingestion protocols and access methods (REST, MySQL/PostgreSQL protocols)",
+    "Available as a managed cloud service (GreptimeCloud)"
+  ],
+  "website": "https://greptime.com/",
+  "alternatives": [
+    {
+      "name": "InfluxDB",
+      "license": "Open Source (MIT/Apache 2.0 for Core), Proprietary (Enterprise/Cloud)",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, Docker, Cloud)"
+      ],
+      "mainFeatures": [
+        "High-speed data ingest",
+        "Real-time query performance",
+        "Unlimited cardinality support",
+        "Native SQL and InfluxQL query languages",
+        "Optimized for time series data"
+      ],
+      "website": "https://www.influxdata.com/"
+    },
+    {
+      "name": "Prometheus",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Docker)"
+      ],
+      "mainFeatures": [
+        "Multi-dimensional data model",
+        "Powerful PromQL query language",
+        "HTTP pull model for metrics collection",
+        "Service discovery",
+        "Integrated alerting system"
+      ],
+      "website": "https://prometheus.io/"
+    },
+    {
+      "name": "TimescaleDB",
+      "license": "Open Source (Apache 2.0 for Apache 2 Edition), Source Available (Timescale License for Community Edition), Proprietary (Cloud/Enterprise)",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, Docker, Cloud) - Built on PostgreSQL"
+      ],
+      "mainFeatures": [
+        "Extends PostgreSQL for time series data",
+        "Automatic data partitioning (Hypertables)",
+        "Supports standard SQL",
+        "Data compression",
+        "Time-based aggregation functions"
+      ],
+      "website": "https://www.timescale.com/"
+    },
+    {
+      "name": "ClickHouse",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Linux",
+        "FreeBSD",
+        "macOS",
+        "Windows (via WSL)",
+        "Docker",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Columnar storage format",
+        "High performance for OLAP queries",
+        "Real-time data ingestion",
+        "Distributed architecture",
+        "Data compression"
+      ],
+      "website": "https://clickhouse.com/"
+    },
+    {
+      "name": "Elasticsearch",
+      "license": "Dual-licensed (SSPL and Elastic License - proprietary/source-available), AGPL for core components",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, Docker, Cloud)"
+      ],
+      "mainFeatures": [
+        "Distributed full-text search engine",
+        "Schema-free JSON documents",
+        "RESTful API",
+        "Real-time data indexing",
+        "Often used for log aggregation and analysis"
+      ],
+      "website": "https://www.elastic.co/elasticsearch/"
+    },
+    {
+      "name": "SigNoz",
+      "license": "Open Source (Apache 2.0 for core components)",
+      "platforms": [
+        "Docker",
+        "Kubernetes",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Unified UI for metrics, logs, and traces",
+        "OpenTelemetry native support",
+        "Uses ClickHouse as data store",
+        "Flexible querying (PromQL, ClickHouse, Query builder)",
+        "Correlated observability signals"
+      ],
+      "website": "https://signoz.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Prometheus (for metrics)",
+    "InfluxDB (for time series)",
+    "Elasticsearch (for logs)"
+  ],
+  "marketPositioning": "GreptimeDB is positioned as a unified, cloud-native, and high-performance observability database that converges metrics, logs, and traces into a single system. It differentiates itself from traditional approaches that rely on separate databases for each data type (e.g., Prometheus for metrics, Elasticsearch for logs) by offering a simplified architecture, unified query languages (SQL and PromQL), and a focus on performance at scale using Rust and columnar storage with object storage integration. Its open-source Apache 2.0 license provides a distinct advantage over some alternatives with more restrictive licensing models. It competes with specialized time-series databases, analytical databases used for observability, and other unified observability backends, aiming to provide a more efficient and cost-effective solution for modern distributed systems."
+}

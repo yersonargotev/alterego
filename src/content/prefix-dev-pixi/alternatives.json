@@ -1,0 +1,110 @@
+{
+  "projectName": "pixi",
+  "projectPurpose": "To provide a fast, cross-platform, and user-friendly package and environment management tool that supports multiple programming languages, improves upon the existing conda ecosystem, and offers features like integrated lock files and a project-centric workflow for deterministic builds.",
+  "platforms": [
+    "Linux",
+    "Windows",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Cross-platform, multi-language package manager and workflow tool",
+    "Built on the foundation of the conda ecosystem",
+    "Supports multiple languages including Python, C++, and R using Conda packages",
+    "Compatible with all major operating systems: Linux, Windows, macOS (including Apple Silicon)",
+    "Always includes an up-to-date lock file",
+    "Provides a clean and simple Cargo-like command-line interface",
+    "Allows you to install tools per-project or system-wide",
+    "Entirely written in Rust and built on top of the rattler library",
+    "Project-focused approach",
+    "Bridges the worlds of conda and pip package management",
+    "Fast and does not require administrative privileges"
+  ],
+  "website": "https://github.com/prefix-dev/pixi",
+  "alternatives": [
+    {
+      "name": "Conda",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Cross-platform, language-agnostic binary package manager",
+        "Manages environments",
+        "Installs packages from channels (defaults, conda-forge, etc.)",
+        "Can manage non-Python dependencies"
+      ],
+      "website": "https://docs.conda.io/en/latest/"
+    },
+    {
+      "name": "Pip + venv (or virtualenv)",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Installs Python packages from PyPI",
+        "Manages Python packages",
+        "Creates isolated Python environments (venv/virtualenv)",
+        "Uses requirements.txt for dependency tracking"
+      ],
+      "website": "https://pypi.org/"
+    },
+    {
+      "name": "Poetry",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Unified dependency management, virtual environments, and package publishing",
+        "Uses pyproject.toml for configuration",
+        "Generates a poetry.lock file for deterministic builds",
+        "Sophisticated dependency resolver"
+      ],
+      "website": "https://python-poetry.org/"
+    },
+    {
+      "name": "Pipenv",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Combines pip and virtualenv functionality",
+        "Uses Pipfile and Pipfile.lock for dependency management",
+        "Automatically creates and manages virtual environments",
+        "Generates and checks file hashes"
+      ],
+      "website": "https://pipenv.pypa.io/"
+    },
+    {
+      "name": "uv",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Extremely fast Python package installer and resolver written in Rust",
+        "Aims to be a drop-in replacement for pip",
+        "Integrated environment management",
+        "Supports PyPI packages"
+      ],
+      "website": "https://github.com/astral-sh/uv"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Pip",
+    "Conda"
+  ],
+  "marketPositioning": "Pixi is positioned as a next-generation, high-performance, multi-language package and workflow manager that builds upon the Conda ecosystem. It offers a faster, project-centric approach with integrated lock files and a modern CLI, differentiating itself from traditional Conda and Python-specific tools like Pip/venv, Poetry, and Pipenv by its multi-language support via Conda and its performance gains from being written in Rust. It aims to unify package management across different languages and ecosystems."
+}

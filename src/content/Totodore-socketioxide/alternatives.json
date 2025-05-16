@@ -1,0 +1,110 @@
+{
+  "projectName": "socketioxide",
+  "projectPurpose": "To provide a high-performance, reliable, and idiomatic Socket.IO server implementation in the Rust programming language, integrated with the Tower/Tokio ecosystem.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Socket.IO server implementation in Rust",
+    "Integration with Tower ecosystem and Tokio stack",
+    "Low-latency, bidirectional, event-based communication",
+    "HTTP long-polling fallback",
+    "Automatic reconnection",
+    "Packet buffering",
+    "Acknowledgements",
+    "Broadcasting",
+    "Multiplexing (Namespaces)",
+    "Rooms",
+    "Binary packets",
+    "Common and Msgpack parsers",
+    "Polling & WebSocket transports",
+    "Integration with Tower-based web frameworks (Axum, Warp, Salvo, Viz, Hyper)",
+    "Supports Tower-based middleware (CORS, authorization, compression)",
+    "Supports Socket.IO protocol v4 and v5"
+  ],
+  "website": "https://github.com/Totodore/socketioxide",
+  "alternatives": [
+    {
+      "name": "Socket.IO (Node.js)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Real-time bidirectional event-based communication",
+        "HTTP long-polling fallback",
+        "Automatic reconnection",
+        "Broadcasting",
+        "Namespaces and Rooms"
+      ],
+      "website": "https://socket.io/"
+    },
+    {
+      "name": "python-socketio",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Socket.IO server and client implementation",
+        "ASGI and WSGI support",
+        "Event-based communication",
+        "Namespaces and Rooms",
+        "Integration with web frameworks (Flask, Django, etc.)"
+      ],
+      "website": "https://python-socketio.readthedocs.io/"
+    },
+    {
+      "name": "netty-socketio (Java)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java",
+        "JVM"
+      ],
+      "mainFeatures": [
+        "Socket.IO server based on Netty",
+        "Supports Socket.IO 1.0+ clients",
+        "Event-based communication",
+        "Namespaces and Rooms",
+        "Acknowledgements"
+      ],
+      "website": "https://github.com/mrniko/netty-socketio"
+    },
+    {
+      "name": "go-socket.io (Golang)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Golang"
+      ],
+      "mainFeatures": [
+        "Socket.IO implementation in Golang",
+        "Supports Socket.IO client v3, v4",
+        "Supports WebSocket transport",
+        "Event-based communication",
+        "Namespaces and Rooms"
+      ],
+      "website": "https://github.com/googollee/go-socket.io"
+    },
+    {
+      "name": "ws (Node.js)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Simple and fast WebSocket server and client",
+        "Permessage-deflate extension support",
+        "Large community",
+        "Minimal API",
+        "High performance"
+      ],
+      "website": "https://github.com/websockets/ws"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Socket.IO (Node.js)"
+  ],
+  "marketPositioning": "Socketioxide is positioned as a high-performance, memory-safe, and reliable Socket.IO server implementation for the Rust ecosystem. It differentiates itself by leveraging Rust's core strengths and integrating deeply with the standard Tower/Tokio asynchronous stack, providing a familiar Socket.IO development experience with the performance benefits of Rust. While the original Node.js Socket.IO is the most widely known and used, Socketioxide targets developers specifically building real-time applications in Rust who require robust Socket.IO features and seamless integration with the Rust asynchronous web landscape, offering a compelling alternative for performance-critical applications."
+}

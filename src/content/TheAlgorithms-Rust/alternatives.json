@@ -1,0 +1,77 @@
+{
+  "projectName": "Rust",
+  "projectPurpose": "To provide a comprehensive, open-source collection of algorithms and data structures implemented in the Rust programming language for educational purposes and practical reference.",
+  "platforms": [
+    "Agnostic (Code Repository)"
+  ],
+  "mainFeatures": [
+    "Collection of diverse algorithms and data structures",
+    "Implementations in Rust",
+    "Open-source and community-driven",
+    "Educational resource for learning algorithms in Rust"
+  ],
+  "website": "https://github.com/TheAlgorithms/Rust",
+  "alternatives": [
+    {
+      "name": "TheAlgorithms (Python)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Agnostic (Code Repository)"
+      ],
+      "mainFeatures": [
+        "Comprehensive collection of algorithms",
+        "Implementations in Python",
+        "Open-source and community-driven",
+        "Educational resource for Python developers"
+      ],
+      "website": "https://github.com/TheAlgorithms/Python"
+    },
+    {
+      "name": "TheAlgorithms (Java)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Agnostic (Code Repository)"
+      ],
+      "mainFeatures": [
+        "Comprehensive collection of algorithms",
+        "Implementations in Java",
+        "Open-source and community-driven",
+        "Educational resource for Java developers"
+      ],
+      "website": "https://github.com/TheAlgorithms/Java"
+    },
+    {
+      "name": "GeeksforGeeks",
+      "license": "Proprietary (Content)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Tutorials and articles on algorithms and data structures",
+        "Coding problems and solutions",
+        "Interview preparation resources",
+        "Covers various programming languages"
+      ],
+      "website": "https://www.geeksforgeeks.org/"
+    },
+    {
+      "name": "LeetCode",
+      "license": "Freemium/Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Large collection of coding interview problems",
+        "Supports multiple programming languages",
+        "Online judge for testing solutions",
+        "Community forums and discussions"
+      ],
+      "website": "https://leetcode.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GeeksforGeeks",
+    "LeetCode"
+  ],
+  "marketPositioning": "TheAlgorithms/Rust project positions itself as a dedicated, open-source code repository providing practical implementations of algorithms and data structures specifically for the Rust programming language. While broader platforms like GeeksforGeeks offer language-agnostic tutorials and LeetCode focuses on interview problem practice, TheAlgorithms/Rust serves as a hands-on reference and learning tool for Rust developers, complementing theoretical learning with concrete code examples in their preferred language. Its strength lies in its language-specific focus and community-driven nature."
+}

@@ -1,0 +1,108 @@
+{
+  "projectName": "cases",
+  "projectPurpose": "To enable users to perform fast and efficient local searches of legal judgment documents from the official China Judgment Document Network (wenshu.court.gov.cn).",
+  "platforms": [
+    "Likely requires local setup (e.g., Windows, macOS, Linux) based on Rust language."
+  ],
+  "mainFeatures": [
+    "Local search of Chinese court judgment documents",
+    "Indexes documents from China Judgment Document Network",
+    "Written in Rust for performance"
+  ],
+  "website": "https://github.com/cncases/cases",
+  "alternatives": [
+    {
+      "name": "China Judgment Document Network (\u4e2d\u56fd\u88c1\u5224\u6587\u4e66\u7f51)",
+      "license": "Public Access",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Official source of Chinese court judgment documents",
+        "Large collection of judgment documents",
+        "Basic online search functionality"
+      ],
+      "website": "https://wenshu.court.gov.cn/"
+    },
+    {
+      "name": "Peking University Law Information Database (\u5317\u5927\u6cd5\u5b9d)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Mobile App"
+      ],
+      "mainFeatures": [
+        "Comprehensive legal database (laws, cases, journals)",
+        "Intelligent search features (e.g., 'Clink')",
+        "English translations available",
+        "Timely content updates"
+      ],
+      "website": "https://www.pkulaw.com/"
+    },
+    {
+      "name": "Wolters Kluwer China Law & Reference (\u5a01\u79d1\u5148\u884c \u6cd5\u5f8b\u4fe1\u606f\u5e93)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Mobile-friendly"
+      ],
+      "mainFeatures": [
+        "Extensive collection of laws, regulations, and cases",
+        "Bilingual content",
+        "Practical guidance and analysis tools",
+        "Judicial big data visualization"
+      ],
+      "website": "https://law.wkinfo.com.cn/"
+    },
+    {
+      "name": "Westlaw China",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Comprehensive collection of laws, regulations, and cases",
+        "Key Number System for content organization",
+        "Citation checking service",
+        "Practice area resources"
+      ],
+      "website": "https://www.thomsonreuters.cn/en/products/westlaw-china.html"
+    },
+    {
+      "name": "LexisNexis China (\u5f8b\u5546\u8054\u8baf)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Mobile App"
+      ],
+      "mainFeatures": [
+        "Extensive legal database",
+        "Focus on accurate translation of Chinese laws",
+        "Integrated legal research and news"
+      ],
+      "website": "https://www.lexisnexis.com/en-us/products/international/china.page"
+    },
+    {
+      "name": "Open Legal Data Platform (OLDP)",
+      "license": "Open Source",
+      "platforms": [
+        "Web (Self-hosted)"
+      ],
+      "mainFeatures": [
+        "Web application for legal text processing",
+        "REST API and Elasticsearch search",
+        "Supports court decisions and laws",
+        "Customizable themes"
+      ],
+      "website": "https://github.com/openlegaldata/oldp"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Peking University Law Information Database (\u5317\u5927\u6cd5\u5b9d)",
+    "Wolters Kluwer China Law & Reference (\u5a01\u79d1\u5148\u884c)",
+    "Westlaw",
+    "LexisNexis"
+  ],
+  "marketPositioning": "cases is positioned as a free and open-source tool for local searching of Chinese court judgments, offering a potential advantage in speed and offline access compared to the official online platform. It serves as a technically-oriented alternative to comprehensive but expensive commercial legal databases, focusing specifically on judgment documents and requiring local setup."
+}

@@ -1,0 +1,103 @@
+{
+  "projectName": "floneum",
+  "projectPurpose": "To provide a toolkit for running and controlling private AI models on consumer hardware.",
+  "platforms": [
+    "Likely Cross-platform (given Rust, but specifics not detailed in metadata)"
+  ],
+  "mainFeatures": [
+    "Runs AI models on consumer hardware",
+    "Prioritizes privacy by running locally",
+    "Offers control over AI models",
+    "Built with Rust"
+  ],
+  "website": "https://github.com/floneum/floneum",
+  "alternatives": [
+    {
+      "name": "Ollama",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Run, manage, and create LLMs locally",
+        "Bundles model weights and environment",
+        "Simple CLI and API",
+        "Supports a wide range of models"
+      ],
+      "website": "https://ollama.com/"
+    },
+    {
+      "name": "LM Studio",
+      "license": "Proprietary (GUI App), Open Source - MIT (CLI, Core SDK, MLX engine)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux (beta)"
+      ],
+      "mainFeatures": [
+        "Discover, download, and run local LLMs",
+        "User-friendly graphical interface",
+        "Runs models offline",
+        "Offers an OpenAI-compatible local server"
+      ],
+      "website": "https://lmstudio.ai/"
+    },
+    {
+      "name": "KoboldAI (KoboldCpp)",
+      "license": "Open Source - AGPL v3.0 (KoboldAI Lite, KoboldCpp code), MIT (original GGML/llama.cpp)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (UI)"
+      ],
+      "mainFeatures": [
+        "Easy-to-use text generation software",
+        "Supports GGML and GGUF models",
+        "Web-based interface",
+        "Features for AI-assisted writing (memory, world info, etc.)"
+      ],
+      "website": "https://koboldai.org/cpp"
+    },
+    {
+      "name": "LocalAI",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "OpenAI-compatible REST API",
+        "Runs LLMs, image generation, and audio models locally",
+        "Supports various model formats",
+        "No GPU required (optional GPU acceleration)"
+      ],
+      "website": "https://localai.io/"
+    },
+    {
+      "name": "GPT4All",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Ubuntu"
+      ],
+      "mainFeatures": [
+        "Free-to-use, locally running chatbot",
+        "Privacy-aware (works offline)",
+        "Supports running models on consumer hardware",
+        "Model exploration and download"
+      ],
+      "website": "https://gpt4all.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ollama",
+    "LM Studio"
+  ],
+  "marketPositioning": "Floneum positions itself as a privacy-focused, controllable AI toolkit designed for consumer hardware. While sharing the local execution and privacy benefits with alternatives like Ollama and LM Studio, Floneum emphasizes the 'toolkit' aspect, suggesting a potentially more modular or controllable environment compared to the more common chatbot interfaces. Its implementation in Rust also targets developers seeking performance and reliability. It differentiates from API-focused tools like LocalAI by likely offering a more direct user interaction method, while being more general-purpose than creative-writing focused tools like KoboldAI."
+}

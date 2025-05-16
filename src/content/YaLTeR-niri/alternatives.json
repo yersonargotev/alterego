@@ -1,0 +1,92 @@
+{
+  "projectName": "niri",
+  "projectPurpose": "To provide a unique and modern window management experience on Linux using the Wayland display protocol, centered around a 'scrollable-tiling' layout.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Scrollable-tiling window arrangement on an infinite horizontal strip",
+    "Windows do not resize when new windows are opened",
+    "Dynamic workspaces",
+    "Built-in screenshot UI and screencasting",
+    "Touchpad and mouse gestures",
+    "Window tab grouping",
+    "Extensive configuration options (gaps, borders, sizes, animations, gradients)",
+    "Multi-monitor support with independent strips per monitor",
+    "Fractional scaling and mixed DPI support",
+    "Floating window support"
+  ],
+  "website": "https://github.com/YaLTeR/niri",
+  "alternatives": [
+    {
+      "name": "Sway",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "i3-compatible tiling",
+        "Wayland native",
+        "Keyboard-driven",
+        "Supports multiple layouts (tiling, stacked, tabbed, floating)",
+        "Configuration via plain text file"
+      ],
+      "website": "https://swaywm.org/"
+    },
+    {
+      "name": "Hyprland",
+      "license": "Open Source - BSD-3-Clause",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Dynamic tiling",
+        "Wayland native",
+        "Highly customizable with extensive eye candy (gradients, blur, animations)",
+        "Powerful plugin support",
+        "Config reloaded instantly"
+      ],
+      "website": "https://hyprland.org/"
+    },
+    {
+      "name": "KWin",
+      "license": "Open Source - GNU General Public License",
+      "platforms": [
+        "Linux",
+        "BSD",
+        "other Unix-like"
+      ],
+      "mainFeatures": [
+        "Part of KDE Plasma desktop environment",
+        "Supports stacking, tiling, and floating layouts",
+        "Extensive visual effects and animations",
+        "Configurable via GUI and scripting",
+        "Good multi-monitor and HiDPI support"
+      ],
+      "website": "https://userbase.kde.org/KWin"
+    },
+    {
+      "name": "i3",
+      "license": "Open Source - BSD-3-Clause",
+      "platforms": [
+        "GNU/Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Manual tiling window manager",
+        "Uses X11 (not Wayland)",
+        "Keyboard-driven with vi-like controls",
+        "Configuration via plain text file",
+        "Multi-monitor support"
+      ],
+      "website": "https://i3wm.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "KWin (KDE Plasma)",
+    "Sway",
+    "i3"
+  ],
+  "marketPositioning": "Niri is positioned as a unique Wayland compositor within the tiling window manager space. Its core differentiator is the scrollable-tiling layout, offering an infinite horizontal workspace that prevents windows from resizing when new ones are opened. This provides an alternative workflow compared to traditional static or dynamic tiling window managers like Sway and Hyprland. By being a native Wayland compositor, it aims to avoid limitations faced by implementations built on top of other display servers. While not a full desktop environment, it offers a range of modern features such as dynamic workspaces, built-in screencasting, and extensive visual customization, targeting users who prioritize this distinct scrollable paradigm on Wayland."
+}

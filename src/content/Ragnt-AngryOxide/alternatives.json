@@ -1,0 +1,110 @@
+{
+  "projectName": "AngryOxide",
+  "projectPurpose": "To serve as a modern, automated tool for conducting 802.11 wireless network penetration testing and security auditing, specifically focusing on capturing handshake data for offline password cracking and identifying network vulnerabilities.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Active state-based attack engine for EAPOL message and PMKID retrieval",
+    "Targeting and whitelisting of networks (MAC or SSID)",
+    "Auto Hunt capability to scan across channels",
+    "Terminal-UI and headless operating modes",
+    "EAPOL 4-Way-Handshake validation and controlled deauthentication",
+    "Output in pcapng and kismetdb formats with optional embedded GPS data"
+  ],
+  "website": "https://github.com/Ragnt/AngryOxide",
+  "alternatives": [
+    {
+      "name": "Aircrack-ng",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "FreeBSD",
+        "OpenBSD",
+        "NetBSD",
+        "Solaris",
+        "eComStation 2"
+      ],
+      "mainFeatures": [
+        "Packet capture and export",
+        "Attacking (Replay attacks, deauthentication, fake APs)",
+        "Testing WiFi cards and drivers",
+        "Cracking WEP and WPA/WPA2 PSK keys"
+      ],
+      "website": "https://www.aircrack-ng.org/"
+    },
+    {
+      "name": "Kismet",
+      "license": "Open Source - GPLv2+",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (limited)",
+        "FreeBSD",
+        "NetBSD",
+        "OpenBSD"
+      ],
+      "mainFeatures": [
+        "Passive wireless network detection and sniffing",
+        "Identifies networks, clients, and hidden SSIDs",
+        "Basic wireless intrusion detection system (IDS)",
+        "Logs captured packets in various formats (including pcap/tcpdump and kismetdb)",
+        "Supports multiple radio types (Wi-Fi, Bluetooth, Zigbee, etc.)"
+      ],
+      "website": "https://www.kismetwireless.net/"
+    },
+    {
+      "name": "Hashcat",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "World's fastest password cracker",
+        "Supports numerous hashing algorithms, including WPA/WPA2",
+        "Multi-GPU and multi-CPU support",
+        "Various attack modes (dictionary, brute-force, hybrid, etc.)",
+        "Supports distributed cracking"
+      ],
+      "website": "https://hashcat.net/hashcat/"
+    },
+    {
+      "name": "Reaver",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Brute-force attack against WPS (Wi-Fi Protected Setup)",
+        "Recovers WPA/WPA2 passphrases via WPS PINs",
+        "Automated attack process",
+        "Supports a variety of WPS routers"
+      ],
+      "website": "https://github.com/t6x/reaver-wps"
+    },
+    {
+      "name": "Wifiphisher",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Automated rogue access point creation",
+        "Wi-Fi phishing attacks (Evil Twin, KARMA, Known Beacons)",
+        "Credential harvesting",
+        "Malware infection capabilities",
+        "Customizable phishing templates"
+      ],
+      "website": "https://wifiphisher.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Aircrack-ng"
+  ],
+  "marketPositioning": "AngryOxide positions itself as a modern, Rust-based, and highly automated tool for 802.11 penetration testing, with a specific focus on efficiently capturing EAPOL handshakes and PMKIDs for offline cracking. Compared to the Aircrack-ng suite, which offers a broader range of tools requiring manual chaining, AngryOxide aims for a more integrated and streamlined workflow from scanning to handshake capture. While tools like Kismet focus on passive monitoring and discovery, AngryOxide actively performs attacks. Its unique features like EAPOL validation, GPS integration, and Kismet-compatible output, combined with its focus on automation and a modern codebase, position it as a specialized, user-friendly alternative for security professionals and hobbyists focused on Wi-Fi password cracking preparation and network vulnerability identification."
+}

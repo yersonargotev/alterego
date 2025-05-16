@@ -1,0 +1,83 @@
+{
+  "projectName": "lemmy",
+  "projectPurpose": "To provide a decentralized, open-source, and federated alternative to centralized link aggregation and forum platforms like Reddit.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Link aggregation and forums organized into communities",
+    "Federation via ActivityPub, allowing interaction across instances",
+    "Open-source (AGPL) and self-hostable",
+    "Voting and commenting on posts",
+    "Moderation tools for instances and communities"
+  ],
+  "website": "https://join-lemmy.org/",
+  "alternatives": [
+    {
+      "name": "Kbin",
+      "license": "Open Source - AGPL",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Decentralized (Fediverse/ActivityPub)",
+        "Link aggregation and microblogging",
+        "Magazines (communities)",
+        "Follow users, magazines, and domains",
+        "Content categorization and labeling"
+      ],
+      "website": "https://kbin.pub/"
+    },
+    {
+      "name": "Reddit",
+      "license": "Proprietary (User content licensed to Reddit)",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Link aggregation and subreddits (communities)",
+        "Voting (upvote/downvote) and karma",
+        "Commenting and threading",
+        "Personalized feeds",
+        "Moderation tools"
+      ],
+      "website": "https://www.reddit.com/"
+    },
+    {
+      "name": "Discourse",
+      "license": "Open Source - GNU GPL v2 or later",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Modern forum software",
+        "Categorization and tagging",
+        "User trust levels and moderation tools",
+        "Plugins and themes",
+        "Built-in chat"
+      ],
+      "website": "https://www.discourse.org/"
+    },
+    {
+      "name": "Hacker News",
+      "license": "Permissive (MIT License for API)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Link aggregation focused on technology and entrepreneurship",
+        "Voting (upvote/downvote) and karma",
+        "Minimalist design",
+        "Comment threads",
+        "Various content lists and filters"
+      ],
+      "website": "https://news.ycombinator.com/"
+    }
+  ],
+  "mostWellKnownAlternative": "Reddit",
+  "marketPositioning": "Lemmy is positioned as a decentralized, open-source, and community-driven alternative to large, centralized social platforms like Reddit. Its key differentiator is its integration with the Fediverse via ActivityPub, enabling users across independent instances to interact seamlessly. By being self-hostable and licensed under the AGPL, it emphasizes user control, privacy, and freedom from corporate advertising, tracking, and algorithmic manipulation, standing in contrast to proprietary platforms and offering a federated model distinct from traditional standalone forum software."
+}

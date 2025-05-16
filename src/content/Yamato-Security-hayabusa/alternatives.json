@@ -1,0 +1,143 @@
+{
+  "projectName": "hayabusa",
+  "projectPurpose": "To provide security professionals with a fast, efficient, and Sigma-rule-driven tool for analyzing Windows event logs to identify malicious activity and reconstruct timelines of events.",
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Sigma-based threat hunting",
+    "Fast forensics timeline generation for Windows event logs",
+    "Supports full Sigma specification including v2 correlation rules",
+    "Extracts only useful data for concise output",
+    "Creates single, easy-to-analyze timelines",
+    "Customizable with pivot keywords",
+    "Provides Event ID metrics",
+    "Written in Rust for speed and memory safety",
+    "Supports multi-threading"
+  ],
+  "website": "https://github.com/Yamato-Security/hayabusa",
+  "alternatives": [
+    {
+      "name": "Chainsaw",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Sigma rule detection against Windows event logs",
+        "Search event logs by event ID, keyword, and regex patterns",
+        "Rapid triage of Windows event logs",
+        "Includes built-in detection logic",
+        "Fast, written in Rust"
+      ],
+      "website": "https://github.com/WithSecureLabs/chainsaw"
+    },
+    {
+      "name": "ELK Stack (Elasticsearch, Logstash, Kibana)",
+      "license": "Open Source (Elastic License / SSPL, Apache 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Ingest, index, analyze, and visualize logs (including Windows events via Winlogbeat)",
+        "Centralized log management and analysis",
+        "Powerful search and filtering",
+        "Dashboards and visualizations",
+        "Scalable"
+      ],
+      "website": "https://www.elastic.co/elastic-stack/"
+    },
+    {
+      "name": "Log2timeline / Plaso",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Generates chronological timelines from various forensic artifacts",
+        "Parses numerous file formats and data sources",
+        "Automated analysis of artifacts",
+        "Outputs in various formats (e.g., CSV)",
+        "Extracts and formats Windows Event Log message strings"
+      ],
+      "website": "https://github.com/log2timeline/plaso"
+    },
+    {
+      "name": "Splunk",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Ingestion, indexing, search, analysis, and visualization of machine data",
+        "Real-time security monitoring (SIEM)",
+        "Powerful search language (SPL)",
+        "Alerting and reporting",
+        "Extensive app ecosystem"
+      ],
+      "website": "https://www.splunk.com/"
+    },
+    {
+      "name": "Graylog",
+      "license": "Open Source (with commercial options)",
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Centralized log collection, storage, and analysis",
+        "Data collection from various sources",
+        "Data parsing and extraction",
+        "Visualization and reporting",
+        "Alerting"
+      ],
+      "website": "https://www.graylog.org/"
+    },
+    {
+      "name": "APT-Hunter",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Threat hunting tool for Windows event logs",
+        "Detects suspicious activity and tracks APT movements",
+        "Maps findings to MITRE ATT&CK framework",
+        "Reduces large volumes of events to highlight significant threats",
+        "Detects various attacks (suspicious accounts, brute force, etc.)"
+      ],
+      "website": "https://github.com/ine-labs/ThreatSeeker"
+    },
+    {
+      "name": "DeepBlue CLI",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "PowerShell-based tool for analyzing Windows event logs",
+        "Detects specific events faster",
+        "Identifies suspicious activities",
+        "Focuses on lateral movement and credential abuse"
+      ],
+      "website": "https://github.com/sans-blue\u30c1\u30fc\u30e0/DeepBlueCLI"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Splunk",
+    "ELK Stack"
+  ],
+  "marketPositioning": "Hayabusa is positioned as a specialized, high-performance, open-source command-line tool for fast forensics and threat hunting specifically focused on Windows event logs. Its key advantages are its speed (built with Rust and multi-threading) and its comprehensive, native support for the Sigma rule format, including v2 correlation rules, which it highlights as a unique feature among open-source alternatives. Unlike broader SIEM or log analysis platforms that require more infrastructure, Hayabusa provides a dedicated and efficient way for security analysts and forensicators to quickly process and analyze Windows event logs and generate actionable timelines based on standardized detection rules."
+}

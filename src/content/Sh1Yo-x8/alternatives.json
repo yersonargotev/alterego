@@ -1,0 +1,143 @@
+{
+  "projectName": "x8",
+  "projectPurpose": "To automate the discovery of hidden or unlinked parameters within web applications for security reconnaissance and testing.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Discovers hidden parameters",
+    "Written in Rust for performance",
+    "Uses line-by-line page comparison for accuracy",
+    "Compares response codes",
+    "Analyzes reflections to identify parameters"
+  ],
+  "website": "https://github.com/Sh1Yo/x8",
+  "alternatives": [
+    {
+      "name": "Arjun",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "HTTP parameter discovery",
+        "Supports GET, POST, JSON, XML methods",
+        "Uses a wordlist for guessing",
+        "Multi-threaded",
+        "Handles rate limiting"
+      ],
+      "website": "https://github.com/s0md3v/Arjun"
+    },
+    {
+      "name": "ParamSpider",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Finds parameters from web archives",
+        "Extracts parameters from subdomains",
+        "Supports excluding URLs with specific extensions",
+        "Mines parameters without interacting with the target host",
+        "Python-based command-line tool"
+      ],
+      "website": "https://github.com/devanshbatham/ParamSpider"
+    },
+    {
+      "name": "Param Miner",
+      "license": "Proprietary (Burp Suite Extension)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Identifies hidden and unlinked parameters",
+        "Leverages advanced diffing logic",
+        "Uses a binary search technique for guessing",
+        "Includes a built-in wordlist",
+        "Harvests words from in-scope traffic"
+      ],
+      "website": "https://portswigger.net/bappstore/48f41d22c71f42e188d02ee23ac70682"
+    },
+    {
+      "name": "OWASP ZAP",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Intercepting proxy",
+        "Automated scanner",
+        "Web application fuzzer",
+        "Spidering and crawling",
+        "Extensible via add-ons (like Param Digger)"
+      ],
+      "website": "https://www.zaproxy.org/"
+    },
+    {
+      "name": "Burp Suite",
+      "license": "Proprietary (Community and Professional Editions)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Intercepting proxy",
+        "Web application scanner",
+        "Intruder for fuzzing",
+        "Repeater for manual testing",
+        "Extensible architecture"
+      ],
+      "website": "https://portswigger.net/burp"
+    },
+    {
+      "name": "ffuf",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast web fuzzer",
+        "Supports various HTTP methods and parameters",
+        "Configurable filtering options",
+        "Recursive fuzzing capabilities",
+        "HTTP proxy support"
+      ],
+      "website": "https://github.com/ffuf/ffuf"
+    },
+    {
+      "name": "Wfuzz",
+      "license": "Open Source - GPL-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Web application fuzzer",
+        "Supports GET and POST parameter fuzzing",
+        "Multiple payload encoders and iterators",
+        "Supports various HTTP headers and authentication",
+        "Command-line interface"
+      ],
+      "website": "https://github.com/xmendez/wfuzz"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Burp Suite",
+    "OWASP ZAP"
+  ],
+  "marketPositioning": "x8 is positioned as a specialized, high-accuracy command-line tool for hidden parameter discovery. Unlike broader web vulnerability scanners, it focuses solely on this specific reconnaissance task. Its use of advanced comparison logic (line-by-line page comparison, response code, and reflection analysis) for verification differentiates it from simpler wordlist-based fuzzers, aiming for greater reliability in identifying actual parameters. Written in Rust, it likely offers performance benefits appealing to users who prioritize speed and efficiency in their automated workflows, similar to other modern command-line fuzzers like ffuf."
+}

@@ -1,0 +1,71 @@
+{
+  "projectName": "universal-android-debloater",
+  "projectPurpose": "To provide a cross-platform GUI tool using ADB to remove or disable bloatware on non-rooted Android devices, improving privacy, security, and battery life.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Uninstall/Disable and Restore/Enable system packages",
+    "Multi-user and multi-device support",
+    "Export/Import debloat selections",
+    "Action logging",
+    "Curated debloat lists (GFAM, Manufacturers, Carriers, etc.)",
+    "Cross-platform GUI"
+  ],
+  "website": "https://github.com/0x192/universal-android-debloater",
+  "alternatives": [
+    {
+      "name": "ADB AppControl",
+      "license": "Freeware (with paid Extended version)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Disable/remove apps",
+        "Install apps",
+        "Manage app permissions",
+        "Pull APKs",
+        "ADB console"
+      ],
+      "website": "https://adbappcontrol.com/"
+    },
+    {
+      "name": "ADB (Android Debug Bridge) Command Line",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Install/uninstall apps",
+        "Push/pull files",
+        "Run shell commands",
+        "Debug devices",
+        "Disable/uninstall packages for a user"
+      ],
+      "website": "https://developer.android.com/tools/adb"
+    },
+    {
+      "name": "ADB TV",
+      "license": "Free (with paid PRO version)",
+      "platforms": [
+        "Android TV"
+      ],
+      "mainFeatures": [
+        "Uninstall/disable apps on Android TV",
+        "Install apps over Wi-Fi",
+        "Manage app permissions",
+        "Screen resolution control"
+      ],
+      "website": "https://adbappcontrol.com/adbtv/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ADB AppControl",
+    "Manual ADB Commands"
+  ],
+  "marketPositioning": "Universal Android Debloater is positioned as a cross-platform, open-source, GUI-based solution specifically for debloating non-rooted Android devices using ADB. It differentiates itself by offering a user-friendly graphical interface across Windows, macOS, and Linux, providing curated lists of potentially removable packages, and being a free and open-source alternative to primarily Windows-based or proprietary tools like ADB AppControl, while being significantly more accessible than manual ADB commands."
+}

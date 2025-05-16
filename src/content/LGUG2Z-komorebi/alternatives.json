@@ -1,0 +1,115 @@
+{
+  "projectName": "komorebi",
+  "projectPurpose": "To provide a highly customizable tiling window management experience on Windows, similar to Linux tiling window managers, enhancing productivity through keyboard-driven control, advanced layouts, and flexible multi-monitor/workspace management.",
+  "platforms": [
+    "Windows 10",
+    "Windows 11"
+  ],
+  "mainFeatures": [
+    "Tiling window management for Windows",
+    "CLI for controlling windows, workspaces, and monitors",
+    "Integration with third-party tools (e.g., AutoHotKey) for custom keybindings",
+    "Support for custom layouts (JSON/YAML) and a visual layout generator",
+    "Dynamic layout selection based on window count",
+    "Advanced multi-monitor and virtual workspace management",
+    "Configurable work area offsets",
+    "Automatic initial workspace rules for applications"
+  ],
+  "website": "https://github.com/LGUG2Z/komorebi",
+  "alternatives": [
+    {
+      "name": "AquaSnap",
+      "license": "Freeware (Personal Use), Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Window Docking and Snapping",
+        "Window Tiling",
+        "Window Stretching",
+        "Multi-monitor support",
+        "Keyboard and mouse shortcuts"
+      ],
+      "website": "https://www.nurgo-software.com/products/aquasnap"
+    },
+    {
+      "name": "MaxTo",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Divide monitors into custom regions",
+        "Snap windows into regions (maximize or drag)",
+        "Presets for region layouts",
+        "\"Recipes\" to launch and place programs",
+        "Virtual desktop support"
+      ],
+      "website": "https://maxto.net/"
+    },
+    {
+      "name": "bug.n",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Dynamic tiling window manager",
+        "Keyboard-driven control",
+        "Multiple layouts",
+        "Highly configurable"
+      ],
+      "website": "https://github.com/contact-diary/bug.n"
+    },
+    {
+      "name": "GlazeWM",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows 10",
+        "Windows 11"
+      ],
+      "mainFeatures": [
+        "Tiling window manager inspired by i3wm",
+        "Keyboard-driven window management",
+        "Simple YAML configuration",
+        "Multi-monitor support",
+        "Customizable rules for specific windows"
+      ],
+      "website": "https://github.com/glzr-io/glazewm"
+    },
+    {
+      "name": "FancyWM",
+      "license": "Open Source",
+      "platforms": [
+        "Windows 10",
+        "Windows 11"
+      ],
+      "mainFeatures": [
+        "Dynamic tiling layouts (mouse or keyboard)",
+        "Move, swap, and resize windows with keyboard or mouse",
+        "Supports horizontal, vertical, and stack panels",
+        "Multi-monitor and virtual desktop support",
+        "Customizable keybindings"
+      ],
+      "website": "https://fancywm.github.io/"
+    },
+    {
+      "name": "Workspacer",
+      "license": "Open Source",
+      "platforms": [
+        "Windows 10+"
+      ],
+      "mainFeatures": [
+        "Tiling window manager similar to dwm, i3, xmonad",
+        "Keyboard-centric use",
+        "Supports multiple layouts and workspaces",
+        "Configurable"
+      ],
+      "website": "https://github.com/workspacer/workspacer"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Microsoft PowerToys (FancyZones)"
+  ],
+  "marketPositioning": "komorebi is positioned as a powerful and highly customizable tiling window manager for Windows users seeking an experience comparable to advanced tiling WMs on Linux. It differentiates itself from simpler snapping tools and even Microsoft's FancyZones by providing dynamic tiling, a CLI for extensive scripting and automation, granular control over workspaces and multi-monitor setups (allowing per-monitor workspaces), and support for complex custom layouts. Its design focuses on minimal interference with the native OS while offering deep customization options, appealing to power users and developers who prefer a keyboard-centric workflow and fine-tuned window management."
+}

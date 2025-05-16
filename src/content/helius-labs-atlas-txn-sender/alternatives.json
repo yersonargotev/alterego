@@ -1,0 +1,115 @@
+{
+  "projectName": "atlas-txn-sender",
+  "projectPurpose": "Provides a high-throughput and efficient way to submit transactions directly to the Solana network, specifically targeting validators running the Transaction Processing Unit (TPU) for low-latency and high-volume transaction submission.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Efficiently sends transactions to Solana leaders.",
+    "Uses minimal dependencies for transaction sending.",
+    "Can connect to Solana leaders via TPU or RPC.",
+    "Does not handle preflight checks.",
+    "Supports configuring connections to multiple leaders."
+  ],
+  "website": "https://github.com/helius-labs/atlas-txn-sender",
+  "alternatives": [
+    {
+      "name": "Solana Rust SDK (solana-client)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Provides APIs for interacting with Solana nodes via JSON RPC.",
+        "Includes tools for building, signing, and sending transactions.",
+        "Supports various transaction-related operations.",
+        "Forms the foundation for other Solana tools in Rust."
+      ],
+      "website": "https://docs.rs/solana-client/"
+    },
+    {
+      "name": "Solana TypeScript/JavaScript SDK",
+      "license": "Open Source (Apache 2.0 or MIT)",
+      "platforms": [
+        "Web",
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Comprehensive library for interacting with Solana from web browsers and Node.js.",
+        "Supports transaction creation, signing, and sending via RPC.",
+        "Provides utilities for account management, program interaction.",
+        "Offers different API designs for flexibility."
+      ],
+      "website": "https://solana-labs.github.io/solana-web3.js/"
+    },
+    {
+      "name": "Jib",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Efficiently packs instructions into maximum-size transactions.",
+        "Sends transactions via RPC or TPU client.",
+        "Includes logic for retrying failed transactions.",
+        "Simple API for common transaction sending tasks."
+      ],
+      "website": "https://crates.io/crates/jib"
+    },
+    {
+      "name": "Solana Bulk Sender",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Allows sending tokens to multiple wallets simultaneously.",
+        "Web-based interface, requires no coding.",
+        "Supports manual input or CSV upload of wallet addresses.",
+        "Aimed at airdrops and token distribution."
+      ],
+      "website": "https://smithii.io/solana-bulk-sender"
+    },
+    {
+      "name": "Hyperledger Caliper",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Blockchain performance benchmark framework.",
+        "Allows testing various blockchain solutions.",
+        "Supports predefined use cases and custom adapters.",
+        "Provides performance test results and reports."
+      ],
+      "website": "https://www.hyperledger.org/use/caliper"
+    },
+    {
+      "name": "Apache JMeter",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Load and performance testing tool.",
+        "Can be used for testing blockchain applications.",
+        "Supports various protocols (HTTP, HTTPS, etc.).",
+        "Extensible with plugins."
+      ],
+      "website": "https://jmeter.apache.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Solana TypeScript/JavaScript SDK",
+    "Solana Rust SDK"
+  ],
+  "marketPositioning": "Helius Labs' `atlas-txn-sender` is positioned as a specialized, high-performance transaction sending tool specifically for the Solana blockchain, targeting developers who require maximum transaction throughput and low-latency submission. Its key differentiator is the focus on minimizing dependencies and the capability to send transactions directly to Solana leaders via the TPU, bypassing standard RPC preflight checks for potentially faster inclusion. This makes it suitable for performance-critical applications where optimizing the transaction submission pipeline is paramount, distinguishing it from broader Solana SDKs that offer a wider range of functionalities and general-purpose blockchain testing tools."
+}

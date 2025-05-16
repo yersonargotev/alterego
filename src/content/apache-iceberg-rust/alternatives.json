@@ -1,0 +1,54 @@
+{
+  "projectName": "iceberg-rust",
+  "projectPurpose": "To provide a library or tooling in the Rust programming language to interact with or implement the Apache Iceberg table format, which is a high-performance, open-source table format for large analytic datasets in data lakes.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "Web"
+  ],
+  "mainFeatures": [
+    "High-performance open-source table format for large analytic tables",
+    "Enables SQL tables for big data",
+    "Allows multiple engines to work safely and concurrently",
+    "ACID-compliant transactional capabilities (snapshot isolation, concurrent writes, rollback)",
+    "Supports schema evolution, partition evolution, and time travel"
+  ],
+  "website": "https://github.com/apache/iceberg-rust",
+  "alternatives": [
+    {
+      "name": "Delta Lake",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Platform Agnostic (Cloud Object Storage)",
+        "Integrated with various compute engines (Spark, Flink, Trino, etc.)"
+      ],
+      "mainFeatures": [
+        "ACID Transactions",
+        "Scalable Metadata Handling",
+        "Time Travel",
+        "Schema Evolution / Enforcement",
+        "Unified Batch/Streaming"
+      ],
+      "website": "https://delta.io/"
+    },
+    {
+      "name": "Apache Hudi",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "DFS (Cloud stores, HDFS, Hadoop FS)",
+        "Integrated with Spark, Flink, etc."
+      ],
+      "mainFeatures": [
+        "Upsert and Delete support",
+        "Atomic Commits with Rollback",
+        "Snapshot Isolation",
+        "Incremental Processing",
+        "Time Travel"
+      ],
+      "website": "https://hudi.apache.org/"
+    }
+  ],
+  "mostWellKnownAlternative": "Delta Lake",
+  "marketPositioning": "Apache Iceberg is positioned as a leading high-performance, open-source table format for building reliable data lakes and lakehouses. It emphasizes openness, broad engine compatibility, and robust features like ACID transactions, schema evolution, hidden partitioning, and time travel, addressing the limitations of traditional data lake approaches. Compared to alternatives like Delta Lake, Iceberg is often highlighted for its more community-driven open ecosystem and flexible partitioning strategies. The `iceberg-rust` project specifically extends Iceberg's reach into the Rust development community, catering to users who prefer or require Rust for their data processing workloads."
+}

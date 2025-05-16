@@ -1,0 +1,105 @@
+{
+  "projectName": "makepad",
+  "projectPurpose": "To provide a comprehensive framework for Rust developers to build creative, cross-platform applications with native graphics rendering and web deployment capabilities.",
+  "platforms": [
+    "WebAssembly/WebGPL",
+    "macOS/Metal",
+    "Windows/DX11",
+    "Linux/OpenGL"
+  ],
+  "mainFeatures": [
+    "Creative software development platform",
+    "Built in Rust",
+    "Compiles to wasm/webGL",
+    "Compiles to osx/metal",
+    "Compiles to windows/dx11",
+    "Compiles to linux/opengl"
+  ],
+  "website": "https://github.com/makepad/makepad",
+  "alternatives": [
+    {
+      "name": "egui",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Web",
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Immediate mode GUI",
+        "Easy to use API",
+        "Integrates with game engines",
+        "Pure Rust",
+        "WASM support"
+      ],
+      "website": "https://www.egui.rs/"
+    },
+    {
+      "name": "Bevy Engine",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "WebAssembly",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Data-driven ECS architecture",
+        "2D/3D rendering",
+        "Hot reloading",
+        "Modular design",
+        "Rust-native"
+      ],
+      "website": "https://bevyengine.org/"
+    },
+    {
+      "name": "Qt",
+      "license": "Open Source - GPL/LGPL, Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "WebAssembly",
+        "Embedded Systems"
+      ],
+      "mainFeatures": [
+        "Comprehensive C++ framework",
+        "GUI and non-GUI modules",
+        "QML for rapid UI development",
+        "Extensive tools (Qt Creator, Designer)",
+        "Mature and widely used"
+      ],
+      "website": "https://www.qt.io/"
+    },
+    {
+      "name": "Dear ImGui",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "Immediate mode GUI",
+        "Designed for dev tools/debugging",
+        "Renderer agnostic",
+        "Easy to integrate into 3D applications",
+        "Bloat-free"
+      ],
+      "website": "https://github.com/ocornut/imgui"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Qt"
+  ],
+  "marketPositioning": "Makepad is positioned as a Rust-native, cross-platform creative software development platform. Unlike general-purpose GUI frameworks, it focuses on applications requiring native graphics API access (Metal, DX11, OpenGL) across desktop platforms and WebAssembly/WebGPL for web deployment, making it suitable for performance-sensitive and visually-oriented creative tools and applications. Its Rust-centric nature differentiates it from established C++ frameworks like Qt, while its integrated platform approach distinguishes it from immediate-mode GUI libraries primarily used for debugging or overlays."
+}

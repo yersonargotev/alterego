@@ -1,0 +1,116 @@
+{
+  "projectName": "minecraft_rust",
+  "projectPurpose": "To create a light remake of Minecraft in Rust as a personal programming challenge and learning exercise in game development and voxel world implementation.",
+  "platforms": [],
+  "mainFeatures": [
+    "Basic voxel world implementation",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/Rokasbarasa1/minecraft_rust",
+  "alternatives": [
+    {
+      "name": "Minecraft",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Xbox",
+        "PlayStation",
+        "Nintendo Switch",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Open-world sandbox gameplay",
+        "Mining and crafting",
+        "Building structures",
+        "Survival and creative modes",
+        "Multiplayer"
+      ],
+      "website": "https://www.minecraft.net/"
+    },
+    {
+      "name": "Minetest (Luanti)",
+      "license": "Open Source - LGPL-2.1-or-later (code), CC BY-SA 3.0 (media)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Free and open-source voxel game creation system",
+        "Supports multiple games and mods via Lua",
+        "Multiplayer support",
+        "Procedurally generated worlds",
+        "In-game content browser"
+      ],
+      "website": "https://www.luanti.org/"
+    },
+    {
+      "name": "Terasology",
+      "license": "Open Source - Apache License 2.0 (code), Creative Commons Attribution 4.0 (artwork)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Open-source voxel world inspired by Minecraft",
+        "Focus on extensibility and modules",
+        "Procedural terrain generation",
+        "Efficient rendering techniques"
+      ],
+      "website": "https://terasology.org/"
+    },
+    {
+      "name": "Godot Engine",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web",
+        "BSD",
+        "Consoles (via third-party)"
+      ],
+      "mainFeatures": [
+        "Feature-packed 2D/3D game engine",
+        "Visual editor with node-based system",
+        "Multiple programming languages (GDScript, C#, C++)",
+        "Cross-platform export",
+        "Active community"
+      ],
+      "website": "https://godotengine.org/"
+    },
+    {
+      "name": "Unity Engine",
+      "license": "Proprietary (with free tiers)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux (editor)",
+        "Exports to 25+ platforms (mobile, desktop, console, web, AR/VR, etc.)"
+      ],
+      "mainFeatures": [
+        "Powerful 2D/3D game engine",
+        "Visual editor and C# scripting",
+        "Vast Asset Store",
+        "Cross-platform deployment",
+        "Widely used for indie and professional games"
+      ],
+      "website": "https://unity.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Minecraft",
+    "Unity Engine",
+    "Godot Engine"
+  ],
+  "marketPositioning": "minecraft_rust is an open-source project written in Rust, serving as a personal challenge by the author to create a simplified remake of the popular sandbox game Minecraft. It focuses on implementing the fundamental aspects of a voxel-based world, providing a basic foundation for mining, crafting, and building mechanics within the Rust programming language environment. This project is primarily a demonstration of Rust's capabilities in game development and the author's skills in building such systems from the ground up, rather than a feature-rich game or a general-purpose game engine aimed at broad usage. It is a niche contribution to the Rust and game development communities, valuable for educational purposes and as a starting point for those interested in voxel technology implementation in Rust."
+}

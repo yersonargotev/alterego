@@ -1,0 +1,90 @@
+{
+  "projectName": "Pake",
+  "projectPurpose": "To provide a simple, lightweight, and multi-platform method for converting web pages into desktop applications using Rust.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Turn any webpage into a desktop app",
+    "Uses Rust",
+    "Lightweight",
+    "Multi-platform support"
+  ],
+  "website": "https://github.com/tw93/Pake",
+  "alternatives": [
+    {
+      "name": "Electron",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Builds cross-platform desktop apps with web technologies",
+        "Bundles Chromium and Node.js",
+        "Supports native code integration",
+        "Large community and ecosystem",
+        "Used by many popular applications"
+      ],
+      "website": "https://www.electronjs.org/"
+    },
+    {
+      "name": "Tauri",
+      "license": "Open Source - MIT or Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Rust backend",
+        "Uses system webviews for smaller binaries",
+        "Security-focused",
+        "Supports various frontend frameworks",
+        "Provides access to native features"
+      ],
+      "website": "https://tauri.app/"
+    },
+    {
+      "name": "NW.js",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Based on Chromium and Node.js",
+        "Direct Node.js access from DOM",
+        "Supports modern web technologies",
+        "Easy packaging and distribution",
+        "JavaScript Source Protection"
+      ],
+      "website": "https://nwjs.io/"
+    },
+    {
+      "name": "Nativefier",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Command-line tool to create apps from websites",
+        "Built on Electron",
+        "Automatic icon/name retrieval",
+        "JavaScript and CSS injection",
+        "Minimal configuration"
+      ],
+      "website": "https://github.com/nativefier/nativefier"
+    }
+  ],
+  "mostWellKnownAlternative": "Electron",
+  "marketPositioning": "Pake is positioned as a lightweight, Rust-based alternative for creating desktop applications from webpages. Unlike heavier frameworks like Electron or NW.js that bundle full browser runtimes, Pake aims for smaller binary sizes and potentially better performance by leveraging Rust. It offers a simpler approach compared to more complex frameworks like Tauri, focusing specifically on wrapping web content for desktop use across multiple platforms. Its use of Rust is a key differentiator, appealing to developers seeking efficiency and a smaller footprint."
+}

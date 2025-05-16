@@ -1,0 +1,125 @@
+{
+  "projectName": "cube",
+  "projectPurpose": "To provide a universal semantic layer as a single source of truth for data, enabling consistent data access and analysis across various applications (AI, BI, spreadsheets, embedded analytics) by abstracting underlying data complexities and offering performance optimizations, acting as a modern evolution of OLAP technology.",
+  "platforms": [
+    "Web",
+    "Cloud (via Cube Cloud)",
+    "Self-Hosted"
+  ],
+  "mainFeatures": [
+    "Universal semantic layer",
+    "Data modeling with consistent definitions",
+    "Performance optimization (caching and pre-aggregations)",
+    "Flexible API layer (REST, GraphQL, SQL, MDX, DAX)",
+    "Access control and security",
+    "Connects to various SQL-enabled data sources",
+    "Headless BI capabilities for embedded analytics"
+  ],
+  "website": "https://cube.dev",
+  "alternatives": [
+    {
+      "name": "Looker",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Strong semantic modeling language (LookML)",
+        "Data exploration and discovery",
+        "Dashboards and visualizations",
+        "Data governance and security"
+      ],
+      "website": "https://cloud.google.com/looker"
+    },
+    {
+      "name": "dbt",
+      "license": "Open Source - Apache 2.0 (dbt Core)",
+      "platforms": [
+        "Web (dbt Cloud)",
+        "CLI (dbt Core)"
+      ],
+      "mainFeatures": [
+        "Data transformation (ETLT)",
+        "Version control for data models",
+        "Data testing and documentation",
+        "Metrics layer for defining metrics"
+      ],
+      "website": "https://www.getdbt.com/"
+    },
+    {
+      "name": "AtScale",
+      "license": "Proprietary (with Open Source Semantic Modeling Language)",
+      "platforms": [
+        "Web",
+        "Cloud",
+        "On-Premises"
+      ],
+      "mainFeatures": [
+        "Universal semantic layer without data movement",
+        "Connects to various data sources (warehouses, lakes)",
+        "Provides data access for BI, AI, and data science tools",
+        "Performance acceleration features",
+        "Semantic Modeling Language (SML)"
+      ],
+      "website": "https://www.atscale.com/"
+    },
+    {
+      "name": "Tableau",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Data visualization and dashboards",
+        "Connects to numerous data sources",
+        "Semantic layer for data modeling within the tool",
+        "Self-service analytics",
+        "Data collaboration and sharing"
+      ],
+      "website": "https://www.tableau.com/"
+    },
+    {
+      "name": "Apache Superset",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Web",
+        "Self-Hosted"
+      ],
+      "mainFeatures": [
+        "Data exploration and visualization",
+        "Wide range of visualization options",
+        "Connects to various databases",
+        "Dashboarding capabilities",
+        "SQL editor and query interface"
+      ],
+      "website": "https://superset.apache.org/"
+    },
+    {
+      "name": "Denodo",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Cloud",
+        "On-Premises"
+      ],
+      "mainFeatures": [
+        "Data virtualization platform",
+        "Connects and integrates disparate data sources",
+        "Provides a unified data access layer",
+        "Real-time data access",
+        "Data governance and security features"
+      ],
+      "website": "https://www.denodo.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Tableau",
+    "Microsoft Power BI"
+  ],
+  "marketPositioning": "Cube.js is positioned as an open-source, API-first universal semantic layer platform for the modern data stack. Unlike traditional BI tools with integrated semantic layers, Cube.js provides a decoupled backend optimized for performance with caching and pre-aggregations, offering flexible data access via various APIs (REST, GraphQL, SQL, MDX, DAX) to power a wide range of data applications including embedded analytics, BI dashboards, and AI tools. Its open-source nature and developer-centric approach differentiate it from many proprietary alternatives in the semantic layer and data virtualization space.",
+  "expandedDescription": "Cube is an open-source universal semantic layer platform built for the modern data stack. Acting as a crucial middleware, it connects to your data sources\u2014including cloud data warehouses, data lakes, and databases\u2014and transforms raw data into consistent, performance-optimized business definitions. Cube provides a centralized place for data engineers and developers to model data, define metrics, implement access control, and apply performance enhancements like caching and pre-aggregations. Its strength lies in its headless architecture and flexible API layer, offering REST, GraphQL, SQL, MDX, and DAX endpoints, which allows it to serve data to virtually any frontend or data consumption tool, from BI dashboards and spreadsheets to custom-built applications and AI/ML models. Cube positions itself as the next evolution of OLAP technology, designed to ensure data consistency, accuracy, and speed across an organization's diverse analytical landscape, particularly excelling in scenarios requiring embedded analytics or powering multiple data interfaces from a single, governed source of truth."
+}

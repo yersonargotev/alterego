@@ -1,0 +1,88 @@
+{
+  "projectName": "ALVR",
+  "projectPurpose": "To enable users with standalone VR headsets to wirelessly play PC-based VR games and experiences that require a powerful computer, by acting as a bridge between the PC running SteamVR and the standalone headset over a Wi-Fi network.",
+  "platforms": [
+    "Windows",
+    "Linux",
+    "Android VR (Headset Client)"
+  ],
+  "mainFeatures": [
+    "Wireless VR streaming from PC via Wi-Fi",
+    "Supports multiple standalone VR headsets (Quest, Pico, Vive Focus, etc.)",
+    "Requires SteamVR on the PC",
+    "Utilizes hardware video encoding (NVENC, AMF)",
+    "Supports Linux and Windows on PC"
+  ],
+  "website": "https://github.com/alvr-org/ALVR",
+  "alternatives": [
+    {
+      "name": "Oculus Air Link",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Meta Quest (Headset Client)"
+      ],
+      "mainFeatures": [
+        "Wireless PC VR streaming for Meta Quest headsets",
+        "Integrated into official Meta Quest software",
+        "Requires compatible Windows PC and 5GHz Wi-Fi",
+        "Low latency streaming"
+      ],
+      "website": "https://www.meta.com/quest/air-link/"
+    },
+    {
+      "name": "Steam Link",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Meta Quest (Headset Client)"
+      ],
+      "mainFeatures": [
+        "Stream SteamVR games to Meta Quest headsets wirelessly",
+        "High-fidelity wireless streaming",
+        "Requires PC running Steam and SteamVR, and 5GHz Wi-Fi",
+        "Supports hand and eye tracking passthrough"
+      ],
+      "website": "https://store.steampowered.com/app/2603710/Steam_Link/"
+    },
+    {
+      "name": "Virtual Desktop",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Standalone VR (Headset Client)"
+      ],
+      "mainFeatures": [
+        "Stream PC VR games wirelessly to standalone headsets",
+        "View computer desktop in VR",
+        "Supports multiple monitors",
+        "Includes video streaming"
+      ],
+      "website": "https://www.vrdesktop.net/"
+    },
+    {
+      "name": "Immerse",
+      "license": "Proprietary",
+      "platforms": [
+        "Various Headsets (Standalone VR, PC VR)",
+        "Desktop",
+        "Browser",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Centralized platform for VR/AR/MR content management",
+        "Enterprise VR training and simulation focus",
+        "Integrates with LMS and MDM",
+        "Data analytics and reporting"
+      ],
+      "website": "https://immerse.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Oculus Air Link",
+    "Virtual Desktop"
+  ],
+  "marketPositioning": "ALVR is positioned as a free and open-source alternative for wireless PC VR streaming. Its key differentiators include support for a wider range of standalone VR headsets beyond just Meta Quest and compatibility with Linux on the PC side. While proprietary solutions like Virtual Desktop and platform-specific options like Oculus Air Link and Steam Link dominate the consumer market, ALVR serves users seeking flexibility, open development, and support for non-mainstream hardware or operating systems. It competes directly on the core functionality of wireless PC VR streaming while offering a community-driven, customizable experience."
+}

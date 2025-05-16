@@ -1,0 +1,150 @@
+{
+  "projectName": "native_db",
+  "projectPurpose": "To provide a fast, easy-to-use, and type-safe embedded database solution specifically for applications written in Rust, supporting various platforms (server, desktop, mobile). It aims to simplify data persistence for Rust developers by handling serialization, indexing, transactions, and real-time updates with minimal boilerplate.",
+  "platforms": [
+    "Server",
+    "Desktop",
+    "Mobile"
+  ],
+  "mainFeatures": [
+    "Simple API",
+    "Support for multiple indexes (primary, secondary, unique, non-unique, optional)",
+    "Fast performance",
+    "Transparent serialization/deserialization using native_model",
+    "Ensure query type safety",
+    "Automatic model migration",
+    "Thread-safe and fully ACID-compliant transactions (provided by redb)",
+    "Real-time subscription with filters for insert, update and delete operations",
+    "Compatible with all Rust types (enum, struct, tuple etc.)",
+    "Hot snapshots"
+  ],
+  "website": "https://github.com/vincent-herlemont/native_db",
+  "alternatives": [
+    {
+      "name": "SQLite",
+      "license": "Public Domain",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web",
+        "Embedded Systems"
+      ],
+      "mainFeatures": [
+        "Serverless and zero-configuration",
+        "Full-featured SQL database engine",
+        "Single database file",
+        "ACID transactions",
+        "Highly portable and compact"
+      ],
+      "website": "https://www.sqlite.org/"
+    },
+    {
+      "name": "RocksDB",
+      "license": "Apache 2.0 or GPL 2",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "OpenBSD",
+        "Solaris",
+        "AIX"
+      ],
+      "mainFeatures": [
+        "High-performance embedded key-value store",
+        "Optimized for fast storage (SSDs)",
+        "ACID transactions",
+        "Snapshots and backups",
+        "Column families"
+      ],
+      "website": "https://rocksdb.org/"
+    },
+    {
+      "name": "LMDB",
+      "license": "OpenLDAP Public License",
+      "platforms": [
+        "Unix",
+        "Linux",
+        "Windows",
+        "AIX",
+        "Sun Solaris",
+        "SCO Unix",
+        "macOS",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Embedded transactional key-value store",
+        "Memory-mapped architecture",
+        "ACID transactions (MVCC)",
+        "Extremely fast reads, linear read scaling",
+        "Zero-copy lookup and iteration"
+      ],
+      "website": "https://symas.com/lmdb"
+    },
+    {
+      "name": "LevelDB",
+      "license": "New BSD License",
+      "platforms": [
+        "Unix-based systems",
+        "macOS",
+        "Windows",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Fast key-value storage library",
+        "Data stored sorted by key",
+        "Atomic batch writes",
+        "Transient snapshots",
+        "Automatic compression"
+      ],
+      "website": "https://github.com/google/leveldb"
+    },
+    {
+      "name": "Realm",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "tvOS",
+        "watchOS",
+        ".NET",
+        "JavaScript"
+      ],
+      "mainFeatures": [
+        "Object-oriented database",
+        "Built for mobile devices",
+        "Offline-first architecture",
+        "Real-time data synchronization (with MongoDB Atlas)",
+        "Native query capabilities"
+      ],
+      "website": "https://realm.io/"
+    },
+    {
+      "name": "DuckDB",
+      "license": "MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Web (Wasm)",
+        "Mobile (Wasm)"
+      ],
+      "mainFeatures": [
+        "In-process SQL OLAP database",
+        "Vectorized query execution",
+        "Columnar storage",
+        "Direct querying of various file formats (CSV, Parquet, JSON)",
+        "ACID transactions (MVCC)"
+      ],
+      "website": "https://duckdb.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SQLite"
+  ],
+  "marketPositioning": "Native DB positions itself as a Rust-idiomatic, developer-friendly embedded database built on the robust transactional core of `redb`. Its key differentiators include first-class support for Rust types with transparent serialization and deserialization, ensured query type safety, and automatic model migration, simplifying the development workflow for Rust developers. Unlike traditional SQL databases like SQLite or analytical databases like DuckDB, Native DB offers a more object-like or key-value interface optimized for the Rust ecosystem. It also provides modern features such as real-time data subscriptions and hot snapshots. Native DB targets Rust developers building multi-platform applications (server, desktop, mobile) who seek a seamlessly integrated and type-safe embedded persistence solution that minimizes boilerplate and simplifies common database tasks like schema evolution, rather than requiring raw SQL or low-level key-value manipulation."
+}

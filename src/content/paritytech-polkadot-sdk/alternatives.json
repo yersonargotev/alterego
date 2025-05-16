@@ -1,0 +1,99 @@
+{
+  "projectName": "polkadot-sdk",
+  "projectPurpose": "To provide a comprehensive, modular, and flexible software development kit (SDK) and framework for building customized blockchain networks, enabling independent chains and those connecting to the Polkadot ecosystem for interoperability and shared security.",
+  "platforms": [
+    "Cross-platform"
+  ],
+  "mainFeatures": [
+    "Modular blockchain framework (Substrate, FRAME)",
+    "Enables building application-specific blockchains (app-chains/solochains)",
+    "Facilitates creating Polkadot parachains with shared security",
+    "Supports Cross-Consensus Messaging (XCM) for interoperability",
+    "Allows for forkless runtime upgrades",
+    "Includes tools for staking and on-chain governance"
+  ],
+  "website": "https://github.com/paritytech/polkadot-sdk",
+  "alternatives": [
+    {
+      "name": "Cosmos SDK",
+      "license": "Open Source (Apache 2.0 typically)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Modular architecture for app-chains (Zones)",
+        "Inter-Blockchain Communication (IBC)",
+        "Supports Proof-of-Stake consensus",
+        "Includes modules for staking, governance, and tokens",
+        "Flexible and customizable"
+      ],
+      "website": "https://docs.cosmos.network/main/building-apps/sdk"
+    },
+    {
+      "name": "Hyperledger Fabric SDKs",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Modular enterprise blockchain framework",
+        "Permissioned network support",
+        "Supports smart contracts (chaincode)",
+        "Pluggable consensus mechanisms",
+        "High performance for enterprise use cases"
+      ],
+      "website": "https://www.hyperledger.org/use/fabric"
+    },
+    {
+      "name": "Ethereum Development Ecosystem (e.g., Hardhat, Truffle, Polygon CDK)",
+      "license": "Primarily Open Source (various licenses)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Tools for smart contract development (Solidity, Vyper)",
+        "Testing frameworks and local testnets",
+        "Deployment and debugging tools",
+        "Libraries for interacting with Ethereum-compatible chains",
+        "Frameworks for building Ethereum-compatible L2s or chains (Polygon CDK)"
+      ],
+      "website": "https://ethereum.org/en/developers/tools/"
+    },
+    {
+      "name": "Corda",
+      "license": "Open Source (Apache 2.0 for Corda, Commercial for Enterprise)",
+      "platforms": [
+        "Cross-platform (JVM-based)"
+      ],
+      "mainFeatures": [
+        "Enterprise and regulated markets focus",
+        "Privacy by design (need-to-know data sharing)",
+        "Supports smart contracts (CorDapps)",
+        "Various consensus algorithms",
+        "Permissioned network"
+      ],
+      "website": "https://www.r3.com/platforms/corda/"
+    },
+    {
+      "name": "Exonum",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Rust-based)"
+      ],
+      "mainFeatures": [
+        "Rust-based for security and performance",
+        "High transaction throughput",
+        "Supports private and permissioned ledgers",
+        "Used in government and finance",
+        "Modular architecture"
+      ],
+      "website": "https://exonum.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum Development Ecosystem",
+    "Cosmos SDK",
+    "Hyperledger Fabric"
+  ],
+  "marketPositioning": "The Polkadot SDK is positioned as a leading modular and flexible framework for building highly customizable blockchain networks, particularly those designed for interoperability and shared security within the Polkadot ecosystem. Unlike general-purpose platforms focused solely on dApp deployment or frameworks primarily for permissioned enterprise chains, the Polkadot SDK empowers developers to build sovereign, application-specific chains (solochains or parachains) with built-in features for governance, staking, and forkless upgrades. Its emphasis on seamless cross-chain communication and pooled security for parachains distinguishes it within the landscape of blockchain development frameworks, offering a strong alternative for projects seeking a tailored, interconnected, and future-proof blockchain solution."
+}

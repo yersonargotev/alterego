@@ -1,0 +1,114 @@
+{
+  "projectName": "aliyundrive-webdav",
+  "projectPurpose": "To provide a WebDAV interface for Aliyun Drive, allowing users to access and manage their cloud storage via the WebDAV protocol.",
+  "platforms": [
+    "Likely cross-platform given Rust language and containerization, but dependent on implementation details."
+  ],
+  "mainFeatures": [
+    "Provides WebDAV access to Aliyun Drive",
+    "Enables mounting Aliyun Drive as a network drive (via WebDAV clients)",
+    "Allows access from any WebDAV-compatible application"
+  ],
+  "website": "https://github.com/messense/aliyundrive-webdav",
+  "alternatives": [
+    {
+      "name": "Rclone",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Supports over 70 cloud storage providers",
+        "Sync, copy, move, and manage files",
+        "Mount cloud storage as a drive",
+        "Supports various protocols including WebDAV",
+        "Command-line interface"
+      ],
+      "website": "https://rclone.org/"
+    },
+    {
+      "name": "Mountain Duck",
+      "license": "Proprietary (Paid)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Mounts cloud storage and servers as a disk",
+        "Supports WebDAV, SFTP, S3, Google Drive, Dropbox, etc.",
+        "Integrates with File Explorer/Finder",
+        "Work with remote files like local files"
+      ],
+      "website": "https://mountainduck.io/"
+    },
+    {
+      "name": "Cyberduck",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Server and cloud storage browser",
+        "Supports FTP, SFTP, WebDAV, S3, Google Drive, etc.",
+        "Easy-to-use graphical interface",
+        "Integration with external editors"
+      ],
+      "website": "https://cyberduck.io/"
+    },
+    {
+      "name": "RaiDrive",
+      "license": "Freemium/Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Mounts cloud storage as a network drive",
+        "Supports Google Drive, OneDrive, Dropbox, WebDAV, etc.",
+        "Access files without syncing",
+        "Easy management of cloud files"
+      ],
+      "website": "https://www.raidrive.com/"
+    },
+    {
+      "name": "CloudMounter",
+      "license": "Proprietary (Paid)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Mounts cloud storage as a local drive",
+        "Supports Dropbox, Google Drive, OneDrive, WebDAV, S3, etc.",
+        "Integrates into File Explorer/Finder",
+        "Client-side encryption"
+      ],
+      "website": "https://www.eltima.com/products/cloudmounter/"
+    },
+    {
+      "name": "Alist",
+      "license": "Open Source - AGPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android (via Termux)"
+      ],
+      "mainFeatures": [
+        "Supports numerous storage types including Aliyun Drive",
+        "Provides a web-based file list interface",
+        "Supports WebDAV, FTP, SFTP, etc.",
+        "Easy management of multiple cloud/local storage"
+      ],
+      "website": "https://alist.nn.ci/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Rclone"
+  ],
+  "marketPositioning": "aliyundrive-webdav is a specialized, open-source tool that provides dedicated WebDAV access specifically for Aliyun Drive users. While broader tools like Rclone and commercial applications offer WebDAV support for various services, aliyundrive-webdav focuses on a single, popular Chinese cloud storage provider, offering a direct and open-source solution for integrating Aliyun Drive with WebDAV-compatible applications and workflows."
+}

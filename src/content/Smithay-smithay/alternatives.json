@@ -1,0 +1,123 @@
+{
+  "projectName": "smithay",
+  "projectPurpose": "To provide a robust, safe, and modular foundation in the Rust programming language for developers to build custom Wayland compositors by abstracting low-level details of OS and Wayland protocol interactions.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Provides building blocks/libraries for creating Wayland compositors in Rust",
+    "Focuses on low-level helpers and abstractions for system and Wayland interactions",
+    "Handles input processing and graphics stack interaction",
+    "Aims for clear documentation, safety, and modularity",
+    "Includes a sample compositor ('anvil') for demonstration"
+  ],
+  "website": "https://github.com/Smithay/smithay",
+  "alternatives": [
+    {
+      "name": "wlroots",
+      "license": "MIT License",
+      "platforms": [
+        "Linux",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Modular and composable library for Wayland compositors",
+        "Abstracts display and input hardware (KMS/DRM, libinput, Wayland, X11 backends)",
+        "Implements many Wayland interfaces and extensions",
+        "Provides tools for common compositor tasks",
+        "Includes Xwayland abstraction for X11 compatibility"
+      ],
+      "website": "https://gitlab.freedesktop.org/wlroots/wlroots"
+    },
+    {
+      "name": "libwayland (wayland-server)",
+      "license": "MIT License",
+      "platforms": [
+        "Linux",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Reference implementation of the Wayland protocol",
+        "Handles communication between compositor and clients",
+        "Encodes and decodes Wayland messages",
+        "Provides a C API for compositor development"
+      ],
+      "website": "https://wayland.freedesktop.org/"
+    },
+    {
+      "name": "Mir",
+      "license": "MIT License",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Libraries for creating Wayland-based shells and compositors",
+        "Designed for ease of building simple compositors",
+        "Supports various graphics stacks and Wayland protocols",
+        "Used in projects like Ubuntu Frame"
+      ],
+      "website": "https://mir-server.io/"
+    },
+    {
+      "name": "libweston",
+      "license": "MIT License",
+      "platforms": [
+        "Linux",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Core library component of the Weston reference compositor",
+        "Provides fundamental compositor functionalities",
+        "Forms the basis for the Weston Wayland compositor"
+      ],
+      "website": "https://gitlab.freedesktop.org/wayland/weston"
+    },
+    {
+      "name": "Louvre",
+      "license": "MIT License",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "C++ library for building Wayland compositors",
+        "Emphasizes ease of development and performance",
+        "Handles low-level tasks (Linux input/graphic APIs, buffers, protocols)",
+        "Provides default protocol management mechanisms"
+      ],
+      "website": "https://github.com/CuarzoSoftware/Louvre"
+    },
+    {
+      "name": "Xlib",
+      "license": "Permissive (X Window System)",
+      "platforms": [
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Low-level C interface to the X Window System (X11)",
+        "Provides functions for window management and event handling",
+        "Includes graphics drawing primitives",
+        "Supports resource management and inter-client communication",
+        "Maintains network transparency"
+      ],
+      "website": "https://www.x.org/releases/X11R7.6/doc/libX11/libX11.html"
+    },
+    {
+      "name": "XCB",
+      "license": "Permissive (X Window System)",
+      "platforms": [
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "X protocol C-language Binding",
+        "Smaller footprint and improved threading compared to Xlib",
+        "Direct access to the X protocol",
+        "Extensible design"
+      ],
+      "website": "https://xcb.freedesktop.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "X.Org Server / X11"
+  ],
+  "marketPositioning": "Smithay is positioned as a developer-focused library within the Wayland ecosystem, specifically targeting developers who prefer building compositors using the Rust programming language. Its emphasis on Rust's safety features, modularity, and abstraction of low-level complexities differentiates it from C-based alternatives like wlroots and libweston, providing a safe and flexible foundation for creating custom Wayland experiences without the rigidity of a full framework."
+}

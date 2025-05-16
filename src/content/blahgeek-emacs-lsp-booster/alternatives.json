@@ -1,0 +1,69 @@
+{
+  "projectName": "emacs-lsp-booster",
+  "projectPurpose": "To improve the performance of Language Server Protocol (LSP) clients within the Emacs text editor by acting as a performance-optimized intermediary.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Acts as a performance-boosting proxy for Emacs LSP clients",
+    "Written in Rust for speed and efficiency",
+    "Addresses potential bottlenecks in LSP communication within Emacs"
+  ],
+  "website": "https://github.com/blahgeek/emacs-lsp-booster",
+  "alternatives": [
+    {
+      "name": "lsp-mode",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Emacs (runs on Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Comprehensive LSP client for Emacs",
+        "Supports a wide range of LSP features (completion, diagnostics, navigation, etc.)",
+        "Highly customizable with many extensions and integrations",
+        "Aims to provide an IDE-like experience in Emacs",
+        "Non-blocking asynchronous calls"
+      ],
+      "website": "https://emacs-lsp.github.io/lsp-mode/"
+    },
+    {
+      "name": "eglot",
+      "license": "Open Source - GNU GPL v3",
+      "platforms": [
+        "Emacs (runs on Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Minimalist LSP client built into Emacs (as of Emacs 29)",
+        "Focuses on integrating with existing Emacs features (Flymake, ElDoc, Xref, Imenu)",
+        "Easier to configure compared to lsp-mode",
+        "Good performance, aims to stay out of the way",
+        "Supports core LSP features like diagnostics, completion, and navigation"
+      ],
+      "website": "https://joaotavora.github.io/eglot/"
+    },
+    {
+      "name": "Visual Studio Code",
+      "license": "Proprietary freeware (based on MIT licensed Code - OSS)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Integrated terminal, debugging, and version control (Git) support",
+        "Rich extension ecosystem for language support and features",
+        "Intelligent code completion (IntelliSense)",
+        "Syntax highlighting and code refactoring",
+        "Customizable interface and keyboard shortcuts"
+      ],
+      "website": "https://code.visualstudio.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Visual Studio Code"
+  ],
+  "marketPositioning": "emacs-lsp-booster is a specialized performance optimization tool uniquely positioned to address performance bottlenecks experienced by Emacs users utilizing LSP clients like lsp-mode or eglot. Unlike the LSP clients themselves, which provide the core LSP functionality, or general-purpose editors like VS Code that offer built-in performant LSP experiences, emacs-lsp-booster acts as a targeted enhancement layer. Its value proposition lies in providing a dedicated, external solution (written in Rust) to improve the speed and responsiveness of LSP interactions within the Emacs environment, catering specifically to users who prefer Emacs but require better LSP performance without switching editors or undertaking extensive Emacs Lisp performance tuning."
+}

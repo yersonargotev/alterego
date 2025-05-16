@@ -1,0 +1,103 @@
+{
+  "projectName": "qsv",
+  "projectPurpose": "To provide a fast, efficient, and comprehensive command-line tool for manipulating, analyzing, and transforming tabular data, particularly CSV files, with a focus on performance and a wide range of operations.",
+  "platforms": [
+    "Cross-platform (Implied by Rust and command-line nature)"
+  ],
+  "mainFeatures": [
+    "Querying, slicing, indexing, analyzing, filtering, enriching, transforming, sorting, validating, joining, formatting & converting tabular data (CSV, spreadsheets, DBs, parquet, etc.)",
+    "Emphasis on speed and performance ('blazing fast')",
+    "Wide array of subcommands for diverse data manipulation tasks",
+    "Support for various input/output formats",
+    "Command-line interface for automation and scripting"
+  ],
+  "website": "https://github.com/jqnatividad/qsv",
+  "alternatives": [
+    {
+      "name": "csvkit",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Convert various formats to CSV",
+        "Perform SQL-like queries on CSVs",
+        "Cut, grep, head, sort, stack, and perform statistics on CSV files",
+        "Pipeability for chaining operations"
+      ],
+      "website": "https://csvkit.rtfd.org/"
+    },
+    {
+      "name": "Miller (mlr)",
+      "license": "Open Source - Two-clause BSD license",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Processes name-indexed data (CSV, TSV, JSON)",
+        "Functionalities similar to sed, awk, cut, join, sort on named fields",
+        "Format conversion",
+        "Statistical aggregation"
+      ],
+      "website": "http://johnkerl.org/miller/"
+    },
+    {
+      "name": "Pandas",
+      "license": "Open Source - BSD License",
+      "platforms": [
+        "Cross-platform (via Python)"
+      ],
+      "mainFeatures": [
+        "DataFrames for efficient data manipulation and analysis",
+        "Read/write data from various formats (CSV, Excel, JSON, SQL, etc.)",
+        "Handle missing data, merging, joining, reshaping",
+        "Time series analysis",
+        "Integration with other Python libraries"
+      ],
+      "website": "https://pandas.pydata.org/"
+    },
+    {
+      "name": "Microsoft Excel",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Spreadsheet interface for data entry and manipulation",
+        "Import and export CSV files",
+        "Formulas and functions",
+        "Sorting, filtering, and charting"
+      ],
+      "website": "https://www.microsoft.com/en-us/microsoft-365/excel"
+    },
+    {
+      "name": "Google Sheets",
+      "license": "Proprietary (Free with Google account)",
+      "platforms": [
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Cloud-based spreadsheet software",
+        "Import and export CSV files",
+        "Real-time collaboration",
+        "Formulas, sorting, filtering, and charting"
+      ],
+      "website": "https://docs.google.com/spreadsheets/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Microsoft Excel",
+    "Google Sheets",
+    "Pandas"
+  ],
+  "marketPositioning": "qsv is positioned as a fast, command-line focused tool for comprehensive tabular data manipulation and analysis, particularly for users who need to process large CSV and other tabular data files efficiently in automated workflows. It differentiates itself through its high performance (written in Rust), broad set of commands covering numerous data wrangling tasks, and support for various tabular data formats, offering a powerful command-line alternative to scripting libraries or graphical spreadsheet software."
+}

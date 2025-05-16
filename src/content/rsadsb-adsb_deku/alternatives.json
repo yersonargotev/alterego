@@ -1,0 +1,97 @@
+{
+  "projectName": "adsb_deku",
+  "projectPurpose": "To provide a command-line, self-hosted ADS-B decoder and radar visualization tool using a Text User Interface (TUI).",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "ADS-B decoding",
+    "Text User Interface (TUI) radar display",
+    "Built with Rust for performance and safety"
+  ],
+  "website": "https://github.com/rsadsb/adsb_deku",
+  "alternatives": [
+    {
+      "name": "dump1090",
+      "license": "Open Source (BSD / GPL variants)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Decodes Mode S and ADS-B",
+        "Outputs raw and decoded data streams",
+        "Basic web server with map display"
+      ],
+      "website": "https://github.com/antirez/dump1090"
+    },
+    {
+      "name": "PiAware",
+      "license": "Open Source (BSD 2-Clause)",
+      "platforms": [
+        "Raspberry Pi (Debian/Raspbian)"
+      ],
+      "mainFeatures": [
+        "ADS-B/Mode S decoding (dump1090-fa)",
+        "MLAT participation and feeding to FlightAware",
+        "Web-based map interface (SkyAware)",
+        "Easy installation via SD card image"
+      ],
+      "website": "https://flightaware.com/adsb/piaware/"
+    },
+    {
+      "name": "FlightRadar24 Feeder (fr24feed)",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Decodes ADS-B/Mode S",
+        "Feeds data to FlightRadar24 network",
+        "MLAT participation",
+        "Local web interface for status"
+      ],
+      "website": "https://www.flightradar24.com/activate-receiver"
+    },
+    {
+      "name": "ADSBExchange Receiver Software",
+      "license": "Primarily Open Source (uses dump1090-fa or readsb)",
+      "platforms": [
+        "Linux",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Decodes ADS-B/Mode S",
+        "Feeds data to ADSBExchange network (unfiltered data)",
+        "MLAT participation",
+        "Often used with Tar1090 for visualization"
+      ],
+      "website": "https://www.adsbexchange.com/feeding/"
+    },
+    {
+      "name": "Tar1090",
+      "license": "Open Source (GPL v2 or later)",
+      "platforms": [
+        "Linux (requires dump1090-fa or readsb)"
+      ],
+      "mainFeatures": [
+        "Enhanced web-based map interface",
+        "Improved aircraft history and details",
+        "Multiple map styles",
+        "Heatmap generation"
+      ],
+      "website": "https://github.com/wiedehopf/tar1090"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "FlightAware (PiAware)",
+    "FlightRadar24 (FlightRadar24 Feeder)"
+  ],
+  "marketPositioning": "adsb_deku is positioned as a niche, lightweight, and performance-oriented open-source ADS-B decoder for users who prefer a terminal-based experience. Its unique selling proposition is the TUI radar display, distinguishing it from the prevalent web-based graphical interfaces of most competitors. It serves the segment of users who need a simple decoder or one that integrates into command-line workflows, rather than a full-featured flight tracking platform feeder with a web UI."
+}

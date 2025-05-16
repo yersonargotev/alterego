@@ -1,0 +1,77 @@
+{
+  "projectName": "embedded-hal",
+  "projectPurpose": "To provide a standardized set of interfaces (traits) for common embedded hardware peripherals in Rust, enabling portable driver and application development across different microcontrollers.",
+  "platforms": [],
+  "mainFeatures": [
+    "Provides a set of traits for common embedded peripherals (GPIO, Serial, I2C, SPI, Timers, ADC, etc.)",
+    "Defines implementation contracts for HALs, drivers, and applications",
+    "Enables writing platform-agnostic device drivers",
+    "Aims for a minimal, zero-cost, and composable abstraction layer",
+    "Serves as a foundation for the Rust embedded ecosystem"
+  ],
+  "website": "https://github.com/rust-embedded/embedded-hal",
+  "alternatives": [
+    {
+      "name": "STM32Cube HAL",
+      "license": "Open Source - BSD License",
+      "platforms": [
+        "STM32 microcontrollers (ARM Cortex-M, Cortex-A)"
+      ],
+      "mainFeatures": [
+        "High abstraction level for STM32 peripherals",
+        "Simplifies porting between STM32 devices",
+        "Supports re-entrant APIs for RTOS use",
+        "Integrated with STM32Cube ecosystem (configurator, middleware, examples)"
+      ],
+      "website": "https://www.st.com/en/embedded-software/stm32cube-mcu-mpu-packages.html"
+    },
+    {
+      "name": "Zephyr RTOS HAL",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Multiple architectures (ARM, x86, RISC-V, etc.)",
+        "Various boards"
+      ],
+      "mainFeatures": [
+        "Hardware-specific layer within Zephyr RTOS",
+        "Supports Device Tree for hardware description",
+        "Modular and configurable",
+        "Part of a full-featured RTOS"
+      ],
+      "website": "https://www.zephyrproject.org/"
+    },
+    {
+      "name": "Mbed OS HAL",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "32-bit ARM Cortex-M microcontrollers"
+      ],
+      "mainFeatures": [
+        "Abstraction layer for common peripherals (timers, I2C, serial, SPI)",
+        "Facilitates portable C/C++ applications",
+        "Includes an RTOS core",
+        "Supports connectivity and security features"
+      ],
+      "website": "https://os.mbed.com/"
+    },
+    {
+      "name": "FreeRTOS",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Wide range of microcontroller architectures"
+      ],
+      "mainFeatures": [
+        "Real-time operating system kernel",
+        "Includes a port layer for hardware adaptation",
+        "Supports task scheduling and inter-task communication",
+        "Widely adopted in commercial products"
+      ],
+      "website": "https://www.freertos.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "FreeRTOS",
+    "STM32Cube HAL (as a vendor-specific example)"
+  ],
+  "marketPositioning": "embedded-hal is positioned as a fundamental, language-native Hardware Abstraction Layer within the Rust embedded ecosystem. Unlike vendor-specific HALs or HALs integrated into larger RTOS frameworks, it provides a set of generic traits that define standard interfaces for embedded peripherals. This trait-based approach promotes maximum code portability and reusability for both hardware support crates and platform-agnostic device drivers written in Rust. Its focus is on providing a minimal, zero-cost abstraction that serves as the common ground for building a diverse ecosystem of embedded Rust software."
+}

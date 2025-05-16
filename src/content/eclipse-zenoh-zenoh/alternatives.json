@@ -1,0 +1,69 @@
+{
+  "projectName": "zenoh",
+  "projectPurpose": "To provide a unified, highly efficient, and flexible data communication and management layer for distributed systems, unifying data in motion, data in-use, and data at rest, particularly excelling in edge, IoT, and robotics environments.",
+  "platforms": [
+    "Cross-platform (supports various Rust targets, including those for constrained devices)"
+  ],
+  "mainFeatures": [
+    "Unifies data in motion (pub/sub), data in-use (computations), and data at rest (storage/queries)",
+    "Highly efficient: low latency, high throughput, minimal wire overhead",
+    "Supports flexible communication topologies (peer-to-peer, routed, brokered)",
+    "Data-centric approach with location transparency",
+    "Designed for resource-constrained environments (IoT, Edge, Robotics)",
+    "Includes a lightweight version for microcontrollers (zenoh-pico)"
+  ],
+  "website": "https://zenoh.io/",
+  "alternatives": [
+    {
+      "name": "MQTT",
+      "license": "Open Source (various licenses depending on implementation, e.g., EPL/EDL for Mosquitto)",
+      "platforms": [
+        "Cross-platform (various implementations available for different OS and embedded systems)",
+        "Web (via WebSockets)"
+      ],
+      "mainFeatures": [
+        "Lightweight publish/subscribe messaging protocol",
+        "Broker-based architecture",
+        "Suitable for IoT and constrained devices",
+        "Quality of Service levels (0, 1, 2)",
+        "Small message overhead"
+      ],
+      "website": "https://mqtt.org/"
+    },
+    {
+      "name": "DDS (Data Distribution Service)",
+      "license": "Open Source and Proprietary (e.g., eProsima Fast DDS - Apache License 2.0, RTI Connext DDS - Proprietary)",
+      "platforms": [
+        "Cross-platform (implementations available for various OS and RTOS)"
+      ],
+      "mainFeatures": [
+        "Data-centric publish/subscribe for real-time systems",
+        "Decentralized, peer-to-peer architecture (typically)",
+        "Rich Quality of Service (QoS) policies",
+        "Standardized by OMG",
+        "Strong focus on performance and reliability"
+      ],
+      "website": "https://www.omg.org/dds/"
+    },
+    {
+      "name": "Apache Kafka",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (typically deployed on Linux/Unix-like systems)",
+        "Web (via UI tools)"
+      ],
+      "mainFeatures": [
+        "Distributed event streaming platform",
+        "High-throughput, fault-tolerant, durable messaging",
+        "Publish/subscribe and stream processing capabilities",
+        "Log-based architecture with ordered partitions",
+        "Scalable cluster architecture"
+      ],
+      "website": "https://kafka.apache.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Kafka"
+  ],
+  "marketPositioning": "Eclipse Zenoh positions itself as a highly efficient, next-generation protocol unifying data in motion, data at rest, and computations across the entire computing continuum, from microcontrollers to the cloud. Unlike traditional pub/sub (like MQTT) which is primarily data in motion and broker-dependent, or DDS which focuses on real-time data distribution in specific domains, or Kafka which is a high-throughput distributed log for data streaming often requiring more infrastructure, Zenoh offers a more integrated, flexible, and resource-efficient approach tailored for the challenges of edge computing, IoT, and robotics, supporting diverse topologies and providing built-in data storage and query capabilities."
+}

@@ -1,0 +1,111 @@
+{
+  "projectName": "get-selected-text",
+  "projectPurpose": "To provide a simple, cross-platform Rust library for programmatically obtaining the text currently selected by the user in any application.",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Obtain user-selected text",
+    "Cross-platform compatibility (macOS, Windows, Linux)",
+    "Uses Accessibility API on macOS where possible",
+    "Simulates copy command and reads clipboard on Windows and Linux",
+    "Automatically mutes macOS alert sound during simulated copy"
+  ],
+  "website": "https://github.com/yetone/get-selected-text",
+  "alternatives": [
+    {
+      "name": "macOS Accessibility API",
+      "license": "Proprietary",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Access UI elements programmatically",
+        "Retrieve selected text from focused elements",
+        "Inspect application UI structure",
+        "Control UI elements"
+      ],
+      "website": "https://developer.apple.com/documentation/applicationservices/accessibility_features"
+    },
+    {
+      "name": "Windows Accessibility API (UI Automation)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Programmatic access to UI elements",
+        "Inspect and control user interface",
+        "Retrieve information from controls"
+      ],
+      "website": "https://learn.microsoft.com/en-us/windows/win32/api/_accessibility/"
+    },
+    {
+      "name": "X Window System (X11) Selections",
+      "license": "Open Source",
+      "platforms": [
+        "Linux (X11)"
+      ],
+      "mainFeatures": [
+        "Inter-application data transfer",
+        "Handle selected data (PRIMARY, CLIPBOARD)",
+        "Requires application-level implementation"
+      ],
+      "website": "https://www.x.org/releases/X11R7.6/doc/libX11/Xlib/Xlib.html"
+    },
+    {
+      "name": "AutoHotkey",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Scripting for task automation",
+        "Simulate keystrokes and mouse events",
+        "Read and manipulate clipboard",
+        "Automate application interaction"
+      ],
+      "website": "https://www.autohotkey.com/"
+    },
+    {
+      "name": "PyAutoGUI",
+      "license": "Open Source - BSD 3-clause",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Control mouse and keyboard",
+        "Simulate copy/paste via hotkeys",
+        "Interact with clipboard (with other libraries)",
+        "GUI automation"
+      ],
+      "website": "https://pyautogui.readthedocs.io/"
+    },
+    {
+      "name": "Clipboard APIs (Web/OS)",
+      "license": "N/A",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Programmatically read clipboard",
+        "Programmatically write to clipboard",
+        "Requires user interaction for security (Web)",
+        "Platform-specific native APIs"
+      ],
+      "website": "https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Simulating copy (Ctrl+C/Cmd+C) and reading the clipboard"
+  ],
+  "marketPositioning": "get-selected-text is positioned as a convenient, tiny, and cross-platform Rust library for obtaining selected text. It simplifies a task that often requires platform-specific API calls or reliance on external scripting/automation tools. By abstracting these complexities and offering a native-code solution in Rust, it caters to developers within the Rust ecosystem seeking a straightforward way to integrate selected text retrieval into their applications across major desktop operating systems.",
+  "expandedDescription": "get-selected-text is a concise and efficient Rust library designed to provide developers with a straightforward method to retrieve the text currently highlighted or selected by the user across different desktop operating systems, namely macOS, Windows, and Linux. It abstracts the underlying platform-specific mechanisms required to achieve this, primarily leveraging the native Accessibility API on macOS for a more direct approach where possible, and falling back to the common technique of simulating the copy command (Ctrl+C or Cmd+C) and reading the system clipboard on Windows and Linux. A notable feature on macOS is the automatic temporary muting of the system alert sound to prevent disturbances when simulating the copy shortcut. This library aims to simplify the process of obtaining selected text for Rust developers building cross-platform applications, providing a unified interface instead of requiring them to implement platform-specific code or rely on external system scripting tools."
+}

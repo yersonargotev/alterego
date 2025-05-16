@@ -1,0 +1,104 @@
+{
+  "projectName": "Daft",
+  "projectPurpose": "Daft is designed as a high-performance, scalable data processing engine that provides both Python DataFrame and SQL interfaces. Its purpose is to enable users, particularly those in data engineering, analytics, and ML/AI, to efficiently process large datasets, ranging from local interactive workloads to petabyte-scale distributed tasks, with strong support for cloud environments and multimodal data.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Distributed data engine",
+    "Python and SQL interfaces",
+    "Designed for the cloud",
+    "Powered by Rust",
+    "Scales from MB to PB",
+    "Supports multimodal data (images, embeddings, Python objects)",
+    "Interactive computing focus with caching/query optimizations",
+    "Native integration with Ray for distributed computing",
+    "Efficient dataloading from open formats (Parquet, JPEG)",
+    "Integration with ML/AI libraries (PyTorch, NumPy)",
+    "Capability to query table formats (Apache Iceberg, Delta Lake, Apache Hudi)",
+    "Zero-copy integration with Apache Arrow",
+    "Supports User-Defined Functions (UDFs)",
+    "Native support for cloud storage (S3)"
+  ],
+  "website": "https://github.com/Eventual-Inc/Daft",
+  "alternatives": [
+    {
+      "name": "Apache Spark",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Unified analytics engine for large-scale data processing",
+        "Supports multiple languages (Scala, Java, Python, R, SQL)",
+        "In-memory computing",
+        "Libraries for SQL, streaming, machine learning, graph processing",
+        "Fault tolerance"
+      ],
+      "website": "https://spark.apache.org/"
+    },
+    {
+      "name": "Dask",
+      "license": "Open Source - BSD 3-Clause \"New\" or \"Revised\" License",
+      "platforms": [
+        "Linux",
+        "Microsoft Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Parallel computing library for Python",
+        "Scales Python code to distributed environments",
+        "Provides high-level data structures (Array, DataFrame, Bag)",
+        "Offers low-level task scheduling APIs",
+        "Integrates with PyData ecosystem"
+      ],
+      "website": "https://www.dask.org/"
+    },
+    {
+      "name": "Polars",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Blazingly fast DataFrame library",
+        "Written in Rust",
+        "Supports Python, R, NodeJS",
+        "Lazy evaluation and query optimization",
+        "Efficient out-of-core processing and parallel execution"
+      ],
+      "website": "https://www.pola.rs/"
+    },
+    {
+      "name": "DuckDB",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "In-process SQL OLAP database",
+        "High performance analytical query processing",
+        "Supports standard SQL",
+        "ACID compliant",
+        "Seamless integration with Python (Pandas) and R"
+      ],
+      "website": "https://duckdb.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Spark"
+  ],
+  "marketPositioning": "Daft is positioned as a modern, high-performance, scalable, and unified data engine built for the cloud. It offers both Python DataFrame and SQL interfaces, targeting data engineering, analytics, and particularly ML/AI workflows due to its strong support for complex, multimodal data. Unlike primarily single-node engines like Polars and DuckDB, Daft provides seamless scalability to distributed environments. Compared to established distributed frameworks like Apache Spark and Dask, Daft emphasizes a Python-first developer experience, a high-performance Rust backend, and native handling of multimodal data, aiming to offer a compelling alternative for users seeking performance and ease of use for large-scale and ML-centric data processing in the cloud."
+}

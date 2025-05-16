@@ -1,0 +1,116 @@
+{
+  "projectName": "tera",
+  "projectPurpose": "To provide a powerful, fast, and easy-to-use template engine for Rust with a syntax familiar to users of Jinja2 and Django templates, enabling the generation of dynamic text-based content.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "Inspired by Jinja2 and Django templates",
+    "Template inheritance and includes",
+    "Variables, conditionals (if/else), and loops (for)",
+    "Filters and custom functions",
+    "Automatic HTML/XML escaping by default",
+    "Template caching and auto-reloading",
+    "Strict mode for enforcing variable existence",
+    "High-performance rendering",
+    "Easy to use with good error messages"
+  ],
+  "website": "https://keats.github.io/tera/",
+  "alternatives": [
+    {
+      "name": "Askama",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Type-safe, compiled templates",
+        "Jinja-like syntax",
+        "Compile-time template checking",
+        "High-performance rendering (compiled code)",
+        "Integrations with web frameworks (Actix, Axum, Rocket, Warp)"
+      ],
+      "website": "https://askama.readthedocs.io/"
+    },
+    {
+      "name": "Handlebars (Rust)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Rust implementation of Handlebars.js",
+        "Logic-less templating philosophy",
+        "Extensible with custom helpers",
+        "Mustache-compatible",
+        "Fast execution via compilation"
+      ],
+      "website": "https://docs.rs/handlebars/latest/handlebars/"
+    },
+    {
+      "name": "Liquid (Rust)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Rust implementation of Shopify's Liquid",
+        "Designer-friendly syntax",
+        "Secure and sandboxed execution",
+        "Supports includes and variables",
+        "Filters and tags"
+      ],
+      "website": "https://crates.io/crates/liquid"
+    },
+    {
+      "name": "Maud",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Compile-time HTML templates",
+        "Rust macro-based syntax (HTML-in-Rust)",
+        "Type-safe",
+        "Fast rendering",
+        "Minimal overhead"
+      ],
+      "website": "https://crates.io/crates/maud"
+    },
+    {
+      "name": "Jinja2",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Fast, expressive, and extensible",
+        "Template inheritance and inclusion",
+        "Sandboxed execution",
+        "Automatic HTML escaping",
+        "Compiles to optimized Python code"
+      ],
+      "website": "https://jinja.palletsprojects.com/"
+    },
+    {
+      "name": "Django Template Language (DTL)",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Built into Django framework",
+        "HTML-like syntax with tags and filters",
+        "Separates presentation from logic",
+        "Template inheritance",
+        "Automatic HTML escaping by default"
+      ],
+      "website": "https://docs.djangoproject.com/en/stable/ref/templates/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Jinja2",
+    "Handlebars"
+  ],
+  "marketPositioning": "Tera positions itself as a high-performance, easy-to-use template engine for Rust, leveraging the widely familiar syntax of Jinja2 and Django templates. It competes with other Rust template engines by offering a traditional file-based templating workflow while emphasizing speed and comprehensive features like inheritance, filtering, and automatic escaping. Its appeal lies in providing a comfortable transition for developers experienced with Python web frameworks and their templating systems, bringing that expressiveness and flexibility to the Rust ecosystem."
+}

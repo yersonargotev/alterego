@@ -1,0 +1,104 @@
+{
+  "projectName": "rust-bitcoin",
+  "projectPurpose": "To provide a comprehensive and robust library for developers to build Bitcoin-related applications and services using the Rust programming language, offering tools for interacting with the Bitcoin protocol and blockchain.",
+  "platforms": [
+    "Cross-platform (where Rust is supported)"
+  ],
+  "mainFeatures": [
+    "Core Bitcoin protocol data structures and operations",
+    "Handling of keys and addresses",
+    "Transaction building, signing, and verification",
+    "Script parsing and execution",
+    "Integration points for building various Bitcoin applications"
+  ],
+  "website": "https://github.com/rust-bitcoin/rust-bitcoin",
+  "alternatives": [
+    {
+      "name": "bitcoinlib",
+      "license": "Open Source - GPLv3+",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Wallet creation and management (HD wallets)",
+        "Blockchain interaction and data retrieval",
+        "Transaction building, signing, and verification",
+        "Bitcoin script analysis",
+        "Support for multiple address formats"
+      ],
+      "website": "http://bitcoinlib.readthedocs.io/"
+    },
+    {
+      "name": "bitcoinjs-lib",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Node.js",
+        "Browsers"
+      ],
+      "mainFeatures": [
+        "Wallet (address) and multisig creation",
+        "Transaction creation, fetching, and broadcasting",
+        "Supports various Bitcoin Improvement Proposals (BIPs)",
+        "Modular architecture",
+        "Secure key generation"
+      ],
+      "website": "https://github.com/bitcoinjs/bitcoinjs-lib"
+    },
+    {
+      "name": "bitcoinj",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "JVM (Java, Kotlin, etc.)",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Lightweight SPV mode",
+        "Wallet class with encryption and HD key derivation",
+        "Multi-signing and fee calculation",
+        "Support for micropayment channels",
+        "Can send/receive transactions without a full node"
+      ],
+      "website": "https://bitcoinj.github.io/"
+    },
+    {
+      "name": "Libbitcoin",
+      "license": "Open Source - AGPL with a lesser clause",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Cross-platform C++ libraries",
+        "Focus on asynchronicity and performance",
+        "Modular architecture",
+        "Tools for building various Bitcoin applications",
+        "Includes consensus-critical libraries"
+      ],
+      "website": "https://libbitcoin.org/"
+    },
+    {
+      "name": "NBitcoin",
+      "license": "Open Source - MIT",
+      "platforms": [
+        ".NET framework (Windows, Linux, macOS)"
+      ],
+      "mainFeatures": [
+        "Comprehensive .NET library for Bitcoin",
+        "Supports a wide range of Bitcoin functionalities",
+        "Used for building C# Bitcoin applications",
+        "Includes features for keys, transactions, and scripts",
+        "Actively maintained"
+      ],
+      "website": "https://github.com/dgarage/NBitcoin"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "bitcoinjs-lib",
+    "bitcoinj"
+  ],
+  "marketPositioning": "rust-bitcoin is positioned as a core building block for Bitcoin development within the Rust ecosystem. It caters to developers who prioritize memory safety, performance, and reliability, leveraging Rust's strengths to build secure and efficient Bitcoin applications such as wallets, nodes, and specialized tools. While other languages have established libraries, rust-bitcoin fills the need for a robust, native Bitcoin library in the growing Rust development community.",
+  "expandedDescription": "rust-bitcoin is a foundational library written in Rust, providing essential tools and data structures for interacting with the Bitcoin protocol. It enables developers to build a wide range of Bitcoin applications, from lightweight wallets and command-line tools to more complex systems, leveraging Rust's focus on performance, reliability, and memory safety. The library offers primitives for handling Bitcoin addresses, keys, transactions, and scripts, serving as a core component for building secure and efficient Bitcoin software."
+}

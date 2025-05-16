@@ -1,0 +1,111 @@
+{
+  "projectName": "topgrade",
+  "projectPurpose": "To provide a single command-line tool that automates the process of updating various software components, package managers, and tools on a user's system.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Automates system and application updates",
+    "Supports multiple package managers and tools (configurable)",
+    "Single command to update diverse software components",
+    "Simplifies system maintenance"
+  ],
+  "website": "https://github.com/topgrade-rs/topgrade",
+  "alternatives": [
+    {
+      "name": "Homebrew",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows (WSL)"
+      ],
+      "mainFeatures": [
+        "Installs and manages packages",
+        "Manages dependencies",
+        "Supports third-party repositories (taps)",
+        "Installs GUI applications (casks)"
+      ],
+      "website": "https://brew.sh/"
+    },
+    {
+      "name": "Chocolatey",
+      "license": "Open Source - Apache 2.0 (with commercial options)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Installs and updates applications and tools",
+        "Central package repository",
+        "PowerShell automation",
+        "Integrates with existing Windows tools"
+      ],
+      "website": "https://chocolatey.org/"
+    },
+    {
+      "name": "Scoop",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Command-line installer for Windows",
+        "Installs portable applications",
+        "No UAC popups",
+        "Easy configuration sharing"
+      ],
+      "website": "https://scoop.sh/"
+    },
+    {
+      "name": "Apt (Advanced Package Tool)",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Debian-based Linux"
+      ],
+      "mainFeatures": [
+        "Package installation, removal, upgrading",
+        "Dependency resolution",
+        "Repository management",
+        "System updates"
+      ],
+      "website": "https://wiki.debian.org/Apt"
+    },
+    {
+      "name": "Dnf (Dandified Yum)",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Fedora",
+        "RHEL",
+        "CentOS (8+)"
+      ],
+      "mainFeatures": [
+        "Package installation, removal, upgrading",
+        "Dependency resolution",
+        "Repository management",
+        "Modularity support"
+      ],
+      "website": "https://dnf.readthedocs.io/en/latest/"
+    },
+    {
+      "name": "Ninite",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Installs and updates popular applications silently",
+        "No toolbars or extra clicks",
+        "Automated updates (paid version)",
+        "Select multiple apps at once"
+      ],
+      "website": "https://ninite.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Homebrew",
+    "Chocolatey"
+  ],
+  "marketPositioning": "Topgrade is positioned as a universal command-line updater that aggregates and orchestrates the update processes of various package managers, tools, and software components across different platforms. Unlike platform-specific package managers or GUI updaters, Topgrade aims to provide a single, convenient command for users who utilize a diverse set of software ecosystems, simplifying the task of keeping everything up-to-date. Its strength lies in its broad compatibility and ability to unify disparate update workflows."
+}

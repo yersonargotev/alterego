@@ -1,0 +1,94 @@
+{
+  "projectName": "meilisearch",
+  "projectPurpose": "To provide developers with a fast, user-friendly, and easily integrable search engine solution for websites and applications, enabling relevant and instant search experiences with features like typo tolerance and AI-powered hybrid search.",
+  "platforms": [
+    "Cross-platform (binary)",
+    "Docker",
+    "Cloud (Meilisearch Cloud)"
+  ],
+  "mainFeatures": [
+    "Lightning-fast search engine API",
+    "AI-powered hybrid search",
+    "Typo tolerance",
+    "Comprehensive language support",
+    "Custom ranking",
+    "Filtering",
+    "Highlighting",
+    "Search-as-you-type"
+  ],
+  "website": "https://github.com/meilisearch/meilisearch",
+  "alternatives": [
+    {
+      "name": "Elasticsearch",
+      "license": "Triple-licensed (Elastic License, SSPL, AGPL)",
+      "platforms": [
+        "Cross-platform",
+        "Docker",
+        "Cloud (Elastic Cloud, AWS, GCP, Azure)"
+      ],
+      "mainFeatures": [
+        "Distributed search and analytics",
+        "Scalable data store",
+        "Near real-time search",
+        "Vector database/search",
+        "Integrated with Elastic Stack (Kibana, Logstash, Beats)"
+      ],
+      "website": "https://www.elastic.co/elasticsearch/"
+    },
+    {
+      "name": "Apache Solr",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform",
+        "Server containers",
+        "Cloud (managed services)"
+      ],
+      "mainFeatures": [
+        "Open-source enterprise search",
+        "Full-text search",
+        "Faceted search",
+        "Real-time indexing",
+        "Distributed search (SolrCloud)"
+      ],
+      "website": "https://solr.apache.org/"
+    },
+    {
+      "name": "Algolia",
+      "license": "Proprietary (SaaS)",
+      "platforms": [
+        "Web (API)",
+        "Various SDKs"
+      ],
+      "mainFeatures": [
+        "Search-as-a-Service",
+        "Lightning-fast search",
+        "Typo tolerance",
+        "Faceted search",
+        "AI Search (keyword and vector)"
+      ],
+      "website": "https://www.algolia.com/"
+    },
+    {
+      "name": "Typesense",
+      "license": "Open Source - Apache License 2.0 (core historically GPL-3.0)",
+      "platforms": [
+        "Cross-platform",
+        "Docker",
+        "Cloud (Typesense Cloud)"
+      ],
+      "mainFeatures": [
+        "Fast and typo-tolerant search",
+        "Developer-friendly",
+        "Vector search",
+        "Hybrid search",
+        "Conversational search (RAG)"
+      ],
+      "website": "https://typesense.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Elasticsearch",
+    "Algolia"
+  ],
+  "marketPositioning": "Meilisearch is positioned as a developer-friendly, open-source search engine offering a balance of speed, ease of use, and modern features like AI-powered hybrid search. It competes with established open-source platforms like Elasticsearch and Solr by prioritizing simplicity and a great out-of-the-box developer and user experience, while also presenting itself as a cost-effective and open-source alternative to proprietary SaaS solutions like Algolia. Its focus is on providing instant, relevant search results for applications and websites with minimal setup and configuration."
+}

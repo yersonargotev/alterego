@@ -1,0 +1,128 @@
+{
+  "projectName": "kftray",
+  "projectPurpose": "To provide a robust, user-friendly, and efficient way to manage multiple Kubernetes port forwarding connections for local development and debugging, overcoming the limitations of the native kubectl command.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Manage multiple kubectl port-forward commands",
+    "Support for UDP and TCP port forwarding",
+    "Resilient Port Forwarding Connection with auto-reconnect",
+    "GitHub state sync for sharing configurations",
+    "System tray integration (GUI) and Terminal UI (kftui)",
+    "Independent of Kubectl CLI (interfaces directly with Kubernetes API)",
+    "Support for K8s proxy connections",
+    "HTTP Logs Tracing"
+  ],
+  "website": "https://kftray.app",
+  "alternatives": [
+    {
+      "name": "kubectl port-forward",
+      "license": "Open Source - Apache 2.0 (Part of Kubernetes)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Forward one or more local ports to a pod",
+        "Basic TCP port forwarding",
+        "Selects a pod automatically if multiple match criteria",
+        "Integrated with the kubectl command-line tool"
+      ],
+      "website": "https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#port-forward"
+    },
+    {
+      "name": "Kube Forwarder",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Easy to use Kubernetes port forwarding manager (GUI)",
+        "Auto-reconnect on connection failure",
+        "Multiple clusters support",
+        "Import and export bookmarks",
+        "Zero native dependencies (does not require kubectl installation)"
+      ],
+      "website": "https://kube-forwarder.pixelpoint.io/"
+    },
+    {
+      "name": "krelay",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Drop-in replacement for kubectl port-forward",
+        "Supports UDP port forwarding",
+        "Supports simultaneous forwarding to multiple targets",
+        "Forwards data to IP/Hostname accessible inside the cluster",
+        "Resilient forwarding sessions during rolling updates"
+      ],
+      "website": "https://github.com/knight42/krelay"
+    },
+    {
+      "name": "kubefwd",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Bulk port forwarding of Kubernetes services",
+        "Forwards services within one or more namespaces/clusters",
+        "Uses loopback IP addresses on the local workstation",
+        "Temporarily adds domain entries to /etc/hosts",
+        "Requires kubectl installed and configured"
+      ],
+      "website": "https://github.com/txn2/kubefwd"
+    },
+    {
+      "name": "Aptakube",
+      "license": "Proprietary (with Free tier)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Kubernetes GUI Client",
+        "One-click port forwarding from UI",
+        "Connect to multiple clusters simultaneously",
+        "Visual management of Kubernetes resources",
+        "Quick actions for common tasks"
+      ],
+      "website": "https://aptakube.com/"
+    },
+    {
+      "name": "mirrord",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Debug and test Kubernetes applications locally",
+        "Includes a port-forward command alternative",
+        "Offers more options for accessing resources",
+        "Allows forwarding multiple ports with one command",
+        "Can piggyback on existing pod permissions"
+      ],
+      "website": "https://mirrord.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "kubectl port-forward",
+    "Lens (as a broad Kubernetes IDE with port forwarding)"
+  ],
+  "marketPositioning": "kftray is positioned as a significant enhancement and alternative to the native `kubectl port-forward` command, specifically tailored for developers and teams engaged in local Kubernetes development and debugging. It addresses the key limitations of `kubectl` by offering robust, reliable connections with auto-reconnect, comprehensive management of multiple forwards through a user-friendly GUI or TUI, support for UDP, and team collaboration features like GitHub sync. While other GUI tools exist, kftray differentiates itself by specializing in port forwarding while providing a compelling feature set that goes beyond basic forwarding, aiming to be the preferred tool for efficient and collaborative port-forwarding workflows."
+}

@@ -1,0 +1,117 @@
+{
+  "projectName": "incubator-horaedb",
+  "projectPurpose": "To provide a high-performance, distributed, cloud native time-series database capable of handling both time-series and analytical workloads.",
+  "platforms": [
+    "Cross-platform",
+    "Cloud Native"
+  ],
+  "mainFeatures": [
+    "High scalability",
+    "Cost-efficiency",
+    "Community-driven ecosystem",
+    "Distributed architecture",
+    "Cloud native design",
+    "Supports time-series and analytics workloads"
+  ],
+  "website": "https://github.com/apache/incubator-horaedb",
+  "alternatives": [
+    {
+      "name": "InfluxDB",
+      "license": "Open Source (MIT / Apache 2) and Proprietary options",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (Cloud)"
+      ],
+      "mainFeatures": [
+        "High-speed data ingestion",
+        "Real-time querying",
+        "Unlimited cardinality",
+        "Native SQL and InfluxQL support",
+        "Embedded Python scripting"
+      ],
+      "website": "https://www.influxdata.com/"
+    },
+    {
+      "name": "TimescaleDB",
+      "license": "Open Source (Apache 2.0) and Proprietary (Timescale License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (Cloud)"
+      ],
+      "mainFeatures": [
+        "PostgreSQL extension",
+        "Full SQL support",
+        "Automatic time-based partitioning",
+        "Columnar compression",
+        "Optimized for time-series data"
+      ],
+      "website": "https://www.timescale.com/"
+    },
+    {
+      "name": "Prometheus",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Multi-dimensional data model",
+        "Powerful query language (PromQL)",
+        "Pull-based metrics collection",
+        "Service discovery",
+        "Real-time alerting"
+      ],
+      "website": "https://prometheus.io/"
+    },
+    {
+      "name": "OpenTSDB",
+      "license": "Open Source (GNU LGPLv2.1 / GPL-3.0)",
+      "platforms": [
+        "Cross-platform (requires HBase)"
+      ],
+      "mainFeatures": [
+        "Scalable and distributed",
+        "Built on Apache HBase",
+        "Designed for high data loads",
+        "Integrates with monitoring systems"
+      ],
+      "website": "http://opentsdb.net/"
+    },
+    {
+      "name": "Graphite",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Stores numeric time-series data",
+        "Renders graphs on demand",
+        "Simple data ingestion",
+        "Web UI and API for visualization"
+      ],
+      "website": "https://graphiteapp.org/"
+    },
+    {
+      "name": "Apache HBase",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Cross-platform (requires Hadoop/HDFS or Alluxio)"
+      ],
+      "mainFeatures": [
+        "Distributed, scalable, non-relational",
+        "Real-time read/write access",
+        "Automatic sharding and failover",
+        "Column-oriented storage"
+      ],
+      "website": "https://hbase.apache.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "InfluxDB",
+    "Prometheus"
+  ],
+  "marketPositioning": "Apache HoraeDB (Incubating) is positioned as a modern, high-performance, distributed, and cloud-native time-series database. It aims to compete with established players like InfluxDB and TimescaleDB by offering a unified platform for both time-series and analytical workloads within the open and community-driven framework of the Apache Software Foundation. Its cloud-native design and focus on cost-efficiency are key aspects of its market strategy."
+}

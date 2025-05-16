@@ -1,0 +1,160 @@
+{
+  "projectName": "Amber",
+  "projectPurpose": "To provide a modern, safer, and higher-level alternative for writing Bash scripts by compiling a new language (Amber) into Bash, addressing common issues like error handling, lack of type safety, and complex syntax.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Compiles to Bash script",
+    "Modern, ECMA script-like syntax",
+    "Type safety",
+    "Runtime safety and error handling",
+    "Standard library",
+    "Interoperability with Bash",
+    "Floating point arithmetic, improved array handling, pass by reference"
+  ],
+  "website": "https://amber-lang.github.io/",
+  "alternatives": [
+    {
+      "name": "Python",
+      "license": "Open Source - PSF License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Other"
+      ],
+      "mainFeatures": [
+        "General-purpose scripting",
+        "Extensive standard library",
+        "Large ecosystem of third-party packages",
+        "Readable syntax",
+        "Object-oriented and procedural paradigms"
+      ],
+      "website": "https://www.python.org/"
+    },
+    {
+      "name": "Perl",
+      "license": "Open Source - Artistic License/GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Other"
+      ],
+      "mainFeatures": [
+        "Powerful text processing",
+        "Regular expression capabilities",
+        "Large module repository (CPAN)",
+        "Flexible syntax",
+        "Procedural and object-oriented paradigms"
+      ],
+      "website": "https://www.perl.org/"
+    },
+    {
+      "name": "Ruby",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Other"
+      ],
+      "mainFeatures": [
+        "Focus on simplicity and productivity",
+        "Elegant syntax",
+        "Object-oriented",
+        "Large community and gem ecosystem",
+        "Suitable for scripting and web development"
+      ],
+      "website": "https://www.ruby-lang.org/"
+    },
+    {
+      "name": "Node.js",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Other"
+      ],
+      "mainFeatures": [
+        "JavaScript runtime",
+        "Event-driven, non-blocking I/O",
+        "Large package ecosystem (npm)",
+        "Suitable for server-side and scripting",
+        "Can use libraries like shelljs for shell commands"
+      ],
+      "website": "https://nodejs.org/"
+    },
+    {
+      "name": "Batsh",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Compiles to Bash and Windows Batch",
+        "Cross-platform scripting",
+        "Simple C-like syntax",
+        "Aims to avoid messy shell syntax"
+      ],
+      "website": "https://github.com/batsh-dev-team/Batsh"
+    },
+    {
+      "name": "Oil Shell (Oils)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Upgrade path from Bash",
+        "Focus on a better language and runtime",
+        "Compatible with existing shell scripts",
+        "Aims for predictability and correctness",
+        "Improved parsing and data structures"
+      ],
+      "website": "https://www.oilshell.org/"
+    },
+    {
+      "name": "Zsh",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Extended Bourne shell",
+        "Improved tab completion",
+        "Shared command history",
+        "Themeable prompts",
+        "Powerful globbing"
+      ],
+      "website": "https://www.zsh.org/"
+    },
+    {
+      "name": "Powscript",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Other"
+      ],
+      "mainFeatures": [
+        "Transpiles to sh/Bash",
+        "Ruby/Python-like syntax",
+        "Automatic quoting",
+        "Error handling (halt on error/missing dependencies)"
+      ],
+      "website": "https://github.com/coderofsalvation/powscript"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Python"
+  ],
+  "marketPositioning": "Amber positions itself as a modern, type-safe, and developer-friendly alternative for writing Bash scripts. Its core value proposition is compiling to pure Bash, ensuring high portability without external runtime dependencies. This makes it ideal for environments where traditional scripting languages are not easily deployable. By offering a familiar syntax (ECMA script-like) and built-in safety features like type and runtime checking, Amber aims to make shell scripting less error-prone and more enjoyable compared to writing directly in Bash. While general-purpose languages like Python offer broader capabilities, Amber focuses on improving the fundamental experience of shell scripting itself, targeting users who need Bash's ubiquity but desire a more robust development experience."
+}

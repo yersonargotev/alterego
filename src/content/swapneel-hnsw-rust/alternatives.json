@@ -1,0 +1,109 @@
+{
+  "projectName": "hnsw-rust",
+  "projectPurpose": "To provide a library for efficient Approximate Nearest Neighbor (ANN) search in Rust using the Hierarchical Navigable Small World (HNSW) algorithm.",
+  "platforms": [
+    "Cross-platform (Rust)"
+  ],
+  "mainFeatures": [
+    "Implementation of the HNSW algorithm",
+    "Approximate Nearest Neighbor search",
+    "Written in Rust",
+    "Designed for high-dimensional spaces"
+  ],
+  "website": "https://github.com/swapneel/hnsw-rust",
+  "alternatives": [
+    {
+      "name": "Faiss (Facebook AI Similarity Search)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Efficient similarity search and clustering",
+        "Supports various indexing methods (HNSW, IVF)",
+        "GPU acceleration",
+        "Optimized for large datasets"
+      ],
+      "website": "https://github.com/facebookresearch/faiss"
+    },
+    {
+      "name": "Annoy (Approximate Nearest Neighbors Oh Yeah)",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (bindings)"
+      ],
+      "mainFeatures": [
+        "Memory-efficient (uses mmap)",
+        "Supports static file-based indexes",
+        "Euclidean and Cosine distances",
+        "Multiple language bindings"
+      ],
+      "website": "https://github.com/spotify/annoy"
+    },
+    {
+      "name": "NMSLIB (Non-Metric Space Library)",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Supports various similarity search methods (including HNSW)",
+        "Designed for generic and non-metric spaces",
+        "Efficient and comprehensive toolkit",
+        "Python and Java interfaces"
+      ],
+      "website": "https://github.com/nmslib/nmslib"
+    },
+    {
+      "name": "ScaNN (Scalable Nearest Neighbors)",
+      "license": "Open Source - Apache Software License (Apache 2.0)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Optimized for large-scale vector similarity search",
+        "Search space pruning and quantization",
+        "High performance on benchmarks",
+        "TensorFlow integration"
+      ],
+      "website": "https://github.com/google-research/google-research/tree/master/scann"
+    },
+    {
+      "name": "HNSWlib (C++ and Python)",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Direct implementation of the HNSW algorithm",
+        "Good balance of speed and accuracy",
+        "Supports dynamic updates",
+        "C++ and Python interfaces"
+      ],
+      "website": "https://github.com/hnswlib/hnswlib"
+    },
+    {
+      "name": "hnsw-rs",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Cross-platform (Rust)"
+      ],
+      "mainFeatures": [
+        "Rust implementation of HNSW",
+        "Supports various distance metrics",
+        "Multithreaded insertion and search",
+        "Dump and reload functionality"
+      ],
+      "website": "https://github.com/jean-pierreBoth/hnswlib-rs"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Faiss"
+  ],
+  "marketPositioning": "hnsw-rust is positioned as a native Rust library for Approximate Nearest Neighbor (ANN) search, specifically implementing the HNSW algorithm. It targets developers who require efficient similarity search capabilities within the Rust ecosystem, leveraging Rust's performance and safety features. While other mature libraries like Faiss, Annoy, and NMSLIB offer broader support for algorithms and languages (including GPU acceleration in some cases), hnsw-rust provides a dedicated HNSW solution for the growing Rust community, competing directly with other Rust-based HNSW implementations like hnsw-rs."
+}

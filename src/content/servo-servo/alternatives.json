@@ -1,0 +1,141 @@
+{
+  "projectName": "servo",
+  "projectPurpose": "To provide a modern, secure, and high-performance web rendering engine, written in Rust, that can be easily embedded into various applications across different platforms.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android",
+    "OpenHarmony"
+  ],
+  "mainFeatures": [
+    "Lightweight and high-performance web rendering engine",
+    "Designed for embedding web technologies in applications",
+    "Written in Rust, leveraging memory safety and concurrency",
+    "Modular architecture",
+    "Uses concurrency and parallelism for rendering",
+    "Supports WebGL and WebGPU",
+    "Provides a WebView API for embedding",
+    "Cross-platform support",
+    "Adaptable to desktop, mobile, and embedded applications",
+    "Open governance under Linux Foundation Europe"
+  ],
+  "website": "https://servo.org",
+  "alternatives": [
+    {
+      "name": "Blink (Chromium)",
+      "license": "BSD and LGPLv2.1",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "OpenHarmony",
+        "Oniro OS",
+        "HarmonyOS"
+      ],
+      "mainFeatures": [
+        "High-performance rendering engine",
+        "Multi-process architecture",
+        "Actively developed as part of the Chromium project",
+        "Widely used in numerous browsers and applications",
+        "Supports modern web standards"
+      ],
+      "website": "https://www.chromium.org/blink/"
+    },
+    {
+      "name": "Gecko",
+      "license": "MPL 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Mozilla's browser engine",
+        "Supports open internet standards",
+        "Used in Firefox and other applications",
+        "Offers a rich programming API",
+        "Includes components written in Rust"
+      ],
+      "website": "https://developer.mozilla.org/en-US/docs/Glossary/Gecko"
+    },
+    {
+      "name": "WebKit",
+      "license": "LGPLv2.1 (rendering engine, JavaScript engine), BSD 2-Clause (additional contributions from Apple)",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "Linux",
+        "Microsoft Windows",
+        "various other Unix-like operating systems"
+      ],
+      "mainFeatures": [
+        "Apple's browser engine, used in Safari",
+        "Open source web content engine",
+        "Designed for embedding in other applications",
+        "Values web compatibility, standards compliance, and performance",
+        "Includes a multi-process architecture"
+      ],
+      "website": "https://webkit.org"
+    },
+    {
+      "name": "Chromium Embedded Framework (CEF)",
+      "license": "BSD",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Framework for embedding a Chromium browser in applications",
+        "Simplifies adding web browsing functionality or using HTML/CSS/JS for UI",
+        "Provides stable APIs and binary distributions",
+        "Supports a wide range of programming languages",
+        "Designed for performance and ease of use"
+      ],
+      "website": "https://bitbucket.org/chromiumembedded/cef"
+    },
+    {
+      "name": "Electron",
+      "license": "MIT License",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Build cross-platform desktop applications with web technologies",
+        "Combines Chromium (for rendering) and Node.js (for backend)",
+        "Provides native OS integration",
+        "Used by many popular desktop applications",
+        "Open-source and free for commercial use"
+      ],
+      "website": "https://www.electronjs.org"
+    },
+    {
+      "name": "Qt WebEngine",
+      "license": "Commercial, LGPL v3, GPL v2, GPL v3 (Qt parts); various licenses including LGPL v2.1 (Chromium parts)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Provides web content rendering within Qt applications",
+        "Uses the Chromium project codebase",
+        "Offers C++ and QML APIs for embedding",
+        "Supports various web technologies and features",
+        "Integrated with the Qt framework"
+      ],
+      "website": "https://doc.qt.io/qt-5/qtwebengine-index.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Blink (Chromium)",
+    "Electron"
+  ],
+  "marketPositioning": "Servo positions itself as a lightweight, high-performance, and secure web rendering engine, uniquely built in Rust for enhanced memory safety and concurrency. It aims to be a modular and embeddable alternative to established C++ based engines like Blink, WebKit, and Gecko. While currently more experimental, its focus on a modern language and parallel processing differentiates it for use cases requiring a secure and performable embedded web view or UI built with web technologies, particularly in embedded systems and applications leveraging WebGL/WebGPU."
+}

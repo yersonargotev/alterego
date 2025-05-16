@@ -1,0 +1,108 @@
+{
+  "projectName": "fuel-core",
+  "projectPurpose": "To provide a Rust implementation of a full node for the Fuel v2 protocol, enabling users to connect to, interact with, and validate the Fuel network, a modular execution layer for Ethereum rollups.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Rust implementation",
+    "Full node for Fuel v2 protocol",
+    "Supports Fuel's modular execution layer",
+    "Enables participation in Fuel network validation"
+  ],
+  "website": "https://github.com/FuelLabs/fuel-core",
+  "alternatives": [
+    {
+      "name": "Geth (Go Ethereum)",
+      "license": "Open Source - GNU LGPL v3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Ethereum Layer 1 full node implementation",
+        "Written in Go",
+        "Supports various sync modes (full, light, archive)",
+        "JSON-RPC API support",
+        "Largest user base among Ethereum clients"
+      ],
+      "website": "https://geth.ethereum.org/"
+    },
+    {
+      "name": "Nethermind",
+      "license": "Open Source - LGPL-3.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "ARM"
+      ],
+      "mainFeatures": [
+        "Ethereum Layer 1 full node implementation",
+        "Written in C#/.NET",
+        "Optimized virtual machine and state access",
+        "Monitoring dashboards (Prometheus/Grafana)",
+        "JSON-RPC tracing and analytics plugins"
+      ],
+      "website": "https://nethermind.io/"
+    },
+    {
+      "name": "Reth (Rust Ethereum)",
+      "license": "Open Source - Apache-2.0, MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Ethereum Layer 1 full node implementation",
+        "Written in Rust",
+        "Focus on modularity, performance, and efficiency",
+        "Suitable for staking and high-uptime services",
+        "Compatible with Ethereum consensus layer clients via Engine API"
+      ],
+      "website": "https://github.com/paradigmxyz/reth"
+    },
+    {
+      "name": "Arbitrum",
+      "license": "Proprietary (Offchain Labs)",
+      "platforms": [
+        "Web",
+        "Node software (Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Optimistic Rollup Layer 2 for Ethereum",
+        "Aims for low costs and high throughput",
+        "EVM compatible",
+        "Fraud proofs for security",
+        "Large ecosystem of dApps"
+      ],
+      "website": "https://arbitrum.io/"
+    },
+    {
+      "name": "OP Mainnet (Optimism)",
+      "license": "Open Source (various)",
+      "platforms": [
+        "Web",
+        "Node software (Linux, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Optimistic Rollup Layer 2 for Ethereum",
+        "Focuses on simplicity and scalability",
+        "EVM equivalent (soon)",
+        "Part of the \"Superchain\" vision",
+        "Public Goods funding initiative"
+      ],
+      "website": "https://www.optimism.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Geth (Go Ethereum)",
+    "Arbitrum",
+    "OP Mainnet"
+  ],
+  "marketPositioning": "Fuel Core is positioned as the foundational node software for the Fuel Network, a novel modular execution layer designed specifically for scaling Ethereum. Unlike traditional Layer 1 nodes (like Geth, Nethermind, or Reth) that focus on the base chain, or typical Layer 2 solutions (like Arbitrum or OP Mainnet) that often rely on EVM compatibility, Fuel differentiates itself with its custom-built FuelVM and Sway programming language. This unique stack aims to unlock higher performance, parallel transaction execution, and a more flexible development environment tailored for the future of decentralized applications. Fuel Core is therefore positioned not just as *another* node implementation, but as the entry point to a distinct and highly optimized Layer 2 ecosystem."
+}

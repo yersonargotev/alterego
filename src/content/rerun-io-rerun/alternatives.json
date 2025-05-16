@@ -1,0 +1,59 @@
+{
+  "projectName": "rerun",
+  "projectPurpose": "To provide a fast, easy-to-use, and flexible tool for visualizing and debugging streams of multimodal and temporal data, particularly relevant for robotics, computer vision, and AI applications.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Visualize streams of multimodal data (2D, 3D, text, time series, tensors, etc.)",
+    "Time-aware data handling and visualization with 'time travel'",
+    "SDKs for logging data from C++, Python, and Rust",
+    "Live visualization and recording to file (.rrd format)",
+    "Native and web-based viewer, embeddable in notebooks and web apps",
+    "Query APIs for extracting time-aligned data",
+    "High performance built in Rust"
+  ],
+  "website": "https://www.rerun.io/",
+  "alternatives": [
+    {
+      "name": "Foxglove Studio",
+      "license": "Open Source (Source available)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Robotics observability tool",
+        "Visualizes live and recorded data (ROS bags, MCAP)",
+        "Customizable layouts with modular panels (3D, images, plots, raw messages)",
+        "Cross-platform desktop and web app",
+        "Extensible via a plugin API and User Scripts"
+      ],
+      "website": "https://www.foxglove.dev/"
+    },
+    {
+      "name": "RViz (ROS Visualization)",
+      "license": "Open Source (typically BSD or Apache)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "3D visualization for ROS",
+        "Visualizes sensor data (cameras, lidar, radar) and robot models",
+        "Integrated with ROS topics for real-time data",
+        "Pluggable transformation library",
+        "Supports plugins for custom displays, panels, and tools"
+      ],
+      "website": "http://wiki.ros.org/rviz"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "RViz"
+  ],
+  "marketPositioning": "Rerun is positioned as a high-performance, flexible, and easy-to-integrate open-source multimodal data visualization and debugging tool with a strong emphasis on temporal data handling. Built in Rust, it offers speed and portability across native and web platforms, and provides SDKs for popular languages like C++, Python, and Rust for seamless data logging. While competitive with robotics-specific tools like Foxglove Studio and RViz, Rerun aims for broader applicability beyond ROS and offers a compelling combination of performance, ease of use, and a focus on time-aware data exploration, targeting developers in robotics, computer vision, and AI. The project also signals a future commercial offering for teams."
+}

@@ -1,0 +1,115 @@
+{
+  "projectName": "prql",
+  "projectPurpose": "To provide a modern, more intuitive, and powerful alternative to SQL for transforming data, specifically focusing on analytical queries, by offering a cleaner, pipelined syntax and better abstractions, while still leveraging the ubiquity of SQL by compiling to it.",
+  "platforms": [
+    "Cross-platform (compiles to SQL dialects for various databases)"
+  ],
+  "mainFeatures": [
+    "Pipelined data transformations",
+    "Abstractions (variables, functions)",
+    "Database agnostic (compiles to many SQL dialects)",
+    "Embedded SQL escape hatch",
+    "Bindings to most major languages"
+  ],
+  "website": "https://prql-lang.org",
+  "alternatives": [
+    {
+      "name": "SQL (Structured Query Language)",
+      "license": "Varies by implementation (database systems have different licenses)",
+      "platforms": [
+        "Varies by database system (Windows, macOS, Linux, Web, etc.)"
+      ],
+      "mainFeatures": [
+        "Data Definition (DDL)",
+        "Data Manipulation (DML)",
+        "Data Querying (SELECT)",
+        "Data Control (DCL)",
+        "Transaction Control (TCL)"
+      ],
+      "website": "N/A (Standard)"
+    },
+    {
+      "name": "dbt (data build tool)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Operates on data warehouses/databases (Cloud, On-Premises)"
+      ],
+      "mainFeatures": [
+        "Modular data transformations using SQL",
+        "Version control integration",
+        "Automated testing",
+        "Documentation generation",
+        "Lineage graphs"
+      ],
+      "website": "https://www.getdbt.com/"
+    },
+    {
+      "name": "Kusto Query Language (KQL)",
+      "license": "Proprietary",
+      "platforms": [
+        "Azure (Azure Data Explorer, Azure Monitor, etc.)"
+      ],
+      "mainFeatures": [
+        "Optimized for logs, telemetry, and time-series data",
+        "Pipelined data flow model",
+        "Schema-on-read",
+        "Integrated with Azure services",
+        "Rich set of operators and functions"
+      ],
+      "website": "https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/"
+    },
+    {
+      "name": "pandas",
+      "license": "Open Source - BSD 3-Clause",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "DataFrame for tabular data manipulation",
+        "Data cleaning and preparation",
+        "Time series analysis",
+        "Integration with other Python libraries",
+        "Flexible data alignment and missing data handling"
+      ],
+      "website": "https://pandas.pydata.org/"
+    },
+    {
+      "name": "Apache Pig",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Hadoop (MapReduce, YARN), Local"
+      ],
+      "mainFeatures": [
+        "High-level data flow language (Pig Latin)",
+        "Designed for large datasets",
+        "Compiles to MapReduce",
+        "Extensible with UDFs",
+        "Supports nested data types"
+      ],
+      "website": "https://pig.apache.org/"
+    },
+    {
+      "name": "LINQ (Language Integrated Query)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux (within .NET)"
+      ],
+      "mainFeatures": [
+        "Native data querying in .NET languages",
+        "Unified syntax for various data sources",
+        "Compile-time query checking",
+        "Strong typing",
+        "Abstraction over underlying data source query languages"
+      ],
+      "website": "https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SQL"
+  ],
+  "marketPositioning": "PRQL is positioned as a modern, developer-friendly alternative to SQL for data transformation and analytical querying. Its core value proposition is a more intuitive, pipelined syntax and improved abstractions compared to traditional SQL, while maintaining broad compatibility by compiling to existing SQL dialects. It targets data engineers and analysts seeking a more expressive and less verbose language for complex transformations, aiming to improve productivity and reduce errors inherent in writing complex SQL. Unlike database-specific query languages (like KQL) or big data processing languages (like Apache Pig), PRQL is designed to work across the existing relational database ecosystem. It differentiates itself from data transformation frameworks (like dbt) by being a new language focused on the query writing experience itself, rather than an orchestration tool for SQL code."
+}

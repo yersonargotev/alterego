@@ -1,0 +1,129 @@
+{
+  "projectName": "vnt",
+  "projectPurpose": "To provide a simple, efficient, and convenient open-source tool for creating virtual networks between devices in different locations or behind NAT, enabling easy remote access and resource sharing.",
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS",
+    "Android"
+  ],
+  "mainFeatures": [
+    "Virtual network (VPN) functionality",
+    "Remote networking (\u5f02\u5730\u7ec4\u7f51)",
+    "Internal network penetration/NAT traversal (\u5185\u7f51\u7a7f\u900f)",
+    "Efficient and convenient setup and usage",
+    "Peer-to-peer connections with relay fallback"
+  ],
+  "website": "https://github.com/lbl8603/vnt",
+  "alternatives": [
+    {
+      "name": "WireGuard",
+      "license": "Open Source (GPLv2, MIT, BSD, Apache 2.0)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "BSD",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Fast and modern VPN protocol",
+        "Simple configuration",
+        "State-of-the-art cryptography",
+        "High performance",
+        "Peer-to-peer connections"
+      ],
+      "website": "https://www.wireguard.com/"
+    },
+    {
+      "name": "OpenVPN",
+      "license": "Open Source (GNU GPLv2), Proprietary (Access Server)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Highly configurable and flexible",
+        "Strong encryption via OpenSSL",
+        "Multiple authentication methods",
+        "NAT and firewall traversal",
+        "Supports TCP and UDP"
+      ],
+      "website": "https://openvpn.net/"
+    },
+    {
+      "name": "Tailscale",
+      "license": "Proprietary (Free tier, Paid plans), Core code BSD-3-Clause",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "FreeBSD",
+        "OpenBSD",
+        "NAS",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Built on WireGuard protocol",
+        "Zero-configuration mesh VPN",
+        "NAT traversal (P2P and relay)",
+        "Integrates with identity providers (SSO)",
+        "Simplified key management"
+      ],
+      "website": "https://tailscale.com/"
+    },
+    {
+      "name": "ZeroTier",
+      "license": "Business Source License (BSL 1.1), free for non-commercial/internal use",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "FreeBSD",
+        "NAS",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Decentralized network virtualization",
+        "Global virtual Ethernet network",
+        "Peer-to-peer connectivity with relay fallback",
+        "End-to-end encryption",
+        "Supports advanced SDN features"
+      ],
+      "website": "https://www.zerotier.com/"
+    },
+    {
+      "name": "LogMeIn Hamachi",
+      "license": "Proprietary and Freemium",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Hosted VPN service",
+        "On-demand virtual network creation",
+        "Emulates LAN connectivity",
+        "Centralized web-based management",
+        "AES 256-bit encryption"
+      ],
+      "website": "https://vpn.net/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OpenVPN",
+    "WireGuard",
+    "Tailscale",
+    "ZeroTier"
+  ],
+  "marketPositioning": "VNT positions itself as an 'efficient and convenient' open-source virtual networking tool, emphasizing ease of use for remote access and internal network penetration (NAT traversal). It appears to target users seeking a simpler alternative to more complex VPN setups, leveraging a token-based system for network identification and prioritizing straightforward connectivity across different network environments, similar in goal to user-friendly mesh networking solutions like Tailscale and ZeroTier but with a likely focus on self-hosting."
+}

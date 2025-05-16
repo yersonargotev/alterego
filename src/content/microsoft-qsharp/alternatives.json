@@ -1,0 +1,95 @@
+{
+  "projectName": "qsharp",
+  "projectPurpose": "To provide a comprehensive development kit for building, testing, and running quantum programs, making quantum computing accessible through a dedicated programming language (Q#), development tools, learning resources, and cloud-based hardware access via Azure Quantum.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Q# programming language for quantum algorithms",
+    "Resource estimator for analyzing physical requirements",
+    "Quantum Katas for learning and practice",
+    "Integration with Azure Quantum for cloud hardware access",
+    "Quantum simulator for local development and testing",
+    "Debugging tools for quantum programs",
+    "Integration with Visual Studio Code and Jupyter Notebooks"
+  ],
+  "website": "https://github.com/microsoft/qsharp",
+  "alternatives": [
+    {
+      "name": "Qiskit",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (via cloud)"
+      ],
+      "mainFeatures": [
+        "Python SDK for quantum circuits",
+        "Tools for quantum states and operators",
+        "Circuit transpilation and optimization",
+        "Access to IBM Quantum hardware and simulators",
+        "Modules for various quantum programming layers"
+      ],
+      "website": "https://qiskit.org/"
+    },
+    {
+      "name": "Cirq",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Python library for quantum circuits",
+        "Abstractions for NISQ computers",
+        "Built-in quantum simulators",
+        "Integration with Google's quantum hardware",
+        "Flexible gate definitions and parameterized circuits"
+      ],
+      "website": "https://quantumai.google/cirq"
+    },
+    {
+      "name": "PennyLane",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Focus on quantum machine learning (QML)",
+        "Integration with classical ML frameworks (TensorFlow, PyTorch, JAX)",
+        "Automatic differentiation of quantum circuits",
+        "Supports diverse hardware/simulators via plugins",
+        "Tools for quantum chemistry and optimization"
+      ],
+      "website": "https://pennylane.ai/"
+    },
+    {
+      "name": "Amazon Braket SDK",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (via AWS)"
+      ],
+      "mainFeatures": [
+        "Access to multiple quantum hardware providers",
+        "Managed quantum simulators",
+        "Tools for building and submitting circuits",
+        "Integration with AWS cloud services"
+      ],
+      "website": "https://aws.amazon.com/braket/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Qiskit"
+  ],
+  "marketPositioning": "The Azure Quantum Development Kit (QDK), centered around the Q# programming language, is positioned as a comprehensive and integrated platform for quantum computing development. Unlike Python-based SDKs, Q# is a dedicated quantum-centric language, offering a potentially more native and optimized approach to expressing quantum algorithms and integrating classical control flow. By providing tools like a resource estimator, robust debugging, and learning resources like Quantum Katas, the QDK targets both researchers and developers looking to learn and build complex quantum applications. Its tight integration with Azure Quantum provides users with seamless access to a diverse range of quantum hardware, positioning it as a key part of Microsoft's cloud-first strategy in the emerging quantum computing market, offering a distinct language choice compared to the prevalent Python frameworks."
+}

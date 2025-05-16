@@ -1,0 +1,132 @@
+{
+  "projectName": "ninja",
+  "projectPurpose": "To provide unofficial, programmatic access to ChatGPT by reverse-engineering its web interface.",
+  "platforms": [],
+  "mainFeatures": [
+    "Acts as a proxy for ChatGPT requests",
+    "Reverse-engineers ChatGPT web access",
+    "Provides a programmatic interface to ChatGPT",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/gngpp/ninja",
+  "alternatives": [
+    {
+      "name": "OpenAI API",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Access to various OpenAI models (GPT-4, GPT-3.5, DALL-E)",
+        "Fine-tuning capabilities",
+        "Embeddings and moderation",
+        "Assistants API"
+      ],
+      "website": "https://openai.com/docs/api/"
+    },
+    {
+      "name": "LiteLLM",
+      "license": "Open Source - MIT (OSS Gateway), Proprietary (Enterprise)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Unified API for 100+ LLMs",
+        "Cost tracking and management",
+        "Load balancing and rate limiting",
+        "Caching and virtual keys"
+      ],
+      "website": "https://litellm.ai/"
+    },
+    {
+      "name": "Portkey.ai (AI Gateway)",
+      "license": "Open Source - MIT (OSS), Proprietary (Hosted and Enterprise)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Route to 200+ LLMs",
+        "AI Guardrails",
+        "OpenAI API/SDKs compatibility",
+        "Load balancing and fallbacks"
+      ],
+      "website": "https://portkey.ai/"
+    },
+    {
+      "name": "Helicone",
+      "license": "Open Source - MIT, Freemium (Hosted)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "LLM observability",
+        "Proxy for multiple LLM providers",
+        "Logging requests and responses",
+        "Usage analytics"
+      ],
+      "website": "https://www.helicone.ai/"
+    },
+    {
+      "name": "Open WebUI",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "User-friendly web interface",
+        "Supports various models (Ollama, Anthropic, OpenAI)",
+        "Retrieval Augmented Generation (RAG)",
+        "Code execution agent"
+      ],
+      "website": "https://github.com/open-webui/open-webui"
+    },
+    {
+      "name": "HostedGPT",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Open-source ChatGPT alternative interface",
+        "Supports OpenAI and Claude 3 via API",
+        "Self-hostable Ruby on Rails app",
+        "Polished user interface"
+      ],
+      "website": "https://github.com/AllYourBot/hostedgpt"
+    },
+    {
+      "name": "Jan",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Runs offline locally",
+        "Supports various LLMs and remote APIs",
+        "Creates a local AI server",
+        "Multi-platform desktop application"
+      ],
+      "website": "https://jan.ai/"
+    },
+    {
+      "name": "LibreChat",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Supports multiple LLMs (OpenAI, Gemini, etc.)",
+        "ChatGPT plugin compatibility",
+        "Search history and prompt templates",
+        "Self-hostable web application"
+      ],
+      "website": "https://www.librechat.ai/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OpenAI API"
+  ],
+  "marketPositioning": "\"ninja\" is positioned as an unofficial, free alternative for developers needing programmatic access to ChatGPT by reverse-engineering its public web interface. This contrasts with the official paid OpenAI API and LLM gateways that provide unified access to multiple models. Its niche is users prioritizing free access via the web method, accepting the risks associated with an unstable, undocumented interface, rather than a robust, officially supported API or a general-purpose LLM management tool."
+}

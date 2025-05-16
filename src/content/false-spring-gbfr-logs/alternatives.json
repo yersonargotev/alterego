@@ -1,0 +1,99 @@
+{
+  "projectName": "gbfr-logs",
+  "projectPurpose": "To provide Granblue Fantasy: Relink players with a real-time damage meter and combat statistics overlay to help analyze and improve their in-game performance.",
+  "platforms": [
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Track damage statistics in Granblue Fantasy: Relink",
+    "Provides an in-game overlay for displaying DPS and other metrics",
+    "Easy installation via MSI installer",
+    "Overlay clickthrough toggle",
+    "Parses combat data by injecting into the game process"
+  ],
+  "website": "https://github.com/false-spring/gbfr-logs",
+  "alternatives": [
+    {
+      "name": "Advanced Combat Tracker (ACT)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "General-purpose combat parser",
+        "Supports multiple games via plugins (e.g., FFXIV, EverQuest)",
+        "Tracks damage, healing, and other combat events",
+        "Extensive plugin ecosystem for overlays and features",
+        "Configuration required for specific games and overlays"
+      ],
+      "website": "https://advancedcombattracker.com/"
+    },
+    {
+      "name": "IINACT",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Steam Deck"
+      ],
+      "mainFeatures": [
+        "Open-source ACT alternative for FFXIV",
+        "Cross-platform support",
+        "Modern framework for potentially better performance",
+        "Integrates as a Dalamud plugin for FFXIV",
+        "Easier installation/configuration than ACT"
+      ],
+      "website": "https://github.com/marzent/IINACT"
+    },
+    {
+      "name": "Scuffed GBFR Parser",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Damage meter specifically for Granblue Fantasy: Relink",
+        "Reads game memory for damage calculation",
+        "Python-based, can be run from source",
+        "Mentioned on Nexus Mods and Reddit as a GBFR parser",
+        "May require more technical setup than an installer"
+      ],
+      "website": "https://github.com/sjieh/scuffed-gbfr-parser"
+    },
+    {
+      "name": "FPS Monitor",
+      "license": "Proprietary (Paid)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "General game performance overlay",
+        "Monitors FPS, CPU/GPU usage, temperatures, etc.",
+        "Real-time hardware information display",
+        "Customizable overlay appearance",
+        "Hardware alerts"
+      ],
+      "website": "https://fpsmonitor.com/"
+    },
+    {
+      "name": "Intel PresentMon",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Game performance overlay and telemetry",
+        "Monitors FPS, frame time, and GPU busy",
+        "Supports multi-vendor hardware",
+        "Configurable overlay with real-time graphs",
+        "Supports various graphics APIs (DX9, 10, 11, 12, OpenGL, Vulkan)"
+      ],
+      "website": "https://game.intel.com/content/www/us/en/tech-developer/api-dev/tools/presentmon.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Advanced Combat Tracker (ACT)"
+  ],
+  "marketPositioning": "GBFR Logs is positioned as a highly specialized and user-friendly damage meter specifically for Granblue Fantasy: Relink. Unlike general-purpose combat parsers that require game-specific plugins and extensive configuration, GBFR Logs offers a direct, easy-to-install solution with a built-in overlay tailored for the game. Its focus on a single game simplifies the user experience, differentiating it from more complex alternatives and providing a dedicated tool for the GBFR: Relink community seeking to analyze their combat performance."
+}

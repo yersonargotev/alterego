@@ -1,0 +1,92 @@
+{
+  "projectName": "hyperbridge",
+  "projectPurpose": "To provide a high-performance, unbounded, multi-producer, multi-consumer channel for asynchronous communication in Rust.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "Multi-producer, multi-consumer (MPMC) channel",
+    "Unbounded capacity",
+    "Asynchronous support",
+    "Fast performance"
+  ],
+  "website": "https://github.com/singaraiona/hyperbridge",
+  "alternatives": [
+    {
+      "name": "async_channel",
+      "license": "Open Source - Apache-2.0 OR MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Async multi-producer multi-consumer channel",
+        "Bounded and unbounded channels",
+        "Cloneable senders and receivers",
+        "Integrates with async runtimes"
+      ],
+      "website": "https://crates.io/crates/async-channel"
+    },
+    {
+      "name": "flume",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Fast multi-producer channel (MPSC or MPMC)",
+        "Synchronous and asynchronous operations",
+        "Bounded and unbounded channels",
+        "Simple API"
+      ],
+      "website": "https://crates.io/crates/flume"
+    },
+    {
+      "name": "crossbeam-channel",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "High-performance multi-producer multi-consumer channels",
+        "Bounded and unbounded channels",
+        "Select mechanism for multiple channels",
+        "Low-level optimizations"
+      ],
+      "website": "https://crates.io/crates/crossbeam-channel"
+    },
+    {
+      "name": "tokio::sync::broadcast",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Multi-producer, multi-consumer broadcast channel",
+        "Each receiver sees every message",
+        "Bounded capacity",
+        "Integrated with the Tokio runtime"
+      ],
+      "website": "https://docs.rs/tokio/latest/tokio/sync/broadcast/index.html"
+    },
+    {
+      "name": "async_std::channel",
+      "license": "Open Source - Apache-2.0 OR MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Channels for message passing",
+        "Integrated with the async-std runtime",
+        "Supports MPMC (unbounded mentioned)",
+        "Async receive operations"
+      ],
+      "website": "https://docs.rs/async-std/latest/async_std/channel/index.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "crossbeam-channel",
+    "async_channel",
+    "flume"
+  ],
+  "marketPositioning": "hyperbridge is positioned as a high-performance, specialized Rust library providing an unbounded, multi-producer, multi-consumer (MPMC) channel tailored for asynchronous applications. It competes directly with other async MPMC channel crates like async_channel and flume by emphasizing speed in the context of an unbounded, multi-consumer design. Unlike runtime-specific channels or MPSC variants, it offers a dedicated solution for efficient many-to-many asynchronous communication without inherent buffer limitations."
+}

@@ -1,0 +1,118 @@
+{
+  "projectName": "axum",
+  "projectPurpose": "A web application framework in Rust for building ergonomic and modular web services and applications, leveraging the Tokio ecosystem.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "FreeBSD",
+    "OpenBSD"
+  ],
+  "mainFeatures": [
+    "Route requests to handlers with a macro-free API",
+    "Declaratively parse requests using extractors",
+    "Simple and predictable error handling model",
+    "Generate responses with minimal boilerplate",
+    "Take full advantage of the tower and tower-http ecosystem of middleware, services, and utilities"
+  ],
+  "website": "https://github.com/tokio-rs/axum",
+  "alternatives": [
+    {
+      "name": "Actix Web",
+      "license": "Open Source (MIT OR Apache-2.0)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "FreeBSD",
+        "OpenBSD"
+      ],
+      "mainFeatures": [
+        "Supports HTTP/1.x and HTTP/2",
+        "WebSockets support",
+        "Middleware support",
+        "High performance",
+        "Full Tokio compatibility"
+      ],
+      "website": "https://actix.rs/"
+    },
+    {
+      "name": "Rocket",
+      "license": "Open Source (MIT OR Apache-2.0)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "FreeBSD",
+        "OpenBSD"
+      ],
+      "mainFeatures": [
+        "Focus on usability and type safety",
+        "Routing with macros",
+        "Form handling",
+        "JSON support",
+        "Templating"
+      ],
+      "website": "https://rocket.rs/"
+    },
+    {
+      "name": "Warp",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Composable \"Filters\"",
+        "Websockets",
+        "HTTP/2 support",
+        "Built on Hyper and Tokio",
+        "Access logging"
+      ],
+      "website": "https://github.com/seanmonstar/warp"
+    },
+    {
+      "name": "Express.js",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Middleware support",
+        "Robust routing",
+        "HTTP utility methods",
+        "High performance",
+        "Extensible"
+      ],
+      "website": "https://expressjs.com/"
+    },
+    {
+      "name": "Django",
+      "license": "Open Source (BSD)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Object-Relational Mapper (ORM)",
+        "URL routing",
+        "Template engine",
+        "Authentication system",
+        "Admin interface"
+      ],
+      "website": "https://www.djangoproject.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Express.js",
+    "Django"
+  ],
+  "marketPositioning": "Axum is positioned as an ergonomic and modular web framework within the Rust ecosystem. Its key differentiator is its deep integration with the Tokio and Tower ecosystems, leveraging existing and widely-used middleware and utilities via the `tower::Service` trait. This contrasts with some other Rust frameworks that might have their own middleware systems. Axum emphasizes a macro-free routing API and declarative request parsing, aiming for a user-friendly development experience while providing the performance and safety benefits of Rust. It competes directly with other popular Rust web frameworks like Actix Web and Rocket, primarily by offering a distinct approach to middleware and ecosystem integration.",
+  "expandedDescription": "Axum is an ergonomic and modular web application framework written in Rust, developed by the Tokio team. It is built upon and deeply integrates with the Tokio asynchronous runtime, the Hyper HTTP library, and the Tower library for services and middleware. A core philosophy of axum is to utilize the `tower::Service` trait for middleware, allowing seamless integration with the rich ecosystem of existing Tower and tower-http middleware, providing functionalities like timeouts, tracing, compression, and authorization out-of-the-box. Axum offers a macro-free API for defining routes and handlers, promotes declarative parsing of requests using extractors, and aims for a simple, predictable error handling model. It is designed to enable developers to build performant, reliable, and maintainable web applications and services in Rust by embracing and extending the established Tokio/Tower ecosystem."
+}

@@ -1,0 +1,141 @@
+{
+  "projectName": "mullvadvpn-app",
+  "projectPurpose": "To provide official, open-source client applications for the Mullvad VPN service across various desktop and mobile operating systems, enabling users to securely connect to the Mullvad VPN network for enhanced online privacy and security.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android",
+    "iOS"
+  ],
+  "mainFeatures": [
+    "Connects to Mullvad VPN service",
+    "Multi-Protocol Support (WireGuard, OpenVPN)",
+    "Integrated Kill Switch",
+    "Cross-Platform User Interface",
+    "Split Tunneling",
+    "Custom DNS server",
+    "Multihop",
+    "Anonymous account creation support",
+    "No logging policy support",
+    "Anonymous payment methods support (cash, crypto)"
+  ],
+  "website": "https://github.com/mullvad/mullvadvpn-app",
+  "alternatives": [
+    {
+      "name": "NordVPN",
+      "license": "Proprietary (Linux client GPLv3)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Android TV",
+        "tvOS",
+        "ChromeOS",
+        "Routers"
+      ],
+      "mainFeatures": [
+        "Large server network",
+        "NordLynx protocol (WireGuard-based)",
+        "Threat Protection",
+        "Meshnet",
+        "Kill Switch"
+      ],
+      "website": "https://nordvpn.com/"
+    },
+    {
+      "name": "ExpressVPN",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Routers",
+        "Apple TV",
+        "Android TV",
+        "Fire TV"
+      ],
+      "mainFeatures": [
+        "High speed connections",
+        "Large server network (105 countries)",
+        "Lightway protocol",
+        "Kill Switch",
+        "Split Tunneling"
+      ],
+      "website": "https://www.expressvpn.com/"
+    },
+    {
+      "name": "Proton VPN",
+      "license": "Proprietary (Open-source apps)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Android TV",
+        "ChromeOS"
+      ],
+      "mainFeatures": [
+        "Strong privacy focus (Switzerland)",
+        "Secure Core (multi-hop)",
+        "NetShield (ad/malware blocker)",
+        "Kill Switch",
+        "Free tier available"
+      ],
+      "website": "https://protonvpn.com/"
+    },
+    {
+      "name": "WireGuard",
+      "license": "Free and Open Source (various)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Android",
+        "iOS",
+        "FreeBSD",
+        "NetBSD",
+        "OpenBSD"
+      ],
+      "mainFeatures": [
+        "Simple and efficient protocol",
+        "Modern cryptography",
+        "Small codebase",
+        "Fast performance",
+        "Native kernel integration on Linux"
+      ],
+      "website": "https://www.wireguard.com/"
+    },
+    {
+      "name": "OpenVPN",
+      "license": "Open Source - GPLv2 (Community Edition), Proprietary (Access Server)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "*BSD",
+        "Routers"
+      ],
+      "mainFeatures": [
+        "Highly configurable",
+        "Supports various authentication methods",
+        "Uses OpenSSL for encryption",
+        "Mature and widely adopted protocol",
+        "Client and server implementations"
+      ],
+      "website": "https://openvpn.net/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "NordVPN",
+    "ExpressVPN"
+  ],
+  "marketPositioning": "Mullvad VPN Client App is positioned as a highly privacy-focused and transparent VPN client. Its open-source nature and support for anonymous account creation and payments distinguish it from many commercial VPNs that require personal information. While offering standard features like WireGuard and OpenVPN support, kill switch, and split tunneling, its emphasis is strongly on user anonymity and audited security rather than maximizing server count or unblocking streaming services (though it may work for some). It appeals to users who prioritize a high degree of privacy, transparency through open-source code, and alternative payment methods for enhanced anonymity."
+}

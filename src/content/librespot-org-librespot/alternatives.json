@@ -1,0 +1,116 @@
+{
+  "projectName": "librespot",
+  "projectPurpose": "To provide an open-source library for developers to build applications and devices that interact with the Spotify service, enabling music playback control, audio streaming, and Spotify Connect functionality, serving as a replacement for the deprecated official libspotify.",
+  "platforms": [
+    "Cross-platform (library, usable on various OS where Rust and necessary audio backends are supported)"
+  ],
+  "mainFeatures": [
+    "Open Source Spotify client library",
+    "Control and play music via various audio backends (ALSA, PulseAudio, etc.)",
+    "Act as a Spotify Connect receiver",
+    "Alternative to deprecated libspotify",
+    "Supports Spotify Premium accounts"
+  ],
+  "website": "https://github.com/librespot-org/librespot",
+  "alternatives": [
+    {
+      "name": "Spotify Official Client",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web",
+        "Various smart devices"
+      ],
+      "mainFeatures": [
+        "Music streaming and discovery",
+        "Playlist and library management",
+        "Offline playback (Premium)",
+        "Social features",
+        "Spotify Connect sender and receiver"
+      ],
+      "website": "https://www.spotify.com/"
+    },
+    {
+      "name": "Spotify Web Playback SDK",
+      "license": "Proprietary (used with Spotify Developer terms)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Add Spotify playback to web applications",
+        "Control playback state",
+        "Receive playback updates",
+        "Requires Spotify Premium"
+      ],
+      "website": "https://developer.spotify.com/documentation/web-playback-sdk/"
+    },
+    {
+      "name": "Spotifyd",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Headless Spotify client (daemon)",
+        "Supports Spotify Connect protocol",
+        "Low resource usage",
+        "Ideal for servers and embedded systems"
+      ],
+      "website": "https://github.com/Spotifyd/spotifyd"
+    },
+    {
+      "name": "Mopidy",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Extensible music server",
+        "Supports multiple backends (including Spotify via plugin)",
+        "Various frontend options (web, CLI, MPD clients)",
+        "Plays music from various sources"
+      ],
+      "website": "https://mopidy.com/"
+    },
+    {
+      "name": "ncspot",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Linux, macOS, etc.)"
+      ],
+      "mainFeatures": [
+        "Ncurses-based user interface",
+        "Spotify playback and control",
+        "Playlist management",
+        "Search functionality"
+      ],
+      "website": "https://github.com/hrkfdn/ncspot"
+    },
+    {
+      "name": "Deezer API",
+      "license": "Proprietary (used with Deezer Developer terms)",
+      "platforms": [
+        "Web (API)"
+      ],
+      "mainFeatures": [
+        "Access to Deezer music catalog",
+        "Search for tracks, albums, artists",
+        "User data and playlist management",
+        "Stream audio content"
+      ],
+      "website": "https://developers.deezer.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Spotify Official Client"
+  ],
+  "marketPositioning": "librespot is positioned as a low-level, open-source client library for developers to build custom Spotify integrations. It directly addresses the need for a programmatic way to interact with Spotify's service, especially for creating Spotify Connect enabled devices and applications on platforms not fully supported by official means. Unlike end-user clients or high-level SDKs, librespot provides the core functionality to stream and control Spotify playback, making it a foundational component for embedded audio projects, alternative clients, and multi-room audio solutions, relying on reverse-engineered protocol details and requiring a Spotify Premium account."
+}

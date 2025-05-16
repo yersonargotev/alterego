@@ -1,0 +1,123 @@
+{
+  "projectName": "sqlsync",
+  "projectPurpose": "To provide a robust and easy-to-use open-source solution for building collaborative, offline-first web applications by synchronizing SQLite databases across users, devices, and the edge.",
+  "platforms": [
+    "Web",
+    "Edge"
+  ],
+  "mainFeatures": [
+    "Collaborative offline-first wrapper around SQLite",
+    "Synchronizes web application state between users, devices, and the edge",
+    "Eventually consistent SQLite",
+    "Optimistic reads and writes",
+    "Real-time collaboration",
+    "Offline-first",
+    "Cross-tab sync",
+    "React library"
+  ],
+  "website": "https://sqlsync.dev",
+  "alternatives": [
+    {
+      "name": "ElectricSQL",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Syncs Postgres data to local SQLite",
+        "Real-time sync",
+        "Offline-first",
+        "Optimistic updates",
+        "Supports CRDTs"
+      ],
+      "website": "https://electric-sql.com/"
+    },
+    {
+      "name": "PowerSync",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Syncs data to local SQLite",
+        "Offline-first",
+        "Real-time updates",
+        "Handles conflicts",
+        "Integrates with various backends"
+      ],
+      "website": "https://www.powersync.com/"
+    },
+    {
+      "name": "Realm (by MongoDB)",
+      "license": "Apache 2.0 (Realm DB), SSPL (MongoDB Atlas)",
+      "platforms": [
+        "Mobile",
+        "Web",
+        "Desktop"
+      ],
+      "mainFeatures": [
+        "Embedded object database",
+        "Real-time sync",
+        "Offline-first",
+        "Automatic conflict resolution",
+        "Integrates with MongoDB Atlas"
+      ],
+      "website": "https://www.mongodb.com/products/realm"
+    },
+    {
+      "name": "Couchbase Lite",
+      "license": "Partly proprietary, partly open-source (BSL 1.1)",
+      "platforms": [
+        "Mobile",
+        "Desktop",
+        "Embedded"
+      ],
+      "mainFeatures": [
+        "Embedded NoSQL database",
+        "Peer-to-peer and central sync",
+        "Offline-first",
+        "Handles conflicts"
+      ],
+      "website": "https://www.couchbase.com/products/couchbase-lite"
+    },
+    {
+      "name": "PouchDB/CouchDB",
+      "license": "Open Source - Apache License",
+      "platforms": [
+        "Web",
+        "Server"
+      ],
+      "mainFeatures": [
+        "Offline-first (PouchDB)",
+        "Master-master replication (CouchDB)",
+        "Handles conflicts",
+        "Document database"
+      ],
+      "website": "https://pouchdb.com/"
+    },
+    {
+      "name": "Firebase Realtime Database / Cloud Firestore",
+      "license": "Proprietary (Freemium model)",
+      "platforms": [
+        "Web",
+        "Mobile",
+        "Server"
+      ],
+      "mainFeatures": [
+        "Real-time data synchronization",
+        "Offline support (Firestore)",
+        "Scalable NoSQL cloud database",
+        "Managed backend"
+      ],
+      "website": "https://firebase.google.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Firebase",
+    "Realm",
+    "Couchbase Lite"
+  ],
+  "marketPositioning": "SQLSync is positioned as an open-source, developer-centric solution for building collaborative, offline-first web and edge applications that leverage the familiarity and ubiquity of SQLite. It differentiates itself by providing a robust, eventually consistent synchronization engine inspired by Git and distributed systems, specifically tailored for synchronizing SQLite databases across diverse environments. While other tools offer offline-first and synchronization capabilities (e.g., Firebase, Realm, Couchbase Lite), SQLSync's unique selling proposition lies in its open-source nature, its deep integration with SQLite, and its novel approach to synchronization, making it a compelling choice for developers seeking fine-grained control and a performant, collaborative data layer built around a well-established database engine."
+}

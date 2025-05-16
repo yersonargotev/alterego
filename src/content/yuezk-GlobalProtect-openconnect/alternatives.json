@@ -1,0 +1,135 @@
+{
+  "projectName": "GlobalProtect-openconnect",
+  "projectPurpose": "To provide a functional and feature-rich VPN client for Linux users to connect to Palo Alto Networks GlobalProtect VPNs, offering an alternative to the official Linux client with enhanced support for modern authentication methods like SSO and MFA.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Connects to GlobalProtect VPNs",
+    "Supports SSO with MFA, Yubikey, and client certificates",
+    "Based on OpenConnect and Tauri (GUI)",
+    "Available as a free CLI version and a paid GUI version",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/yuezk/GlobalProtect-openconnect",
+  "alternatives": [
+    {
+      "name": "GlobalProtect App for Linux (Official)",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux (RHEL, CentOS, Ubuntu)"
+      ],
+      "mainFeatures": [
+        "Connects to GlobalProtect portals",
+        "Provides secure access to corporate networks",
+        "Supports various authentication methods",
+        "Available in CLI and GUI versions"
+      ],
+      "website": "Typically provided by IT department or Palo Alto Networks support portal"
+    },
+    {
+      "name": "OpenConnect",
+      "license": "Open Source - LGPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "VPN client for GlobalProtect, AnyConnect, FortiGate, etc.",
+        "Command-line interface",
+        "Supports various authentication methods"
+      ],
+      "website": "https://www.infradead.org/openconnect/"
+    },
+    {
+      "name": "OpenVPN",
+      "license": "Open Source - GPL / Commercial",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Routers"
+      ],
+      "mainFeatures": [
+        "Uses custom SSL/TLS-based protocol",
+        "Supports various authentication methods",
+        "Widely used for site-to-site and client-server VPNs"
+      ],
+      "website": "https://openvpn.net/"
+    },
+    {
+      "name": "strongSwan",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "FreeBSD",
+        "macOS",
+        "Windows (Limited)"
+      ],
+      "mainFeatures": [
+        "Implements IKEv2 and IKEv1 protocols",
+        "Supports IPsec VPNs",
+        "Flexible configuration options"
+      ],
+      "website": "https://www.strongswan.org/"
+    },
+    {
+      "name": "Cisco Secure Client (AnyConnect)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Secure enterprise access",
+        "Supports VPN and other security modules",
+        "Widely used in corporate environments"
+      ],
+      "website": "https://www.cisco.com/c/en/us/products/security/secure-client.html"
+    },
+    {
+      "name": "FortiClient",
+      "license": "Proprietary (Free VPN-only client available)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Endpoint security suite",
+        "Includes SSL-VPN and IPsec VPN",
+        "Integrates with Fortinet security fabric"
+      ],
+      "website": "https://www.fortinet.com/products/endpoint-security/forticlient"
+    },
+    {
+      "name": "Pritunl Client",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Open source OpenVPN and WireGuard client",
+        "User-friendly GUI",
+        "Integrates with Pritunl server"
+      ],
+      "website": "https://pritunl.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OpenVPN",
+    "Cisco Secure Client (AnyConnect)",
+    "GlobalProtect App (Official)"
+  ],
+  "marketPositioning": "GlobalProtect-openconnect is positioned as a vital third-party, open-source GlobalProtect VPN client specifically for the Linux ecosystem. It addresses the need for a reliable and feature-rich client on Linux distributions where the official Palo Alto Networks client may be difficult to obtain, unsupported, or lack specific features like robust SSO/MFA support. By building upon OpenConnect and offering a modern GUI with Tauri (in its paid version), it provides a user-friendly experience that complements or replaces the command-line OpenConnect and offers broader compatibility and authentication features than potentially outdated official Linux clients."
+}

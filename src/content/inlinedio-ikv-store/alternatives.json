@@ -1,0 +1,83 @@
+{
+  "projectName": "ikv-store",
+  "projectPurpose": "To provide a very high-performance, cost-effective, and easy-to-scale embedded key-value store specifically optimized for Machine Learning inference workloads.",
+  "platforms": [],
+  "mainFeatures": [
+    "High-performance key-value store",
+    "Optimized for ML inference",
+    "Embedded architecture (inlined)",
+    "Leverages existing application infrastructure for storage",
+    "Zero network latency for reads",
+    "Fast performance even on Flash/SSD",
+    "Auto-scales with application cluster",
+    "Supports querying multiple datasets and data normalization",
+    "Optimized for read performance (no data compaction like LSM trees)",
+    "Uses in-memory hashmaps referencing memory-mapped files for automatic disk spilling",
+    "Built with Rust"
+  ],
+  "website": "https://www.inlined.io/",
+  "alternatives": [
+    {
+      "name": "Redis",
+      "license": "Dual-licensed: RSALv2, SSPLv1, and AGPLv3",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "AWS",
+        "Google Cloud",
+        "Azure"
+      ],
+      "mainFeatures": [
+        "In-memory data structure store (supports various data types)",
+        "Optional durability",
+        "Low-latency reads/writes",
+        "Pub/Sub messaging",
+        "Replication and clustering"
+      ],
+      "website": "https://redis.io/"
+    },
+    {
+      "name": "Memcached",
+      "license": "Revised BSD license",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "AWS",
+        "Google Cloud"
+      ],
+      "mainFeatures": [
+        "Distributed memory caching system",
+        "Simple key-value store",
+        "High performance (in-memory)",
+        "Scalable (horizontal and vertical)",
+        "Volatile data storage (primarily cache)"
+      ],
+      "website": "https://memcached.org/"
+    },
+    {
+      "name": "RocksDB",
+      "license": "Dual licensed: Apache 2.0 and GPLv2",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "OpenBSD",
+        "Solaris",
+        "AIX"
+      ],
+      "mainFeatures": [
+        "High performance embedded persistent key-value store",
+        "Optimized for fast storage (SSD/Flash)",
+        "Log-structured merge-tree (LSM tree)",
+        "Supports transactions and snapshots",
+        "Adaptable to different workloads"
+      ],
+      "website": "http://rocksdb.org/"
+    }
+  ],
+  "mostWellKnownAlternative": "Redis",
+  "marketPositioning": "IKV-store positions itself as a highly specialized, high-performance embedded key-value store specifically for Machine Learning inference workloads. It differentiates itself from traditional network-based stores like Redis and Memcached by offering zero-latency reads through its embedded architecture and leveraging local infrastructure. While RocksDB is also embedded and persistent, IKV-store emphasizes ease of management with a fully-managed persistent data plane and read optimizations that avoid LSM tree compaction concerns. Its core value proposition is significantly faster and more cost-effective data access for ML models compared to general-purpose key-value solutions."
+}

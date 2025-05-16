@@ -1,0 +1,135 @@
+{
+  "projectName": "rust-analyzer",
+  "projectPurpose": "To provide comprehensive and intelligent code analysis and IDE features for the Rust programming language by implementing the Language Server Protocol, enabling a rich Rust development experience in various code editors.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web (via compatible editors/IDE services)"
+  ],
+  "mainFeatures": [
+    "Semantic analysis of Rust code",
+    "Implementation of Language Server Protocol (LSP)",
+    "Code completion with imports insertion",
+    "Go to definition, implementation, type definition",
+    "Find all references, workspace symbol search, symbol renaming",
+    "Types and documentation on hover",
+    "Inlay hints for types and parameter names",
+    "Semantic syntax highlighting",
+    "Numerous code actions (assists)",
+    "Apply suggestions from errors"
+  ],
+  "website": "https://rust-analyzer.github.io/",
+  "alternatives": [
+    {
+      "name": "IntelliJ Rust Plugin (for JetBrains IDEs)",
+      "license": "Proprietary (for Ultimate/CLion), Apache 2.0 (Community Edition plugin)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Deep IDE integration for Rust",
+        "Smart coding assistance (completion, navigation, refactoring)",
+        "Seamless Cargo support",
+        "Built-in test runner",
+        "Debugger, profiler (in CLion/Ultimate)"
+      ],
+      "website": "https://plugins.jetbrains.com/plugin/8182-rust"
+    },
+    {
+      "name": "Pylance",
+      "license": "Proprietary (Microsoft EULA)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast and feature-rich Python language support (primarily for VS Code)",
+        "Type checking based on Pyright",
+        "Code completion and analysis",
+        "Hover information",
+        "Signature help"
+      ],
+      "website": "https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance"
+    },
+    {
+      "name": "PyLSP (Python LSP Server)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Open-source LSP implementation for Python",
+        "Code completion (via Jedi and other providers)",
+        "Diagnostics (linters like flake8, pylint)",
+        "Code formatting (via Black, Yapf, etc.)",
+        "Go to definition and references"
+      ],
+      "website": "https://github.com/python-lsp/python-lsp-server"
+    },
+    {
+      "name": "JDT-LS (Eclipse JDT Language Server)",
+      "license": "Open Source - EPL-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Open-source LSP implementation for Java",
+        "Based on Eclipse JDT",
+        "Maven and Gradle project support",
+        "As-you-type error reporting",
+        "Code completion, navigation, and actions"
+      ],
+      "website": "https://projects.eclipse.org/projects/technology.tools.jdt-ls"
+    },
+    {
+      "name": "clangd",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Open-source LSP implementation for C/C++/Objective-C",
+        "Based on Clang compiler",
+        "Code completion, errors, and warnings",
+        "Go-to-definition and cross references",
+        "Include management and formatting"
+      ],
+      "website": "https://clangd.llvm.org/"
+    },
+    {
+      "name": "typescript-language-server",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Open-source LSP implementation for TypeScript/JavaScript",
+        "Wraps the official tsserver",
+        "Provides diagnostics and completions",
+        "Supports workspace commands",
+        "TypeScript version notification"
+      ],
+      "website": "https://github.com/typescript-language-server/typescript-language-server"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "IntelliJ Platform (e.g., IntelliJ IDEA, CLion) with dedicated language support",
+    "Pylance (for Python, in VS Code)",
+    "JDT-LS (for Java)",
+    "clangd (for C++)",
+    "typescript-language-server (for TypeScript/JavaScript)"
+  ],
+  "marketPositioning": "rust-analyzer is the leading open-source Language Server Protocol (LSP) implementation for the Rust programming language. It is positioned as the official and recommended tool to provide rich, IDE-like features such as code completion, navigation, diagnostics, and refactoring support to any compatible code editor that supports the LSP. This makes it a flexible alternative to monolithic IDEs for Rust development, catering to developers who prefer using lightweight, configurable editors while still demanding a state-of-the-art development experience."
+}

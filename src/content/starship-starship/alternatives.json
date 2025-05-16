@@ -1,0 +1,126 @@
+{
+  "projectName": "starship",
+  "projectPurpose": "To provide users with a highly customizable, fast, and informative command-line prompt that works across various shells and operating systems, replacing the default prompt with a more powerful and visually appealing one showing relevant context-aware information without sacrificing performance.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "BSD",
+    "Android (Termux)",
+    "Cross-shell (Bash, Fish, ZSH, Ion, Tcsh, Elvish, Nu, Xonsh, Cmd, PowerShell)"
+  ],
+  "mainFeatures": [
+    "Minimal and fast",
+    "Infinitely customizable",
+    "Cross-shell compatibility",
+    "Context-aware information display (Git, languages, cloud, etc.)",
+    "Easy installation and configuration",
+    "Written in Rust for performance"
+  ],
+  "website": "https://starship.rs/",
+  "alternatives": [
+    {
+      "name": "Oh My Zsh",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "BSD",
+        "Zsh"
+      ],
+      "mainFeatures": [
+        "Zsh configuration framework",
+        "Large collection of plugins (300+)",
+        "Extensive theme options (140+)",
+        "Helpers and functions",
+        "Auto-update feature"
+      ],
+      "website": "https://ohmyz.sh/"
+    },
+    {
+      "name": "Prezto",
+      "license": "Open Source",
+      "platforms": [
+        "Zsh",
+        "macOS",
+        "Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Zsh configuration framework",
+        "Sane defaults, aliases, functions",
+        "Auto-completion enhancements",
+        "Prompt themes",
+        "Modular design"
+      ],
+      "website": "https://github.com/sorin-ionescu/prezto"
+    },
+    {
+      "name": "Powerlevel10k",
+      "license": "Open Source",
+      "platforms": [
+        "Zsh"
+      ],
+      "mainFeatures": [
+        "Fast Zsh theme",
+        "Configuration wizard",
+        "Instant prompt",
+        "Powerlevel9k and Pure compatibility",
+        "Highly customizable appearance"
+      ],
+      "website": "https://github.com/romkatv/powerlevel10k"
+    },
+    {
+      "name": "Oh My Fish",
+      "license": "Open Source",
+      "platforms": [
+        "Fish shell",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fish shell configuration framework",
+        "Plugin manager for Fish",
+        "Theme manager for Fish",
+        "Community-driven",
+        "Easy installation"
+      ],
+      "website": "https://github.com/oh-my-fish/oh-my-fish"
+    },
+    {
+      "name": "Powerline",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-application (Vim, Bash, Zsh, Fish, tmux, etc.)"
+      ],
+      "mainFeatures": [
+        "Statusline and prompt generator",
+        "Written in Python",
+        "Mode-dependent highlighting",
+        "Automatic segment truncation",
+        "Extensible"
+      ],
+      "website": "https://powerline.readthedocs.io/"
+    },
+    {
+      "name": "Tide",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Fish shell"
+      ],
+      "mainFeatures": [
+        "Fast Fish prompt",
+        "Asynchronous rendering",
+        "Interactive configuration wizard",
+        "Flexible and extendable",
+        "Detailed Git status"
+      ],
+      "website": "https://github.com/IlanCosman/tide"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Oh My Zsh"
+  ],
+  "marketPositioning": "Starship is positioned as a high-performance, universal command-line prompt that works across any shell and operating system. Its key strength lies in providing a consistent, fast, and highly customizable experience as a single binary written in Rust, differentiating it from shell-specific frameworks like Oh My Zsh or Powerlevel10k (Zsh) and Oh My Fish or Tide (Fish), or Python-based cross-application tools like Powerline. It targets users who value speed, portability across different shell environments, and a rich, context-aware prompt display without the need for complex, shell-dependent configurations."
+}

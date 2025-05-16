@@ -1,0 +1,127 @@
+{
+  "projectName": "avian",
+  "projectPurpose": "To provide a native, high-performance, and modular 2D and 3D physics engine specifically designed for seamless integration with the Bevy game engine using its Entity Component System (ECS), offering an ergonomic and Bevy-idiomatic physics solution.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web (via Bevy)"
+  ],
+  "mainFeatures": [
+    "ECS-driven design, integrates natively with Bevy's Entity Component System",
+    "Supports both 2D and 3D physics",
+    "Dynamic, kinematic, and static rigid bodies",
+    "Linear and angular velocity, forces, torque, and impulses",
+    "Continuous Collision Detection (CCD)",
+    "Constraints and joints (fixed, distance, prismatic, revolute, spherical, custom)",
+    "Spatial queries (raycasts, shape casts, overlap)",
+    "Transform interpolation and extrapolation for fixed timesteps",
+    "Debug rendering",
+    "Highly modular plugin architecture",
+    "f32/f64 precision support"
+  ],
+  "website": "https://github.com/Jondolf/avian",
+  "alternatives": [
+    {
+      "name": "Rapier",
+      "license": "Open Source (Apache 2.0 or MIT)",
+      "platforms": [
+        "Cross-platform",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Fast 2D and 3D rigid body physics",
+        "Joint constraints",
+        "Collisions and intersections",
+        "Spatial queries",
+        "SIMD and parallelism support"
+      ],
+      "website": "https://rapier.rs/"
+    },
+    {
+      "name": "Box2D",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Cross-platform (via C++ and ports)",
+        "Web (via ports)",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "2D rigid body simulation",
+        "Continuous collision detection",
+        "Various shapes",
+        "Wide range of joint types",
+        "Robust Soft Step solver"
+      ],
+      "website": "https://www.box2d.org/"
+    },
+    {
+      "name": "Bullet Physics Library",
+      "license": "Open Source (Zlib License)",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "iOS",
+        "Android",
+        "Integrations into various software"
+      ],
+      "mainFeatures": [
+        "3D rigid body dynamics",
+        "Soft body dynamics (cloth, rope)",
+        "Discrete and continuous collision detection",
+        "Extensive constraint types (joints, ragdolls)",
+        "Optimized for multi-threading"
+      ],
+      "website": "https://pybullet.org/wordpress/"
+    },
+    {
+      "name": "PhysX (Nvidia)",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "PlayStation",
+        "Xbox",
+        "Wii",
+        "iOS",
+        "Android",
+        "GPU Acceleration (Windows, Linux)"
+      ],
+      "mainFeatures": [
+        "3D rigid body dynamics",
+        "Soft body dynamics (cloth, fluids, deformable objects)",
+        "Ragdolls and character controllers",
+        "GPU acceleration support",
+        "Debugging tools (PVD)"
+      ],
+      "website": "https://developer.nvidia.com/physx-sdk"
+    },
+    {
+      "name": "Havok Physics",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Consoles",
+        "Mobile",
+        "Integrated into Unity, Unreal Engine"
+      ],
+      "mainFeatures": [
+        "High-performance 3D rigid body simulation",
+        "Advanced collision detection",
+        "Stable stacking and welding",
+        "Wide range of constraints and joints",
+        "Deep profiling and debugging tools"
+      ],
+      "website": "https://www.havok.com/physics/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "PhysX",
+    "Havok Physics"
+  ],
+  "marketPositioning": "Avian is uniquely positioned as a native, ECS-driven 2D/3D physics engine built specifically for the Bevy game engine. While general-purpose physics engines like Rapier, Box2D, Bullet, PhysX, and Havok exist and are widely used across the industry, Avian's core strength lies in its deep integration with Bevy's architecture, aiming to provide a more ergonomic, performant, and idiomatic physics solution for Bevy developers compared to using wrappers around external libraries. It competes directly within the Bevy ecosystem by offering a comprehensive feature set tailored to the engine's data-driven design."
+}

@@ -1,0 +1,133 @@
+{
+  "projectName": "sig",
+  "projectPurpose": "To provide an interactive command-line utility for searching and filtering text data, with a specific focus on handling and interacting with streaming data in real-time.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Interactive search interface",
+    "Real-time processing and updating of results from streaming data",
+    "Ability to re-execute a command for processing",
+    "Archived mode for searching recent streaming data history",
+    "Support for searching static files"
+  ],
+  "website": "https://github.com/ynqa/sig",
+  "alternatives": [
+    {
+      "name": "GNU Grep",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Basic pattern matching using regular expressions",
+        "Search within files and standard input",
+        "Recursive directory searching",
+        "Count matching lines",
+        "Print line numbers"
+      ],
+      "website": "https://www.gnu.org/software/grep/"
+    },
+    {
+      "name": "Ripgrep (rg)",
+      "license": "Open Source (MIT/UNLICENSE)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast recursive search using regex",
+        "Respects .gitignore rules",
+        "Optimized for searching code",
+        "Highlights matches",
+        "Can output results in JSON format"
+      ],
+      "website": "https://github.com/BurntSushi/ripgrep"
+    },
+    {
+      "name": "Ack",
+      "license": "Open Source (Artistic License)",
+      "platforms": [
+        "Cross-platform (requires Perl)"
+      ],
+      "mainFeatures": [
+        "Optimized for searching source code",
+        "Automatically excludes certain file types and directories",
+        "Uses Perl's powerful regular expressions",
+        "Customizable search profiles",
+        "Syntax highlighting in results"
+      ],
+      "website": "https://beyondgrep.com/"
+    },
+    {
+      "name": "Logdy",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Web-based interactive log viewer",
+        "Real-time log streaming",
+        "Tail and grep-like functionality via web UI",
+        "Single binary, no installation required",
+        "Can stream logs from files or process outputs"
+      ],
+      "website": "https://logdy.dev/"
+    },
+    {
+      "name": "Peco",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "General-purpose interactive filtering tool",
+        "Fuzzy matching capabilities",
+        "Integrates with pipes for filtering command output",
+        "Customizable key bindings and themes",
+        "Can be used for filtering various types of lists"
+      ],
+      "website": "https://github.com/peco/peco"
+    },
+    {
+      "name": "GoAccess",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "*nix systems"
+      ],
+      "mainFeatures": [
+        "Real-time web log analysis",
+        "Interactive terminal user interface",
+        "Generates comprehensive HTML reports",
+        "Supports numerous web log formats",
+        "Minimal dependencies"
+      ],
+      "website": "https://goaccess.io/"
+    },
+    {
+      "name": "SolarWinds Loggly",
+      "license": "Proprietary (Commercial)",
+      "platforms": [
+        "Web (SaaS)"
+      ],
+      "mainFeatures": [
+        "Centralized cloud-based log management",
+        "Interactive log search and filtering",
+        "Automated log parsing and structuring",
+        "Real-time alerting and monitoring",
+        "Dashboards and data visualization"
+      ],
+      "website": "https://www.solarwinds.com/cloud-management/loggly"
+    }
+  ],
+  "mostWellKnownAlternative": "GNU Grep",
+  "marketPositioning": "sig is positioned as an interactive command-line grep alternative specifically tailored for handling and searching streaming data in real-time. Unlike traditional grep, which primarily processes static files or finite streams once, sig offers a dynamic interface that allows users to refine searches on live data feeds and provides an archived mode to review recent history. This focus on interactivity with streams differentiates it from faster file searchers like ripgrep and more comprehensive, often GUI-based, log analysis platforms. It aims to provide a lightweight, command-line native solution for a common challenge in development and operations: monitoring and filtering continuous text outputs."
+}

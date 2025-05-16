@@ -1,0 +1,120 @@
+{
+  "projectName": "fuelup",
+  "projectPurpose": "To install, manage, and update the official Fuel blockchain development toolchain.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows (via WSL)"
+  ],
+  "mainFeatures": [
+    "Install official Fuel toolchain releases",
+    "Manage multiple Fuel toolchain versions",
+    "Switch between different toolchains",
+    "Keep toolchains updated",
+    "Simplify setup for Sway applications (forc, fuel-core)"
+  ],
+  "website": "https://github.com/FuelLabs/fuelup",
+  "alternatives": [
+    {
+      "name": "rustup",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Other Rust supported platforms"
+      ],
+      "mainFeatures": [
+        "Install official Rust release channels (stable, beta, nightly)",
+        "Switch between Rust toolchain versions",
+        "Simplify cross-compiling",
+        "Keep toolchains updated"
+      ],
+      "website": "https://rustup.rs/"
+    },
+    {
+      "name": "nvm (Node Version Manager)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows WSL",
+        "Windows (via nvm-windows)"
+      ],
+      "mainFeatures": [
+        "Install multiple Node.js versions",
+        "Switch between Node.js versions",
+        "Set default Node.js version",
+        "Supports project-specific .nvmrc files"
+      ],
+      "website": "https://github.com/nvm-sh/nvm"
+    },
+    {
+      "name": "SDKMAN!",
+      "license": "Open Source - Apache License V2.0",
+      "platforms": [
+        "Unix-based systems (macOS, Linux, Cygwin, Solaris, FreeBSD)",
+        "Windows WSL"
+      ],
+      "mainFeatures": [
+        "Manage multiple versions of JVM SDKs (Java, Groovy, Scala, Kotlin)",
+        "Manage other JVM-related tools (Gradle, Maven)",
+        "Install, switch, remove, and list candidates",
+        "Command-line interface"
+      ],
+      "website": "https://sdkman.io/"
+    },
+    {
+      "name": "asdf",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows (via WSL)"
+      ],
+      "mainFeatures": [
+        "General purpose toolchain manager",
+        "Plugin system for multiple languages and tools",
+        "Consistent commands across tools",
+        "Supports project-specific .tool-versions files"
+      ],
+      "website": "https://github.com/asdf-vm/asdf"
+    },
+    {
+      "name": "foreman",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Toolchain manager for Roblox development tools",
+        "Inspired by rustup and asdf",
+        "Uses foreman.toml for project configuration",
+        "Installs binaries from GitHub/GitLab releases"
+      ],
+      "website": "https://github.com/Roblox/foreman"
+    },
+    {
+      "name": "zigup",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Download and manage Zig compilers",
+        "Install and upgrade Zig versions",
+        "Can include ZLS (Zig Language Server) installation"
+      ],
+      "website": "https://github.com/marler8997/zigup"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "nvm",
+    "rustup"
+  ],
+  "marketPositioning": "fuelup is positioned as the essential, official toolchain installer and manager specifically for the Fuel blockchain development ecosystem. Unlike general-purpose version managers or those focused on mainstream languages, fuelup provides a tailored experience for Fuel developers, simplifying the installation and management of critical Fuel components like forc and fuel-core. Its inspiration from rustup suggests a focus on providing a robust and reliable developer experience within its specific niche, making it a foundational tool for building on Fuel."
+}

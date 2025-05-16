@@ -1,0 +1,99 @@
+{
+  "projectName": "kuasar",
+  "projectPurpose": "To provide a flexible, efficient, and secure low-level container runtime that can utilize various isolation technologies (sandboxes) to meet diverse cloud-native workload requirements on a single node, offering improved performance and resource efficiency.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Multi-sandbox support (MicroVM, App Kernel, Wasm)",
+    "Cloud-native, all-scenario container solutions",
+    "Standard sandbox abstraction based on Sandbox API",
+    "Optimized framework for accelerated container startup and reduced overhead",
+    "Multi-Sandbox Colocation on a single node",
+    "1:N process management model for better performance",
+    "Integration with high-level container runtimes (containerd, CRI-O, Docker, iSulad)",
+    "Written in Rust for safety and performance"
+  ],
+  "website": "https://github.com/kuasar-io/kuasar",
+  "alternatives": [
+    {
+      "name": "Kata Containers",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux (x86_64, aarch64, ppc64le, s390x)"
+      ],
+      "mainFeatures": [
+        "Secure container runtime using lightweight VMs",
+        "Stronger workload isolation with hardware virtualization",
+        "Compatible with OCI and Kubernetes CRI",
+        "Supports multiple hypervisors",
+        "Integrates with containerd"
+      ],
+      "website": "https://katacontainers.io/"
+    },
+    {
+      "name": "gVisor",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Lightweight user-space kernel sandbox",
+        "Provides isolation by intercepting system calls",
+        "Integrates with Docker and Kubernetes",
+        "Written in Go for memory safety",
+        "Reduces the attack surface"
+      ],
+      "website": "https://gvisor.dev/"
+    },
+    {
+      "name": "containerd",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Industry-standard container runtime",
+        "Manages complete container lifecycle",
+        "Implements Kubernetes CRI",
+        "Designed to be embedded"
+      ],
+      "website": "https://containerd.io/"
+    },
+    {
+      "name": "CRI-O",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Lightweight container engine for Kubernetes",
+        "Implements Kubernetes CRI using OCI runtimes",
+        "Supports OCI container images",
+        "Optimized for Kubernetes"
+      ],
+      "website": "https://cri-o.github.io/"
+    },
+    {
+      "name": "Firecracker",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux (x86_64, AMD64, Arm64)"
+      ],
+      "mainFeatures": [
+        "VMM for secure, multi-tenant services",
+        "Runs workloads in lightweight microVMs",
+        "Minimalist design for reduced attack surface",
+        "Fast startup times",
+        "Used by AWS Lambda and Fargate"
+      ],
+      "website": "https://firecracker-microvm.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "containerd"
+  ],
+  "marketPositioning": "Kuasar positions itself as a unified and optimized multi-sandbox container runtime in the cloud-native ecosystem. Unlike alternatives focusing on a single isolation technology (like Kata Containers or gVisor), Kuasar natively supports and enables the colocation of multiple sandbox types (MicroVM, App Kernel, Wasm) on a single node. This provides unique flexibility to balance security and performance needs for diverse workloads within the same environment. Its architecture, built on the Sandbox API and featuring an optimized framework, aims for better performance and resource efficiency compared to traditional container runtimes that might layer sandboxing on top. Kuasar targets environments requiring fine-grained isolation choices and optimized resource utilization for varied containerized and sandboxed applications.",
+  "expandedDescription": "Kuasar is an efficient, open-source, multi-sandbox container runtime written in Rust, designed to provide cloud-native, all-scenario container solutions. It achieves this by supporting and unifying multiple sandbox techniques, including MicroVMs, App Kernels, and WebAssembly (Wasm), allowing these diverse isolation technologies to run colocated on a single node. Built upon the Sandbox API, Kuasar offers a standard abstraction and unified management approach for various sandboxes. It features an optimized framework that accelerates container startup and reduces unnecessary overhead, partly through innovations like removing pause containers and adopting a 1:N process management model, leading to improved performance and resource efficiency. Kuasar is designed to integrate seamlessly with high-level container management tools such as containerd, CRI-O, Docker, and iSulad, enabling users to select the most appropriate sandbox based on application requirements for security, speed, and standardization."
+}

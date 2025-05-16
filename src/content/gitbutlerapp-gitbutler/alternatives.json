@@ -1,0 +1,107 @@
+{
+  "projectName": "gitbutler",
+  "projectPurpose": "To provide a graphical user interface (GUI) Git client that simplifies and enhances the developer's workflow, particularly around managing multiple tasks and branches concurrently, and making complex Git operations more intuitive, aiming to offer a new way of thinking about managing code.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Virtual Branches (working on multiple branches/tasks simultaneously)",
+    "Easy Commit Management (Undo, Amend, Squash via drag-and-drop)",
+    "Undo Timeline (revert any operation)",
+    "GitHub Integration (Pull Request management)",
+    "AI Tooling (commit messages, branch names)",
+    "Cross-platform compatibility"
+  ],
+  "website": "https://github.com/gitbutlerapp/gitbutler",
+  "alternatives": [
+    {
+      "name": "Sourcetree",
+      "license": "Proprietary (Free)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Visual branching and merging",
+        "Powerful search",
+        "Comprehensive history",
+        "Git and Mercurial support",
+        "Atlassian integration"
+      ],
+      "website": "https://www.sourcetreeapp.com/"
+    },
+    {
+      "name": "GitKraken Desktop",
+      "license": "Proprietary (Free for non-commercial/public repos, paid for commercial)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Intuitive UI and visual graph",
+        "Built-in merge tool",
+        "Integrations (GitHub, GitLab, Bitbucket, Azure DevOps)",
+        "Drag-and-drop functionality",
+        "AI features"
+      ],
+      "website": "https://www.gitkraken.com/gitkraken-client"
+    },
+    {
+      "name": "GitHub Desktop",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Simplified workflow",
+        "Strong GitHub integration",
+        "Branch management",
+        "Diff viewer"
+      ],
+      "website": "https://desktop.github.com/"
+    },
+    {
+      "name": "Tower",
+      "license": "Proprietary (Subscription)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Polished UX and visualization",
+        "Powerful search",
+        "Integrated hosting service support",
+        "Undo feature",
+        "Conflict wizard"
+      ],
+      "website": "https://www.git-tower.com/"
+    },
+    {
+      "name": "SmartGit",
+      "license": "Proprietary (Free for non-commercial, paid for commercial)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Graphical history and merging",
+        "Drag-and-drop operations",
+        "Git-Flow support",
+        "Built-in tools (SSH, compare, merge)",
+        "Integrations (GitHub, Bitbucket, GitLab, Azure DevOps)"
+      ],
+      "website": "https://www.syntevo.com/smartgit/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GitKraken Desktop",
+    "Sourcetree",
+    "GitHub Desktop"
+  ],
+  "marketPositioning": "GitButler positions itself as a next-generation Git client that goes beyond traditional GUIs by fundamentally changing the workflow, focusing on managing multiple tasks concurrently using \"Virtual Branches\" and providing a robust \"Undo Timeline\". It aims to simplify complex Git operations and reduce context switching, appealing to developers who find traditional Git workflows cumbersome. Its inclusion of AI features further positions it as a modern, intelligent tool for source code management."
+}

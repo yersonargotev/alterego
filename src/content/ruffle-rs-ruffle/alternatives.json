@@ -1,0 +1,100 @@
+{
+  "projectName": "ruffle",
+  "projectPurpose": "To emulate Adobe Flash Player and provide a modern, safe way to play legacy Flash content (SWF files) in web browsers and on the desktop, preserving internet history.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web",
+    "Android (via third-party apps using Ruffle)"
+  ],
+  "mainFeatures": [
+    "Flash Player emulation (SWF playback)",
+    "Runs in modern web browsers via WebAssembly",
+    "Standalone desktop application",
+    "Written in Rust for memory safety and security",
+    "Aims for broad compatibility with ActionScript and visual content"
+  ],
+  "website": "https://ruffle.rs/",
+  "alternatives": [
+    {
+      "name": "BlueMaxima's Flashpoint",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux (Experimental)"
+      ],
+      "mainFeatures": [
+        "Massive curated archive of web games and animations",
+        "Offline playback via custom launcher",
+        "Supports multiple web technologies (including Flash)",
+        "Designed for content preservation"
+      ],
+      "website": "https://bluemaxima.org/flashpoint/"
+    },
+    {
+      "name": "Lightspark",
+      "license": "Open Source (LGPLv3)",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Browser Extension"
+      ],
+      "mainFeatures": [
+        "Open-source Flash player and browser plugin",
+        "Supports H.264 Flash videos",
+        "Emulates ActionScript and graphical content",
+        "Written in C/C++"
+      ],
+      "website": "https://github.com/lightspark/lightspark"
+    },
+    {
+      "name": "Gnash",
+      "license": "Open Source (GPLv3)",
+      "platforms": [
+        "Linux",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Plays SWF movies",
+        "Supports AVM1 and partial AVM2 ActionScript",
+        "Standalone player and browser plugin",
+        "Part of the GNU project"
+      ],
+      "website": "https://www.gnu.org/software/gnash/"
+    },
+    {
+      "name": "SWF File Player",
+      "license": "Freeware",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Simple standalone player for SWF files",
+        "Opens downloaded SWF files locally",
+        "Lightweight and easy to use",
+        "Reads file meta tags"
+      ],
+      "website": "https://swf-file-player.en.softonic.com/"
+    },
+    {
+      "name": "FlashArch",
+      "license": "Free (App)",
+      "platforms": [
+        "Android"
+      ],
+      "mainFeatures": [
+        "Flash emulator for Android",
+        "Runs local SWF files",
+        "Browse and play from a large archive of Flash content",
+        "Customizable player"
+      ],
+      "website": "https://play.google.com/store/apps/details?id=com.limited.flasharch"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "BlueMaxima's Flashpoint"
+  ],
+  "marketPositioning": "Ruffle is positioned as the leading open-source, safe, and modern Flash Player emulator for the post-Flash era. Its use of Rust and WebAssembly provides strong security guarantees and broad compatibility across modern browsers and operating systems, including seamless web integration. While BlueMaxima's Flashpoint is a prominent project focused on archiving and offline playback of a vast library of web content (including Flash), Ruffle is the primary technology enabling the *emulation* of SWF content directly within current computing environments, making it the preferred choice for websites and platforms (like the Internet Archive and Newgrounds) seeking to make existing Flash content accessible again without security risks."
+}

@@ -1,0 +1,152 @@
+{
+  "projectName": "tock",
+  "projectPurpose": "To provide a secure and reliable embedded operating system specifically designed for resource-constrained microcontrollers, enabling the safe execution of multiple concurrent applications through strong software and hardware isolation.",
+  "platforms": [
+    "ARM Cortex-M",
+    "RISC-V"
+  ],
+  "mainFeatures": [
+    "Secure embedded operating system",
+    "Written in Rust for memory safety",
+    "Hardware isolation using MPUs",
+    "Dual component model (Rust capsules, MPU-isolated processes)",
+    "Supports multiple concurrent applications",
+    "Asynchronous operations",
+    "Low-power capabilities",
+    "Modular architecture"
+  ],
+  "website": "https://www.tockos.org/",
+  "alternatives": [
+    {
+      "name": "FreeRTOS",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Multiple architectures (ARM Cortex-M, RISC-V, etc.)"
+      ],
+      "mainFeatures": [
+        "Priority-based preemptive scheduling",
+        "Low-power tickless mode",
+        "Inter-task communication (queues, semaphores, mutexes)",
+        "Stack overflow detection",
+        "Extensive hardware support"
+      ],
+      "website": "https://www.freertos.org/"
+    },
+    {
+      "name": "Zephyr",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Multiple architectures (ARM, x86, RISC-V, etc.)"
+      ],
+      "mainFeatures": [
+        "Highly configurable and modular",
+        "Memory protection (MPU-based)",
+        "Native networking stack (IPv4/IPv6, BLE, Thread)",
+        "Integrated device driver model",
+        "Supports 64-bit architectures"
+      ],
+      "website": "https://www.zephyrproject.org/"
+    },
+    {
+      "name": "RIOT",
+      "license": "Open Source - LGPLv2.1",
+      "platforms": [
+        "Multiple microcontrollers (8-bit, 16-bit, 32-bit)",
+        "Native port for Linux/BSD"
+      ],
+      "mainFeatures": [
+        "Preemptive, tickless scheduler",
+        "Low memory footprint and energy-efficient",
+        "Real-time capabilities",
+        "Supports IPv6/6LoWPAN and IoT protocols",
+        "Modular architecture"
+      ],
+      "website": "https://www.riot-os.org/"
+    },
+    {
+      "name": "Mbed OS",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "ARM Cortex-M"
+      ],
+      "mainFeatures": [
+        "Designed for IoT",
+        "Built-in security (TLS, uVisor)",
+        "Various connectivity options",
+        "Device management",
+        "RTOS core"
+      ],
+      "website": "https://os.mbed.com/"
+    },
+    {
+      "name": "VxWorks",
+      "license": "Proprietary",
+      "platforms": [
+        "Intel",
+        "ARM",
+        "PowerPC",
+        "RISC-V"
+      ],
+      "mainFeatures": [
+        "High-performance RTOS",
+        "Extensive multi-core support",
+        "Safety certifiable",
+        "Advanced security features",
+        "OCI container support"
+      ],
+      "website": "https://www.windriver.com/products/vxworks"
+    },
+    {
+      "name": "QNX Neutrino",
+      "license": "Proprietary",
+      "platforms": [
+        "ARMv8-A",
+        "x86-64",
+        "Others"
+      ],
+      "mainFeatures": [
+        "Microkernel architecture",
+        "Safety certified",
+        "Comprehensive layered security",
+        "Real-time availability",
+        "Adaptive partitioning"
+      ],
+      "website": "https://www.blackberry.com/us/en/products/qnx-embedded-operating-systems"
+    },
+    {
+      "name": "Azure RTOS (Eclipse ThreadX)",
+      "license": "Open Source",
+      "platforms": [
+        "Multiple 32-bit microcontrollers"
+      ],
+      "mainFeatures": [
+        "Fast and reliable RTOS kernel",
+        "Includes middleware suite (USBX, FileX, NetX Duo)",
+        "Pre-certifications for safety standards",
+        "Designed for resource-constrained devices",
+        "Integrates with Azure IoT"
+      ],
+      "website": "https://github.com/eclipse-threadx/threadx"
+    },
+    {
+      "name": "Embedded Linux (e.g., OpenWrt, Yocto Project)",
+      "license": "Open Source (various)",
+      "platforms": [
+        "Microcontrollers and Microprocessors"
+      ],
+      "mainFeatures": [
+        "Full-featured Linux kernel",
+        "Process isolation and virtual memory",
+        "Wide hardware support",
+        "Large software ecosystem",
+        "Networking capabilities"
+      ],
+      "website": "https://www.linuxfoundation.org/projects/embedded-linux/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "FreeRTOS",
+    "Azure RTOS (Eclipse ThreadX)"
+  ],
+  "marketPositioning": "Tock is positioned as an open-source, security-focused embedded operating system for resource-constrained microcontrollers. It differentiates itself by leveraging the Rust programming language for memory safety in the kernel and drivers, combined with hardware Memory Protection Units (MPUs) for strong application isolation. This approach aims to provide a higher level of security and reliability compared to traditional C-based RTOSes, while targeting the same class of devices as FreeRTOS, Zephyr, and RIOT, and offering a potentially less complex and costly alternative to high-end commercial RTOSes like VxWorks and QNX for safety and security-critical applications on microcontrollers."
+}

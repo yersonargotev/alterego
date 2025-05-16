@@ -1,0 +1,94 @@
+{
+  "projectName": "prost",
+  "projectPurpose": "To provide an idiomatic, efficient, and compile-time focused Protocol Buffers implementation for the Rust programming language, enabling serialization and deserialization of structured data.",
+  "platforms": [
+    "Rust (cross-platform)"
+  ],
+  "mainFeatures": [
+    "Protocol Buffers implementation for Rust",
+    "Generates simple, idiomatic, and readable Rust code from proto2 and proto3 files",
+    "Leverages Rust derive attributes for serialization/deserialization",
+    "Uses bytes::{Buf, BufMut} for efficient I/O",
+    "Preserves unknown enum values during deserialization",
+    "Requires the standard protoc compiler for parsing"
+  ],
+  "website": "https://github.com/tokio-rs/prost",
+  "alternatives": [
+    {
+      "name": "rust-protobuf",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust (cross-platform)"
+      ],
+      "mainFeatures": [
+        "Protocol Buffers implementation for Rust",
+        "Supports proto2 and proto3",
+        "Provides reflection capabilities",
+        "Supports TextFormat"
+      ],
+      "website": "https://github.com/rust-lang/rust-protobuf"
+    },
+    {
+      "name": "Go Protobuf (google.golang.org/protobuf)",
+      "license": "Open Source (Redistributable License)",
+      "platforms": [
+        "Go (cross-platform)"
+      ],
+      "mainFeatures": [
+        "Official Protocol Buffers implementation for Go",
+        "Generates Go code using protoc-gen-go",
+        "Supports wire, JSON, and text formats",
+        "Provides reflection capabilities"
+      ],
+      "website": "https://pkg.go.dev/google.golang.org/protobuf"
+    },
+    {
+      "name": "protobuf.js",
+      "license": "Open Source - BSD 3-Clause License",
+      "platforms": [
+        "Node.js",
+        "Browser (JavaScript/TypeScript)"
+      ],
+      "mainFeatures": [
+        "Pure JavaScript implementation with TypeScript support",
+        "Works with .proto files without compilation step",
+        "Supports encoding and decoding",
+        "Browserify and Node.js compatible"
+      ],
+      "website": "https://github.com/protobufjs/protobuf.js"
+    },
+    {
+      "name": "protobuf-c",
+      "license": "Open Source",
+      "platforms": [
+        "C (cross-platform)"
+      ],
+      "mainFeatures": [
+        "Pure C library for encoding and decoding",
+        "Code generator plugin (protoc-gen-c)",
+        "Supports basic Protocol Buffers features"
+      ],
+      "website": "https://github.com/protobuf-c/protobuf-c"
+    },
+    {
+      "name": "gRPC",
+      "license": "Open Source (likely Apache License 2.0)",
+      "platforms": [
+        "Cross-language (Go, C++, Java, Python, Rust, etc.)"
+      ],
+      "mainFeatures": [
+        "High-performance RPC framework using HTTP/2",
+        "Uses Protocol Buffers for service definition and serialization",
+        "Supports various RPC patterns (Unary, Streaming)",
+        "Automatic code generation for multiple languages",
+        "Pluggable support for load balancing, tracing, auth"
+      ],
+      "website": "https://grpc.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Google's official Protocol Buffers implementations (C++, Java, Go)",
+    "gRPC"
+  ],
+  "marketPositioning": "PROST! is positioned as a key Protocol Buffers implementation within the Rust ecosystem. It focuses on generating idiomatic Rust code and providing efficient serialization/deserialization, making it well-suited for performance-sensitive Rust applications, particularly those in the Tokio asynchronous runtime environment. Unlike some alternatives, it intentionally omits runtime reflection, favoring a more compile-time oriented approach. While it requires the external `protoc` compiler, its strength lies in its deep integration with Rust language features and its maintainership by the prominent tokio-rs organization."
+}

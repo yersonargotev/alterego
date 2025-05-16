@@ -1,0 +1,123 @@
+{
+  "projectName": "libsignal",
+  "projectPurpose": "To provide the core cryptographic library and implementation of the Signal Protocol, along with other necessary cryptographic functions, to enable secure, end-to-end encrypted messaging and related features used in the official Signal applications and servers.",
+  "platforms": [
+    "Android",
+    "iOS",
+    "Desktop (Windows, macOS, Linux)",
+    "Server-side"
+  ],
+  "mainFeatures": [
+    "Implements the Signal Protocol (including Double Ratchet algorithm)",
+    "Provides cryptographic primitives (e.g., AES-GCM)",
+    "Includes device transfer logic",
+    "Supports attestation for SGX enclaves and server-side HSMs",
+    "Contains functionality for zero-knowledge groups",
+    "Offers platform-agnostic APIs (Java, Swift, TypeScript)"
+  ],
+  "website": "https://github.com/signalapp/libsignal",
+  "alternatives": [
+    {
+      "name": "OpenSSL",
+      "license": "Open Source (Apache-style license)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Unix-like systems",
+        "OpenVMS"
+      ],
+      "mainFeatures": [
+        "Implements SSL/TLS protocols",
+        "Provides general cryptographic functions",
+        "Key and certificate management",
+        "Supports various algorithms (AES, SHA, RSA, ECC)"
+      ],
+      "website": "https://www.openssl.org/"
+    },
+    {
+      "name": "Libsodium",
+      "license": "Open Source (ISC license)",
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Linux",
+        "macOS",
+        "JavaScript",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "Easy-to-use API",
+        "Wide range of cryptographic operations",
+        "Portable and cross-compilable",
+        "Focuses on security and usability"
+      ],
+      "website": "https://libsodium.gitbook.io/doc/"
+    },
+    {
+      "name": "Botan",
+      "license": "Open Source (Simplified BSD license)",
+      "platforms": [
+        "Cross-platform (C++ library with bindings)"
+      ],
+      "mainFeatures": [
+        "Comprehensive cryptographic algorithms and protocols (TLS, X.509)",
+        "Support for hardware security modules",
+        "Post-quantum cryptography support",
+        "Modular build system"
+      ],
+      "website": "https://botan.randombit.net/"
+    },
+    {
+      "name": "Themis",
+      "license": "Open Source (Apache 2.0 license)",
+      "platforms": [
+        "iOS",
+        "Android",
+        "Web",
+        "Server-side (various languages)"
+      ],
+      "mainFeatures": [
+        "High-level API for data protection",
+        "Secure messaging with forward secrecy",
+        "Secure data storage",
+        "Unified APIs across multiple platforms"
+      ],
+      "website": "https://www.cossacklabs.com/themis/"
+    },
+    {
+      "name": "libotr",
+      "license": "Open Source (GNU Lesser General Public License - LGPL)",
+      "platforms": [
+        "Cross-platform (C library with bindings)"
+      ],
+      "mainFeatures": [
+        "Implements the OTR protocol",
+        "Provides deniability",
+        "Offers perfect forward secrecy",
+        "Supports authentication for instant messaging"
+      ],
+      "website": "https://otr.cypherpunks.ca/"
+    },
+    {
+      "name": "Bouncy Castle",
+      "license": "Open Source (MIT for C#, custom for Java)",
+      "platforms": [
+        "Java",
+        "C#"
+      ],
+      "mainFeatures": [
+        "Widely used cryptographic APIs",
+        "FIPS-certified implementations",
+        "Supports a broad range of algorithms",
+        "Includes quantum-ready cryptography support"
+      ],
+      "website": "https://www.bouncycastle.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OpenSSL"
+  ],
+  "marketPositioning": "libsignal is positioned as the reference and authoritative implementation of the Signal Protocol, specifically designed and maintained by the Signal Foundation to power its end-to-end encrypted messaging ecosystem. Unlike general-purpose cryptographic libraries, its focus is on providing the precise set of cryptographic functions and protocol implementations required for Signal's unique privacy and security features, including the Double Ratchet algorithm, secure device linking, and zero-knowledge groups. Its primary 'market' is the Signal platform itself, and its use outside of official Signal applications is explicitly stated as unsupported, distinguishing it from libraries aiming for broader adoption across diverse applications."
+}

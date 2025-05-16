@@ -1,0 +1,138 @@
+{
+  "projectName": "bloop",
+  "projectPurpose": "To provide developers with a fast, intelligent, and user-friendly tool for searching, navigating, understanding, and interacting with their codebase, particularly by leveraging AI for natural language queries and code comprehension, combining traditional fast search with AI-driven insights.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Fast code search engine written in Rust",
+    "AI-based conversational search (natural language queries)",
+    "Code Studio (LLM playground with codebase context)",
+    "Blazing fast regex search",
+    "Sync local and GitHub repositories",
+    "Precise code navigation (go-to-definition, go-to-reference)",
+    "Privacy-focused on-device embedding for semantic search"
+  ],
+  "website": "https://bloop.ai/",
+  "alternatives": [
+    {
+      "name": "ripgrep (rg)",
+      "license": "Open Source - MIT/UNLICENSE",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Line-oriented recursive search using regex",
+        "Respects .gitignore and automatically skips hidden/binary files",
+        "Fast, written in Rust",
+        "Supports many grep features (context, multiple patterns, color)",
+        "Optional PCRE2 support for advanced regex"
+      ],
+      "website": "https://github.com/BurntSushi/ripgrep"
+    },
+    {
+      "name": "The Silver Searcher (ag)",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast code-searching tool similar to ack",
+        "Recursively searches directories",
+        "Ignores file patterns from .gitignore and .hgignore",
+        "Faster than ack",
+        "Supports smart case search and filename filtering"
+      ],
+      "website": "https://github.com/ggreer/the_silver_searcher"
+    },
+    {
+      "name": "Sourcegraph Code Search",
+      "license": "Proprietary (Free tier for public code and self-hosted for individuals)",
+      "platforms": [
+        "Web",
+        "Self-hosted"
+      ],
+      "mainFeatures": [
+        "Universal code search and navigation for large codebases",
+        "Supports literal, regex, and structural search",
+        "Code intelligence features (go-to-definition, find references)",
+        "Integrates with code hosts (GitHub, GitLab, etc.)",
+        "Can search across multiple repositories"
+      ],
+      "website": "https://about.sourcegraph.com/"
+    },
+    {
+      "name": "GitHub Code Search",
+      "license": "Proprietary (Part of GitHub platform, free for public repos)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Search, navigate, and understand code on GitHub",
+        "Fast and relevant results",
+        "Supports regex, boolean operations, powerful search operators",
+        "Integrated code view, browsing, and navigation",
+        "Instantly jump to definitions in over 10 languages"
+      ],
+      "website": "https://github.com/features/code-search"
+    },
+    {
+      "name": "GitLab Code Search",
+      "license": "Proprietary (Included in Premium/Ultimate, basic search in Free/Community)",
+      "platforms": [
+        "Web",
+        "Self-hosted"
+      ],
+      "mainFeatures": [
+        "Code search within GitLab repositories",
+        "Advanced search across projects (Premium/Ultimate)",
+        "Integrated within the GitLab platform",
+        "Supports regex search (advanced search)",
+        "Code navigation features"
+      ],
+      "website": "https://about.gitlab.com/"
+    },
+    {
+      "name": "Cody by Sourcegraph",
+      "license": "Open Source (Cody), Proprietary (Enterprise/Pro features)",
+      "platforms": [
+        "Desktop (via IDE extensions)",
+        "Web"
+      ],
+      "mainFeatures": [
+        "AI coding assistant for large codebases",
+        "Answers questions, writes code, explains code",
+        "Integrates with IDEs",
+        "Uses various AI models",
+        "On-device and remote codebase indexing"
+      ],
+      "website": "https://sourcegraph.com/cody"
+    },
+    {
+      "name": "GitHub Copilot",
+      "license": "Proprietary (Subscription-based)",
+      "platforms": [
+        "Desktop (via IDE extensions)"
+      ],
+      "mainFeatures": [
+        "AI pair programmer",
+        "Code completion and generation",
+        "Chat interface for code questions and generation",
+        "Explains code and suggests fixes",
+        "Agent mode for multi-step tasks"
+      ],
+      "website": "https://github.com/features/copilot"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GitHub Code Search",
+    "GitHub Copilot"
+  ],
+  "marketPositioning": "Bloop positions itself as a fast code search engine that uniquely integrates traditional search methods (like regex and symbol search) with advanced AI capabilities. While tools like ripgrep and ag focus purely on fast, command-line text/regex search, and platforms like GitHub and GitLab offer integrated web-based code search (some with AI features), bloop differentiates itself by being a standalone desktop application with a strong emphasis on AI-powered conversational search and code comprehension using the user's local or connected repositories. It aims to be 'ChatGPT for your code,' providing natural language interaction and code understanding directly on the developer's machine or connected repos, prioritizing privacy with on-device embedding for semantic search. Its 'Code Studio' feature also highlights its focus on using LLMs with codebase context for generative tasks. This blend of fast indexing/search and integrated AI makes it a strong contender in the evolving code search and developer productivity space, particularly for developers who want AI assistance deeply integrated with their own code outside of a web platform or specific IDE extension."
+}

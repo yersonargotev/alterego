@@ -1,0 +1,98 @@
+{
+  "projectName": "maturin",
+  "projectPurpose": "To simplify the process of building and publishing Python packages that include native code, specifically focusing on integrating Rust (via PyO3, Uniffi) and C/C++ (via CFFI) libraries and binaries into the Python ecosystem, typically generating Python wheels.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "FreeBSD"
+  ],
+  "mainFeatures": [
+    "Builds Rust crates with PyO3 bindings as Python packages",
+    "Builds packages with CFFI bindings as Python packages",
+    "Builds packages with Uniffi bindings as Python packages",
+    "Packages Rust binaries as Python packages",
+    "Handles publishing packages to repositories like PyPI",
+    "PEP 517 compliant build backend"
+  ],
+  "website": "https://github.com/PyO3/maturin",
+  "alternatives": [
+    {
+      "name": "Setuptools",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Python package)"
+      ],
+      "mainFeatures": [
+        "Builds pure Python packages",
+        "Builds C/C++ extensions",
+        "Supports entry points",
+        "Generates distribution packages (sdist, wheel)"
+      ],
+      "website": "https://setuptools.pypa.io/en/latest/index.html"
+    },
+    {
+      "name": "cibuildwheel",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "CI environments (Linux, macOS, Windows)",
+        "Builds wheels for Windows, macOS, Linux"
+      ],
+      "mainFeatures": [
+        "Cross-platform wheel building in CI",
+        "Supports various Python versions",
+        "Integrates with build backends",
+        "Automates manylinux, musllinux, delocate steps",
+        "Configurable via pyproject.toml"
+      ],
+      "website": "https://github.com/pypa/cibuildwheel"
+    },
+    {
+      "name": "scikit-build-core",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (integrates with CMake)"
+      ],
+      "mainFeatures": [
+        "Integrates CMake build system",
+        "Supports various native languages (C, C++, Fortran, Cython)",
+        "PEP 517 compliant build backend",
+        "Designed for complex native projects"
+      ],
+      "website": "https://scikit-build.github.io/scikit-build-core/"
+    },
+    {
+      "name": "meson-python",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (integrates with Meson)"
+      ],
+      "mainFeatures": [
+        "Integrates Meson build system",
+        "Supports multiple native languages (C, C++, Rust, etc. via Meson)",
+        "PEP 517 compliant build backend",
+        "Aims for speed and user-friendliness"
+      ],
+      "website": "https://github.com/mesonbuild/meson-python"
+    },
+    {
+      "name": "Poetry",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Python package)"
+      ],
+      "mainFeatures": [
+        "Dependency management and resolution",
+        "Packaging",
+        "Virtual environment management",
+        "Can use external build backends for native extensions",
+        "Publishing packages"
+      ],
+      "website": "https://python-poetry.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Setuptools"
+  ],
+  "marketPositioning": "Maturin is a specialized build and publishing tool uniquely positioned at the intersection of the Rust and Python ecosystems. Unlike general-purpose build backends or packaging tools, maturin provides a streamlined, idiomatic workflow specifically tailored for integrating Rust code (especially via PyO3, Uniffi) and also C/C++ (via CFFI) into Python packages. Its deep integration with Cargo and focus on the Rust-Python interop makes it the preferred tool for developers building Python libraries or applications with performance-critical components written in Rust. While other tools can technically achieve similar results through more manual configuration, maturin's niche focus offers significant ease of use and efficiency for Rust-centric projects, often used in conjunction with cross-platform wheel builders like cibuildwheel or higher-level managers like Poetry."
+}

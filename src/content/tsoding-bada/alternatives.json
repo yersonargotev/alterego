@@ -1,0 +1,94 @@
+{
+  "projectName": "bada",
+  "projectPurpose": "To provide a simple programming language that compiles to BEAM bytecode, allowing developers to leverage the BEAM's capabilities with a focus on simplicity.",
+  "platforms": [
+    "Cross-platform (runs on BEAM VM)"
+  ],
+  "mainFeatures": [
+    "Compiles to BEAM bytecode",
+    "Simple programming language design"
+  ],
+  "website": "https://github.com/tsoding/bada",
+  "alternatives": [
+    {
+      "name": "Erlang",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (Windows, macOS, Linux, etc.)"
+      ],
+      "mainFeatures": [
+        "Concurrency-oriented (Actor model)",
+        "Fault-tolerant",
+        "Distributed computing",
+        "Hot code swapping",
+        "Functional programming"
+      ],
+      "website": "https://www.erlang.org/"
+    },
+    {
+      "name": "Elixir",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (runs on BEAM VM)",
+        "Various cloud platforms"
+      ],
+      "mainFeatures": [
+        "Scalability and fault-tolerance (on BEAM)",
+        "Productive syntax (Ruby-inspired)",
+        "Metaprogramming with macros",
+        "Seamless Erlang interoperability",
+        "Built-in tooling (Mix, ExUnit)"
+      ],
+      "website": "https://elixir-lang.org/"
+    },
+    {
+      "name": "Gleam",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (targets BEAM and JavaScript)"
+      ],
+      "mainFeatures": [
+        "Statically typed",
+        "Functional programming",
+        "Compiles to BEAM and JavaScript",
+        "Pragmatic type system",
+        "Interoperable with Erlang/Elixir"
+      ],
+      "website": "https://gleam.run/"
+    },
+    {
+      "name": "LFE (Lisp Flavoured Erlang)",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (runs on BEAM VM)"
+      ],
+      "mainFeatures": [
+        "Lisp syntax on BEAM",
+        "Homoiconicity and macros",
+        "Seamless Erlang interoperability",
+        "Pattern matching",
+        "Interactive REPL"
+      ],
+      "website": "http://lfe.io/"
+    },
+    {
+      "name": "Alpaca",
+      "license": "Open Source - GPL-3.0 License",
+      "platforms": [
+        "Cross-platform (runs on BEAM VM)"
+      ],
+      "mainFeatures": [
+        "Statically typed",
+        "Functional programming (ML-inspired)",
+        "Strict/eager evaluation",
+        "Type inference",
+        "Targets BEAM"
+      ],
+      "website": "https://github.com/alpaca-lang/alpaca"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Elixir"
+  ],
+  "marketPositioning": "Bada is positioned as a simple, experimental programming language targeting the BEAM virtual machine. It aims to offer an easier entry point to the BEAM ecosystem compared to established languages like Erlang and Elixir, appealing to developers who value simplicity and are interested in leveraging the BEAM's concurrency and fault-tolerance features with a different language paradigm."
+}

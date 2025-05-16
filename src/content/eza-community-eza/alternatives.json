@@ -1,0 +1,97 @@
+{
+  "projectName": "eza",
+  "projectPurpose": "To provide a modern, user-friendly, and feature-rich replacement for the standard Unix/Linux `ls` command-line utility, improving readability and offering additional information through enhanced visuals and advanced features.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "BSDs"
+  ],
+  "mainFeatures": [
+    "Modern replacement for `ls`",
+    "Color-coded output for file types and metadata",
+    "Support for symlinks, extended attributes, and Git status",
+    "Small, fast, single binary",
+    "Tree view for hierarchical directory listing",
+    "Hyperlink support",
+    "Mount point details",
+    "Selinux context output",
+    "Human-readable relative dates",
+    "Configurable themes and icons"
+  ],
+  "website": "https://github.com/eza-community/eza",
+  "alternatives": [
+    {
+      "name": "ls",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Unix",
+        "Linux",
+        "macOS",
+        "BSDs"
+      ],
+      "mainFeatures": [
+        "Basic directory listing",
+        "Multiple view formats",
+        "Sorting options",
+        "Basic filtering"
+      ],
+      "website": "https://www.gnu.org/software/coreutils/"
+    },
+    {
+      "name": "exa",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSDs"
+      ],
+      "mainFeatures": [
+        "Color-coded output",
+        "Tree view",
+        "Git integration",
+        "Extended attributes support",
+        "Human-readable file sizes"
+      ],
+      "website": "https://the.exa.website/"
+    },
+    {
+      "name": "lsd",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Color themes",
+        "Icons",
+        "Tree view",
+        "Git integration",
+        "Detailed file information"
+      ],
+      "website": "https://github.com/lsd-rs/lsd"
+    },
+    {
+      "name": "colorls",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Colorized output",
+        "Icons",
+        "Tree view",
+        "Git status indicators",
+        "Detailed file information"
+      ],
+      "website": "https://github.com/athityakumar/colorls"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ls"
+  ],
+  "marketPositioning": "eza is positioned as a modern, actively maintained, and feature-rich replacement for the ubiquitous `ls` command. It differentiates itself from the standard `ls` by providing enhanced visual output (colors, icons), integrating with development workflows (Git status), offering advanced viewing modes (tree view), and presenting more detailed file information in a user-friendly format. As a maintained fork of the popular but unmaintained `exa`, it aims to be the preferred choice for users seeking an updated and actively developed alternative to the traditional file listing utility, competing in the space of 'next-generation' `ls` commands written in performant languages like Rust."
+}

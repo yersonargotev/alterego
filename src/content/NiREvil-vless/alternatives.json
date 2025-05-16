@@ -1,0 +1,62 @@
+{
+  "projectName": "vless",
+  "projectPurpose": "To provide readily available subscription links for V2Ray and compatible proxy/VPN clients, making it easier for users to configure their clients.",
+  "platforms": [],
+  "mainFeatures": [
+    "Provides subscription links for V2Ray and compatible clients (v2rayNG, Sing-Box, Hiddify, etc.)",
+    "Supports various protocols (Vless, Vmess, Trojan, Shadowsocks, ShadowsocksR)",
+    "Likely aggregates or generates configuration links from various sources"
+  ],
+  "website": "https://github.com/NiREvil/vless",
+  "alternatives": [
+    {
+      "name": "barry-far/V2ray-Configs",
+      "license": "Open Source",
+      "platforms": [],
+      "mainFeatures": [
+        "Provides free V2Ray configurations",
+        "Offers subscription links for easy import",
+        "Supports various V2Ray protocols"
+      ],
+      "website": "https://github.com/barry-far/V2ray-Configs"
+    },
+    {
+      "name": "machsix/v2ray_toolbox",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Generates V2Ray subscription links from server details",
+        "Supports specific protocols (http, websocket, kcp, http2)",
+        "Provides scripts for generating links and QR codes"
+      ],
+      "website": "https://github.com/machsix/v2ray_toolbox"
+    },
+    {
+      "name": "Commercial V2Ray/Proxy Services",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Provides access to a network of proxy servers",
+        "Offers V2Ray and other protocols",
+        "Provides subscription links or configuration files",
+        "Includes customer support and uptime guarantees (features vary)"
+      ],
+      "website": "Varies by provider"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Commercial V2Ray/Proxy Services"
+  ],
+  "marketPositioning": "vless is positioned as a source for free V2Ray and compatible client subscription links. It serves users looking for readily available, no-cost proxy configurations that can be easily imported into a wide range of client applications. It competes with other free configuration aggregators and stands apart from paid commercial services that offer higher reliability and support."
+}

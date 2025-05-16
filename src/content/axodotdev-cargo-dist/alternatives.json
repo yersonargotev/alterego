@@ -1,0 +1,135 @@
+{
+  "projectName": "cargo-dist",
+  "projectPurpose": "To simplify and automate the process of packaging and distributing Rust applications for various platforms.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Automated application packaging for Rust projects",
+    "Creates distributable binaries, tarballs, and installers",
+    "Generates machine-readable manifests of build artifacts",
+    "Assists with hosting, publishing, and announcing releases",
+    "Integrates with GitHub Releases"
+  ],
+  "website": "https://github.com/axodotdev/cargo-dist",
+  "alternatives": [
+    {
+      "name": "Inno Setup",
+      "license": "Open Source (freeware)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Script-based installer creation",
+        "Support for multiple languages",
+        "Customizable setup types",
+        "Integrated compression and encryption"
+      ],
+      "website": "https://jrsoftware.org/isinfo.php"
+    },
+    {
+      "name": "NSIS (Nullsoft Scriptable Install System)",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Script-based installer creation",
+        "Small overhead and suitable for internet distribution",
+        "Highly customizable with scripting",
+        "Extensive plugin system"
+      ],
+      "website": "https://nsis.sourceforge.io/"
+    },
+    {
+      "name": "WiX Toolset",
+      "license": "Open Source (Microsoft Reciprocal License - MS-RL, with Maintenance Fee)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "XML-based installer authoring",
+        "Creates MSI, MSM, MSP, and EXE packages",
+        "Integrates with build systems (MSBuild, command-line)",
+        "Burn bootstrapper for prerequisite handling"
+      ],
+      "website": "https://wixtoolset.org/"
+    },
+    {
+      "name": "InstallBuilder",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Solaris",
+        "FreeBSD",
+        "HP-UX",
+        "AIX",
+        "IRIX",
+        "IBM iSeries and pSeries"
+      ],
+      "mainFeatures": [
+        "Cross-platform installers from a single project file",
+        "Generates native packages (.deb, .rpm)",
+        "Automatic update functionality",
+        "GUI and command-line interfaces"
+      ],
+      "website": "https://installbuilder.com/"
+    },
+    {
+      "name": "Advanced Installer",
+      "license": "Proprietary (Free version available)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "GUI-based installer authoring",
+        "Creates MSI, MSIX, App-V packages",
+        "Supports updates and repackaging",
+        "Integrates with Visual Studio"
+      ],
+      "website": "https://www.advancedinstaller.com/"
+    },
+    {
+      "name": "cargo-wix",
+      "license": "Open Source (MIT OR Apache-2.0)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Cargo subcommand for Windows MSI creation",
+        "Uses the WiX Toolset",
+        "Generates WXS files from Cargo.toml",
+        "Supports code signing"
+      ],
+      "website": "https://github.com/volks73/cargo-wix"
+    },
+    {
+      "name": "cargo-bundle",
+      "license": "Open Source (Apache-2.0 OR MIT)",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows (experimental)",
+        "iOS (experimental)",
+        "Android (pending)"
+      ],
+      "mainFeatures": [
+        "Cargo subcommand for OS-specific bundles/installers",
+        "Configurable via Cargo.toml metadata",
+        "Supports application icons",
+        "Allows inclusion of packaging scripts"
+      ],
+      "website": "https://github.com/burtonageo/cargo-bundle"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Inno Setup (Windows, Free)",
+    "NSIS (Windows, Free)",
+    "InstallBuilder (Cross-platform, Commercial)"
+  ],
+  "marketPositioning": "cargo-dist is positioned as a specialized, opinionated, and deeply integrated build tool within the Rust ecosystem for automating the end-to-end release and distribution of compiled applications across multiple platforms. Unlike general-purpose installer tools that require platform-specific configuration, cargo-dist leverages Cargo metadata to streamline the creation of various distributable formats (tarballs, installers) and assists with the overall release workflow, aiming to be a comprehensive, batteries-included solution for Rust developers distributing their applications."
+}

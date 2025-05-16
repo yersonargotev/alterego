@@ -1,0 +1,117 @@
+{
+  "projectName": "helix",
+  "projectPurpose": "To provide a modern text editor that utilizes a modal editing paradigm, appealing to developers and power users seeking efficiency and a different approach to text manipulation compared to traditional editors.",
+  "platforms": [],
+  "mainFeatures": [
+    "Modal editing",
+    "Multiple selections",
+    "Built-in language server client",
+    "Tree-sitter integration",
+    "Minimal configuration philosophy"
+  ],
+  "website": "https://github.com/helix-editor/helix",
+  "alternatives": [
+    {
+      "name": "Vim",
+      "license": "Open Source - Vim License (GPL compatible)",
+      "platforms": [
+        "Unix",
+        "Linux",
+        "Windows",
+        "macOS",
+        "AmigaOS",
+        "OS/2",
+        "Haiku",
+        "MorphOS",
+        "OpenVMS",
+        "QNX",
+        "RISC OS",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Highly configurable",
+        "Extensive plugin system",
+        "Multiple editing modes",
+        "Powerful search and replace",
+        "Persistent, multi-level undo tree"
+      ],
+      "website": "https://www.vim.org/"
+    },
+    {
+      "name": "Neovim",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Fork of Vim with focus on extensibility",
+        "Built-in LSP client",
+        "Lua scripting support",
+        "Asynchronous I/O",
+        "Modern terminal features"
+      ],
+      "website": "https://neovim.io/"
+    },
+    {
+      "name": "Visual Studio Code",
+      "license": "Proprietary freeware",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Integrated terminal",
+        "Built-in Git integration",
+        "Debugging support",
+        "Intelligent code completion (IntelliSense)",
+        "Extensive extension ecosystem"
+      ],
+      "website": "https://code.visualstudio.com/"
+    },
+    {
+      "name": "Sublime Text",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast and lightweight",
+        "Goto Anything navigation",
+        "Multiple selections",
+        "Extensive customization via plugins",
+        "Syntax highlighting and code folding"
+      ],
+      "website": "https://www.sublimetext.com/"
+    },
+    {
+      "name": "GNU Emacs",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "BSD",
+        "macOS",
+        "Windows",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Highly customizable (Emacs Lisp)",
+        "Wide range of built-in functionalities beyond editing",
+        "Powerful package manager",
+        "Content-aware editing modes",
+        "Full Unicode support"
+      ],
+      "website": "https://www.gnu.org/software/emacs/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Visual Studio Code"
+  ],
+  "marketPositioning": "Helix positions itself as a \"post-modern modal text editor,\" directly competing with traditional modal editors like Vim and Neovim by offering a modern, opinionated take on the paradigm with built-in features and a simpler configuration philosophy. It targets users who value the efficiency of modal editing but desire a more streamlined and feature-rich out-of-the-box experience. While not directly competing with mainstream GUI editors like VS Code or Sublime Text in terms of interface or extensibility model, it offers a powerful keyboard-centric alternative for developers seeking a different workflow."
+}

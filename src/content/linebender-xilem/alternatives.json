@@ -1,0 +1,220 @@
+{
+  "projectName": "xilem",
+  "projectPurpose": "To create a high-performance, productive, and idiomatic Rust-native UI framework for building cross-platform applications, using a modern reactive architecture adapted for Rust's ownership model.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android",
+    "iOS"
+  ],
+  "mainFeatures": [
+    "Experimental reactive UI architecture inspired by Flutter, SwiftUI, and Elm",
+    "Lightweight view objects and diffing for efficient updates",
+    "Strongly typed, declarative UI",
+    "Centralized app state with mutable access via event dispatch",
+    "Incremental computation engine for precise change propagation",
+    "Innovative event dispatching via ID path and Adapt nodes for composition",
+    "High performance focus (lightweight state, parallel rendering with Vello)",
+    "Ergonomic and idiomatic Rust API",
+    "Rich 2D graphics model",
+    "Batteries-included features (text layout, IME, Accessibility, Animation, Styling)"
+  ],
+  "website": "https://github.com/linebender/xilem",
+  "alternatives": [
+    {
+      "name": "Iced",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Cross-platform GUI library for Rust",
+        "Inspired by Elm's architecture",
+        "Type-safe, reactive programming model",
+        "Simple, batteries-included API",
+        "First-class support for async actions"
+      ],
+      "website": "https://github.com/iced-rs/iced"
+    },
+    {
+      "name": "egui",
+      "license": "MIT OR Apache-2.0",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "Game engines"
+      ],
+      "mainFeatures": [
+        "Easy-to-use immediate mode GUI library",
+        "Highly portable (web, native, game engines)",
+        "Simple API for fast prototyping",
+        "Customizable styling and layouts",
+        "Minimal dependencies"
+      ],
+      "website": "https://www.egui.rs/"
+    },
+    {
+      "name": "Tauri",
+      "license": "MIT OR Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Build tiny, fast, secure desktop apps",
+        "Uses web frontend (HTML, CSS, JS) with Rust backend",
+        "Leverages system webview (WRY)",
+        "Security-focused design",
+        "Cross-platform compilation and bundling"
+      ],
+      "website": "https://tauri.app/"
+    },
+    {
+      "name": "Druid",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "OpenBSD",
+        "FreeBSD",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Simple data-oriented GUI framework for Rust",
+        "Built on druid-shell and piet",
+        "Data-driven, declarative framework",
+        "Uses a widget tree",
+        "Predecessor/related project to Xilem"
+      ],
+      "website": "https://github.com/linebender/druid"
+    },
+    {
+      "name": "Slint",
+      "license": "GPL, Royalty-Free, Commercial",
+      "platforms": [
+        "Desktops",
+        "Embedded devices",
+        "Microcontrollers"
+      ],
+      "mainFeatures": [
+        "Declarative GUI toolkit",
+        "Builds native user interfaces",
+        "Supports Rust, C++, JavaScript backends",
+        "Provides prebuilt UI components",
+        "Designed for embedded and desktop"
+      ],
+      "website": "https://slint.dev/"
+    },
+    {
+      "name": "Ribir",
+      "license": "Open Source (Likely MIT/Apache)",
+      "platforms": [
+        "Desktop",
+        "WASM"
+      ],
+      "mainFeatures": [
+        "Native multi-platform applications from a single codebase",
+        "Directly based on data structure APIs",
+        "Data mutation triggers precise UI updates",
+        "Declarative language using Rust macros",
+        "Flexible widget implementation methods"
+      ],
+      "website": "https://github.com/RibirX/Ribir"
+    },
+    {
+      "name": "GTK",
+      "license": "LGPL",
+      "platforms": [
+        "Linux",
+        "Unix-like",
+        "macOS",
+        "Windows",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Feature-rich cross-platform widget toolkit",
+        "Written in C with bindings for many languages (including Rust)",
+        "Comprehensive collection of core widgets",
+        "Native look and feel support",
+        "Widely used for Linux applications"
+      ],
+      "website": "https://www.gtk.org/"
+    },
+    {
+      "name": "Qt",
+      "license": "Commercial, GPL, LGPL",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Android",
+        "iOS",
+        "Embedded Systems",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "Cross-platform application development framework",
+        "For GUIs and non-GUI applications",
+        "Written in C++ with bindings for many languages (including Rust)",
+        "Native capabilities and speed",
+        "Offers widget toolkit and QML (declarative UI)"
+      ],
+      "website": "https://www.qt.io/"
+    },
+    {
+      "name": "Electron",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Create desktop applications using web technologies (HTML, CSS, JS)",
+        "Based on Node.js and Chromium",
+        "Cross-platform",
+        "Large ecosystem and widely adopted",
+        "Enables leveraging web development skills"
+      ],
+      "website": "https://www.electronjs.org/"
+    },
+    {
+      "name": "Flutter",
+      "license": "New BSD License",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Web",
+        "Linux",
+        "macOS",
+        "Windows",
+        "Embedded"
+      ],
+      "mainFeatures": [
+        "Open-source UI software development kit from Google",
+        "Develop from a single codebase using Dart",
+        "Renders UI itself (Skia graphics engine)",
+        "Rich widget sets (Material Design, Cupertino)",
+        "High performance (compiles to native code)"
+      ],
+      "website": "https://flutter.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Electron",
+    "Flutter",
+    "Qt"
+  ],
+  "marketPositioning": "Xilem is positioned as an experimental, high-performance, and productive Rust-native UI framework. It differentiates itself through a novel reactive architecture that synthesizes ideas from leading UI frameworks (Flutter, SwiftUI, Elm) while specifically addressing Rust's unique challenges around state management and ownership. Its focus on a fine-grained incremental computation engine, innovative event dispatch, and the use of the Vello rendering backend aim to provide both performance and an ergonomic developer experience within the Rust ecosystem. Unlike web-based solutions, it targets native performance, and compared to more established native toolkits (GTK, Qt), it offers a modern, Rust-idiomatic approach. Xilem is a project pushing the boundaries of Rust GUI development, aiming to offer a first-class native UI option for Rust developers."
+}

@@ -1,0 +1,110 @@
+{
+  "projectName": "may",
+  "projectPurpose": "To provide a stackful coroutine library for Rust, enabling a different style of concurrent programming compared to async/await.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Stackful coroutines",
+    "Enables concurrent programming with a sequential style",
+    "Alternative to async/await for certain use cases"
+  ],
+  "website": "https://github.com/Xudong-Huang/may",
+  "alternatives": [
+    {
+      "name": "Tokio",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (via WebAssembly, with caveats)"
+      ],
+      "mainFeatures": [
+        "Event-driven, non-blocking I/O",
+        "Multithreaded work-stealing scheduler",
+        "Asynchronous TCP/UDP sockets",
+        "Timers and synchronization primitives"
+      ],
+      "website": "https://tokio.rs/"
+    },
+    {
+      "name": "async-std",
+      "license": "Open Source - Apache 2.0 OR MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Async version of the Rust standard library",
+        "Intuitive API similar to `std`",
+        "Built-in runtime and threadpool",
+        "Asynchronous I/O and networking"
+      ],
+      "website": "https://async.rs/"
+    },
+    {
+      "name": "coio-rs",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Coroutine I/O for Rust",
+        "Non-blocking I/O",
+        "Work-stealing coroutine scheduling",
+        "Asynchronous computing APIs"
+      ],
+      "website": "https://github.com/zonyitoo/coio-rs"
+    },
+    {
+      "name": "Go (Goroutines)",
+      "license": "Open Source - BSD-style",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "OpenBSD",
+        "Plan 9",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Built-in lightweight, stackful coroutines (goroutines)",
+        "Channel-based communication for concurrency",
+        "Garbage collection",
+        "Fast compilation times"
+      ],
+      "website": "https://go.dev/"
+    },
+    {
+      "name": "Java (Virtual Threads)",
+      "license": "Open Source - GPL 2 with Classpath Exception (for OpenJDK)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "and others supported by JVM"
+      ],
+      "mainFeatures": [
+        "Lightweight, user-mode threads managed by the JVM",
+        "Designed for high-throughput server applications",
+        "Allows writing blocking code in a thread-per-request style",
+        "Supported by the Java platform and its tools"
+      ],
+      "website": "https://openjdk.org/projects/loom/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Go (Goroutines)",
+    "Java (Virtual Threads)",
+    "Tokio (within Rust ecosystem)"
+  ],
+  "marketPositioning": "May is positioned as a Rust library offering stackful coroutines, providing an alternative concurrency model to the dominant async/await paradigm in the Rust ecosystem. It caters to developers who prefer the sequential coding style facilitated by stackful coroutines, particularly for integrating with blocking operations or migrating existing blocking code. While less widespread than major async runtimes like Tokio or language-level features like Go's goroutines or Java's virtual threads, it occupies a niche for those specifically seeking stackful concurrency within Rust."
+}

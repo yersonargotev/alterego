@@ -1,0 +1,133 @@
+{
+  "projectName": "jarvis",
+  "projectPurpose": "To develop an open-source, privacy-focused, and fully offline voice assistant using neural networks for core voice AI functionalities (STT, TTS, Wake Word, NLU).",
+  "platforms": [],
+  "mainFeatures": [
+    "Uses neural networks for STT, TTS, Wake Word, and NLU",
+    "100% offline operation",
+    "Open source with full transparency",
+    "No data collection",
+    "Built with Rust, Tauri, Vite, Svelte",
+    "Supports Russian language (Ukrainian and English planned)"
+  ],
+  "website": "https://github.com/Priler/jarvis",
+  "alternatives": [
+    {
+      "name": "Mycroft AI",
+      "license": "Open Source (Apache 2.0, AGPL 3.0)",
+      "platforms": [
+        "Linux",
+        "Raspberry Pi",
+        "Dedicated Hardware",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Modular voice assistant platform",
+        "Privacy-focused (opt-in data collection)",
+        "Supports various STT/TTS engines",
+        "Extensible skill system",
+        "Runs on diverse hardware"
+      ],
+      "website": "https://mycroft.ai/"
+    },
+    {
+      "name": "Rhasspy",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Docker",
+        "Debian-based Systems",
+        "Python Virtual Environments",
+        "Raspberry Pi OS"
+      ],
+      "mainFeatures": [
+        "Fully offline operation",
+        "Customizable Wake Word, STT, NLU, TTS",
+        "Integrates with home automation platforms (Home Assistant, Node-RED, OpenHAB)",
+        "Web interface for configuration",
+        "Focus on privacy"
+      ],
+      "website": "https://rhasspy.readthedocs.io/en/latest/"
+    },
+    {
+      "name": "OpenVoiceOS (OVOS)",
+      "license": "Open Source (Apache-2.0)",
+      "platforms": [
+        "Linux",
+        "Raspberry Pi",
+        "Docker",
+        "Various Devices"
+      ],
+      "mainFeatures": [
+        "Community-driven voice AI platform",
+        "Privacy-respecting (local processing options)",
+        "Forked from Mycroft Core",
+        "Customizable voice interfaces",
+        "Full source code access"
+      ],
+      "website": "https://openvoiceos.github.io/"
+    },
+    {
+      "name": "Amazon Alexa",
+      "license": "Proprietary",
+      "platforms": [
+        "Amazon Echo Devices",
+        "Third-party Devices",
+        "Mobile Apps (iOS, Android)"
+      ],
+      "mainFeatures": [
+        "Cloud-based voice service",
+        "Large skill ecosystem",
+        "Smart home device control",
+        "Music playback and information",
+        "Shopping and communication features"
+      ],
+      "website": "https://developer.amazon.com/en-US/alexa"
+    },
+    {
+      "name": "Google Assistant",
+      "license": "Proprietary (SDK for experimental/non-commercial use)",
+      "platforms": [
+        "Smartphones (Android, iOS)",
+        "Smart Speakers",
+        "Smart Displays",
+        "Wearables",
+        "Cars",
+        "TVs"
+      ],
+      "mainFeatures": [
+        "Cloud-based voice assistant",
+        "Integrates with Google services",
+        "Controls smart home devices",
+        "Supports Actions (third-party integrations)",
+        "Multimodal interactions"
+      ],
+      "website": "https://assistant.google.com/"
+    },
+    {
+      "name": "Apple Siri",
+      "license": "Proprietary",
+      "platforms": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "tvOS",
+        "audioOS",
+        "visionOS"
+      ],
+      "mainFeatures": [
+        "Integrated into Apple ecosystem",
+        "Natural language processing",
+        "Deep integration with Apple apps",
+        "Performs actions and provides recommendations",
+        "Adapts to user preferences"
+      ],
+      "website": "https://www.apple.com/siri/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Amazon Alexa",
+    "Google Assistant"
+  ],
+  "marketPositioning": "Jarvis is positioned as a niche, technically focused open-source voice assistant project that prioritizes privacy, offline operation, and transparency by utilizing neural networks for core voice AI functions without relying on cloud services or data collection. Unlike the dominant proprietary cloud-based assistants (Alexa, Google Assistant, Siri) or even more established open-source alternatives like Mycroft AI or Rhasspy which may offer broader platform support or integrations, Jarvis appears to be more of an experimental exploration of building the core neural network components of a voice assistant in a fully offline, privacy-preserving manner using a modern tech stack. Its current language limitation and experimental nature suggest it is aimed more at developers and privacy-conscious users interested in the underlying technology and the principles of offline, open-source voice control rather than being a direct, feature-complete competitor to mainstream assistants."
+}

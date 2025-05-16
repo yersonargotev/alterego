@@ -1,0 +1,67 @@
+{
+  "projectName": "avail-light",
+  "projectPurpose": "To provide a lightweight client implementation for the Avail network, primarily focused on verifying data availability on the Avail Data Availability (DA) layer using Data Availability Sampling (DAS) without requiring a full node.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Performs Data Availability Sampling (DAS)",
+    "Verifies data availability without a full node",
+    "Connects to the Avail peer-to-peer network",
+    "Provides API for querying block and application data",
+    "Resource-efficient operation"
+  ],
+  "website": "https://docs.availproject.org",
+  "alternatives": [
+    {
+      "name": "Celestia Light Node",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Performs Data Availability Sampling (DAS)",
+        "Verifies data availability on Celestia's DA network",
+        "Less resource-intensive than full nodes",
+        "Contributes to network security via DAS"
+      ],
+      "website": "https://docs.celestia.org/nodes/light-node"
+    },
+    {
+      "name": "Ethereum Light Clients (e.g., Lodestar)",
+      "license": "Open Source (varies, Lodestar is Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Verifies block headers",
+        "Relies on data from full nodes",
+        "Uses cryptographic methods for verification (e.g., sync committees)",
+        "Significantly lower resource requirements than full nodes"
+      ],
+      "website": "https://ethereum.org/en/developers/docs/nodes-and-clients/light-clients/"
+    },
+    {
+      "name": "Bitcoin SPV Client",
+      "license": "Open Source (varies by implementation)",
+      "platforms": [
+        "Various (mobile, desktop)"
+      ],
+      "mainFeatures": [
+        "Downloads only block headers",
+        "Verifies transactions via Merkle proofs",
+        "Relies on connecting to full nodes",
+        "Lower resource usage than full nodes"
+      ],
+      "website": "https://bitcoin.org/en/developer-guide#simplified-payment-verification"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Celestia Light Node",
+    "Ethereum Light Clients"
+  ],
+  "marketPositioning": "The avail-light client is positioned as a key component of the Avail modular blockchain ecosystem, specifically focused on providing trust-minimized and resource-efficient verification of data availability on the Avail DA layer. Its core strength lies in leveraging Data Availability Sampling (DAS) and erasure coding, offering security guarantees comparable to full nodes with minimal computational overhead. This distinguishes it from more general light clients and positions Avail as a specialized data availability layer enabling scalable and modular blockchain architectures. It competes directly with other modular data availability layers like Celestia and offers an alternative approach to data verification compared to traditional blockchain light clients."
+}

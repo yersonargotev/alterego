@@ -1,0 +1,96 @@
+{
+  "projectName": "wrecc",
+  "projectPurpose": "To provide an alternative C99 compiler for x86_64, implemented in Rust from scratch, potentially serving as an educational tool or a base for further development.",
+  "platforms": [
+    "x86_64"
+  ],
+  "mainFeatures": [
+    "x86_64 C99 compiler",
+    "Written in Rust",
+    "Built from scratch (does not rely on existing compiler infrastructure)"
+  ],
+  "website": "https://github.com/PhilippRados/wrecc",
+  "alternatives": [
+    {
+      "name": "GNU Compiler Collection (GCC)",
+      "license": "Open Source - GNU General Public License (GPLv3+ with GCC Runtime Library Exception)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "BSD",
+        "Various Unix-like systems",
+        "Numerous architectures (including x86_64)"
+      ],
+      "mainFeatures": [
+        "Supports multiple programming languages (C, C++, etc.)",
+        "Extensive optimization capabilities",
+        "Supports various C standards (including C99)",
+        "Cross-compilation support",
+        "Modular design"
+      ],
+      "website": "https://gcc.gnu.org/"
+    },
+    {
+      "name": "Clang",
+      "license": "Open Source - Apache 2.0 License with LLVM Exceptions",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "BSD",
+        "Various architectures (including x86_64)"
+      ],
+      "mainFeatures": [
+        "Fast compilation speed and low memory use",
+        "Expressive diagnostics",
+        "Modular, library-based architecture",
+        "IDE integration support",
+        "GCC and MSVC compatibility"
+      ],
+      "website": "https://clang.llvm.org/"
+    },
+    {
+      "name": "Tiny C Compiler (TCC)",
+      "license": "Open Source - GNU Lesser General Public License (LGPLv2.1)",
+      "platforms": [
+        "Linux",
+        "Unix",
+        "Windows",
+        "x86",
+        "x86-64",
+        "ARM"
+      ],
+      "mainFeatures": [
+        "Very small size and memory footprint",
+        "Extremely fast compilation speed",
+        "Ability to compile and execute C source directly",
+        "Optional memory and bounds checker",
+        "Supports C89/C90 and much of C99"
+      ],
+      "website": "https://bellard.org/tcc/"
+    },
+    {
+      "name": "Portable C Compiler (PCC)",
+      "license": "Open Source - BSD License",
+      "platforms": [
+        "Unix and Unix-like",
+        "Windows",
+        "x86",
+        "x86-64"
+      ],
+      "mainFeatures": [
+        "High portability",
+        "Improved diagnostic capabilities",
+        "Relatively fast compilation",
+        "Supports C99 standard"
+      ],
+      "website": "http://pcc.ludd.ltu.se/ (Archived Website)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GCC",
+    "Clang"
+  ],
+  "marketPositioning": "wrecc is an open-source C99 compiler targeting the x86_64 architecture, uniquely implemented entirely in Rust from scratch. This ground-up approach, utilizing Rust's focus on memory safety and concurrency, distinguishes wrecc from established compilers like GCC and Clang, which are predominantly written in C and C++. By building a compiler without relying on existing large compiler infrastructures, wrecc serves as a valuable educational resource for understanding compiler principles and a demonstration of Rust's capabilities in systems programming. While currently focused on the C99 standard and a single architecture, its implementation in a modern, safe language provides a fresh perspective and a potentially more maintainable codebase for future development in the compiler landscape."
+}

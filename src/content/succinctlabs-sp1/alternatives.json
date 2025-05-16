@@ -1,0 +1,78 @@
+{
+  "projectName": "sp1",
+  "projectPurpose": "To provide developers with a high-performance, comprehensive Zero-Knowledge Virtual Machine (zkVM) to enable verifiable computation and privacy-preserving applications using zero-knowledge proofs, emphasizing speed and developer-centric features.",
+  "platforms": [
+    "Cross-platform (as it's a virtual machine/SDK)"
+  ],
+  "mainFeatures": [
+    "Fastest zkVM for developers",
+    "Most feature-complete zkVM for developers",
+    "Supports Rust and LLVM-based languages",
+    "Performant STARK recursion",
+    "Onchain verification (EVM-compatible)"
+  ],
+  "website": "https://github.com/succinctlabs/sp1",
+  "alternatives": [
+    {
+      "name": "RISC Zero",
+      "license": "Open Source (likely Apache 2.0 or MIT, common in Rust ecosystem, need to verify specific repo)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "General-purpose RISC-V zkVM",
+        "Supports Rust and C/C++",
+        "Generates zk-SNARK and zk-STARK proofs",
+        "Focus on developer ease of use"
+      ],
+      "website": "https://www.risczero.com/"
+    },
+    {
+      "name": "Cairo",
+      "license": "Open Source (likely MIT or Apache 2.0, need to verify specific repo)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Turing-complete CPU architecture",
+        "STARK-friendly",
+        "Used by Starknet",
+        "Optimized for ZK proofs"
+      ],
+      "website": "https://cairo-lang.org/"
+    },
+    {
+      "name": "Jolt",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "RISC-V zkVM",
+        "Optimized for prover performance",
+        "Uses modified Hyrax polynomial commitment system",
+        "Fast and extensible"
+      ],
+      "website": "https://github.com/a16z/jolt"
+    },
+    {
+      "name": "zkEVMs (e.g., Polygon zkEVM, zkSync, Scroll)",
+      "license": "Open Source (varies by project)",
+      "platforms": [
+        "Cross-platform (primarily focused on Ethereum ecosystem)"
+      ],
+      "mainFeatures": [
+        "Execute Ethereum smart contracts with ZKPs",
+        "Maintain EVM compatibility",
+        "Enhance Ethereum scalability",
+        "Improve privacy for transactions"
+      ],
+      "website": "https://polygon.technology/solutions/polygon-zkevm"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "RISC Zero",
+    "zkEVM (collective term)"
+  ],
+  "marketPositioning": "SP1 is positioned as the leading general-purpose zkVM, emphasizing its speed and comprehensive feature set specifically tailored for developers, particularly those using Rust. It aims to lower the barrier to entry for ZKP development by allowing the use of familiar languages and libraries while providing top-tier performance and end-to-end features like onchain verification, making it suitable for a wide range of blockchain and verifiable computation applications."
+}

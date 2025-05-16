@@ -1,0 +1,116 @@
+{
+  "projectName": "thetawave",
+  "projectPurpose": "To provide an open-source, physics-based space shooter game developed using the Rust programming language and the Bevy game engine.",
+  "platforms": [],
+  "mainFeatures": [
+    "Physics-based gameplay",
+    "Space shooter genre",
+    "Built with Rust and Bevy engine"
+  ],
+  "website": "https://github.com/thetawavegame/thetawave",
+  "alternatives": [
+    {
+      "name": "Endless Sky",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "2D space trading and combat",
+        "Explore star systems",
+        "Earn money through various activities (trading, missions, combat)",
+        "Upgrade ships and manage a fleet",
+        "Extensive modding support"
+      ],
+      "website": "https://endless-sky.github.io/"
+    },
+    {
+      "name": "FTL: Faster Than Light",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iPadOS"
+      ],
+      "mainFeatures": [
+        "Spaceship simulation roguelike",
+        "Manage ship systems and crew",
+        "Pausable real-time tactical combat",
+        "Explore a randomly generated galaxy",
+        "Permadeath"
+      ],
+      "website": "https://subsetgames.com/ftl.html"
+    },
+    {
+      "name": "EVERSPACE",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Xbox One",
+        "PlayStation 4",
+        "Nintendo Switch",
+        "Google Stadia",
+        "Amazon Luna"
+      ],
+      "mainFeatures": [
+        "3D action-focused single-player space shooter",
+        "Roguelike elements with persistent progression",
+        "In-depth crafting and damage system",
+        "Captivating story with voice acting",
+        "Multiple unique player ships"
+      ],
+      "website": "https://everspace-game.com/"
+    },
+    {
+      "name": "Galaga",
+      "license": "Proprietary",
+      "platforms": [
+        "Arcade",
+        "NES",
+        "Atari 7800",
+        "Xbox Live Arcade",
+        "Nintendo Switch",
+        "PlayStation",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Fixed shooter gameplay",
+        "Destroy waves of alien formations",
+        "Challenging enemy flight patterns",
+        "Capture mechanic allowing dual fighter",
+        "Bonus challenging stages"
+      ],
+      "website": "https://www.bandainamcoent.eu/"
+    },
+    {
+      "name": "Space Invaders",
+      "license": "Proprietary",
+      "platforms": [
+        "Arcade",
+        "Atari 2600",
+        "NES",
+        "Xbox",
+        "PlayStation",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Classic fixed shooter",
+        "Defend against descending alien invaders",
+        "Escalating difficulty as aliens speed up",
+        "Bonus UFO for extra points",
+        "High score system"
+      ],
+      "website": "https://www.taito.co.jp/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Space Invaders",
+    "Galaga"
+  ],
+  "marketPositioning": "Thetawave is positioned as an open-source, physics-driven space shooter game. Unlike classic arcade shooters, it incorporates realistic physics. Compared to more complex simulation or roguelike space games, it focuses on core shooter mechanics. Its use of Rust and the Bevy engine, along with its open-source license, are key differentiators, targeting developers and players interested in modern, community-driven game development in the space shooter genre."
+}

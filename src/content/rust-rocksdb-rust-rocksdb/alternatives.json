@@ -1,0 +1,105 @@
+{
+  "projectName": "rust-rocksdb",
+  "projectPurpose": "To provide a safe, idiomatic, and convenient way for Rust developers to use the RocksDB embedded key-value storage engine in their applications.",
+  "platforms": [
+    "Cross-platform (where RocksDB is supported)"
+  ],
+  "mainFeatures": [
+    "Provides Rust language bindings for RocksDB",
+    "Enables embedding a high-performance key-value store within a Rust application",
+    "Allows interaction with RocksDB's features from Rust (e.g., Column Families, atomic writes, snapshots, iterators)"
+  ],
+  "website": "https://github.com/rust-rocksdb/rust-rocksdb",
+  "alternatives": [
+    {
+      "name": "Sled",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (servers, phones)"
+      ],
+      "mainFeatures": [
+        "Threadsafe BTreeMap-like API",
+        "Serializable transactions",
+        "Atomic single-key operations",
+        "Zero-copy reads",
+        "Flash-optimized log-structured storage"
+      ],
+      "website": "https://sled.rs/"
+    },
+    {
+      "name": "Redb",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Portable"
+      ],
+      "mainFeatures": [
+        "ACID transactions",
+        "MVCC for concurrent readers/writers",
+        "Crash-safe by default",
+        "Zero-copy reads",
+        "Written in pure Rust"
+      ],
+      "website": "https://github.com/cberner/redb"
+    },
+    {
+      "name": "Rusqlite",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (where SQLite is supported)"
+      ],
+      "mainFeatures": [
+        "Ergonomic Rust bindings for SQLite",
+        "Supports standard SQL",
+        "ACID transactions",
+        "Easily embedded"
+      ],
+      "website": "https://github.com/rusqlite/rusqlite"
+    },
+    {
+      "name": "Heed",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (where LMDB is supported)"
+      ],
+      "mainFeatures": [
+        "High-level Rust wrapper for LMDB",
+        "Minimal overhead",
+        "Supports Serde for typed storage",
+        "Zero-copy reads"
+      ],
+      "website": "https://github.com/meilisearch/heed"
+    },
+    {
+      "name": "Fjall",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Log-structured LSM-tree based storage",
+        "Thread-safe BTreeMap-like API",
+        "Partitions (column families)",
+        "Optional serializable transactions",
+        "Pure Rust"
+      ],
+      "website": "https://github.com/fjall-rs/fjall"
+    },
+    {
+      "name": "LevelDB (Rust wrappers)",
+      "license": "Open Source (LevelDB is BSD, wrappers typically MIT)",
+      "platforms": [
+        "Cross-platform (where LevelDB is supported)"
+      ],
+      "mainFeatures": [
+        "Ordered key-value store",
+        "Atomic batch writes",
+        "Snapshots"
+      ],
+      "website": "https://github.com/skade/leveldb"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SQLite (via Rusqlite)"
+  ],
+  "marketPositioning": "rust-rocksdb is positioned as the primary Rust interface to the widely-used and high-performance RocksDB embedded key-value store. It targets Rust developers who require a production-grade, feature-rich, and highly performant embedded database, particularly for write-intensive workloads. While pure-Rust alternatives offer memory safety without C++ dependencies, rust-rocksdb leverages the maturity and extensive feature set of the battle-tested RocksDB library, making it a strong contender for performance-critical applications willing to manage the foreign function interface overhead."
+}

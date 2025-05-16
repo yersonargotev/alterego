@@ -1,0 +1,59 @@
+{
+  "projectName": "arrow-rs",
+  "projectPurpose": "To provide a high-performance, memory-safe, native Rust implementation of the Apache Arrow columnar data format and its associated libraries, serving as a foundational building block for data analytics applications in Rust and enabling efficient data interchange within the Apache Arrow ecosystem.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "Native Rust implementation of Apache Arrow",
+    "Implements the Apache Arrow in-memory columnar format",
+    "Supports zero-copy reads for fast data access",
+    "Designed for efficient analytic operations on modern hardware",
+    "Provides libraries for working with Arrow data in Rust",
+    "Interoperability with other Arrow-compatible systems and languages"
+  ],
+  "website": "https://github.com/apache/arrow-rs",
+  "alternatives": [
+    {
+      "name": "Polars",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Python",
+        "R",
+        "NodeJS",
+        "Rust",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Blazingly fast DataFrame library",
+        "Written from scratch in Rust",
+        "Utilizes Apache Arrow memory model",
+        "Supports lazy and eager execution",
+        "Handles data larger than RAM (streaming)"
+      ],
+      "website": "https://www.pola.rs/"
+    },
+    {
+      "name": "pandas",
+      "license": "Open Source - BSD 3-Clause License",
+      "platforms": [
+        "Python",
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Provides DataFrame and Series data structures",
+        "Extensive data manipulation and analysis tools",
+        "Handles missing data",
+        "Robust I/O tools (CSV, Excel, SQL, etc.)",
+        "Flexible reshaping and pivoting"
+      ],
+      "website": "https://pandas.pydata.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "pandas"
+  ],
+  "marketPositioning": "arrow-rs is the official native Rust implementation of the Apache Arrow in-memory columnar data format and its associated libraries. It serves as a high-performance, memory-safe foundation for building data-intensive applications in Rust that require efficient handling and processing of structured data. As part of the broader Apache Arrow ecosystem, arrow-rs enables seamless, zero-copy data interchange with other systems and languages (like Python, Java, C++, etc.) that also adhere to the Arrow standard. This positions arrow-rs not as an end-user data analysis tool itself, but as a crucial low-level component and the primary entry point for Rust developers looking to leverage the performance benefits of columnar data and interoperability provided by Apache Arrow in their data processing pipelines and systems."
+}

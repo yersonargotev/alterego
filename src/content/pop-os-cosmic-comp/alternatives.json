@@ -1,0 +1,105 @@
+{
+  "projectName": "cosmic-comp",
+  "projectPurpose": "To serve as the core display server and window manager (compositor) specifically for the COSMIC desktop environment, responsible for rendering windows, handling window placement, managing workspaces, and providing visual effects using the Wayland protocol.",
+  "platforms": [
+    "Linux",
+    "Unix-like"
+  ],
+  "mainFeatures": [
+    "Compositor for the COSMIC desktop environment",
+    "Written in Rust",
+    "Integrates with COSMIC desktop environment components (greeter, session)",
+    "Supports the Wayland protocol",
+    "Handles window management and compositing for the COSMIC DE"
+  ],
+  "website": "https://github.com/pop-os/cosmic-comp",
+  "alternatives": [
+    {
+      "name": "Mutter",
+      "license": "Open Source - GPL-2.0-or-later",
+      "platforms": [
+        "Linux",
+        "Unix-like",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Wayland display server and X11 window manager/compositor",
+        "Integrates with GNOME Shell",
+        "Handles window management, compositing, focus tracking, workspace management",
+        "Supports visual effects",
+        "Extensible with plugins"
+      ],
+      "website": "https://gitlab.gnome.org/GNOME/mutter"
+    },
+    {
+      "name": "KWin",
+      "license": "Open Source - GNU General Public License (GPLv2+)",
+      "platforms": [
+        "Linux",
+        "BSD",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Window manager for X11 and Wayland compositor",
+        "Default compositor for KDE Plasma",
+        "Configurable through scripting (QML, QtScript)",
+        "Supports various compositing backends (OpenGL)",
+        "Provides numerous visual effects and window management features"
+      ],
+      "website": "https://userbase.kde.org/KWin"
+    },
+    {
+      "name": "Sway",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "BSD",
+        "Unix-like (with Wayland)"
+      ],
+      "mainFeatures": [
+        "Tiling Wayland compositor",
+        "Drop-in replacement for the i3 window manager (X11)",
+        "Uses the wlroots library",
+        "Supports i3 configuration files",
+        "Keyboard-driven workflow"
+      ],
+      "website": "https://swaywm.org/"
+    },
+    {
+      "name": "Hyprland",
+      "license": "Open Source - BSD-3-Clause license",
+      "platforms": [
+        "Linux",
+        "Unix-like (with Wayland)"
+      ],
+      "mainFeatures": [
+        "Dynamic tiling Wayland compositor",
+        "Based on wlroots",
+        "Focus on aesthetics (animations, blur, shadows)",
+        "Highly customizable with plugin support",
+        "Supports tearing for gaming"
+      ],
+      "website": "https://hyprland.org/"
+    },
+    {
+      "name": "Compiz",
+      "license": "Open Source - GPL, core: MIT license (Versions vary)",
+      "platforms": [
+        "Unix-like (with X11)"
+      ],
+      "mainFeatures": [
+        "Compositing window manager for the X Window System",
+        "Uses 3D graphics hardware for effects",
+        "Plugin-based architecture for effects",
+        "Can be used as a substitute for other X11 window managers",
+        "Offers a choice of window decorators"
+      ],
+      "website": "https://github.com/compiz-reloaded/compiz"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Mutter",
+    "KWin"
+  ],
+  "marketPositioning": "Cosmic-comp is positioned as the native and tightly integrated compositor for the new, Rust-based COSMIC desktop environment by System76. Unlike established compositors like Mutter and KWin which serve major desktop environments and often support both X11 and Wayland, cosmic-comp is exclusively focused on Wayland and the specific design philosophy of COSMIC. It is part of a ground-up effort to build a modern, performant, and cohesive desktop experience, differentiating itself from standalone compositors or those designed for broader compatibility across different desktop environments. Its development in Rust is a key aspect of its identity within the COSMIC ecosystem."
+}

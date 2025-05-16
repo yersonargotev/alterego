@@ -1,0 +1,99 @@
+{
+  "projectName": "cargo-mommy",
+  "projectPurpose": "To provide supportive and personalized feedback during the use of the Rust cargo build tool, adding personality and emotional context to the command-line experience.",
+  "platforms": [
+    "Cross-platform (wherever Rust and cargo run)"
+  ],
+  "mainFeatures": [
+    "Wraps cargo commands to provide feedback",
+    "Delivers personalized messages based on command success or failure",
+    "Highly configurable personality (role, pronouns, emotes, moods)",
+    "Integrates as a cargo subcommand (cargo mommy)",
+    "Configuration via environment variables"
+  ],
+  "website": "https://github.com/Gankra/cargo-mommy",
+  "alternatives": [
+    {
+      "name": "fortune",
+      "license": "Open Source (various licenses depending on distribution)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Displays random quotes or sayings",
+        "Large collection of quotable text files",
+        "Can be easily integrated into shell startup",
+        "Classic Unix utility"
+      ],
+      "website": "https://linux.die.net/man/6/fortune"
+    },
+    {
+      "name": "cowsay",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Generates ASCII art of a cow speaking a message",
+        "Supports various other animals/figures via 'cowfiles'",
+        "Often combined with other commands (e.g., fortune | cowsay)",
+        "Simple command-line usage"
+      ],
+      "website": "https://linux.die.net/man/1/cowsay"
+    },
+    {
+      "name": "notify-send",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Linux (requires a desktop environment supporting Desktop Notifications Specification)"
+      ],
+      "mainFeatures": [
+        "Sends desktop notifications from the command line",
+        "Supports title, body, and icon for notifications",
+        "Can be triggered based on command exit status (using && or ||)",
+        "Standard tool on many Linux distributions"
+      ],
+      "website": "https://manpages.ubuntu.com/manpages/jammy/man1/notify-send.1.html"
+    },
+    {
+      "name": "terminal-notifier",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Sends macOS user notifications from the command line",
+        "Supports title, subtitle, message, and sound",
+        "Can open URLs or execute actions when clicked",
+        "Easy integration with scripts"
+      ],
+      "website": "https://github.com/julienXX/terminal-notifier"
+    },
+    {
+      "name": "shell-mommy",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Shell script providing supportive messages",
+        "Responses based on command exit status",
+        "Customizable affectionate terms, pronouns, and roles",
+        "Can be set as part of the shell prompt"
+      ],
+      "website": "https://github.com/sudofox/shell-mommy"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "fortune",
+    "cowsay",
+    "Desktop Notification Tools (e.g., notify-send, terminal-notifier)"
+  ],
+  "marketPositioning": "cargo-mommy is positioned as a unique developer morale tool within the Rust ecosystem. Unlike general terminal amusement tools (like fortune or cowsay) or standard build notification systems, it focuses on providing personalized, emotionally supportive, and highly customizable textual feedback tied directly to the outcome of Rust cargo commands. Its value lies in enhancing the developer's subjective experience by injecting personality and encouragement into the build process, rather than providing technical features or performance improvements."
+}

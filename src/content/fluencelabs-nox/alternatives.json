@@ -1,0 +1,126 @@
+{
+  "projectName": "nox",
+  "projectPurpose": "To provide a Rust implementation of a peer for the Fluence decentralized computing network, enabling participation in the network's operations and contributing to its 'cloudless' computing platform.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Rust implementation of a Fluence network peer",
+    "Enables participation in the Fluence decentralized computing network",
+    "Facilitates interaction with the Fluence protocol",
+    "Contributes compute resources (CPU capacity) to the network",
+    "Supports the Fluence 'cloudless' computing platform"
+  ],
+  "website": "https://github.com/fluencelabs/nox",
+  "alternatives": [
+    {
+      "name": "libp2p",
+      "license": "Open Source (MIT, Apache 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Modular networking stack for P2P applications",
+        "Peer discovery and routing",
+        "Support for multiple transports (TCP, WebRTC, QUIC)",
+        "Encrypted connections",
+        "Pub/Sub messaging"
+      ],
+      "website": "https://libp2p.io/"
+    },
+    {
+      "name": "Geth (Go-Ethereum)",
+      "license": "Open Source (LGPL-3.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Full Ethereum protocol implementation in Go",
+        "Run various node types (full, light, archive)",
+        "Interact with the Ethereum blockchain",
+        "Deploy and execute smart contracts",
+        "JSON-RPC API for dApp interaction"
+      ],
+      "website": "https://geth.ethereum.org/"
+    },
+    {
+      "name": "Substrate",
+      "license": "Open Source (Apache-2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Framework for building custom blockchains",
+        "Modular architecture with 'pallets'",
+        "Forkless runtime upgrades",
+        "WASM-based execution environment",
+        "Interoperability with Polkadot"
+      ],
+      "website": "https://substrate.io/"
+    },
+    {
+      "name": "IPFS (InterPlanetary File System)",
+      "license": "Open Source (MIT, Apache 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Decentralized file storage and sharing",
+        "Content-addressing for data integrity",
+        "Peer-to-peer architecture",
+        "Distributed Hash Table (DHT) for content routing",
+        "Versioned file system"
+      ],
+      "website": "https://ipfs.io/"
+    },
+    {
+      "name": "Akash Network",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Decentralized cloud computing marketplace",
+        "Rent compute resources (CPU, GPU)",
+        "Alternative to centralized cloud providers",
+        "Based on a Proof-of-Stake blockchain",
+        "Support for deploying containers"
+      ],
+      "website": "https://akash.network/"
+    },
+    {
+      "name": "Golem Network",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Decentralized marketplace for computing power",
+        "Rent out idle CPU/GPU resources",
+        "Peer-to-peer network for task distribution",
+        "Support for various compute tasks (rendering, simulations)",
+        "Cryptocurrency-based payment system (GLM)"
+      ],
+      "website": "https://www.golem.network/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Geth (Go-Ethereum)",
+    "IPFS (InterPlanetary File System)"
+  ],
+  "marketPositioning": "nox is a core software component (a peer implementation in Rust) for the Fluence network, which positions itself as the first decentralized 'cloudless' computing platform and a direct alternative to centralized cloud providers. Unlike some decentralized compute projects focused on GPUs, Fluence, and thus nox, emphasizes aggregating and utilizing global CPU capacity for a wide range of serverless applications. nox enables users to participate in this network, contributing to a resilient, auditable, and censorship-resistant infrastructure for decentralized applications, particularly those requiring general-purpose computation rather than specialized GPU tasks."
+}

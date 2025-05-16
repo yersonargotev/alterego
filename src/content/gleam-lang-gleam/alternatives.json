@@ -1,0 +1,124 @@
+{
+  "projectName": "gleam",
+  "projectPurpose": "A programming language for building type-safe, scalable, and friendly systems, likely leveraging the Erlang VM for concurrency, distribution, and fault tolerance.",
+  "platforms": [
+    "Cross-platform (compiles to Erlang VM)"
+  ],
+  "mainFeatures": [
+    "Type-safe",
+    "Scalable systems",
+    "Friendly syntax and development experience"
+  ],
+  "website": "https://github.com/gleam-lang/gleam",
+  "alternatives": [
+    {
+      "name": "Erlang",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Concurrent",
+        "Functional",
+        "Fault-tolerant",
+        "Distributed systems",
+        "Immutable data"
+      ],
+      "website": "https://www.erlang.org/"
+    },
+    {
+      "name": "Elixir",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Dynamic",
+        "Functional",
+        "Scalable and maintainable applications",
+        "Runs on Erlang VM (BEAM)",
+        "Fault tolerance via supervisors"
+      ],
+      "website": "https://elixir-lang.org/"
+    },
+    {
+      "name": "Rust",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (via WebAssembly)",
+        "Various embedded platforms"
+      ],
+      "mainFeatures": [
+        "Performance",
+        "Memory safety (without GC)",
+        "Type safety",
+        "Concurrency",
+        "Ownership system"
+      ],
+      "website": "https://www.rust-lang.org/"
+    },
+    {
+      "name": "Go",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "OpenBSD",
+        "Plan 9",
+        "Solaris",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Statically typed",
+        "Compiled",
+        "Concurrency (goroutines, channels)",
+        "Garbage collection",
+        "Simple syntax"
+      ],
+      "website": "https://go.dev/"
+    },
+    {
+      "name": "Scala",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "JVM (Windows, macOS, Linux, etc.)",
+        "JavaScript (Scala.js)",
+        "LLVM (Scala Native)"
+      ],
+      "mainFeatures": [
+        "Multi-paradigm (OOP + Functional)",
+        "Statically typed",
+        "Runs on JVM",
+        "Interoperability with Java",
+        "Strong type system"
+      ],
+      "website": "https://www.scala-lang.org/"
+    },
+    {
+      "name": "TypeScript",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Web",
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Statically typed superset of JavaScript",
+        "Optional type annotations",
+        "Compiles to JavaScript",
+        "Supports OOP features",
+        "Type inference"
+      ],
+      "website": "https://www.typescriptlang.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "TypeScript"
+  ],
+  "marketPositioning": "Gleam is positioned as a friendly, type-safe language for building scalable systems, likely targeting the Erlang VM. Its market position is distinct from other BEAM languages like Erlang and Elixir due to its static type system, and it differentiates itself from other type-safe languages like Rust and Scala by emphasizing friendliness and potentially leveraging the BEAM's inherent strengths in concurrency and fault tolerance for scalable applications."
+}

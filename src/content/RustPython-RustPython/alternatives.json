@@ -1,0 +1,117 @@
+{
+  "projectName": "RustPython",
+  "projectPurpose": "To provide an alternative implementation of the Python 3 programming language written in Rust, focusing on embeddability, WebAssembly compilation, and leveraging Rust's features for performance and concurrency.",
+  "platforms": [
+    "Cross-platform (where Rust and WASM are supported)",
+    "WebAssembly"
+  ],
+  "mainFeatures": [
+    "Python 3 Interpreter written in Rust",
+    "Embeddable in Rust applications",
+    "Compiles to WebAssembly (WASM)",
+    "Aims for fast, reliable, and secure execution",
+    "Supports native multi-threading (no GIL)"
+  ],
+  "website": "https://github.com/RustPython/RustPython",
+  "alternatives": [
+    {
+      "name": "CPython",
+      "license": "Open Source - Python Software Foundation License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Many others"
+      ],
+      "mainFeatures": [
+        "Reference implementation of Python",
+        "Written in C and Python",
+        "Compiles to bytecode",
+        "Extensive standard library",
+        "Uses Global Interpreter Lock (GIL)"
+      ],
+      "website": "https://www.python.org/"
+    },
+    {
+      "name": "Jython",
+      "license": "Open Source - PSF License v2",
+      "platforms": [
+        "JVM (Windows, macOS, Linux, etc.)"
+      ],
+      "mainFeatures": [
+        "Implementation on the Java Platform",
+        "Compiles to Java bytecode",
+        "Seamless Java interoperability",
+        "Embeddable in Java applications"
+      ],
+      "website": "https://www.jython.org/"
+    },
+    {
+      "name": "IronPython",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        ".NET/Mono (Windows, Linux, macOS)"
+      ],
+      "mainFeatures": [
+        "Implementation for .NET/CLR",
+        "Written in C#",
+        ".NET interoperability",
+        "Embeddable in .NET applications",
+        "Supports Python 3"
+      ],
+      "website": "https://ironpython.net/"
+    },
+    {
+      "name": "PyPy",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "OpenBSD"
+      ],
+      "mainFeatures": [
+        "Just-in-Time (JIT) compiler",
+        "Often faster than CPython",
+        "Written in RPython",
+        "Supports micro-threads (Stackless)",
+        "High compatibility with CPython"
+      ],
+      "website": "https://www.pypy.org/"
+    },
+    {
+      "name": "MicroPython",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Microcontrollers (ARM, ESP), Unix-like, Windows"
+      ],
+      "mainFeatures": [
+        "Lean and efficient Python 3",
+        "For constrained environments",
+        "Subset of standard library",
+        "Interactive REPL",
+        "Hardware access modules"
+      ],
+      "website": "https://micropython.org/"
+    },
+    {
+      "name": "GraalVM Python (GraalPy)",
+      "license": "Open Source - GPLv2 (Community), GFTC (Oracle)",
+      "platforms": [
+        "GraalVM (Linux, Windows, macOS)"
+      ],
+      "mainFeatures": [
+        "High-performance for JVM",
+        "Built on GraalVM",
+        "Embeddable in Java applications",
+        "Compile to native binaries",
+        "Aims for data science/ML support"
+      ],
+      "website": "https://www.graalvm.org/latest/graalpy/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "CPython"
+  ],
+  "marketPositioning": "RustPython is positioned as a modern, innovative alternative Python interpreter leveraging the Rust programming language for potential performance, safety, and concurrency benefits, particularly by avoiding the GIL. Its key market differentiators are its strong support for compiling Python to WebAssembly for web and edge computing use cases and its seamless embeddability within Rust applications. While currently in development, it targets developers seeking a Python implementation with native Rust integration and the ability to run Python in environments like the browser, setting it apart from traditional interpreters like CPython, JVM-based Jython, or .NET-based IronPython, and the microcontroller-focused MicroPython. Its focus on WASM also differentiates it from performance-focused PyPy, though both offer alternatives to CPython's execution model."
+}

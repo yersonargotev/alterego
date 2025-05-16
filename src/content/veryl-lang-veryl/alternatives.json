@@ -1,0 +1,128 @@
+{
+  "projectName": "veryl",
+  "projectPurpose": "To provide a modern, more productive, and user-friendly hardware description language (HDL) as an alternative to SystemVerilog, focusing on optimized syntax, enhanced tooling, and strong interoperability with the existing SystemVerilog ecosystem.",
+  "platforms": [
+    "Cross-platform (toolchain generates SystemVerilog, which is processed by EDA tools typically on Linux, Windows, macOS)",
+    "FreeBSD (package available)"
+  ],
+  "mainFeatures": [
+    "Optimized Syntax for Logic Design",
+    "SystemVerilog Interoperability (Generates Human-Readable SystemVerilog)",
+    "Rich Development Tooling (Package Manager, Build Tools, Checkers, Formatting, Auto-completion)",
+    "Abstracted Clock and Reset Handling",
+    "Generics for Reusability"
+  ],
+  "website": "https://veryl-lang.org",
+  "alternatives": [
+    {
+      "name": "SystemVerilog",
+      "license": "Standardized by IEEE (Commercial tools are Proprietary)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS (depends on EDA vendor)"
+      ],
+      "mainFeatures": [
+        "Hardware Description and Verification",
+        "Object-Oriented Programming Constructs",
+        "Assertions and Functional Coverage",
+        "Enhanced Data Types"
+      ],
+      "website": "N/A (Standard managed by IEEE and Accellera)"
+    },
+    {
+      "name": "Verilog",
+      "license": "Standardized by IEEE (Commercial tools are Proprietary)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS (depends on EDA vendor)"
+      ],
+      "mainFeatures": [
+        "Hardware Description",
+        "Register-Transfer Level (RTL) Design",
+        "Gate-Level Modeling",
+        "Syntax similar to C"
+      ],
+      "website": "N/A (Standard managed by IEEE and Accellera)"
+    },
+    {
+      "name": "VHDL",
+      "license": "Standardized by IEEE (Commercial tools are Proprietary)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS (depends on EDA vendor)"
+      ],
+      "mainFeatures": [
+        "Hardware Description and Simulation",
+        "Multiple Levels of Abstraction",
+        "Strongly Typed",
+        "Concurrent Execution Handling"
+      ],
+      "website": "N/A (Standard managed by IEEE)"
+    },
+    {
+      "name": "Chisel",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Embedded DSL in Scala",
+        "Circuit Generators",
+        "Design Reuse",
+        "Generates Synthesizable Verilog"
+      ],
+      "website": "https://www.chisel-lang.org/"
+    },
+    {
+      "name": "SpinalHDL",
+      "license": "Open Source - LGPL3 (core), MIT (lib)",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Scala-based HDL",
+        "Generates VHDL/Verilog",
+        "Efficient Hardware Description",
+        "Powerful Hardware Generation"
+      ],
+      "website": "https://spinalhdl.github.io/SpinalDoc/spinalhdl/index.html"
+    },
+    {
+      "name": "MyHDL",
+      "license": "Open Source - LGPL",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Python-based HDL",
+        "Generates VHDL/Verilog",
+        "Testbench Generation",
+        "Co-simulation with Verilog"
+      ],
+      "website": "http://www.myhdl.org/"
+    },
+    {
+      "name": "nMigen",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Python-based Hardware Toolbox",
+        "Metaprogramming-based HDL",
+        "Synthesizes via Yosys or Converts to Verilog",
+        "Standard Library of Components"
+      ],
+      "website": "https://github.com/m-labs/nmigen"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SystemVerilog"
+  ],
+  "marketPositioning": "Veryl positions itself as a modern, productivity-focused alternative to SystemVerilog, specifically designed for digital logic design. It aims to improve upon the syntax and tooling of SystemVerilog while ensuring seamless interoperability by generating human-readable SystemVerilog code. Unlike other hardware construction languages embedded in general-purpose programming languages that might introduce a steeper learning curve or generate less predictable RTL, Veryl offers an evolutionary step for SystemVerilog users, providing a more pleasant development experience and integrated tools without abandoning the established industry standard flow."
+}

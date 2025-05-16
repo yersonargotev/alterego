@@ -1,0 +1,130 @@
+{
+  "projectName": "touchHLE",
+  "projectPurpose": "To provide a high-level emulation environment for running applications originally designed for older versions of iPhone OS.",
+  "platforms": [],
+  "mainFeatures": [
+    "High-level emulation of iPhone OS applications",
+    "Focus on compatibility with older iPhone OS apps",
+    "Open-source project"
+  ],
+  "website": "https://github.com/touchHLE/touchHLE",
+  "alternatives": [
+    {
+      "name": "Xcode Simulator",
+      "license": "Proprietary (Included with Xcode, which is free)",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Official Apple tool",
+        "High accuracy for development and testing",
+        "Supports various iOS versions and devices",
+        "Integrated with Xcode IDE"
+      ],
+      "website": "https://developer.apple.com/xcode/"
+    },
+    {
+      "name": "Appetize.io",
+      "license": "Proprietary (Free plan with limitations, paid plans)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Cloud-based, runs in browser",
+        "No installation required",
+        "Useful for app demos and testing",
+        "Supports performance monitoring"
+      ],
+      "website": "https://appetize.io/"
+    },
+    {
+      "name": "Smartface",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Supports both iOS and Android emulation",
+        "Designed for cross-platform development",
+        "Allows testing on Windows",
+        "Includes debugging features"
+      ],
+      "website": "https://smartface.io/"
+    },
+    {
+      "name": "iPadian",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Mimics iOS interface",
+        "Runs a curated selection of apps and games",
+        "Lightweight and easy to use",
+        "Provides an iOS-style demo"
+      ],
+      "website": "https://ipadian.net/"
+    },
+    {
+      "name": "Remoted iOS Simulator for Windows",
+      "license": "Proprietary (Included with Visual Studio/Xamarin)",
+      "platforms": [
+        "Windows (Requires connected Mac)"
+      ],
+      "mainFeatures": [
+        "Allows iOS app testing on Windows",
+        "Integrated with Visual Studio",
+        "Supports gesture and rotation simulation",
+        "Requires a Mac build host"
+      ],
+      "website": "https://learn.microsoft.com/en-us/xamarin/ios/get-started/installation/windows/remote-simulator/"
+    },
+    {
+      "name": "QEMU (with iOS support)",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Open-source general-purpose emulator",
+        "Supports various hardware emulations",
+        "Experimental iOS support",
+        "Low-level emulation"
+      ],
+      "website": "https://www.qemu.org/"
+    },
+    {
+      "name": "Corellium",
+      "license": "Proprietary (Enterprise-focused)",
+      "platforms": [
+        "Cloud-based (Web)"
+      ],
+      "mainFeatures": [
+        "High-fidelity virtualization of real devices",
+        "Used for security testing and research",
+        "Supports multiple iOS versions",
+        "Cloud-based access"
+      ],
+      "website": "https://www.corellium.com/"
+    },
+    {
+      "name": "PlayCover",
+      "license": "Open Source",
+      "platforms": [
+        "macOS (Apple Silicon)"
+      ],
+      "mainFeatures": [
+        "Runs iOS apps/games natively on Apple Silicon",
+        "Keymapping support",
+        "Bypasses Apple's restriction"
+      ],
+      "website": "https://playcover.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Xcode Simulator"
+  ],
+  "marketPositioning": "touchHLE is positioned as a niche, high-level emulator focused specifically on preserving and running applications from the early iPhone OS era. Unlike general-purpose development simulators (like Xcode Simulator) or broader emulation platforms, its core value lies in providing compatibility for legacy iPhone OS software. Its open-source nature further emphasizes a community-driven effort towards software history preservation, differentiating it from commercial or enterprise-focused virtualization solutions."
+}

@@ -1,0 +1,109 @@
+{
+  "projectName": "rust-blog",
+  "projectPurpose": "To provide free educational blog posts for beginners learning the Rust programming language.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Collection of educational blog posts",
+    "Aimed at Rust beginners",
+    "Covers various Rust concepts",
+    "Available online for free"
+  ],
+  "website": "https://github.com/pretzelhammer/rust-blog",
+  "alternatives": [
+    {
+      "name": "The Rust Programming Language Book (\"The Book\")",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Web",
+        "Print"
+      ],
+      "mainFeatures": [
+        "Comprehensive official guide",
+        "Covers language fundamentals and advanced topics",
+        "Available free online",
+        "Used as a primary reference"
+      ],
+      "website": "https://doc.rust-lang.org/book/"
+    },
+    {
+      "name": "Rustlings",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Interactive command-line exercises",
+        "Helps practice reading and writing Rust code",
+        "Focuses on compiler messages",
+        "Requires local Rust installation"
+      ],
+      "website": "https://github.com/rust-lang/rustlings"
+    },
+    {
+      "name": "Rust By Example",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Learn Rust through runnable code examples",
+        "Provides explanations alongside code",
+        "Covers various language features",
+        "Online interactive environment"
+      ],
+      "website": "https://doc.rust-lang.org/rust-by-example/"
+    },
+    {
+      "name": "Coursera Rust Courses",
+      "license": "Proprietary (Paid Certificate, Audit may be free)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Structured video lectures and readings",
+        "Quizzes and programming assignments",
+        "Covers foundational to advanced topics",
+        "Offered by universities or organizations"
+      ],
+      "website": "https://www.coursera.org/search?query=rust"
+    },
+    {
+      "name": "Udemy Rust Courses",
+      "license": "Proprietary (Paid)",
+      "platforms": [
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Video lectures and resources",
+        "Hands-on exercises and projects",
+        "Variety of courses for different levels",
+        "Certificate of completion"
+      ],
+      "website": "https://www.udemy.com/courses/development/programming-languages/rust/"
+    },
+    {
+      "name": "Microsoft Learn - Take Your First Steps with Rust",
+      "license": "Proprietary (Free)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Free online learning path",
+        "Covers foundational Rust concepts",
+        "Includes interactive coding exercises",
+        "Provided by Microsoft"
+      ],
+      "website": "https://learn.microsoft.com/en-us/training/paths/rust-first-steps/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "The Rust Programming Language Book",
+    "Rustlings"
+  ],
+  "marketPositioning": "pretzelhammer's Rust blog is positioned as a supplementary, accessible, and free online resource for Rust beginners. It offers educational content in a blog post format, providing alternative explanations and perspectives to official documentation and structured courses. Its format is less formal than 'The Book' and less interactive than 'Rustlings' or 'Rust By Example', making it a good option for learners who prefer reading articles or want additional resources to reinforce their understanding of specific topics."
+}

@@ -1,0 +1,153 @@
+{
+  "projectName": "bottlerocket",
+  "projectPurpose": "To provide a secure, minimal, and easily maintainable Linux-based operating system specifically optimized for running containerized workloads, reducing operational overhead and improving security.",
+  "platforms": [
+    "AWS EC2",
+    "VMware",
+    "Bare Metal"
+  ],
+  "mainFeatures": [
+    "Minimal OS with only necessary components for containers",
+    "Security-focused with read-only root filesystem and SELinux",
+    "Atomic updates and rollbacks via partition flips",
+    "API-driven configuration with automatic migration",
+    "Integrated with AWS services (EKS, ECS)"
+  ],
+  "website": "https://github.com/bottlerocket-os/bottlerocket",
+  "alternatives": [
+    {
+      "name": "Fedora CoreOS",
+      "license": "Open Source",
+      "platforms": [
+        "Bare Metal",
+        "AWS",
+        "Azure",
+        "GCP",
+        "VMware",
+        "OpenStack",
+        "QEMU",
+        "VirtualBox",
+        "IBM Cloud",
+        "KubeVirt",
+        "DigitalOcean",
+        "Exoscale",
+        "Vultr",
+        "Raspberry Pi 4 (AArch64)"
+      ],
+      "mainFeatures": [
+        "Minimal and automatically updating OS",
+        "Immutable infrastructure managed with Ignition",
+        "Atomic updates and rollbacks (rpm-ostree)",
+        "Security-focused with SELinux",
+        "Successor to CoreOS Container Linux"
+      ],
+      "website": "https://getfedora.org/en/coreos/"
+    },
+    {
+      "name": "Ubuntu Core",
+      "license": "Open Source",
+      "platforms": [
+        "IoT Devices",
+        "Robots",
+        "Cloud",
+        "Bare Metal"
+      ],
+      "mainFeatures": [
+        "Minimal and transactionally updated OS",
+        "Uses Snap packages for confinement and updates",
+        "Atomic transactional upgrades and rollbacks",
+        "Security-focused with strict confinement",
+        "Long-term support"
+      ],
+      "website": "https://ubuntu.com/core"
+    },
+    {
+      "name": "Talos Linux",
+      "license": "Open Source - MPL-2.0",
+      "platforms": [
+        "Cloud Platforms (AWS, Azure, GCP)",
+        "Bare Metal",
+        "Virtualization Platforms (VMware, Hyper-V)",
+        "ARM architectures"
+      ],
+      "mainFeatures": [
+        "Minimal, immutable, and secure OS for Kubernetes",
+        "All system management via API (no SSH/shell)",
+        "Atomic updates and eliminates configuration drift",
+        "Hardened by design (read-only rootfs, mTLS)",
+        "Runs in memory from SquashFS"
+      ],
+      "website": "https://www.talos.dev/"
+    },
+    {
+      "name": "Photon OS",
+      "license": "Open Source (GPL v2, LGPL v2.1, EULA)",
+      "platforms": [
+        "VMware vSphere",
+        "Microsoft Azure",
+        "Google Compute Engine",
+        "Amazon Elastic Compute Cloud",
+        "VMware Workstation Pro",
+        "VMware Fusion",
+        "Bare Metal"
+      ],
+      "mainFeatures": [
+        "Minimal Linux container host",
+        "Optimized kernel for VMware hypervisor",
+        "Security-hardened kernel and packages",
+        "Efficient lifecycle management (tdnf)",
+        "Supports persistent volumes"
+      ],
+      "website": "https://vmware.github.io/photon/"
+    },
+    {
+      "name": "Flatcar Container Linux",
+      "license": "Open Source",
+      "platforms": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "VMware",
+        "OpenStack",
+        "Bare Metal",
+        "DigitalOcean",
+        "Vultr",
+        "Packet",
+        "Raspberry Pi 4 (Experimental)"
+      ],
+      "mainFeatures": [
+        "Minimal and self-updating OS for containers",
+        "Designed for scale and security",
+        "Atomic updates via image-based system",
+        "Community-driven successor to CoreOS Container Linux",
+        "Includes minimal components and Docker engine"
+      ],
+      "website": "https://www.flatcar-linux.org/"
+    },
+    {
+      "name": "Red Hat Enterprise Linux CoreOS (RHCOS)",
+      "license": "Commercial",
+      "platforms": [
+        "Bare Metal",
+        "vSphere",
+        "AWS",
+        "Azure",
+        "GCP"
+      ],
+      "mainFeatures": [
+        "Immutable container operating system",
+        "Designed for OpenShift Container Platform",
+        "Automated and remote upgrade features",
+        "Controlled immutability",
+        "Uses Ignition for provisioning"
+      ],
+      "website": "https://docs.openshift.com/container-platform/latest/architecture/architecture.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Fedora CoreOS",
+    "Red Hat Enterprise Linux CoreOS (RHCOS)"
+  ],
+  "marketPositioning": "Bottlerocket is positioned as a security-focused, minimal, and highly maintainable Linux operating system specifically built for running container workloads. Its key differentiators include its API-driven configuration, atomic updates via partition flips, and deep integration with AWS services, making it a preferred choice for users within the AWS ecosystem. It competes with other container-optimized OSes by focusing on reducing operational complexity and enhancing security through its purpose-built design.",
+  "expandedDescription": "Bottlerocket is a free and open-source Linux-based operating system developed by Amazon Web Services, purpose-built for hosting containers. It is designed to provide a secure, stable, and efficient platform for containerized workloads, particularly in orchestrated environments like Kubernetes (EKS) and Amazon ECS. Bottlerocket stands out with its minimal design, including only the software components necessary to run containers, which reduces the attack surface and improves resource utilization. Configuration is managed via an API, rather than manual file editing, and changes are automatically migrated during updates. Updates are atomic and image-based, utilizing partition flips for fast and reliable rollbacks, minimizing the risk of failed updates. Security is a top priority, featuring a read-only root filesystem and SELinux enforcement. While deeply integrated with AWS, Bottlerocket also supports other environments like VMware and bare metal. It includes specialized \"host containers\" for administrative and control access, providing secure out-of-band management capabilities without a traditional shell on the host."
+}

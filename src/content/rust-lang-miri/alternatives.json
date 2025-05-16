@@ -1,0 +1,144 @@
+{
+  "projectName": "miri",
+  "projectPurpose": "To provide dynamic analysis for Rust programs by interpreting its Mid-level Intermediate Representation (MIR), primarily focused on detecting Undefined Behavior (UB) and memory-related errors, especially within unsafe code, and enforcing Rust's memory model.",
+  "platforms": [
+    "Linux (various architectures)",
+    "Android (various architectures)",
+    "Solaris (various architectures)",
+    "macOS (x86_64)",
+    "FreeBSD (various architectures)",
+    "Web (Rust Playground integration)"
+  ],
+  "mainFeatures": [
+    "Undefined Behavior detection",
+    "Memory error detection (e.g., out-of-bounds access, use-after-free, uninitialized data)",
+    "Data race detection",
+    "Memory leak detection",
+    "Cross-interpretation for foreign targets",
+    "Checks Rust-specific invariants (e.g., Stacked Borrows, pointer provenance)"
+  ],
+  "website": "https://github.com/rust-lang/miri",
+  "alternatives": [
+    {
+      "name": "Valgrind",
+      "license": "Open Source - GNU General Public License v2",
+      "platforms": [
+        "Linux",
+        "Android",
+        "Solaris",
+        "macOS (older versions)",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "Memory error detection (Memcheck)",
+        "Memory leak detection (Memcheck)",
+        "Thread error detection (Helgrind, DRD)",
+        "Profiling (Cachegrind, Callgrind, Massif)",
+        "Dynamic binary instrumentation framework"
+      ],
+      "website": "https://valgrind.org/"
+    },
+    {
+      "name": "AddressSanitizer (ASan)",
+      "license": "Open Source (part of LLVM/GCC)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD",
+        "NetBSD",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Memory access error detection (out-of-bounds, use-after-free, use-after-return)",
+        "Memory leak detection (optional)",
+        "Fast compiler instrumentation",
+        "Detailed error reports",
+        "Integrated into GCC and Clang"
+      ],
+      "website": "https://clang.llvm.org/docs/AddressSanitizer.html"
+    },
+    {
+      "name": "ThreadSanitizer (TSan)",
+      "license": "Open Source (part of LLVM/GCC)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD",
+        "NetBSD",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Data race detection",
+        "Compiler instrumentation and runtime library",
+        "Supports happens-before and lockset algorithms",
+        "Detects violations of async signal-safety"
+      ],
+      "website": "https://clang.llvm.org/docs/ThreadSanitizer.html"
+    },
+    {
+      "name": "MemorySanitizer (MSan)",
+      "license": "Open Source (part of LLVM/GCC)",
+      "platforms": [
+        "x86_64",
+        "AArch64",
+        "PPC64",
+        "MIPS64"
+      ],
+      "mainFeatures": [
+        "Uninitialized memory read detection",
+        "Bit-level uninitialized data tracking",
+        "Use-after-destruction detection",
+        "Origin tracking for debugging"
+      ],
+      "website": "https://clang.llvm.org/docs/MemorySanitizer.html"
+    },
+    {
+      "name": "UndefinedBehaviorSanitizer (UBSan)",
+      "license": "Open Source (part of LLVM/GCC)",
+      "platforms": [
+        "Cross-platform (where GCC/Clang are available)"
+      ],
+      "mainFeatures": [
+        "Runtime detection of various Undefined Behavior types",
+        "Detects integer overflows, invalid casts, misaligned pointers",
+        "Compiler instrumentation"
+      ],
+      "website": "https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html"
+    },
+    {
+      "name": "Rudra",
+      "license": "Open Source",
+      "platforms": [
+        "Linux (via Docker)"
+      ],
+      "mainFeatures": [
+        "Static analysis for Rust",
+        "Detects common Rust unsafe code UB",
+        "Analyzes single packages or entire repositories",
+        "Focuses on memory safety and concurrency bugs in Rust"
+      ],
+      "website": "https://github.com/sslab-gatech/Rudra"
+    },
+    {
+      "name": "Clang Static Analyzer",
+      "license": "Open Source - Apache 2.0 with LLVM exceptions",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Static analysis for C, C++, Objective-C",
+        "Path-sensitive analysis",
+        "Detects uninitialized reads, use-after-free, memory leaks",
+        "Finds bugs through symbolic execution"
+      ],
+      "website": "https://clang-analyzer.llvm.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Valgrind",
+    "Google Sanitizers (ASan, TSan, MSan)"
+  ],
+  "marketPositioning": "Miri is positioned as a specialized, high-precision dynamic analysis tool uniquely designed for the Rust ecosystem. Unlike general-purpose memory debuggers or sanitizers primarily targeting C/C++, Miri operates on Rust's MIR to deeply understand and verify compliance with Rust's specific memory model and unsafe code rules. It is an essential tool for Rust developers working on low-level code, standard libraries, or the compiler itself, providing targeted detection of Undefined Behavior and memory errors that leverage Rust's unique semantics. Its integration into the Rust toolchain and support for cross-interpretation further solidify its role as the go-to runtime verification tool within the Rust development workflow."
+}

@@ -1,0 +1,140 @@
+{
+  "projectName": "ChatGPT",
+  "projectPurpose": "To provide a feature-rich, cross-platform desktop application wrapper for the ChatGPT web interface.",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Cross-platform support (macOS, Windows, Linux)",
+    "System-wide shortcut keys for quick access",
+    "Slash commands for prompt management",
+    "Synchronize and import prompts from a web repository",
+    "Export ChatGPT history (PNG, PDF, Markdown)",
+    "Text-to-Speech",
+    "Screenshot capture and discussion",
+    "Document and image analysis",
+    "Theme switching"
+  ],
+  "website": "https://github.com/lencx/ChatGPT",
+  "alternatives": [
+    {
+      "name": "Official ChatGPT Desktop App (OpenAI)",
+      "license": "Proprietary",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Instant answers via shortcut",
+        "Advanced Voice chat",
+        "Web search",
+        "Take and share screenshots",
+        "Upload files and photos"
+      ],
+      "website": "https://chat.openai.com/"
+    },
+    {
+      "name": "ChatBox",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Supports GPT-4 / GPT-3.5 (OpenAI API)",
+        "Store message data locally",
+        "Supports Markdown",
+        "User-friendly UI",
+        "Supports multiple models"
+      ],
+      "website": "https://github.com/Bin-Huang/chatbox"
+    },
+    {
+      "name": "Open WebUI",
+      "license": "Open Source",
+      "platforms": [
+        "Web (Self-hosted)"
+      ],
+      "mainFeatures": [
+        "User-friendly interface",
+        "Supports various LLMs (OpenAI, Anthropic, local)",
+        "Self-hosted via Docker",
+        "RAG support",
+        "Markdown support"
+      ],
+      "website": "https://github.com/open-webui/open-webui"
+    },
+    {
+      "name": "LibreChat",
+      "license": "Open Source",
+      "platforms": [
+        "Web (Self-hosted)"
+      ],
+      "mainFeatures": [
+        "Supports multiple AI backends",
+        "Multi-user sessions",
+        "Advanced context management",
+        "Agent builder",
+        "Supports function calling and plugins"
+      ],
+      "website": "https://github.com/danny-avila/LibreChat"
+    },
+    {
+      "name": "GPT4All",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Runs language models locally (offline)",
+        "Supports various models",
+        "Document Q&A",
+        "Desktop chat client"
+      ],
+      "website": "https://gpt4all.io/"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Windows",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Access to GPT-4o (with tiers)",
+        "Integrates with Microsoft Office apps (Pro)",
+        "Web search",
+        "Chat capabilities"
+      ],
+      "website": "https://copilot.microsoft.com/"
+    },
+    {
+      "name": "Google Gemini",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Mobile",
+        "Integrated into Google services"
+      ],
+      "mainFeatures": [
+        "Multimodal AI (text and image)",
+        "Integrates with Google Workspace",
+        "Real-time web data access",
+        "Creative text generation"
+      ],
+      "website": "https://gemini.google.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Official ChatGPT (Web/Mobile)",
+    "Microsoft Copilot",
+    "Google Gemini"
+  ],
+  "marketPositioning": "lencx/ChatGPT is positioned as a feature-rich, open-source, third-party desktop wrapper for the ChatGPT web interface. It distinguishes itself by offering broad cross-platform support, including Linux, and providing a suite of productivity-enhancing features such as system-wide shortcuts, advanced prompt management, and history export options, which may extend beyond the capabilities of the standard web interface or the official desktop application, particularly on non-Windows/macOS platforms. Its open-source nature appeals to users prioritizing transparency and customization within the desktop AI chat experience."
+}

@@ -1,0 +1,95 @@
+{
+  "projectName": "ast-grep",
+  "projectPurpose": "To provide a fast, polyglot, and user-friendly command-line interface (CLI) tool for developers to perform structural search, linting, and rewriting of code across various programming languages using Abstract Syntax Trees (AST). It aims to be a more precise and efficient alternative to text-based search/replace tools for code manipulation tasks, especially for large-scale codebases and mechanical code changes like API migrations.",
+  "platforms": [
+    "CLI (Linux, macOS, Windows)",
+    "VS Code Extension",
+    "Programmatic API (Node.js bindings)"
+  ],
+  "mainFeatures": [
+    "Structural code search, linting, and rewriting based on AST",
+    "Fast and performant (written in Rust, utilizes multiple cores)",
+    "Polyglot support for many programming languages via tree-sitter",
+    "Intuitive code-like patterns for search and replace",
+    "YAML configuration for writing custom linting and rewrite rules",
+    "Interactive editing experience for reviewing changes",
+    "Programmatic API for advanced usage"
+  ],
+  "website": "https://ast-grep.github.io/",
+  "alternatives": [
+    {
+      "name": "Semgrep",
+      "license": "Open Source (Community Edition), Proprietary (AppSec Platform)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via Docker)",
+        "IDE Integrations",
+        "CI/CD Integrations"
+      ],
+      "mainFeatures": [
+        "Lightweight static analysis for security and correctness",
+        "Code-like patterns for searching",
+        "Supports 30+ languages",
+        "Built-in and custom rules with a large registry",
+        "Dataflow analysis and taint analysis (in paid/advanced versions)"
+      ],
+      "website": "https://semgrep.dev/"
+    },
+    {
+      "name": "SonarQube",
+      "license": "Open Source (Community Edition), Proprietary (Developer, Enterprise, Data Center)",
+      "platforms": [
+        "Server-based",
+        "IDE Integrations (SonarLint)",
+        "CI/CD Integrations"
+      ],
+      "mainFeatures": [
+        "Continuous code quality and security inspection",
+        "Static analysis for bugs, vulnerabilities, and code smells",
+        "Supports a wide range of languages (over 20)",
+        "Code quality metrics and reporting",
+        "Integration with various development tools and CI/CD"
+      ],
+      "website": "https://www.sonarqube.org/"
+    },
+    {
+      "name": "CodeQL",
+      "license": "Proprietary (GitHub Enterprise/Advanced Security for private code), Open Source (for open-source code)",
+      "platforms": [
+        "CLI Tool",
+        "GitHub Actions",
+        "VS Code Extension"
+      ],
+      "mainFeatures": [
+        "Semantic code analysis for security vulnerabilities",
+        "Treats code as data using a query language (QL)",
+        "Supports interprocedural control flow and data flow analysis",
+        "Extensive libraries and predefined security queries",
+        "Integration with GitHub code scanning"
+      ],
+      "website": "https://codeql.github.com/"
+    },
+    {
+      "name": "Comby",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Structural code search and replace",
+        "Lightweight, fuzzy matching approach",
+        "Supports many languages",
+        "Syntactically-aware transformations"
+      ],
+      "website": "https://comby.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SonarQube",
+    "Semgrep"
+  ],
+  "marketPositioning": "ast-grep positions itself as a fast, polyglot, and user-friendly structural code search, linting, and rewriting tool. It acts as a 'syntax-aware grep/sed' and a 'hybrid of grep, eslint and codemod', focusing on precise code manipulation based on ASTs for developers' daily tasks and large-scale code changes. Unlike broader static analysis platforms like SonarQube or security-focused tools like CodeQL, ast-grep emphasizes its speed, ease of use for structural patterns, and practicality for refactoring and code migration, while still offering linting capabilities through a flexible rule system."
+}

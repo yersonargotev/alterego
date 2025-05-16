@@ -1,0 +1,111 @@
+{
+  "projectName": "ord",
+  "projectPurpose": "To implement and provide tools for interacting with the Ordinal theory on the Bitcoin blockchain, enabling the creation, management, and exploration of Bitcoin-native non-fungible tokens (Ordinals).",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Bitcoin Ordinals Indexing",
+    "Bitcoin Block Explorer (Ordinal-aware)",
+    "Command-line Ordinals Wallet",
+    "Inscription of digital content onto satoshis",
+    "Enabling collection and trading of individual satoshis"
+  ],
+  "website": "https://github.com/ordinals/ord",
+  "alternatives": [
+    {
+      "name": "Ordinals Wallet",
+      "license": "Non-custodial (Platform specific, likely proprietary or open-source)",
+      "platforms": [
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Non-custodial Bitcoin wallet with Ordinals support",
+        "View and store Ordinals",
+        "Buy, sell, and trade Ordinals",
+        "Inscribe Ordinals directly within the wallet/marketplace"
+      ],
+      "website": "https://ordinalswallet.com/"
+    },
+    {
+      "name": "Xverse Wallet",
+      "license": "Open Source",
+      "platforms": [
+        "Mobile (iOS, Android)",
+        "Browser Extension"
+      ],
+      "mainFeatures": [
+        "Bitcoin wallet with Taproot support for Ordinals",
+        "Securely store, send, and receive Ordinals",
+        "Connect to Ordinals marketplaces",
+        "Supports BRC-20 tokens"
+      ],
+      "website": "https://www.xverse.app/"
+    },
+    {
+      "name": "UniSat",
+      "license": "Decentralized Application (License information not readily available, likely proprietary for the platform)",
+      "platforms": [
+        "Web",
+        "Browser Extension"
+      ],
+      "mainFeatures": [
+        "Create, trade, and monitor Bitcoin Ordinals",
+        "Ordinals inscription platform",
+        "Bitcoin Ordinals marketplace",
+        "Supports BRC-20 tokens"
+      ],
+      "website": "https://unisat.io/"
+    },
+    {
+      "name": "Gamma.io",
+      "license": "Proprietary (Platform specific)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Bitcoin NFT marketplace",
+        "Launchpad for Ordinals collections",
+        "Tools for creating individual and collection inscriptions",
+        "Supports artist royalties"
+      ],
+      "website": "https://gamma.io/"
+    },
+    {
+      "name": "Magic Eden",
+      "license": "Proprietary (Platform specific)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Multi-chain NFT marketplace (including Bitcoin Ordinals)",
+        "Ordinals inscription tool",
+        "Ordinals launchpad",
+        "Wallet support for various Bitcoin wallets (Xverse, Leather, Unisat)"
+      ],
+      "website": "https://magiceden.io/"
+    },
+    {
+      "name": "Leather Wallet (formerly Hiro Wallet)",
+      "license": "Open Source",
+      "platforms": [
+        "Browser Extension",
+        "Desktop (macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Bitcoin and Stacks wallet",
+        "Securely store, send, and receive Ordinal inscriptions",
+        "Create Ordinal inscriptions directly",
+        "Connect to Ordinals platforms and dApps"
+      ],
+      "website": "https://leather.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Magic Eden"
+  ],
+  "marketPositioning": "ord is positioned as the foundational, technical, command-line interface for the Bitcoin Ordinals protocol. Unlike more user-friendly wallets or marketplaces that abstract away the complexity, ord provides direct access to indexing, block exploration, and wallet operations for satoshis and inscriptions. It is a core piece of infrastructure for the Ordinals ecosystem, primarily targeting developers, researchers, and power users who require granular control and a deep understanding of the protocol, serving as the base layer upon which many other higher-level Ordinals tools and platforms are built."
+}

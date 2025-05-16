@@ -1,0 +1,209 @@
+{
+  "projectName": "uniffi-rs",
+  "projectPurpose": "To simplify the process of calling Rust code from other programming languages by automatically generating Foreign Function Interface (FFI) bindings, enabling code reuse across multiple platforms and languages.",
+  "platforms": [
+    "Android",
+    "iOS",
+    "macOS",
+    "Linux",
+    "Windows",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Automatically generates multi-language bindings from Rust",
+    "Supports Kotlin, Swift, Python, and Ruby out-of-the-box (with community bindings for more)",
+    "Allows defining interfaces using UDL (WebIDL-based) or proc-macros",
+    "Generates Rust scaffolding and foreign language bindings",
+    "Facilitates building cross-platform components with core logic in Rust"
+  ],
+  "website": "https://mozilla.github.io/uniffi-rs",
+  "alternatives": [
+    {
+      "name": "PyO3",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Generate native Python modules from Rust",
+        "Embed Python in Rust binaries",
+        "Supports CPython, PyPy, GraalPy",
+        "Integrates with Maturin for packaging"
+      ],
+      "website": "https://github.com/PyO3/pyo3"
+    },
+    {
+      "name": "rust-bindgen",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "C",
+        "C++",
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Generates Rust FFI bindings from C/C++ headers",
+        "Uses libclang for parsing",
+        "Supports a subset of C++ features",
+        "Official tool of the Rust project"
+      ],
+      "website": "https://github.com/rust-lang/rust-bindgen"
+    },
+    {
+      "name": "cxx",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust",
+        "C++"
+      ],
+      "mainFeatures": [
+        "Safe interop between Rust and C++",
+        "Avoids unsafe C-style bindings",
+        "Supports idiomatic types from both languages",
+        "Low/negligible FFI overhead"
+      ],
+      "website": "https://github.com/dtolnay/cxx"
+    },
+    {
+      "name": "swift-bridge",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust",
+        "Swift",
+        "iOS",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Generates FFI bindings for Rust and Swift",
+        "Allows passing high-level types",
+        "Supports bridging async functions and generics",
+        "Focuses specifically on Rust-Swift interop"
+      ],
+      "website": "https://github.com/chinedufn/swift-bridge"
+    },
+    {
+      "name": "Diplomat",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust",
+        "C",
+        "C++",
+        "JavaScript"
+      ],
+      "mainFeatures": [
+        "Generates bindings from Rust",
+        "Supports C, C++, and JavaScript",
+        "Described as straightforward to use"
+      ],
+      "website": "https://github.com/rust-diplomat/diplomat"
+    },
+    {
+      "name": "Interoptopus",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust",
+        "C#",
+        "C",
+        "Python",
+        "custom"
+      ],
+      "mainFeatures": [
+        "Generates bindings from Rust",
+        "Supports C#, C, and Python",
+        "Extensible for generating bindings to custom languages"
+      ],
+      "website": "https://github.com/ralfbiedert/interoptopus"
+    },
+    {
+      "name": "SWIG (Simplified Wrapper and Interface Generator)",
+      "license": "Open Source",
+      "platforms": [
+        "C",
+        "C++",
+        "Python",
+        "Perl",
+        "Tcl",
+        "Ruby",
+        "Java",
+        "C#",
+        "PHP",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Generates bindings from C/C++ headers",
+        "Supports a large number of target languages",
+        "Handles complex C/C++ datatypes",
+        "Generates documentation"
+      ],
+      "website": "http://www.swig.org/"
+    },
+    {
+      "name": "wit-bindgen",
+      "license": "Open Source - Apache 2.0 with LLVM exception",
+      "platforms": [
+        "WebAssembly",
+        "Rust",
+        "C/C++",
+        "Java",
+        "Go",
+        "others"
+      ],
+      "mainFeatures": [
+        "Generates bindings based on WIT (WebAssembly Interface Type)",
+        "Part of the WebAssembly Component Model",
+        "Supports multiple languages for WebAssembly interaction"
+      ],
+      "website": "https://github.com/bytecodealliance/wit-bindgen"
+    },
+    {
+      "name": "CppBind",
+      "license": "Open Source - Likely Apache 2.0 or MIT",
+      "platforms": [
+        "C++",
+        "Swift",
+        "Kotlin",
+        "Python"
+      ],
+      "mainFeatures": [
+        "Generates bindings from annotated C++ code",
+        "Supports Swift, Kotlin, and Python",
+        "Handles various C++ features"
+      ],
+      "website": "https://github.com/PicsArt/cppbind"
+    },
+    {
+      "name": "Kotlin Native C Interop (cinterop)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "C",
+        "Kotlin/Native"
+      ],
+      "mainFeatures": [
+        "Allows Kotlin/Native to call C code",
+        "Generates Kotlin wrappers for C libraries",
+        "Part of the Kotlin toolchain"
+      ],
+      "website": "https://kotlinlang.org/docs/native-c-interop.html"
+    },
+    {
+      "name": "Swift C/C++ Interoperability",
+      "license": "Proprietary",
+      "platforms": [
+        "C",
+        "C++",
+        "Objective-C",
+        "Swift",
+        "Apple platforms"
+      ],
+      "mainFeatures": [
+        "Direct interop with C and Objective-C",
+        "Supports C++ interoperability (Swift 5.9+)",
+        "Uses bridging headers"
+      ],
+      "website": "https://developer.apple.com/documentation/swift/c-interoperability"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SWIG (Simplified Wrapper and Interface Generator)"
+  ],
+  "marketPositioning": "UniFFI is positioned as the premier multi-language binding generator specifically for the Rust ecosystem. Unlike general-purpose tools like SWIG that focus on exposing C/C++ to other languages, or language-specific interop tools (like PyO3, swift-bridge, Kotlin cinterop, Swift interop), UniFFI provides a unified workflow for taking Rust code and making it accessible from a diverse set of target languages, particularly strong for mobile platforms (Kotlin for Android, Swift for iOS). Its adoption by a major organization like Mozilla highlights its capability for production-level, cross-platform development leveraging Rust as a core shared library."
+}

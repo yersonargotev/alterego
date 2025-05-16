@@ -1,0 +1,109 @@
+{
+  "projectName": "dust",
+  "projectPurpose": "To provide an enhanced, more user-friendly command-line tool for analyzing and visualizing disk space usage, serving as a modern alternative to the traditional `du` utility.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "BSD",
+    "Unix-like"
+  ],
+  "mainFeatures": [
+    "Tree-like visualization of disk usage in the terminal",
+    "Graphical representation of sizes using bars",
+    "Color-coded output for easy identification of large directories",
+    "More intuitive output format compared to `du`",
+    "Written in Rust for performance and memory safety"
+  ],
+  "website": "https://github.com/bootandy/dust",
+  "alternatives": [
+    {
+      "name": "du",
+      "license": "GNU GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Summarize disk usage of files and directories",
+        "Calculate total disk usage",
+        "Support for various output formats (e.g., human-readable)",
+        "Option to exclude files or directories",
+        "Standard command-line utility"
+      ],
+      "website": "https://www.gnu.org/software/coreutils/"
+    },
+    {
+      "name": "ncdu",
+      "license": "MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Interactive text-mode user interface (ncurses)",
+        "Navigate directories and view sizes",
+        "Delete files/directories from within the interface",
+        "Sort items by size, name, etc.",
+        "Export file listing to JSON"
+      ],
+      "website": "https://dev.yorhel.nl/ncdu"
+    },
+    {
+      "name": "Baobab (Disk Usage Analyzer)",
+      "license": "GNU GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Graphical tree map visualization",
+        "Graphical sunburst charts",
+        "Scan file systems or specific folders",
+        "Scan remote machines via SSH",
+        "Option to delete files/folders graphically"
+      ],
+      "website": "https://wiki.gnome.org/Apps/DiskUsageAnalyzer"
+    },
+    {
+      "name": "WizTree",
+      "license": "Freeware (Personal), Proprietary (Commercial)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Extremely fast scanning (reads NTFS MFT directly)",
+        "Graphical tree map visualization",
+        "Quickly identify largest files and folders",
+        "Export data to CSV",
+        "Find duplicate files"
+      ],
+      "website": "https://wiztreefree.com/"
+    },
+    {
+      "name": "TreeSize Free",
+      "license": "Freeware",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Scan and display folder sizes in a tree structure (Explorer-like)",
+        "Visualize space usage with bar chart and treemap",
+        "Show file count",
+        "Scan network drives (limited in free version)",
+        "Scan mobile devices"
+      ],
+      "website": "https://www.jam-software.com/treesize_free"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "du",
+    "ncdu"
+  ],
+  "marketPositioning": "dust is positioned as a modern, command-line disk usage analyzer that aims to be a more intuitive and visually appealing replacement for the standard `du` utility. By providing a tree-like structure with graphical bars and colors directly in the terminal, it offers a better user experience than the raw output of `du`. It differentiates itself from interactive tools like `ncdu` by focusing on a clear, static output designed for quick overview rather than interactive navigation. Its implementation in Rust emphasizes performance and modern software development practices."
+}

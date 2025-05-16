@@ -1,0 +1,95 @@
+{
+  "projectName": "pueue",
+  "projectPurpose": "Pueue is a command-line task management tool for queuing, managing, and executing shell commands, particularly long-running ones, with features like concurrency control, scheduling, and persistence.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Queue shell commands for sequential or parallel execution",
+    "Run long-running tasks in the background (daemon)",
+    "Control the number of tasks running concurrently",
+    "Detach from the terminal while tasks continue to run",
+    "View output and status of running or finished tasks",
+    "Persist the task queue and logs to disk",
+    "Schedule tasks to run at a specific time",
+    "Specify dependencies between tasks",
+    "Pause and resume tasks",
+    "Task grouping (multiple queues)",
+    "Callback hooks",
+    "JSON output for data"
+  ],
+  "website": "https://github.com/Nukesor/pueue",
+  "alternatives": [
+    {
+      "name": "at / batch",
+      "license": "Open Source (GPLv2+)",
+      "platforms": [
+        "Unix-like (Linux, macOS, BSD)",
+        "Windows",
+        "ReactOS"
+      ],
+      "mainFeatures": [
+        "Schedule commands for one-time execution at a specific time (at)",
+        "Schedule commands to run when system load is low (batch)",
+        "Read commands from standard input or a file",
+        "List pending jobs (atq)",
+        "Remove jobs (atrm)"
+      ],
+      "website": "Man pages (part of standard OS)"
+    },
+    {
+      "name": "GNU Screen",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Unix-like (Linux, macOS, BSD)"
+      ],
+      "mainFeatures": [
+        "Terminal multiplexing (multiple sessions)",
+        "Detach and reattach to sessions",
+        "Keep processes running after disconnecting",
+        "Split regions horizontally and vertically",
+        "Window management"
+      ],
+      "website": "https://www.gnu.org/software/screen/"
+    },
+    {
+      "name": "tmux",
+      "license": "Open Source (ISC)",
+      "platforms": [
+        "Unix-like (Linux, macOS, BSD)"
+      ],
+      "mainFeatures": [
+        "Terminal multiplexing (sessions, windows, panes)",
+        "Detach and reattach to sessions",
+        "Keep processes running after disconnecting",
+        "Split panes horizontally and vertically",
+        "Session and window management"
+      ],
+      "website": "https://github.com/tmux/tmux/wiki"
+    },
+    {
+      "name": "Task Spooler (ts)",
+      "license": "Open Source (GPLv2+)",
+      "platforms": [
+        "Unix-like (Linux, macOS, BSD, Cygwin)"
+      ],
+      "mainFeatures": [
+        "Queue jobs for sequential or parallel execution",
+        "Control the number of concurrent jobs",
+        "Jobs run in the correct environment",
+        "Inspect job output and status",
+        "Simple command-line interface for scripting"
+      ],
+      "website": "https://viric.name/soft/ts/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "cron (for recurring jobs)",
+    "at/batch (for one-time scheduled jobs)",
+    "GNU Screen / tmux (for session management and detaching)",
+    "Task Spooler (ts) (for command queuing and concurrency control)"
+  ],
+  "marketPositioning": "Pueue is positioned as a modern, feature-rich command-line task management tool that provides a robust queuing system for shell commands. It sits between basic scheduling tools like 'at'/'batch' and full-fledged job schedulers, offering more control over concurrency, dependencies, and persistence than simpler alternatives, while focusing on a per-user, single-system model. Its key differentiators compared to direct competitors like Task Spooler include features like task grouping, callbacks, and JSON output, along with being written in Rust."
+}

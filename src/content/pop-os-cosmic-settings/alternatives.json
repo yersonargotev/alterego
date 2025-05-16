@@ -1,0 +1,101 @@
+{
+  "projectName": "cosmic-settings",
+  "projectPurpose": "To provide the core graphical user interface for users to configure and customize the COSMIC desktop environment.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Provides a graphical interface for configuring the COSMIC desktop environment.",
+    "Manages various system and desktop settings.",
+    "Written in Rust.",
+    "Integrated with the COSMIC desktop environment.",
+    "Modular design for adding/removing pages."
+  ],
+  "website": "https://github.com/pop-os/cosmic-settings",
+  "alternatives": [
+    {
+      "name": "GNOME Control Center",
+      "license": "Open Source - GPL-2.0 or later",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Configures various aspects of the GNOME desktop.",
+        "Includes settings for appearance, hardware, network, and user accounts.",
+        "Provides an overview of available panels.",
+        "Features a search function for settings.",
+        "Main interface for GNOME desktop configuration."
+      ],
+      "website": "https://apps.gnome.org/Settings/"
+    },
+    {
+      "name": "KDE System Settings",
+      "license": "Open Source - GPL-2.0 or later, LGPL-2.0-only, LGPL-3.0-only",
+      "platforms": [
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Comprehensive configuration for KDE Plasma desktop and system.",
+        "Includes settings for appearance, workspace, personalization, network, and hardware.",
+        "Features a search function.",
+        "Allows highlighting changed settings.",
+        "Highly customizable."
+      ],
+      "website": "https://kde.org/plasma-desktop"
+    },
+    {
+      "name": "XFCE Settings Manager",
+      "license": "Open Source - GPL-2.0 or later",
+      "platforms": [
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Centralized configuration management for XFCE.",
+        "Provides dialogs for accessibility, appearance, and display.",
+        "Includes keyboard and mouse settings.",
+        "Manages preferred applications.",
+        "Configures panel, workspaces, and window manager."
+      ],
+      "website": "https://docs.xfce.org/xfce/xfce4-settings/start"
+    },
+    {
+      "name": "MATE Control Center",
+      "license": "Open Source - GPL-2.0 or later, GPLv2+, GPLv3+",
+      "platforms": [
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Main interface for MATE desktop configuration.",
+        "Manages appearance settings (themes, backgrounds).",
+        "Configures hardware like keyboard and mouse.",
+        "Includes network settings.",
+        "Provides tools for user and group management."
+      ],
+      "website": "https://mate-desktop.org/"
+    },
+    {
+      "name": "LXQt Configuration Center",
+      "license": "Open Source - LGPL-2.1 or later, GPL-2.0 or later",
+      "platforms": [
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Summarizes and provides configuration GUIs for LXQt.",
+        "Includes appearance settings.",
+        "Configures keyboard, mouse, and display.",
+        "Manages file associations and locale.",
+        "Can integrate third-party configuration tools."
+      ],
+      "website": "http://www.lxqt.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GNOME Control Center",
+    "KDE System Settings"
+  ],
+  "marketPositioning": "COSMIC Settings is positioned as the native, integrated configuration application for the new COSMIC desktop environment. As a core component of COSMIC, which is built from scratch in Rust with a focus on Wayland, its market position is tied to providing a modern, performant, and cohesive settings experience tailored for the COSMIC DE. While facing established alternatives like GNOME Control Center and KDE System Settings, cosmic-settings differentiates itself by being part of a new, independent desktop environment seeking to offer a distinct user experience and leverage modern technologies, with a design that supports modularity for distribution-specific customizations."
+}

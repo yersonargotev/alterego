@@ -1,0 +1,91 @@
+{
+  "projectName": "BitVM",
+  "projectPurpose": "To enable advanced, programmable smart contract capabilities on the Bitcoin network without requiring changes to its core protocol, by verifying off-chain computations on-chain.",
+  "platforms": [
+    "Bitcoin Layer 2/Paradigm"
+  ],
+  "mainFeatures": [
+    "Enables Turing-complete smart contracts on Bitcoin",
+    "Verifies computations on Bitcoin (optimistic rollup-like)",
+    "Requires no changes to Bitcoin's consensus rules",
+    "Acts as a trust-minimized bridge for second layers",
+    "Supports various computable functions via fraud proofs"
+  ],
+  "website": "https://bitvm.org/",
+  "alternatives": [
+    {
+      "name": "Ethereum",
+      "license": "Open Source (Various)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Turing-complete smart contracts (Solidity, Vyper)",
+        "Decentralized application platform",
+        "Large ecosystem and developer community",
+        "Supports various token standards (ERC-20, ERC-721)"
+      ],
+      "website": "https://ethereum.org/"
+    },
+    {
+      "name": "Cardano",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Smart contract support (Plutus, Marlowe)",
+        "Research-driven development",
+        "Focus on scalability, interoperability, sustainability",
+        "Proof-of-Stake consensus"
+      ],
+      "website": "https://cardano.org/"
+    },
+    {
+      "name": "Stacks",
+      "license": "Open Source",
+      "platforms": [
+        "Web (Layer 2 on Bitcoin)"
+      ],
+      "mainFeatures": [
+        "Brings smart contracts and dApps to Bitcoin",
+        "Settles transactions on Bitcoin",
+        "Clarity smart contract language",
+        "Secured by Bitcoin via Proof of Transfer (PoX)"
+      ],
+      "website": "https://www.stacks.co/"
+    },
+    {
+      "name": "Rootstock (RSK)",
+      "license": "Open Source",
+      "platforms": [
+        "Web (Sidechain secured by Bitcoin)"
+      ],
+      "mainFeatures": [
+        "Smart contract platform secured by Bitcoin",
+        "EVM compatibility",
+        "Uses RBTC (Bitcoin-pegged asset)",
+        "Secured by merged mining with Bitcoin"
+      ],
+      "website": "https://rootstock.io/"
+    },
+    {
+      "name": "Lightning Network",
+      "license": "Open Source",
+      "platforms": [
+        "Bitcoin (Layer 2)"
+      ],
+      "mainFeatures": [
+        "Fast, low-cost Bitcoin transactions",
+        "Off-chain payment channels",
+        "Uses smart contract functionality (HTLCs)",
+        "Scalability for microtransactions"
+      ],
+      "website": "https://lightning.network/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "BitVM is positioned as a novel paradigm for enabling complex, Turing-complete smart contracts on Bitcoin by shifting computation off-chain and using the Bitcoin network for verification through an optimistic rollup-like mechanism. Unlike other solutions that create separate blockchains or sidechains, BitVM aims to leverage Bitcoin's existing security and decentralization directly without requiring changes to its core protocol. This positions it as a potentially more trust-minimized way to bring advanced programmability to Bitcoin compared to alternative Layer 2s or sidechains, although its complexity and reliance on a prover-verifier model present different trade-offs."
+}

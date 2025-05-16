@@ -1,0 +1,133 @@
+{
+  "projectName": "dotslash",
+  "projectPurpose": "To simplify the distribution and deployment of executable files across different operating systems and architectures by fetching the correct binary remotely based on a small descriptor file, eliminating the need to commit large binaries to source control.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Replaces platform-specific executables with a single script containing descriptors.",
+    "Transparently fetches, decompresses, and verifies the appropriate remote artifact.",
+    "Written in Rust for performance and cross-platform compatibility.",
+    "Includes tooling for generating DotSlash files for GitHub releases.",
+    "Enables vendoring a specific version of a tool with minimal effect on repository size."
+  ],
+  "website": "https://github.com/facebook/dotslash",
+  "alternatives": [
+    {
+      "name": "AppImage",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Single file per application",
+        "No installation required",
+        "No root needed",
+        "Works across various Linux distributions",
+        "Optional desktop integration"
+      ],
+      "website": "https://appimage.org/"
+    },
+    {
+      "name": "Flatpak",
+      "license": "Open Source - LGPL-2.1-or-later",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Sandboxing and isolation",
+        "Distribution-agnostic",
+        "Allows developers to provide updates directly",
+        "Consistent application environments",
+        "Efficient storage through deduplication"
+      ],
+      "website": "https://flatpak.org/"
+    },
+    {
+      "name": "Snapcraft (Snap)",
+      "license": "Open Source - GPLv3 (Client & Runtime), Proprietary (Backend)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Self-contained packages (snaps)",
+        "Works across Linux distributions",
+        "Automatic and atomic updates",
+        "Configurable sandbox",
+        "Snap Store for distribution"
+      ],
+      "website": "https://snapcraft.io/"
+    },
+    {
+      "name": "Docker",
+      "license": "Open Source - Apache 2.0 (Engine, for Linux), Proprietary (Docker Desktop for large enterprises)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "OS-level virtualization (containers)",
+        "Packages applications and dependencies",
+        "Consistent environments",
+        "Faster startup times compared to VMs",
+        "Large ecosystem"
+      ],
+      "website": "https://www.docker.com/"
+    },
+    {
+      "name": "PyInstaller",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Bundles Python applications and dependencies",
+        "Creates single executable or directory",
+        "Supports major Python packages",
+        "No Python interpreter needed for users"
+      ],
+      "website": "https://pyinstaller.org/"
+    },
+    {
+      "name": "PHPacker",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Packages PHP scripts/PHARs into executables",
+        "Bundles PHP with the application",
+        "Supports multiple PHP versions",
+        "Cross-platform support"
+      ],
+      "website": "https://phpacker.com/"
+    },
+    {
+      "name": "Paquet Builder",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Creates custom Windows installer packages",
+        "Self-extracting 7z archives",
+        "High-performance compression",
+        "Customizable distribution"
+      ],
+      "website": "https://www.installbuilders.com/paquet-builder.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Docker"
+  ],
+  "marketPositioning": "DotSlash positions itself as a simplified and lightweight alternative for executable deployment, focusing on fetching binaries on demand rather than traditional bundling or full environment virtualization. Its key strengths lie in its simplicity, minimal impact on source control size, and integration with platforms like GitHub releases, differentiating it from more comprehensive solutions like Docker, Flatpak, or Snap, and traditional bundling tools like PyInstaller or Paquet Builder which include the entire binary."
+}

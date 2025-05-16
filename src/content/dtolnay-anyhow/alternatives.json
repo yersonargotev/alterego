@@ -1,0 +1,78 @@
+{
+  "projectName": "anyhow",
+  "projectPurpose": "To provide a simple, convenient, and flexible way to handle errors in Rust applications using a generic, concrete Error type that can wrap any error implementing std::error::Error.",
+  "platforms": [
+    "Cross-platform (Rust crate)"
+  ],
+  "mainFeatures": [
+    "Provides a flexible concrete Error type (anyhow::Error)",
+    "Wraps any type implementing std::error::Error",
+    "Simplifies error propagation with the ? operator",
+    "Allows adding context to errors using .context()",
+    "Supports downcasting to the original error type"
+  ],
+  "website": "https://github.com/dtolnay/anyhow",
+  "alternatives": [
+    {
+      "name": "thiserror",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Cross-platform (Rust crate)"
+      ],
+      "mainFeatures": [
+        "Derive macro for implementing std::error::Error",
+        "Reduces boilerplate for custom error types",
+        "Supports structured error types (enums, structs)",
+        "Allows adding context to errors",
+        "Designed for library error types"
+      ],
+      "website": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "name": "std::error::Error",
+      "license": "Open Source - Rust's standard library license",
+      "platforms": [
+        "Cross-platform (Rust standard library)"
+      ],
+      "mainFeatures": [
+        "Base trait for error types in Rust",
+        "Provides display and debug formatting",
+        "Supports error source chaining",
+        "Integrated with the Result type",
+        "Fundamental building block for error handling"
+      ],
+      "website": "https://doc.rust-lang.org/std/error/trait.Error.html"
+    },
+    {
+      "name": "snafu",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Cross-platform (Rust crate)"
+      ],
+      "mainFeatures": [
+        "Ergonomic error handling with contexts",
+        "Uses a '\u0915\u093e\u0930\u0915' pattern for adding information",
+        "Supports backtraces",
+        "Provides macros for defining errors and adding context"
+      ],
+      "website": "https://github.com/snafu-rs/snafu/"
+    },
+    {
+      "name": "quick-error",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Cross-platform (Rust crate)"
+      ],
+      "mainFeatures": [
+        "Macro for defining simple error types",
+        "Reduces boilerplate for basic errors",
+        "Supports generating Display and Error impls"
+      ],
+      "website": "https://github.com/tailhook/quick-error"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "thiserror"
+  ],
+  "marketPositioning": "Anyhow is positioned as a flexible and convenient error handling solution primarily for Rust applications. It provides a simple, concrete error type that minimizes boilerplate and focuses on ease of use and error propagation with added context. This contrasts with libraries like `thiserror`, which are more focused on defining structured, specific error types suitable for public library APIs."
+}

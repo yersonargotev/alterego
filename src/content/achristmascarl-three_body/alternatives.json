@@ -1,0 +1,128 @@
+{
+  "projectName": "three_body",
+  "projectPurpose": "To provide a basic simulation of the three-body problem, likely for educational or personal exploration purposes, demonstrating the complex gravitational interactions between three massive objects.",
+  "platforms": [],
+  "mainFeatures": [
+    "Rudimentary simulation of the three-body problem",
+    "Computation and visualization of gravitational interactions",
+    "Implemented in Rust"
+  ],
+  "website": "https://github.com/achristmascarl/three_body",
+  "alternatives": [
+    {
+      "name": "REBOUND",
+      "license": "Open Source - GNU General Public License version 3 or later",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "N-body integrator for gravitational systems",
+        "Various integration algorithms (symplectic and non-symplectic)",
+        "Python module and C library",
+        "Real-time 3D visualization",
+        "No external dependencies"
+      ],
+      "website": "https://rebound.readthedocs.io/"
+    },
+    {
+      "name": "AstroGrav",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Mac"
+      ],
+      "mainFeatures": [
+        "Full-featured solar system simulator",
+        "High precision calculations",
+        "General relativity and radiation pressure effects",
+        "Interactive 3D viewing",
+        "Educational tool"
+      ],
+      "website": "https://www.astrograv.co.uk/"
+    },
+    {
+      "name": "GADGET",
+      "license": "Open Source - GNU General Public License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Cosmological N-body/SPH simulations",
+        "Hierarchical tree algorithm for gravity",
+        "Smoothed particle hydrodynamics",
+        "Adaptive force computation and time stepping"
+      ],
+      "website": "https://wwwmpa.mpa-garching.mpg.de/gadget/"
+    },
+    {
+      "name": "Physion",
+      "license": "Free (Web Application)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Interactive physics simulations",
+        "Create and link shapes (rigid bodies)",
+        "Simulate liquids and soft-bodies",
+        "Particle emitters",
+        "JavaScript scripting"
+      ],
+      "website": "https://physion.net/"
+    },
+    {
+      "name": "N-body (MarcVivas/N-body)",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "3D N-body simulation",
+        "Different algorithms (brute-force, Barnes-Hut)",
+        "CPU and GPU parallel programming",
+        "Customizable parameters"
+      ],
+      "website": "https://github.com/MarcVivas/N-body"
+    },
+    {
+      "name": "NBodySimulator.jl",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (runs where Julia runs)"
+      ],
+      "mainFeatures": [
+        "Differentiable N-body simulator",
+        "Scientific machine learning applications",
+        "Astrophysical and molecular dynamics",
+        "Integrates with SciML ecosystem"
+      ],
+      "website": "https://github.com/SciML/NBodySimulator.jl"
+    },
+    {
+      "name": "Universe Sandbox",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "VR"
+      ],
+      "mainFeatures": [
+        "Interactive space simulator",
+        "Gravity, climate, and collision physics",
+        "Manipulate time and gravity",
+        "Create and destroy celestial bodies"
+      ],
+      "website": "https://universesandbox.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Universe Sandbox"
+  ],
+  "marketPositioning": "The `three_body` project is positioned as a rudimentary, code-focused implementation of the three-body problem simulation. It is likely aimed at developers or students interested in the core physics and implementing simulations in Rust, rather than users seeking a full-featured, user-friendly simulation environment for complex systems or detailed analysis. It occupies a niche at the basic or educational end of the N-body simulation software landscape."
+}

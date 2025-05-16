@@ -1,0 +1,110 @@
+{
+  "projectName": "rathole",
+  "projectPurpose": "To provide a secure, stable, lightweight, and high-performance reverse proxy solution for traversing Network Address Translation (NAT), allowing services on private networks to be exposed to the internet.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "BSD",
+    "Docker",
+    "Embedded devices"
+  ],
+  "mainFeatures": [
+    "Lightweight and high-performance",
+    "NAT traversal",
+    "Low resource consumption",
+    "Mandatory service tokens for security",
+    "Optional Noise Protocol encryption and TLS support",
+    "Hot-reloading configuration"
+  ],
+  "website": "https://github.com/rapiz1/rathole",
+  "alternatives": [
+    {
+      "name": "frp (Fast Reverse Proxy)",
+      "license": "Open Source - Apache License V2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Supports TCP, UDP, HTTP, HTTPS",
+        "Authentication, encryption, compression",
+        "Hot-reloading configuration",
+        "Dashboard for statistics"
+      ],
+      "website": "https://github.com/fatedier/frp"
+    },
+    {
+      "name": "ngrok",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Expose local servers to internet",
+        "Secure tunnels (HTTPS by default)",
+        "Web inspection agent",
+        "Replay requests"
+      ],
+      "website": "https://ngrok.com/"
+    },
+    {
+      "name": "localtunnel",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Easily share local web services",
+        "Assigns unique public URL",
+        "Supports HTTPS"
+      ],
+      "website": "https://localtunnel.me/"
+    },
+    {
+      "name": "Cloudflare Tunnel",
+      "license": "Proprietary (Freemium/Enterprise)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Securely connect resources to Cloudflare",
+        "Outbound-only connections",
+        "Supports HTTP, SSH, RDP, etc.",
+        "Integrates with Cloudflare ecosystem"
+      ],
+      "website": "https://www.cloudflare.com/products/tunnel/"
+    },
+    {
+      "name": "boringproxy",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "ARM"
+      ],
+      "mainFeatures": [
+        "Self-hosted server and client",
+        "End-to-end encryption with Let's Encrypt",
+        "Configuration-less operation",
+        "Local Web UI for tunnel management"
+      ],
+      "website": "https://github.com/boringproxy/boringproxy"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ngrok"
+  ],
+  "marketPositioning": "Rathole positions itself as a high-performance and lightweight open-source reverse proxy for NAT traversal, built in Rust. It directly competes with popular alternatives like frp and ngrok by offering superior throughput and lower resource consumption, making it particularly well-suited for performance-critical applications and resource-constrained environments such as embedded devices. Unlike managed services like ngrok or Cloudflare Tunnel, rathole is a self-hosted solution, appealing to users who require more control and prefer open-source software. Its emphasis on performance, efficiency, and robust security features like mandatory tokens and optional encryption carves out a niche within the NAT traversal tool landscape."
+}

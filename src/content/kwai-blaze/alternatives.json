@@ -1,0 +1,133 @@
+{
+  "projectName": "blaze",
+  "projectPurpose": "To provide a high-performance query execution engine compatible with the Apache Spark language, leveraging Arrow-DataFusion and Rust for speed.",
+  "platforms": [
+    "Cross-platform (runs where Rust/Arrow/DataFusion can run)"
+  ],
+  "mainFeatures": [
+    "Blazing-fast query execution",
+    "Apache Spark language compatibility",
+    "Built on Arrow-DataFusion core",
+    "Implemented in Rust"
+  ],
+  "website": "https://github.com/kwai/blaze",
+  "alternatives": [
+    {
+      "name": "Apache Spark",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "JVM-based (Hadoop, Mesos, Kubernetes, Standalone, Cloud)"
+      ],
+      "mainFeatures": [
+        "Unified engine for batch and stream processing",
+        "Spark SQL for interactive queries",
+        "MLlib for machine learning",
+        "Multi-language APIs (Scala, Java, Python, R)"
+      ],
+      "website": "https://spark.apache.org/"
+    },
+    {
+      "name": "Trino",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (On-premise, Cloud)"
+      ],
+      "mainFeatures": [
+        "Distributed SQL query engine",
+        "Federated query support across diverse sources",
+        "High-performance for interactive/batch analytics",
+        "ANSI SQL compliant"
+      ],
+      "website": "https://trino.io/"
+    },
+    {
+      "name": "Presto",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (Hadoop, Cloud Storage, Databases)"
+      ],
+      "mainFeatures": [
+        "Distributed SQL query engine",
+        "Fast analytic queries on large data",
+        "Supports diverse data sources",
+        "In-memory processing"
+      ],
+      "website": "https://prestodb.io/"
+    },
+    {
+      "name": "Apache DataFusion",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (Embeddable library)"
+      ],
+      "mainFeatures": [
+        "Extensible query engine in Rust",
+        "Uses Apache Arrow",
+        "SQL and DataFrame APIs",
+        "Columnar/vectorized execution"
+      ],
+      "website": "https://arrow.apache.org/datafusion/"
+    },
+    {
+      "name": "Dremio",
+      "license": "Open Source (Community) / Proprietary (Enterprise)",
+      "platforms": [
+        "Cross-platform (Cloud, On-premises)"
+      ],
+      "mainFeatures": [
+        "Data Lakehouse Platform",
+        "SQL query engine for data lakes",
+        "Data virtualization",
+        "Query acceleration (Reflections)"
+      ],
+      "website": "https://www.dremio.com/"
+    },
+    {
+      "name": "ClickHouse",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (Linux, Docker, Cloud)"
+      ],
+      "mainFeatures": [
+        "Column-oriented OLAP database",
+        "High-speed query execution",
+        "Real-time analytics",
+        "Distributed architecture"
+      ],
+      "website": "https://clickhouse.com/"
+    },
+    {
+      "name": "Databricks Photon",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (Azure, AWS, GCP - via Databricks)"
+      ],
+      "mainFeatures": [
+        "High-performance vectorized query engine",
+        "Compatible with Apache Spark APIs",
+        "Accelerates SQL/DataFrame workloads",
+        "Written in C++"
+      ],
+      "website": "https://databricks.com/product/photon"
+    },
+    {
+      "name": "Snowflake Snowpark",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (Snowflake platform)"
+      ],
+      "mainFeatures": [
+        "Process data in Snowflake with code (Python, Java, Scala)",
+        "DataFrame API",
+        "Push-down computation to Snowflake",
+        "No data movement"
+      ],
+      "website": "https://www.snowflake.com/snowpark/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Spark",
+    "Trino/Presto"
+  ],
+  "marketPositioning": "Blaze is positioned as a high-performance, open-source query execution engine that offers compatibility with the Apache Spark language. It differentiates itself by utilizing a modern architecture built on Apache Arrow and DataFusion, implemented in Rust, to achieve superior speed. While Apache Spark is a broader data processing framework, Blaze focuses specifically on optimizing the query execution layer. Compared to other distributed SQL engines like Trino/Presto, Blaze's unique selling proposition lies in its Spark language compatibility and its Rust/Arrow/DataFusion core. It competes with proprietary engines like Databricks Photon, which also accelerate Spark workloads, but offers an open-source alternative with a distinct technical foundation."
+}

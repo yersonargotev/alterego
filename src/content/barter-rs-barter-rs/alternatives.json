@@ -1,0 +1,127 @@
+{
+  "projectName": "barter-rs",
+  "projectPurpose": "To provide a high-performance, flexible, and extensible open-source framework written in Rust for developers to build their own quantitative trading systems, including live trading, paper trading, and historical backtesting.",
+  "platforms": [
+    "Rust (Cross-platform)"
+  ],
+  "mainFeatures": [
+    "Build event-driven live-trading systems",
+    "Build event-driven backtesting systems",
+    "High-performance (written in Rust)",
+    "Modular and extensible architecture",
+    "Stream public market data from financial venues",
+    "Stream private account data and execute orders",
+    "Plug and play Strategy and RiskManager components",
+    "Backtest utilities for concurrent backtests",
+    "Flexible Engine for trading on many exchanges simultaneously",
+    "Comprehensive statistics package (PnL, Sharpe, Sortino, Drawdown, etc.)"
+  ],
+  "website": "https://github.com/barter-rs/barter-rs",
+  "alternatives": [
+    {
+      "name": "MetaTrader 4/5",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux (via Wine)",
+        "Web",
+        "Mobile (iOS, Android)"
+      ],
+      "mainFeatures": [
+        "Charting and technical analysis tools",
+        "Automated trading (Expert Advisors)",
+        "Built-in backtesting engine",
+        "Access to MQL marketplace",
+        "Multiple asset classes (Forex, Stocks, Crypto, Commodities)"
+      ],
+      "website": "https://www.metatrader4.com/"
+    },
+    {
+      "name": "QuantConnect (LEAN)",
+      "license": "Open Source (LEAN engine), Proprietary (Cloud Platform)",
+      "platforms": [
+        "Web (Cloud)",
+        "Windows",
+        "macOS",
+        "Linux (On-premise engine)"
+      ],
+      "mainFeatures": [
+        "Cloud-based algorithmic trading platform",
+        "Open-source backtesting engine (LEAN)",
+        "Supports multiple asset classes",
+        "Extensive historical data access",
+        "Live trading and strategy optimization"
+      ],
+      "website": "https://www.quantconnect.com/"
+    },
+    {
+      "name": "Backtrader",
+      "license": "Open Source (GNU Lesser General Public License v3.0)",
+      "platforms": [
+        "Python (Cross-platform)"
+      ],
+      "mainFeatures": [
+        "Event-driven backtesting framework",
+        "Supports various data feeds",
+        "Strategy development and testing",
+        "Performance analysis tools",
+        "Supports live trading"
+      ],
+      "website": "https://www.backtrader.com/"
+    },
+    {
+      "name": "Zipline",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Python (Cross-platform)"
+      ],
+      "mainFeatures": [
+        "Algorithmic trading simulator",
+        "Backtesting engine",
+        "Integrates with Python data science libraries",
+        "Historical data handling",
+        "Event-driven architecture"
+      ],
+      "website": "https://github.com/quantopian/zipline"
+    },
+    {
+      "name": "NautilusTrader",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Python (with Rust components, cross-platform)"
+      ],
+      "mainFeatures": [
+        "High-performance algorithmic trading platform",
+        "Event-driven backtester",
+        "Supports multiple asset classes",
+        "Nanosecond-resolution simulation",
+        "Python API for strategy development"
+      ],
+      "website": "https://github.com/nautechsystems/nautilus_trader"
+    },
+    {
+      "name": "StockSharp",
+      "license": "Open Source, Proprietary",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Algorithmic and quantitative trading platform",
+        "Supports various markets and brokers",
+        "Backtesting and simulation",
+        "Strategy development in C#",
+        "High-frequency trading support"
+      ],
+      "website": "https://stocksharp.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "MetaTrader 4/5"
+  ],
+  "marketPositioning": "Barter-rs is a high-performance, open-source framework written in Rust, designed for developers and quantitative traders who need to build custom event-driven systems for live trading, paper trading, and backtesting. Leveraging Rust's speed, memory safety, and concurrency features, barter-rs provides a robust and scalable foundation for algorithmic trading. Its modular architecture, composed of distinct crates for market data streaming, order execution, strategy implementation, and risk management, allows for significant flexibility and extensibility. This design enables users to integrate custom components and tailor the framework to specific trading strategies and venues. With utilities for running efficient, concurrent backtests and a comprehensive statistics package, barter-rs empowers users to rigorously test their strategies on a system designed to be near-identical to the live trading environment, minimizing discrepancies between simulation and production. Its focus on performance, low-level control, and the benefits of the Rust ecosystem positions it as a powerful tool for building custom, high-frequency, or complex trading solutions, appealing to developers and firms who require a highly optimized and customizable infrastructure."
+}

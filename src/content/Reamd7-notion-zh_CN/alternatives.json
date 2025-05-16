@@ -1,0 +1,36 @@
+{
+  "projectName": "notion-zh_CN",
+  "projectPurpose": "To provide unofficial Chinese language localization for the Notion desktop application.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Applies Chinese language interface to Notion desktop application",
+    "Community-maintained translation",
+    "Enables Chinese UI for users who prefer the desktop client"
+  ],
+  "website": "https://github.com/Reamd7/notion-zh_CN",
+  "alternatives": [
+    {
+      "name": "Notion Official Localization",
+      "license": "Proprietary (Bundled with Notion)",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Mobile (iOS, Android)"
+      ],
+      "mainFeatures": [
+        "Built-in official Chinese language support",
+        "Covers UI and integrated content",
+        "Available across all official Notion platforms",
+        "Officially supported and updated by Notion Labs, Inc."
+      ],
+      "website": "https://www.notion.so/"
+    }
+  ],
+  "mostWellKnownAlternative": "Notion Official Localization",
+  "marketPositioning": "notion-zh_CN positions itself as a community-led initiative to bring Chinese localization to the Notion desktop application, likely serving users who needed Chinese support before official options were comprehensive or available, or who prefer a community version. It acts as a patch or tool to modify the official client, differentiating it from Notion's built-in language settings which are part of the official product offering."
+}

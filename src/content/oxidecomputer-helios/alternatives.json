@@ -1,0 +1,97 @@
+{
+  "projectName": "helios",
+  "projectPurpose": "To serve as the host operating system for the Oxide Rack, a vertically integrated rack-scale cloud computing system, managing hardware resources and hosting virtual machines.",
+  "platforms": [
+    "illumos"
+  ],
+  "mainFeatures": [
+    "Illumos based operating system distribution",
+    "Powers the Oxide Rack hardware platform",
+    "Includes tools for building the OS distribution",
+    "Supports ZFS boot environments for system management",
+    "Integrated with a Rust-based Virtual Machine Monitor (Propolis)",
+    "Designed for tight integration with custom hardware, replacing traditional firmware"
+  ],
+  "website": "https://github.com/oxidecomputer/helios",
+  "alternatives": [
+    {
+      "name": "Ubuntu Server / Debian (with KVM/QEMU)",
+      "license": "Open Source - GPL and other licenses",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "General-purpose server operating system",
+        "Widely used base for virtualization (KVM/QEMU)",
+        "Large software repositories",
+        "Supports various file systems including ZFS on Linux",
+        "Flexible for diverse workloads"
+      ],
+      "website": "https://ubuntu.com/server"
+    },
+    {
+      "name": "FreeBSD (with bhyve)",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "Robust Unix-like operating system",
+        "Includes the bhyve hypervisor",
+        "Integrated ZFS support",
+        "Focus on stability and performance",
+        "Strong networking capabilities"
+      ],
+      "website": "https://www.freebsd.org/"
+    },
+    {
+      "name": "VMware vSphere (ESXi)",
+      "license": "Proprietary/Commercial",
+      "platforms": [
+        "Bare-metal hypervisor"
+      ],
+      "mainFeatures": [
+        "Market-leading bare-metal hypervisor",
+        "Comprehensive virtualization management suite (vCenter)",
+        "Advanced features (vMotion, HA, DRS)",
+        "Wide hardware compatibility",
+        "Enterprise-grade support"
+      ],
+      "website": "https://www.vmware.com/products/vsphere.html"
+    },
+    {
+      "name": "Proxmox VE",
+      "license": "Open Source - AGPL",
+      "platforms": [
+        "Linux (Debian-based)"
+      ],
+      "mainFeatures": [
+        "Open-source virtualization management platform",
+        "Integrates KVM and LXC",
+        "Web-based management interface",
+        "High availability and clustering features",
+        "Software-defined storage (Ceph, ZFS)"
+      ],
+      "website": "https://www.proxmox.com/en/proxmox-ve"
+    },
+    {
+      "name": "Red Hat Enterprise Linux (RHEL) with KVM/oVirt",
+      "license": "Proprietary (RHEL), Open Source (oVirt)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Enterprise-grade Linux distribution",
+        "Strong support for KVM virtualization",
+        "oVirt management platform for KVM",
+        "Focus on stability and security",
+        "Extensive commercial support"
+      ],
+      "website": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "VMware vSphere (ESXi)"
+  ],
+  "marketPositioning": "Helios is positioned not as a standalone operating system or hypervisor, but as a fundamental component of the Oxide Rack's vertically integrated 'cloud computer' system. It differentiates itself by being tightly coupled with custom hardware, replacing traditional firmware with a holistic software design, and providing a pre-integrated, API-driven private cloud experience, contrasting with general-purpose OS and hypervisor alternatives that run on commodity hardware and require separate management layers to achieve similar cloud-like capabilities."
+}

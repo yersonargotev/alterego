@@ -1,0 +1,95 @@
+{
+  "projectName": "helix-gpui",
+  "projectPurpose": "To provide a native graphical user interface (GUI) for the Helix text editor using the high-performance GPUI framework.",
+  "platforms": [],
+  "mainFeatures": [
+    "Graphical user interface for Helix editor",
+    "Utilizes the GPUI framework for GPU acceleration and performance",
+    "Aims to provide a native windowing experience for a terminal-first editor"
+  ],
+  "website": "https://github.com/polachok/helix-gpui",
+  "alternatives": [
+    {
+      "name": "Sublime Text",
+      "license": "Shareware",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Lightweight and fast",
+        "Goto Anything (quick navigation)",
+        "Multiple selections",
+        "Extensive customization via JSON settings",
+        "Package Control system"
+      ],
+      "website": "https://www.sublimetext.com/"
+    },
+    {
+      "name": "Neovide",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "GUI frontend for Neovim",
+        "Smooth scrolling",
+        "Animated effects (cursor, windows)",
+        "Ligature and emoji support"
+      ],
+      "website": "https://github.com/neovide/neovide"
+    },
+    {
+      "name": "Goneovim",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "GUI frontend for Neovim",
+        "Pixel-based smooth scrolling",
+        "Different fonts/sizes per window",
+        "Support for more meta keys"
+      ],
+      "website": "https://github.com/akiyosi/goneovim"
+    },
+    {
+      "name": "Zed",
+      "license": "Open Source (GPL/AGPL/Apache 2.0)",
+      "platforms": [
+        "macOS",
+        "Linux (in development)",
+        "Windows (in development)"
+      ],
+      "mainFeatures": [
+        "High performance (GPU accelerated via GPUI)",
+        "Built-in terminal",
+        "Vim mode",
+        "Integrated AI features",
+        "Collaborative editing"
+      ],
+      "website": "https://zed.dev/"
+    },
+    {
+      "name": "Kakoune-Qt",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Qt-based GUI frontend for Kakoune",
+        "Provides a graphical window for Kakoune"
+      ],
+      "website": "https://github.com/Delapouite/kakoune-qt"
+    }
+  ],
+  "mostWellKnownAlternative": "Visual Studio Code",
+  "marketPositioning": "helix-gpui is positioned as a high-performance native GUI for the Helix text editor. It targets users who prefer the modal editing paradigm and performance characteristics of Rust-based editors like Helix but desire a modern graphical interface. By utilizing the GPUI framework, it aims to offer a smoother and more integrated graphical experience compared to using Helix within a terminal emulator or existing GUI frontends for similar editors, competing with other modal editor GUIs while emphasizing performance and native feel through its choice of UI framework."
+}

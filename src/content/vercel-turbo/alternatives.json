@@ -1,0 +1,114 @@
+{
+  "projectName": "turbo",
+  "projectPurpose": "To provide a high-performance build system specifically designed for JavaScript and TypeScript monorepos and large codebases, focusing on speed and efficiency through features like intelligent caching and parallel task execution.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "High-performance build system",
+    "Optimized for JavaScript and TypeScript",
+    "Written in Rust",
+    "Incremental builds",
+    "Intelligent local and remote caching",
+    "Parallel task execution",
+    "Simple configuration",
+    "Dependency graph analysis",
+    "Watch Mode",
+    "Interactive terminal UI"
+  ],
+  "website": "https://turbo.build/",
+  "alternatives": [
+    {
+      "name": "Nx",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Comprehensive Dependency Graph",
+        "Advanced Local and Distributed Caching",
+        "Built-in Development Tools (Testing, Code Generation)",
+        "Extensible Plugin Ecosystem",
+        "Optimized for Monorepos"
+      ],
+      "website": "https://nx.dev/"
+    },
+    {
+      "name": "Lerna",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Manages multi-package repositories",
+        "Version and publish packages",
+        "Dependency management",
+        "Parallel task execution",
+        "Integrates with package managers and build systems"
+      ],
+      "website": "https://lerna.js.org/"
+    },
+    {
+      "name": "Yarn Workspaces",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Native monorepo support",
+        "Install dependencies in a single pass",
+        "Link workspaces with symlinks",
+        "Single lockfile for the monorepo",
+        "Dependency optimization"
+      ],
+      "website": "https://yarnpkg.com/features/workspaces"
+    },
+    {
+      "name": "pnpm Workspaces",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Efficient disk space usage",
+        "Strict dependency management",
+        "Built-in monorepo support",
+        "Shared dependencies via content-addressable storage",
+        "Run scripts across workspace packages"
+      ],
+      "website": "https://pnpm.io/workspaces"
+    },
+    {
+      "name": "Rush",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Scalable build orchestrator for monorepos",
+        "Designed for large teams and codebases",
+        "Linked packages",
+        "Incremental builds",
+        "Parallel execution"
+      ],
+      "website": "https://rushjs.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Nx"
+  ],
+  "marketPositioning": "Turborepo is positioned as a high-performance, developer-friendly build system optimized for JavaScript and TypeScript monorepos, emphasizing speed through intelligent caching and parallel execution. Its Rust core and simple configuration make it easy to adopt. While less comprehensive than some alternatives like Nx in terms of built-in development tools, Turborepo excels at accelerating build processes and integrates seamlessly with the Vercel ecosystem, making it a strong contender for projects prioritizing build performance and ease of use in a monorepo setup."
+}

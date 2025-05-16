@@ -1,0 +1,96 @@
+{
+  "projectName": "fltr",
+  "projectPurpose": "To provide a command-line text filtering tool that uses natural language questions via large language models as an alternative to traditional pattern matching tools like grep.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Filter text using natural language questions",
+    "Based on large language models (Mistral 7B, Mixtral 8x7B)",
+    "Command-line interface",
+    "Alternative to grep for semantic filtering"
+  ],
+  "website": "https://github.com/moritztng/fltr",
+  "alternatives": [
+    {
+      "name": "GNU Grep",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via WSL or ports)"
+      ],
+      "mainFeatures": [
+        "Pattern matching using regular expressions",
+        "Search files and streams",
+        "Widely available and highly optimized",
+        "Supports various regex syntaxes"
+      ],
+      "website": "https://www.gnu.org/software/grep/"
+    },
+    {
+      "name": "Google Cloud Natural Language AI",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (Cloud Service)"
+      ],
+      "mainFeatures": [
+        "Sentiment analysis",
+        "Entity analysis",
+        "Syntax analysis",
+        "Content classification",
+        "Integration with Google Cloud services"
+      ],
+      "website": "https://cloud.google.com/natural-language"
+    },
+    {
+      "name": "ThoughtSpot",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Desktop"
+      ],
+      "mainFeatures": [
+        "Natural language search for data (SearchIQ)",
+        "AI-powered analytics",
+        "Connects to various data sources",
+        "Creates visualizations from natural language queries"
+      ],
+      "website": "https://www.thoughtspot.com/"
+    },
+    {
+      "name": "ln2sql",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Python)"
+      ],
+      "mainFeatures": [
+        "Translate natural language to SQL queries",
+        "Supports multiple languages via config files",
+        "Learns database model from SQL dump",
+        "Uses NLP techniques for keyword mapping"
+      ],
+      "website": "https://github.com/FerreroJeremy/ln2sql"
+    },
+    {
+      "name": "MCP-Grep",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Cross-platform (Requires Python/MCP)"
+      ],
+      "mainFeatures": [
+        "Grep functionality via Model Context Protocol",
+        "Understands natural language prompts",
+        "Designed for integration with LLMs",
+        "Interactive debugging interface"
+      ],
+      "website": "https://github.com/erniebrodeur/mcp-grep"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GNU Grep"
+  ],
+  "marketPositioning": "fltr is positioned as an innovative command-line text filtering tool that modernizes the traditional grep experience by integrating large language models. It targets users who desire a more intuitive and semantically aware way to search and filter text data using natural language questions, distinguishing itself from regex-based tools and broader, often proprietary, AI text analysis platforms by focusing specifically on the command-line text processing use case with an open-source approach."
+}

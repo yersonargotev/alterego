@@ -1,0 +1,91 @@
+{
+  "projectName": "rust-magic-patterns",
+  "projectPurpose": "To serve as a resource for Rust developers to learn and understand common programming patterns (\"magic patterns\") in a simplified manner, helping them write more idiomatic, maintainable, and effective Rust code.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Provides examples of Rust programming patterns",
+    "Aims to simplify understanding of patterns",
+    "Focuses on 'magical' or powerful Rust techniques"
+  ],
+  "website": "https://github.com/alexpusch/rust-magic-patterns",
+  "alternatives": [
+    {
+      "name": "rust-unofficial/patterns",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web",
+        "Offline (PDF)"
+      ],
+      "mainFeatures": [
+        "Catalogue of Rust design patterns, anti-patterns, and idioms",
+        "Open source book format",
+        "Community contributions",
+        "Covers Idioms and Design Patterns"
+      ],
+      "website": "https://github.com/rust-unofficial/patterns"
+    },
+    {
+      "name": "Refactoring.Guru - Design Patterns in Rust",
+      "license": "Proprietary (Website content free, paid books/courses)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Annotated code examples for classic GoF patterns in Rust",
+        "Covers Creational, Structural, and Behavioral patterns",
+        "Explains practical applicability in Rust"
+      ],
+      "website": "https://refactoring.guru/design-patterns/rust"
+    },
+    {
+      "name": "Rust Design Patterns by Brenden Matthews",
+      "license": "Proprietary (Book)",
+      "platforms": [
+        "N/A (Book format)"
+      ],
+      "mainFeatures": [
+        "Covers classic and Rust-specific patterns",
+        "Includes reusable code samples",
+        "Explains when to use/break patterns",
+        "Discusses anti-patterns"
+      ],
+      "website": "https://www.goodreads.com/book/show/203587205-rust-design-patterns"
+    },
+    {
+      "name": "idiomatic-rust (mre/idiomatic-rust)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Collection of resources for idiomatic Rust",
+        "Curated articles, talks, and repositories",
+        "Community peer-reviewed",
+        "Focuses on concise and conventional Rust code"
+      ],
+      "website": "https://github.com/mre/idiomatic-rust"
+    },
+    {
+      "name": "The Rust Programming Language Book - Patterns and Matching",
+      "license": "Open Source - MIT and Apache 2.0",
+      "platforms": [
+        "Web",
+        "Offline (Book format)"
+      ],
+      "mainFeatures": [
+        "Official documentation on Rust's pattern syntax",
+        "Explains matching literals, variables, destructuring",
+        "Covers fundamental pattern usage in Rust"
+      ],
+      "website": "https://doc.rust-lang.org/book/ch18-00-patterns.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Refactoring.Guru (for general design patterns including Rust)",
+    "Design Patterns: Elements of Reusable Object-Oriented Software (Gang of Four book - for general software design patterns)",
+    "The Rust Programming Language Book (for official Rust pattern matching documentation)"
+  ],
+  "marketPositioning": "rust-magic-patterns is positioned as a focused, open-source resource on GitHub for learning 'magical' or powerful programming patterns specifically within the Rust language. It differentiates itself from broader design pattern resources by concentrating solely on Rust and potentially offering a simplified, example-driven approach to a specific subset of impactful patterns. It competes with other community-driven Rust pattern repositories and official documentation by providing a curated view on elegant Rust techniques."
+}

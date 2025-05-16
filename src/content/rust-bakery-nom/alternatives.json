@@ -1,0 +1,116 @@
+{
+  "projectName": "nom",
+  "projectPurpose": "To provide a high-performance, safe, and flexible parser combinator library in Rust for parsing various data formats.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "Parser combinator approach for building parsers",
+    "Byte-oriented, bit-oriented, and string-oriented parsing",
+    "Zero-copy parsing",
+    "Streaming support",
+    "Leverages Rust's safety and performance features"
+  ],
+  "website": "https://github.com/rust-bakery/nom",
+  "alternatives": [
+    {
+      "name": "combine",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Parser combinator library",
+        "Works with futures for asynchronous parsing",
+        "Strongly typed"
+      ],
+      "website": "https://github.com/Marwes/combine"
+    },
+    {
+      "name": "pest",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Parsing Expression Grammar (PEG) based",
+        "Generates parser from grammar file",
+        "Provides a parse tree (AST)"
+      ],
+      "website": "https://pest.rs/"
+    },
+    {
+      "name": "lalrpop",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "LALR(1) parser generator",
+        "Generates Rust code from grammar file",
+        "Focuses on parsing programming languages"
+      ],
+      "website": "https://github.com/lalrpop/lalrpop"
+    },
+    {
+      "name": "ANTLR",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Cross-platform (Generates code for Java, Python, C++, C#, Go, JavaScript, Dart, PHP, Swift, TypeScript)"
+      ],
+      "mainFeatures": [
+        "Powerful parser generator",
+        "Supports multiple target languages",
+        "Generates parse trees and listeners/visitors",
+        "Uses LL(*) parsing algorithm"
+      ],
+      "website": "https://www.antlr.org/"
+    },
+    {
+      "name": "Bison",
+      "license": "Open Source - GNU GPL",
+      "platforms": [
+        "Cross-platform (Generates code for C, C++, D, Java)"
+      ],
+      "mainFeatures": [
+        "General-purpose parser generator",
+        "Compatible with Yacc",
+        "Generates LR/GLR parsers",
+        "Often used with Flex for lexing"
+      ],
+      "website": "https://www.gnu.org/software/bison/"
+    },
+    {
+      "name": "Lark",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Parsing toolkit for Python",
+        "Supports all context-free grammars",
+        "Multiple parsing algorithms (Earley, LALR(1), CYK)",
+        "Automatic parse tree construction"
+      ],
+      "website": "https://lark-parser.readthedocs.io/"
+    },
+    {
+      "name": "Parsy",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Easy and elegant parser combinator library",
+        "Monadic parser combinator",
+        "Focuses on readability and simplicity"
+      ],
+      "website": "https://github.com/python-parsy/parsy"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ANTLR",
+    "Bison"
+  ],
+  "marketPositioning": "Nom is positioned as a leading parser combinator library within the Rust ecosystem, emphasizing performance, safety, and the ability to handle complex binary and textual data through a composable, in-code approach. Unlike parser generators that rely on external grammar definitions, nom allows developers to define parsers directly in Rust code using combinators, offering a more idiomatic Rust development experience. Its focus on zero-copy and streaming capabilities makes it particularly suitable for applications requiring high efficiency and low memory overhead when processing input data."
+}

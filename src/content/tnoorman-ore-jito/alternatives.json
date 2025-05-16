@@ -1,0 +1,86 @@
+{
+  "projectName": "ore-jito",
+  "projectPurpose": "To provide an optimized miner for the ORE cryptocurrency on the Solana blockchain, leveraging the Jito bundle service for improved transaction handling and mining efficiency.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows (potentially via WSL)"
+  ],
+  "mainFeatures": [
+    "Built on top of Jito bundle service for enhanced transaction handling",
+    "Supports both CPU and GPU hashing",
+    "Manages multiple wallets for mining operations",
+    "Implements evenly consumed SOL for tips and transaction fees",
+    "Adaptive tip adjustment based on Jito tip stream",
+    "Supports bulk operations (mine, register, claim, batch transfer)"
+  ],
+  "website": "https://github.com/tnoorman/ore-jito",
+  "alternatives": [
+    {
+      "name": "Jito-Solana Validator Client",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "MEV-boosted validator client for Solana",
+        "Connects to Jito Block Engine for block space auctions",
+        "Supports atomic transaction bundles",
+        "Enables validators to earn extra tips from MEV searchers",
+        "Contributes to reducing network spam"
+      ],
+      "website": "https://jito.network/"
+    },
+    {
+      "name": "Solana Labs Validator Client (Agave)",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via WSL)"
+      ],
+      "mainFeatures": [
+        "Standard Solana validator software",
+        "Validates transactions and produces blocks",
+        "Participates in Solana's Proof-of-Stake consensus",
+        "Provides RPC API for blockchain data access"
+      ],
+      "website": "https://docs.solana.com/validator"
+    },
+    {
+      "name": "Firedancer",
+      "license": "Open Source",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "New, high-performance Solana validator client",
+        "Developed from scratch in C++",
+        "Aims for significantly higher transaction processing throughput",
+        "Independent codebase for network diversity"
+      ],
+      "website": "https://firedancer.io/"
+    },
+    {
+      "name": "ORE Miner (Generic/Official)",
+      "license": "Likely Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Connects to the ORE program on Solana",
+        "Attempts to solve the ORE proof-of-work puzzle",
+        "Submits solutions as transactions to earn ORE tokens",
+        "Basic ORE mining functionality"
+      ],
+      "website": "(Requires identifying the official ORE project source)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Jito-Solana Validator Client",
+    "Solana Labs Validator Client (Agave)"
+  ],
+  "marketPositioning": "ore-jito is positioned as a specialized and optimized ORE cryptocurrency miner operating on the Solana blockchain. Its key differentiator is the integration with the Jito network's bundle service and MEV infrastructure, aiming to provide miners with faster and more reliable transaction inclusion for submitting mining solutions. It targets ORE miners seeking enhanced performance through GPU support, efficient multi-wallet management, and intelligent, adaptive transaction fee and tip handling. It competes with other potential ORE mining software by offering these advanced features and Jito-specific optimizations."
+}

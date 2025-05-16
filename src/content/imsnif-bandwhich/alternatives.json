@@ -1,0 +1,130 @@
+{
+  "projectName": "bandwhich",
+  "projectPurpose": "To provide a real-time terminal-based tool for monitoring network bandwidth utilization by process, connection, and remote host.",
+  "platforms": [
+    "Linux",
+    "Android",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Real-time terminal bandwidth monitoring",
+    "Displays bandwidth usage by process",
+    "Shows individual connection bandwidth",
+    "Resolves remote IPs to hostnames",
+    "Responsive terminal user interface",
+    "Cross-platform support"
+  ],
+  "website": "https://github.com/imsnif/bandwhich",
+  "alternatives": [
+    {
+      "name": "Nethogs",
+      "license": "Open Source - GPLv2 or later",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "Groups bandwidth by process",
+        "Shows TCP download/upload speed per process",
+        "Real-time monitoring",
+        "Supports IPv4 and IPv6"
+      ],
+      "website": "https://github.com/raboof/nethogs"
+    },
+    {
+      "name": "iftop",
+      "license": "Open Source - GPLv2.0",
+      "platforms": [
+        "Linux",
+        "BSD",
+        "macOS",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Real-time display of bandwidth usage per connection",
+        "Shows total bandwidth usage",
+        "Can filter by host pairs",
+        "Focuses on interface activity"
+      ],
+      "website": "http://www.ex-parrot.com/~pdw/iftop/"
+    },
+    {
+      "name": "bmon",
+      "license": "Open Source - MIT or BSD-2-Clause",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Monitors bandwidth utilization per device",
+        "Supports multiple network interfaces",
+        "Provides graphical and text output",
+        "Real-time diagnostics"
+      ],
+      "website": "https://github.com/tgraf/bmon"
+    },
+    {
+      "name": "vnStat",
+      "license": "Open Source - GPLv2.0",
+      "platforms": [
+        "Linux",
+        "BSD",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Logs network traffic historically (hourly, daily, monthly)",
+        "Low resource usage (uses kernel statistics)",
+        "Can monitor multiple interfaces",
+        "Provides various statistical reports"
+      ],
+      "website": "https://humdi.net/vnstat/"
+    },
+    {
+      "name": "tcpdump",
+      "license": "Open Source - BSD license",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Solaris",
+        "HP-UX",
+        "AIX",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Packet capture and display",
+        "Powerful filtering capabilities",
+        "Command-line interface",
+        "Used for network troubleshooting and analysis"
+      ],
+      "website": "www.tcpdump.org"
+    },
+    {
+      "name": "Wireshark (TShark)",
+      "license": "Open Source - GPLv2 or later",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Solaris",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Graphical and command-line interfaces (TShark)",
+        "Deep packet inspection",
+        "Supports hundreds of protocols",
+        "Live capture and offline analysis"
+      ],
+      "website": "www.wireshark.org"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Wireshark",
+    "iftop",
+    "nethogs"
+  ],
+  "marketPositioning": "bandwhich is positioned as a modern, cross-platform terminal tool for real-time network bandwidth monitoring, specifically focusing on per-process and per-connection usage. It serves as a user-friendly alternative to more general packet analyzers like tcpdump and Wireshark for quickly identifying bandwidth hogs, while offering broader platform support compared to some traditional Linux-centric tools like nethogs or iftop."
+}

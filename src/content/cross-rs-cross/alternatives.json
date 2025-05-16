@@ -1,0 +1,84 @@
+{
+  "projectName": "cross",
+  "projectPurpose": "To simplify and automate zero-setup cross-compilation and cross-testing for Rust projects targeting various architectures by leveraging containerization.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Zero setup cross compilation via containerization (Docker/Podman)",
+    "Provides complete environment, toolchain, and libraries for cross compilation",
+    "Supports cross testing for various architectures using QEMU emulation",
+    "Compatible with stable, beta, and nightly Rust channels",
+    "Same command-line interface as Cargo"
+  ],
+  "website": "https://github.com/cross-rs/cross",
+  "alternatives": [
+    {
+      "name": "Docker",
+      "license": "Apache-2.0 (Engine on Linux), EULA (Desktop - varying)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "OS-level virtualization using containers",
+        "Packages applications and dependencies",
+        "Automates application deployment",
+        "Provides a container registry (Docker Hub)"
+      ],
+      "website": "https://www.docker.com/"
+    },
+    {
+      "name": "Buildroot",
+      "license": "GPL-2.0+",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Builds complete embedded Linux systems",
+        "Generates cross-compilation toolchains",
+        "Creates root filesystems, kernels, and bootloaders",
+        "Supports a wide range of architectures and packages"
+      ],
+      "website": "https://buildroot.org/"
+    },
+    {
+      "name": "Rustup/Cargo",
+      "license": "Apache-2.0, MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Other Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Installs and manages Rust toolchains (Rustup)",
+        "Manages Rust projects, dependencies, and builds (Cargo)",
+        "Supports different Rust release channels (stable, beta, nightly)",
+        "Enables basic cross-compilation with target specification"
+      ],
+      "website": "https://rustup.rs/"
+    },
+    {
+      "name": "cargo-zigbuild",
+      "license": "MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Cargo subcommand for building",
+        "Uses Zig as a cross-compilation linker",
+        "Simplifies linking for various targets",
+        "Faster cross-compilation builds"
+      ],
+      "website": "https://github.com/rust-cross/cargo-zigbuild"
+    }
+  ],
+  "mostWellKnownAlternative": "Docker",
+  "marketPositioning": "Cross positions itself as a specialized, 'zero setup' tool for Rust developers, uniquely combining the power of Rust's build system (Cargo/Rustup) with the isolation and reproducibility of containerization (Docker/Podman) to provide a streamlined experience for cross-compilation and, notably, cross-testing. While alternatives like Rustup/Cargo offer foundational cross-compilation capabilities, they often require manual setup of complex toolchains and dependencies. Buildroot is a broader embedded Linux build system. cargo-zigbuild focuses on simplifying linking but lacks the full environment provision and testing features. Cross fills the gap for Rust users needing an easy, reliable way to build and test for diverse targets without extensive host system configuration."
+}

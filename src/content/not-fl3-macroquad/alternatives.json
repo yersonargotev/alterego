@@ -1,0 +1,171 @@
+{
+  "projectName": "macroquad",
+  "projectPurpose": "To provide a simple, easy-to-use, and efficient cross-platform game engine/library for developers using the Rust programming language, with a focus on 2D development and quick prototyping, while still offering some 3D capabilities.",
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS",
+    "HTML5 (WASM)",
+    "Android",
+    "iOS"
+  ],
+  "mainFeatures": [
+    "Cross-platform support from a single codebase",
+    "Efficient 2D rendering with automatic geometry batching",
+    "Minimal dependencies and fast compile times",
+    "Immediate mode UI library included",
+    "Batteries-included for 2D development (audio, input, text, textures, etc.)",
+    "async/await support for cross-platform main loop"
+  ],
+  "website": "https://github.com/not-fl3/macroquad",
+  "alternatives": [
+    {
+      "name": "Bevy Engine",
+      "license": "Open Source - MIT or Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (WASM)",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Data-driven ECS architecture",
+        "Massively Parallel architecture",
+        "2D and 3D rendering capabilities",
+        "Modular design with plugin system",
+        "Fast compile times (with opt-in features)"
+      ],
+      "website": "https://bevyengine.org/"
+    },
+    {
+      "name": "Fyrox Engine",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Feature-rich 2D and 3D engine",
+        "Integrated full-featured editor",
+        "Physically Based Rendering (PBR)",
+        "Animation system",
+        "Hot reloading for Rust scripts and assets"
+      ],
+      "website": "https://fyrox.rs/"
+    },
+    {
+      "name": "Godot Engine",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web",
+        "Consoles",
+        "VR/AR/XR"
+      ],
+      "mainFeatures": [
+        "All-in-one 2D and 3D engine",
+        "Node-based architecture",
+        "Visual editor",
+        "Multiple scripting languages (GDScript, C#, C++, Rust via GDExtension)",
+        "One-click export to multiple platforms"
+      ],
+      "website": "https://godotengine.org/"
+    },
+    {
+      "name": "Unity",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Mobile (iOS, Android)",
+        "Desktop",
+        "Consoles",
+        "Web (WebGL)",
+        "VR/AR"
+      ],
+      "mainFeatures": [
+        "Cross-platform 2D and 3D engine",
+        "Integrated visual editor",
+        "C# scripting",
+        "Large Asset Store",
+        "Extensive tools for graphics, physics, animation, UI"
+      ],
+      "website": "https://unity.com/"
+    },
+    {
+      "name": "Unreal Engine",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Desktop",
+        "Mobile",
+        "Consoles",
+        "VR/AR"
+      ],
+      "mainFeatures": [
+        "Powerful 3D engine (with 2D support)",
+        "High-fidelity rendering capabilities",
+        "Integrated visual editor and Blueprint visual scripting",
+        "C++ programming support",
+        "Tools for large-scale and AAA game development"
+      ],
+      "website": "https://www.unrealengine.com/"
+    },
+    {
+      "name": "Defold",
+      "license": "Source-available (Defold License, derived from Apache 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Desktop",
+        "Mobile",
+        "Web",
+        "Consoles"
+      ],
+      "mainFeatures": [
+        "Free and source-available engine",
+        "Focused on 2D but capable of 3D",
+        "Embedded IDE and workflow",
+        "Lua scripting with native extension options",
+        "Component-based architecture with messaging system"
+      ],
+      "website": "https://defold.com/"
+    },
+    {
+      "name": "L\u00d6VE2D",
+      "license": "Open Source - zlib/libpng",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Simple 2D framework",
+        "Uses Lua scripting",
+        "Easy to learn API",
+        "Suitable for rapid prototyping",
+        "No built-in editor (uses external text editors)"
+      ],
+      "website": "https://love2d.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Unity",
+    "Unreal Engine"
+  ],
+  "marketPositioning": "Macroquad positions itself as an accessible and efficient cross-platform game library for the Rust ecosystem, particularly well-suited for 2D games, rapid prototyping, and educational purposes. It differentiates itself from other Rust engines like Bevy and Fyrox by emphasizing simplicity, minimal dependencies, and fast iteration cycles, rather than a complex data-driven architecture or a full-featured visual editor. It offers a 'batteries-included' approach for core 2D development needs while remaining lightweight. Compared to established engines like Unity, Unreal Engine, and Godot, Macroquad offers a Rust-native alternative that prioritizes code-centric development and performance benefits of Rust, appealing to developers who prefer a library-like feel or want to build games without leaving the Rust environment. Its broad cross-platform support makes it a versatile choice for developers targeting desktop, web, and mobile platforms."
+}

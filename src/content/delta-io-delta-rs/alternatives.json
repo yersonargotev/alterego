@@ -1,0 +1,117 @@
+{
+  "projectName": "delta-rs",
+  "projectPurpose": "To provide a native Rust library with Python bindings for interacting with Delta Lake tables, enabling ACID transactions, schema enforcement, and time travel without requiring Apache Spark or the JVM.",
+  "platforms": [
+    "Rust",
+    "Python"
+  ],
+  "mainFeatures": [
+    "Native Rust implementation for Delta Lake",
+    "Python bindings",
+    "ACID transactions (inherited from Delta Lake format)",
+    "Schema evolution and enforcement (inherited from Delta Lake format)",
+    "Time Travel (inherited from Delta Lake format)",
+    "Support for various storage backends (local, S3, Azure, GCS)",
+    "Integration with Rust/Python data processing libraries (Pandas, Polars, DataFusion)"
+  ],
+  "website": "https://github.com/delta-io/delta-rs",
+  "alternatives": [
+    {
+      "name": "Apache Spark with Delta Lake",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java",
+        "Scala",
+        "Python",
+        "R",
+        "SQL"
+      ],
+      "mainFeatures": [
+        "ACID transactions on data lakes",
+        "Scalable metadata handling",
+        "Unified batch and streaming data processing",
+        "Schema enforcement and evolution",
+        "Time Travel (data versioning)"
+      ],
+      "website": "https://delta.io/"
+    },
+    {
+      "name": "Databricks Runtime",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (Cloud-based)"
+      ],
+      "mainFeatures": [
+        "Optimized Apache Spark engine",
+        "Managed Delta Lake service with performance enhancements",
+        "Unified platform for data engineering, data science, and machine learning",
+        "Enhanced security and governance features (e.g., Unity Catalog)",
+        "Various integrations and tools for the data lifecycle"
+      ],
+      "website": "https://databricks.com/product/runtime"
+    },
+    {
+      "name": "Apache Iceberg",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java",
+        "Scala",
+        "Python",
+        "Spark",
+        "Flink",
+        "Trino",
+        "Presto",
+        "Hive"
+      ],
+      "mainFeatures": [
+        "Table format for large analytic datasets",
+        "Schema evolution",
+        "Hidden partitioning",
+        "Time travel and rollback",
+        "Supports various storage backends"
+      ],
+      "website": "https://iceberg.apache.org/"
+    },
+    {
+      "name": "Apache Hudi",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java",
+        "Scala",
+        "Spark",
+        "Flink",
+        "Presto",
+        "Trino",
+        "Hive"
+      ],
+      "mainFeatures": [
+        "Upserts and Deletes on data lakes",
+        "Change Streams",
+        "ACID transactions",
+        "Record-level index",
+        "Supports various storage backends"
+      ],
+      "website": "https://hudi.apache.org/"
+    },
+    {
+      "name": "Trino (with Delta Lake Connector)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Distributed SQL Query Engine"
+      ],
+      "mainFeatures": [
+        "Distributed SQL query engine",
+        "Connectors for various data sources, including Delta Lake",
+        "Query Delta Lake tables using SQL",
+        "Supports reading and writing to Delta Lake",
+        "Separates compute from storage"
+      ],
+      "website": "https://trino.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Spark with Delta Lake",
+    "Databricks Runtime"
+  ],
+  "marketPositioning": "Delta-rs is positioned as a high-performance, native alternative for interacting with Delta Lake tables, specifically catering to Rust and Python developers who seek to leverage the benefits of the Delta Lake format without the traditional dependency on Apache Spark or the JVM. It enables more lightweight applications and seamless integration with native Rust and Python data processing ecosystems, differentiating itself by offering a non-JVM-based implementation of the Delta Lake protocol."
+}

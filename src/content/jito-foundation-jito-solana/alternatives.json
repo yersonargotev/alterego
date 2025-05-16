@@ -1,0 +1,94 @@
+{
+  "projectName": "jito-solana",
+  "projectPurpose": "To provide a modified Solana validator client that enables the capture and distribution of Maximal Extractable Value (MEV) on the Solana network, optimizing transaction execution and providing additional rewards to validators and stakers.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "MEV-enabled Solana validator client",
+    "Supports transaction bundling with atomic execution and priority",
+    "Integrates with a Block Engine for off-chain blockspace auctions",
+    "Utilizes a Relayer for transaction forwarding and filtering",
+    "Enables earning and distribution of additional MEV rewards",
+    "Open Source"
+  ],
+  "website": "https://www.jito.network/",
+  "alternatives": [
+    {
+      "name": "Solana Labs Validator Client",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Core Solana network participation (consensus, block production)",
+        "Standard transaction processing",
+        "Forms the base for other Solana clients",
+        "Actively maintained by Solana Labs"
+      ],
+      "website": "https://github.com/solana-labs/solana"
+    },
+    {
+      "name": "Firedancer",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Independent Solana validator client implementation",
+        "Written from scratch for performance and security",
+        "Focus on high throughput and low latency",
+        "Enhances client diversity for network resilience"
+      ],
+      "website": "https://firedancer.vm.wtf/"
+    },
+    {
+      "name": "Sig (Syndica)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Alternative Solana validator client written in Zig",
+        "Optimized for Reads-Per-Second (RPS)",
+        "Aims for code readability and accessibility for contributors",
+        "Enhances client diversity"
+      ],
+      "website": "https://sig.syndica.io/"
+    },
+    {
+      "name": "bloXroute",
+      "license": "Proprietary / Commercial",
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "mainFeatures": [
+        "Blockchain Distribution Network (BDN)",
+        "MEV relays and block submission tools",
+        "Validator gateway for optimizing performance and rewards",
+        "Supports multiple blockchains including Solana"
+      ],
+      "website": "https://bloxroute.com/"
+    },
+    {
+      "name": "Marinade Finance",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Liquid staking protocol on Solana",
+        "Allows staking SOL without locking liquidity",
+        "Provides mSOL liquid staking token",
+        "Integrates with DeFi protocols"
+      ],
+      "website": "https://marinade.finance/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Solana Labs Validator Client"
+  ],
+  "marketPositioning": "Jito-Solana is positioned as the leading MEV-enabled validator client for the Solana network. It differentiates itself from the standard Solana Labs client and other alternative clients (focused on performance or diversity) by offering integrated, specialized features for MEV capture and distribution. Its significant adoption among Solana validators establishes it as the dominant infrastructure for participating in the Solana MEV market and sharing rewards with stakers."
+}

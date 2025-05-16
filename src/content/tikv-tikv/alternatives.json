@@ -1,0 +1,116 @@
+{
+  "projectName": "tikv",
+  "projectPurpose": "To provide a highly scalable, available, and strongly consistent distributed transactional key-value storage layer that serves as a foundational component for building databases and stateful applications requiring ACID compliance and horizontal scalability.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Distributed transactional key-value database",
+    "Transactional APIs with ACID compliance",
+    "Horizontal scalability",
+    "Consistent distributed transactions (inspired by Spanner)",
+    "Coprocessor support (inspired by HBase)",
+    "Geo-Replication",
+    "Automatic sharding and region balancing",
+    "High availability via Raft consensus",
+    "Built in Rust"
+  ],
+  "website": "https://tikv.org/",
+  "alternatives": [
+    {
+      "name": "etcd",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Distributed reliable key-value store",
+        "Consistent and highly available (Raft)",
+        "Simple gRPC API",
+        "Watch support",
+        "Configuration management and service discovery"
+      ],
+      "website": "https://etcd.io/"
+    },
+    {
+      "name": "Consul",
+      "license": "Open Source - MPL 2.0 / Proprietary (Enterprise)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Service discovery and registration",
+        "Health checking",
+        "Key-Value store",
+        "Multi-datacenter support",
+        "Service Mesh capabilities"
+      ],
+      "website": "https://www.consul.io/"
+    },
+    {
+      "name": "CockroachDB",
+      "license": "Open Source (BSL/Apache 2.0) / Proprietary",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Distributed SQL database (built on KV)",
+        "Horizontal scalability and rebalancing",
+        "Strong consistency (ACID)",
+        "High availability and automatic failover",
+        "PostgreSQL compatible SQL API"
+      ],
+      "website": "https://www.cockroachlabs.com/"
+    },
+    {
+      "name": "FoundationDB",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Distributed transactional key-value store",
+        "ACID transactions across multiple keys",
+        "Ordered key-value API",
+        "Fault tolerance and replication",
+        "Layered architecture"
+      ],
+      "website": "https://www.foundationdb.org/"
+    },
+    {
+      "name": "RethinkDB",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Open-source for real-time web",
+        "JSON document store (NoSQL)",
+        "Real-time push updates (changefeeds)",
+        "Distributed with sharding and replication",
+        "Flexible query language (ReQL)"
+      ],
+      "website": "https://rethinkdb.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "etcd",
+    "CockroachDB"
+  ],
+  "marketPositioning": "TiKV is positioned as a robust, open-source, cloud-native distributed transactional key-value database. It serves as a foundational storage layer for building highly scalable and consistent databases (like TiDB) and stateful applications. Unlike simpler key-value stores focused primarily on coordination (like etcd or Consul), TiKV emphasizes strong transactional guarantees and the ability to handle large datasets with high throughput. Compared to distributed SQL databases (like CockroachDB), TiKV operates at a lower level, providing the transactional KV engine rather than a full SQL interface. Its open-source nature, CNCF graduation, and Rust implementation highlight its alignment with modern cloud-native development practices."
+}

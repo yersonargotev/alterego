@@ -1,0 +1,86 @@
+{
+  "projectName": "ratatui",
+  "projectPurpose": "To provide Rust developers with a flexible, lightweight library for creating interactive terminal user interfaces (TUIs), focusing on the rendering aspect while allowing developers to handle input and application state separately.",
+  "platforms": [
+    "Cross-platform (where Rust and supported backends run)"
+  ],
+  "mainFeatures": [
+    "Rust library for building TUIs",
+    "Provides a set of widgets and utilities",
+    "Lightweight rendering engine",
+    "Based on immediate rendering with intermediate buffers",
+    "Flexible layout management",
+    "Supports different terminal backends (Crossterm, Termion, Termwiz)"
+  ],
+  "website": "https://ratatui.rs/",
+  "alternatives": [
+    {
+      "name": "ncurses",
+      "license": "Open Source - MIT-style",
+      "platforms": [
+        "POSIX (Unix, Linux, macOS)",
+        "Windows (via PDcurses)"
+      ],
+      "mainFeatures": [
+        "Cross-terminal compatibility via termcap/terminfo",
+        "Window and subwindow management",
+        "Input handling",
+        "Screen rendering optimization",
+        "Includes panel, menu, and form libraries"
+      ],
+      "website": "http://invisible-island.net/ncurses/"
+    },
+    {
+      "name": "Textual",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Python framework for interactive TUIs",
+        "Inspired by modern web development (CSS for layout)",
+        "Asynchronous event handling",
+        "Runs in the terminal and web browser",
+        "Uses Rich for rendering"
+      ],
+      "website": "https://textual.textualize.io/"
+    },
+    {
+      "name": "Charm Bracelet Bubble Tea",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (where Go runs)"
+      ],
+      "mainFeatures": [
+        "Go framework for building TUIs",
+        "Based on The Elm Architecture",
+        "Includes components library (Bubbles)",
+        "Framerate-based renderer",
+        "Mouse support"
+      ],
+      "website": "https://github.com/charmbracelet/bubbletea"
+    },
+    {
+      "name": "Cursive",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (where Rust is supported)"
+      ],
+      "mainFeatures": [
+        "Views (widgets) system",
+        "Layout management",
+        "Event handling loop",
+        "Supports multiple backends (ncurses, termion, etc.)",
+        "High-level API"
+      ],
+      "website": "https://github.com/gyscos/cursive"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ncurses"
+  ],
+  "marketPositioning": "Ratatui positions itself as a core, lightweight TUI rendering library for the Rust ecosystem. As a fork of tui-rs, it emphasizes continued development and community contributions. Unlike higher-level frameworks that may include built-in event loops or application structures, Ratatui focuses on providing a robust set of widgets and layout tools with an immediate rendering model. This approach gives developers maximum flexibility and control over their application's architecture, event handling, and state management, making it a preferred choice for Rust developers who need a powerful rendering engine without the constraints of a full framework."
+}

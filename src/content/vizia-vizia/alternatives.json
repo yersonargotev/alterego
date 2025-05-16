@@ -1,0 +1,161 @@
+{
+  "projectName": "vizia",
+  "projectPurpose": "To provide a declarative, reactive, and cross-platform graphical user interface (GUI) library in pure Rust for building native-like desktop applications and audio plugins.",
+  "platforms": [
+    "Windows",
+    "Linux",
+    "MacOS"
+  ],
+  "mainFeatures": [
+    "Cross-platform (Windows, Linux, MacOS)",
+    "Declarative UI definition in pure Rust",
+    "Reactive programming model",
+    "Flexible layout system",
+    "Powerful styling with hot-reloading",
+    "Animations",
+    "Built-in views and themes",
+    "Accessibility features",
+    "Localization support",
+    "Optimised rendering (using Skia)",
+    "Audio plugin development backend"
+  ],
+  "website": "https://github.com/vizia/vizia",
+  "alternatives": [
+    {
+      "name": "iced",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Cross-platform",
+        "Elm-inspired (reactive)",
+        "Simple and type-safe API",
+        "Responsive layout",
+        "Built-in and custom widgets"
+      ],
+      "website": "https://iced.rs/"
+    },
+    {
+      "name": "egui",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Web",
+        "Native (Linux, Mac, Windows, Android)",
+        "Game Engine Integration"
+      ],
+      "mainFeatures": [
+        "Immediate mode GUI",
+        "Easy-to-use and portable",
+        "Runs on web and native",
+        "Efficient rendering with textured triangles",
+        "Suitable for tooling and game overlays"
+      ],
+      "website": "https://www.egui.rs/"
+    },
+    {
+      "name": "Slint",
+      "license": "Open Source - GPLv3; Royalty-free; Proprietary",
+      "platforms": [
+        "Embedded",
+        "Desktop (Windows, macOS, Linux)",
+        "Mobile",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Declarative UI with DSL",
+        "Compiles UI to native code",
+        "Lightweight and performant",
+        "Reactive property system",
+        "Bindings for Rust, C++, JavaScript"
+      ],
+      "website": "https://slint.dev/"
+    },
+    {
+      "name": "GTK (via gtk-rs)",
+      "license": "Open Source - GNU LGPL",
+      "platforms": [
+        "GNU/Linux",
+        "Unix",
+        "Windows",
+        "macOS",
+        "HTML5 (Broadway)"
+      ],
+      "mainFeatures": [
+        "Mature and widely used",
+        "Extensive set of widgets",
+        "Backend support for various display systems",
+        "Strong theming capabilities",
+        "Used in many popular applications (GNOME, GIMP)"
+      ],
+      "website": "https://www.gtk.org/"
+    },
+    {
+      "name": "Qt (via bindings)",
+      "license": "Open Source - GPL, LGPL; Proprietary - Commercial",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Embedded",
+        "Mobile (iOS, Android)",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "Comprehensive application framework",
+        "Powerful IDE and design tools",
+        "QML declarative language",
+        "Native look and feel",
+        "Extensive modules beyond GUI"
+      ],
+      "website": "https://www.qt.io/"
+    },
+    {
+      "name": "Avalonia UI",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "Cross-platform .NET UI framework",
+        "XAML-based UI definition",
+        "Inspired by WPF/UWP",
+        "Flexible styling system",
+        "Supports MVVM pattern"
+      ],
+      "website": "https://avaloniaui.net/"
+    },
+    {
+      "name": "Ribir",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Mobile (WIP)",
+        "Web (WIP)"
+      ],
+      "mainFeatures": [
+        "Declarative and reactive",
+        "Non-intrusive programming model",
+        "Purely composed UI",
+        "Compile-time generated update logic",
+        "Aims for multi-platform consistency"
+      ],
+      "website": "https://ribir.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Qt",
+    "GTK"
+  ],
+  "marketPositioning": "Vizia is positioned as a pure-Rust, declarative, and reactive cross-platform GUI library specifically targeting desktop applications (Windows, Linux, macOS), with a notable feature set including powerful styling, animations, accessibility, localization, and specialized support for audio plugin development. It competes within the emerging ecosystem of Rust-native GUI frameworks like iced, egui, and Slint, offering an alternative to using FFI bindings with established C/C++ toolkits like Qt and GTK. Its focus on a pure Rust, declarative approach with advanced features helps differentiate it for developers prioritizing a modern, Rusty development experience for native-feeling applications."
+}

@@ -1,0 +1,130 @@
+{
+  "projectName": "evm-inspectors",
+  "projectPurpose": "To provide a Rust library for hooking into and observing the execution of the Ethereum Virtual Machine (EVM), specifically the `revm` implementation, enabling detailed analysis and debugging.",
+  "platforms": [
+    "Rust ecosystem"
+  ],
+  "mainFeatures": [
+    "Provides EVM execution hooks",
+    "Integrates with the `revm` crate",
+    "Allows low-level observation of EVM execution",
+    "Enables building custom analysis and debugging tools"
+  ],
+  "website": "https://github.com/paradigmxyz/evm-inspectors",
+  "alternatives": [
+    {
+      "name": "Geth (Go-Ethereum)",
+      "license": "Open Source - LGPL-3.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Full Ethereum node client",
+        "Provides debug_traceTransaction and other tracing APIs",
+        "Supports custom JavaScript tracers",
+        "Widely used for interacting with the Ethereum network"
+      ],
+      "website": "https://geth.ethereum.org/"
+    },
+    {
+      "name": "Hardhat",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Ethereum development environment",
+        "Local EVM network (Hardhat Network)",
+        "Solidity stack traces",
+        "console.log for smart contracts"
+      ],
+      "website": "https://hardhat.org/"
+    },
+    {
+      "name": "Foundry",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast EVM development toolkit in Rust",
+        "Forge test framework with built-in debugger",
+        "Anvil local testnet",
+        "Cast CLI for chain interaction"
+      ],
+      "website": "https://book.getfoundry.sh/"
+    },
+    {
+      "name": "Tenderly",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Transaction simulator and debugger",
+        "Monitoring and alerting",
+        "Smart contract profiling",
+        "Forking live networks"
+      ],
+      "website": "https://tenderly.co/"
+    },
+    {
+      "name": "Tevm",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web",
+        "Node.js",
+        "Deno",
+        "Bun"
+      ],
+      "mainFeatures": [
+        "JavaScript-native EVM",
+        "Runs in various JavaScript environments",
+        "EVM execution hooks at opcode level",
+        "Direct Solidity imports with type safety"
+      ],
+      "website": "https://tevm.sh/"
+    },
+    {
+      "name": "ApeWorX EVM Trace",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Python-based transaction tracing tool",
+        "Part of the ApeWorX ecosystem",
+        "Analyzes EVM execution",
+        "Open source"
+      ],
+      "website": "https://pypi.org/project/evm-trace/"
+    },
+    {
+      "name": "sevm (EVM.js)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "JavaScript/TypeScript environments"
+      ],
+      "mainFeatures": [
+        "Symbolic EVM interpreter and decompiler",
+        "Extracts information from bytecode",
+        "Provides advanced hooks for analysis",
+        "Lightweight library"
+      ],
+      "website": "https://github.com/evmjs/sevm"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Hardhat",
+    "Geth"
+  ],
+  "marketPositioning": "evm-inspectors is positioned as a low-level Rust library providing granular access to EVM execution via hooks within the `revm` environment. Unlike higher-level debugging tools or full node clients, it focuses on enabling developers building custom EVM analysis tools, debuggers, and simulations in Rust to intercept and observe opcode-level execution directly. It serves a specific niche within the Rust-based Ethereum development ecosystem, acting as a foundational component for more complex tooling."
+}

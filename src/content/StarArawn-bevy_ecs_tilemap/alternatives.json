@@ -1,0 +1,122 @@
+{
+  "projectName": "bevy_ecs_tilemap",
+  "projectPurpose": "Provides an ECS-friendly tilemap rendering solution for the Bevy game engine, focusing on performance and integration with external map editors.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web",
+    "Android",
+    "iOS"
+  ],
+  "mainFeatures": [
+    "A tile per entity in the ECS",
+    "Fast rendering using a chunked approach",
+    "Supports layers and sparse tile maps",
+    "GPU powered animations",
+    "Supports Isometric and Hexagonal tile maps",
+    "Integration examples for Tiled and LDTK editors"
+  ],
+  "website": "https://github.com/StarArawn/bevy_ecs_tilemap",
+  "alternatives": [
+    {
+      "name": "Tiled Map Editor",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Supports orthogonal, isometric, and hexagonal maps",
+        "Layer and object support",
+        "Supports tile animations",
+        "Extensible with plugins",
+        "Flexible map format (TMX)"
+      ],
+      "website": "https://www.mapeditor.org/"
+    },
+    {
+      "name": "Unity Tilemap",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Supports deployment to various platforms"
+      ],
+      "mainFeatures": [
+        "Integrated visual editor",
+        "Supports different tilemap types (orthogonal, hexagonal, isometric)",
+        "Chunking for performance",
+        "Rule Tiles and Tile Assets",
+        "Integration with Unity's rendering and physics"
+      ],
+      "website": "https://unity.com/"
+    },
+    {
+      "name": "Godot TileMap",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "Android",
+        "iOS",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Integrated visual editor",
+        "Supports various tile shapes and layouts",
+        "Layer support",
+        "Autotiling feature",
+        "Integration with Godot's nodes and physics"
+      ],
+      "website": "https://godotengine.org/"
+    },
+    {
+      "name": "Tilengine",
+      "license": "Open Source - MPL-2.0",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Raspberry Pi"
+      ],
+      "mainFeatures": [
+        "Focuses on retro-style 2D graphics",
+        "Scanline-based rendering for raster effects",
+        "Built-in animation engine",
+        "Pixel-accurate collision detection",
+        "Supports Tiled TMX format"
+      ],
+      "website": "https://tilengine.org/"
+    },
+    {
+      "name": "bevy_ecs_tiled",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Integration with Tiled editor",
+        "Supports various map types and Tiled features",
+        "Entity hierarchy matching Tiled structure",
+        "Hot-reloading",
+        "Uses bevy_ecs_tilemap for rendering"
+      ],
+      "website": "https://docs.rs/bevy_ecs_tiled/latest/bevy_ecs_tiled/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Unity Tilemap",
+    "Godot TileMap",
+    "Tiled Map Editor"
+  ],
+  "marketPositioning": "bevy_ecs_tilemap is positioned as a core tilemap rendering plugin specifically for the Bevy game engine. Its primary differentiator is its deep integration with Bevy's ECS philosophy by representing each tile as an entity, providing fine-grained control and easy interaction within the Bevy ecosystem. While not a visual editor itself, it serves as the performant rendering backend for maps created with external tools like Tiled or LDTK, offering features like chunking, GPU animations, and support for various map projections. It competes within the Bevy ecosystem against other tilemap plugins and indirectly with the built-in tilemap solutions of larger, more general-purpose game engines like Unity and Godot, appealing specifically to developers committed to the Rust-based Bevy framework and its ECS-centric design."
+}

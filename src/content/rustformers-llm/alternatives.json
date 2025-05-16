@@ -1,0 +1,41 @@
+{
+  "projectName": "llm",
+  "projectPurpose": "To provide a Rust-native ecosystem of libraries and tools for efficient and easy-to-use inference with large language models on various hardware.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android"
+  ],
+  "mainFeatures": [
+    "Rust libraries for LLM inference",
+    "Support for various LLM architectures (LLaMA, GPT-2, BLOOM, etc.)",
+    "Utilizes GGML for efficient computation",
+    "Command-line interface for interaction",
+    "Support for hardware acceleration backends (CUDA, Vulkan, Metal, hipBLAS)"
+  ],
+  "website": "https://github.com/rustformers/llm",
+  "alternatives": [
+    {
+      "name": "Ollama",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Simplified local LLM setup and management",
+        "API and CLI interfaces",
+        "Built on llama.cpp for efficient inference",
+        "Supports Modelfiles for model customization",
+        "Automatic model management"
+      ],
+      "website": "https://ollama.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Hugging Face Transformers"
+  ],
+  "marketPositioning": "llm is positioned as a Rust-native ecosystem for large language model inference, targeting Rust developers who value the language's safety, performance, and concurrency. It serves as a Rust-friendly alternative to C/C++ implementations like llama.cpp, aiming to provide a robust and easy-to-use interface for running various LLMs locally. While Hugging Face Transformers offers a broad, Python-centric platform for a wide range of ML tasks, llm focuses specifically on LLM inference within the Rust ecosystem, bringing the efficiencies of underlying libraries like GGML to the Rust development environment."
+}

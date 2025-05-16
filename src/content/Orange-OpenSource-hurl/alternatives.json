@@ -1,0 +1,114 @@
+{
+  "projectName": "hurl",
+  "projectPurpose": "To provide a simple, powerful, and versatile command-line tool for running and testing HTTP requests using a plain text file format, suitable for fetching data and performing API testing in various contexts, including development and CI/CD pipelines.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Run HTTP requests defined in a simple plain text format",
+    "Chain HTTP requests",
+    "Capture values from responses",
+    "Evaluate queries (XPath, JSONPath) on headers and body",
+    "Assert on HTTP status code and response headers",
+    "Supports various APIs (REST, SOAP, GraphQL) and HTML",
+    "Command line interface (CLI)",
+    "Powered by libcurl",
+    "Supports HTTP/3",
+    "Single binary for easy installation"
+  ],
+  "website": "https://hurl.dev",
+  "alternatives": [
+    {
+      "name": "curl",
+      "license": "Open Source (curl license, inspired by MIT/X)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Supports numerous protocols (HTTP, HTTPS, FTP, etc.)",
+        "Data transfer (upload/download)",
+        "SSL/TLS security",
+        "Proxy support",
+        "User authentication"
+      ],
+      "website": "https://curl.se"
+    },
+    {
+      "name": "HTTPie",
+      "license": "Open Source (BSD License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "User-friendly command-line interface",
+        "Intuitive syntax",
+        "Colorized and formatted output",
+        "Built-in JSON support",
+        "Persistent sessions"
+      ],
+      "website": "https://httpie.io"
+    },
+    {
+      "name": "Postman",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "GUI-based interface",
+        "API design and debugging",
+        "Automated API testing with assertions",
+        "API documentation generation",
+        "Collaboration and workspaces"
+      ],
+      "website": "https://www.postman.com"
+    },
+    {
+      "name": "Insomnia",
+      "license": "Open Source (Apache License 2.0) for desktop app",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "GUI-based interface",
+        "API debugging and testing",
+        "OpenAPI specification editor",
+        "Mock API servers",
+        "Environment variables and authentication helpers"
+      ],
+      "website": "https://insomnia.rest"
+    },
+    {
+      "name": "SoapUI",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Java-based)"
+      ],
+      "mainFeatures": [
+        "Functional API testing",
+        "Supports SOAP and REST APIs",
+        "Drag-and-drop test case creation",
+        "Scripting capabilities (Groovy, JavaScript)",
+        "Can import Postman collections"
+      ],
+      "website": "https://www.soapui.org"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Postman",
+    "curl"
+  ],
+  "marketPositioning": "Hurl positions itself as a simple, powerful, and versatile command-line tool for running and testing HTTP requests, serving as a lightweight alternative to GUI clients like Postman and Insomnia, and offering a more human-friendly and test-oriented approach compared to raw curl. Its plain text file format makes it ideal for automation, scripting, and integration into CI/CD workflows, targeting developers and DevOps professionals who prefer a CLI-centric approach for API testing and interaction."
+}

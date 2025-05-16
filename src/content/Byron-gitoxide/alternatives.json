@@ -1,0 +1,94 @@
+{
+  "projectName": "gitoxide",
+  "projectPurpose": "To provide a modern, high-performance, and safe pure Rust library for interacting with Git repositories, serving as an alternative to the official Git CLI or C libraries like libgit2 for Rust developers.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Pure Rust implementation of Git",
+    "Idiomatic, lean, fast & safe API",
+    "Supports core Git operations (clone, fetch, commit, push, etc.)",
+    "Provides libraries and experimental command-line tools",
+    "Optimized for performance (e.g., parallel operations, partial object decoding)"
+  ],
+  "website": "https://github.com/Byron/gitoxide",
+  "alternatives": [
+    {
+      "name": "Git (official CLI)",
+      "license": "Open Source - GPL-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Solaris",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Full-featured version control client",
+        "Command-line interface",
+        "Supports all core Git operations",
+        "Extensive configuration",
+        "Plumbing and porcelain commands"
+      ],
+      "website": "https://git-scm.com/"
+    },
+    {
+      "name": "libgit2",
+      "license": "Open Source - GPLv2 with a Linking Exception",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "iOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Portable, pure C implementation of Git",
+        "Re-entrant linkable library",
+        "Provides a C API",
+        "Minimal dependencies",
+        "Language bindings available"
+      ],
+      "website": "https://libgit2.org/"
+    },
+    {
+      "name": "git2-rs",
+      "license": "Open Source (Inherits aspects of libgit2's license, check crate)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Rust bindings to libgit2 C library",
+        "Allows Rust apps to use libgit2",
+        "Provides a Rust API wrapping libgit2",
+        "Requires libgit2 C library",
+        "Widely used in Rust ecosystem"
+      ],
+      "website": "https://crates.io/crates/git2"
+    },
+    {
+      "name": "JGit",
+      "license": "Open Source - Eclipse Distribution License (EDL) - v1.0",
+      "platforms": [
+        "Platform-independent (Java)"
+      ],
+      "mainFeatures": [
+        "Pure Java implementation of Git",
+        "API for Java applications",
+        "Used in IDEs (e.g., Eclipse)",
+        "Supports most core Git operations",
+        "Embeddable in Java projects"
+      ],
+      "website": "https://eclipse.dev/jgit/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Git (official CLI)",
+    "libgit2"
+  ],
+  "marketPositioning": "Gitoxide is positioned as a pure Rust, high-performance, and memory-safe alternative to existing Git implementations and libraries, particularly targeting the Rust ecosystem. It aims to provide a more idiomatic and efficient developer experience compared to using FFI bindings to C libraries like libgit2, with a focus on speed and correctness for building Git-aware applications, potentially handling large repositories and server-side workloads effectively."
+}

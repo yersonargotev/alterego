@@ -1,0 +1,106 @@
+{
+  "projectName": "proc-macro-workshop",
+  "projectPurpose": "To provide a hands-on, exercise-based workshop for learning how to write Rust procedural macros.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Structured exercises for learning procedural macros",
+    "Covers different types of procedural macros (derive, attribute, function-like)",
+    "Practical application of `syn` and `quote` crates",
+    "Suitable for self-paced learning or guided workshops"
+  ],
+  "website": "https://github.com/dtolnay/proc-macro-workshop",
+  "alternatives": [
+    {
+      "name": "The Rust Programming Language Book (Macros chapter)",
+      "license": "Open Source (MIT/Apache 2.0)",
+      "platforms": [
+        "Web",
+        "eBook"
+      ],
+      "mainFeatures": [
+        "Official comprehensive guide to Rust",
+        "Covers declarative and procedural macros basics",
+        "Explains derive, attribute, and function-like macros",
+        "Introduction to `proc_macro`, `syn`, `quote`"
+      ],
+      "website": "https://doc.rust-lang.org/book/ch19-06-macros.html"
+    },
+    {
+      "name": "The Rust Reference (Procedural Macros section)",
+      "license": "Open Source (MIT/Apache 2.0)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Official technical reference",
+        "Detailed explanation of procedural macro types",
+        "Covers TokenStream input/output",
+        "Information on error handling in macros"
+      ],
+      "website": "https://doc.rust-lang.org/reference/procedural-macros.html"
+    },
+    {
+      "name": "The Little Book of Rust Macros",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Detailed guide on Rust macros",
+        "Covers both declarative and procedural macros",
+        "Explains underlying concepts",
+        "Aims to be a primary learning resource"
+      ],
+      "website": "https://veykril.github.io/tlborm/"
+    },
+    {
+      "name": "Various online tutorials and guides (Blogs)",
+      "license": "Varies (typically free)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Step-by-step explanations",
+        "Practical code examples",
+        "Cover setup and dependencies (`syn`, `quote`)",
+        "Address specific macro use cases"
+      ],
+      "website": "https://blog.logrocket.com/procedural-macros-rust/"
+    },
+    {
+      "name": "Video Tutorials (e.g., YouTube)",
+      "license": "Free to access (typically)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Visual explanation of concepts",
+        "Walkthroughs of coding examples",
+        "Often cover setup and debugging tips",
+        "Diverse range of topics and depth"
+      ],
+      "website": "https://www.youtube.com/results?search_query=rust+procedural+macro+tutorial"
+    },
+    {
+      "name": "syn and quote crate documentation",
+      "license": "Open Source (MIT/Apache 2.0)",
+      "platforms": [
+        "Web (Docs.rs)"
+      ],
+      "mainFeatures": [
+        "API reference for parsing Rust code (`syn`)",
+        "API reference for generating Rust code (`quote`)",
+        "Essential libraries for writing procedural macros",
+        "Include usage examples for core functionalities"
+      ],
+      "website": "https://docs.rs/syn/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "The Rust Programming Language Book (Official Documentation)",
+    "The Rust Reference (Official Documentation)"
+  ],
+  "marketPositioning": "proc-macro-workshop is positioned as a practical, hands-on learning resource for Rust procedural macros, complementing more theoretical documentation like the official book and reference. Its exercise-based structure makes it ideal for developers who learn best by doing and want to gain practical experience in writing macros, particularly for use in workshops or focused self-study."
+}

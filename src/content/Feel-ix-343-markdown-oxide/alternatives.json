@@ -1,0 +1,109 @@
+{
+  "projectName": "markdown-oxide",
+  "projectPurpose": "To provide robust, minimalist, and unbundled Personal Knowledge Management (PKM) features via the Language Server Protocol (LSP) for integration with various text editors, allowing users to manage linked markdown notes within their preferred editing environment.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Wikilink Completions to Files and Headings",
+    "Use and Edit Linked Notes",
+    "Add Tags to Files",
+    "Daily Notes Support",
+    "Utilities for Situational Organization (e.g., creating files from unresolved links, renaming)"
+  ],
+  "website": "https://github.com/Feel-ix-343/markdown-oxide",
+  "alternatives": [
+    {
+      "name": "Obsidian",
+      "license": "Proprietary (Free for personal use)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Markdown-based notes",
+        "Bidirectional linking",
+        "Graph view",
+        "Vast plugin ecosystem",
+        "Local-first data storage"
+      ],
+      "website": "https://obsidian.md/"
+    },
+    {
+      "name": "Logseq",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Markdown-based notes with Outliner focus",
+        "Block references and embeds",
+        "Bidirectional linking",
+        "Daily journals",
+        "Built-in PDF annotation"
+      ],
+      "website": "https://logseq.com/"
+    },
+    {
+      "name": "Roam Research",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Desktop"
+      ],
+      "mainFeatures": [
+        "Networked thought principles",
+        "Daily notes entry point",
+        "Bidirectional linking",
+        "Block references",
+        "Graph overview"
+      ],
+      "website": "https://roamresearch.com/"
+    },
+    {
+      "name": "Foam",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "VS Code Extension"
+      ],
+      "mainFeatures": [
+        "Markdown-based PKM in VS Code",
+        "Graph Visualization",
+        "Wikilinks and Autocompletion",
+        "Daily Notes",
+        "Templates"
+      ],
+      "website": "https://foambubble.github.io/foam/"
+    },
+    {
+      "name": "Dendron",
+      "license": "Open Source",
+      "platforms": [
+        "VS Code Extension"
+      ],
+      "mainFeatures": [
+        "Hierarchical note taking",
+        "Markdown-based notes",
+        "Wikilinks and Backlinks",
+        "Schemas for structure",
+        "Lookup and Refactoring tools"
+      ],
+      "website": "https://www.dendron.so/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Obsidian"
+  ],
+  "marketPositioning": "Markdown-Oxide is positioned as an 'unbundled' and minimalist PKM tool specifically for 'text-editing enthusiasts' and 'software enthusiasts'. Its key differentiator is its implementation as a Language Server Protocol (LSP) server, enabling seamless integration of core PKM features like linking and organization directly into a wide variety of LSP-compatible text editors. This contrasts with most prominent PKM applications (like Obsidian and Logseq) which provide their own editor environments, or even editor extensions (like Foam and Dendron) which may be tied to a specific editor. Markdown-Oxide focuses on providing the PKM engine, allowing users to leverage their highly customized editor setups for the actual note-taking experience.",
+  "expandedDescription": "Markdown-Oxide is a Personal Knowledge Management (PKM) system designed for users who prioritize their existing text editor workflow. Unlike many PKM applications that come with bundled editors, Markdown-Oxide is 'unbundled,' acting as a robust and performant Language Server Protocol (LSP) server. This allows it to integrate core PKM functionalities, such as creating and managing linked notes using wikilinks, supporting daily notes for chronological capture, adding tags, and providing utilities for organizing and refactoring notes (like creating files from unresolved links or renaming elements), directly within a wide range of LSP-compatible text editors, including Neovim, VSCode, Helix, and Zed. Inspired by popular tools like Obsidian and Logseq, Markdown-Oxide focuses on providing essential PKM features while leaving the editing experience to the user's highly customized environment, making it a compelling option for software enthusiasts and those deeply invested in their text editor setups."
+}

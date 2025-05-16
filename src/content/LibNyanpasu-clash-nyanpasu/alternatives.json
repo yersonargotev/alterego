@@ -1,0 +1,123 @@
+{
+  "projectName": "clash-nyanpasu",
+  "projectPurpose": "To provide a user-friendly, cross-platform Graphical User Interface (GUI) for the Clash network proxy tool, enabling users to manage and configure proxy settings, profiles, and providers with advanced features and a modern design.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Built-in support for multiple Clash cores (Clash Premium, Mihomo & Clash Rust)",
+    "Profiles management and enhancement (by YAML, JavaScript & Lua)",
+    "Provider management support",
+    "Google Material You Design UI and animation support",
+    "TUN network card mode support",
+    "Comprehensive script support"
+  ],
+  "website": "https://github.com/LibNyanpasu/clash-nyanpasu",
+  "alternatives": [
+    {
+      "name": "Clash Verge Rev",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Uses the latest Clash Meta (mihomo) kernel",
+        "Enhanced management of configuration files (YAML, JavaScript)",
+        "Simple and beautiful interface design with customizable themes",
+        "Integrated system proxy settings and guard functions",
+        "Visual node and rule editing"
+      ],
+      "website": "https://github.com/clash-verge-rev/clash-verge-rev"
+    },
+    {
+      "name": "V2RayN",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "V2Ray client based on V2Ray, Singbox, and other cores",
+        "Supports VLESS, Shadowsocks, and other protocols",
+        "System proxy integration",
+        "Server subscription support"
+      ],
+      "website": "https://github.com/2dust/v2rayN"
+    },
+    {
+      "name": "Nekoray",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Supports multiple protocols (SOCKS, HTTP, SS, VMess, VLESS, Trojan, TUIC, Na\u00efveProxy, Hysteria2)",
+        "Custom core support",
+        "Cross-platform compatibility"
+      ],
+      "website": "https://github.com/MatsuriDayo/nekoray"
+    },
+    {
+      "name": "v2rayA",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Web GUI client for Project V",
+        "Supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols",
+        "Supports global transparent proxy on Linux",
+        "System proxy on other platforms"
+      ],
+      "website": "https://v2raya.org/"
+    },
+    {
+      "name": "Shadowsocks",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "SOCKS5 proxy",
+        "Encryption",
+        "Designed for bypassing censorship",
+        "Large ecosystem of clients"
+      ],
+      "website": "https://shadowsocks.org/"
+    },
+    {
+      "name": "Proxifier",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Proxy any application regardless of its own proxy support",
+        "Rule-based system for flexible routing",
+        "Supports SOCKS and HTTPS proxies",
+        "Proxy chains",
+        "Lightweight and flexible alternative to VPN"
+      ],
+      "website": "https://www.proxifier.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Shadowsocks",
+    "Proxifier"
+  ],
+  "marketPositioning": "Clash Nyanpasu is positioned as a modern, actively maintained, and feature-rich cross-platform GUI client specifically for the Clash ecosystem. It differentiates itself through its support for multiple Clash cores, extensive profile and scripting capabilities (YAML, JavaScript, Lua), and a focus on a polished user interface with Google Material You Design. It serves users who prefer the Clash rule-based proxy system and seek a powerful, customizable, and aesthetically pleasing desktop application, standing out from older or less actively developed Clash GUIs and offering a Clash-centric alternative to clients for other proxy protocols."
+}

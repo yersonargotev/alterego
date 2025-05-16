@@ -1,0 +1,128 @@
+{
+  "projectName": "surrealdb",
+  "projectPurpose": "To provide a modern, scalable, distributed, and collaborative multi-model database designed for real-time web applications and complex data relationships, simplifying the data and API infrastructure for developers.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "WebAssembly (Browser)",
+    "Docker",
+    "Kubernetes",
+    "Cloud"
+  ],
+  "mainFeatures": [
+    "Multi-model database (document, graph, key-value, time series, etc.)",
+    "Scalable and distributed architecture",
+    "Real-time data synchronization and collaboration",
+    "ACID transactions (multi-row, multi-table)",
+    "Built-in access controls and granular permissions",
+    "SQL-like query language (SurrealQL)",
+    "Graph connections and traversals",
+    "Full-text search",
+    "Change Data Capture",
+    "Can be used as a database server or embedded library"
+  ],
+  "website": "https://surrealdb.com",
+  "alternatives": [
+    {
+      "name": "MongoDB",
+      "license": "Server Side Public License (SSPL) or Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Solaris",
+        "FreeBSD",
+        "Cloud (AWS, Azure, GCP)"
+      ],
+      "mainFeatures": [
+        "Document model (JSON-like)",
+        "Horizontal Scalability (Sharding)",
+        "Replication for High Availability",
+        "Ad-hoc Queries",
+        "Indexing"
+      ],
+      "website": "https://www.mongodb.com/"
+    },
+    {
+      "name": "Neo4j",
+      "license": "Community Edition: GPLv3, Enterprise Edition: Commercial",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Cloud (AWS, Azure, GCP)"
+      ],
+      "mainFeatures": [
+        "Native Graph Database",
+        "ACID Transactions",
+        "Cypher Query Language",
+        "Graph Traversal and Algorithms",
+        "Scalability (Enterprise)"
+      ],
+      "website": "https://neo4j.com/"
+    },
+    {
+      "name": "ArangoDB",
+      "license": "Community Edition: ArangoDB Community License, Enterprise Edition: Commercial",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Docker",
+        "Kubernetes",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Native Multi-model (Document, Graph, Key/Value)",
+        "AQL (ArangoDB Query Language)",
+        "ACID Transactions (non-sharded)",
+        "Horizontal Scaling",
+        "Full-text search"
+      ],
+      "website": "https://www.arangodb.com/"
+    },
+    {
+      "name": "Firebase Realtime Database",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Android",
+        "iOS",
+        "C++",
+        "Unity"
+      ],
+      "mainFeatures": [
+        "Real-time data synchronization",
+        "Offline Capabilities",
+        "Client-side Access",
+        "JSON Data Format",
+        "Integration with Firebase Ecosystem"
+      ],
+      "website": "https://firebase.google.com/products/realtime-database"
+    },
+    {
+      "name": "Couchbase",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Docker",
+        "Cloud (AWS, Azure, GCP)"
+      ],
+      "mainFeatures": [
+        "Distributed Document Database (JSON)",
+        "Key-Value Store",
+        "SQL++ Query Language",
+        "Full-text Search",
+        "In-memory Caching"
+      ],
+      "website": "https://www.couchbase.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "MongoDB"
+  ],
+  "marketPositioning": "SurrealDB positions itself as a unified, end-to-end database platform that simplifies the technology stack for developers building modern, real-time applications. By natively supporting multiple data models (document, graph, etc.) and incorporating real-time capabilities and access control directly into the database, it aims to reduce the need for multiple databases and complex backend logic. Its SQL-like query language makes it accessible, while its flexible deployment options (embedded, server, distributed, cloud) cater to various use cases. It competes with specialized databases by offering a broader, integrated feature set in a single product."
+}

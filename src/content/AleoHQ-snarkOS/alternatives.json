@@ -1,0 +1,74 @@
+{
+  "projectName": "snarkOS",
+  "projectPurpose": "To provide a foundational decentralized operating system specifically designed to support and run zero-knowledge (ZK) applications on the Aleo network, enabling private and scalable decentralized applications.",
+  "platforms": [
+    "Linux (Ubuntu 22.04 LTS)",
+    "macOS (Ventura or later)",
+    "Windows (11 or later)"
+  ],
+  "mainFeatures": [
+    "Decentralized operating system for ZK applications",
+    "Forms the backbone of the Aleo network",
+    "Verifies transactions using zero-knowledge proofs",
+    "Stores encrypted application state in a publicly verifiable manner",
+    "Supports validator and client nodes"
+  ],
+  "website": "https://github.com/AleoHQ/snarkOS",
+  "alternatives": [
+    {
+      "name": "Ethereum + ZK-Rollups (e.g., Polygon zkEVM, StarkNet, zkSync)",
+      "license": "Open Source (various licenses)",
+      "platforms": [
+        "Web",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Leading smart contract platform",
+        "Supports a wide range of dApps",
+        "Leverages ZK-rollups for scalability and privacy",
+        "Large developer ecosystem",
+        "Established network effect"
+      ],
+      "website": "https://ethereum.org/"
+    },
+    {
+      "name": "Zcash",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Privacy-focused cryptocurrency",
+        "Pioneered the use of zk-SNARKs for private transactions",
+        "Optional shielded transactions",
+        "Focus on fungibility",
+        "Established ZK implementation"
+      ],
+      "website": "https://z.cash/"
+    },
+    {
+      "name": "Polygon",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Web",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Scaling solution for Ethereum",
+        "Offers various scaling technologies including ZK-rollups (zkEVM, Zero)",
+        "Lower transaction costs and faster speeds compared to Ethereum mainnet",
+        "Supports Ethereum Virtual Machine (EVM) compatibility",
+        "Growing ecosystem of dApps"
+      ],
+      "website": "https://polygon.technology/"
+    }
+  ],
+  "mostWellKnownAlternative": "Ethereum",
+  "marketPositioning": "snarkOS is positioned as a purpose-built decentralized operating system for zero-knowledge applications, forming the core of the Aleo network. It aims to provide a native environment for private and scalable dApps by integrating ZK proofs deeply into its architecture and consensus mechanism. While other platforms utilize ZK technology, snarkOS differentiates itself by offering a vertically integrated ZK-centric layer 1 blockchain specifically designed for this use case, rather than being a scaling solution or a privacy feature built on top of an existing, more general-purpose blockchain."
+}

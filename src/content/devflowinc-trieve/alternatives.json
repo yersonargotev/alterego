@@ -1,0 +1,78 @@
+{
+  "projectName": "trieve",
+  "projectPurpose": "To provide an all-in-one infrastructure for building AI-powered search, recommendations, and Retrieval Augmented Generation (RAG) applications by combining search language models and tools for tuning ranking and relevance.",
+  "platforms": [
+    "Cross-platform (deployable as infrastructure)"
+  ],
+  "mainFeatures": [
+    "All-in-one infrastructure for search, recommendations, and RAG",
+    "Combines search language models",
+    "Tools for tuning ranking and relevance"
+  ],
+  "website": "https://github.com/devflowinc/trieve",
+  "alternatives": [
+    {
+      "name": "Elasticsearch",
+      "license": "Triple-licensed Elastic License (proprietary; source-available), Server Side Public License (proprietary; source-available) and Affero General Public License (free and open-source)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Distributed full-text search",
+        "Near real-time search",
+        "Scalability and multitenancy",
+        "Can be used as a NoSQL datastore"
+      ],
+      "website": "https://www.elastic.co/elasticsearch/"
+    },
+    {
+      "name": "Algolia",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (SaaS)"
+      ],
+      "mainFeatures": [
+        "Fast and relevant search results",
+        "AI Search & Discovery platform",
+        "Combines vector-based NLP & keyword matching",
+        "Real-time catalog indexing",
+        "Search analytics"
+      ],
+      "website": "https://www.algolia.com/"
+    },
+    {
+      "name": "Weaviate",
+      "license": "Open Source - Apache 2.0 (also offers proprietary cloud)",
+      "platforms": [
+        "Cross-platform (Docker, Kubernetes, Cloud)"
+      ],
+      "mainFeatures": [
+        "Open-source vector database",
+        "Vector-based search (semantic search)",
+        "GraphQL API",
+        "Scalability and high performance"
+      ],
+      "website": "https://weaviate.io/"
+    },
+    {
+      "name": "Qdrant",
+      "license": "Open Source - Apache 2.0 (also offers proprietary cloud/enterprise)",
+      "platforms": [
+        "Cross-platform (Docker, Kubernetes, Cloud)"
+      ],
+      "mainFeatures": [
+        "High-performance vector database",
+        "Vector similarity search engine",
+        "Supports filtering and payload",
+        "Hybrid search with sparse vectors",
+        "Distributed deployment"
+      ],
+      "website": "https://qdrant.tech/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Elasticsearch",
+    "Algolia"
+  ],
+  "marketPositioning": "Trieve positions itself as a unified, all-in-one infrastructure for building modern AI-powered search, recommendation, and RAG applications. Unlike traditional search engines or pure vector databases, it integrates search language models and provides built-in tools for relevance tuning, aiming to simplify the development of intelligent data interaction systems. Its positioning targets developers looking for a comprehensive platform that goes beyond basic vector search or keyword matching, offering more control and potentially self-hosting options compared to proprietary SaaS alternatives like Algolia."
+}

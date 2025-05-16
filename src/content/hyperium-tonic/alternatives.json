@@ -1,0 +1,98 @@
+{
+  "projectName": "tonic",
+  "projectPurpose": "To provide a high-performance and idiomatic gRPC client and server implementation in Rust, leveraging Rust's native asynchronous capabilities.",
+  "platforms": [
+    "Cross-platform (where Rust is supported)"
+  ],
+  "mainFeatures": [
+    "Native gRPC implementation in Rust",
+    "Supports gRPC client functionality",
+    "Supports gRPC server functionality",
+    "Asynchronous programming with async/await",
+    "Leverages the Rust ecosystem"
+  ],
+  "website": "https://github.com/hyperium/tonic",
+  "alternatives": [
+    {
+      "name": "gRPC-Go",
+      "license": "Apache-2.0",
+      "platforms": [
+        "Cross-platform (where Go is supported)"
+      ],
+      "mainFeatures": [
+        "Official gRPC library for Go",
+        "High performance",
+        "Support for streaming RPCs",
+        "Integrated authentication and load balancing",
+        "Code generation from .proto files"
+      ],
+      "website": "https://github.com/grpc/grpc-go"
+    },
+    {
+      "name": "gRPC-Java",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform (where Java is supported)"
+      ],
+      "mainFeatures": [
+        "Official gRPC library for Java",
+        "Supports synchronous and asynchronous calls",
+        "Code generation from .proto files",
+        "Metadata support",
+        "Integration with Java ecosystem"
+      ],
+      "website": "https://github.com/grpc/grpc-java"
+    },
+    {
+      "name": "grpcio (Python)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Official gRPC library for Python",
+        "Supports client and server implementations",
+        "Integration with `grpcio-tools` for code generation",
+        "Support for various RPC types (unary, streaming)",
+        "Based on the gRPC C core library"
+      ],
+      "website": "https://pypi.org/project/grpcio/"
+    },
+    {
+      "name": "@grpc/grpc-js (Node.js)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Official pure JavaScript gRPC library for Node.js",
+        "Client and server support",
+        "Automatic reconnection",
+        "Streaming support",
+        "Client Interceptors"
+      ],
+      "website": "https://github.com/grpc/grpc-node/tree/master/packages/grpc-js"
+    },
+    {
+      "name": "grpcio-rs (Rust)",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Cross-platform (where Rust and gRPC C core are supported)"
+      ],
+      "mainFeatures": [
+        "gRPC library for Rust",
+        "Based on the gRPC C core library",
+        "Supports basic asynchronous calls",
+        "SSL support",
+        "Load balancing support"
+      ],
+      "website": "https://github.com/tikv/grpc-rs"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Official gRPC Implementations (e.g., gRPC-Go, gRPC-Java, grpcio for Python, @grpc/grpc-js for Node.js)"
+  ],
+  "marketPositioning": "Tonic is positioned as a native Rust implementation of gRPC, differentiating itself from gRPC libraries based on the C core (like grpcio-rs) by offering deep integration with Rust's async/await features. This focus on native Rust asynchronous programming provides an appealing alternative for developers building high-performance, idiomatic gRPC services and clients within the Rust ecosystem, competing primarily with other language-specific official gRPC libraries and the C-core based Rust implementation by emphasizing Rust-native advantages."
+}

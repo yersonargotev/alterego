@@ -1,0 +1,91 @@
+{
+  "projectName": "russh",
+  "projectPurpose": "To provide a native Rust library for developers to build custom applications that function as SSH clients, SSH servers, or both.",
+  "platforms": [
+    "Cross-platform (Rust library)"
+  ],
+  "mainFeatures": [
+    "Pure Rust implementation of SSH protocol",
+    "Supports both SSH client and server development",
+    "Asynchronous I/O support (based on Tokio/Futures)",
+    "Provides low-level primitives for building custom SSH solutions",
+    "Supports various ciphers, key exchanges, and authentication methods"
+  ],
+  "website": "https://github.com/warp-tech/russh",
+  "alternatives": [
+    {
+      "name": "ssh2-rs",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Cross-platform (Rust library, depends on libssh2)"
+      ],
+      "mainFeatures": [
+        "Rust bindings for libssh2",
+        "Interact with SSH servers",
+        "Execute remote commands",
+        "Forward local ports"
+      ],
+      "website": "https://github.com/alexcrichton/ssh2-rs"
+    },
+    {
+      "name": "libssh",
+      "license": "Open Source - LGPL v2.1",
+      "platforms": [
+        "Cross-platform (C library)"
+      ],
+      "mainFeatures": [
+        "C library implementing the SSH protocol",
+        "Supports SSH client and server",
+        "Used in production by various projects (e.g., GitHub, Cockpit)",
+        "Provides a stable API"
+      ],
+      "website": "https://www.libssh.org/"
+    },
+    {
+      "name": "Paramiko",
+      "license": "Open Source - LGPL v2.1",
+      "platforms": [
+        "Cross-platform (Python library)"
+      ],
+      "mainFeatures": [
+        "Pure-Python SSHv2 protocol library",
+        "Provides client and server functionality",
+        "Foundation for the Fabric library",
+        "High-level API for common tasks"
+      ],
+      "website": "https://www.paramiko.org/"
+    },
+    {
+      "name": "golang.org/x/crypto/ssh",
+      "license": "Open Source - BSD-style",
+      "platforms": [
+        "Cross-platform (Go library)"
+      ],
+      "mainFeatures": [
+        "Standard SSH library package for Go",
+        "Implements SSH client and server",
+        "Part of the Go standard library's extended crypto modules",
+        "Supports various authentication methods"
+      ],
+      "website": "https://pkg.go.dev/golang.org/x/crypto/ssh"
+    },
+    {
+      "name": "Apache MINA SSHD",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (Java library)"
+      ],
+      "mainFeatures": [
+        "100% pure Java SSH library",
+        "Supports both client and server sides",
+        "Provides support for Java applications requiring SSH",
+        "Can leverage various I/O back-ends (MINA, Netty)"
+      ],
+      "website": "https://mina.apache.org/sshd/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OpenSSH"
+  ],
+  "marketPositioning": "russh is positioned as a modern, safe, and performant native Rust library for developers building custom SSH applications. Unlike bindings to C libraries (like ssh2-rs to libssh2), it offers a pure Rust implementation, mitigating potential C interop risks and leveraging Rust's ownership and concurrency features. While other language-specific libraries like Paramiko (Python), Go's crypto/ssh, and Apache MINA SSHD (Java) serve similar purposes within their ecosystems, russh specifically targets the growing Rust community. Its focus on providing a low-level yet asynchronous API makes it suitable for building high-performance, reliable SSH clients and servers where memory safety and control over dependencies are critical concerns. Compared to the widely used end-user toolset like OpenSSH, russh is a developer tool providing the building blocks rather than a ready-to-use application suite."
+}

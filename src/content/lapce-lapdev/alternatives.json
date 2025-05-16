@@ -1,0 +1,108 @@
+{
+  "projectName": "lapdev",
+  "projectPurpose": "To provide a self-hosted platform for creating and managing remote development environments.",
+  "platforms": [
+    "Self-Hosted (servers or clouds)"
+  ],
+  "mainFeatures": [
+    "Self-hosted with ease",
+    "Horizontal scalability",
+    "Development Environment as Code (using Devcontainer)",
+    "Saves onboarding time",
+    "Container-based workspaces"
+  ],
+  "website": "https://github.com/lapce/lapdev",
+  "alternatives": [
+    {
+      "name": "GitHub Codespaces",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "VS Code Desktop",
+        "JetBrains IDEs"
+      ],
+      "mainFeatures": [
+        "Cloud-based",
+        "Preconfigured environments",
+        "Integrates with GitHub",
+        "Scalable resources",
+        "Supports devcontainer.json"
+      ],
+      "website": "https://github.com/features/codespaces"
+    },
+    {
+      "name": "Gitpod",
+      "license": "Open Source / Proprietary (SaaS)",
+      "platforms": [
+        "Web",
+        "VS Code Desktop",
+        "JetBrains IDEs"
+      ],
+      "mainFeatures": [
+        "Cloud-based",
+        "Instant dev environments",
+        "Supports multiple Git platforms",
+        "Dev environments as code (.gitpod.yml)",
+        "Prebuilt workspaces"
+      ],
+      "website": "https://www.gitpod.io/"
+    },
+    {
+      "name": "Coder",
+      "license": "Open Source / Proprietary",
+      "platforms": [
+        "Web",
+        "VS Code",
+        "JetBrains IDEs",
+        "CLI"
+      ],
+      "mainFeatures": [
+        "Self-hosted platform",
+        "Runs on existing infrastructure",
+        "Integrates with IDEs and Git providers",
+        "Enterprise/team focused",
+        "Supports devcontainer.json"
+      ],
+      "website": "https://coder.com/"
+    },
+    {
+      "name": "VS Code Remote Development",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Remote via SSH",
+        "Develop in Containers",
+        "Develop in WSL",
+        "Client-server architecture",
+        "Local-quality experience remotely"
+      ],
+      "website": "https://code.visualstudio.com/docs/remote/remote-overview"
+    },
+    {
+      "name": "JetBrains Gateway",
+      "license": "Free (requires JetBrains IDE license for remote IDE)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Lightweight desktop client",
+        "Connects to remote JetBrains IDE backend",
+        "Supports SSH and CDE integrations",
+        "Source code stays remote",
+        "Consistent JetBrains IDE experience"
+      ],
+      "website": "https://www.jetbrains.com/remote-development/gateway/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GitHub Codespaces",
+    "VS Code Remote Development"
+  ],
+  "marketPositioning": "Lapdev is positioned as a self-hosted alternative to cloud-based remote development environments like GitHub Codespaces and Gitpod. Its key differentiator is the emphasis on ease of installation and maintenance for users who prefer to host their own infrastructure. By leveraging the Devcontainer specification and offering horizontal scalability, Lapdev targets organizations and developers who need customizable, controlled, and scalable remote development solutions without relying on third-party SaaS providers. It competes with the self-hosted aspects of tools like Coder while potentially offering a simpler path to deployment for some users."
+}

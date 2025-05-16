@@ -1,0 +1,150 @@
+{
+  "projectName": "iced",
+  "projectPurpose": "A cross-platform GUI library for Rust, enabling developers to build graphical user interfaces for desktop and web applications using a reactive and data-centric approach inspired by The Elm Architecture.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Cross-platform support (Windows, macOS, Linux, and the Web)",
+    "Inspired by The Elm Architecture (State, Messages, View logic, Update logic)",
+    "Type-safe, reactive programming model",
+    "Simple, easy-to-use, batteries-included API",
+    "Responsive layout",
+    "Built-in widgets",
+    "Custom widget support",
+    "First-class support for async actions",
+    "Modular ecosystem with renderer-agnostic native runtime (wgpu and tiny-skia renderers)"
+  ],
+  "website": "https://github.com/iced-rs/iced",
+  "alternatives": [
+    {
+      "name": "egui",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web",
+        "Native (Windows, macOS, Linux)",
+        "Game Engines"
+      ],
+      "mainFeatures": [
+        "Simple, fast, and highly portable",
+        "Immediate mode GUI",
+        "Pure Rust",
+        "Compiles to WASM",
+        "Easy to integrate"
+      ],
+      "website": "https://www.egui.rs/"
+    },
+    {
+      "name": "GTK",
+      "license": "Open Source - LGPL",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "HTML5"
+      ],
+      "mainFeatures": [
+        "Cross-platform widget toolkit",
+        "Comprehensive set of widgets",
+        "Uses GObject for object orientation",
+        "Supports accessibility features"
+      ],
+      "website": "https://www.gtk.org/"
+    },
+    {
+      "name": "Qt",
+      "license": "Open Source (GPL, LGPL), Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Embedded Systems",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "Cross-platform application development framework",
+        "Strong GUI focus",
+        "Comprehensive modules and tools (Qt Creator, Qt Designer)",
+        "Supports networking, multimedia, databases"
+      ],
+      "website": "https://www.qt.io/"
+    },
+    {
+      "name": "Electron",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Build desktop apps with web technologies (HTML, CSS, JS)",
+        "Based on Node.js and Chromium",
+        "Access to Node.js APIs",
+        "Large ecosystem of web libraries"
+      ],
+      "website": "https://www.electronjs.org/"
+    },
+    {
+      "name": "Flutter",
+      "license": "Open Source",
+      "platforms": [
+        "Mobile (iOS, Android)",
+        "Web",
+        "Desktop (Windows, macOS, Linux)",
+        "Embedded"
+      ],
+      "mainFeatures": [
+        "Build natively compiled applications from a single codebase",
+        "Uses Dart language",
+        "Fast development with Hot Reload",
+        "Expressive and flexible UI with widgets",
+        "High performance"
+      ],
+      "website": "https://flutter.dev/"
+    },
+    {
+      "name": "Tauri",
+      "license": "Open Source (MIT or Apache-2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Build desktop apps with web technologies and Rust",
+        "Leverages OS webview",
+        "Smaller footprint than Electron",
+        "Rust backend for native features"
+      ],
+      "website": "https://tauri.app/"
+    },
+    {
+      "name": "Slint",
+      "license": "Open Source (GPLv3), Proprietary",
+      "platforms": [
+        "Desktop (Windows, Linux, Mac)",
+        "Web",
+        "Embedded"
+      ],
+      "mainFeatures": [
+        "Declarative UI language (.slint files)",
+        "Supports multiple languages (Rust, C++, JavaScript)",
+        "Designed for embedded and desktop",
+        "MVVM-inspired architecture"
+      ],
+      "website": "https://slint.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Electron",
+    "Flutter",
+    "Qt"
+  ],
+  "marketPositioning": "Iced is positioned as a leading cross-platform GUI library within the Rust ecosystem, specifically targeting developers who prefer a reactive and data-centric programming model inspired by The Elm Architecture. While newer than established frameworks like Qt or GTK, and an alternative to web-based solutions like Electron or Tauri, Iced differentiates itself by offering a pure-Rust solution with strong type safety, performance, and a clean API for building native-feeling GUIs across multiple platforms and the web. It competes with other Rust GUI libraries like egui and Slint by offering a batteries-included approach with built-in renderers and a focus on the Elm architectural pattern, making it a compelling choice for Rust developers building modern, performant, and maintainable user interfaces."
+}

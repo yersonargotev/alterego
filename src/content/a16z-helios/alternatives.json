@@ -1,0 +1,130 @@
+{
+  "projectName": "helios",
+  "projectPurpose": "To provide users with a fast, secure, and resource-efficient way to access and interact with the Ethereum network and other compatible chains (like OP Stack networks) without needing to run a full node, by offering trustless access to blockchain data via verification of information from untrusted RPC endpoints.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Mobile",
+    "WebAssembly"
+  ],
+  "mainFeatures": [
+    "Fast synchronization (syncs in seconds)",
+    "Requires no local storage",
+    "Portable and lightweight (runs on mobile, compiles to WebAssembly)",
+    "Provides trustless access by verifying data from untrusted RPCs",
+    "Multichain support (Ethereum, Optimism, Base)",
+    "Provides a verified local JSON-RPC server"
+  ],
+  "website": "https://github.com/a16z/helios",
+  "alternatives": [
+    {
+      "name": "Geth (Go Ethereum)",
+      "license": "Open Source - GNU LGPL v3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Supports full, light, and archive nodes",
+        "Widely used and large community support",
+        "Extensive developer tools",
+        "JSON-RPC API support",
+        "Supports dapp development and smart contracts"
+      ],
+      "website": "https://geth.ethereum.org/"
+    },
+    {
+      "name": "Nethermind",
+      "license": "Open Source - LGPL-3.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "ARM"
+      ],
+      "mainFeatures": [
+        "High-performance execution client",
+        "Supports multiple chains (Ethereum, Gnosis, OP Stack, Base)",
+        "Fast synchronization options",
+        "Modular architecture with plugin support",
+        "Provides RPC and HTTP API"
+      ],
+      "website": "https://nethermind.io/ethereum-client"
+    },
+    {
+      "name": "Hyperledger Besu",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Enterprise-grade client",
+        "Supports public and private/permissioned networks",
+        "Offers privacy features",
+        "Flexible consensus mechanism support",
+        "Compatible with Ethereum standards and dApps"
+      ],
+      "website": "https://hyperledger.org/use/besu"
+    },
+    {
+      "name": "Erigon",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Focus on efficiency, speed, and storage savings",
+        "Faster synchronization times",
+        "Resource-efficient (lower RAM/CPU)",
+        "Modular architecture",
+        "Often used for archive nodes"
+      ],
+      "website": "https://erigon.readthedocs.io/en/latest/"
+    },
+    {
+      "name": "Nimbus",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "ARM",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Lightweight and resource-efficient",
+        "Designed for resource-constrained environments",
+        "Consensus client (Execution client in development)",
+        "Easy to use",
+        "Supports Beacon Node, Validator Client, Light Client roles"
+      ],
+      "website": "https://nimbus.guide/"
+    },
+    {
+      "name": "Lighthouse",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Ethereum consensus client",
+        "Written in Rust with focus on security and performance",
+        "Minimal resource usage",
+        "Supports Proof-of-Stake consensus",
+        "Actively funded and supported"
+      ],
+      "website": "https://lighthouse.sigmaprime.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Geth (Go Ethereum)"
+  ],
+  "marketPositioning": "Helios is positioned as a leading fast, secure, and highly portable multichain light client for the Ethereum ecosystem, including OP Stack networks. Its primary market differentiation lies in its ability to provide trustless data verification from untrusted RPC endpoints, requiring no local storage and syncing in seconds. This makes it uniquely suitable for resource-constrained environments like mobile devices, browsers (via WebAssembly), and embedded applications, where running traditional full or even light nodes is not feasible. While other clients offer light modes, Helios's explicit focus on trustless verification and minimal resource footprint gives it a distinct advantage for developers building decentralized applications and wallets that need verifiable blockchain access directly on user devices, without the overhead or trust assumptions of full nodes or purely RPC-based solutions."
+}

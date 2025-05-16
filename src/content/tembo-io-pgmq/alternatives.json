@@ -1,0 +1,102 @@
+{
+  "projectName": "pgmq",
+  "projectPurpose": "To provide a simple, lightweight message queuing system built on top of PostgreSQL, offering durable and reliable messaging by leveraging the database's features.",
+  "platforms": [
+    "Runs wherever PostgreSQL runs (Linux, macOS, Windows, etc.)"
+  ],
+  "mainFeatures": [
+    "Lightweight message queue",
+    "Uses PostgreSQL as the backend",
+    "Provides enqueue and dequeue operations",
+    "Leverages Postgres for durability and reliability"
+  ],
+  "website": "https://github.com/tembo-io/pgmq",
+  "alternatives": [
+    {
+      "name": "AWS Simple Queue Service (SQS)",
+      "license": "Proprietary (Managed Cloud Service)",
+      "platforms": [
+        "Web (Managed Cloud Service)"
+      ],
+      "mainFeatures": [
+        "Fully managed and scalable",
+        "Standard and FIFO queues",
+        "Durable message storage",
+        "Integration with AWS ecosystem"
+      ],
+      "website": "https://aws.amazon.com/sqs/"
+    },
+    {
+      "name": "RSMQ (Redis Simple Message Queue)",
+      "license": "MIT License (Open Source)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Simple API",
+        "Based on Redis",
+        "Supports delayed messages",
+        "Lightweight"
+      ],
+      "website": "https://github.com/smrchy/rsmq"
+    },
+    {
+      "name": "RabbitMQ",
+      "license": "Mozilla Public License 2.0 (Open Source)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Solaris",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "Robust message broker",
+        "Multiple protocol support (AMQP, MQTT, STOMP)",
+        "Flexible routing",
+        "Clustering and high availability"
+      ],
+      "website": "https://www.rabbitmq.com/"
+    },
+    {
+      "name": "Apache Kafka",
+      "license": "Apache License 2.0 (Open Source)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Distributed event streaming platform",
+        "High throughput and low latency",
+        "Fault-tolerant storage",
+        "Pub/Sub and consumer groups"
+      ],
+      "website": "https://kafka.apache.org/"
+    },
+    {
+      "name": "Redis (Streams / Pub/Sub)",
+      "license": "RSALv2 or SSPLv1 (Source Available)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (unofficial)",
+        "Various Clients"
+      ],
+      "mainFeatures": [
+        "In-memory data structure store",
+        "Durable message queues with Streams",
+        "Real-time messaging with Pub/Sub",
+        "High performance"
+      ],
+      "website": "https://redis.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Kafka",
+    "RabbitMQ"
+  ],
+  "marketPositioning": "pgmq is positioned as a lightweight, integrated message queue solution specifically for developers and organizations already using PostgreSQL. It offers a simpler alternative to deploying and managing separate message broker systems like Kafka or RabbitMQ, leveraging the existing database infrastructure for message durability and reliability. Its key appeal lies in its ease of use and tight integration within the Postgres ecosystem, targeting use cases where the full complexity and scale of dedicated brokers are not required, but persistent and transactional messaging is beneficial."
+}

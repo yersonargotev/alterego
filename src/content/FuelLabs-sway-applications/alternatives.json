@@ -1,0 +1,117 @@
+{
+  "projectName": "sway-applications",
+  "projectPurpose": "To provide example smart contracts and decentralized applications written in the Sway programming language for the Fuel Network, serving as a resource for developers.",
+  "platforms": [
+    "Fuel Network"
+  ],
+  "mainFeatures": [
+    "Collection of example smart contracts and dApps",
+    "Demonstrates usage of the Sway programming language",
+    "Includes examples like tokens, lending, and NFTs",
+    "Resource for learning and building on the Fuel Network with Sway"
+  ],
+  "website": "https://github.com/FuelLabs/sway-applications",
+  "alternatives": [
+    {
+      "name": "Solidity",
+      "license": "Open Source",
+      "platforms": [
+        "Ethereum",
+        "Binance Smart Chain (BSC)",
+        "Polygon",
+        "Other EVM-compatible chains",
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Statically typed, contract-oriented language",
+        "Supports inheritance and libraries",
+        "Event handling for external communication",
+        "Large ecosystem and community support",
+        "Primary language for EVM"
+      ],
+      "website": "https://soliditylang.org/"
+    },
+    {
+      "name": "Rust (with Anchor)",
+      "license": "Open Source (Rust: MIT/Apache 2.0, Anchor: Apache 2.0)",
+      "platforms": [
+        "Solana",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Leverages Rust's memory safety and performance",
+        "Framework for building Solana programs (smart contracts)",
+        "Reduces boilerplate code",
+        "Provides built-in security checks",
+        "Simplifies testing and deployment"
+      ],
+      "website": "https://www.rust-lang.org/"
+    },
+    {
+      "name": "Rust (with ink!)",
+      "license": "Open Source (Rust: MIT/Apache 2.0, ink!: Apache 2.0)",
+      "platforms": [
+        "Polkadot",
+        "Kusama",
+        "Substrate-based chains",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Embedded DSL for Wasm smart contracts",
+        "Based on Rust for safety and performance",
+        "Compiles to WebAssembly (Wasm)",
+        "Supports cross-chain interoperability",
+        "Compatible with Solidity tooling"
+      ],
+      "website": "https://use.ink/"
+    },
+    {
+      "name": "Vyper",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Ethereum",
+        "Other EVM-compatible chains",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Python-like syntax",
+        "Focus on simplicity and security",
+        "Designed for auditing",
+        "Excludes complex features for reduced attack surface"
+      ],
+      "website": "https://vyper.readthedocs.io/en/stable/"
+    },
+    {
+      "name": "Move",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Aptos",
+        "Sui",
+        "Other MoveVM-compatible chains",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Designed for safe management of digital assets",
+        "Focus on security and formal verification",
+        "Prevents issues like double spending",
+        "Modular and flexible"
+      ],
+      "website": "https://move-language.github.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Solidity"
+  ],
+  "marketPositioning": "The `sway-applications` repository positions the Sway programming language and the Fuel Network as a modern, high-performance, and developer-friendly alternative for building smart contracts. By showcasing various dApp examples, it highlights Sway's capabilities, its Rust-inspired syntax, rich type system, and integrated tooling, differentiating it from EVM-based languages like Solidity through its design for Fuel's parallel execution environment. Compared to other Rust-based blockchain development approaches (like Anchor for Solana or ink! for Polkadot), Sway is specifically tailored for the Fuel Virtual Machine and its modular execution layer, emphasizing performance, efficiency, and enhanced security through static analysis within the Fuel ecosystem."
+}

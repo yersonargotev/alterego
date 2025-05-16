@@ -1,0 +1,132 @@
+{
+  "projectName": "mountpoint-s3",
+  "projectPurpose": "To provide a high-performance, open-source file client that allows Linux applications to interact with Amazon S3 buckets using standard file system interfaces, optimized for high read throughput to large objects and sequential writes.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Mounts an Amazon S3 bucket as a local file system",
+    "High-throughput file client",
+    "Accesses objects through file operations (open, read)",
+    "Translates file operations into S3 object API calls",
+    "Optimized for high read throughput to large objects and sequential writes",
+    "Open source"
+  ],
+  "website": "https://github.com/awslabs/mountpoint-s3",
+  "alternatives": [
+    {
+      "name": "s3fs-fuse",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Mounts S3 buckets via FUSE",
+        "Supports large subset of POSIX",
+        "Compatible with Amazon S3 and S3-compatible stores",
+        "Supports random writes and appends",
+        "Supports local disk data caching"
+      ],
+      "website": "https://github.com/s3fs-fuse/s3fs-fuse"
+    },
+    {
+      "name": "Goofys",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "High-performance, POSIX-ish S3 file system",
+        "Prioritizes performance over strict POSIX",
+        "Optimized for read-heavy workloads",
+        "Supports various S3-compatible providers"
+      ],
+      "website": "https://github.com/kahing/goofys"
+    },
+    {
+      "name": "Rclone",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Sync files to and from cloud storage",
+        "Mount cloud storage as a disk",
+        "Supports vast number of cloud storage providers (including S3)",
+        "Encrypts files"
+      ],
+      "website": "https://rclone.org/"
+    },
+    {
+      "name": "MSP360 Drive (CloudBerry Drive)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Mounts cloud storage as network drive in Windows Explorer",
+        "Drag and drop file transfers",
+        "Allows third-party apps to use cloud storage",
+        "Supports Amazon S3 and S3-compatible storage"
+      ],
+      "website": "https://www.msp360.com/cloudberry-drive.aspx"
+    },
+    {
+      "name": "ObjectiveFS",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Distributed file system",
+        "Supports S3 and Google Cloud Storage",
+        "Provides file locking and POSIX permissions",
+        "Optimized for performance"
+      ],
+      "website": "https://objectivefs.com/"
+    },
+    {
+      "name": "cunoFS",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux",
+        "AWS Serverless"
+      ],
+      "mainFeatures": [
+        "High-performance object storage filesystem layer",
+        "Outperforms FUSE-based solutions",
+        "Keeps files intact in object storage",
+        "Optimized for specific workloads"
+      ],
+      "website": "https://cunofs.io/"
+    },
+    {
+      "name": "AWS Storage Gateway - File Gateway",
+      "license": "Proprietary (AWS Service)",
+      "platforms": [
+        "Accessed as a service"
+      ],
+      "mainFeatures": [
+        "Managed service appliance",
+        "Provides file interface (SMB/NFS) to S3",
+        "Caches frequently accessed data locally",
+        "Integrates with S3 features"
+      ],
+      "website": "https://aws.amazon.com/storagegateway/file/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Rclone",
+    "s3fs-fuse"
+  ],
+  "marketPositioning": "Mountpoint for Amazon S3 is positioned as a high-throughput, open-source file client developed by AWS specifically for accessing Amazon S3 from Linux. It differentiates itself by focusing on performance and reliability for large-scale, read-heavy data lake workloads and sequential writes, leveraging the AWS ecosystem. Unlike more general-purpose tools or those aiming for full POSIX compliance, Mountpoint is optimized for S3's native characteristics and integrated with AWS services, making it an officially supported solution for specific high-performance S3 access patterns via a file interface."
+}

@@ -1,0 +1,146 @@
+{
+  "projectName": "spin",
+  "projectPurpose": "To provide developers with an open-source tool and framework for easily building and running serverless applications powered by WebAssembly.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Open-source developer tool and framework",
+    "Build and run serverless applications using WebAssembly",
+    "Supports multiple programming languages (Rust, Go, Python, JavaScript/TypeScript, .NET, and WASI-compatible languages)",
+    "Declarative CLI for building and running Wasm apps",
+    "Fast startup times (under one millisecond)",
+    "Integration with data services (Redis, PostgreSQL, SQLite)",
+    "Deployable to Fermyon Cloud and Kubernetes (via SpinKube)"
+  ],
+  "website": "https://github.com/fermyon/spin",
+  "alternatives": [
+    {
+      "name": "AWS Lambda",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (AWS Cloud)"
+      ],
+      "mainFeatures": [
+        "Event-driven execution",
+        "Automatic scaling",
+        "Integrates with other AWS services",
+        "Supports various runtimes"
+      ],
+      "website": "https://aws.amazon.com/lambda/"
+    },
+    {
+      "name": "Azure Functions",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (Azure Cloud)",
+        "Edge",
+        "On-premises"
+      ],
+      "mainFeatures": [
+        "Event-driven architecture",
+        "Supports multiple languages",
+        "Integrated with Azure services",
+        "Consumption-based pricing"
+      ],
+      "website": "https://azure.microsoft.com/en-us/products/functions/"
+    },
+    {
+      "name": "Google Cloud Functions",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (Google Cloud)"
+      ],
+      "mainFeatures": [
+        "Event-driven execution",
+        "Pay-per-execution pricing",
+        "Supports multiple languages",
+        "Integrates with Google Cloud services"
+      ],
+      "website": "https://cloud.google.com/functions"
+    },
+    {
+      "name": "Cloudflare Workers",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (Cloudflare's global network)"
+      ],
+      "mainFeatures": [
+        "Edge execution",
+        "Low latency",
+        "Supports JavaScript and Wasm",
+        "Globally distributed"
+      ],
+      "website": "https://workers.cloudflare.com/"
+    },
+    {
+      "name": "OpenFaaS",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Kubernetes",
+        "Docker Swarm"
+      ],
+      "mainFeatures": [
+        "Container-based (Docker/OCI)",
+        "Supports various languages",
+        "Auto-scaling",
+        "Wide range of integrations"
+      ],
+      "website": "https://www.openfaas.com/"
+    },
+    {
+      "name": "Knative",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Kubernetes-native serverless",
+        "Supports stateless services",
+        "Eventing framework",
+        "Automatic scaling (including scale-to-zero)"
+      ],
+      "website": "https://knative.dev/"
+    },
+    {
+      "name": "wasmCloud",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cloud",
+        "Kubernetes",
+        "Edge",
+        "Datacenter"
+      ],
+      "mainFeatures": [
+        "Actor model for components",
+        "Capability-based security",
+        "Polyglot support via Wasm",
+        "Portable across environments"
+      ],
+      "website": "https://wasmcloud.com/"
+    },
+    {
+      "name": "Fastly Compute@Edge",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (Fastly's global network)"
+      ],
+      "mainFeatures": [
+        "Edge execution",
+        "Low latency",
+        "Native Wasm support",
+        "High performance"
+      ],
+      "website": "https://www.fastly.com/products/edge-compute/compute"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "AWS Lambda",
+    "Azure Functions",
+    "Google Cloud Functions",
+    "Cloudflare Workers"
+  ],
+  "marketPositioning": "Spin is positioned as an open-source, Wasm-native developer tool that simplifies building and running serverless applications. It differentiates itself from major cloud provider FaaS offerings by being vendor-neutral and specifically focused on the performance, security, and portability benefits of WebAssembly. Compared to other open-source serverless frameworks, Spin offers a streamlined, Wasm-first development experience that aims for faster startup times and lower overhead than traditional container-based approaches. It serves developers looking for an efficient and flexible way to build serverless applications outside of a single cloud ecosystem, leveraging the emerging standard of WebAssembly."
+}

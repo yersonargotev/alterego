@@ -1,0 +1,98 @@
+{
+  "projectName": "leo",
+  "projectPurpose": "To provide a high-level, easy-to-use, and formally verifiable programming language specifically designed for building privacy-preserving applications that leverage zero-knowledge proofs on the Aleo blockchain, abstracting the complexities of zero-knowledge cryptography for developers.",
+  "platforms": [
+    "Cross-platform (runs on systems supporting Rust, primarily Linux, macOS, Windows)"
+  ],
+  "mainFeatures": [
+    "Programming language for zero-knowledge applications",
+    "Formally verified applications",
+    "Abstracts low-level cryptographic concepts",
+    "Intuitive syntax (influenced by JavaScript, Scala, Rust)",
+    "Robust tooling (CLI, IDE plugins, testing framework, package registry)",
+    "Seamless Aleo blockchain integration",
+    "Statically-typed and imperative"
+  ],
+  "website": "https://github.com/AleoHQ/leo",
+  "alternatives": [
+    {
+      "name": "Circom",
+      "license": "Open Source (likely MIT or Apache 2.0, check specific repos)",
+      "platforms": [
+        "Cross-platform (compiler is Rust-based, supports C++ and WebAssembly for witness generation)"
+      ],
+      "mainFeatures": [
+        "Domain-specific language for arithmetic circuits",
+        "Compiles to R1CS (Rank-1 Constraint System)",
+        "Modular design with templates",
+        "Low-level control over circuit definition",
+        "Extensive library of pre-built circuits (circomlib)"
+      ],
+      "website": "https://docs.circom.io/"
+    },
+    {
+      "name": "Noir",
+      "license": "Open Source (likely Apache 2.0 or MIT, check specific repos)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Domain-specific language for ZK proofs",
+        "Rust-like syntax for ease of use",
+        "Backend agnostic (compatible with different proving systems via ACIR)",
+        "Designed for privacy-preserving applications",
+        "Integrated package manager (nargo)"
+      ],
+      "website": "https://noir-lang.org/"
+    },
+    {
+      "name": "Cairo",
+      "license": "Open Source (likely MIT or Apache 2.0, check specific repos)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "STARK-based provable programming language",
+        "Used for smart contracts on Starknet",
+        "Turing-complete",
+        "Focuses on efficiency and scalability for L2",
+        "Supports stateful contracts and stateless programs"
+      ],
+      "website": "https://book.cairo-lang.org/"
+    },
+    {
+      "name": "ZoKrates",
+      "license": "Open Source (likely MIT, check specific repos)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Toolbox for zkSNARKs",
+        "Includes a domain-specific language (DSL)",
+        "Compiler and proving system included",
+        "Ethereum smart contract integration",
+        "Supports different proving schemes and backends"
+      ],
+      "website": "https://zokrates.github.io/"
+    },
+    {
+      "name": "RISC Zero zkVM",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Zero-knowledge verifiable general computing platform",
+        "Based on zk-STARKs and RISC-V microarchitecture",
+        "Prove correctness of arbitrary code execution (Rust, C, C++)",
+        "Produces cryptographic receipts",
+        "Supports GPU acceleration for proving"
+      ],
+      "website": "https://www.risczero.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Circom"
+  ],
+  "marketPositioning": "Leo is positioned as a high-level, developer-friendly programming language specifically built for creating privacy-preserving applications on the Aleo blockchain using zero-knowledge proofs. It differentiates itself through its intuitive syntax, comprehensive developer tooling, focus on formal verification, and tight integration with the Aleo ecosystem, aiming to lower the barrier to entry for developers compared to more low-level circuit languages while being tailored to Aleo's ZK execution environment."
+}

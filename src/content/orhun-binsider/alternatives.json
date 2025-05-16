@@ -1,0 +1,127 @@
+{
+  "projectName": "binsider",
+  "projectPurpose": "To provide a user-friendly, terminal-based tool for analyzing ELF (Executable and Linkable Format) binaries on Linux and Unix-like systems by consolidating common static and dynamic analysis features into a single interactive environment.",
+  "platforms": [
+    "Linux",
+    "Unix-like systems"
+  ],
+  "mainFeatures": [
+    "General analysis (file info, linked libraries)",
+    "Static analysis (ELF layout, sections, segments, symbols, relocations)",
+    "Dynamic analysis (system call and signal tracing)",
+    "String extraction",
+    "Interactive Hexdump view",
+    "Terminal User Interface (TUI)",
+    "User-friendly navigation"
+  ],
+  "website": "https://binsider.dev",
+  "alternatives": [
+    {
+      "name": "GNU Binutils (readelf, objdump)",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "readelf: Display ELF file information",
+        "objdump: Disassemble and display object file info",
+        "Supports various object file formats (objdump)",
+        "Standard command-line tools",
+        "Low-level binary inspection"
+      ],
+      "website": "https://www.gnu.org/software/binutils/"
+    },
+    {
+      "name": "Radare2",
+      "license": "Open Source - LGPLv3 (mostly)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "*BSD",
+        "iOS",
+        "OSX",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Reverse engineering framework",
+        "Disassembly and analysis",
+        "Debugging capabilities",
+        "Hex editing",
+        "Extensive scripting support"
+      ],
+      "website": "https://www.radare.org/"
+    },
+    {
+      "name": "Ghidra",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Software Reverse Engineering (SRE) framework",
+        "Disassembly, assembly, decompilation",
+        "Debugging capabilities",
+        "Extensive processor and file format support",
+        "Graphical User Interface (GUI)"
+      ],
+      "website": "https://ghidra-sre.org/"
+    },
+    {
+      "name": "IDA Pro",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Interactive disassembler and debugger",
+        "Decompilation (Hex-Rays Decompiler)",
+        "Extensive processor and file format support",
+        "Static and dynamic analysis",
+        "Plugin architecture"
+      ],
+      "website": "https://hex-rays.com/ida-pro/"
+    },
+    {
+      "name": "Binary Ninja",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Interactive disassembler, decompiler, debugger",
+        "Powerful API for automation",
+        "Visualization and graph views",
+        "Binary patching and editing",
+        "Plugin architecture"
+      ],
+      "website": "https://binaryninja.com/"
+    },
+    {
+      "name": "Capa",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Detects capabilities in executable files",
+        "Identifies malicious behaviors",
+        "Supports ELF and PE formats",
+        "Uses MITRE ATT&CK based rules",
+        "Command-line interface"
+      ],
+      "website": "https://github.com/mandiant/capa"
+    }
+  ],
+  "mostWellKnownAlternative": "IDA Pro",
+  "marketPositioning": "Binsider is positioned as a user-friendly, terminal-based analysis tool specifically for ELF binaries. It differentiates itself by integrating the core functionalities of disparate command-line utilities (`readelf`, `objdump`, `strace`, etc.) into a single, interactive Terminal User Interface (TUI). While not a full-fledged reverse engineering suite like IDA Pro, Ghidra, or Binary Ninja, it offers a more streamlined and interactive experience for common ELF analysis tasks directly within the terminal, appealing to users who prefer this environment over graphical interfaces and seek a consolidated alternative to traditional command-line tools."
+}

@@ -1,0 +1,160 @@
+{
+  "projectName": "gitui",
+  "projectPurpose": "To provide a fast, intuitive, and efficient terminal-based user interface (TUI) for interacting with Git repositories, simplifying common workflows for users who prefer a keyboard-driven interface within the terminal.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Fast and intuitive keyboard-only control",
+    "Context based help for hotkeys",
+    "Inspect, commit, and amend changes",
+    "Stage, unstage, revert and reset files, hunks and lines",
+    "Browse and search commit log with diff viewing",
+    "Branch and tag management",
+    "Stashing",
+    "Push/Fetch",
+    "File browser with syntax highlighting",
+    "Interactive merging"
+  ],
+  "website": "https://github.com/extrawurst/gitui",
+  "alternatives": [
+    {
+      "name": "Lazygit",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Simple terminal UI",
+        "Single-keypress actions for many Git commands",
+        "Interactive staging",
+        "Branch management",
+        "Customizable keybindings and commands"
+      ],
+      "website": "https://github.com/jesseduffield/lazygit"
+    },
+    {
+      "name": "Tig",
+      "license": "Open Source - GPL-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Ncurses-based text-mode interface",
+        "Primarily a Git repository browser",
+        "Supports staging changes at chunk level",
+        "Acts as a pager for Git command output",
+        "Blame view and cherry-picking"
+      ],
+      "website": "https://github.com/jonas/tig"
+    },
+    {
+      "name": "Sourcetree",
+      "license": "Proprietary (Free)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Graphical user interface",
+        "Supports Git and Mercurial",
+        "Visualize branching and merging",
+        "Interactive rebase",
+        "Local commit search"
+      ],
+      "website": "https://www.sourcetreeapp.com/"
+    },
+    {
+      "name": "GitKraken",
+      "license": "Proprietary (Free tier available)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Visually appealing graphical interface with commit graph",
+        "Built-in merge conflict editor",
+        "Integrations with GitHub, GitLab, Bitbucket",
+        "Undo/Redo functionality",
+        "Fuzzy finder for navigation"
+      ],
+      "website": "https://www.gitkraken.com/"
+    },
+    {
+      "name": "GitHub Desktop",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Simple graphical interface",
+        "Tailored for GitHub workflows",
+        "Visual tracking of changes",
+        "Branch management",
+        "Pull request integration"
+      ],
+      "website": "https://desktop.github.com/"
+    },
+    {
+      "name": "Fork",
+      "license": "Proprietary (Paid, free evaluation)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Fast and friendly graphical interface",
+        "Interactive rebase",
+        "Built-in merge conflict helper",
+        "Image diffs",
+        "Git-flow integration"
+      ],
+      "website": "https://git-fork.com/"
+    },
+    {
+      "name": "GitUp",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Real-time visual Git graph (Live Map)",
+        "Unlimited undo/redo",
+        "Time Machine-like snapshots",
+        "Instant search",
+        "Direct interaction with Git database (performance focused)"
+      ],
+      "website": "https://gitup.co/"
+    },
+    {
+      "name": "Git GUI (git-gui)",
+      "license": "Open Source - GPL-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Tcl/Tk based graphical interface included with Git",
+        "Focuses on commit generation and amending",
+        "Staging individual hunks or lines",
+        "Creating branches and performing local merges",
+        "Can launch Gitk for history viewing"
+      ],
+      "website": "https://git-scm.com/docs/git-gui"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GitKraken",
+    "Sourcetree"
+  ],
+  "marketPositioning": "Gitui is positioned as a high-performance, terminal-based Git UI written in Rust. It stands out by offering a fast and responsive interactive experience within the command line, particularly excelling with large repositories where graphical GUIs might struggle. It targets developers who prefer to remain in the terminal but desire a more visual workflow for common Git operations than the standard CLI, differentiating itself from both full-featured graphical clients and simpler terminal browsers through its speed, comprehensive TUI features, and keyboard-centric design."
+}

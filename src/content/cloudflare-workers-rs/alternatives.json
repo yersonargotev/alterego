@@ -1,0 +1,77 @@
+{
+  "projectName": "workers-rs",
+  "projectPurpose": "To enable developers to write, build, and deploy Cloudflare Workers using the Rust programming language and WebAssembly.",
+  "platforms": [
+    "Web (Cloudflare Workers)"
+  ],
+  "mainFeatures": [
+    "Write Cloudflare Workers in 100% Rust",
+    "Compiles to WebAssembly for execution on Cloudflare's edge",
+    "Provides Rust bindings for Cloudflare Workers APIs",
+    "Offers an alternative to JavaScript/TypeScript development for Cloudflare Workers"
+  ],
+  "website": "https://github.com/cloudflare/workers-rs",
+  "alternatives": [
+    {
+      "name": "Cloudflare Workers (JavaScript/TypeScript)",
+      "license": "Proprietary (Cloudflare Platform)",
+      "platforms": [
+        "Web (Cloudflare's Edge Network)"
+      ],
+      "mainFeatures": [
+        "Native development environment for Cloudflare Workers",
+        "Supports JavaScript and TypeScript",
+        "Serverless execution at the edge",
+        "Integrates with Cloudflare services"
+      ],
+      "website": "https://workers.cloudflare.com/"
+    },
+    {
+      "name": "Fastly Compute@Edge",
+      "license": "Proprietary (Fastly Platform)",
+      "platforms": [
+        "Web (Fastly's Edge Network)"
+      ],
+      "mainFeatures": [
+        "Runs WebAssembly modules at the edge",
+        "Supports multiple languages including Rust, C, C++, AssemblyScript",
+        "High-performance, low-latency execution",
+        "Fine-grained request/response control"
+      ],
+      "website": "https://www.fastly.com/products/edge-compute"
+    },
+    {
+      "name": "Vercel Edge Functions",
+      "license": "Proprietary (Vercel Platform)",
+      "platforms": [
+        "Web (Vercel's Edge Network)"
+      ],
+      "mainFeatures": [
+        "Serverless functions integrated with Vercel platform",
+        "Supports JavaScript, TypeScript, and WebAssembly",
+        "Optimized for frontend framework deployments",
+        "Low-latency execution at the edge"
+      ],
+      "website": "https://vercel.com/features/edge-functions"
+    },
+    {
+      "name": "AWS Lambda@Edge",
+      "license": "Proprietary (AWS Platform)",
+      "platforms": [
+        "Web (AWS CloudFront Edge Locations)"
+      ],
+      "mainFeatures": [
+        "Runs Lambda functions at CloudFront edge locations",
+        "Supports Node.js and Python runtimes",
+        "Integrates with AWS services",
+        "Used for customizing CloudFront behavior"
+      ],
+      "website": "https://aws.amazon.com/lambda/edge/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "AWS Lambda@Edge",
+    "Cloudflare Workers (JavaScript/TypeScript)"
+  ],
+  "marketPositioning": "workers-rs is positioned as a powerful alternative development experience *within* the Cloudflare Workers ecosystem, specifically targeting developers who prefer or require the performance, safety, and tooling provided by the Rust programming language for building edge applications. It leverages WebAssembly to enable Rust execution on the Cloudflare Workers runtime, differentiating itself from the default JavaScript/TypeScript approach and competing edge platforms by offering first-party, idiomatic Rust support for Cloudflare's edge infrastructure."
+}

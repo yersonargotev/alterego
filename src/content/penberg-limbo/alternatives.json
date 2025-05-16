@@ -1,0 +1,100 @@
+{
+  "projectName": "limbo",
+  "projectPurpose": "To create a modern, reliable, and performant embedded transactional database system that is highly compatible with SQLite but rewritten from scratch in Rust to offer advantages like memory safety, asynchronous I/O, better WASM support, and advanced testing techniques, serving as the \"modern evolution of SQLite\".",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "WebAssembly"
+  ],
+  "mainFeatures": [
+    "In-process OLTP database management system",
+    "Compatible with SQLite (SQL dialect, file formats, C API)",
+    "Written in Rust",
+    "Fully asynchronous I/O",
+    "Designed for WebAssembly (WASM)",
+    "Deterministic Simulation Testing (DST)",
+    "Language bindings for multiple languages"
+  ],
+  "website": "https://github.com/penberg/limbo",
+  "alternatives": [
+    {
+      "name": "SQLite",
+      "license": "Public Domain",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Serverless and self-contained",
+        "Transactional (ACID)",
+        "Zero-configuration",
+        "Widely deployed",
+        "Small footprint"
+      ],
+      "website": "https://www.sqlite.org/"
+    },
+    {
+      "name": "H2 Database",
+      "license": "Open Source (MPL 2.0 or EPL)",
+      "platforms": [
+        "Cross-platform (Java)"
+      ],
+      "mainFeatures": [
+        "Embedded and server modes",
+        "In-memory and disk-based tables",
+        "Fast performance",
+        "Browser-based console",
+        "Supports standard SQL and JDBC"
+      ],
+      "website": "https://h2database.com/"
+    },
+    {
+      "name": "HSQLDB (HyperSQL Database)",
+      "license": "Open Source (BSD)",
+      "platforms": [
+        "Cross-platform (Java)"
+      ],
+      "mainFeatures": [
+        "Small, fast, multithreaded, transactional",
+        "In-memory and disk-based tables",
+        "Embedded and server modes",
+        "Extensive SQL standard support",
+        "Includes management tools"
+      ],
+      "website": "http://hsqldb.org/"
+    },
+    {
+      "name": "Apache Derby",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Cross-platform (Java)"
+      ],
+      "mainFeatures": [
+        "Embedded and network server modes",
+        "Small footprint",
+        "Transactional (ACID)",
+        "Based on Java, JDBC, and SQL standards"
+      ],
+      "website": "https://db.apache.org/derby/"
+    },
+    {
+      "name": "DuckDB",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, WebAssembly)"
+      ],
+      "mainFeatures": [
+        "Embedded, in-process OLAP database",
+        "Columnar-vectorized query execution",
+        "No external dependencies",
+        "Integrates with multiple languages (Python, R, Java, etc.)",
+        "Optimized for analytical workloads"
+      ],
+      "website": "https://duckdb.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SQLite"
+  ],
+  "marketPositioning": "Limbo is positioned as a cutting-edge, embedded OLTP database engine, built in Rust with strong SQLite compatibility. It targets developers seeking a modern alternative that offers the memory safety of Rust, native asynchronous I/O capabilities for improved performance in certain scenarios, first-class support for WebAssembly environments, and enhanced reliability through advanced testing methodologies, differentiating itself from the established C-based SQLite and Java-based embedded databases."
+}

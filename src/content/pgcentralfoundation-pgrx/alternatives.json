@@ -1,0 +1,60 @@
+{
+  "projectName": "pgrx",
+  "projectPurpose": "To enable developers to write extensions for the PostgreSQL database using the Rust programming language.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "Other Unix-like"
+  ],
+  "mainFeatures": [
+    "Build PostgreSQL extensions",
+    "Use Rust language",
+    "Leverage Rust's memory safety",
+    "Achieve performance similar to C",
+    "Access internal PostgreSQL APIs"
+  ],
+  "website": "https://github.com/pgcentralfoundation/pgrx",
+  "alternatives": [
+    {
+      "name": "PostgreSQL C Language Interface",
+      "license": "PostgreSQL License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Other Unix-like"
+      ],
+      "mainFeatures": [
+        "Write extensions in C/C++",
+        "Full access to internal APIs",
+        "Highest potential performance",
+        "Manual memory management",
+        "Traditional method"
+      ],
+      "website": "https://www.postgresql.org/docs/current/xfunc-c.html"
+    },
+    {
+      "name": "PL/Python",
+      "license": "PostgreSQL License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Other Unix-like"
+      ],
+      "mainFeatures": [
+        "Write database functions in Python",
+        "Access Python libraries",
+        "Easier development for simple logic",
+        "Runs within database process",
+        "Dynamic typing"
+      ],
+      "website": "https://www.postgresql.org/docs/current/plpython.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "PostgreSQL C Language Interface"
+  ],
+  "marketPositioning": "pgrx is an open-source framework and toolchain that empowers developers to build robust and high-performance extensions for PostgreSQL using the Rust programming language. It serves as a compelling alternative to traditional C-based extension development by leveraging Rust's renowned memory safety features, which help prevent common programming errors that can destabilize the database server. Targeting use cases that require close interaction with the PostgreSQL internal APIs and computational efficiency, pgrx offers a modern developer experience with strong tooling, positioning itself as a safer and more productive path for creating complex, reliable PostgreSQL extensions without sacrificing performance compared to C."
+}

@@ -1,0 +1,129 @@
+{
+  "projectName": "baml",
+  "projectPurpose": "To provide a robust, multi-language framework that brings engineering principles and reliability to the development of AI applications, particularly those utilizing large language models (LLMs), by offering a structured and scalable approach for building production-ready LLM agents and ensuring reliable structured data output.",
+  "platforms": [
+    "Python",
+    "TypeScript",
+    "Ruby",
+    "Java",
+    "C#",
+    "Rust",
+    "Go"
+  ],
+  "mainFeatures": [
+    "AI framework for prompt engineering",
+    "Adds engineering rigor to LLM application development",
+    "Supports multiple programming languages",
+    "Aims for reliable and production-ready LLM agents",
+    "Focuses on reliable structured output (e.g., JSON) from LLMs",
+    "Includes features like streaming structured data and redundancy for LLM calls"
+  ],
+  "website": "https://github.com/BoundaryML/baml",
+  "alternatives": [
+    {
+      "name": "LangChain",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Modular architecture for LLM applications",
+        "Extensive integrations (models, data sources, tools)",
+        "Chains and agents for complex workflows",
+        "Memory management",
+        "Prompt templates"
+      ],
+      "website": "https://www.langchain.com/"
+    },
+    {
+      "name": "LlamaIndex",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Python",
+        "TypeScript",
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Data connectors for diverse sources",
+        "Indexing and retrieval for RAG",
+        "Data synthesis and querying",
+        "Supports structured and unstructured data",
+        "Agent capabilities"
+      ],
+      "website": "https://www.llamaindex.ai/"
+    },
+    {
+      "name": "Haystack",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Python",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Modular NLP framework",
+        "Building search and Q&A pipelines",
+        "RAG support",
+        "PromptHub for templates",
+        "Technology agnostic for LLMs"
+      ],
+      "website": "https://haystack.deepset.ai/"
+    },
+    {
+      "name": "PromptLayer",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Prompt versioning and management",
+        "API request logging and monitoring",
+        "Analytics and performance tracking",
+        "Collaboration features",
+        "Supports multimodal prompting"
+      ],
+      "website": "https://promptlayer.com/"
+    },
+    {
+      "name": "OpenAI Playground",
+      "license": "Proprietary (Pay-per-use)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Interactive prompt experimentation",
+        "Real-time feedback from OpenAI models",
+        "Model tuning capabilities",
+        "Prompt examples and templates",
+        "Comparison feature for prompts"
+      ],
+      "website": "https://platform.openai.com/playground"
+    },
+    {
+      "name": "Google AI Studio",
+      "license": "Proprietary (Free)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Prototyping with Google AI models",
+        "Prompt crafting and tuning environment",
+        "Supports effective prompt generation",
+        "Aims for improved model performance"
+      ],
+      "website": "https://aistudio.google.com/"
+    }
+  ],
+  "mostWellKnownAlternative": "LangChain",
+  "marketPositioning": "BAML positions itself as an AI framework that emphasizes bringing robust software engineering principles and reliability to LLM application development. It differentiates itself from broader or primarily Python/JavaScript-focused frameworks like LangChain and LlamaIndex through its wide support for multiple programming languages, its core focus on ensuring reliable structured data output from LLMs (a common challenge), and its performance-oriented design built in Rust. While alternatives like PromptLayer or OpenAI Playground focus more on prompt experimentation and monitoring, BAML aims to provide a foundational framework for building scalable and predictable LLM agents with an emphasis on engineering best practices, particularly valuable for developers who need to integrate LLMs into diverse technology stacks and require dependable structured data."
+}

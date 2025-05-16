@@ -1,0 +1,104 @@
+{
+  "projectName": "sort-research-rs",
+  "projectPurpose": "To provide a framework and collection of tools for testing and benchmarking different sorting algorithm implementations in Rust.",
+  "platforms": [
+    "Rust environment (likely Linux, macOS, Windows compatible depending on Rust support)"
+  ],
+  "mainFeatures": [
+    "Testing of various sorting implementations",
+    "Benchmarking of sorting algorithm performance",
+    "Suite specifically for Rust language"
+  ],
+  "website": "https://github.com/Voultapher/sort-research-rs",
+  "alternatives": [
+    {
+      "name": "Criterion.rs",
+      "license": "Open Source - Apache 2.0 OR MIT",
+      "platforms": [
+        "Cross-platform (Rust compatible)"
+      ],
+      "mainFeatures": [
+        "Statistics-driven micro-benchmarking",
+        "HTML report generation",
+        "Performance regression detection",
+        "Supports stable and nightly Rust"
+      ],
+      "website": "https://github.com/bheisler/criterion.rs"
+    },
+    {
+      "name": "Divan.rs",
+      "license": "Open Source - MIT OR Apache 2.0",
+      "platforms": [
+        "Cross-platform (Rust 1.80.0+ compatible)"
+      ],
+      "mainFeatures": [
+        "Simple benchmarking API (`#[divan::bench]`)",
+        "Allocation profiling",
+        "Supports generic parameters in benchmarks",
+        "Thread contention insights"
+      ],
+      "website": "https://github.com/nvzqz/divan"
+    },
+    {
+      "name": "Iai.rs (iai-callgrind)",
+      "license": "Open Source",
+      "platforms": [
+        "Linux (Valgrind compatible platforms)"
+      ],
+      "mainFeatures": [
+        "High-precision, one-shot benchmarking",
+        "Consistent results for CI",
+        "CPU, Cache, and Memory profiling (via Valgrind/Callgrind)",
+        "Measures instruction counts and cache accesses"
+      ],
+      "website": "https://github.com/bheisler/iai"
+    },
+    {
+      "name": "Hyperfine",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Command-line benchmarking tool",
+        "Statistical analysis of run times",
+        "Supports warmup runs and outlier detection",
+        "Multiple output formats (text, HTML, CSV, etc.)"
+      ],
+      "website": "https://github.com/sharkdp/hyperfine"
+    },
+    {
+      "name": "Bencher",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (SaaS)",
+        "CI Integration"
+      ],
+      "mainFeatures": [
+        "Continuous performance benchmarking",
+        "Performance regression detection in CI",
+        "Historical tracking and visualization",
+        "Supports various languages and benchmarks"
+      ],
+      "website": "https://bencher.ai/"
+    },
+    {
+      "name": "Rust's built-in `libtest` bench",
+      "license": "Open Source (Part of Rust)",
+      "platforms": [
+        "Rust environment (Nightly toolchain required)"
+      ],
+      "mainFeatures": [
+        "Basic benchmarking capability",
+        "Integrated with `cargo bench`"
+      ],
+      "website": "https://doc.rust-lang.org/stable/book/ch11-00-testing.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Criterion.rs"
+  ],
+  "marketPositioning": "sort-research-rs is a specialized benchmarking and testing suite within the Rust ecosystem, focused specifically on the performance and correctness of sorting algorithm implementations. Unlike general-purpose Rust benchmarking libraries like Criterion.rs or Divan.rs that can benchmark any code, sort-research-rs carves out a niche by providing a dedicated platform for in-depth comparison and analysis of various sorting methods, likely including tailored test data and metrics relevant to sorting performance."
+}

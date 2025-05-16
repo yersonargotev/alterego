@@ -1,0 +1,97 @@
+{
+  "projectName": "paru",
+  "projectPurpose": "To provide a feature-rich command-line utility for Arch Linux users to easily manage packages from the Arch User Repository (AUR) and official repositories, acting as a wrapper around pacman.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Interactive search and install for AUR and repository packages",
+    "Handles AUR dependencies and build process",
+    "PKGBUILD review and editing with optional syntax highlighting",
+    "Tracks *-git packages for updates",
+    "Supports local repositories and clean chroot builds"
+  ],
+  "website": "https://github.com/Morganamilo/paru",
+  "alternatives": [
+    {
+      "name": "yay",
+      "license": "Open Source - GPL-3.0-or-later",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Pacman-like interface",
+        "Interactive search and install",
+        "Resolves dependencies automatically",
+        "Supports AUR and repository packages",
+        "Minimal dependencies"
+      ],
+      "website": "https://github.com/Jguer/yay"
+    },
+    {
+      "name": "Pamac",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Graphical user interface (GUI)",
+        "Supports official repositories, AUR, Flatpak, and Snap",
+        "Easy search, install, remove, and update",
+        "CLI available",
+        "Offline updates (GUI)"
+      ],
+      "website": "https://gitlab.manjaro.org/applications/pamac"
+    },
+    {
+      "name": "Pacman",
+      "license": "Open Source - GPL-2.0-or-later",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Default Arch Linux package manager",
+        "Manages official repository packages",
+        "Dependency resolution",
+        "System update management",
+        "Simple command-line interface"
+      ],
+      "website": "https://archlinux.org/pacman/"
+    },
+    {
+      "name": "Pikaur",
+      "license": "Open Source - GPL-3.0-or-later",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "AUR helper written in Python",
+        "Interactive package selection",
+        "PKGBUILD review",
+        "Dependency handling",
+        "Colorized output"
+      ],
+      "website": "https://github.com/actionless/pikaur"
+    },
+    {
+      "name": "aurutils",
+      "license": "Open Source - GPL-3.0-or-later",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Scripts for AUR automation",
+        "Focus on local repositories",
+        "Clean chroot builds",
+        "Package signing",
+        "Dependency computation"
+      ],
+      "website": "https://aur.archlinux.org/packages/aurutils/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "yay",
+    "Pamac"
+  ],
+  "marketPositioning": "Paru is positioned as a modern, feature-packed command-line AUR helper and pacman wrapper for Arch Linux, serving as a primary alternative to the popular 'yay'. It differentiates itself by being written in Rust, offering potentially better performance and memory safety, and by implementing 'saner' default behaviors such as requiring PKGBUILD review. It targets Arch Linux users comfortable with the command line who seek an efficient, comprehensive, and actively maintained tool for managing packages from both official repositories and the AUR."
+}

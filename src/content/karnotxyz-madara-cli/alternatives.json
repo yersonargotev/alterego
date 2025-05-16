@@ -1,0 +1,70 @@
+{
+  "projectName": "madara-cli",
+  "projectPurpose": "To simplify the setup, configuration, and running of Madara nodes and Madara-based appchains via a command-line interface.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Simplify Madara node setup and installation",
+    "Support for spinning up different node types (Devnet, FullNode, Sequencer, AppChain)",
+    "Automate Madara chain initialization",
+    "Command to run the Madara app chain"
+  ],
+  "website": "https://github.com/karnotxyz/madara-cli",
+  "alternatives": [
+    {
+      "name": "Starkli",
+      "license": "Open Source - Apache-2.0, MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Interact with Starknet network",
+        "Deploy accounts and contracts",
+        "Call and invoke contract functions",
+        "Fetch data from the network"
+      ],
+      "website": "https://github.com/xJonathanLEI/starkli"
+    },
+    {
+      "name": "Substrate CLI",
+      "license": "Open Source - GPL-3.0-or-later WITH Classpath-exception-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Build chain specifications",
+        "Run Substrate nodes (validator, archiver, etc.)",
+        "Interact with node RPC endpoints",
+        "Generate network keys"
+      ],
+      "website": "https://docs.substrate.io/reference/command-line-interface/"
+    },
+    {
+      "name": "Starknet Devnet (starknet-devnet-rs)",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Run a local Starknet development network",
+        "Pre-deployed and funded accounts",
+        "Forking chain state",
+        "Dumping/loading state"
+      ],
+      "website": "https://github.com/Shard-Labs/starknet-devnet-rs"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Starkli"
+  ],
+  "marketPositioning": "Madara-cli is positioned as a specialized, high-level command-line tool within the Madara ecosystem, specifically designed to simplify the initial setup, installation, and management of Madara nodes and appchains. Unlike general blockchain CLIs or development toolchains that focus on contract interaction or broader framework features, madara-cli provides a streamlined experience tailored for bootstrapping Madara's Substrate-based Starknet sequencer. It serves as an essential entry point for developers and users looking to quickly deploy and manage their own instances of the Madara stack, complementing tools like Starkli which focus on interacting with the chain once it's operational."
+}

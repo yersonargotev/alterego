@@ -1,0 +1,203 @@
+{
+  "projectName": "quinn",
+  "projectPurpose": "To provide a reusable software library in the Rust programming language that allows developers to build applications capable of communicating using the QUIC network protocol, with a focus on integrating smoothly with Rust's asynchronous programming model.",
+  "platforms": [
+    "Cross-platform (wherever Rust is supported)"
+  ],
+  "mainFeatures": [
+    "QUIC protocol implementation (IETF standard)",
+    "Written in Rust",
+    "Async-friendly API (integrates with Rust's async ecosystem)",
+    "Client and server support"
+  ],
+  "website": "https://github.com/quinn-rs/quinn",
+  "alternatives": [
+    {
+      "name": "quiche",
+      "license": "Open Source - BSD-2-Clause",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "QUICv1 and HTTP/3 implementation",
+        "Low-level API",
+        "C bindings for multi-language support",
+        "Configurable congestion control"
+      ],
+      "website": "https://github.com/cloudflare/quiche"
+    },
+    {
+      "name": "s2n-quic",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "QUIC protocol implementation",
+        "Written in Rust",
+        "Focus on performance and security"
+      ],
+      "website": "https://github.com/aws/s2n-quic"
+    },
+    {
+      "name": "neqo",
+      "license": "Open Source - MPL 2.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "QUIC and HTTP/3 implementation",
+        "Written in Rust",
+        "Aims for simplicity and correctness"
+      ],
+      "website": "https://github.com/mozilla/neqo"
+    },
+    {
+      "name": "lsquic",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "FreeBSD",
+        "macOS",
+        "Android",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "QUIC and HTTP/3 implementation",
+        "Client and server logic",
+        "Used in production environments"
+      ],
+      "website": "https://github.com/litespeedtech/lsquic"
+    },
+    {
+      "name": "MsQuic",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Cross-platform, general-purpose QUIC library",
+        "Client and server support",
+        "Integrated into Microsoft products (.NET, IIS, SMB)",
+        "Optimized for various usage patterns"
+      ],
+      "website": "https://github.com/microsoft/msquic"
+    },
+    {
+      "name": "mvfst",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Android, iOS)"
+      ],
+      "mainFeatures": [
+        "High-performance QUIC implementation",
+        "Client and server support",
+        "Used at scale within Meta (Facebook)",
+        "Supports HTTP/3 via Proxygen"
+      ],
+      "website": "https://github.com/facebook/mvfst"
+    },
+    {
+      "name": "ngtcp2",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "FreeBSD/IOS"
+      ],
+      "mainFeatures": [
+        "Implements IETF QUIC protocol",
+        "C library",
+        "Focus on standards compliance",
+        "Used for interop testing"
+      ],
+      "website": "https://github.com/ngtcp2/ngtcp2"
+    },
+    {
+      "name": "picoquic",
+      "license": "Open Source - MIT license",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "FreeBSD/IOS"
+      ],
+      "mainFeatures": [
+        "Minimalist QUIC implementation (IETF)",
+        "Written in C",
+        "Primarily for exploration and testing",
+        "Supports TLS 1.3 via Picotls"
+      ],
+      "website": "https://github.com/private-octopus/picoquic"
+    },
+    {
+      "name": "quic-go",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Go)"
+      ],
+      "mainFeatures": [
+        "Pure Go QUIC implementation",
+        "Supports HTTP/3 and extensions (QPACK, Datagrams, QUICv2)",
+        "Client and server support",
+        "Production-ready"
+      ],
+      "website": "https://github.com/quic-go/quic-go"
+    },
+    {
+      "name": "aioquic",
+      "license": "Open Source - BSD License",
+      "platforms": [
+        "Cross-platform (Python)"
+      ],
+      "mainFeatures": [
+        "Python QUIC library",
+        "Asyncio integration",
+        "QUIC and HTTP/3 stacks",
+        "Minimal TLS 1.3 implementation"
+      ],
+      "website": "https://github.com/aiortc/aioquic"
+    },
+    {
+      "name": "Google QUICHE",
+      "license": "Open Source - BSD-3-Clause license",
+      "platforms": [
+        "Cross-platform (used in Chrome, Envoy)"
+      ],
+      "mainFeatures": [
+        "Production-ready QUIC, HTTP/2, HTTP/3 implementation",
+        "Written in C++",
+        "Used widely within Google",
+        "Includes related protocols and tools"
+      ],
+      "website": "https://github.com/google/quiche"
+    },
+    {
+      "name": "XQUIC",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Cross-platform QUIC and HTTP/3 implementation",
+        "Written in C",
+        "Client and server support"
+      ],
+      "website": "https://github.com/alibaba/xquic"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Google QUICHE",
+    "MsQuic"
+  ],
+  "marketPositioning": "Quinn is an open-source library providing a comprehensive implementation of the QUIC network protocol, specifically designed for use within the Rust programming ecosystem. Its core strength lies in its 'async-friendly' architecture, enabling seamless integration with Rust's asynchronous programming model (`async`/`await`). This makes Quinn a suitable choice for developers building high-performance, scalable network applications, such as servers and clients, that leverage the benefits of QUIC, including reduced connection latency, improved multiplexing, and enhanced transport security via integrated TLS 1.3. As a pure Rust implementation, Quinn aims to offer memory safety and performance characteristics inherent to the language, providing an idiomatic and maintainable solution for Rust developers adopting the QUIC protocol."
+}

@@ -1,0 +1,118 @@
+{
+  "projectName": "cargo-wizard",
+  "projectPurpose": "To simplify and automate the configuration of Rust project build settings using Cargo profiles and configurations to achieve specific goals like optimal performance, fast compile times, or minimal binary size.",
+  "platforms": [
+    "Cross-platform (wherever Cargo runs)"
+  ],
+  "mainFeatures": [
+    "Applies predefined build configuration templates (fast-compile, fast-runtime, min-size)",
+    "Modifies Cargo.toml profiles",
+    "Configures RUSTFLAGS in .cargo/config.toml",
+    "Interactive command-line interface for configuration",
+    "Supports applying configurations to Cargo workspaces"
+  ],
+  "website": "https://github.com/Kobzol/cargo-wizard",
+  "alternatives": [
+    {
+      "name": "Manual Cargo Configuration",
+      "license": "N/A (Built-in)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Direct editing of Cargo.toml and .cargo/config.toml",
+        "Full control over build profiles and settings",
+        "Configuration of opt-level, lto, codegen-units, etc.",
+        "Setting environment variables like RUSTFLAGS"
+      ],
+      "website": "https://doc.rust-lang.org/cargo/reference/manifest.html"
+    },
+    {
+      "name": "rustc flags",
+      "license": "Open Source (Rust project)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Fine-grained compiler control",
+        "Setting optimization levels (-C opt-level)",
+        "Enabling LTO (-C lto)",
+        "Specifying target CPU and features"
+      ],
+      "website": "https://doc.rust-lang.org/rustc/command-line-arguments.html"
+    },
+    {
+      "name": "cargo-bench",
+      "license": "Open Source (Rust project)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Execute benchmarks",
+        "Measure code performance",
+        "Compare different implementations",
+        "Built-in Cargo subcommand"
+      ],
+      "website": "https://doc.rust-lang.org/cargo/commands/cargo-bench.html"
+    },
+    {
+      "name": "Criterion.rs",
+      "license": "Open Source (Apache-2.0 OR MIT)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Advanced benchmarking library",
+        "Statistical analysis of results",
+        "HTML reports",
+        "Performance plotting over input size"
+      ],
+      "website": "https://github.com/bheisler/criterion.rs"
+    },
+    {
+      "name": "cargo-pgo",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Primarily Linux"
+      ],
+      "mainFeatures": [
+        "Simplifies Profile-Guided Optimization (PGO)",
+        "Simplifies BOLT optimization",
+        "Automates instrumented builds",
+        "Profile gathering and merging"
+      ],
+      "website": "https://github.com/Kobzol/cargo-pgo"
+    },
+    {
+      "name": "cargo-with",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Run build artifacts through external tools",
+        "Integrates with cargo run, build, test, bench",
+        "Simplifies debugging and profiling setups"
+      ],
+      "website": "https://github.com/est31/cargo-with"
+    },
+    {
+      "name": "sccache",
+      "license": "Open Source (Mozilla Public License 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Compiler cache",
+        "Speeds up incremental builds",
+        "Supports Rust and other compilers",
+        "Reduces re-compilation time"
+      ],
+      "website": "https://github.com/mozilla/sccache"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Manual Cargo Configuration (Cargo.toml and .cargo/config.toml)"
+  ],
+  "marketPositioning": "cargo-wizard is positioned as a user-friendly tool that simplifies and automates the process of configuring advanced Cargo build settings for performance, size, or compile time. It acts as a layer on top of the standard Cargo configuration system, providing predefined templates and an interactive mode to make complex optimizations more accessible, complementing rather than replacing manual configuration and specialized tools."
+}

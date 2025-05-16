@@ -1,0 +1,146 @@
+{
+  "projectName": "wezterm",
+  "projectPurpose": "To provide a modern, high-performance, feature-rich, and highly customizable cross-platform terminal emulator with integrated multiplexing capabilities.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "FreeBSD",
+    "NetBSD"
+  ],
+  "mainFeatures": [
+    "GPU-accelerated rendering",
+    "Built-in terminal multiplexer (panes, tabs, windows) on local and remote hosts",
+    "Cross-platform compatibility",
+    "Ligatures, Color Emoji, and font fallback",
+    "True color and dynamic color schemes",
+    "Hyperlinks",
+    "Searchable Scrollback",
+    "Lua for configuration and scripting",
+    "iTerm2 Image Protocol support"
+  ],
+  "website": "https://github.com/wez/wezterm",
+  "alternatives": [
+    {
+      "name": "Alacritty",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "GPU-accelerated rendering",
+        "Focus on performance and simplicity",
+        "Configurable via text file",
+        "Vi mode for navigation and selection",
+        "True color and Unicode support"
+      ],
+      "website": "https://alacritty.org/"
+    },
+    {
+      "name": "Kitty",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "GPU-accelerated rendering",
+        "Supports modern terminal features (ligatures, true color, images)",
+        "Built-in tiling/splitting",
+        "Extensible with \"kittens\"",
+        "Scriptable"
+      ],
+      "website": "https://sw.kovidgoyal.net/kitty/"
+    },
+    {
+      "name": "iTerm2",
+      "license": "Open Source - GPL v2",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Split panes, tabs, windows",
+        "Hotkey window",
+        "Search with regex support",
+        "Autocomplete",
+        "Advanced copy and paste, paste history"
+      ],
+      "website": "https://iterm2.com/"
+    },
+    {
+      "name": "Windows Terminal",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Multiple tabs and panes",
+        "Support for various shells (CMD, PS, WSL)",
+        "GPU-accelerated text rendering",
+        "Customizable themes, backgrounds, keybindings",
+        "Supports Unicode, true color, ligatures"
+      ],
+      "website": "https://aka.ms/terminal"
+    },
+    {
+      "name": "tmux",
+      "license": "Open Source - ISC License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Solaris",
+        "Windows (WSL, Cygwin)"
+      ],
+      "mainFeatures": [
+        "Terminal multiplexer (sessions, windows, panes)",
+        "Detach and reattach sessions",
+        "Scriptable command interface",
+        "Copy and paste with multiple buffers",
+        "Configurable key bindings"
+      ],
+      "website": "https://github.com/tmux/tmux"
+    },
+    {
+      "name": "GNU Screen",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Unix-like systems (Linux, BSD, macOS)"
+      ],
+      "mainFeatures": [
+        "Terminal multiplexer (sessions, windows)",
+        "Detach and reattach sessions",
+        "Split display",
+        "Copy/paste",
+        "Customizable"
+      ],
+      "website": "https://www.gnu.org/software/screen/"
+    },
+    {
+      "name": "GNOME Terminal",
+      "license": "Open Source - GPLv2/GPL-3.0",
+      "platforms": [
+        "Linux",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Tabs and profiles",
+        "Color text, themes, transparency",
+        "Mouse interaction",
+        "Clickable links",
+        "Automatic text rewrapping"
+      ],
+      "website": "https://wiki.gnome.org/Apps/Terminal"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "iTerm2 (macOS)",
+    "Windows Terminal (Windows)",
+    "tmux"
+  ],
+  "marketPositioning": "Wezterm positions itself as a modern, high-performance, cross-platform terminal emulator that integrates terminal multiplexing directly, differentiating it from traditional setups relying on separate tools like tmux or screen. By leveraging GPU acceleration and being built in Rust, it aims to provide a fast and smooth experience. Its extensive customization via Lua scripting appeals to power users seeking fine-grained control. While competing with other GPU-accelerated cross-platform emulators like Alacritty and Kitty, Wezterm's built-in multiplexer is a key feature. It competes with platform-specific leaders like iTerm2 (macOS) and Windows Terminal by offering broader OS support while aiming for a comparable or enhanced feature set, particularly in its integrated multiplexing and scripting capabilities. It targets users who desire a single, highly customizable, performant, and consistent terminal experience across diverse computing environments."
+}

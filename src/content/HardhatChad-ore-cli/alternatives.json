@@ -1,0 +1,72 @@
+{
+  "projectName": "ore-cli",
+  "projectPurpose": "To provide a command-line interface for mining the ORE cryptocurrency on the Solana blockchain.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows (via WSL)"
+  ],
+  "mainFeatures": [
+    "Command-line interface for ORE mining",
+    "Connect to mining pools or solo mine",
+    "Manage mining operations (start, stop)",
+    "Interact with Solana blockchain for claiming rewards",
+    "Utilizes the ORE proof-of-work algorithm"
+  ],
+  "website": "https://github.com/HardhatChad/ore-cli",
+  "alternatives": [
+    {
+      "name": "Solana CLI",
+      "license": "Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Manage Solana wallets and keypairs",
+        "Send and receive SOL tokens",
+        "Deploy and interact with Solana programs",
+        "Connect to different Solana clusters",
+        "Query blockchain state"
+      ],
+      "website": "https://docs.solanalabs.com/cli"
+    },
+    {
+      "name": "ORE Web Miner / ore.supply",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Browser-based mining",
+        "Simple start/stop interface",
+        "Connects to Solana wallets",
+        "View mined ORE rewards",
+        "Deposit SOL for transaction fees"
+      ],
+      "website": "https://ore.supply/home"
+    },
+    {
+      "name": "ore-private-pool-cli",
+      "license": "Apache-2.0 and LGPL-3.0-only",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via WSL)"
+      ],
+      "mainFeatures": [
+        "Client for joining private ORE mining pools",
+        "Optimized for home/personal use",
+        "Simplified and lightweight",
+        "Zero fee charge for computing client"
+      ],
+      "website": "https://github.com/miraland-labs/ore-private-pool-cli"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Solana CLI",
+    "ORE Web Miner / ore.supply"
+  ],
+  "marketPositioning": "ore-cli is positioned as the primary command-line interface for ORE cryptocurrency mining on Solana, offering a direct, flexible, and scriptable experience. It serves users comfortable with terminal environments or requiring automation, specializing in the ORE mining protocol compared to the general-purpose Solana CLI, and providing a more controllable alternative to the web interface."
+}

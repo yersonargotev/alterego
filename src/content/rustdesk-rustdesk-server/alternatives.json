@@ -1,0 +1,248 @@
+{
+  "projectName": "rustdesk-server",
+  "projectPurpose": "To provide the server component for the RustDesk remote desktop application, enabling users to self-host their remote access infrastructure for enhanced privacy, security, and control over their data and connections.",
+  "platforms": [
+    "Linux",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Open-source server program",
+    "Supports self-hosted remote desktop infrastructure",
+    "Designed for use with RustDesk clients (Windows, macOS, Linux, iOS, Android, Web)",
+    "Enables secure and private remote connections",
+    "Customizable and allows for advanced configuration"
+  ],
+  "website": "https://github.com/rustdesk/rustdesk-server",
+  "alternatives": [
+    {
+      "name": "TeamViewer",
+      "license": "Proprietary (Free for personal use, Paid for commercial)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Remote control and support",
+        "File transfer and sharing",
+        "Online meetings and collaboration",
+        "Cross-platform compatibility",
+        "Unattended access"
+      ],
+      "website": "https://www.teamviewer.com/"
+    },
+    {
+      "name": "AnyDesk",
+      "license": "Proprietary (Free for personal use, Paid for commercial)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Fast remote desktop connections",
+        "File transfer",
+        "Unattended access",
+        "Customizable",
+        "Low latency"
+      ],
+      "website": "https://anydesk.com/"
+    },
+    {
+      "name": "TightVNC",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS (Viewer only)",
+        "Java (Viewer)"
+      ],
+      "mainFeatures": [
+        "Remote control",
+        "File transfers",
+        "VNC compatible",
+        "Customizable",
+        "Free for personal and commercial use"
+      ],
+      "website": "https://www.tightvnc.com/"
+    },
+    {
+      "name": "UltraVNC",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Windows (Server and Viewer)",
+        "Java (Viewer)"
+      ],
+      "mainFeatures": [
+        "Remote control",
+        "File transfer",
+        "Chat",
+        "Encryption plugins",
+        "Suitable for help desk"
+      ],
+      "website": "https://www.uvnc.com/"
+    },
+    {
+      "name": "RealVNC Connect",
+      "license": "Proprietary (Free for personal use, Paid for commercial)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Raspberry Pi",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Secure remote access",
+        "Cross-platform support",
+        "Cloud connectivity",
+        "Direct connections",
+        "Encryption"
+      ],
+      "website": "https://www.realvnc.com/"
+    },
+    {
+      "name": "Apache Guacamole",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Web (Clientless)",
+        "Linux (Server)"
+      ],
+      "mainFeatures": [
+        "Clientless remote desktop gateway",
+        "Supports RDP, VNC, and SSH",
+        "Browser-based access",
+        "User management",
+        "API for integration"
+      ],
+      "website": "https://guacamole.apache.org/"
+    },
+    {
+      "name": "MeshCentral",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Web (Server/Client)",
+        "Windows (Agent)",
+        "macOS (Agent)",
+        "Linux (Agent)",
+        "Android (Agent)"
+      ],
+      "mainFeatures": [
+        "Remote monitoring and management (RMM)",
+        "Remote desktop access",
+        "File transfer",
+        "Terminal access",
+        "Web-based interface"
+      ],
+      "website": "https://meshcentral.com/"
+    },
+    {
+      "name": "NoMachine",
+      "license": "Proprietary (Free for personal use, Paid for commercial)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Raspberry Pi",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Fast performance (NX technology)",
+        "Remote control",
+        "File sharing and printing",
+        "Multimedia support",
+        "Guest desktop sharing"
+      ],
+      "website": "https://www.nomachine.com/"
+    },
+    {
+      "name": "Splashtop",
+      "license": "Proprietary (Paid, with trials)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "mainFeatures": [
+        "High-performance remote access",
+        "Remote support and unattended access",
+        "File transfer and chat",
+        "Robust security features",
+        "Various pricing plans for different needs"
+      ],
+      "website": "https://www.splashtop.com/"
+    },
+    {
+      "name": "Chrome Remote Desktop",
+      "license": "Free",
+      "platforms": [
+        "Web (requires Chrome)",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Easy to use",
+        "Remote access via web browser",
+        "Cross-platform (within Chrome)",
+        "Simple setup"
+      ],
+      "website": "https://remotedesktop.google.com/"
+    },
+    {
+      "name": "RemotePC",
+      "license": "Proprietary (Paid, with trials)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Secure remote access",
+        "File transfer and remote printing",
+        "Chat feature",
+        "Always-on remote access",
+        "Scalable plans"
+      ],
+      "website": "https://www.remotepc.com/"
+    },
+    {
+      "name": "Zoho Assist",
+      "license": "Proprietary (Free plan available, Paid for commercial)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Remote support and unattended access",
+        "File transfer and chat",
+        "Session recording",
+        "Integration with Zoho products",
+        "Customizable branding"
+      ],
+      "website": "https://www.zoho.com/assist/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "TeamViewer"
+  ],
+  "marketPositioning": "RustDesk Server is positioned as the crucial component enabling an open-source, self-hostable remote desktop solution. It directly competes with commercial remote desktop software like TeamViewer and AnyDesk by offering a privacy-focused alternative where users retain full control over their data and infrastructure. Its open-source nature fosters transparency and community development, while the emphasis on self-hosting appeals to users prioritizing data sovereignty, security, and customization, setting it apart from services that rely solely on vendor-provided servers."
+}

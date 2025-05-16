@@ -1,0 +1,129 @@
+{
+  "projectName": "dioxus",
+  "projectPurpose": "To provide a Rust-based fullstack application framework for building user interfaces and applications across web, desktop, mobile, and server platforms from a single codebase, emphasizing a familiar development experience, type safety, performance, and direct system access.",
+  "platforms": [
+    "Web",
+    "Desktop",
+    "Mobile",
+    "Server"
+  ],
+  "mainFeatures": [
+    "Fullstack capabilities (web, desktop, mobile, server, and more) from a single codebase",
+    "Ergonomic state management (inspired by React, Solid, Svelte)",
+    "Type-safe Routing and server functions leveraging Rust's compile-time guarantees",
+    "Integrated bundler for deploying to web, macOS, Linux, and Windows",
+    "React-like mental model and API surface",
+    "Leverages HTML and CSS for UI definition and styling",
+    "Renderer-agnostic VirtualDOM for portability",
+    "Hot-reloading for fast development cycles",
+    "Direct access to system APIs",
+    "Support for modern web features like SSR, Hydration, and HTML streaming",
+    "Designed for high performance"
+  ],
+  "website": "https://dioxuslabs.com/",
+  "alternatives": [
+    {
+      "name": "Tauri",
+      "license": "Open Source - MIT License, Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Uses Rust backend with web frontend (HTML, CSS, JS/TS)",
+        "Leverages native webviews for smaller binaries",
+        "Security-focused with permissions and sandboxing",
+        "Cross-platform bundling and distribution",
+        "Plugin system for accessing native features"
+      ],
+      "website": "https://tauri.app/"
+    },
+    {
+      "name": "Electron",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Builds desktop apps using web technologies (HTML, CSS, JavaScript)",
+        "Embeds Chromium and Node.js",
+        "Access to native OS features and APIs",
+        "Supports automatic updates and app store distribution",
+        "Large ecosystem and wide adoption for desktop"
+      ],
+      "website": "https://www.electronjs.org/"
+    },
+    {
+      "name": "Flutter",
+      "license": "Open Source",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Web",
+        "Desktop (Windows, macOS, Linux)",
+        "Embedded"
+      ],
+      "mainFeatures": [
+        "Single codebase for multiple platforms",
+        "Uses Dart programming language",
+        "Compiles to native code for high performance",
+        "Rich set of customizable widgets",
+        "Hot Reload for fast development"
+      ],
+      "website": "https://flutter.dev/"
+    },
+    {
+      "name": "React Native",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Android",
+        "iOS",
+        "macOS",
+        "tvOS",
+        "Web",
+        "Windows",
+        "UWP"
+      ],
+      "mainFeatures": [
+        "Uses React framework with JavaScript/TypeScript",
+        "Builds native mobile applications",
+        "Uses native UI components",
+        "Single codebase for iOS and Android (primarily)",
+        "Hot Reloading for quick iterations"
+      ],
+      "website": "https://reactnative.dev/"
+    },
+    {
+      "name": "Avalonia",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        ".NET based framework using C# and XAML",
+        "Inspired by WPF/UWP",
+        "Uses its own rendering engine for consistent UI",
+        "Supports MVVM pattern",
+        "Strong desktop support with developing mobile/web"
+      ],
+      "website": "https://avaloniaui.net/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Flutter",
+    "Electron",
+    "React Native"
+  ],
+  "marketPositioning": "Dioxus is positioned as a modern, performant, and type-safe fullstack application framework within the Rust ecosystem. It differentiates itself by enabling developers to build user interfaces and entire applications for web, desktop, mobile, and server targets from a single *Rust* codebase, offering a React-like development experience but with the inherent benefits of Rust, such as performance, memory safety, and strong type checking across the full stack. While competing with established multi-platform frameworks like Flutter (Dart), React Native (JavaScript), and web-based solutions like Electron and Tauri, Dioxus targets developers who prioritize a pure Rust development environment and seek a unified language for all layers of their application, from UI to backend services, aiming for potentially smaller binaries and higher performance than frameworks embedding full browser engines."
+}

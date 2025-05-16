@@ -1,0 +1,67 @@
+{
+  "projectName": "bitbox02-firmware",
+  "projectPurpose": "To provide the open-source bootloader and firmware that runs on the BitBox02 hardware wallet device, enabling secure offline storage of cryptocurrency private keys and safe transaction management.",
+  "platforms": [
+    "Hardware (BitBox02 device)"
+  ],
+  "mainFeatures": [
+    "Securely store private keys offline",
+    "Sign cryptocurrency transactions",
+    "Generate and manage recovery seeds (BIP39) with microSD card backup/restore",
+    "Interactive user interface via touch sensors and OLED display for transaction verification",
+    "Support for key derivation (BIP32/BIP39)"
+  ],
+  "website": "https://github.com/BitBoxSwiss/bitbox02-firmware",
+  "alternatives": [
+    {
+      "name": "Trezor Firmware",
+      "license": "GNU Lesser General Public License v3 (LGPLv3)",
+      "platforms": [
+        "Hardware (Trezor devices)"
+      ],
+      "mainFeatures": [
+        "Secure offline key storage",
+        "Transaction signing",
+        "Supports multiple cryptocurrencies (depending on device model/firmware)",
+        "PIN and passphrase protection",
+        "Integration with Trezor Suite desktop/web application"
+      ],
+      "website": "https://github.com/trezor/trezor-firmware"
+    },
+    {
+      "name": "Coldcard Firmware",
+      "license": "Source-available (often used with open-source tools)",
+      "platforms": [
+        "Hardware (Coldcard devices)"
+      ],
+      "mainFeatures": [
+        "Bitcoin-only focus (optional)",
+        "True air-gap support using PSBT and MicroSD card",
+        "Secure element for key storage",
+        "Physical keypad for PIN entry",
+        "Duress PIN and Brick Me PIN features"
+      ],
+      "website": "https://github.com/Coldcard/firmware"
+    },
+    {
+      "name": "Ledger Firmware",
+      "license": "Partially Open Source / Proprietary (Core firmware is largely proprietary)",
+      "platforms": [
+        "Hardware (Ledger devices)"
+      ],
+      "mainFeatures": [
+        "Secure element chip for key storage",
+        "Supports a wide range of cryptocurrencies and tokens",
+        "Integration with Ledger Live application (desktop and mobile)",
+        "Staking and NFT management support (depending on device model)",
+        "Physical transaction confirmation"
+      ],
+      "website": "https://www.ledger.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ledger",
+    "Trezor"
+  ],
+  "marketPositioning": "The BitBox02, powered by its open-source firmware, is positioned as a secure and user-friendly Swiss-made hardware wallet. It differentiates itself through its dual-chip security architecture, intuitive touch sensor interface, microSD card backup functionality, and the option of a dedicated Bitcoin-only firmware for enhanced security and reduced attack surface. While competing with established players like Ledger (known for broad altcoin support and large ecosystem) and Trezor (a long-standing open-source advocate), BitBox02 carves out a niche emphasizing a balance of strong open-source security, hardware features, and ease of use, particularly appealing to users who value Swiss quality and a focused, transparent approach to hardware wallet security."
+}

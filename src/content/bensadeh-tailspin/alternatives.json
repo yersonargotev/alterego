@@ -1,0 +1,106 @@
+{
+  "projectName": "tailspin",
+  "projectPurpose": "To enhance the readability of log files in the terminal through automatic and customizable syntax/pattern highlighting.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Log file highlighting (numbers, dates, IPs, UUIDs, URLs, etc.)",
+    "No setup or configuration required for basic use",
+    "Customizable highlight groups and keywords",
+    "Easy integration with other command-line tools (piping)",
+    "Uses 'less' as a pager for navigation and search"
+  ],
+  "website": "https://github.com/bensadeh/tailspin",
+  "alternatives": [
+    {
+      "name": "less",
+      "license": "GNU GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "View files larger than memory",
+        "Interactive navigation",
+        "Searching within the file",
+        "Follow mode (like tail -f)"
+      ],
+      "website": "https://www.gnu.org/software/less/"
+    },
+    {
+      "name": "grep",
+      "license": "GNU GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Search text using patterns (regex)",
+        "Print matching lines",
+        "Can color output (--color option)",
+        "Filtering large amounts of text"
+      ],
+      "website": "https://www.gnu.org/software/grep/"
+    },
+    {
+      "name": "ccze",
+      "license": "GPL-2.0 License",
+      "platforms": [
+        "Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Fast log colorizer",
+        "Supports various log formats (syslog, apache, etc.)",
+        "Extensible via configuration",
+        "Command-line utility"
+      ],
+      "website": "http://bonehunter.rulez.org/CCZE.html"
+    },
+    {
+      "name": "lnav",
+      "license": "BSD-2-Clause license",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Merges logs from multiple files by time",
+        "Automatic log format detection",
+        "Syntax highlighting",
+        "Filtering using regex or SQLite",
+        "Tailing and real-time updates"
+      ],
+      "website": "https://lnav.org/"
+    },
+    {
+      "name": "logalize",
+      "license": "MIT License",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Fast and extensible log colorizer",
+        "Customizable formats, patterns, and words via YAML",
+        "Alternative to ccze",
+        "Reads from stdin"
+      ],
+      "website": "https://github.com/deponian/logalize"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "lnav",
+    "ccze",
+    "less",
+    "grep"
+  ],
+  "marketPositioning": "tailspin is positioned as a user-friendly, zero-configuration-by-default terminal log file highlighter. It offers immediate, intelligent highlighting of common log patterns, striking a balance between the basic functionality of core Unix tools like 'less' and 'grep' and the more advanced, often configuration-heavy features of dedicated log viewers like 'lnav' or 'ccze'. Its ease of use, integration with 'less', and focus on out-of-the-box highlighting make it accessible for users who need quick, enhanced log readability without deep customization initially, while still offering configuration options for advanced users."
+}

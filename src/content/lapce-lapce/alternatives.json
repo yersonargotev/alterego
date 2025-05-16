@@ -1,0 +1,131 @@
+{
+  "projectName": "lapce",
+  "projectPurpose": "Lapce is a modern, high-performance code editor aiming to provide a fast and powerful coding experience for developers who value performance, modern tooling, and potentially a Vim-like workflow.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Lightning-fast and Powerful Code Editor written in Rust",
+    "Built-in LSP (Language Server Protocol) support",
+    "Modal editing support (Vim-like)",
+    "Built-in remote development support",
+    "WASI-based plugin system",
+    "Built-in terminal",
+    "Native GUI with GPU acceleration",
+    "Syntax highlighting using Tree-sitter",
+    "Code Lens feature"
+  ],
+  "website": "https://lapce.dev/",
+  "alternatives": [
+    {
+      "name": "Visual Studio Code",
+      "license": "Proprietary freeware (based on MIT licensed open-source)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Integrated terminal",
+        "IntelliSense (intelligent code completion)",
+        "Debugging tools",
+        "Extensions Marketplace",
+        "Integrated Git and version control"
+      ],
+      "website": "https://code.visualstudio.com/"
+    },
+    {
+      "name": "Sublime Text",
+      "license": "Shareware",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Fast and responsive interface",
+        "Extensive plugin ecosystem (Package Control)",
+        "Multiple selections",
+        "Command palette",
+        "Syntax highlighting"
+      ],
+      "website": "https://www.sublimetext.com/"
+    },
+    {
+      "name": "Neovim",
+      "license": "Apache License Version 2.0 (and Vim license)",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Hyperextensible API",
+        "Embedded scriptable terminal emulator",
+        "Built-in LSP client",
+        "Compatible with most Vim plugins",
+        "Modal editing (Vim-based)"
+      ],
+      "website": "https://neovim.io/"
+    },
+    {
+      "name": "Helix",
+      "license": "MPL-2.0 license",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Vim-like modal editing",
+        "Multiple selections",
+        "Built-in language server support",
+        "Smart/incremental syntax highlighting (Tree-sitter)",
+        "Built in Rust, for the terminal"
+      ],
+      "website": "https://helix-editor.com/"
+    },
+    {
+      "name": "Atom",
+      "license": "MIT License",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Hackable/customizable (HTML, CSS, JavaScript)",
+        "Built-in package manager",
+        "Smart autocompletion",
+        "Cross-platform editing",
+        "Based on Electron framework"
+      ],
+      "website": "https://atom.io/"
+    },
+    {
+      "name": "Zed",
+      "license": "GPL, AGPL, Apache 2",
+      "platforms": [
+        "macOS",
+        "Linux (in development)",
+        "Windows (in development)"
+      ],
+      "mainFeatures": [
+        "Fast and efficient (built in Rust)",
+        "Real-time collaboration",
+        "Extensively customizable",
+        "Built-in support for OpenAI and GitHub Copilot",
+        "From creators of Atom"
+      ],
+      "website": "https://zed.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Visual Studio Code"
+  ],
+  "marketPositioning": "Lapce positions itself as a lightning-fast and powerful code editor built in Rust, emphasizing performance through a native GUI and GPU acceleration. It differentiates itself with a modern feature set including built-in remote development and a WASI-based plugin system for flexible extensibility. Targeting developers who prioritize speed and potentially a modal editing workflow, Lapce offers a performant, native alternative to editors built on frameworks like Electron and provides a modern take on the Vim-like editing paradigm."
+}

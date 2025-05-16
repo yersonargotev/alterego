@@ -1,0 +1,96 @@
+{
+  "projectName": "aya",
+  "projectPurpose": "To provide a native Rust library for interacting with the Linux kernel's eBPF subsystem, enabling developers to write, load, and manage eBPF programs using Rust with a focus on developer experience and operability.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "eBPF library for Rust",
+    "Focus on developer experience and operability",
+    "Pure Rust implementation (no reliance on libbpf or bcc)",
+    "Supports writing eBPF programs in Rust",
+    "Compile Once, Run Everywhere (CO-RE) support with BTF and musl linking"
+  ],
+  "website": "https://github.com/aya-rs/aya",
+  "alternatives": [
+    {
+      "name": "libbpf",
+      "license": "Open Source - GPL-2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "C-based library maintained in the Linux kernel",
+        "BPF loader for ELF object files",
+        "Handles loading, verifying, and attaching BPF programs",
+        "Supports BPF CO-RE",
+        "Provides APIs for interacting with BPF maps and programs"
+      ],
+      "website": "https://github.com/libbpf/libbpf"
+    },
+    {
+      "name": "BCC (BPF Compiler Collection)",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Toolkit and library for BPF-based kernel tracing",
+        "Includes command-line tools and examples",
+        "Supports writing eBPF programs in C, Python, and Lua",
+        "Provides a high-level API",
+        "Often used for profiling and debugging"
+      ],
+      "website": "https://github.com/iovisor/bcc"
+    },
+    {
+      "name": "cilium/ebpf (ebpf-go)",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Pure Go library for working with eBPF",
+        "Utilities for loading, compiling, and debugging eBPF programs",
+        "Supports BPF CO-RE",
+        "Includes `bpf2go` tool for embedding C programs in Go binaries",
+        "APIs for maps, perf events, and ring buffers"
+      ],
+      "website": "https://github.com/cilium/ebpf"
+    },
+    {
+      "name": "libbpfgo",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Go library powered by libbpf",
+        "Go wrapper around the C libbpf library",
+        "Aims to expose libbpf's API in Go",
+        "Supports BPF CO-RE",
+        "Uses CGo to interact with libbpf"
+      ],
+      "website": "https://github.com/aquasecurity/libbpfgo"
+    },
+    {
+      "name": "oxidebpf",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Pure Rust library for managing eBPF programs",
+        "Designed for security use cases",
+        "Emphasizes stability across kernel versions",
+        "Supports Compile-Once, Run-Most-Places",
+        "Simple interface for managing multiple program versions"
+      ],
+      "website": "https://github.com/oxidebpf/oxidebpf"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "libbpf"
+  ],
+  "marketPositioning": "Aya is positioned as a pure Rust eBPF library that offers a native and idiomatic development experience within the Rust ecosystem. By being built from scratch in Rust without relying on existing C libraries like libbpf or toolchains like BCC, it provides a differentiated approach. Its focus on developer experience and operability, coupled with strong support for Compile Once, Run Everywhere (CO-RE) resulting in portable, self-contained binaries, makes it an attractive option for developers building eBPF applications specifically within the Rust programming language, competing with language-specific bindings like cilium/ebpf (Go) and wrappers around libbpf while offering a purely Rust-native foundation."
+}

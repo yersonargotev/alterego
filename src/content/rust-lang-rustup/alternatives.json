@@ -1,0 +1,119 @@
+{
+  "projectName": "rustup",
+  "projectPurpose": "To provide a robust, official, and easy-to-use command-line tool for installing, managing, and updating the Rust programming language toolchain and its associated components across various platforms, simplifying the process of working with different versions (stable, beta, nightly) and targets.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Installs Rust toolchains from official release channels (stable, beta, nightly)",
+    "Easily switch between installed Rust toolchains",
+    "Keep installed toolchains and components updated",
+    "Simplifies cross-compilation by installing necessary target support",
+    "Manages essential Rust tools like rustc, Cargo, rustfmt, clippy, rustdoc"
+  ],
+  "website": "https://rustup.rs/",
+  "alternatives": [
+    {
+      "name": "nvm (Node Version Manager)",
+      "license": "MIT License",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Install multiple Node.js versions",
+        "Switch between Node.js versions",
+        "Set default Node.js version",
+        "Support for .nvmrc for project-specific versions",
+        "Manages corresponding npm versions"
+      ],
+      "website": "https://github.com/nvm-sh/nvm (Unix/macOS), https://github.com/coreybutler/nvm-windows (Windows)"
+    },
+    {
+      "name": "pyenv",
+      "license": "MIT License",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Install multiple Python versions",
+        "Switch between global, local, and shell Python versions",
+        "Uses shims for version switching",
+        "Supports various Python implementations (CPython, PyPy, Anaconda)",
+        "Integrates with virtual environments via plugin"
+      ],
+      "website": "https://github.com/pyenv/pyenv"
+    },
+    {
+      "name": "RVM (Ruby Version Manager)",
+      "license": "MIT License",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Install multiple Ruby versions",
+        "Switch between Ruby versions (manual/automatic)",
+        "Includes gemsets for dependency isolation",
+        "Manages other related tools"
+      ],
+      "website": "https://rvm.io/"
+    },
+    {
+      "name": "rbenv",
+      "license": "MIT License",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Manage multiple Ruby versions",
+        "Set global and local Ruby versions",
+        "Uses shims for version switching",
+        "Extensible via plugins (e.g., ruby-build, rbenv-gemsets)"
+      ],
+      "website": "https://github.com/rbenv/rbenv"
+    },
+    {
+      "name": "goenv",
+      "license": "MIT License",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Manage multiple Go versions",
+        "Set global, local, and shell Go versions",
+        "Uses shims",
+        "Aims for simplicity"
+      ],
+      "website": "https://github.com/go-nv/goenv"
+    },
+    {
+      "name": "asdf",
+      "license": "MIT License",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Manage multiple language versions via plugins",
+        "Supports numerous languages",
+        "Set global, shell, and local versions",
+        "Integrates with direnv"
+      ],
+      "website": "https://asdf-vm.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "nvm (Node Version Manager)",
+    "pyenv"
+  ],
+  "marketPositioning": "Rustup holds a strong market position as the *official* and *recommended* tool for installing and managing the Rust programming language toolchain. Unlike many community-developed version managers for other languages, Rustup is the canonical method endorsed by the Rust project itself. This provides developers with an officially supported, integrated, and comprehensive solution for managing Rust compilers (stable, beta, nightly), the Cargo package manager, and other essential development tools and targets, directly from the source."
+}

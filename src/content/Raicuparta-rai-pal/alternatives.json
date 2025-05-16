@@ -1,0 +1,87 @@
+{
+  "projectName": "rai-pal",
+  "projectPurpose": "To provide a dedicated mod management tool specifically designed for \"universal game mods\" \u2013 modifications that can function across multiple games, often those built with the same engine, simplifying their discovery, installation, updating, and launching.",
+  "platforms": [],
+  "mainFeatures": [
+    "Tool to help use and make universal game mods",
+    "Auto-find installed games from supported providers",
+    "Auto-find owned (but not necessarily installed) games from supported providers",
+    "Detect relevant information about each game, such as their game engine",
+    "Easily install/run the correct version of universal mods",
+    "Easily update universal mods",
+    "Specific support for Praydog's UEVR (a universal VR mod for Unreal Engine games)"
+  ],
+  "website": "https://github.com/Raicuparta/rai-pal",
+  "alternatives": [
+    {
+      "name": "Vortex Mod Manager",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Multi-game support (over 250 games)",
+        "Close integration with Nexus Mods",
+        "Automatic load order sorting and conflict resolution",
+        "Mod profiles",
+        "Modern and customizable UI"
+      ],
+      "website": "https://www.nexusmods.com/about/vortex/"
+    },
+    {
+      "name": "Mod Organizer 2 (MO2)",
+      "license": "Open Source - GPL-3.0 / LGPL",
+      "platforms": [
+        "Windows",
+        "Linux (via Wine/Lutris)"
+      ],
+      "mainFeatures": [
+        "Virtual File System (VFS) for clean game directory",
+        "Robust profile system",
+        "Detailed control over load order and conflicts",
+        "Nexus Mods integration",
+        "Manual and automatic mod installation/management"
+      ],
+      "website": "https://www.modorganizer.org/"
+    },
+    {
+      "name": "CurseForge App",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "One-click modpack installation",
+        "Automatic mod and pack updates",
+        "In-app mod search",
+        "Profile-based instance handling",
+        "Multi-game support (Minecraft, WoW, The Sims 4, etc.)"
+      ],
+      "website": "https://www.curseforge.com/download"
+    },
+    {
+      "name": "Godot Universal Mod Manager",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Manages and creates mods for any Godot game without modifying game files",
+        "Works with Godot 2, 3, and 4",
+        "Provides basic API for managing mod data",
+        "Allows activation/deactivation of specific mods",
+        "Supports importing mods from directories"
+      ],
+      "website": "https://github.com/KoBeWi/Godot-Universal-Mod-Manager"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Vortex Mod Manager",
+    "CurseForge App"
+  ],
+  "marketPositioning": "Rai Pal occupies a niche market position by focusing exclusively on \"universal game mods\" \u2013 modifications designed to function across multiple games, often leveraging common game engines. While general mod managers like Vortex and Mod Organizer 2 support multiple games, their primary function revolves around managing game-specific mod lists. Rai Pal differentiates itself by providing a dedicated tool for discovering, installing, and managing this specific class of mods, particularly highlighting its utility for universal VR mods like UEVR. It serves a distinct need for users interested in applying engine-level modifications across their game libraries, rather than managing individual mod collections for separate titles."
+}

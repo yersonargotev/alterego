@@ -1,0 +1,124 @@
+{
+  "projectName": "ninjabook",
+  "projectPurpose": "To provide a core, high-performance order book data structure and processing logic for financial market data (Level 2 and trades), suitable for use in trading systems, matching engines, and quantitative analysis applications.",
+  "platforms": [
+    "Rust (generally cross-platform)"
+  ],
+  "mainFeatures": [
+    "Lightweight",
+    "High-performance",
+    "Processes Level 2 market data",
+    "Processes trade data",
+    "Implemented in Rust for performance and memory safety"
+  ],
+  "website": "https://github.com/ninja-quant/ninjabook",
+  "alternatives": [
+    {
+      "name": "QuantLib",
+      "license": "Open Source - Modified BSD License",
+      "platforms": [
+        "Cross-platform (C++, Python, R, Java, C# bindings)"
+      ],
+      "mainFeatures": [
+        "Comprehensive financial modeling framework",
+        "Derivatives pricing",
+        "Risk management tools",
+        "Supports various financial instruments"
+      ],
+      "website": "https://www.quantlib.org/"
+    },
+    {
+      "name": "Backtrader",
+      "license": "Open Source",
+      "platforms": [
+        "Python (generally cross-platform)"
+      ],
+      "mainFeatures": [
+        "Event-driven backtesting engine",
+        "Strategy visualization",
+        "Live trading support",
+        "Handles various data feeds"
+      ],
+      "website": "https://www.backtrader.com/"
+    },
+    {
+      "name": "InfluxDB",
+      "license": "Open Source - MIT License (OSS version)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Time-series optimized storage",
+        "High write throughput",
+        "Powerful query language (Flux)",
+        "Data compression"
+      ],
+      "website": "https://www.influxdata.com/"
+    },
+    {
+      "name": "Chronicle Matching Engine",
+      "license": "Proprietary/Commercial",
+      "platforms": [
+        "Likely Linux-centric (high-performance environments)"
+      ],
+      "mainFeatures": [
+        "Ultra-low latency order matching",
+        "Supports various order types",
+        "Risk controls",
+        "Scalable architecture"
+      ],
+      "website": "https://chronicle.software/products/chronicle-matching-engine/"
+    },
+    {
+      "name": "DXmatch (Devexperts)",
+      "license": "Proprietary/Commercial",
+      "platforms": [
+        "High-performance trading platforms"
+      ],
+      "mainFeatures": [
+        "Ultra-low latency matching",
+        "Scalable architecture",
+        "Supports broad range of assets",
+        "Risk management features"
+      ],
+      "website": "https://devexperts.com/products/matching-engine/"
+    },
+    {
+      "name": "TimebaseOrderBook (EPAM)",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Java (generally cross-platform)"
+      ],
+      "mainFeatures": [
+        "Lightweight and garbage-free",
+        "Handles Level 1 and Level 2 data",
+        "Supports different order book views",
+        "Designed for real-time processing"
+      ],
+      "website": "https://github.com/epam/TimebaseOrderBook"
+    },
+    {
+      "name": "`pricelevel` (Rust crate)",
+      "license": "Open Source (Likely MIT or Apache 2.0)",
+      "platforms": [
+        "Rust (generally cross-platform)"
+      ],
+      "mainFeatures": [
+        "High-performance price level implementation",
+        "Lock-free architecture",
+        "Supports various order types",
+        "Efficient order matching logic"
+      ],
+      "website": "https://docs.rs/pricelevel/latest/pricelevel/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Pandas (for financial data manipulation)",
+    "NumPy (for numerical operations)",
+    "Chronicle Matching Engine (in professional trading infrastructure)",
+    "DXmatch (in professional trading infrastructure)"
+  ],
+  "marketPositioning": "Ninjabook is positioned as a high-performance, lightweight, and low-level library for handling core financial market data structures, specifically Level 2 order books and trades. By being written in Rust, it targets developers who require maximum speed, efficiency, and control over memory management for building performance-critical trading applications or market data infrastructure. It serves as a fundamental building block, distinct from broader quantitative finance libraries, time-series databases, or full-fledged commercial matching engines."
+}

@@ -1,0 +1,140 @@
+{
+  "projectName": "atuin",
+  "projectPurpose": "To provide a modern, enhanced, and optionally synchronized shell history with rich contextual information and powerful search capabilities, improving command-line productivity across multiple machines and sessions.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Shell history sync (optional, encrypted)",
+    "End-to-end encryption for synced history",
+    "Efficient search (full text, fuzzy, filterable)",
+    "Full-screen history search UI (Ctrl+R and Up rebindable)",
+    "Stores history in a SQLite database",
+    "Stores extra context (working directory, exit code, duration, etc.)",
+    "Supports multiple shells (zsh, bash, fish, nushell, xonsh)",
+    "Self-hostable sync server"
+  ],
+  "website": "https://atuin.sh/",
+  "alternatives": [
+    {
+      "name": "Standard Shell History (Bash, Zsh, Fish)",
+      "license": "Open Source (GPL, MIT)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Record commands in a history file",
+        "Recall commands with Up/Down arrows",
+        "Reverse incremental search (Ctrl+R)",
+        "Basic history manipulation commands",
+        "Limited options for ignoring commands"
+      ],
+      "website": "N/A (built-in shell features)"
+    },
+    {
+      "name": "fzf",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "General-purpose fuzzy finder",
+        "Interactive full-screen search interface",
+        "Integrates with shell history (Ctrl+R)",
+        "Highly customizable",
+        "Fast and portable"
+      ],
+      "website": "https://github.com/junegunn/fzf"
+    },
+    {
+      "name": "McFly",
+      "license": "Open Source",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Intelligent shell history search",
+        "Considers working directory and recent commands",
+        "Prioritizes suggestions with a neural network",
+        "Replaces default Ctrl+R search"
+      ],
+      "website": "https://github.com/cantino/mcfly"
+    },
+    {
+      "name": "HiSHtory",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Stores history with context (directory, exit code, duration)",
+        "End-to-end encrypted syncing",
+        "Queryable history via CLI and Ctrl+R",
+        "Ignores commands prefixed with space",
+        "Data import"
+      ],
+      "website": "https://github.com/ddworken/hishtory"
+    },
+    {
+      "name": "Warp",
+      "license": "Proprietary",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Modern terminal emulator with IDE features",
+        "Enhanced command history search with rich context",
+        "Command palette for searching",
+        "Warp AI for command suggestions",
+        "Team collaboration features"
+      ],
+      "website": "https://www.warp.dev/"
+    },
+    {
+      "name": "iTerm2",
+      "license": "Open Source - MPL-2.0",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Terminal emulator for macOS",
+        "Shell integration for history tracking",
+        "Autocomplete based on history",
+        "Command history toolbelt/panel",
+        "History preserved across restarts"
+      ],
+      "website": "https://iterm2.com/"
+    },
+    {
+      "name": "history (b4b4r07/history)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Enhanced history with submatch and fuzzy search",
+        "Share history among multiple machines",
+        "Customizable display columns",
+        "Interactive filtering and execution",
+        "Text database backend"
+      ],
+      "website": "https://github.com/b4b4r07/history"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Standard Shell History (Bash, Zsh, Fish)",
+    "fzf"
+  ],
+  "marketPositioning": "Atuin is positioned as a comprehensive and privacy-focused replacement for traditional shell history. It differentiates itself by offering seamless, end-to-end encrypted synchronization of a rich, contextual command history across multiple machines, a feature not commonly found in standard shells or many alternative history tools. Its use of a database backend enables more advanced search and analysis than simple text-file history. While terminal emulators like Warp and iTerm2 offer some enhanced history features, Atuin is shell-agnostic and dedicated solely to providing a superior history experience, competing directly with other enhanced history tools like McFly and HiSHtory by emphasizing its robust sync, encryption, and detailed context storage, all within an open-source framework with flexible hosting options."
+}

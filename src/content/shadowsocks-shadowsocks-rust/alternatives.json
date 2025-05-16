@@ -1,0 +1,162 @@
+{
+  "projectName": "shadowsocks-rust",
+  "projectPurpose": "To provide a fast and secure tunnel proxy implemented in Rust for bypassing internet censorship and firewalls, often by disguising traffic as normal web traffic using the Shadowsocks protocol.",
+  "platforms": [
+    "Linux",
+    "Windows",
+    "macOS",
+    "Android",
+    "iOS",
+    "OpenWrt",
+    "Various others via source/clients"
+  ],
+  "mainFeatures": [
+    "SOCKS5 CONNECT and UDP ASSOCIATE",
+    "SOCKS4/4a CONNECT",
+    "Various crypto algorithms (including AEAD and AEAD-2022)",
+    "Load balancing and server delay checking",
+    "SIP003 Plugins and SIP003u Plugin with UDP support",
+    "SIP002 Extension ss URLs",
+    "HTTP Proxy Supports (RFC 7230 and CONNECT)",
+    "Defend against replay attacks",
+    "Manager APIs for Multiple Users",
+    "ACL (Access Control List) Support",
+    "HTTP/HTTPS Proxy protocol support",
+    "Redirect mode",
+    "Tunnel mode",
+    "UDP Relay",
+    "MPTCP",
+    "TUN interface support",
+    "FakeDNS",
+    "SIP008 Online Configuration Delivery"
+  ],
+  "website": "https://github.com/shadowsocks/shadowsocks-rust",
+  "alternatives": [
+    {
+      "name": "OpenVPN",
+      "license": "Open Source (GPLv2), Commercial (OpenVPN Access Server)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "BSD",
+        "Solaris",
+        "QNX",
+        "ChromeOS"
+      ],
+      "mainFeatures": [
+        "Secure encryption and authentication (OpenSSL/TLS)",
+        "Supports TCP and UDP",
+        "Cross-platform compatibility",
+        "Can bypass firewalls",
+        "Certificate and username/password authentication"
+      ],
+      "website": "https://openvpn.net/"
+    },
+    {
+      "name": "WireGuard",
+      "license": "Open Source (GPLv2 for kernel components, various others)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "BSD",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Simple and efficient protocol",
+        "State-of-the-art cryptography",
+        "Smaller codebase",
+        "High performance",
+        "Native to the Linux kernel"
+      ],
+      "website": "https://www.wireguard.com/"
+    },
+    {
+      "name": "V2Ray",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android (via third-party clients)",
+        "iOS (via third-party clients)"
+      ],
+      "mainFeatures": [
+        "Multi-protocol support (Socks, HTTP, Shadowsocks, Vmess, VLESS, etc.)",
+        "Customizable routing",
+        "Obfuscation (masquerades as HTTPS)",
+        "Multiple inbound/outbound proxies",
+        "Reverse proxy"
+      ],
+      "website": "https://www.v2fly.org/"
+    },
+    {
+      "name": "Xray",
+      "license": "Open Source (Mozilla Public License Version 2.0)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "Android",
+        "iOS",
+        "macOS",
+        "OpenWrt",
+        "Asuswrt-Merlin"
+      ],
+      "mainFeatures": [
+        "Supports VLESS and XTLS protocols",
+        "Includes V2Ray's features",
+        "Improved performance",
+        "Active development"
+      ],
+      "website": "https://www.xtls.link/"
+    },
+    {
+      "name": "Trojan",
+      "license": "Open Source (GPLv3)",
+      "platforms": [
+        "Linux",
+        "Windows (via clients)",
+        "macOS (via clients)",
+        "Android (via clients)",
+        "iOS (via clients)"
+      ],
+      "mainFeatures": [
+        "Bypasses GFW by mimicking HTTPS",
+        "Uses TLS to avoid detection",
+        "Supports multiple protocols over TLS",
+        "Can serve a decoy website",
+        "Can use Cloudflare CDN"
+      ],
+      "website": "https://trojan-gfw.github.io/trojan/"
+    },
+    {
+      "name": "Outline",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "ChromeOS",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Easy deployment of Shadowsocks servers",
+        "Includes server and client software",
+        "User-friendly manager application",
+        "Based on Shadowsocks protocol",
+        "Resistant to some blocking methods"
+      ],
+      "website": "https://getoutline.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OpenVPN",
+    "WireGuard"
+  ],
+  "marketPositioning": "shadowsocks-rust is positioned as a high-performance, memory-safe, and feature-rich implementation of the Shadowsocks protocol written in Rust. It operates within the niche of censorship circumvention tools, offering a method designed to be less detectable than traditional VPNs. Compared to the original Shadowsocks or other implementations, it leverages Rust's strengths for performance and reliability. It competes with other anti-censorship tools like V2Ray, Xray, and Trojan, which may offer different obfuscation techniques or multi-protocol support, and with general-purpose VPNs like OpenVPN and WireGuard, which are more broadly used but can be more easily detected by sophisticated censorship systems."
+}

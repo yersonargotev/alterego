@@ -1,0 +1,89 @@
+{
+  "projectName": "zellij",
+  "projectPurpose": "To provide an enhanced environment for managing multiple terminal sessions, windows, and panes within a single terminal emulator, acting as a modern, feature-rich terminal multiplexer.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Terminal multiplexing (sessions, windows, panes)",
+    "Detach and reattach sessions",
+    "Built-in layout systems",
+    "Plugin system",
+    "More user-friendly interface compared to traditional alternatives"
+  ],
+  "website": "https://zellij.dev/",
+  "alternatives": [
+    {
+      "name": "tmux",
+      "license": "ISC License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "OpenBSD",
+        "FreeBSD",
+        "NetBSD",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Terminal multiplexing (sessions, windows, panes)",
+        "Detach and reattach sessions",
+        "Scriptable command interface",
+        "Supports UTF-8 and 256 colors"
+      ],
+      "website": "https://github.com/tmux/tmux"
+    },
+    {
+      "name": "GNU Screen",
+      "license": "GNU GPL (version 2 or later)",
+      "platforms": [
+        "Linux",
+        "BSD",
+        "Solaris",
+        "UNIX-based systems"
+      ],
+      "mainFeatures": [
+        "Terminal multiplexing (sessions, windows)",
+        "Detach and reattach sessions",
+        "Allows multiple terminal sessions in one window"
+      ],
+      "website": "https://www.gnu.org/software/screen/"
+    },
+    {
+      "name": "iTerm2",
+      "license": "GPL-2.0 license",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Terminal emulator with built-in multiplexing (panes)",
+        "Hotkey window",
+        "Search and autocomplete",
+        "Extensive customization"
+      ],
+      "website": "https://iterm2.com/"
+    },
+    {
+      "name": "WezTerm",
+      "license": "MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows 10",
+        "FreeBSD",
+        "NetBSD"
+      ],
+      "mainFeatures": [
+        "GPU-accelerated terminal emulator",
+        "Built-in multiplexer (panes, tabs, windows)",
+        "Configurable with Lua",
+        "Ligatures and color emoji support"
+      ],
+      "website": "https://wezfurlong.org/wezterm/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "tmux"
+  ],
+  "marketPositioning": "Zellij is positioned as a modern, user-friendly terminal workspace and multiplexer, offering a richer set of built-in features and a plugin system compared to traditional multiplexers like tmux and GNU Screen. It competes in the terminal multiplexing space while also offering features found in advanced terminal emulators, aiming to provide a more integrated 'batteries included' experience."
+}

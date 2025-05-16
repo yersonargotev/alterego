@@ -1,0 +1,102 @@
+{
+  "projectName": "rustworkx",
+  "projectPurpose": "To provide a high-performance Python library for creating, manipulating, and analyzing graphs and networks by implementing core components in Rust.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "High performance graph library for Python",
+    "Implemented in Rust for performance and safety",
+    "Supports directed graphs and multigraphs",
+    "Library of standard graph algorithms",
+    "Graph generators",
+    "Visualization functions",
+    "Support for shortest paths, isomorphism, matching, and multithreading"
+  ],
+  "website": "https://github.com/Qiskit/rustworkx",
+  "alternatives": [
+    {
+      "name": "NetworkX",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Easy to use API",
+        "Comprehensive set of algorithms",
+        "Supports various graph types (directed, undirected, multigraphs, weighted)",
+        "Visualization tools"
+      ],
+      "website": "https://networkx.org/"
+    },
+    {
+      "name": "igraph",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "High performance (C core)",
+        "Large collection of algorithms",
+        "Supports various graph types",
+        "Bindings for R, Python, and C",
+        "Visualization capabilities"
+      ],
+      "website": "https://igraph.org/"
+    },
+    {
+      "name": "graph-tool",
+      "license": "Open Source - LGPLv3",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "High performance (C++ core, Boost Graph Library)",
+        "Efficient filtering of vertices and edges",
+        "Comprehensive statistical analysis tools",
+        "Parallelized algorithms (OpenMP)",
+        "High-quality visualization"
+      ],
+      "website": "https://graph-tool.skewed.de/"
+    },
+    {
+      "name": "NetworKit",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Focus on large-scale network analysis",
+        "Efficient parallel algorithms",
+        "Supports various graph formats",
+        "Includes a breadth of graph algorithms"
+      ],
+      "website": "http://networkit.eda.htw-berlin.de/"
+    },
+    {
+      "name": "cuGraph",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "GPU accelerated graph processing",
+        "High performance for large graphs",
+        "Integrates with the RAPIDS ecosystem",
+        "Offers a NetworkX backend"
+      ],
+      "website": "https://rapids.ai/cugraph.html"
+    }
+  ],
+  "mostWellKnownAlternative": "NetworkX",
+  "marketPositioning": "Rustworkx is positioned as a high-performance Python graph library. It directly addresses the performance limitations of pure-Python libraries like NetworkX by leveraging the speed and memory safety of Rust. It competes with other high-performance libraries like igraph and graph-tool, offering a balance between Python's ease of use and compiled code's efficiency, particularly suitable for performance-sensitive applications and large-scale graph analysis."
+}

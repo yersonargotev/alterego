@@ -1,0 +1,149 @@
+{
+  "projectName": "sqlparser-rs",
+  "projectPurpose": "To provide a robust, extensible, and performant library in Rust for tokenizing and parsing SQL queries into a structured Abstract Syntax Tree (AST) for use in applications like database engines and analysis tools.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "Extensible SQL lexer and parser",
+    "Parses SQL into an Abstract Syntax Tree (AST)",
+    "Supports ANSI/ISO SQL standard and various dialects",
+    "Hand-written parser design for performance and extensibility",
+    "Allows reconstructing SQL text from AST",
+    "Includes source spans for improved error reporting"
+  ],
+  "website": "https://github.com/sqlparser-rs/sqlparser-rs",
+  "alternatives": [
+    {
+      "name": "ANTLR",
+      "license": "Open Source (BSD)",
+      "platforms": [
+        "Java",
+        "C#",
+        "C++",
+        "Python",
+        "JavaScript",
+        "Go",
+        "C",
+        "Swift"
+      ],
+      "mainFeatures": [
+        "Parser generator from grammar files",
+        "Generates lexers and parsers in multiple languages",
+        "Widely used for building custom language parsers",
+        "Provides AST generation"
+      ],
+      "website": "https://www.antlr.org/"
+    },
+    {
+      "name": "JSQLParser",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Java"
+      ],
+      "mainFeatures": [
+        "RDBMS agnostic SQL statement parser",
+        "Supports multiple SQL dialects (MySQL, PostgreSQL, Oracle, SQL Server, etc.)",
+        "Translates SQL into a traversable AST (Java classes)",
+        "Built from JavaCC"
+      ],
+      "website": "https://jsqlparser.github.io/JSqlParser/"
+    },
+    {
+      "name": "sqlparse",
+      "license": "Open Source (New BSD license)",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Non-validating SQL parser",
+        "Supports parsing, splitting, and formatting SQL",
+        "Uses regular expressions for parsing"
+      ],
+      "website": "https://github.com/andialbrecht/sqlparse"
+    },
+    {
+      "name": "libpg_query",
+      "license": "Open Source (PostgreSQL License)",
+      "platforms": [
+        "C",
+        "Python",
+        "Ruby",
+        "Go",
+        "JavaScript",
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Standalone PostgreSQL parser extracted from the source",
+        "Provides bindings for various languages",
+        "Parses PostgreSQL dialect SQL",
+        "Generates parse trees"
+      ],
+      "website": "https://github.com/pganalyze/libpg_query"
+    },
+    {
+      "name": "Apache Calcite",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Java"
+      ],
+      "mainFeatures": [
+        "Parser and optimizer framework",
+        "Supports pluggable architectures for dialects and data sources",
+        "Used as a foundation for query engines",
+        "Provides a SQL parser and logical plan representation"
+      ],
+      "website": "https://calcite.apache.org/"
+    },
+    {
+      "name": "General SQL Parser",
+      "license": "Proprietary",
+      "platforms": [
+        "Java",
+        "C++",
+        ".NET",
+        "Python"
+      ],
+      "mainFeatures": [
+        "Supports numerous database dialects",
+        "Provides detailed SQL analysis and AST",
+        "Features include SQL formatting, validation, and rewriting",
+        "Commercial support available"
+      ],
+      "website": "https://www.sqlparser.com/"
+    },
+    {
+      "name": "Microsoft.SqlServer.TransactSql.ScriptDom",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        ".NET"
+      ],
+      "mainFeatures": [
+        "Parses Transact-SQL (T-SQL) dialect",
+        "Generates an Abstract Syntax Tree (AST)",
+        "Used for T-SQL code analysis and manipulation"
+      ],
+      "website": "https://github.com/microsoft/sqltoolsscriptdom"
+    },
+    {
+      "name": "SQLGlot",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "SQL parser, transpiler, optimizer, and engine",
+        "Supports translating between many SQL dialects",
+        "Pure Python, no dependencies",
+        "Provides AST analysis and manipulation"
+      ],
+      "website": "https://github.com/tobymao/sqlglot"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ANTLR",
+    "JSQLParser",
+    "General SQL Parser"
+  ],
+  "marketPositioning": "sqlparser-rs is a leading open-source, general-purpose SQL parser library specifically tailored for the Rust programming language ecosystem. It distinguishes itself through a hand-written parser design that prioritizes performance, ease of extension for custom dialects, and simplified debugging compared to parser generators. While it aims for broad ANSI/ISO SQL compliance and dialect support, its primary market position is as a foundational component for building robust and performant data processing tools, databases, and query engines written in Rust, as demonstrated by its adoption in projects like Apache DataFusion and Ballista. It competes with general-purpose parsers in other languages and parser generator tools, but is the prominent choice for Rust developers needing native SQL parsing capabilities."
+}

@@ -1,0 +1,90 @@
+{
+  "projectName": "harper",
+  "projectPurpose": "To provide grammar and spell checking specifically tailored for software developers, focusing on privacy, performance, and integration into developer workflows.",
+  "platforms": [
+    "Likely cross-platform given Rust language, with editor-specific integrations (e.g., Obsidian, Neovim)"
+  ],
+  "mainFeatures": [
+    "Grammar Checking",
+    "Spell Checking",
+    "Privacy-focused (offline, on-device operation)",
+    "Lightweight and Fast",
+    "Ignores code blocks",
+    "Real-time checking"
+  ],
+  "website": "https://github.com/elijah-potter/harper",
+  "alternatives": [
+    {
+      "name": "Grammarly",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Browser Extensions",
+        "Integrations (Microsoft Office, Google Workspace, etc.)"
+      ],
+      "mainFeatures": [
+        "Grammar and spell checking",
+        "Tone detection and adjustments",
+        "Plagiarism detection (Paid)",
+        "Clarity suggestions",
+        "Generative AI features (Paid)"
+      ],
+      "website": "https://www.grammarly.com/"
+    },
+    {
+      "name": "LanguageTool",
+      "license": "Open Source (LGPL v2.1+ for core), Proprietary (Premium)",
+      "platforms": [
+        "Web",
+        "Desktop (Java SE)",
+        "Browser extensions",
+        "Integrations (Microsoft Office, Google Docs, etc.)"
+      ],
+      "mainFeatures": [
+        "Grammar, style, and spell checking",
+        "Supports 30+ languages",
+        "Offline use possible (core)",
+        "Pattern-based error detection"
+      ],
+      "website": "https://languagetool.org/"
+    },
+    {
+      "name": "ProWritingAid",
+      "license": "Proprietary (Paid)",
+      "platforms": [
+        "Web",
+        "Desktop (Windows, Mac)",
+        "Browser extensions",
+        "Integrations (Microsoft Word, Google Docs, Scrivener, etc.)"
+      ],
+      "mainFeatures": [
+        "Comprehensive grammar and style analysis",
+        "In-depth reports (e.g., readability, overused words)",
+        "Contextual Thesaurus",
+        "Integrations with writing tools"
+      ],
+      "website": "https://prowritingaid.com/"
+    },
+    {
+      "name": "Hemingway Editor",
+      "license": "Paid (Desktop), Free (Web - limited)",
+      "platforms": [
+        "Web",
+        "Desktop (Windows, macOS)"
+      ],
+      "mainFeatures": [
+        "Focus on readability and style",
+        "Highlights complex sentences and passive voice",
+        "Provides readability grade level",
+        "Offline functionality (Desktop)"
+      ],
+      "website": "http://hemingwayapp.com/"
+    }
+  ],
+  "mostWellKnownAlternative": "Grammarly",
+  "marketPositioning": "Harper is positioned as a niche, privacy-first, and high-performance grammar and spell checker specifically for the developer community. It differentiates itself from broader consumer-focused tools like Grammarly and LanguageTool by prioritizing on-device operation for data privacy and tailoring its functionality to the technical writing context of developers, such as ignoring code blocks. Its open-source nature further appeals to this audience, offering transparency and extensibility compared to predominantly proprietary alternatives. While other tools offer wider language support and more extensive stylistic analysis, Harper focuses on providing core grammar and spell checking efficiently and securely within the developer workflow."
+}

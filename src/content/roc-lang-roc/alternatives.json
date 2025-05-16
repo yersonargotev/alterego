@@ -1,0 +1,122 @@
+{
+  "projectName": "roc",
+  "projectPurpose": "To provide a fast, user-friendly, and robust functional programming language for building reliable applications across various platforms, balancing performance with developer experience and the benefits of pure functional programming.",
+  "platforms": [
+    "Cross-platform (compiles to machine code and WebAssembly for various architectures including 32-bit, 64-bit, Arm, Intel)"
+  ],
+  "mainFeatures": [
+    "Pure functional programming paradigm",
+    "Fast compilation and runtime performance (compiles to machine code/WebAssembly)",
+    "Friendly and intuitive syntax with focus on developer experience",
+    "Strong static typing with full type inference",
+    "Robust pattern matching and algebraic data types (tag unions)",
+    "Immutable data structures by default",
+    "Managed effects system",
+    "Multi-platform support through runtime separation",
+    "Interoperability with other languages (via C interop)"
+  ],
+  "website": "https://www.roc-lang.org/",
+  "alternatives": [
+    {
+      "name": "Haskell",
+      "license": "Open Source (BSD 3-clause)",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, etc.)"
+      ],
+      "mainFeatures": [
+        "Purely functional programming",
+        "Lazy evaluation",
+        "Strong static typing with advanced type system",
+        "Powerful type inference",
+        "Sophisticated concurrency features"
+      ],
+      "website": "https://www.haskell.org/"
+    },
+    {
+      "name": "OCaml",
+      "license": "Open Source (LGPL v2.1 with linking exception)",
+      "platforms": [
+        "Cross-platform (Linux, Unix, macOS, Windows)"
+      ],
+      "mainFeatures": [
+        "Multi-paradigm (functional, imperative, object-oriented)",
+        "Strong static typing with type inference",
+        "Powerful module system",
+        "Fast native code compiler",
+        "Polymorphic variants"
+      ],
+      "website": "https://ocaml.org/"
+    },
+    {
+      "name": "F#",
+      "license": "Open Source (MIT/Apache 2.0)",
+      "platforms": [
+        "Cross-platform (.NET, JavaScript)"
+      ],
+      "mainFeatures": [
+        "Functional-first, imperative, object-oriented",
+        "Strong static typing with type inference",
+        "Leverages the .NET ecosystem",
+        "Concise syntax",
+        "Good for data science and scripting"
+      ],
+      "website": "https://fsharp.org/"
+    },
+    {
+      "name": "Scala",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "JVM",
+        "JavaScript",
+        "Native"
+      ],
+      "mainFeatures": [
+        "Combines functional and object-oriented programming",
+        "Strong static typing with type inference",
+        "Runs on the JVM and interoperates with Java",
+        "Expressive syntax",
+        "Scalable for large applications"
+      ],
+      "website": "https://www.scala-lang.org/"
+    },
+    {
+      "name": "Clojure",
+      "license": "Open Source (Eclipse Public License 1.0)",
+      "platforms": [
+        "JVM",
+        "JavaScript",
+        ".NET",
+        "BEAM"
+      ],
+      "mainFeatures": [
+        "Dynamic and functional programming (Lisp dialect)",
+        "Immutable persistent data structures by default",
+        "Designed for concurrency",
+        "Interactive development (REPL)",
+        "Powerful macro system"
+      ],
+      "website": "https://clojure.org/"
+    },
+    {
+      "name": "Elm",
+      "license": "Open Source (Revised BSD)",
+      "platforms": [
+        "Web (compiles to JavaScript)"
+      ],
+      "mainFeatures": [
+        "Purely functional programming",
+        "Statically typed, designed for reliability",
+        "No runtime exceptions in practice",
+        "Friendly compiler errors",
+        "The Elm Architecture (TEA)"
+      ],
+      "website": "https://elm-lang.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Scala",
+    "Clojure",
+    "F#"
+  ],
+  "marketPositioning": "Roc is positioned as a fast, friendly, pure functional programming language designed for building reliable, multi-platform applications. It aims to differentiate itself by offering a balance of performance typically associated with systems languages, the safety and testability of pure functional programming, and a strong emphasis on developer friendliness to make functional programming more accessible. Its ability to compile to various architectures and WebAssembly, coupled with its clear syntax and error handling, targets developers who need performant backend or cross-platform solutions without the complexity often found in traditional functional or systems languages. It seeks to fill a niche for pure functional programming beyond frontend development (unlike Elm) while being potentially more approachable than Haskell or OCaml, and offering different paradigms compared to multi-paradigm languages like Scala or F#."
+}

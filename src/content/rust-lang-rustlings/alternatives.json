@@ -1,0 +1,123 @@
+{
+  "projectName": "rustlings",
+  "projectPurpose": "To provide hands-on coding exercises to help users learn and practice reading and writing Rust code and understand Rust compiler messages.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Small, focused coding exercises",
+    "Emphasis on reading and responding to compiler messages",
+    "Command-line interface",
+    "Watch mode for automatic re-running exercises on file changes",
+    "Integration with local Rust toolchain"
+  ],
+  "website": "https://github.com/rust-lang/rustlings",
+  "alternatives": [
+    {
+      "name": "Exercism",
+      "license": "Open Source - MIT (for exercises)",
+      "platforms": [
+        "Web",
+        "CLI (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Coding exercises in 75+ languages (including Rust)",
+        "Automated code analysis",
+        "Personal mentoring (optional)",
+        "Community discussions"
+      ],
+      "website": "https://exercism.org/"
+    },
+    {
+      "name": "Codewars",
+      "license": "Proprietary (Platform)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Challenge-based learning ('kata')",
+        "Supports 55+ programming languages (including Rust)",
+        "In-browser code editor with tests",
+        "Compare solutions with community"
+      ],
+      "website": "https://www.codewars.com/"
+    },
+    {
+      "name": "Rust By Example",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Code examples illustrating Rust concepts",
+        "Includes exercises",
+        "Web-based format",
+        "Official Rust project resource"
+      ],
+      "website": "https://doc.rust-lang.org/rust-by-example/"
+    },
+    {
+      "name": "Codecademy (Rust for Programmers)",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Interactive lessons and articles",
+        "Covers basic to advanced concepts",
+        "Includes quizzes and projects",
+        "In-browser IDE"
+      ],
+      "website": "https://www.codecademy.com/learn/learn-rust"
+    },
+    {
+      "name": "freeCodeCamp (Rust Content)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Free interactive courses and video tutorials",
+        "Covers various Rust topics and projects",
+        "Project-based learning approach"
+      ],
+      "website": "https://www.freecodecamp.org/"
+    },
+    {
+      "name": "LeetCode",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Web",
+        "CLI (community)"
+      ],
+      "mainFeatures": [
+        "Focus on algorithm and data structure problems",
+        "Supports Rust for problem solving",
+        "Interview preparation",
+        "Wide range of problem difficulty"
+      ],
+      "website": "https://leetcode.com/"
+    },
+    {
+      "name": "Rustfinity",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Rust learning and practice platform",
+        "Tutorials, exercises, and challenges",
+        "Integrated in-browser compiler",
+        "Step-by-step learning path"
+      ],
+      "website": "https://rustfinity.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Exercism",
+    "Codecademy"
+  ],
+  "marketPositioning": "Rustlings is positioned as a practical, command-line-based learning tool that focuses on hands-on practice and understanding Rust compiler output through small, fixable exercises. It serves as a complementary resource to theoretical learning materials like 'The Rust Programming Language Book', offering a distinct approach from broader web-based coding platforms or interactive online courses by emphasizing direct interaction with the local Rust environment and toolchain."
+}

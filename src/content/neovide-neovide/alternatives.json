@@ -1,0 +1,142 @@
+{
+  "projectName": "neovide",
+  "projectPurpose": "To provide a modern, graphical user interface (GUI) for the Neovim text editor.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Graphical interface for Neovim",
+    "Built with Rust",
+    "Animated cursor",
+    "Smooth scrolling",
+    "Blurred floating windows"
+  ],
+  "website": "https://github.com/neovide/neovide",
+  "alternatives": [
+    {
+      "name": "Neovim-Qt",
+      "license": "ISC",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Multiple GUI tabs",
+        "Split windows",
+        "Customizable themes",
+        "Ligature support",
+        "GUI scrollbar"
+      ],
+      "website": "https://github.com/equalsraf/neovim-qt"
+    },
+    {
+      "name": "Goneovim",
+      "license": "MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Smooth pixel scroll",
+        "Animated cursor",
+        "Minimap",
+        "Built-in Indent guide",
+        "Workspace feature"
+      ],
+      "website": "https://github.com/akiyosi/goneovim"
+    },
+    {
+      "name": "Uivonim",
+      "license": "AGPL-3.0-or-later",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "WebGL GPU rendering",
+        "Multithreading",
+        "Hover features",
+        "Code actions",
+        "Supports latest Neovim features"
+      ],
+      "website": "https://github.com/smolck/uivonim"
+    },
+    {
+      "name": "FVim",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "High-performance rendering",
+        "Detach windows",
+        "Custom popup menu icons",
+        "HiDPI support"
+      ],
+      "website": "https://github.com/yatli/fvim"
+    },
+    {
+      "name": "gVim",
+      "license": "Open Source (Vim License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Native GUI for Vim",
+        "Wider color support (RGB)",
+        "GUI menus and toolbars",
+        "Drag-and-drop file support",
+        "Graphical scrollbars"
+      ],
+      "website": "https://www.vim.org/download.php"
+    },
+    {
+      "name": "Visual Studio Code",
+      "license": "MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "IntelliSense (code completion)",
+        "Debugging",
+        "Integrated terminal",
+        "Git integration",
+        "Extensive extension marketplace"
+      ],
+      "website": "https://code.visualstudio.com/"
+    },
+    {
+      "name": "Sublime Text",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "GoTo Anything (quick navigation)",
+        "Multiple Selections",
+        "Command Palette",
+        "Split Editing",
+        "Highly customizable (via plugins)"
+      ],
+      "website": "https://www.sublimetext.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Visual Studio Code"
+  ],
+  "marketPositioning": "Neovide positions itself as a \"No Nonsense Neovim Client in Rust\", emphasizing simplicity, performance, and reliability. Its use of Rust differentiates it from other Neovim GUIs built with frameworks like Qt or Electron. It aims to provide a focused graphical experience that leverages Neovim's core power without adding excessive or complex graphical features, appealing to users who prioritize efficiency and a native feel."
+}

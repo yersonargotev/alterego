@@ -1,0 +1,84 @@
+{
+  "projectName": "blitz",
+  "projectPurpose": "To provide a high-performance, GPU-accelerated rendering engine for displaying HTML and CSS content outside of a traditional web browser.",
+  "platforms": [
+    "Cross-platform (where WGPU is supported)"
+  ],
+  "mainFeatures": [
+    "High performance rendering",
+    "HTML and CSS rendering",
+    "Powered by WGPU (GPU acceleration)",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/DioxusLabs/blitz",
+  "alternatives": [
+    {
+      "name": "Electron",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Embeds Chromium engine",
+        "Full web stack support (HTML, CSS, JS)",
+        "Node.js integration",
+        "Cross-platform application framework"
+      ],
+      "website": "https://www.electronjs.org/"
+    },
+    {
+      "name": "Tauri",
+      "license": "Open Source (MIT or Apache 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Mobile (planned)",
+        "Web (planned)"
+      ],
+      "mainFeatures": [
+        "Uses native webviews (WebView2, WebKit, WebEngine)",
+        "Rust backend",
+        "Smaller binary sizes",
+        "Access to native APIs"
+      ],
+      "website": "https://tauri.app/"
+    },
+    {
+      "name": "Microsoft Edge WebView2",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS (experimental)"
+      ],
+      "mainFeatures": [
+        "Embeds Microsoft Edge (Chromium) engine",
+        "Supports web standards",
+        "Available for various languages (.NET, C++, Rust, etc.)",
+        "Integrates with Windows ecosystem"
+      ],
+      "website": "https://developer.microsoft.com/en-us/microsoft-edge/webview2/"
+    },
+    {
+      "name": "WebKitGTK",
+      "license": "Open Source (LGPL-2.1-or-later)",
+      "platforms": [
+        "Linux",
+        "Other Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Port of the WebKit rendering engine",
+        "GTK integration",
+        "Supports modern web standards",
+        "Used in Linux applications"
+      ],
+      "website": "https://webkitgtk.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Electron"
+  ],
+  "marketPositioning": "Blitz is positioned as a high-performance, Rust-based rendering engine for HTML and CSS that leverages WGPU for direct GPU acceleration. Unlike frameworks that embed full, large browser engines (like Electron or Tauri using native webviews), Blitz aims to be a more lightweight and performant component, potentially targeting niche use cases such as game UI rendering or specialized graphical applications where fine-grained control over rendering and maximum performance are critical. It serves as a rendering library rather than a complete application framework."
+}

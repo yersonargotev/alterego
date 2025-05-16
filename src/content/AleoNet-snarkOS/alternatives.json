@@ -1,0 +1,72 @@
+{
+  "projectName": "snarkOS",
+  "projectPurpose": "To serve as the core decentralized infrastructure or \"operating system\" specifically designed for building, deploying, and running zero-knowledge proof-based applications.",
+  "platforms": [
+    "Linux (Ubuntu 22.04 LTS)",
+    "macOS (Ventura or later)",
+    "Windows (11 or later)"
+  ],
+  "mainFeatures": [
+    "Decentralized operating system for ZK applications",
+    "Forms the backbone of the Aleo network",
+    "Verifies transactions with a single proof of execution",
+    "Stores encrypted application state in a publicly-verifiable manner",
+    "Supports different node types (Client, Prover, Validator)"
+  ],
+  "website": "https://github.com/AleoNet/snarkOS",
+  "alternatives": [
+    {
+      "name": "zkSync",
+      "license": "Open Source (various, Apache 2.0, MIT)",
+      "platforms": [
+        "Web",
+        "Desktop (via clients/wallets)",
+        "Mobile (via clients/wallets)"
+      ],
+      "mainFeatures": [
+        "Layer 2 ZK rollup on Ethereum",
+        "Scalable and low-cost transactions",
+        "EVM compatible smart contracts",
+        "Security inherited from Ethereum L1"
+      ],
+      "website": "https://zksync.io/"
+    },
+    {
+      "name": "Polygon zkEVM",
+      "license": "Open Source (various, MIT)",
+      "platforms": [
+        "Web",
+        "Desktop (via clients/wallets)",
+        "Mobile (via clients/wallets)"
+      ],
+      "mainFeatures": [
+        "Layer 2 ZK rollup on Ethereum",
+        "EVM equivalent for seamless migration",
+        "Leverages zk-SNARKs for transaction bundling and verification",
+        "Inherits Ethereum's security"
+      ],
+      "website": "https://polygon.technology/polygon-zkevm"
+    },
+    {
+      "name": "Mina Protocol",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Docker",
+        "Web (via lightweight clients)"
+      ],
+      "mainFeatures": [
+        "Lightweight blockchain with constant size (22kB)",
+        "Uses recursive ZK-SNARKs",
+        "Accessible verification from any device",
+        "Supports programmable private applications (zkApps)"
+      ],
+      "website": "https://minaprotocol.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum (with ZK-Rollups like zkSync and Polygon zkEVM)"
+  ],
+  "marketPositioning": "snarkOS positions itself as a Layer 1 decentralized operating system specifically built for zero-knowledge applications, forming the core of the Aleo network. Unlike Layer 2 ZK-rollups that scale existing chains like Ethereum, snarkOS aims to provide a native, privacy-focused, and programmable environment optimized for ZK computations from the ground up. It competes directly with other Layer 1 blockchains emphasizing privacy and ZK technology, and indirectly with Layer 2 ZK solutions that offer scalability and privacy features on established networks."
+}

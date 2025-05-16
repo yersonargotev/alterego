@@ -1,0 +1,122 @@
+{
+  "projectName": "rusqlite",
+  "projectPurpose": "To provide a safe, idiomatic, and convenient interface for Rust developers to interact with the SQLite embedded database engine.",
+  "platforms": [
+    "Cross-platform (wherever Rust and SQLite are supported)"
+  ],
+  "mainFeatures": [
+    "Ergonomic API for SQLite",
+    "Extensive support for SQLite features via Cargo flags (e.g., bundled SQLite, SQLCipher, online backup, user-defined functions, virtual tables)",
+    "Integration with Rust's type system for safety",
+    "Optional integration with other Rust crates (chrono, serde_json, etc.)",
+    "Direct access to underlying SQLite C API"
+  ],
+  "website": "https://github.com/rusqlite/rusqlite",
+  "alternatives": [
+    {
+      "name": "SQLx",
+      "license": "MIT License",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Asynchronous database operations",
+        "Compile-time checked SQL queries",
+        "Supports multiple databases (PostgreSQL, MySQL, SQLite)",
+        "Built-in connection pooling",
+        "Pure Rust drivers (except SQLite)"
+      ],
+      "website": "https://github.com/launchbadge/sqlx"
+    },
+    {
+      "name": "Diesel",
+      "license": "Apache-2.0 License",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "ORM and Query Builder",
+        "Compile-time safety",
+        "Supports multiple databases (PostgreSQL, MySQL, SQLite)",
+        "Rust-idiomatic DSL and raw SQL support",
+        "Code generation"
+      ],
+      "website": "https://diesel.rs/"
+    },
+    {
+      "name": "sqlite",
+      "license": "MIT License / Apache License 2.0 (Typical Rust)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Bindings to SQLite C API",
+        "Multiple API layers (FFI, core, types)",
+        "Basic query and update APIs"
+      ],
+      "website": "https://crates.io/crates/sqlite"
+    },
+    {
+      "name": "SeaORM",
+      "license": "MIT License",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Asynchronous ORM (built on SQLx)",
+        "Entity-based interactions",
+        "Dynamic query building",
+        "Supports multiple databases (including SQLite)",
+        "Designed for web services"
+      ],
+      "website": "https://www.sea-ql.org/SeaORM/"
+    },
+    {
+      "name": "OrmLite",
+      "license": "MIT License (Typical Rust)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "ORM focused on SQL users",
+        "Auto-generates migrations from structs",
+        "Simple query builder",
+        "Supports SQLite (and others)"
+      ],
+      "website": "https://crates.io/crates/ormlite"
+    },
+    {
+      "name": "MicrORM",
+      "license": "MIT License (Typical Rust)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Lightweight ORM specifically for SQLite",
+        "Focus on minimal overhead",
+        "Object modelling traits"
+      ],
+      "website": "https://crates.io/crates/microrm"
+    },
+    {
+      "name": "libSQL",
+      "license": "MIT License / Apache 2.0 License",
+      "platforms": [
+        "Cross-platform",
+        "WASM"
+      ],
+      "mainFeatures": [
+        "Rust-native SQLite fork",
+        "Asynchronous operations",
+        "Focus on WASM and serverless",
+        "Native replication, vector search"
+      ],
+      "website": "https://github.com/tursodatabase/libsql"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SQLx",
+    "Diesel"
+  ],
+  "marketPositioning": "Rusqlite is positioned as a direct, ergonomic, and feature-rich binding to the SQLite C library for Rust. Unlike ORMs (Diesel, SeaORM, OrmLite, MicrORM) that provide higher-level abstractions or multi-database clients (SQLx) with async focus and compile-time raw SQL checks, rusqlite offers a safe and idiomatic Rust interface that stays close to SQLite's core functionality, making it ideal for applications specifically requiring direct SQLite interaction with Rust's safety and performance benefits. LibSQL is a more fundamental alternative as a complete rewrite of SQLite in Rust."
+}

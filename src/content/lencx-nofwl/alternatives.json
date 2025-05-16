@@ -1,0 +1,120 @@
+{
+  "projectName": "nofwl",
+  "projectPurpose": "To provide a cross-platform desktop application that allows users to wrap web-based services and interact with them with enhanced features and local data storage.",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Cross-platform desktop application",
+    "Support for OpenAI API Key",
+    "Themes (light, dark, system)",
+    "Internationalization (English, Chinese)",
+    "Local data storage",
+    "Ability to wrap any website into a desktop application"
+  ],
+  "website": "https://github.com/lencx/nofwl",
+  "alternatives": [
+    {
+      "name": "Electron",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Build desktop apps with web technologies",
+        "Cross-platform compatibility",
+        "Access to native APIs",
+        "Large ecosystem and community"
+      ],
+      "website": "https://www.electronjs.org/"
+    },
+    {
+      "name": "Tauri",
+      "license": "Open Source - MIT / Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Build smaller, faster, and more secure desktop apps",
+        "Leverages Rust for the backend",
+        "Cross-platform compatibility",
+        "Focus on security and performance"
+      ],
+      "website": "https://tauri.app/"
+    },
+    {
+      "name": "Mitmproxy",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Intercept, inspect, modify, and replay web traffic",
+        "SSL/TLS decryption",
+        "Scriptable with Python",
+        "Web interface (mitmweb)"
+      ],
+      "website": "https://mitmproxy.org/"
+    },
+    {
+      "name": "Charles Proxy",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Web debugging proxy",
+        "Intercept and modify HTTP/HTTPS traffic",
+        "Session recording and playback",
+        "Throttling and bandwidth simulation"
+      ],
+      "website": "https://www.charlesproxy.com/"
+    },
+    {
+      "name": "Proxyman",
+      "license": "Proprietary",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Debug, intercept, and mock HTTP/HTTPS traffic",
+        "SSL/TLS decryption",
+        "Breakpoint tool",
+        "Map local tool"
+      ],
+      "website": "https://proxyman.io/"
+    },
+    {
+      "name": "Proxifier",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Force apps through a proxy",
+        "Supports multiple proxy protocols",
+        "Rule-based processing",
+        "Lightweight"
+      ],
+      "website": "https://www.proxifier.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Electron",
+    "Charles Proxy"
+  ],
+  "marketPositioning": "NoFWL is positioned as a user-friendly, open-source, cross-platform desktop application that wraps web services for a more integrated and enhanced experience. Unlike general browsers, it offers dedicated features and local data storage. While frameworks like Electron and Tauri provide the foundation for building such apps, NoFWL is an end-user product. Compared to web debugging proxies like Charles Proxy or Mitmproxy, NoFWL's primary focus appears to be on providing a richer user interface and potentially service-specific integrations for web applications, rather than detailed network traffic analysis."
+}

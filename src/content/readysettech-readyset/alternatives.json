@@ -1,0 +1,136 @@
+{
+  "projectName": "ReadySet",
+  "projectPurpose": "To provide a transparent and automatically updating caching layer for MySQL and PostgreSQL databases to improve read query performance and enable horizontal scaling without requiring significant application changes or manual cache invalidation.",
+  "platforms": [
+    "Linux",
+    "Docker"
+  ],
+  "mainFeatures": [
+    "MySQL and Postgres wire-compatible caching layer",
+    "Transparent to the application (no code changes required)",
+    "Automatically and incrementally updates cached results as data changes",
+    "Horizontally scales read throughput for cached queries",
+    "Leverages database replication stream for cache consistency",
+    "Provides sub-millisecond query latencies for cached reads"
+  ],
+  "website": "https://github.com/readysettech/readyset",
+  "alternatives": [
+    {
+      "name": "ProxySQL",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Linux",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "High-performance SQL proxy",
+        "Query caching (TTL-based)",
+        "Connection pooling and multiplexing",
+        "Query routing, rewriting, filtering",
+        "Load balancing"
+      ],
+      "website": "https://proxysql.com/"
+    },
+    {
+      "name": "Redis",
+      "license": "Open Source (RSAL/SSPL, variations exist)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Web"
+      ],
+      "mainFeatures": [
+        "In-memory data structure store",
+        "High performance and low latency",
+        "Persistence options",
+        "Supports various data types",
+        "Clustering and high availability"
+      ],
+      "website": "https://redis.io/"
+    },
+    {
+      "name": "Memcached",
+      "license": "Open Source (Permissive)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Web"
+      ],
+      "mainFeatures": [
+        "High-performance distributed memory cache",
+        "Simple key-value store",
+        "Reduces database load",
+        "Automatic item expiration (LRU)",
+        "Scalable"
+      ],
+      "website": "https://memcached.org/"
+    },
+    {
+      "name": "Apache ShardingSphere-Proxy",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform (Java-based)"
+      ],
+      "mainFeatures": [
+        "Transparent database proxy",
+        "Data sharding",
+        "Read/write splitting",
+        "Database migration",
+        "Supports MySQL, PostgreSQL, openGauss protocols"
+      ],
+      "website": "https://shardingsphere.apache.org/document/current/en/overview/architect/proxy/"
+    },
+    {
+      "name": "Heimdall Data",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Automated query caching with invalidation",
+        "Read/write split",
+        "SQL and NoSQL support",
+        "Database virtualization"
+      ],
+      "website": "https://www.heimdalldata.com/"
+    },
+    {
+      "name": "Database Read Replicas",
+      "license": "Varies (tied to database/cloud provider)",
+      "platforms": [
+        "Varies (tied to database/cloud provider)"
+      ],
+      "mainFeatures": [
+        "Data replication",
+        "Distribute read traffic",
+        "Improve read scalability",
+        "High availability"
+      ],
+      "website": "N/A (Specific to database/cloud provider)"
+    },
+    {
+      "name": "Application-Level Caching Libraries",
+      "license": "Varies by library (often Open Source)",
+      "platforms": [
+        "Varies by library/language"
+      ],
+      "mainFeatures": [
+        "Fine-grained caching control",
+        "Object/query/page caching",
+        "Caching in application memory/local store",
+        "Requires manual implementation and invalidation"
+      ],
+      "website": "N/A (Varies by library)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Redis",
+    "Memcached",
+    "ProxySQL"
+  ],
+  "marketPositioning": "ReadySet is positioned as a 'smart' database proxy specifically focused on providing a transparent, wire-compatible caching layer for MySQL and PostgreSQL. Its key differentiator is the automatic, incremental updating of cached query results based on the database's replication stream, eliminating the need for manual cache invalidation and application code changes required by many other caching solutions like Redis, Memcached, or traditional application-level caching. It offers the ease of deployment of a proxy combined with the consistency and efficiency benefits of automatically maintained query result caches, standing out from proxy-based solutions that rely solely on TTL or application-level caching that requires extensive development effort."
+}

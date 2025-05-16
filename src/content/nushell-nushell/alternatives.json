@@ -1,0 +1,117 @@
+{
+  "projectName": "nushell",
+  "projectPurpose": "To provide a modern, cross-platform command-line shell and scripting language that processes structured data rather than text, improving data handling, error messages, and usability compared to traditional shells.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "BSD",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Pipelines that work with structured data (tables, records, lists)",
+    "Native support for various data formats (JSON, YAML, CSV, SQLite, Excel, etc.)",
+    "Clear and user-friendly error messages",
+    "Cross-platform compatibility",
+    "Extensible via a plugin system",
+    "Modern scripting language features",
+    "IDE support",
+    "Command suggestions and abbreviations"
+  ],
+  "website": "https://www.nushell.sh/",
+  "alternatives": [
+    {
+      "name": "Bash",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Windows (via WSL, Cygwin)"
+      ],
+      "mainFeatures": [
+        "Command-line editing and history",
+        "Shell scripting",
+        "Piping and redirection",
+        "Programmable completion",
+        "Job control"
+      ],
+      "website": "https://www.gnu.org/software/bash/"
+    },
+    {
+      "name": "Zsh",
+      "license": "Open Source - MIT-like",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Windows (via Cygwin, WSL)"
+      ],
+      "mainFeatures": [
+        "Advanced programmable completion",
+        "Shared command history",
+        "Extended globbing",
+        "Themeable prompts",
+        "Spelling correction"
+      ],
+      "website": "https://www.zsh.org/"
+    },
+    {
+      "name": "Fish",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Syntax highlighting",
+        "Autosuggestions",
+        "Tab completion (out of the box)",
+        "Sensible scripting",
+        "Web-based configuration"
+      ],
+      "website": "https://fishshell.com/"
+    },
+    {
+      "name": "PowerShell",
+      "license": "Open Source - MIT (for cross-platform)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Object-based pipeline",
+        ".NET integration",
+        "Extensive module system (cmdlets)",
+        "Task automation and configuration management",
+        "Cross-platform consistency"
+      ],
+      "website": "https://learn.microsoft.com/en-us/powershell/"
+    },
+    {
+      "name": "Elvish",
+      "license": "Open Source - BSD 2-Clause",
+      "platforms": [
+        "Linux",
+        "BSDs",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Structured data handling in pipelines",
+        "Expressive programming language",
+        "Built-in file manager and history navigation",
+        "Exception handling",
+        "Supports modules"
+      ],
+      "website": "https://elv.sh/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Bash (for traditional shells)",
+    "PowerShell (for object-based shells)"
+  ],
+  "marketPositioning": "Nushell is positioned as a modern, cross-platform shell and scripting language that stands apart from traditional text-based shells (like Bash, Zsh, Fish) by focusing on structured data pipelines. It competes with object-based shells like PowerShell but draws on a wider range of inspirations (functional programming, modern CLI tools) to offer enhanced usability, clearer errors, and native support for various data formats, aiming to be a more user-friendly and flexible environment for interacting with the operating system and processing data."
+}

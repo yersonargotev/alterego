@@ -1,0 +1,148 @@
+{
+  "projectName": "tfhe-rs",
+  "projectPurpose": "To provide a high-performance, pure Rust library for Fully Homomorphic Encryption (FHE) based on the TFHE scheme, enabling computations on encrypted boolean and integer data without decryption.",
+  "platforms": [
+    "Linux",
+    "Windows",
+    "macOS",
+    "Web (WASM)"
+  ],
+  "mainFeatures": [
+    "Pure Rust implementation of the TFHE scheme",
+    "Boolean arithmetic over encrypted data",
+    "Integer arithmetic over encrypted data",
+    "Programmable bootstrapping",
+    "Short integer API for exact, unbounded FHE integer arithmetics (up to 8 bits)",
+    "Size-efficient public key encryption",
+    "Ciphertext and server key compression",
+    "Full Rust and C API, and client-side WASM API",
+    "Fast public implementation of the TFHE scheme"
+  ],
+  "website": "https://github.com/zama-ai/tfhe-rs",
+  "alternatives": [
+    {
+      "name": "Microsoft SEAL",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "Web (JavaScript/WebAssembly)",
+        ".NET (C#, F#)"
+      ],
+      "mainFeatures": [
+        "Supports BFV and BGV schemes for exact integer arithmetic",
+        "Supports CKKS scheme for approximate real/complex number arithmetic",
+        "Easy-to-use API",
+        "Cross-platform support",
+        "Optional compression (Zlib, Zstandard)"
+      ],
+      "website": "https://github.com/microsoft/SEAL"
+    },
+    {
+      "name": "HElib",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Supports BGV scheme with bootstrapping",
+        "Supports Approximate Number CKKS scheme",
+        "Focuses on ciphertext packing techniques (SIMD)",
+        "Automatic noise management",
+        "Written in C++17"
+      ],
+      "website": "https://github.com/homenc/HElib"
+    },
+    {
+      "name": "OpenFHE",
+      "license": "Open Source - BSD 2-Clause",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Python",
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Supports major FHE schemes (BGV, BFV, CKKS, FHEW, TFHE/CGGI)",
+        "Supports multiple bootstrapping designs",
+        "Modular design with hardware abstraction layer",
+        "User-friendly and compiler-friendly modes",
+        "Post-quantum security standards compliance"
+      ],
+      "website": "https://www.openfhe.org/"
+    },
+    {
+      "name": "PALISADE",
+      "license": "Open Source - BSD 2-Clause",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "JavaScript/WebAssembly",
+        "Python"
+      ],
+      "mainFeatures": [
+        "Supports BFV, BGV, CKKS, FHEW, and TFHE schemes",
+        "Includes multiparty extensions (Threshold FHE, Proxy Re-Encryption)",
+        "Modular architecture",
+        "Lattice cryptography building blocks",
+        "Superseded by OpenFHE"
+      ],
+      "website": "https://gitlab.com/palisade/palisade-release"
+    },
+    {
+      "name": "NuFHE",
+      "license": "Open Source",
+      "platforms": [
+        "GPU (NVIDIA CUDA)"
+      ],
+      "mainFeatures": [
+        "GPU-accelerated TFHE implementation",
+        "Faster than cuFHE",
+        "Focuses on performance via CUDA"
+      ],
+      "website": "https://github.com/NuFHE/NuFHE"
+    },
+    {
+      "name": "DataKrypto FHEnom",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Windows",
+        "Cloud Hosted",
+        "On Premises"
+      ],
+      "mainFeatures": [
+        "Proprietary homomorphic cryptography algorithm",
+        "Encrypts data in process",
+        "Supports arithmetic and search operations on encrypted data",
+        "Focuses on data privacy and compliance (GDPR, HIPAA, NIS2)",
+        "Includes image encryption product"
+      ],
+      "website": "https://datakrypto.com/"
+    },
+    {
+      "name": "Enveil ZeroReveal",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux (Rocky Linux)"
+      ],
+      "mainFeatures": [
+        "Homomorphic encryption engine for database queries",
+        "Encrypts database queries for processing on encrypted data",
+        "Zero-knowledge architecture (server does not see query or data)",
+        "Uses proprietary homomorphic encryption process",
+        "Integrates with existing databases"
+      ],
+      "website": "https://www.enveil.com/products/zeroreveal-compute-fabric"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Microsoft SEAL"
+  ],
+  "marketPositioning": "TFHE-rs is positioned as a leading open-source library for Fully Homomorphic Encryption, specifically focusing on a high-performance, pure Rust implementation of the TFHE scheme. While alternatives like Microsoft SEAL, HElib, and OpenFHE offer broader support for various HE schemes and have established user bases (with SEAL being particularly well-known), TFHE-rs differentiates itself through its native Rust implementation, optimized performance for TFHE operations (especially boolean and integer arithmetic with programmable bootstrapping), and developer-friendly APIs tailored for the TFHE scheme. Its focus on Rust and the specific strengths of TFHE (like arbitrary function evaluation via bootstrapping) carves out a distinct niche, particularly for applications requiring efficient encrypted boolean logic and small integer computations within the Rust ecosystem or environments where C/WASM bindings are advantageous. It competes directly with the TFHE implementations found within multi-scheme libraries like OpenFHE and PALISADE, aiming to be the preferred choice for those specifically committed to the TFHE approach due to its performance and dedicated feature set."
+}

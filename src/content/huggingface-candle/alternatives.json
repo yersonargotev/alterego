@@ -1,0 +1,119 @@
+{
+  "projectName": "candle",
+  "projectPurpose": "Candle is a minimalist Machine Learning framework written in Rust focused on performance and ease of use, primarily aimed at efficient ML model training and inference, particularly in serverless and WASM environments where small binary size and performance without Python overhead are critical.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "Web (WASM)"
+  ],
+  "mainFeatures": [
+    "Simple syntax, looks and feels like PyTorch",
+    "Model training support",
+    "Optimized CPU, CUDA, and WASM backends",
+    "Support for various pre-trained models (LLMs, Vision, Audio, etc.)",
+    "Load models from safetensors, npz, ggml, and PyTorch files",
+    "Enables serverless (on CPU), small and fast deployments",
+    "Quantization support"
+  ],
+  "website": "https://github.com/huggingface/candle",
+  "alternatives": [
+    {
+      "name": "Burn",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Web (WGPU)"
+      ],
+      "mainFeatures": [
+        "Performance, flexibility, and portability focus",
+        "Supports both training and inference",
+        "Multiple backends (NdArray, Tch, WGPU)",
+        "Built-in automatic differentiation",
+        "High-level modules for training"
+      ],
+      "website": "https://github.com/burn-rs/burn"
+    },
+    {
+      "name": "dfdx",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Deep learning library entirely in Rust",
+        "Shape checked tensors at compile time",
+        "GPU accelerated tensor library (CUDA)",
+        "Ergonomic neural network building blocks",
+        "Standard deep learning optimizers"
+      ],
+      "website": "https://github.com/coreylowman/dfdx"
+    },
+    {
+      "name": "tch-rs",
+      "license": "Open Source (BSD-3-Clause)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Rust bindings for the C++ PyTorch API (libtorch)",
+        "NumPy-like tensor library with GPU acceleration",
+        "Supports automatic differentiation",
+        "Allows loading and running PyTorch trained models",
+        "Stays close to the original C++ API"
+      ],
+      "website": "https://github.com/LaurentMazare/tch-rs"
+    },
+    {
+      "name": "PyTorch",
+      "license": "Open Source (BSD-3-Clause)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Dynamic computation graphs",
+        "Automatic differentiation engine",
+        "GPU acceleration (CUDA, ROCm, Metal)",
+        "Python-first API with C++ frontend",
+        "Large ecosystem and community"
+      ],
+      "website": "https://pytorch.org/"
+    },
+    {
+      "name": "TensorFlow",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android",
+        "iOS",
+        "Web",
+        "Cloud",
+        "Edge"
+      ],
+      "mainFeatures": [
+        "Data flow graphs for computation",
+        "Supports CPU, GPU, and TPU",
+        "Scalability for large datasets and models",
+        "Comprehensive ecosystem (Keras, Lite, JS, TFX)",
+        "Multi-language support (Python, C++, Java, JS)"
+      ],
+      "website": "https://www.tensorflow.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "PyTorch",
+    "TensorFlow"
+  ],
+  "marketPositioning": "Candle positions itself as a high-performance, minimalist, Rust-native ML framework specifically designed for efficient inference, particularly in serverless and WASM environments, while still supporting training and offering a familiar PyTorch-like API. It differentiates itself from other Rust ML frameworks through its backing by Hugging Face, inclusion of pre-trained models, explicit focus on minimalist deployments, and ease of use resembling PyTorch. Compared to dominant Python frameworks like PyTorch and TensorFlow, Candle targets use cases where Rust's performance, memory safety, and ability to create small, self-contained binaries are advantageous, particularly for production deployment and edge computing."
+}

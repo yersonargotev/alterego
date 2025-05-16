@@ -1,0 +1,118 @@
+{
+  "projectName": "candy",
+  "projectPurpose": "To provide a new, functional programming language emphasizing robustness, minimalism, and expressiveness.",
+  "platforms": [],
+  "mainFeatures": [
+    "Functional programming language",
+    "Robust",
+    "Minimalistic",
+    "Expressive"
+  ],
+  "website": "https://github.com/candy-lang/candy",
+  "alternatives": [
+    {
+      "name": "Haskell",
+      "license": "Open Source (BSD 3-clause)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Unix"
+      ],
+      "mainFeatures": [
+        "Purely functional",
+        "Lazy evaluation",
+        "Strong static type system",
+        "Type classes",
+        "Pattern matching"
+      ],
+      "website": "https://www.haskell.org/"
+    },
+    {
+      "name": "OCaml",
+      "license": "Open Source (LGPLv2.1, compatible with MIT/ISC/Apache)",
+      "platforms": [
+        "Linux",
+        "Unix",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Multi-paradigm (functional, imperative, OO)",
+        "Strong static type system (inferred)",
+        "Module system",
+        "Native code compiler"
+      ],
+      "website": "https://ocaml.org/"
+    },
+    {
+      "name": "Scala",
+      "license": "Open Source (BSD-style)",
+      "platforms": [
+        "JVM",
+        "JavaScript",
+        "Native"
+      ],
+      "mainFeatures": [
+        "Multi-paradigm (functional and OO)",
+        "Strong static type system (inferred)",
+        "JVM interoperability",
+        "Scalable"
+      ],
+      "website": "https://www.scala-lang.org/"
+    },
+    {
+      "name": "Clojure",
+      "license": "Open Source (Eclipse Public License 1.0)",
+      "platforms": [
+        "JVM",
+        "JavaScript",
+        ".NET"
+      ],
+      "mainFeatures": [
+        "Dynamic Lisp dialect",
+        "Functional-first",
+        "Immutable data structures",
+        "Designed for concurrency"
+      ],
+      "website": "https://clojure.org/"
+    },
+    {
+      "name": "F#",
+      "license": "Open Source (MIT, Apache 2.0)",
+      "platforms": [
+        ".NET (Windows, macOS, Linux)",
+        "JavaScript",
+        "GPU"
+      ],
+      "mainFeatures": [
+        "Multi-paradigm (functional-first, imperative, OO)",
+        "Strong static type system (inferred)",
+        ".NET integration",
+        "Succinct syntax"
+      ],
+      "website": "https://fsharp.org/"
+    },
+    {
+      "name": "Elixir",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "BEAM (Erlang Virtual Machine)"
+      ],
+      "mainFeatures": [
+        "Functional",
+        "Concurrent",
+        "Distributed",
+        "Fault-tolerant"
+      ],
+      "website": "https://elixir-lang.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Scala",
+    "Clojure",
+    "Haskell",
+    "F#"
+  ],
+  "marketPositioning": "Candy is positioned as a modern functional programming language aiming for a balance of power and developer-friendliness. It emphasizes being robust, minimalistic, and expressive, potentially targeting developers who find traditional purely functional languages challenging or multi-paradigm languages overly complex. Its focus on simplicity and a pleasant developer experience differentiates it from more academic or ecosystem-bound functional languages."
+}

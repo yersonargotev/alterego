@@ -1,0 +1,86 @@
+{
+  "projectName": "namada",
+  "projectPurpose": "To provide a foundational Layer 1 blockchain for interchain, asset-agnostic privacy, enabling private transactions and interactions for any asset across different blockchain networks.",
+  "platforms": [
+    "Blockchain"
+  ],
+  "mainFeatures": [
+    "Proof-of-Stake (PoS) Layer 1 blockchain",
+    "Interchain capabilities (e.g., IBC, Ethereum bridge)",
+    "Asset-agnostic privacy (unified shielded set for any asset)",
+    "Shielding rewards",
+    "Shielded actions for cross-chain DeFi"
+  ],
+  "website": "https://namada.net",
+  "alternatives": [
+    {
+      "name": "Zcash",
+      "license": "Open Source (MIT, Apache, BOSL)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "zk-SNARKs for shielded transactions",
+        "Optional privacy (transparent and shielded addresses)",
+        "Selective disclosure",
+        "Bitcoin fork codebase"
+      ],
+      "website": "https://z.cash/"
+    },
+    {
+      "name": "Monero",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Mandatory privacy for all transactions",
+        "Ring signatures and RingCT",
+        "Untraceable transactions",
+        "Fungibility"
+      ],
+      "website": "https://www.getmonero.org/"
+    },
+    {
+      "name": "Secret Network",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Blockchain"
+      ],
+      "mainFeatures": [
+        "Privacy-preserving smart contracts (Secret Contracts)",
+        "Programmable privacy",
+        "Encrypted inputs, outputs, and state",
+        "Interoperability (Cosmos, EVM)"
+      ],
+      "website": "https://scrt.network/"
+    },
+    {
+      "name": "Oasis Network",
+      "license": "Open Source (Apache-2.0, MIT, AGPL-3.0)",
+      "platforms": [
+        "Web",
+        "Blockchain"
+      ],
+      "mainFeatures": [
+        "Scalable and privacy-enabled DeFi",
+        "Data tokenization",
+        "Confidential computing (ParaTimes, TEEs)",
+        "Separation of consensus and execution layers"
+      ],
+      "website": "https://oasisprotocol.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Monero",
+    "Zcash"
+  ],
+  "marketPositioning": "Namada positions itself as a shielded asset hub and a composable privacy layer for the entire multichain ecosystem. Its key differentiator is providing asset-agnostic privacy across various chains, allowing users to shield any asset (fungible or non-fungible) and perform private cross-chain interactions within a unified shielded set. This contrasts with privacy solutions focused primarily on native coins or optional transaction privacy on a single chain. Namada also incentivizes privacy through shielding rewards, promoting privacy as a public good for the multichain network."
+}

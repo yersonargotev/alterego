@@ -1,0 +1,112 @@
+{
+  "projectName": "postgres_lsp",
+  "projectPurpose": "To provide robust, reliable, and developer-friendly language tooling specifically for PostgreSQL through a Language Server Protocol (LSP) implementation and other interfaces, enhancing the experience of writing and managing PostgreSQL SQL code in code editors.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "WebAssembly (potential)"
+  ],
+  "mainFeatures": [
+    "Language Server Protocol (LSP) implementation for PostgreSQL",
+    "Uses PostgreSQL's native parser (libpg_query) for accurate syntax compatibility",
+    "Autocompletion for SQL and PL/pgSQL",
+    "Syntax Error Highlighting and diagnostics",
+    "Type-checking via EXPLAIN insights",
+    "SQL Linter",
+    "Transport-agnostic architecture (LSP, CLI, HTTP API, WebAssembly)"
+  ],
+  "website": "https://github.com/supabase/postgres_lsp",
+  "alternatives": [
+    {
+      "name": "DBeaver",
+      "license": "Open Source (Community Edition) / Proprietary (Commercial Editions)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Universal database tool supporting numerous databases including PostgreSQL",
+        "SQL Editor with syntax highlighting and autocompletion",
+        "Data viewer and editor",
+        "Database schema browsing and editing",
+        "ER diagrams"
+      ],
+      "website": "https://dbeaver.io/"
+    },
+    {
+      "name": "pgAdmin",
+      "license": "Open Source (PostgreSQL/Artistic)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Official PostgreSQL management tool",
+        "Graphical interface for managing PostgreSQL objects",
+        "SQL Query Tool with syntax highlighting and autocompletion",
+        "Schema diff tool",
+        "Server status dashboard"
+      ],
+      "website": "https://www.pgadmin.org/"
+    },
+    {
+      "name": "DataGrip",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Intelligent SQL editor with context-aware completion",
+        "Database schema navigation and analysis",
+        "Query console with result editor",
+        "Version control integration",
+        "Support for multiple database types including PostgreSQL"
+      ],
+      "website": "https://www.jetbrains.com/datagrip/"
+    },
+    {
+      "name": "SQLTools (VS Code Extension)",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "VS Code (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Connects to multiple databases via drivers (including PostgreSQL)",
+        "SQL Beautifier and formatter",
+        "Query runner, history, and bookmarks",
+        "Connection explorer",
+        "Pluggable driver architecture"
+      ],
+      "website": "https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools"
+    },
+    {
+      "name": "PostgreSQL (Microsoft VS Code Extension)",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "VS Code (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Connect to PostgreSQL instances",
+        "Manage connection profiles",
+        "Write queries with IntelliSense",
+        "Run queries and save results",
+        "View object DDL ('Go to Definition')"
+      ],
+      "website": "https://marketplace.visualstudio.com/items?itemName=ms-ossdata.vscode-postgresql"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "DBeaver",
+    "pgAdmin",
+    "DataGrip",
+    "SQLTools (VS Code Extension)",
+    "PostgreSQL (Microsoft VS Code Extension)"
+  ],
+  "marketPositioning": "postgres_lsp is positioned as a specialized and highly accurate language server for PostgreSQL, distinguishing itself by using the native PostgreSQL parser for unparalleled syntax compatibility. This allows it to offer more reliable and precise language intelligence features within code editors compared to generic SQL tools that use less specific parsers. Its transport-agnostic design suggests a future as a foundational piece of PostgreSQL tooling infrastructure usable across various development environments and workflows, aiming to significantly improve the developer experience for PostgreSQL users."
+}

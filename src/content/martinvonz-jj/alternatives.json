@@ -1,0 +1,119 @@
+{
+  "projectName": "jj",
+  "projectPurpose": "Provide a simple, powerful, and Git-compatible version control system with an improved user experience.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "BSD"
+  ],
+  "mainFeatures": [
+    "Git-compatible backend for interoperability",
+    "Working-copy-as-a-commit (no explicit staging area)",
+    "Change-centric model with stable IDs (anonymous branches)",
+    "Simplified and powerful history rewriting (amend, split, rebase)",
+    "Operation log and undo functionality"
+  ],
+  "website": "https://jj-vcs.github.io/jj/latest/",
+  "alternatives": [
+    {
+      "name": "Git",
+      "license": "Open Source - GPL v2",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Solaris",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Distributed architecture",
+        "Branching and merging",
+        "Staging area (index)",
+        "Cryptographic integrity",
+        "Vast ecosystem"
+      ],
+      "website": "https://git-scm.com/"
+    },
+    {
+      "name": "Mercurial (hg)",
+      "license": "Open Source - GPL v2",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Distributed architecture",
+        "Focus on simplicity",
+        "Atomic changesets",
+        "Named branches by default",
+        "History editing"
+      ],
+      "website": "https://www.mercurial-scm.org/"
+    },
+    {
+      "name": "Subversion (SVN)",
+      "license": "Open Source - Apache License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Solaris",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Centralized architecture",
+        "Atomic commits",
+        "Versioned directories/files",
+        "Properties",
+        "Cheap copy branching/tagging"
+      ],
+      "website": "https://subversion.apache.org/"
+    },
+    {
+      "name": "Perforce Helix Core",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Solaris",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Centralized/Hybrid architecture",
+        "Handles large binary files and monorepos",
+        "Stream depots (structured branching)",
+        "Robust access control",
+        "Integrated tools (P4V visual client)"
+      ],
+      "website": "https://www.perforce.com/products/helix-core"
+    },
+    {
+      "name": "Sapling (sl)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (Experimental)"
+      ],
+      "mainFeatures": [
+        "Designed for monorepos",
+        "Improved developer velocity",
+        "Git compatibility layer",
+        "Built on Mercurial concepts",
+        "Simplified workflow"
+      ],
+      "website": "https://sapling-scm.github.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Git"
+  ],
+  "marketPositioning": "Jujutsu (jj) positions itself as an alternative, user-friendly, and powerful command-line interface and workflow layer built on top of a Git repository. It targets developers who use Git but seek a simpler model for managing changes and history, aiming to improve productivity and reduce complexity associated with Git's staging area and traditional history rewriting commands. By maintaining Git compatibility, it allows users to leverage the existing Git ecosystem while adopting a different internal model and command set focused on changesets and seamless history editing."
+}

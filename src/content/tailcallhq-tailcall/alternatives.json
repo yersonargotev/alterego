@@ -1,0 +1,78 @@
+{
+  "projectName": "tailcall",
+  "projectPurpose": "To provide a high-performance platform or gateway for building and serving GraphQL APIs.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "High-performance GraphQL execution",
+    "GraphQL Gateway capabilities",
+    "Built with Rust for efficiency"
+  ],
+  "website": "https://github.com/tailcallhq/tailcall",
+  "alternatives": [
+    {
+      "name": "Apollo Server",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Node.js (Cross-platform)"
+      ],
+      "mainFeatures": [
+        "Easy setup and integration with HTTP frameworks",
+        "Supports schema stitching and federation",
+        "Caching and performance features",
+        "Large ecosystem and community support"
+      ],
+      "website": "https://www.apollographql.com/docs/apollo-server/"
+    },
+    {
+      "name": "Hasura",
+      "license": "Open Source - Apache 2.0 (Community), Proprietary (Cloud/Enterprise)",
+      "platforms": [
+        "Docker (Cross-platform)",
+        "Cloud Service"
+      ],
+      "mainFeatures": [
+        "Instant Realtime GraphQL APIs over databases",
+        "Automatic schema generation",
+        "Declarative Authorization and Authentication",
+        "Actions for custom logic and Remote Schemas"
+      ],
+      "website": "https://hasura.io/"
+    },
+    {
+      "name": "GraphQL Yoga",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Node.js (Cross-platform)"
+      ],
+      "mainFeatures": [
+        "Simple and flexible server setup",
+        "Supports GraphQL subscriptions",
+        "Performance optimized runtime",
+        "Pluggable architecture"
+      ],
+      "website": "https://www.graphql-yoga.com/"
+    },
+    {
+      "name": "Hot Chocolate",
+      "license": "Open Source - MIT",
+      "platforms": [
+        ".NET (Cross-platform: Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Supports Code-first and Schema-first development",
+        "Realtime subscriptions support",
+        "Integrated authorization and authentication",
+        "Caching and query planning"
+      ],
+      "website": "https://chillicream.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apollo Server"
+  ],
+  "marketPositioning": "Tailcall positions itself as a high-performance GraphQL platform built in Rust, specifically targeting use cases where speed, efficiency, and low resource footprint are critical. By leveraging Rust, it aims to provide a performance advantage over GraphQL servers and gateways built on managed runtimes like Node.js or the JVM. Its market position is that of a performance-focused alternative in the competitive landscape of GraphQL infrastructure tools, suitable for demanding workloads and environments where resource optimization is a priority."
+}

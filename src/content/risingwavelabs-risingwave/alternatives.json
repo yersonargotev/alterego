@@ -1,0 +1,154 @@
+{
+  "projectName": "RisingWave",
+  "projectPurpose": "To provide a unified, efficient, and user-friendly platform for real-time data processing and analytics using standard interfaces like SQL, aiming to simplify the development and deployment of real-time applications.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Stream processing and management",
+    "PostgreSQL-compatible SQL interface",
+    "DataFrame-style Python interface",
+    "Continuous joining and analysis of live and historical data",
+    "Low-latency ad-hoc query serving",
+    "Persistence of results to data lakes and downstream systems",
+    "Cloud-native architecture",
+    "Built-in storage",
+    "Materialized Views for incremental computation"
+  ],
+  "website": "https://github.com/risingwavelabs/risingwave",
+  "alternatives": [
+    {
+      "name": "Apache Flink",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Unified stream and batch processing",
+        "Sophisticated state management",
+        "Event time processing",
+        "Exactly-once consistency",
+        "Various APIs (SQL, Table API, DataStream API)"
+      ],
+      "website": "https://flink.apache.org/"
+    },
+    {
+      "name": "Apache Spark Streaming",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Micro-batch/Continuous processing",
+        "Fault tolerance",
+        "Integration with Spark ecosystem",
+        "Supports multiple languages (Scala, Java, Python, R)"
+      ],
+      "website": "https://spark.apache.org/streaming/"
+    },
+    {
+      "name": "Apache Kafka Streams",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "JVM"
+      ],
+      "mainFeatures": [
+        "Client library for stream processing on Kafka",
+        "Exactly-once processing",
+        "Stateful processing (local state stores)",
+        "Stream-table duality"
+      ],
+      "website": "https://kafka.apache.org/documentation/streams/"
+    },
+    {
+      "name": "Materialize",
+      "license": "Source Available (Apache 2.0 after 4 years for core)",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Streaming SQL engine",
+        "Maintains materialized views",
+        "Low latency",
+        "Integrates with various sources (Kafka, Postgres, S3)"
+      ],
+      "website": "https://materialize.com/"
+    },
+    {
+      "name": "Amazon Kinesis Data Analytics",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (AWS Cloud)"
+      ],
+      "mainFeatures": [
+        "Fully managed service",
+        "Serverless architecture",
+        "Auto-scaling",
+        "Integrates with other AWS services"
+      ],
+      "website": "https://aws.amazon.com/kinesis/data-analytics/"
+    },
+    {
+      "name": "Google Cloud Dataflow",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (Google Cloud)"
+      ],
+      "mainFeatures": [
+        "Fully managed service",
+        "Unified batch and streaming processing",
+        "Autoscaling and dynamic work rebalancing",
+        "Integrates with other Google Cloud services"
+      ],
+      "website": "https://cloud.google.com/dataflow"
+    },
+    {
+      "name": "Azure Stream Analytics",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (Azure Cloud)"
+      ],
+      "mainFeatures": [
+        "Fully managed, serverless",
+        "SQL-based queries",
+        "Integrates with Azure sources/sinks",
+        "Built-in machine learning capabilities",
+        "Geo-replication"
+      ],
+      "website": "https://azure.microsoft.com/en-us/products/stream-analytics"
+    },
+    {
+      "name": "Apache Pulsar (Streaming Features)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Unified messaging and streaming",
+        "Multi-tenancy",
+        "Geo-replication",
+        "Low latency",
+        "Serverless functions"
+      ],
+      "website": "https://pulsar.apache.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Flink",
+    "Apache Spark Streaming",
+    "Apache Kafka Streams",
+    "Google Cloud Dataflow",
+    "Azure Stream Analytics",
+    "Amazon Kinesis Data Analytics"
+  ],
+  "marketPositioning": "RisingWave positions itself as a modern, cloud-native streaming database system that differentiates itself from traditional stream processors by offering a PostgreSQL-compatible SQL interface and built-in storage. It aims to simplify real-time data processing and analytics by providing a unified platform for ingesting, processing, and managing streaming data with low latency and cost-efficiency, serving as a direct competitor and often more user-friendly alternative to first-generation stream processing engines."
+}

@@ -1,0 +1,91 @@
+{
+  "projectName": "jnv",
+  "projectPurpose": "To provide an interactive, user-friendly command-line interface for exploring, viewing, and filtering JSON data using jq expressions.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Interactive JSON viewer and jq filter editor",
+    "Syntax highlighting for JSON",
+    "Uses jaq for applying jq filters (no separate jq needed)",
+    "Configurable features via TOML",
+    "Supports various input formats (file, stdin, JSON Lines)"
+  ],
+  "website": "https://github.com/ynqa/jnv",
+  "alternatives": [
+    {
+      "name": "jq",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Command-line JSON processor",
+        "Powerful functional language for JSON transformation",
+        "Slice, filter, map, and transform structured data",
+        "Zero runtime dependencies (written in C)",
+        "Supports streaming JSON"
+      ],
+      "website": "https://jqlang.org/"
+    },
+    {
+      "name": "fx",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (processing only)"
+      ],
+      "mainFeatures": [
+        "Terminal JSON viewer",
+        "JSON processor using JavaScript expressions",
+        "Interactive mode for viewing",
+        "Non-interactive mode for processing",
+        "Supports streaming data"
+      ],
+      "website": "https://fx.wtf/"
+    },
+    {
+      "name": "VisiData",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Interactive multitool for tabular data",
+        "Spreadsheet-like interface in terminal",
+        "Supports various data formats (including JSON)",
+        "Filtering, sorting, and analysis capabilities",
+        "Handles large datasets efficiently"
+      ],
+      "website": "http://visidata.org/"
+    },
+    {
+      "name": "jiq",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Visual command-line interactive JSON explorer",
+        "Integrates with jq filters",
+        "Interactive interface for exploring JSON",
+        "Inspired jnv",
+        "Command history"
+      ],
+      "website": "https://github.com/oinume/jiq"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "jq"
+  ],
+  "marketPositioning": "jnv positions itself as an interactive, terminal-based tool that simplifies the process of filtering and exploring JSON data by providing a live viewer and jq editor. It leverages the power of the widely used jq language but enhances the user experience with an intuitive interface, differentiating itself from the standard command-line jq utility and offering a jq-centric alternative to more general data exploration tools like VisiData or JavaScript-based tools like fx."
+}

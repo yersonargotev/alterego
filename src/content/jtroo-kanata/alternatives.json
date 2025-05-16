@@ -1,0 +1,118 @@
+{
+  "projectName": "kanata",
+  "projectPurpose": "To provide users with a powerful, flexible, and cross-platform software-based solution for customizing their keyboard layout and behavior beyond the standard operating system settings, enabling complex remapping, layering, and advanced key actions without requiring specialized keyboard hardware or firmware.",
+  "platforms": [
+    "Linux",
+    "Windows",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Cross-platform compatibility",
+    "Human-readable configuration file",
+    "Multiple layers of key functionality",
+    "Advanced key behavior customization (e.g., tap-hold, key sequences, unicode)",
+    "Layer switching and toggling",
+    "Key chords",
+    "Macros"
+  ],
+  "website": "https://github.com/jtroo/kanata",
+  "alternatives": [
+    {
+      "name": "AutoHotkey",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Scripting language for automation",
+        "Hotkeys and macros",
+        "Remapping keys",
+        "Hotstrings (text expansion)",
+        "GUI creation"
+      ],
+      "website": "https://www.autohotkey.com/"
+    },
+    {
+      "name": "Karabiner-Elements",
+      "license": "Open Source - Unlicense (Public Domain Dedication)",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Simple and complex key modifications",
+        "Layer switching",
+        "Device-specific configurations",
+        "Profile support",
+        "Modifier flag sync"
+      ],
+      "website": "https://karabiner-elements.pqrs.org/"
+    },
+    {
+      "name": "keyd",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Layers (with hybrid modifiers)",
+        "Key overloading (tap/hold)",
+        "Keyboard specific configuration",
+        "Instantaneous remapping",
+        "Client-server model"
+      ],
+      "website": "https://github.com/rvaiya/keyd"
+    },
+    {
+      "name": "KMonad",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Layers",
+        "Multi-tap and tap-hold",
+        "Advanced key customizations",
+        "Swap keys",
+        "Modifiers on home row"
+      ],
+      "website": "https://github.com/kmonad/kmonad"
+    },
+    {
+      "name": "Microsoft PowerToys (Keyboard Manager)",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Remap individual keys",
+        "Remap shortcuts",
+        "Map keys/shortcuts to unicode text sequences",
+        "Launch applications with shortcuts"
+      ],
+      "website": "https://learn.microsoft.com/en-us/windows/powertoys/"
+    },
+    {
+      "name": "Key Remapper",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Remap keys and mouse buttons",
+        "Disable keys",
+        "Swap key functions",
+        "Emulate key/mouse presses",
+        "Application-specific mappings"
+      ],
+      "website": "https://www.keyboard-and-mouse-automation.com/key-remapper.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "AutoHotkey",
+    "Karabiner-Elements",
+    "Microsoft PowerToys"
+  ],
+  "marketPositioning": "kanata positions itself as a free and open-source, cross-platform software-based keyboard remapper that brings advanced customization features typically found in specialized keyboard firmware (like QMK) to any standard keyboard. It offers deep control over key behavior through layering, tap-hold, and complex mappings via a human-readable configuration file. This positions it as a powerful alternative for users on Linux, Windows, and macOS seeking consistent, highly customized keyboard layouts without needing specific hardware, differentiating it from platform-specific tools or more general automation scripting languages."
+}

@@ -1,0 +1,118 @@
+{
+  "projectName": "serenity",
+  "projectPurpose": "To provide a user-friendly, high-level, and comprehensive library in the Rust programming language for developers to build applications that interact with the Discord API, primarily Discord bots.",
+  "platforms": [
+    "Platform-independent (Rust)",
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Ergonomic and high-level Rust library for Discord API",
+    "Supports bot user authentication",
+    "Event handling for Discord events (e.g., message creation)",
+    "Transparent sharding for large bots",
+    "Automatic and intelligent cache",
+    "Framework for command separation",
+    "Modules for gateway, HTTP, and interactions",
+    "Support for complementary libraries (Poise, Songbird)"
+  ],
+  "website": "https://github.com/serenity-rs/serenity",
+  "alternatives": [
+    {
+      "name": "discord.py",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Platform-independent (Python)",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Modern Pythonic API (async/await)",
+        "Sane rate limit handling",
+        "Command extension framework",
+        "Object-oriented design",
+        "Optimized for speed and memory"
+      ],
+      "website": "https://discordpy.readthedocs.io/"
+    },
+    {
+      "name": "discord.js",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Platform-independent (Node.js)",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Powerful Node.js module",
+        "Object-oriented approach",
+        "Easy API interaction",
+        "Performance-oriented",
+        "High coverage of Discord API"
+      ],
+      "website": "https://discord.js.org/"
+    },
+    {
+      "name": "JDA (Java Discord API)",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Platform-independent (Java)",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Clean and full API wrapping (REST and WebSocket)",
+        "Functionality for creating Discord bots in Java",
+        "Configurable memory usage",
+        "Request handling via RestAction",
+        "Supports creating embeds"
+      ],
+      "website": "https://github.com/discord-jda/JDA"
+    },
+    {
+      "name": "Discord.Net",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Multi-platform (.NET)",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Asynchronous and multi-platform",
+        "Implements newest Discord features",
+        "Offers extensive C# functionality",
+        "Thread-safe events",
+        "Modular design (Webhooks, Commands, Interactions, WebSocket, REST)"
+      ],
+      "website": "https://discordnet.dev/"
+    },
+    {
+      "name": "discordgo",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Platform-independent (Go)",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Low level bindings to Discord API",
+        "Nearly complete API endpoint support",
+        "WebSocket interface support",
+        "Voice interface support",
+        "Provides usage examples"
+      ],
+      "website": "https://github.com/bwmarrin/discordgo"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "discord.js"
+  ],
+  "marketPositioning": "Serenity is positioned as a leading high-level and ergonomic library for building Discord applications in the Rust programming language. It caters to developers who prefer Rust's performance and safety features, offering a comprehensive set of tools including transparent sharding, intelligent caching, and a robust event system. While competing with Discord API libraries in other languages, Serenity is a primary choice within the Rust ecosystem, complemented by integrated libraries for command handling and voice support."
+}

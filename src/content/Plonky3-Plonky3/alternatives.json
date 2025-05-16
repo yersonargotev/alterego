@@ -1,0 +1,96 @@
+{
+  "projectName": "Plonky3",
+  "projectPurpose": "To provide a flexible, high-performance, and modular toolkit in Rust for developers to build various succinct proof systems, particularly those based on Polynomial Interactive Oracle Proofs (PIOPs) like STARKs and PLONKs, by offering a collection of essential cryptographic primitives and components. It aims to be a foundational layer for constructing zkVMs and zkEVMs.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "Toolkit for implementing Polynomial IOPs (PIOPs) like PLONK and STARKs",
+    "Provides primitives such as polynomial commitment schemes (FRI, Brakedown, Tensor PCS)",
+    "Includes implementations of various finite fields (Mersenne31, BabyBear, KoalaBear, Goldilocks, BN254)",
+    "Supports multiple hash functions (Rescue, Poseidon, Poseidon2, BLAKE3, Keccak-256, Monolith, SHA-2)",
+    "Modular design allowing customization of fields, hash functions, and commitment schemes"
+  ],
+  "website": "https://github.com/Plonky3/Plonky3",
+  "alternatives": [
+    {
+      "name": "arkworks",
+      "license": "Open Source (MIT License and Apache v2 License)",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Ecosystem of Rust libraries for zkSNARKs",
+        "Efficient implementations of finite fields, elliptic curves, and polynomials",
+        "Generic traits for SNARKs and NP relations (like R1CS)",
+        "Modular design"
+      ],
+      "website": "https://arkworks.rs/"
+    },
+    {
+      "name": "Bellman",
+      "license": "Open Source (MIT License and Apache-2.0 License)",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Rust library for building zk-SNARK circuits",
+        "Provides circuit traits and primitive structures",
+        "Includes basic gadget implementations",
+        "Supports Groth16 proving system"
+      ],
+      "website": "https://github.com/zkcrypto/bellman"
+    },
+    {
+      "name": "Winterfell",
+      "license": "Open Source (MIT License and Apache-2.0 License)",
+      "platforms": [
+        "Rust",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "General purpose STARK prover and verifier",
+        "Simple interface for describing computations using AIR",
+        "Supports randomized AIR",
+        "Multi-threaded proof generation",
+        "Configurable fields and hash functions"
+      ],
+      "website": "https://github.com/facebook/winterfell"
+    },
+    {
+      "name": "Circom",
+      "license": "Open Source (GPL-3.0, MIT, Apache-2.0 depending on component/library)",
+      "platforms": [
+        "Command-line tool",
+        "npm package",
+        "generates Solidity"
+      ],
+      "mainFeatures": [
+        "Domain-Specific Language (DSL) for writing zk-SNARK circuits",
+        "Generates R1CS constraints",
+        "Supports Groth16 and PLONK proving engines",
+        "Includes a library of common building blocks (circomlib)"
+      ],
+      "website": "https://github.com/iden3/circom"
+    },
+    {
+      "name": "Halo2",
+      "license": "Open Source",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Rust-based framework for PLONKish proving systems",
+        "Allows direct control of circuit representation",
+        "Supports recursive proofs (Halo)",
+        "Used by Zcash, PSE, and Axiom"
+      ],
+      "website": "https://github.com/zcash/halo2"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Circom",
+    "arkworks"
+  ],
+  "marketPositioning": "Plonky3 is positioned as a flexible, high-performance, and modular toolkit for building custom succinct proof systems based on Polynomial IOPs (PIOPs), specifically STARKs and PLONKs. Unlike some frameworks focused on a single proving system or arithmetization, Plonky3 provides a rich set of underlying primitives (fields, hashes, commitments, etc.) that developers can combine to design novel or highly optimized proving systems tailored for specific applications, particularly for powering zkVMs and zkEVMs. Its modularity and focus on providing building blocks for constructing proving systems differentiate it from more opinionated ZKP development tools."
+}

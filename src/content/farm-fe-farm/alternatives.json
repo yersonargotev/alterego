@@ -1,0 +1,137 @@
+{
+  "projectName": "farm",
+  "projectPurpose": "Farm is an extremely fast web build tool written in Rust, designed to provide a high-performance alternative for building modern web applications. It aims for compatibility with the popular Vite ecosystem, offering developers familiar with Vite a potentially faster build experience leveraging Rust's performance capabilities. Farm serves as a build tool for compiling, bundling, and optimizing web assets.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Extremely fast web build tool",
+    "Vite-compatible",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/farm-fe/farm",
+  "alternatives": [
+    {
+      "name": "Vite",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Node.js",
+        "Deno",
+        "Bun",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Instant server start",
+        "Lightning Fast HMR",
+        "Rich Features (TS, JSX, CSS out-of-the-box)",
+        "Optimized Production Build (uses Rollup)",
+        "Universal Plugin Interface"
+      ],
+      "website": "https://vitejs.dev/"
+    },
+    {
+      "name": "Webpack",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Node.js",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Module bundling",
+        "Code Splitting",
+        "Asset Management",
+        "Loaders & Plugins",
+        "Hot Module Replacement"
+      ],
+      "website": "https://webpack.js.org/"
+    },
+    {
+      "name": "esbuild",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Extreme speed (written in Go)",
+        "Bundles JS, CSS, TypeScript, JSX",
+        "Tree shaking",
+        "Minification",
+        "Plugins"
+      ],
+      "website": "https://esbuild.github.io/"
+    },
+    {
+      "name": "Rollup",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Web",
+        "Node.js",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Electron"
+      ],
+      "mainFeatures": [
+        "JavaScript module bundler (excels at libraries)",
+        "Tree-shaking",
+        "Code-splitting",
+        "Powerful plugin system",
+        "Supports multiple output formats"
+      ],
+      "website": "https://rollupjs.org/"
+    },
+    {
+      "name": "Parcel",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Node.js",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Zero configuration",
+        "Lightning fast (Rust-based compilers)",
+        "Automatic production optimization",
+        "Supports many languages and file types",
+        "Built-in dev server with hot reloading"
+      ],
+      "website": "https://parceljs.org/"
+    },
+    {
+      "name": "SWC",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Rust",
+        "JavaScript",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Super-fast TypeScript/JavaScript compiler (written in Rust)",
+        "Compilation and bundling",
+        "Minification",
+        "Transforms with WebAssembly",
+        "Plugins"
+      ],
+      "website": "https://swc.rs/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Webpack",
+    "Vite"
+  ],
+  "marketPositioning": "Farm positions itself as a high-performance web build tool leveraging Rust for extreme speed. Its key market differentiator is its explicit compatibility with the Vite ecosystem, aiming to attract developers who value Vite's development experience but seek even faster build times. It competes directly on speed with other Rust-based or performance-focused tools like Parcel, esbuild, and SWC, while aiming to integrate smoothly into workflows currently using or considering Vite."
+}

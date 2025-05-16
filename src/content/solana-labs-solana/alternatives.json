@@ -1,0 +1,106 @@
+{
+  "projectName": "solana",
+  "projectPurpose": "To provide a high-performance, secure, and scalable blockchain platform suitable for building decentralized applications (dApps) and marketplaces at a \"web-scale\".",
+  "platforms": [
+    "Cross-platform"
+  ],
+  "mainFeatures": [
+    "Web-Scale Blockchain",
+    "Fast transactions",
+    "Secure",
+    "Scalable",
+    "Supports decentralized apps",
+    "Supports decentralized marketplaces"
+  ],
+  "website": "https://github.com/solana-labs/solana",
+  "alternatives": [
+    {
+      "name": "Ethereum",
+      "license": "Open Source (various licenses, including Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Smart contract functionality (EVM)",
+        "Large dApp ecosystem",
+        "NFTs and DeFi support",
+        "Proof-of-Stake consensus"
+      ],
+      "website": "https://ethereum.org/"
+    },
+    {
+      "name": "BNB Chain",
+      "license": "Open Source (various licenses, e.g., GNU General Public License v3.0, MPL-2.0, Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "EVM compatibility (BSC)",
+        "Proof-of-Staked Authority (PoSA) consensus",
+        "Fast block times and low fees",
+        "Supports dApps and DeFi"
+      ],
+      "website": "https://www.bnbchain.org/"
+    },
+    {
+      "name": "Polygon",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Layer 2 scaling solution for Ethereum",
+        "Proof-of-Stake consensus",
+        "EVM compatibility",
+        "Fast transactions and low fees"
+      ],
+      "website": "https://polygon.technology/"
+    },
+    {
+      "name": "Cardano",
+      "license": "Open Source (Apache License)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Proof-of-Stake (Ouroboros)",
+        "Layered architecture",
+        "Smart contracts (Plutus, Marlowe)",
+        "Research-driven development"
+      ],
+      "website": "https://cardano.org/"
+    },
+    {
+      "name": "Polkadot",
+      "license": "Open Source (Apache 2.0 license for Polkadot-Java)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Interoperability (Parachains)",
+        "Shared security (Relay Chain)",
+        "Proof-of-Stake consensus",
+        "Forkless upgrades"
+      ],
+      "website": "https://polkadot.network/"
+    },
+    {
+      "name": "Avalanche",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "High throughput and fast finality",
+        "Unique consensus mechanism",
+        "EVM compatibility (C-Chain)",
+        "Customizable blockchains (Subnets)"
+      ],
+      "website": "https://www.avax.network/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "Solana positions itself as a high-performance, scalable Layer 1 blockchain, directly competing with other platforms like Ethereum, BNB Chain, and Avalanche, by emphasizing its \"web-scale\" capabilities, speed, and low transaction costs for hosting a wide range of decentralized applications and marketplaces. It differentiates itself through its unique architecture, including Proof of History, aiming to offer significantly higher throughput than many existing blockchains."
+}

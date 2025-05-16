@@ -1,0 +1,161 @@
+{
+  "projectName": "rye",
+  "projectPurpose": "To provide a unified, comprehensive, and user-friendly command-line tool for managing the entire Python development workflow, including Python version management, environment management, and package/dependency management, aiming to simplify the tooling ecosystem.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Comprehensive project and package management",
+    "Installs and manages Python installations (toolchain management)",
+    "Manages pyproject.toml based projects",
+    "Manages dependencies and virtual environments seamlessly",
+    "Supports complex projects and monorepos (workspace support)",
+    "Facilitates global tool installations",
+    "Bundles tools like ruff for linting and formatting",
+    "Uses uv for locking and dependency installation",
+    "Builds wheels",
+    "Publishes packages"
+  ],
+  "website": "https://rye-up.com/",
+  "alternatives": [
+    {
+      "name": "pip (and venv)",
+      "license": "Python Software Foundation License (venv), MIT License (pip)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Installs, upgrades, and uninstalls Python packages",
+        "Creates lightweight virtual environments",
+        "Dependency management via requirements.txt",
+        "Basic package building"
+      ],
+      "website": "https://pip.pypa.io/"
+    },
+    {
+      "name": "virtualenv",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Creates isolated Python environments",
+        "Supports arbitrary Python versions",
+        "Faster environment creation than venv",
+        "More extendable than venv"
+      ],
+      "website": "https://virtualenv.pypa.io/"
+    },
+    {
+      "name": "Pipenv",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Combines package and virtual environment management",
+        "Uses Pipfile and Pipfile.lock for dependencies",
+        "Automatically creates and manages virtual environments",
+        "Automatically installs required Python versions with pyenv or asdf"
+      ],
+      "website": "https://pipenv.pypa.io/"
+    },
+    {
+      "name": "Poetry",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Dependency management and packaging",
+        "Uses pyproject.toml for configuration",
+        "Robust dependency resolution",
+        "Manages virtual environments",
+        "Builds and publishes packages"
+      ],
+      "website": "https://python-poetry.org/"
+    },
+    {
+      "name": "PDM",
+      "license": "Apache-2.0 License",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Modern package and dependency manager",
+        "Supports PEP standards (pyproject.toml, PEP 517, PEP 621)",
+        "Manages virtual environments or supports PEP 582",
+        "Installs Python versions",
+        "Opt-in centralized installation cache"
+      ],
+      "website": "https://pdm-project.org/"
+    },
+    {
+      "name": "Hatch",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Modern, extensible project manager",
+        "Supports standard Python packaging formats (pyproject.toml)",
+        "Manages isolated development environments",
+        "Includes features for building, testing, and publishing"
+      ],
+      "website": "https://hatch.pypa.io/"
+    },
+    {
+      "name": "Conda",
+      "license": "BSD License (Conda), Commercial (Anaconda Distribution for organizations)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Cross-platform, language-agnostic package and environment manager",
+        "Manages environments for various languages (Python, R, C, etc.)",
+        "Installs packages from various channels",
+        "Manages Python versions"
+      ],
+      "website": "https://docs.conda.io/"
+    },
+    {
+      "name": "uv",
+      "license": "MIT License",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Extremely fast package installer and resolver",
+        "Drop-in replacement for pip, pip-tools, and virtualenv commands",
+        "Manages Python versions",
+        "Comprehensive project management with universal lockfiles",
+        "Runs scripts and installs tools (like pipx)"
+      ],
+      "website": "https://docs.astral.sh/uv/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Poetry",
+    "Conda",
+    "pip (and venv/virtualenv)"
+  ],
+  "marketPositioning": "Rye is positioned as a unified, 'hassle-free' tool for the entire Python development workflow, akin to Rust's Cargo. It differentiates itself by directly managing Python toolchains, seamlessly handling virtual environments, and integrating other high-performance tools like uv and ruff. While other tools like Poetry and PDM offer integrated dependency and environment management, Rye aims for a more comprehensive, batteries-included approach that also covers Python version installation and essential tooling, simplifying the setup and reducing the need for multiple separate tools."
+}

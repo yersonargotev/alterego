@@ -1,0 +1,98 @@
+{
+  "projectName": "tokenizers",
+  "projectPurpose": "To provide highly optimized and fast implementations of state-of-the-art text tokenization algorithms for Natural Language Processing (NLP) tasks, particularly for large datasets and demanding performance in research and production settings.",
+  "platforms": [
+    "Rust",
+    "Python",
+    "Node.js"
+  ],
+  "mainFeatures": [
+    "Fast and optimized tokenization (implemented in Rust)",
+    "Supports state-of-the-art tokenization algorithms (e.g., BPE, WordPiece, Unigram)",
+    "Designed for both research and production environments",
+    "Handles full tokenization pipelines (pre-tokenization, splitting, post-processing)"
+  ],
+  "website": "https://github.com/huggingface/tokenizers",
+  "alternatives": [
+    {
+      "name": "NLTK (Natural Language Toolkit)",
+      "license": "Apache License 2.0",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Rule-based tokenization (word, sentence)",
+        "Stemming and Lemmatization",
+        "Part-of-Speech (POS) tagging",
+        "Includes various corpora and linguistic data"
+      ],
+      "website": "https://www.nltk.org/"
+    },
+    {
+      "name": "spaCy",
+      "license": "MIT License",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Fast statistical models",
+        "Rule-based tokenization with exceptions",
+        "Named Entity Recognition (NER)",
+        "Dependency Parsing"
+      ],
+      "website": "https://spacy.io/"
+    },
+    {
+      "name": "Stanford CoreNLP",
+      "license": "GNU General Public License (GPL) v2 or later",
+      "platforms": [
+        "Java",
+        "Python (wrapper)",
+        "Other wrappers"
+      ],
+      "mainFeatures": [
+        "Comprehensive NLP pipeline (tokenization, POS, NER, parsing, etc.)",
+        "Supports multiple languages",
+        "Provides linguistic annotations",
+        "Widely used in academia and industry"
+      ],
+      "website": "https://stanfordnlp.github.io/CoreNLP/"
+    },
+    {
+      "name": "SentencePiece",
+      "license": "Apache 2.0 License",
+      "platforms": [
+        "C++",
+        "Python (wrapper)",
+        "Java (bindings)"
+      ],
+      "mainFeatures": [
+        "Unsupervised subword tokenization (BPE, Unigram)",
+        "Trains directly from raw text",
+        "Language-independent",
+        "Efficient segmentation"
+      ],
+      "website": "https://github.com/google/sentencepiece"
+    },
+    {
+      "name": "tiktoken",
+      "license": "MIT License",
+      "platforms": [
+        "Python",
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Fast Byte Pair Encoding (BPE) tokeniser",
+        "Optimized for OpenAI's models",
+        "Works on arbitrary text",
+        "Text compression"
+      ],
+      "website": "https://github.com/openai/tiktoken"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "NLTK",
+    "spaCy"
+  ],
+  "marketPositioning": "tokenizers is positioned as a high-performance, Rust-based library providing extremely fast and optimized implementations of state-of-the-art subword tokenization techniques crucial for modern NLP models. While alternatives like NLTK and spaCy offer broader NLP functionalities including tokenization, tokenizers specifically focuses on the speed and efficiency of the tokenization step itself, making it particularly valuable for processing large volumes of text for training and deploying transformer models. Unlike tiktoken, which is primarily tied to OpenAI models, tokenizers aims to be a general-purpose, highly optimized tokenizer supporting various models and algorithms. Its core implementation in Rust gives it a significant performance advantage over Python-native libraries for computationally intensive tokenization tasks. Its integration within the Hugging Face ecosystem reinforces its role as a foundational, high-speed component for cutting-edge NLP."
+}

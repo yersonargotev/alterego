@@ -1,0 +1,145 @@
+{
+  "projectName": "cel-rust",
+  "projectPurpose": "To provide an implementation of the Common Expression Language (CEL) in the Rust programming language for parsing, checking, and evaluating expressions within Rust applications.",
+  "platforms": [
+    "Rust (cross-platform)"
+  ],
+  "mainFeatures": [
+    "Common Expression Language (CEL) implementation",
+    "Interpreter for CEL expressions",
+    "Parsing and evaluation of CEL expressions",
+    "Support for variables and custom functions",
+    "Designed to be simple, fast, safe, and customizable"
+  ],
+  "website": "https://github.com/clarkmcc/cel-rust",
+  "alternatives": [
+    {
+      "name": "google/cel-go",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Go (cross-platform)"
+      ],
+      "mainFeatures": [
+        "Fast and portable CEL implementation",
+        "Non-Turing complete expression evaluation",
+        "Gradual typing",
+        "Extensible with custom functions and variables",
+        "Used in prominent projects like Kubernetes"
+      ],
+      "website": "https://github.com/google/cel-go"
+    },
+    {
+      "name": "google/cel-java",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java (cross-platform)"
+      ],
+      "mainFeatures": [
+        "Common Expression Language for Java",
+        "Supports compilation and runtime",
+        "Non-Turing complete and gradually typed",
+        "Offers a suite of canonical extensions",
+        "Ideal for lightweight expression evaluation in Java"
+      ],
+      "website": "https://github.com/google/cel-java"
+    },
+    {
+      "name": "google/cel-cpp",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "C++ (cross-platform)"
+      ],
+      "mainFeatures": [
+        "C++ implementation of CEL runtime",
+        "Fast, portable, non-Turing complete evaluation",
+        "Supports parsing, checking, and evaluation",
+        "Designed for performance-critical applications",
+        "Leverages C++ for efficiency"
+      ],
+      "website": "https://github.com/google/cel-cpp"
+    },
+    {
+      "name": "common-expression-language (PyPI)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Python (wraps cel-rust)"
+      ],
+      "mainFeatures": [
+        "Python bindings for cel-rust",
+        "Allows CEL parsing and evaluation in Python",
+        "Leverages the Rust implementation's performance",
+        "Enables CEL usage within the Python ecosystem",
+        "Simple installation via pip"
+      ],
+      "website": "https://pypi.org/project/common-expression-language/"
+    },
+    {
+      "name": "Drools",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java (cross-platform)"
+      ],
+      "mainFeatures": [
+        "Business Rule Management System (BRMS)",
+        "Rule engine and complex event processing",
+        "Decision tables and DMN support",
+        "Suite of tools for managing rules",
+        "Widely used in enterprise Java applications"
+      ],
+      "website": "https://www.drools.org/"
+    },
+    {
+      "name": "Easy Rules",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Java (cross-platform)"
+      ],
+      "mainFeatures": [
+        "Lightweight rules engine for Java",
+        "Simple API for easy integration",
+        "Annotation-driven rule definition",
+        "Suitable for straightforward rule requirements",
+        "Focus on simplicity and rapid development"
+      ],
+      "website": "https://www.easyrules.org/"
+    },
+    {
+      "name": "Apache Commons JEXL",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java (cross-platform)"
+      ],
+      "mainFeatures": [
+        "Java Expression Language library",
+        "Syntax similar to ECMAScript/shell scripts",
+        "Facilitates dynamic and scripting features",
+        "Usable for configuration and simple templating",
+        "Small footprint API"
+      ],
+      "website": "https://commons.apache.org/proper/commons-jexl/"
+    },
+    {
+      "name": "ZEN Engine",
+      "license": "Open Source",
+      "platforms": [
+        "Rust",
+        "NodeJS",
+        "Python",
+        "Go"
+      ],
+      "mainFeatures": [
+        "Cross-platform Business Rules Engine",
+        "Executes JSON Decision Models (JDM)",
+        "Includes an Expression node with Zen Expression Language",
+        "Supports Decision Tables and Functions node",
+        "Provides native bindings for multiple languages"
+      ],
+      "website": "https://github.com/gorules/zen"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "google/cel-go",
+    "Drools"
+  ],
+  "marketPositioning": "cel-rust is positioned as a high-performance, safe, and embeddable implementation of the Common Expression Language specifically tailored for the Rust ecosystem. It competes directly with other language implementations of CEL (Go, Java, C++) by offering the advantages of Rust, such as memory safety and suitability for low-level integration or WebAssembly targets. Unlike broader Business Rule Management Systems, cel-rust provides a focused expression evaluation capability, emphasizing speed and safety for use cases like policy enforcement and validation within performance-critical applications."
+}

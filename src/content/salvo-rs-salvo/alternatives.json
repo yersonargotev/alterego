@@ -1,0 +1,94 @@
+{
+  "projectName": "salvo",
+  "projectPurpose": "To provide a powerful yet simplified web framework for building web applications and services in Rust.",
+  "platforms": [
+    "Cross-platform (runs on systems supporting Rust)"
+  ],
+  "mainFeatures": [
+    "Powerful web framework",
+    "Simplified design",
+    "Likely includes routing, middleware, and request/response handling features (inferred)"
+  ],
+  "website": "https://github.com/salvo-rs/salvo",
+  "alternatives": [
+    {
+      "name": "Actix Web",
+      "license": "Open Source - MIT or Apache 2.0",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, etc.)"
+      ],
+      "mainFeatures": [
+        "Supports HTTP/1.x and HTTP/2",
+        "WebSockets support",
+        "Powerful request routing",
+        "Full Tokio compatibility",
+        "Extremely fast performance"
+      ],
+      "website": "https://actix.rs/"
+    },
+    {
+      "name": "Rocket",
+      "license": "Open Source - MIT or Apache 2.0",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, etc.)"
+      ],
+      "mainFeatures": [
+        "Focus on usability, security, extensibility, and speed",
+        "Type-safe routing",
+        "Declarative form handling",
+        "Integrated templating and JSON support"
+      ],
+      "website": "https://rocket.rs/"
+    },
+    {
+      "name": "Axum",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, etc.)"
+      ],
+      "mainFeatures": [
+        "Built on Tokio, Tower, and Hyper",
+        "Ergonomic and modular design",
+        "Macro-free routing API",
+        "Leverages Tower ecosystem for middleware",
+        "Simple and predictable error handling"
+      ],
+      "website": "https://docs.rs/axum/latest/axum/"
+    },
+    {
+      "name": "Gin",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, etc.)"
+      ],
+      "mainFeatures": [
+        "HTTP web framework for Go",
+        "Performance-focused (up to 40x faster than Martini)",
+        "Middleware support",
+        "JSON validation",
+        "Fast routing"
+      ],
+      "website": "https://gin-gonic.com/"
+    },
+    {
+      "name": "Express",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (Linux, macOS, Windows, etc.)"
+      ],
+      "mainFeatures": [
+        "Minimalist web framework for Node.js",
+        "Robust routing",
+        "HTTP helpers",
+        "Supports various template engines",
+        "Middleware support"
+      ],
+      "website": "https://expressjs.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Express (Node.js)",
+    "Django (Python)"
+  ],
+  "marketPositioning": "Salvo is positioned as a powerful and simplified web framework within the Rust ecosystem. It competes directly with other Rust frameworks like Actix Web, Rocket, and Axum by aiming for a balance between comprehensive features and ease of use. While Actix Web is often highlighted for raw performance and Axum for its modularity and integration with the Tokio ecosystem, Salvo's emphasis on a 'simplified design' suggests it targets developers who prioritize a smooth and less complex development experience without sacrificing the power needed for modern web applications. It aims to make Rust web development more accessible while leveraging Rust's core benefits of performance and safety."
+}

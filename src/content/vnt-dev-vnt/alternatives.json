@@ -1,0 +1,119 @@
+{
+  "projectName": "vnt",
+  "projectPurpose": "To provide a simple and efficient open-source solution for creating secure network connections, enabling inter-city networking and intranet penetration using the Rust programming language.",
+  "platforms": [],
+  "mainFeatures": [
+    "Efficient VPN functionality",
+    "Inter-city networking",
+    "Intranet penetration"
+  ],
+  "website": "https://github.com/vnt-dev/vnt",
+  "alternatives": [
+    {
+      "name": "OpenVPN",
+      "license": "Open Source (GPLv2) / Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "*BSD",
+        "ChromeOS"
+      ],
+      "mainFeatures": [
+        "Secure point-to-point and site-to-site connections",
+        "Supports various authentication methods",
+        "Uses OpenSSL for encryption",
+        "NAT and firewall traversal"
+      ],
+      "website": "https://openvpn.net/"
+    },
+    {
+      "name": "WireGuard",
+      "license": "Open Source (GPLv2 / various)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "BSD",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Simple and modern VPN protocol",
+        "State-of-the-art cryptography",
+        "High performance",
+        "Minimal attack surface",
+        "Cryptokey routing"
+      ],
+      "website": "https://www.wireguard.com/"
+    },
+    {
+      "name": "Tailscale",
+      "license": "Proprietary (with free tier) / BSD 3-Clause (code)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "tvOS"
+      ],
+      "mainFeatures": [
+        "Built on WireGuard",
+        "Creates a mesh network",
+        "Zero-configuration VPN",
+        "Identity-aware access controls",
+        "Handles NAT traversal"
+      ],
+      "website": "https://tailscale.com/"
+    },
+    {
+      "name": "ZeroTier",
+      "license": "Open Source (Business Source License 1.1)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Android",
+        "iOS",
+        "Linux",
+        "FreeBSD",
+        "NAS",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Decentralized network virtualization",
+        "Peer-to-peer architecture",
+        "Low latency",
+        "Works through NATs and firewalls",
+        "Supports bridging and routing"
+      ],
+      "website": "https://www.zerotier.com/"
+    },
+    {
+      "name": "ngrok",
+      "license": "Proprietary (with free tier) / MIT (SDKs)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Secure ingress for applications",
+        "Exposes local servers to the internet",
+        "Supports HTTP, TLS, and TCP",
+        "Automatic certificates",
+        "Custom domains"
+      ],
+      "website": "https://ngrok.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OpenVPN",
+    "WireGuard"
+  ],
+  "marketPositioning": "VNT is positioned as a simple and efficient open-source VPN and tunneling tool written in Rust, specifically designed for inter-city networking and intranet penetration. It competes with established VPN solutions like OpenVPN and WireGuard by potentially offering a more modern and efficient implementation, while also providing similar intranet penetration capabilities as tools like ngrok. Compared to mesh networking solutions like Tailscale and ZeroTier, VNT appears to offer a more fundamental tunneling approach, appealing to users who prioritize performance, simplicity, and direct control in an open-source package for connecting distributed networks and bypassing NATs/firewalls."
+}

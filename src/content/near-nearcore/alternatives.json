@@ -1,0 +1,90 @@
+{
+  "projectName": "nearcore",
+  "projectPurpose": "To serve as the official reference client software for the NEAR Protocol blockchain, allowing users to run nodes, participate in network consensus, and interact with the blockchain.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Reference client for NEAR Protocol",
+    "Supports various NEAR networks (mainnet, testnet, betanet)",
+    "Implements Nightshade sharding for scalability",
+    "Features Resharding and Cross-shard bandwidth scheduler",
+    "Supports Epoch Sync and Decentralized state sync"
+  ],
+  "website": "https://github.com/near/nearcore",
+  "alternatives": [
+    {
+      "name": "Geth (Go Ethereum)",
+      "license": "GNU LGPL v3.0 (library), GNU GPL v3.0 (binaries)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Runs full, archive, or light Ethereum node",
+        "CLI and JSON-RPC API",
+        "Account management and smart contract interaction",
+        "Command-line wallet functionality",
+        "Supports PoW and PoS consensus"
+      ],
+      "website": "https://geth.ethereum.org/"
+    },
+    {
+      "name": "Bitcoin Core",
+      "license": "MIT License",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Runs a full Bitcoin node validating all transactions and blocks",
+        "Includes a wallet with GUI and RPC/CLI",
+        "Connects to the Bitcoin peer-to-peer network",
+        "Provides RPC interface for developers",
+        "Supports privacy features like coin control"
+      ],
+      "website": "https://bitcoincore.org/"
+    },
+    {
+      "name": "Polkadot SDK (Parity Technologies)",
+      "license": "GPL-3.0 license",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Node implementation for Polkadot network",
+        "Supports Nominated Proof-of-Stake (NPoS)",
+        "Enables validator and collator participation",
+        "Integrates with Relay Chain and Parachains",
+        "Built using Substrate framework"
+      ],
+      "website": "https://polkadot.network/"
+    },
+    {
+      "name": "Solana Validator Client (Agave, Jito-Solana, Firedancer, etc.)",
+      "license": "Apache-2.0 License",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Runs a Solana node (validator or RPC)",
+        "Participates in PoH and dPoS consensus",
+        "Verifies transactions and produces blocks",
+        "Command-line interface for node management",
+        "Multiple implementations with different optimizations"
+      ],
+      "website": "https://solana.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Bitcoin Core",
+    "Geth (Go Ethereum)"
+  ],
+  "marketPositioning": "Nearcore is the essential reference client for the NEAR Protocol, positioning itself as the gateway to a highly scalable, sharded, and developer-friendly blockchain. It competes with clients of other Layer 1 blockchains by emphasizing ease of use for developers (supporting Rust and JavaScript SDKs), predictable pricing, and dynamic scalability through its unique Nightshade sharding mechanism, aiming to onboard developers and users by offering a platform competitive with traditional cloud services in terms of usability and cost efficiency for decentralized applications."
+}

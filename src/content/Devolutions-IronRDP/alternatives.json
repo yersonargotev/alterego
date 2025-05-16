@@ -1,0 +1,66 @@
+{
+  "projectName": "IronRDP",
+  "projectPurpose": "To provide a robust, open-source library written in Rust for implementing the Microsoft Remote Desktop Protocol, enabling developers to build RDP client or server applications.",
+  "platforms": [
+    "Rust (library)"
+  ],
+  "mainFeatures": [
+    "Rust implementation of RDP",
+    "Provides crates for building RDP clients and servers",
+    "Focus on security",
+    "Supports various RDP graphics codecs (Bitmap, RLE, RDP 6.0, RemoteFX)"
+  ],
+  "website": "https://github.com/Devolutions/IronRDP",
+  "alternatives": [
+    {
+      "name": "FreeRDP",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Cross-platform RDP client and server implementation",
+        "Supports advanced RDP features (RemoteFX, NLA)",
+        "Clipboard integration",
+        "Audio and drive redirection"
+      ],
+      "website": "https://www.freerdp.com/"
+    },
+    {
+      "name": "xrdp",
+      "license": "Open Source - Apache License 2.0, GNU General Public License",
+      "platforms": [
+        "GNU/Linux",
+        "BSD (Server)"
+      ],
+      "mainFeatures": [
+        "RDP server for non-Windows operating systems",
+        "Supports connections from standard RDP clients",
+        "Two-way clipboard transfer",
+        "Audio and drive redirection"
+      ],
+      "website": "http://www.xrdp.org/"
+    },
+    {
+      "name": "rdesktop",
+      "license": "Open Source - GNU General Public License",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Basic RDP client for Unix-like systems",
+        "Supports core RDP features"
+      ],
+      "website": "http://www.rdesktop.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Microsoft Remote Desktop (MSTSC)",
+    "FreeRDP"
+  ],
+  "marketPositioning": "IronRDP is positioned as a modern, secure, and performant open-source RDP protocol implementation written in Rust. Unlike comprehensive end-user focused alternatives like FreeRDP and xrdp, IronRDP provides the core RDP library components for developers to build their own custom RDP clients and servers. Its Rust foundation appeals to developers prioritizing memory safety and performance. Its use in commercial products, including those enabling browser-based access via WebAssembly, highlights its strength as a library for integration into advanced remote access solutions."
+}

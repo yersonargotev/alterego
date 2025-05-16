@@ -1,0 +1,117 @@
+{
+  "projectName": "swww",
+  "projectPurpose": "To provide a reliable and feature-rich wallpaper utility specifically for the Wayland display server protocol, addressing common issues and offering support for animated GIFs and smooth transitions.",
+  "platforms": [
+    "Linux (Wayland)"
+  ],
+  "mainFeatures": [
+    "Display animated gifs",
+    "Support for various image formats (jpeg, png, gif, pnm, tga, tiff, webp, bmp, farbfeld)",
+    "Clear screen with arbitrary color",
+    "Smooth transition effect when switching images",
+    "Change wallpaper at runtime via IPC"
+  ],
+  "website": "https://github.com/Horus645/swww",
+  "alternatives": [
+    {
+      "name": "Hyprpaper",
+      "license": "Open Source",
+      "platforms": [
+        "Linux (wlroots-based Wayland compositors)"
+      ],
+      "mainFeatures": [
+        "Per-output wallpapers",
+        "Fill, tile, or contain modes",
+        "Fractional scaling support",
+        "IPC for fast wallpaper switches",
+        "Preloading images"
+      ],
+      "website": "https://github.com/hyprwm/hyprpaper"
+    },
+    {
+      "name": "swaybg",
+      "license": "Open Source",
+      "platforms": [
+        "Linux (Wayland compositors with wlr-layer-shell)"
+      ],
+      "mainFeatures": [
+        "Basic wallpaper display for Wayland",
+        "Supports common image formats"
+      ],
+      "website": "https://github.com/swaywm/swaybg"
+    },
+    {
+      "name": "feh",
+      "license": "Open Source",
+      "platforms": [
+        "Linux (X11, works on Wayland via XWayland)"
+      ],
+      "mainFeatures": [
+        "Image viewer and cataloger",
+        "Set wallpaper on X11",
+        "Supports various image formats",
+        "Set different wallpapers per monitor (X11)"
+      ],
+      "website": "https://feh.finalrewind.org/"
+    },
+    {
+      "name": "Nitrogen",
+      "license": "Open Source (GPLv2)",
+      "platforms": [
+        "Linux (X11)"
+      ],
+      "mainFeatures": [
+        "GUI wallpaper setter",
+        "Set different wallpapers per screen",
+        "Handles large wallpaper collections"
+      ],
+      "website": "https://github.com/lukevers/nitrogen"
+    },
+    {
+      "name": "Waypaper",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Linux (Wayland, Xorg)"
+      ],
+      "mainFeatures": [
+        "GUI wallpaper setter",
+        "Supports multiple backends (swww, swaybg, hyprpaper, feh, etc.)",
+        "Supports GIFs and videos (via backends)",
+        "Multi-monitor support (via backends)"
+      ],
+      "website": "https://github.com/anufrievroman/waypaper"
+    },
+    {
+      "name": "mpvpaper",
+      "license": "Open Source",
+      "platforms": [
+        "Linux (Wayland)"
+      ],
+      "mainFeatures": [
+        "Set videos as wallpaper using mpv",
+        "Supports various video and image formats",
+        "Customizable with mpv configuration"
+      ],
+      "website": "https://github.com/GhostManager/mpvpaper"
+    },
+    {
+      "name": "waytrogen",
+      "license": "Open Source",
+      "platforms": [
+        "Linux (Wayland, requires backend)"
+      ],
+      "mainFeatures": [
+        "GUI wallpaper setter for Wayland",
+        "Recursive file searching",
+        "Supports images, GIFs, and videos (via backends)",
+        "Supports external scripts"
+      ],
+      "website": "https://github.com/nikolaizombie1/waytrogen"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Hyprpaper",
+    "swaybg"
+  ],
+  "marketPositioning": "swww is positioned as a feature-rich, daemon-based wallpaper utility for Wayland that specifically addresses common 'Wayland Wallpaper Woes'. It differentiates itself with robust support for animated GIFs and smooth transitions, controlled efficiently via IPC. While other native Wayland options like Hyprpaper and swaybg exist, swww offers a more polished experience for dynamic wallpapers and effects, serving as a powerful backend for users and frontend tools seeking these specific capabilities."
+}

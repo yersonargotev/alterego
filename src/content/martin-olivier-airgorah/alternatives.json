@@ -1,0 +1,73 @@
+{
+  "projectName": "airgorah",
+  "projectPurpose": "To provide a user-friendly graphical interface for performing common WiFi security auditing tasks, specifically deauthentication attacks and password cracking, by acting as a frontend to the aircrack-ng suite.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Perform deauthentication attacks",
+    "Crack WiFi passwords (WPA handshake decryption)",
+    "Capture nearby WiFi traffic",
+    "Discover connected clients",
+    "Capture WPA handshakes"
+  ],
+  "website": "https://github.com/martin-olivier/airgorah",
+  "alternatives": [
+    {
+      "name": "Kismet",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Passive network detection",
+        "Packet sniffing",
+        "Intrusion detection system",
+        "Supports multiple wireless protocols (Wi-Fi, Bluetooth, etc.)"
+      ],
+      "website": "https://www.kismetwireless.net/"
+    },
+    {
+      "name": "Hashcat",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "World's fastest password cracker",
+        "Supports numerous hashing algorithms",
+        "Multiple attack modes (dictionary, brute-force, etc.)",
+        "Utilizes CPU, GPU, and other accelerators"
+      ],
+      "website": "https://hashcat.net/hashcat/"
+    },
+    {
+      "name": "John the Ripper",
+      "license": "Open Source - GPL (\u4e5f\u6709Pro\u7248)",
+      "platforms": [
+        "Unix",
+        "Linux",
+        "macOS",
+        "Windows",
+        "DOS",
+        "BeOS",
+        "OpenVMS"
+      ],
+      "mainFeatures": [
+        "Fast password cracker",
+        "Auto-detects hash types",
+        "Supports various encrypted formats",
+        "Multiple cracking modes (wordlist, brute-force, etc.)"
+      ],
+      "website": "https://www.openwall.com/john/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Aircrack-ng"
+  ],
+  "marketPositioning": "Airgorah is positioned as a user-friendly graphical interface (GUI) wrapper for the widely used command-line aircrack-ng suite. It aims to make common WiFi auditing tasks, such as deauthentication attacks and password cracking, more accessible to users who prefer a visual interface over command-line tools. While leveraging the core functionality of aircrack-ng, its GUI is its primary differentiator compared to the original suite and other command-line focused tools like Kismet, Hashcat, and John the Ripper, which either focus on different aspects of network analysis or are general-purpose crackers. Airgorah specifically targets Linux users requiring a simpler approach to active WiFi security testing."
+}

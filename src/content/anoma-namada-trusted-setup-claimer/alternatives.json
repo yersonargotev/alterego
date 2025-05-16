@@ -1,0 +1,157 @@
+{
+  "projectName": "namada-trusted-setup-claimer",
+  "projectPurpose": "To provide a tool for participants of the Namada trusted setup ceremony to sign arbitrary messages using keys derived from that setup, likely for verification of participation or claiming related benefits.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Sign arbitrary messages",
+    "Utilizes keys from the Namada trusted setup"
+  ],
+  "website": "https://github.com/anoma/namada-trusted-setup-claimer",
+  "alternatives": [
+    {
+      "name": "OpenSSL",
+      "license": "Open Source (Apache License v2 and others)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        " \u0648\u063a\u064a\u0631\u0647\u0627"
+      ],
+      "mainFeatures": [
+        "Generate private and public keys",
+        "Create digital signatures",
+        "Verify digital signatures",
+        "Encrypt and decrypt data",
+        "Manage certificates"
+      ],
+      "website": "https://www.openssl.org/"
+    },
+    {
+      "name": "GnuPG (GNU Privacy Guard)",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        " \u0648\u063a\u064a\u0631\u0647\u0627"
+      ],
+      "mainFeatures": [
+        "Encrypt and decrypt files and emails",
+        "Digitally sign files and emails",
+        "Verify digital signatures",
+        "Manage cryptographic keys"
+      ],
+      "website": "https://gnupg.org/"
+    },
+    {
+      "name": "SignServer",
+      "license": "Open Source (Community Edition), Proprietary (Enterprise Edition)",
+      "platforms": [
+        "Web",
+        "Server (Java-based)"
+      ],
+      "mainFeatures": [
+        "Digital signing of documents",
+        "Code signing",
+        "Timestamping",
+        "Centralized key management"
+      ],
+      "website": "https://www.signserver.org/"
+    },
+    {
+      "name": "LibreSign",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Electronic signature workflow management",
+        "Support for digital certificates (PKI)",
+        "Integration capabilities",
+        "Web-based interface"
+      ],
+      "website": "https://libresign.org/"
+    },
+    {
+      "name": "DocuSeal",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Fill and sign PDF documents",
+        "Create custom PDF forms",
+        "Automatic digital signature",
+        "API integration"
+      ],
+      "website": "https://www.docuseal.co/"
+    },
+    {
+      "name": "OpenSign",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Secure PDF document signing",
+        "State-of-the-art encryption",
+        "User-friendly interface",
+        "Robust API support"
+      ],
+      "website": "https://opensign.com/"
+    },
+    {
+      "name": "AWS Key Management Service (KMS)",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (AWS)"
+      ],
+      "mainFeatures": [
+        "Create and manage cryptographic keys",
+        "Control usage of keys",
+        "Integration with AWS services",
+        "Hardware Security Module (HSM) support"
+      ],
+      "website": "https://aws.amazon.com/kms/"
+    },
+    {
+      "name": "Azure Key Vault",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (Azure)"
+      ],
+      "mainFeatures": [
+        "Securely store and manage keys, secrets, and certificates",
+        "Hardware Security Module (HSM) support",
+        "Integration with Azure services",
+        "Automated key rotation"
+      ],
+      "website": "https://azure.microsoft.com/en-us/services/key-vault/"
+    },
+    {
+      "name": "Google Cloud Key Management Service",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (Google Cloud)"
+      ],
+      "mainFeatures": [
+        "Manage cryptographic keys",
+        "Perform encryption, decryption, and signing",
+        "Hardware Security Module (HSM) support",
+        "External Key Management (EKM)"
+      ],
+      "website": "https://cloud.google.com/kms"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "AWS Key Management Service (KMS)",
+    "Azure Key Vault",
+    "Google Cloud Key Management Service"
+  ],
+  "marketPositioning": "The namada-trusted-setup-claimer is a highly specialized utility designed exclusively for participants of the Namada trusted setup ceremony. Unlike general-purpose digital signature tools or broad key management systems, its function is tightly coupled with the keys generated during this specific cryptographic event within the Namada ecosystem. Its market position is niche, serving the specific need of trusted setup contributors to sign messages for purposes such as verifying their participation, claiming airdropped tokens, or engaging with Namada network features that require validation from these unique keys. It is an essential, purpose-built tool for a specific set of users within the Namada community, rather than a competitor in the broader digital signature or key management market."
+}

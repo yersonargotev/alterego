@@ -1,0 +1,77 @@
+{
+  "projectName": "libc",
+  "projectPurpose": "To provide raw, low-level bindings to the C standard library and other platform-specific native APIs for the Rust programming language, enabling system programming and interaction with existing native code.",
+  "platforms": [
+    "Cross-platform (dependent on Rust's target platforms)"
+  ],
+  "mainFeatures": [
+    "Provides raw bindings to C standard library functions and types",
+    "Offers definitions for platform-specific APIs",
+    "Enables low-level system interaction from Rust",
+    "Facilitates interoperability with existing C codebases"
+  ],
+  "website": "https://github.com/rust-lang/libc",
+  "alternatives": [
+    {
+      "name": "Cgo",
+      "license": "Open Source (BSD-style)",
+      "platforms": [
+        "Cross-platform (Windows, macOS, Linux, various architectures)"
+      ],
+      "mainFeatures": [
+        "Allows Go packages to call C code",
+        "Allows C code to call Go functions",
+        "Supports using C types and variables",
+        "Enables interaction with existing C libraries"
+      ],
+      "website": "https://golang.org/cmd/cgo/"
+    },
+    {
+      "name": "ctypes",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Cross-platform (Windows, macOS, Linux, POSIX)"
+      ],
+      "mainFeatures": [
+        "Provides C compatible data types in Python",
+        "Allows calling functions in dynamic link libraries/shared libraries",
+        "Can wrap native libraries in pure Python",
+        "Supports standard C calling conventions"
+      ],
+      "website": "https://docs.python.org/3/library/ctypes.html"
+    },
+    {
+      "name": "Java Native Interface (JNI)",
+      "license": "Open Source (GPLv2 with Classpath Exception), Proprietary",
+      "platforms": [
+        "Cross-platform (dependent on JVM implementation)"
+      ],
+      "mainFeatures": [
+        "Enables Java code to call native code (C, C++, assembly)",
+        "Allows native code to call Java code",
+        "Provides functions to interact with the JVM from native code",
+        "Supports loading dynamic shared libraries"
+      ],
+      "website": "https://docs.oracle.com/javase/8/docs/technotes/guides/jni/index.html"
+    },
+    {
+      "name": "Platform Invoke (P/Invoke)",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Cross-platform (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Enables managed code (.NET) to call native code (DLLs)",
+        "Provides access to structs, callbacks, and functions in unmanaged libraries",
+        "Allows leveraging existing C/C++ codebases",
+        "Supports explicit data marshalling"
+      ],
+      "website": "https://learn.microsoft.com/en-us/dotnet/standard/interop/pinvoke"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ctypes (Python)",
+    "Java Native Interface (JNI)"
+  ],
+  "marketPositioning": "`libc` is positioned as the fundamental and standard library within the Rust ecosystem for direct, low-level interaction with the C standard library and other platform-specific native interfaces. Unlike higher-level FFI abstractions, `libc` focuses on providing raw bindings, requiring developers to be mindful of memory safety and potentially use `unsafe` code. Its market is specifically Rust developers needing fine-grained control over system calls and seamless interoperability with C, serving as a critical building block for other libraries and applications that interface with the operating system or existing native code. It is the idiomatic way to perform raw FFI in Rust, tightly integrated with the language's capabilities and safety features, even when exposing inherently unsafe operations from the C world."
+}

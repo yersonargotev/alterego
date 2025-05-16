@@ -1,0 +1,104 @@
+{
+  "projectName": "noname",
+  "projectPurpose": "A programming language designed for writing zero-knowledge applications (zkapps).",
+  "platforms": [],
+  "mainFeatures": [
+    "Programming language specifically for zkapps",
+    "Implemented in Rust (implies potential focus on performance/low-level control)"
+  ],
+  "website": "https://github.com/zksecurity/noname",
+  "alternatives": [
+    {
+      "name": "Circom",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Domain-specific language for ZK circuits",
+        "Compiles to R1CS constraints",
+        "Widely used in Ethereum ecosystem",
+        "Integrates with tools like SnarkJS"
+      ],
+      "website": "https://docs.circom.io/"
+    },
+    {
+      "name": "Noir",
+      "license": "Open Source",
+      "platforms": [
+        "Multi-platform",
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Rust-like syntax",
+        "Backend-agnostic (compiles to ACIR)",
+        "Designed for privacy-preserving ZK programs",
+        "Growing ecosystem"
+      ],
+      "website": "https://docs.noir-lang.org/"
+    },
+    {
+      "name": "Cairo",
+      "license": "Open Source",
+      "platforms": [
+        "StarkNet (L2 blockchain)"
+      ],
+      "mainFeatures": [
+        "STARK-based provable programs",
+        "Turing-complete language",
+        "Rust-inspired syntax",
+        "Integral to StarkNet ecosystem"
+      ],
+      "website": "https://www.cairo-lang.org/"
+    },
+    {
+      "name": "Leo",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Aleo blockchain",
+        "Ubuntu",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Statically-typed, imperative language",
+        "Rust-like syntax",
+        "Designed for private applications on Aleo",
+        "Supports formal verification"
+      ],
+      "website": "https://docs.aleo.org/leo"
+    },
+    {
+      "name": "o1js",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "TypeScript-based ZK development",
+        "For Mina Protocol zkApps",
+        "Off-chain computation/on-chain verification",
+        "Supports recursive proofs"
+      ],
+      "website": "https://docs.minaprotocol.com/zkapps/o1js"
+    },
+    {
+      "name": "Plonky2",
+      "license": "Open Source",
+      "platforms": [
+        "Multi-platform (Rust library)"
+      ],
+      "mainFeatures": [
+        "Recursive SNARKs implementation",
+        "Combines PLONK and FRI",
+        "Optimized for performance",
+        "Native compatibility with Ethereum"
+      ],
+      "website": "https://polygon.technology/polygon-zero"
+    }
+  ],
+  "mostWellKnownAlternative": "Circom",
+  "marketPositioning": "Noname is positioned as a dedicated programming language for writing zero-knowledge applications (zkapps). Unlike some alternatives tied to specific blockchain platforms (Aleo, Mina, StarkNet), its description doesn't specify a target chain, suggesting a potential aim for broader applicability in the ZK ecosystem. Its implementation in Rust aligns it with other performance-focused ZK tools. Compared to established DSLs like Circom or rapidly growing languages like Noir, Noname appears to be a newer entrant, potentially exploring different language design choices or targeting a specific niche within zkapp development."
+}

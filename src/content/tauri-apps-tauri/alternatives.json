@@ -1,0 +1,125 @@
+{
+  "projectName": "tauri",
+  "projectPurpose": "To provide a framework for building cross-platform desktop and mobile applications using web technologies for the frontend and Rust for the backend, prioritizing small binary size, performance, and security.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "iOS",
+    "Android"
+  ],
+  "mainFeatures": [
+    "Build tiny and fast binaries",
+    "Cross-platform development (Desktop and Mobile)",
+    "Integrate any web frontend (HTML, JS, CSS)",
+    "Rust backend with API for frontend interaction",
+    "Uses system webviews instead of bundling browser engine",
+    "Built-in app bundler and self updater",
+    "System tray and native notifications",
+    "Security features (allowlist, isolation)",
+    "Plugin system",
+    "Native WebView Protocol"
+  ],
+  "website": "https://github.com/tauri-apps/tauri",
+  "alternatives": [
+    {
+      "name": "Electron",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Bundles Chromium and Node.js",
+        "Build desktop apps with HTML, CSS, JS",
+        "Access to Node.js APIs",
+        "Large ecosystem",
+        "Automatic updates, menus, notifications"
+      ],
+      "website": "https://www.electronjs.org/"
+    },
+    {
+      "name": "NW.js",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Based on Chromium and Node.js",
+        "Call Node.js modules directly from DOM",
+        "Write native apps in HTML, CSS, JS",
+        "Easy packaging",
+        "JavaScript Source Protection"
+      ],
+      "website": "https://nwjs.io/"
+    },
+    {
+      "name": "Flutter",
+      "license": "Open Source - New BSD License / BSD 3-Clause",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Embedded",
+        "Google Fuchsia"
+      ],
+      "mainFeatures": [
+        "Uses Dart language",
+        "Single codebase for multiple platforms",
+        "Own rendering engine",
+        "Hot Reload for fast development",
+        "Rich set of widgets"
+      ],
+      "website": "https://flutter.dev/"
+    },
+    {
+      "name": "React Native",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Android",
+        "iOS",
+        "macOS",
+        "Windows",
+        "Web",
+        "tvOS",
+        "UWP",
+        "VR",
+        "visionOS"
+      ],
+      "mainFeatures": [
+        "Uses JavaScript and React",
+        "Single codebase (primarily mobile)",
+        "Renders native components",
+        "Reusable components",
+        "Hot Reloading"
+      ],
+      "website": "https://reactnative.dev/"
+    },
+    {
+      "name": "Capacitor",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "iOS",
+        "Android",
+        "Web",
+        "Desktop"
+      ],
+      "mainFeatures": [
+        "Native runtime for web apps",
+        "Access to Native SDKs and APIs",
+        "Plugin API (supports Cordova plugins)",
+        "Integrates with existing web frameworks",
+        "Builds PWA alongside native apps"
+      ],
+      "website": "https://capacitorjs.com/"
+    }
+  ],
+  "mostWellKnownAlternative": "Electron",
+  "marketPositioning": "Tauri is positioned as a modern, lightweight, and security-focused alternative to frameworks like Electron and NW.js. It targets developers who want to build cross-platform desktop and mobile applications using web technologies but prioritize smaller binary sizes, lower resource consumption (by using native webviews), and enhanced security features, leveraging the performance benefits of a Rust backend."
+}

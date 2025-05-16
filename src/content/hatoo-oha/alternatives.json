@@ -1,0 +1,169 @@
+{
+  "projectName": "oha",
+  "projectPurpose": "To provide a fast, efficient, and visually informative command-line tool for generating load against HTTP servers and benchmarking their performance, serving as a modern alternative with a focus on real-time feedback.",
+  "platforms": [
+    "Linux",
+    "Windows",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "HTTP load generation",
+    "Real-time Text-based User Interface (TUI) animation",
+    "Inspired by rakyll/hey",
+    "Written in Rust for performance",
+    "Supports HTTP/2",
+    "Dynamic URL generation",
+    "Multiple output formats (text, JSON, CSV)"
+  ],
+  "website": "https://github.com/hatoo/oha",
+  "alternatives": [
+    {
+      "name": "hey",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "HTTP load generation",
+        "ApacheBench (ab) replacement",
+        "Supports HTTP/2",
+        "Command-line interface"
+      ],
+      "website": "https://github.com/rakyll/hey"
+    },
+    {
+      "name": "ApacheBench (ab)",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Basic HTTP benchmarking",
+        "Command-line interface",
+        "Included with Apache HTTP Server",
+        "Simple to use"
+      ],
+      "website": "https://httpd.apache.org/docs/current/programs/ab.html"
+    },
+    {
+      "name": "wrk",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Multi-threaded design",
+        "High-performance HTTP benchmarking",
+        "Scriptable with LuaJIT",
+        "Uses event notification systems"
+      ],
+      "website": "https://github.com/wg/wrk"
+    },
+    {
+      "name": "Siege",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "Unix",
+        "Windows (via Cygwin)"
+      ],
+      "mainFeatures": [
+        "Stress test web servers",
+        "Configurable concurrent users and duration",
+        "Supports HTTP/1.0 and 1.1",
+        "Supports URLs from a file"
+      ],
+      "website": "https://www.joedog.org/siege-home/"
+    },
+    {
+      "name": "Apache JMeter",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "GUI for test plan creation",
+        "Supports multiple protocols",
+        "Distributed testing",
+        "Extensive plugin ecosystem",
+        "Detailed reporting"
+      ],
+      "website": "https://jmeter.apache.org/"
+    },
+    {
+      "name": "k6",
+      "license": "Open Source - AGPL-3.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Developer-focused (JavaScript scripting)",
+        "CLI-first architecture",
+        "Integrates with monitoring tools",
+        "Designed for CI/CD",
+        "Supports HTTP/2 and other protocols"
+      ],
+      "website": "https://k6.io/"
+    },
+    {
+      "name": "Locust",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Define user behavior with Python code",
+        "Distributed and scalable",
+        "Web-based UI for monitoring",
+        "Supports various protocols"
+      ],
+      "website": "https://locust.io/"
+    },
+    {
+      "name": "Gatling",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Scala-based scripting",
+        "Designed for performance and scalability",
+        "Provides detailed reports",
+        "Integrates with CI/CD"
+      ],
+      "website": "https://gatling.io/"
+    },
+    {
+      "name": "Loader.io",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Cloud-based load testing",
+        "Easy-to-use web interface",
+        "Real-time monitoring",
+        "Scalable infrastructure"
+      ],
+      "website": "https://loader.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache JMeter"
+  ],
+  "marketPositioning": "oha is positioned as a modern, visually appealing command-line HTTP load generator. It fills a niche for users who desire the speed and efficiency of a compiled language like Rust combined with the convenience of a CLI tool, but also value real-time visual feedback during testing provided by its unique TUI. While simpler than full-featured platforms like JMeter or k6, its strength lies in offering a more engaging and informative experience than minimalist tools like 'ab' or its direct inspiration, 'hey', for focused HTTP load testing from the terminal."
+}

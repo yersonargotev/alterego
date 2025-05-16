@@ -1,0 +1,125 @@
+{
+  "projectName": "wstunnel",
+  "projectPurpose": "To provide a flexible and easy-to-use tool for creating tunnels over WebSocket or HTTP/2 protocols to bypass network restrictions such as firewalls and Deep Packet Inspection (DPI).",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "FreeBSD",
+    "Android"
+  ],
+  "mainFeatures": [
+    "Tunnel traffic over Websocket or HTTP2",
+    "Bypass firewalls/DPI",
+    "Static binary available",
+    "Static and dynamic tunneling (TCP, UDP, SOCKS5, HTTP proxy)",
+    "TLS/HTTPS support"
+  ],
+  "website": "https://github.com/erebe/wstunnel",
+  "alternatives": [
+    {
+      "name": "Shadowsocks",
+      "license": "Various (APL 2.0, GPLv3, LGPLv3, MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "OpenWRT"
+      ],
+      "mainFeatures": [
+        "Fast tunnel proxy",
+        "Helps bypass firewalls",
+        "Flexible encryption",
+        "Optimized for mobile",
+        "Cross-platform"
+      ],
+      "website": "https://shadowsocks.org/"
+    },
+    {
+      "name": "V2Ray / Xray",
+      "license": "Mozilla Public License Version 2.0 (MPL 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "OpenWRT"
+      ],
+      "mainFeatures": [
+        "Multi-protocol support (VMess, VLESS, Shadowsocks, etc.)",
+        "Sophisticated routing",
+        "Traffic encryption",
+        "XTLS protocol (Xray)",
+        "Fallback mechanisms"
+      ],
+      "website": "https://github.com/XTLS/Xray-core"
+    },
+    {
+      "name": "OpenVPN",
+      "license": "GNU GPLv2 (Community Edition), Proprietary (Access Server)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "FreeBSD",
+        "ChromeOS"
+      ],
+      "mainFeatures": [
+        "Secure point-to-point/site-to-site connections",
+        "Uses SSL/TLS",
+        "NAT/firewall traversal",
+        "Various authentication methods",
+        "Extensive security features"
+      ],
+      "website": "https://openvpn.net/"
+    },
+    {
+      "name": "WireGuard",
+      "license": "GPLv2 (Linux kernel module), various others (MIT, BSD, Apache 2.0)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "BSD",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Simple and high-performance VPN protocol",
+        "State-of-the-art cryptography",
+        "Minimal attack surface",
+        "Integrated into Linux kernel",
+        "UDP-based"
+      ],
+      "website": "https://www.wireguard.com/"
+    },
+    {
+      "name": "SSH Tunneling (Port Forwarding)",
+      "license": "Typically under SSH implementation license (e.g., BSD-style for OpenSSH)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Securely transports data over SSH",
+        "Local, remote, and dynamic port forwarding",
+        "Access services behind firewalls/NAT",
+        "Leverages existing SSH infrastructure",
+        "Adds encryption to applications"
+      ],
+      "website": "https://www.ssh.com/academy/ssh/tunneling"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Shadowsocks",
+    "V2Ray / Xray"
+  ],
+  "marketPositioning": "Wstunnel is positioned as a specialized tunneling tool focused on bypassing restrictive firewalls and DPI by using WebSocket and HTTP/2 as transport protocols. While general VPNs like OpenVPN and WireGuard provide secure tunnels, and tools like Shadowsocks and V2Ray/Xray offer various obfuscation techniques, wstunnel differentiates itself by specifically leveraging the widely permitted WebSocket/HTTP2 traffic patterns. Its availability as a static binary and ease of use make it a convenient option for users needing to circumvent network restrictions where standard VPN protocols are blocked but web traffic is allowed. It serves as a direct alternative to other tools utilizing WebSocket/HTTP2 for tunneling, offering a performant solution written in Rust."
+}

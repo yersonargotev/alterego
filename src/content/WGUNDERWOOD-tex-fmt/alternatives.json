@@ -1,0 +1,88 @@
+{
+  "projectName": "tex-fmt",
+  "projectPurpose": "To provide a fast and easy-to-use command-line tool for automatically formatting LaTeX source code files (.tex, .bib, .cls, .sty), improving readability and consistency, with a focus on speed and minimal configuration.",
+  "platforms": [
+    "Command Line (likely cross-platform given Rust)"
+  ],
+  "mainFeatures": [
+    "Extremely fast run-time performance",
+    "Minimal configuration required",
+    "Command line interface",
+    "Handles LaTeX file types .tex, .bib, .cls, and .sty",
+    "Written in safe Rust",
+    "Supports disabling formatting for specific lines or blocks",
+    "Can check formatting without modifying files",
+    "Option to not wrap long lines"
+  ],
+  "website": "https://github.com/WGUNDERWOOD/tex-fmt",
+  "alternatives": [
+    {
+      "name": "latexindent",
+      "license": "Open Source (Perl script)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Highly configurable via YAML",
+        "Modifies line breaks and performs text wrapping",
+        "Supports string and regex substitutions",
+        "Indentation for environments and commands",
+        "Handles alignment delimiters"
+      ],
+      "website": "https://ctan.org/pkg/latexindent"
+    },
+    {
+      "name": "TeXstudio",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Integrated writing environment for LaTeX",
+        "Syntax highlighting and integrated viewer",
+        "Assistants for tables, formulas, and images",
+        "Auto-completion and reference checking",
+        "Includes code formatting/indentation features"
+      ],
+      "website": "https://www.texstudio.org/"
+    },
+    {
+      "name": "Overleaf (Community Edition)",
+      "license": "Open Source (GNU AGPLv3)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Collaborative online LaTeX editor",
+        "Real-time preview",
+        "Version history and tracking changes",
+        "Integrated LaTeX environment",
+        "Supports inserting various elements"
+      ],
+      "website": "https://github.com/overleaf/overleaf"
+    },
+    {
+      "name": "latex-formatter (VS Code extension)",
+      "license": "Open Source",
+      "platforms": [
+        "Requires VS Code (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Integrates LaTeX formatting into VS Code",
+        "Provides code indentation and styling",
+        "Configurable formatting rules",
+        "Often uses external formatters like latexindent",
+        "Easy access within the editor environment"
+      ],
+      "website": "https://marketplace.visualstudio.com/items?itemName=LaTeX-Utilities.latex-formatter"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "latexindent"
+  ],
+  "marketPositioning": "tex-fmt is positioned as an extremely fast and simple command-line LaTeX formatter. Its core differentiator is its speed, offering significantly faster performance than established tools like latexindent, particularly on large files. It targets users who prioritize performance and ease of use over extensive configuration options, fitting well into automated workflows, scripting, and CI/CD pipelines where speed is critical."
+}

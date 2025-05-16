@@ -1,0 +1,69 @@
+{
+  "projectName": "rust-libp2p",
+  "projectPurpose": "To provide a robust, modular, and flexible peer-to-peer networking stack implemented in Rust, enabling developers to build decentralized applications and systems that can discover and communicate with each other without relying on centralized servers.",
+  "platforms": [
+    "Cross-platform (primarily targets native environments, also supports WebAssembly for browser)"
+  ],
+  "mainFeatures": [
+    "Modular peer-to-peer networking framework",
+    "Supports multiple transports (TCP, QUIC, WebRTC, WebTransport, Websockets, mDNS, DNS)",
+    "Connection management and multiplexing (Yamux)",
+    "Security protocols (Noise, TLS, Plaintext, Pnet)",
+    "NAT traversal (AutoNAT, DCUtR, UPnP, Circuit Relay)",
+    "Distributed Hash Table (Kademlia)",
+    "Pub/Sub messaging (Floodsub, Gossipsub)",
+    "Interoperability with other libp2p implementations"
+  ],
+  "website": "https://github.com/libp2p/rust-libp2p",
+  "alternatives": [
+    {
+      "name": "go-libp2p",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Implements the libp2p specifications",
+        "Supports a wide range of transports and protocols",
+        "Used in major decentralized projects (IPFS, Ethereum)",
+        "Provides a Go-native P2P networking stack"
+      ],
+      "website": "https://github.com/libp2p/go-libp2p"
+    },
+    {
+      "name": "js-libp2p",
+      "license": "Open Source - Apache-2.0 OR MIT",
+      "platforms": [
+        "Web Browsers",
+        "Node.js",
+        "Electron",
+        "React Native"
+      ],
+      "mainFeatures": [
+        "Implements the libp2p specifications for JavaScript",
+        "Supports browser-compatible transports (WebRTC, WebTransport, Websockets)",
+        "Enables P2P networking directly in the browser",
+        "Interoperable with other libp2p implementations"
+      ],
+      "website": "https://github.com/libp2p/js-libp2p"
+    },
+    {
+      "name": "ZeroMQ (\u00d8MQ)",
+      "license": "Open Source - MPL-2.0 OR LGPLv3+ OR Apache-2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Asynchronous messaging library",
+        "Brokerless architecture",
+        "Supports various messaging patterns (Pub/Sub, Req/Rep)",
+        "Supports multiple transport protocols (TCP, IPC)"
+      ],
+      "website": "https://zeromq.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "go-libp2p"
+  ],
+  "marketPositioning": "rust-libp2p is positioned as a high-performance, memory-safe implementation of the libp2p peer-to-peer networking specification, tailored for the Rust ecosystem. It leverages Rust's strengths to offer a robust foundation for building decentralized applications and systems, particularly those requiring efficiency and reliability like blockchains. It is interoperable with other libp2p implementations, allowing for diverse, cross-language P2P networks. While go-libp2p is historically more widespread, rust-libp2p caters specifically to the growing number of projects adopting Rust for its technical advantages in the decentralized space."
+}

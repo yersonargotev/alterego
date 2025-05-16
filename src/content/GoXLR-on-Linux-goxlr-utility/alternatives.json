@@ -1,0 +1,100 @@
+{
+  "projectName": "goxlr-utility",
+  "projectPurpose": "To provide an unofficial, open-source software replacement for the GoXLR App, enabling control of GoXLR hardware on Linux, macOS, and Windows.",
+  "platforms": [
+    "Linux",
+    "Windows",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Control of GoXLR and GoXLR Mini hardware",
+    "Cross-platform compatibility (Linux, Windows, macOS)",
+    "Audio routing and mixing control",
+    "Vocal effects management",
+    "Soundboard control"
+  ],
+  "website": "https://github.com/GoXLR-on-Linux/goxlr-utility",
+  "alternatives": [
+    {
+      "name": "VoiceMeeter",
+      "license": "Freemium, Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Virtual audio mixing",
+        "Audio input and output routing",
+        "Equalizer and audio effects",
+        "Integrates with audio applications"
+      ],
+      "website": "https://vb-audio.com/Voicemeeter/"
+    },
+    {
+      "name": "OBS Studio",
+      "license": "Open Source - GPL-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Video recording and live streaming",
+        "Powerful audio mixer with filters",
+        "VST plugin support",
+        "Scene management"
+      ],
+      "website": "https://obsproject.com/"
+    },
+    {
+      "name": "JACK Audio Connection Kit (JACK)",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Professional low-latency audio server",
+        "Audio routing and processing",
+        "Connects audio applications",
+        "Modular architecture"
+      ],
+      "website": "https://jackaudio.org/"
+    },
+    {
+      "name": "Elgato WaveLink",
+      "license": "Proprietary (Tied to Elgato hardware)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Software mixer for Elgato devices",
+        "Multiple virtual audio channels",
+        "Stream and headphone sub-mixes",
+        "VST support"
+      ],
+      "website": "https://www.elgato.com/us/en/s/downloads"
+    },
+    {
+      "name": "R\u00d8DE Unify",
+      "license": "Proprietary (Included with some hardware, subscription for standalone)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Virtual mixing software",
+        "Route multiple audio sources",
+        "Independent sub-mixes",
+        "Multichannel recording"
+      ],
+      "website": "https://rode.com/en-us/software/unify"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OBS Studio",
+    "VoiceMeeter"
+  ],
+  "marketPositioning": "goxlr-utility is positioned as a crucial community-driven, open-source tool that expands the usability of GoXLR hardware to Linux and macOS users, filling a gap left by the official manufacturer's limited platform support. It serves as a direct software replacement for controlling the hardware, differentiating itself from other software/hardware mixers by specifically targeting existing GoXLR owners who require cross-platform compatibility or prefer an open-source solution for their device control."
+}

@@ -1,0 +1,98 @@
+{
+  "projectName": "svix-webhooks",
+  "projectPurpose": "To provide a robust, scalable, and reliable infrastructure for sending and managing webhooks for businesses and enterprises, handling complexities like deliverability, retries, and security.",
+  "platforms": [
+    "Self-hosted (Docker, binaries)"
+  ],
+  "mainFeatures": [
+    "Enterprise-ready webhook sending service",
+    "Handles deliverability",
+    "Manages retries",
+    "Ensures security",
+    "Open Source (MIT License)"
+  ],
+  "website": "https://www.svix.com/",
+  "alternatives": [
+    {
+      "name": "Hookdeck",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (SaaS)"
+      ],
+      "mainFeatures": [
+        "Event Gateway",
+        "Inbound/Outbound webhook infrastructure",
+        "Retries and Rate Limiting",
+        "Transformations and Filters",
+        "Monitoring and Debugging"
+      ],
+      "website": "https://hookdeck.com/"
+    },
+    {
+      "name": "Webhooks.io",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (SaaS)"
+      ],
+      "mainFeatures": [
+        "Webhook Proxy Service",
+        "SaaS Provider Platform",
+        "Reliable delivery and Monitoring",
+        "Data transformations and Filtering",
+        "Versioned subscriptions"
+      ],
+      "website": "https://webhooks.io/"
+    },
+    {
+      "name": "Convoy",
+      "license": "Open Source - SSPL v1",
+      "platforms": [
+        "Self-hosted"
+      ],
+      "mainFeatures": [
+        "High-performance webhooks gateway",
+        "Reliable delivery (retries, rate limiting)",
+        "Security features (payload signing, auth)",
+        "Fan Out",
+        "Customer-Facing Dashboards"
+      ],
+      "website": "https://getconvoy.io/"
+    },
+    {
+      "name": "Hook0",
+      "license": "Open Source - SSPL v1",
+      "platforms": [
+        "Self-hosted",
+        "Cloud Service"
+      ],
+      "mainFeatures": [
+        "Webhook management system",
+        "Reliable delivery (retries, queue management)",
+        "Monitoring and Analytics",
+        "Developer-friendly API",
+        "Customizable security"
+      ],
+      "website": "https://hook0.com/"
+    },
+    {
+      "name": "AWS SNS/SQS",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (AWS)"
+      ],
+      "mainFeatures": [
+        "Messaging service (Pub/Sub and Queues)",
+        "Decoupling services",
+        "Scalability and Durability",
+        "Can be used to build webhook systems",
+        "Integration with other AWS services"
+      ],
+      "website": "https://aws.amazon.com/sns/ and https://aws.amazon.com/sqs/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Hookdeck",
+    "Webhooks.io"
+  ],
+  "marketPositioning": "Svix-webhooks is positioned as an open-source, enterprise-ready webhook service. It competes with commercial webhook-as-a-service platforms by offering a self-hostable solution under the permissive MIT license, providing control and flexibility for businesses. Its focus on being 'enterprise-ready' suggests a commitment to the scalability, reliability, and security features required by larger organizations, differentiating it from simpler webhook tools and positioning it as a robust alternative to building in-house solutions or using proprietary services."
+}

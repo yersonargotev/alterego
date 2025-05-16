@@ -1,0 +1,82 @@
+{
+  "projectName": "polkadot",
+  "projectPurpose": "To provide a foundational \"network of networks\" that enables different blockchains to connect, communicate, and transact with each other securely and efficiently, addressing limitations of previous blockchain generations regarding interoperability and scalability to support the development of a decentralized web (Web3).",
+  "platforms": [
+    "Cross-platform"
+  ],
+  "mainFeatures": [
+    "Interoperability between different blockchains",
+    "Scalability through multi-chain architecture (Relay Chain, Parachains)",
+    "Shared security model for connected chains",
+    "On-chain governance",
+    "Cross-chain communication (XCMP)",
+    "Nominated Proof-of-Stake (NPoS) consensus",
+    "Forkless upgrades",
+    "Support for decentralized applications (dApps)"
+  ],
+  "website": "https://github.com/paritytech/polkadot",
+  "alternatives": [
+    {
+      "name": "Ethereum",
+      "license": "Open Source (Various)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Smart contract functionality",
+        "Decentralized applications (dApps)",
+        "Proof-of-Stake consensus",
+        "DeFi ecosystem",
+        "NFTs"
+      ],
+      "website": "https://ethereum.org/"
+    },
+    {
+      "name": "Cosmos",
+      "license": "Open Source (Apache 2.0, BSD-style, others)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Interoperability (IBC protocol)",
+        "Scalability (modular architecture, Tendermint BFT)",
+        "Customizability (Cosmos SDK)",
+        "Proof-of-Stake"
+      ],
+      "website": "https://cosmos.network/"
+    },
+    {
+      "name": "Cardano",
+      "license": "Open Source (Apache, MIT)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Proof-of-Stake (Ouroboros)",
+        "Smart contract functionality",
+        "Research-driven development",
+        "Layered architecture",
+        "Focus on scalability, security, and sustainability"
+      ],
+      "website": "https://cardano.org/"
+    },
+    {
+      "name": "Avalanche",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "High transaction speed and low finality",
+        "Scalability (three-blockchain architecture, Subnets)",
+        "Support for dApps and custom blockchains",
+        "EVM compatibility"
+      ],
+      "website": "https://avax.network/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "Polkadot is positioned as a leading platform for blockchain interoperability and a foundational layer for Web3. Its unique architecture, featuring a central Relay Chain providing shared security to connected parachains, differentiates it from many other blockchain platforms that operate as single, independent chains. While competitors like Cosmos also focus on interoperability, Polkadot's pooled security model is a key distinction. Polkadot aims to enable a diverse ecosystem of specialized blockchains to seamlessly interact and share data, addressing critical challenges of scalability and interoperability faced by earlier blockchain generations."
+}

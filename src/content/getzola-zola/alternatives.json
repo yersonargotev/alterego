@@ -1,0 +1,113 @@
+{
+  "projectName": "zola",
+  "projectPurpose": "To provide a fast, easy-to-use, and self-contained static site generator with essential features built-in, minimizing external dependencies and setup complexity.",
+  "platforms": [
+    "Cross-platform (single binary)"
+  ],
+  "mainFeatures": [
+    "Fast static site generation",
+    "Single binary with no dependencies",
+    "Built-in Sass compilation, syntax highlighting, table of contents, search",
+    "Augmented Markdown with shortcodes and internal links",
+    "Image processing",
+    "Theming support",
+    "Multilingual site support",
+    "Live reload for development"
+  ],
+  "website": "https://www.getzola.org",
+  "alternatives": [
+    {
+      "name": "Hugo",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Extremely fast build times",
+        "Single binary distribution",
+        "Powerful templating system (Go templates)",
+        "Asset pipelines (image processing, JS/CSS processing)",
+        "Multilingual support"
+      ],
+      "website": "https://gohugo.io/"
+    },
+    {
+      "name": "Jekyll",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Simple, blog-aware structure",
+        "Uses Liquid templating",
+        "Markdown support",
+        "Large plugin ecosystem",
+        "Powers GitHub Pages"
+      ],
+      "website": "https://jekyllrb.com/"
+    },
+    {
+      "name": "Eleventy (11ty)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (Node.js)"
+      ],
+      "mainFeatures": [
+        "Simple configuration, zero-config start",
+        "Supports multiple template languages",
+        "Minimal client-side JavaScript by default",
+        "Flexible project structure",
+        "Good for content-focused sites"
+      ],
+      "website": "https://www.11ty.dev/"
+    },
+    {
+      "name": "Gatsby",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (Node.js)"
+      ],
+      "mainFeatures": [
+        "React-based framework",
+        "Uses GraphQL for data sourcing",
+        "Builds fast, performant websites and PWAs",
+        "Rich plugin ecosystem",
+        "Image optimization"
+      ],
+      "website": "https://www.gatsbyjs.com/"
+    },
+    {
+      "name": "Next.js (Static HTML Export)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (Node.js)"
+      ],
+      "mainFeatures": [
+        "React-based framework with static export option",
+        "File-system based routing",
+        "Supports various styling options",
+        "Client-side data fetching supported",
+        "Can integrate with headless CMS"
+      ],
+      "website": "https://nextjs.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Hugo",
+    "Jekyll"
+  ],
+  "marketPositioning": "Zola is positioned as a high-performance, user-friendly static site generator that emphasizes ease of installation and a batteries-included approach by providing essential features within a single binary. It competes with other fast generators like Hugo but distinguishes itself with its Tera templating engine and comprehensive set of built-in functionalities. Compared to more extensible, dependency-heavy, or framework-based options like Jekyll, Eleventy, Gatsby, or Next.js, Zola offers a simpler, more streamlined experience, particularly appealing to users who prioritize speed, minimal dependencies, and integrated features for content-focused static websites."
+}

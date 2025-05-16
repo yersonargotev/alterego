@@ -1,0 +1,91 @@
+{
+  "projectName": "gpui-component",
+  "projectPurpose": "Provides reusable UI components for building desktop applications using the GPUI framework in Rust.",
+  "platforms": [
+    "Desktop (via GPUI)"
+  ],
+  "mainFeatures": [
+    "Collection of pre-built UI elements",
+    "Designed for the GPUI framework",
+    "Simplifies UI development in GPUI",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/longbridge/gpui-component",
+  "alternatives": [
+    {
+      "name": "Electron",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Uses web technologies (HTML, CSS, JS)",
+        "Bundles Chromium and Node.js",
+        "Cross-platform development",
+        "Access to native APIs",
+        "Large community and ecosystem"
+      ],
+      "website": "https://www.electronjs.org/"
+    },
+    {
+      "name": "Tauri",
+      "license": "Open Source - MIT / Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Rust backend with web frontend",
+        "Uses native webview",
+        "Focus on security and small size",
+        "Cross-platform development",
+        "Built-in features (updater, tray, notifications)"
+      ],
+      "website": "https://tauri.app/"
+    },
+    {
+      "name": "iced",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Cross-platform GUI library for Rust",
+        "Inspired by The Elm Architecture",
+        "Simple and type-safe API",
+        "Responsive layout",
+        "Custom widget support"
+      ],
+      "website": "https://iced.rs/"
+    },
+    {
+      "name": "egui",
+      "license": "Open Source - MIT / Apache 2.0",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Easy-to-use immediate mode GUI",
+        "Pure Rust library",
+        "Highly portable",
+        "Integrates with game engines",
+        "Suitable for simple GUIs"
+      ],
+      "website": "https://www.egui.rs/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Electron"
+  ],
+  "marketPositioning": "gpui-component is positioned as an essential extension and accelerant for developers utilizing the GPUI framework to build desktop applications in Rust. It provides a curated set of UI building blocks specifically for the GPUI ecosystem, differentiating itself from broader, framework-agnostic GUI libraries or full application frameworks like Electron or Tauri. Its market appeal is directly tied to the adoption and success of the GPUI framework itself, offering a specialized toolkit for that particular development environment."
+}

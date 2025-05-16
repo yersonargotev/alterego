@@ -1,0 +1,121 @@
+{
+  "projectName": "RustyTube",
+  "projectPurpose": "To provide an open-source, desktop-based alternative client for YouTube, likely with a focus on performance and privacy.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Desktop YouTube client",
+    "Built with Rust and Tauri",
+    "Ad-free viewing (implied)",
+    "Privacy-focused (implied)",
+    "Local storage for user data (implied)"
+  ],
+  "website": "https://github.com/opensourcecheemsburgers/RustyTube",
+  "alternatives": [
+    {
+      "name": "YouTube (Official)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Android",
+        "iOS",
+        "Smart TVs",
+        "Game Consoles"
+      ],
+      "mainFeatures": [
+        "Video watching, uploading, commenting, subscribing",
+        "Playlists and live streaming",
+        "Personalized recommendations",
+        "Creator monetization features (ads, memberships)",
+        "Miniplayer, collaborative playlists, sleep timer"
+      ],
+      "website": "https://www.youtube.com/"
+    },
+    {
+      "name": "FreeTube",
+      "license": "Open Source - AGPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Ad-free viewing",
+        "No Google tracking",
+        "Subscribe without an account",
+        "Local storage for subscriptions, history, playlists",
+        "Supports SponsorBlock"
+      ],
+      "website": "https://freetubeapp.io/"
+    },
+    {
+      "name": "NewPipe",
+      "license": "Open Source - GPL 3.0",
+      "platforms": [
+        "Android"
+      ],
+      "mainFeatures": [
+        "Ad-free",
+        "No Google account needed",
+        "Background playback",
+        "Popup player",
+        "Download videos/audio"
+      ],
+      "website": "https://newpipe.net/"
+    },
+    {
+      "name": "yt-dlp",
+      "license": "Open Source - Unlicense",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Download videos/audio from YouTube and 500+ sites",
+        "Download playlists and channels",
+        "Select video quality and format",
+        "Download subtitles",
+        "Add metadata to downloaded files"
+      ],
+      "website": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+      "name": "Invidious",
+      "license": "Open Source - AGPLv3",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Ad-free browsing",
+        "No tracking",
+        "Lightweight",
+        "No registration required",
+        "Privacy-focused frontend"
+      ],
+      "website": "https://invidious.io/"
+    },
+    {
+      "name": "Piped",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Privacy-focused",
+        "Ad-free",
+        "No tracking",
+        "Lightweight",
+        "Alternative YouTube frontend"
+      ],
+      "website": "https://github.com/TeamPiped/Piped"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "YouTube (Official)"
+  ],
+  "marketPositioning": "RustyTube is positioned as an open-source, performance-oriented desktop YouTube client built with Rust and Tauri. It differentiates itself from browser-based access and Electron-based alternatives by leveraging Rust for potentially better performance and a more native feel. It aims to provide a privacy-conscious viewing experience, aligning with other alternative clients, and plans to incorporate features like ad blocking (via SponsorBlock) and full playlist support to enhance user control over the viewing experience."
+}

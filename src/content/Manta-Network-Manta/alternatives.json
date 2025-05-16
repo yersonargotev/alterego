@@ -1,0 +1,93 @@
+{
+  "projectName": "Manta",
+  "projectPurpose": "To provide a scalable, private, and interoperable blockchain ecosystem for zero-knowledge (ZK) applications, offering a cost-effective environment for deploying ZK dApps and managing ZK identities.",
+  "platforms": [
+    "Blockchain"
+  ],
+  "mainFeatures": [
+    "EVM-equivalent platform for ZK applications (Manta Pacific)",
+    "Multi-modular ecosystem with Layer 2 on Ethereum (Manta Pacific) and Layer 1 on Polkadot (Manta Atlantic)",
+    "Utilizes zero-knowledge proofs for privacy and scalability",
+    "Low transaction fees and high scalability on Manta Pacific",
+    "Programmable ZK identities and credentials on Manta Atlantic",
+    "Developer-friendly tools like Universal Circuits for ZK integration",
+    "Interoperability with other chains"
+  ],
+  "website": "https://manta.network/",
+  "alternatives": [
+    {
+      "name": "Ethereum",
+      "license": "Open Source - MIT, GNU LGPL, and others",
+      "platforms": [
+        "Blockchain"
+      ],
+      "mainFeatures": [
+        "Smart Contracts and DApps",
+        "Ethereum Virtual Machine (EVM)",
+        "Large Ecosystem and Community",
+        "Transition to Proof-of-Stake (PoS)"
+      ],
+      "website": "https://ethereum.org/"
+    },
+    {
+      "name": "Polkadot",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Blockchain"
+      ],
+      "mainFeatures": [
+        "Interoperability (Relay Chain and Parachains)",
+        "Shared Security",
+        "On-chain Governance",
+        "Scalability through parallel processing"
+      ],
+      "website": "https://polkadot.network/"
+    },
+    {
+      "name": "Solana",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Blockchain"
+      ],
+      "mainFeatures": [
+        "High Transaction Speed (up to 65,000+ TPS)",
+        "Low Transaction Fees",
+        "Proof of History (PoH) Consensus",
+        "Scalable Smart Contracts"
+      ],
+      "website": "https://solana.com/"
+    },
+    {
+      "name": "Cosmos",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Blockchain"
+      ],
+      "mainFeatures": [
+        "Inter-Blockchain Communication (IBC) Protocol",
+        "Cosmos SDK for building custom blockchains",
+        "Tendermint BFT Consensus",
+        "Scalability and interoperability"
+      ],
+      "website": "https://cosmos.network/"
+    },
+    {
+      "name": "Polygon",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Blockchain"
+      ],
+      "mainFeatures": [
+        "Framework for building Ethereum-compatible blockchains",
+        "Various Scaling Solutions (PoS, zkEVM, etc.)",
+        "Interoperability with Ethereum",
+        "Developer-friendly environment"
+      ],
+      "website": "https://polygon.technology/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "Manta Network positions itself as a leading modular blockchain ecosystem explicitly designed for zero-knowledge (ZK) applications. By offering a unique dual-chain structure with a scalable ZK-focused Layer 2 on Ethereum (Manta Pacific) and a ZK identity Layer 1 on Polkadot (Manta Atlantic), it differentiates itself from general-purpose blockchains and aims to provide a highly efficient, private, and interoperable environment for the next generation of Web3 applications built with ZK technology."
+}

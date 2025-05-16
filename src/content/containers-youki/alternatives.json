@@ -1,0 +1,77 @@
+{
+  "projectName": "youki",
+  "projectPurpose": "To provide a low-level tool for spawning and running containers according to the Open Container Initiative (OCI) runtime specification.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Implements OCI runtime specification",
+    "Creates and runs containers",
+    "Written in Rust for memory safety and performance"
+  ],
+  "website": "https://github.com/containers/youki",
+  "alternatives": [
+    {
+      "name": "runc",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Implements OCI runtime specification",
+        "CLI tool for spawning containers",
+        "Supports rootless containers",
+        "Supports syscall filtering"
+      ],
+      "website": "https://github.com/opencontainers/runc"
+    },
+    {
+      "name": "crun",
+      "license": "Open Source - GPL-2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast and lightweight OCI runtime",
+        "Written in C",
+        "Low memory footprint",
+        "Usable as a library"
+      ],
+      "website": "https://github.com/containers/crun"
+    },
+    {
+      "name": "containerd",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Manages complete container lifecycle",
+        "Implements CRI for Kubernetes",
+        "Supports OCI image and runtime specifications",
+        "Designed to be embedded"
+      ],
+      "website": "https://containerd.io/"
+    },
+    {
+      "name": "CRI-O",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Lightweight container engine for Kubernetes",
+        "Implements Kubernetes CRI",
+        "Supports OCI-compatible runtimes",
+        "Optimized for Kubernetes"
+      ],
+      "website": "https://cri-o.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "runc",
+    "containerd"
+  ],
+  "marketPositioning": "Youki is positioned as a modern, low-level container runtime that implements the OCI specification, offering potential advantages in memory safety and performance by being written in Rust. It directly competes with other OCI runtimes like runc and crun and aims to be a drop-in replacement usable by higher-level container tools and orchestration platforms, with a focus on compatibility and integration within the broader container ecosystem, particularly for Linux environments."
+}

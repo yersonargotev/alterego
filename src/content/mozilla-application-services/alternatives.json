@@ -1,0 +1,79 @@
+{
+  "projectName": "application-services",
+  "projectPurpose": "To provide core backend services and components for the Firefox browser and potentially other Mozilla applications, enabling features like data synchronization, account management, and background tasks.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android",
+    "iOS"
+  ],
+  "mainFeatures": [
+    "Provides foundational services for the Firefox ecosystem",
+    "Enables shared browser functionalities like data synchronization",
+    "Supports background processing and tasks",
+    "Developed primarily in Rust for performance and safety",
+    "Designed for cross-platform compatibility"
+  ],
+  "website": "https://github.com/mozilla/application-services",
+  "alternatives": [
+    {
+      "name": "Chrome Sync",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "ChromeOS"
+      ],
+      "mainFeatures": [
+        "Syncs bookmarks, history, passwords, settings",
+        "Syncs extensions and open tabs across devices",
+        "Integrated with Google account and services",
+        "Offers optional end-to-end encryption for sensitive data"
+      ],
+      "website": "https://www.google.com/chrome/"
+    },
+    {
+      "name": "Microsoft Edge Sync",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Syncs favorites, history, passwords, collections",
+        "Syncs settings and open tabs across devices",
+        "Integrated with Microsoft account",
+        "Provides cross-device continuity features"
+      ],
+      "website": "https://www.microsoft.com/en-us/edge"
+    },
+    {
+      "name": "iCloud Keychain / Safari Sync",
+      "license": "Proprietary",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "iPadOS",
+        "Windows (Passwords only)"
+      ],
+      "mainFeatures": [
+        "Syncs passwords, credit cards, and Wi-Fi passwords (Keychain)",
+        "Syncs bookmarks, history, and open tabs (Safari)",
+        "Integrated with Apple ID and iCloud",
+        "Deep integration within the Apple ecosystem"
+      ],
+      "website": "https://www.apple.com/icloud/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Chrome Sync"
+  ],
+  "marketPositioning": "mozilla/application-services is an internal, open-source project supporting the Firefox browser and its ecosystem. Unlike the proprietary, closed-source synchronization and service backends used by competitors like Chrome, Edge, and Safari, its open nature aligns with Mozilla's commitment to transparency and user control. Its development in Rust emphasizes a focus on building performant and secure foundational components for a privacy-centric browser. It positions Firefox as a browser whose core functionalities are built on inspectable, community-auditable code."
+}

@@ -1,0 +1,156 @@
+{
+  "projectName": "steel",
+  "projectPurpose": "To provide a Scheme interpreter that can be easily embedded within applications written in Rust, allowing for scripting and dynamic behavior, while also offering a standalone command-line interface.",
+  "platforms": [],
+  "mainFeatures": [
+    "Embeddable Scheme interpreter",
+    "Standalone CLI included",
+    "Inspired by Racket, aiming for an ergonomic Scheme variant",
+    "High performance functions implemented in Rust",
+    "Powerful macro system (syntax-rules style)",
+    "Bytecode virtual machine",
+    "Mostly compliant with R5RS, R7Rs support underway",
+    "Robust module system"
+  ],
+  "website": "https://github.com/mattwparas/steel",
+  "alternatives": [
+    {
+      "name": "GNU Guile",
+      "license": "Open Source - LGPL-3.0-or-later",
+      "platforms": [
+        "Linux",
+        "BSD",
+        "Windows (via MinGW or Cygwin)"
+      ],
+      "mainFeatures": [
+        "Implements R5RS, R6RS (mostly), and R7RS Scheme",
+        "Extensive module system and libraries",
+        "Embeddable in C and C++ applications",
+        "Foreign Function Interface (FFI)"
+      ],
+      "website": "https://www.gnu.org/software/guile/"
+    },
+    {
+      "name": "Chibi-Scheme",
+      "license": "Open Source - Permissive (MIT-like)",
+      "platforms": [
+        "Linux",
+        "FreeBSD",
+        "NetBSD",
+        "OpenBSD",
+        "DragonFlyBSD",
+        "OS X",
+        "Plan 9",
+        "Windows",
+        "iOS",
+        "Android",
+        "ARM",
+        "Emscripten"
+      ],
+      "mainFeatures": [
+        "Minimal and embeddable in C programs",
+        "No external dependencies",
+        "Supports R7RS small and base libraries",
+        "Lightweight VM-based threads and isolated heaps",
+        "Hygienic macros and extensible module system"
+      ],
+      "website": "http://synthcode.com/scheme/chibi/"
+    },
+    {
+      "name": "Gambit Scheme",
+      "license": "Open Source - Permissive (MIT-like)",
+      "platforms": [
+        "Cross-platform (targets C, JavaScript, Python, etc.)",
+        "Linux",
+        "Windows",
+        "macOS",
+        "iOS",
+        "Web Browsers"
+      ],
+      "mainFeatures": [
+        "Optimizing compiler targeting C and JavaScript",
+        "Fast execution and portability",
+        "Conforms to R4RS, R5RS, R7RS, IEEE Scheme",
+        "Concurrent programming features",
+        "Easy C integration"
+      ],
+      "website": "https://gambitscheme.org/"
+    },
+    {
+      "name": "Lua",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (interpreter written in ANSI C)"
+      ],
+      "mainFeatures": [
+        "Lightweight and highly embeddable",
+        "Fast execution speed",
+        "Simple C API",
+        "Uses tables as the main data structure",
+        "Automatic memory management (incremental garbage collection)"
+      ],
+      "website": "https://www.lua.org/"
+    },
+    {
+      "name": "Python (with embedding)",
+      "license": "Open Source - Python License",
+      "platforms": [
+        "Cross-platform (Windows, macOS, Linux, etc.)"
+      ],
+      "mainFeatures": [
+        "Large standard library and package ecosystem",
+        "Easy to learn and use",
+        "Embeddable in C/C++ and other applications",
+        "Supports multiple programming paradigms"
+      ],
+      "website": "https://www.python.org/"
+    },
+    {
+      "name": "RustyScheme",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Any platform supporting Rust"
+      ],
+      "mainFeatures": [
+        "Scheme interpreter written in Rust",
+        "Subset of R5RS with Racket influence",
+        "AST-walking and CPS interpreters",
+        "Supports macros, TCO, continuations"
+      ],
+      "website": "https://github.com/kenpratt/rusty_scheme"
+    },
+    {
+      "name": "rusche",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Any platform supporting Rust"
+      ],
+      "mainFeatures": [
+        "Library for writing a Scheme-like interpreter in Rust",
+        "Minimalistic with zero dependencies",
+        "Supports lambdas, closures, lexical scopes, macros, GC, TCO",
+        "Interoperability with Rust (native functions, foreign data types)"
+      ],
+      "website": "https://crates.io/crates/rusche"
+    },
+    {
+      "name": "lisp-interpreter (C)",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (written in C99)"
+      ],
+      "mainFeatures": [
+        "Embeddable Lisp/Scheme interpreter in C",
+        "Subset of R5RS with MIT Scheme extensions",
+        "Easy integration of C functions",
+        "Exact garbage collection"
+      ],
+      "website": "https://github.com/justinmeiners/lisp-interpreter"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Lua",
+    "Python"
+  ],
+  "marketPositioning": "Steel is positioned as an embeddable Scheme interpreter specifically for the Rust ecosystem. It leverages Rust's performance and safety features to offer a fast and ergonomic scripting layer. While other Scheme implementations exist, Steel differentiates itself by being written in Rust, targeting developers who need a performant Lisp-family scripting language within their Rust applications. Compared to more general embeddable languages like Lua or Python, Steel provides the specific advantages of the Scheme language paradigm, such as powerful macros and functional programming capabilities, tailored for integration into Rust projects."
+}

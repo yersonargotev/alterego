@@ -1,0 +1,90 @@
+{
+  "projectName": "advent-of-code",
+  "projectPurpose": "A GitHub repository containing solutions, templates, or a framework in Rust for participating in the annual Advent of Code programming challenge.",
+  "platforms": [
+    "N/A (Code repository, solutions run on standard platforms)"
+  ],
+  "mainFeatures": [
+    "Provides code examples and solutions for Advent of Code puzzles",
+    "Focused on the Rust programming language",
+    "Organized by Advent of Code days/years"
+  ],
+  "website": "https://github.com/ChristopherBiscardi/advent-of-code",
+  "alternatives": [
+    {
+      "name": "LeetCode",
+      "license": "Freemium / Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Large library of coding problems",
+        "Supports numerous programming languages",
+        "Mock interviews and company-specific problems (Premium)",
+        "Contests and daily challenges"
+      ],
+      "website": "https://leetcode.com/"
+    },
+    {
+      "name": "HackerRank",
+      "license": "Freemium / Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Coding challenges across various domains",
+        "Skill assessments for hiring",
+        "Supports multiple programming languages",
+        "Interview preparation resources"
+      ],
+      "website": "https://www.hackerrank.com/"
+    },
+    {
+      "name": "Codeforces",
+      "license": "Mostly Free",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Regular competitive programming contests",
+        "Large problem archive",
+        "Participant rating system",
+        "Community blogs and forums"
+      ],
+      "website": "https://codeforces.com/"
+    },
+    {
+      "name": "CodeChef",
+      "license": "Free",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Competitive programming contests",
+        "Large problem set",
+        "Beginner-friendly resources",
+        "Active community forum"
+      ],
+      "website": "https://www.codechef.com/"
+    },
+    {
+      "name": "Advent of Code (Official Site)",
+      "license": "Free",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Annual release of 25 daily programming puzzles",
+        "Personalized puzzle inputs",
+        "Leaderboards for tracking progress",
+        "Supports any programming language"
+      ],
+      "website": "https://adventofcode.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "LeetCode",
+    "HackerRank"
+  ],
+  "marketPositioning": "This GitHub project `advent-of-code` serves as a dedicated resource for developers participating in the annual Advent of Code programming challenge, specifically tailored for solutions implemented in the Rust programming language. It provides a framework, templates, or completed solutions that enable Rust developers to efficiently tackle the daily algorithmic puzzles released throughout December. Unlike broad competitive programming platforms or interview preparation sites, this project is focused on a singular, time-bound event, offering a language-specific approach to engaging with the Advent of Code puzzles and fostering a community around solving them in Rust."
+}

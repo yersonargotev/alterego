@@ -1,0 +1,145 @@
+{
+  "projectName": "quary",
+  "projectPurpose": "To provide an open-source business intelligence tool designed for engineers, emphasizing a code-first approach to data transformation, modeling, and visualization integrated with version control.",
+  "platforms": [
+    "VSCode Extension",
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Connect to databases",
+    "Write SQL for data transformation, organization, and documentation",
+    "Define and manage BI assets (Sources, Models, Charts, Dashboards, Reports) as code",
+    "Integrate with version control for testing, collaboration, and refactoring",
+    "Deploy the data model back to the database",
+    "VSCode Extension and Rust-based CLI interface"
+  ],
+  "website": "https://github.com/quarylabs/quary",
+  "alternatives": [
+    {
+      "name": "Metabase",
+      "license": "Open Source (Mixed Source for Enterprise)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "User-friendly interface",
+        "Visual query builder",
+        "Interactive dashboards",
+        "Embedded analytics",
+        "Supports numerous databases"
+      ],
+      "website": "https://www.metabase.com/"
+    },
+    {
+      "name": "Apache Superset",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Data exploration and visualization",
+        "Wide range of visualization options",
+        "Intuitive interface",
+        "Supports many data sources",
+        "Role-based access control"
+      ],
+      "website": "https://superset.apache.org/"
+    },
+    {
+      "name": "Lightdash",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Built on dbt projects",
+        "Defines metrics and dimensions from dbt models",
+        "Self-service BI",
+        "Git integration"
+      ],
+      "website": "https://www.lightdash.com/"
+    },
+    {
+      "name": "Redash",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Connects to various data sources",
+        "SQL editor with auto-complete",
+        "Dashboards and visualizations",
+        "Scheduling reports"
+      ],
+      "website": "https://redash.io/"
+    },
+    {
+      "name": "dbt (data build tool)",
+      "license": "Open Source (Apache License 2.0 for Core), Commercial (dbt Cloud)",
+      "platforms": [
+        "CLI (Linux, macOS, Windows)",
+        "Web (dbt Cloud)"
+      ],
+      "mainFeatures": [
+        "SQL-based data transformation",
+        "Version control integration",
+        "Testing and documentation",
+        "Data modeling"
+      ],
+      "website": "https://www.getdbt.com/"
+    },
+    {
+      "name": "Microsoft Power BI",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Data visualization and reporting",
+        "Connects to numerous data sources",
+        "DAX calculations",
+        "Integrates with Microsoft ecosystem"
+      ],
+      "website": "https://powerbi.microsoft.com/"
+    },
+    {
+      "name": "Tableau",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Strong data visualization",
+        "Drag-and-drop interface",
+        "Connects to many data sources",
+        "Data blending"
+      ],
+      "website": "https://www.tableau.com/"
+    },
+    {
+      "name": "Looker",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Powerful semantic modeling layer (LookML)",
+        "Data exploration",
+        "Embedded analytics",
+        "Integrates with various databases"
+      ],
+      "website": "https://www.looker.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Microsoft Power BI",
+    "Tableau"
+  ],
+  "marketPositioning": "Quary is an open-source business intelligence platform built specifically for data engineers and analytics engineers. It adopts a code-first approach, allowing users to define their data sources, build robust data models using SQL transformations, and generate documentation, all managed under version control. By integrating directly with the database and supporting iterative development and testing, Quary empowers technical teams to build a reliable and well-defined semantic layer alongside their data warehouse, providing a foundation for generating charts, dashboards (in development), and reports (in development). Its focus on engineering workflows differentiates it from traditional BI tools that often target less technical business users, positioning Quary as a tool for teams who want more control, transparency, and integration with their existing data infrastructure and practices."
+}

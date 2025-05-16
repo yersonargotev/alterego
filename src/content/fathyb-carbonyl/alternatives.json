@@ -1,0 +1,141 @@
+{
+  "projectName": "carbonyl",
+  "projectPurpose": "To provide a fully functional and high-performance web browser experience capable of rendering modern web pages within a terminal environment without requiring a graphical display.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Chromium rendering engine in terminal",
+    "Supports modern Web APIs (WebGL, WebGPU, audio/video, animations)",
+    "Fast startup and high performance (60 FPS, 0% CPU idle)",
+    "Works without a window server (supports SSH)"
+  ],
+  "website": "https://github.com/fathyb/carbonyl",
+  "alternatives": [
+    {
+      "name": "Lynx",
+      "license": "Open Source - GNU GPLv2",
+      "platforms": [
+        "Unix-like",
+        "DOS",
+        "Windows",
+        "VMS",
+        "macOS",
+        "BeOS",
+        "MINIX",
+        "QNX",
+        "AmigaOS",
+        "OS/2"
+      ],
+      "mainFeatures": [
+        "Text-only rendering",
+        "Highly configurable",
+        "Supports various protocols (HTTP, HTTPS, FTP, Gopher, etc.)",
+        "Useful for low bandwidth and accessibility"
+      ],
+      "website": "https://lynx.invisible-island.net/"
+    },
+    {
+      "name": "Links",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Unix-like",
+        "DOS",
+        "OS/2",
+        "BeOS",
+        "Haiku",
+        "PSP"
+      ],
+      "mainFeatures": [
+        "Text and graphical modes",
+        "Supports tables and frames",
+        "Pull-down menu system",
+        "Supports color/monochrome terminals"
+      ],
+      "website": "http://links.twibright.com/"
+    },
+    {
+      "name": "ELinks",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Advanced text mode browser",
+        "Supports basic JavaScript",
+        "Browser tabs",
+        "History and bookmarks"
+      ],
+      "website": "https://github.com/rkd77/elinks"
+    },
+    {
+      "name": "w3m",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Text-based browser and pager",
+        "Supports tables and colors",
+        "Inline images (with w3m-img)",
+        "Emacs compatibility and vim-like keybindings"
+      ],
+      "website": "https://w3m.sourceforge.io/"
+    },
+    {
+      "name": "Browsh",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Renders modern web pages using headless Firefox",
+        "Supports JavaScript",
+        "Mouse support",
+        "Supports Firefox extensions"
+      ],
+      "website": "https://www.browsh.com/"
+    },
+    {
+      "name": "cURL",
+      "license": "Open Source - MIT/X derivate license (curl license)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Command-line tool for data transfer",
+        "Supports numerous protocols (HTTP, HTTPS, FTP, etc.)",
+        "Highly customizable requests",
+        "Scriptable and supports proxies"
+      ],
+      "website": "https://curl.se/"
+    },
+    {
+      "name": "Headless Chromium",
+      "license": "Open Source - BSD-like",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Runs Chromium in a non-graphical environment",
+        "Used for automation and testing",
+        "Extracts metadata (DOM)",
+        "Generates screenshots"
+      ],
+      "website": "https://developer.chrome.com/docs/chromium/headless"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Lynx",
+    "w3m"
+  ],
+  "marketPositioning": "Carbonyl is positioned as a modern, high-fidelity terminal web browser that leverages the full power of the Chromium rendering engine. It differentiates itself from traditional text-based browsers by offering comprehensive support for modern web standards and APIs, providing a browsing experience closer to a graphical browser but within the terminal. Compared to other modern terminal browsers that use full engines, Carbonyl emphasizes performance and efficiency through its direct rendering approach. Its market niche is users who require full web functionality in a terminal environment, particularly where graphical interfaces are unavailable or impractical."
+}

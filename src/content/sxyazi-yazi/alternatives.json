@@ -1,0 +1,116 @@
+{
+  "projectName": "yazi",
+  "projectPurpose": "To provide a highly performant, feature-rich, and customizable terminal-based file manager for power users who prefer working in the command line, emphasizing speed through async I/O and modern features like multimedia previews and a plugin system.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows (via WSL)",
+    "BSDs"
+  ],
+  "mainFeatures": [
+    "Blazing fast performance based on async I/O in Rust",
+    "Full Asynchronous Support and Task Management",
+    "Built-in Image and Code Previews (with scrolling, syntax highlighting, image protocol support)",
+    "Concurrent Plugin System with Lua and built-in Package Manager",
+    "Multi-Tab Support",
+    "Visual Mode & Bulk Rename",
+    "Integration with fd, rg, fzf, zoxide"
+  ],
+  "website": "https://github.com/sxyazi/yazi",
+  "alternatives": [
+    {
+      "name": "Ranger",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSDs",
+        "Windows (Cygwin/WSL)"
+      ],
+      "mainFeatures": [
+        "Vim-like key bindings",
+        "Multi-column (Miller columns) display",
+        "File preview pane",
+        "Tabs and bookmarks",
+        "Ships with rifle file opener"
+      ],
+      "website": "https://github.com/ranger/ranger"
+    },
+    {
+      "name": "nnn",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Unix-like systems (Linux, macOS, BSDs)",
+        "Termux (Android)",
+        "Cygwin",
+        "WSL",
+        "Haiku"
+      ],
+      "mainFeatures": [
+        "Extremely lightweight and fast",
+        "Nearly 0-config",
+        "Plugin support",
+        "Multi-context (tabs)",
+        "Batch rename"
+      ],
+      "website": "https://github.com/jarun/nnn"
+    },
+    {
+      "name": "Midnight Commander (mc)",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Dual-panel interface",
+        "Built-in file viewer and editor (mcedit)",
+        "FTP/SFTP support",
+        "File operations (copy, move, delete, permissions)",
+        "Search function"
+      ],
+      "website": "https://www.midnight-commander.org/"
+    },
+    {
+      "name": "Vifm",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Unix-like systems",
+        "Cygwin",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Vim-like key bindings and commands",
+        "Dual-pane layout",
+        "File preview",
+        "Directory comparison",
+        "Sessions and marks"
+      ],
+      "website": "https://vifm.info/"
+    },
+    {
+      "name": "lf",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSDs",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Fast and lightweight (written in Go)",
+        "Asynchronous I/O",
+        "Server/client architecture",
+        "Extendable with shell commands",
+        "Customizable keybindings"
+      ],
+      "website": "https://github.com/gokcehan/lf"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Midnight Commander (mc)"
+  ],
+  "marketPositioning": "Yazi is positioned as a next-generation terminal file manager that prioritizes speed and responsiveness through modern programming practices (Rust, async I/O) while offering a comprehensive set of features often requiring external tools in other managers, wrapped in a highly customizable interface with a built-in plugin ecosystem. It targets power users who demand high performance and rich functionality, including advanced previews and task management, without leaving the terminal, setting it apart from more traditional or minimalist alternatives."
+}

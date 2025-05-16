@@ -1,0 +1,104 @@
+{
+  "projectName": "display-switch",
+  "projectPurpose": "To provide a cost-effective, software-based multi-monitor KVM switch solution by using an inexpensive USB switch and controlling monitor inputs via DDC/CI.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Turns a simple USB switch into a multi-monitor KVM switch",
+    "Switches monitor inputs via DDC/CI based on USB device connection/disconnection",
+    "Requires installation on all connected computers for bidirectional switching",
+    "Supports running external commands on USB connect/disconnect events",
+    "Configurable via TOML file",
+    "Identifies monitors by substring of their ID"
+  ],
+  "website": "https://github.com/haimgel/display-switch",
+  "alternatives": [
+    {
+      "name": "Synergy",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Share keyboard and mouse over network",
+        "Seamless switching by moving mouse to screen edge",
+        "Shared clipboard",
+        "Drag and drop files",
+        "Cross-platform compatibility"
+      ],
+      "website": "https://symless.com/synergy"
+    },
+    {
+      "name": "Mouse Without Borders",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Control up to four computers with one keyboard and mouse",
+        "Share clipboard",
+        "Drag and drop files",
+        "Customizable shortcuts"
+      ],
+      "website": "https://www.microsoft.com/en-us/garage/wall-of-fame/mouse-without-borders/"
+    },
+    {
+      "name": "ShareMouse",
+      "license": "Freemium",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Share keyboard and mouse over network",
+        "Drag and drop files and folders",
+        "Clipboard syncing",
+        "Automatic configuration",
+        "Works in any direction"
+      ],
+      "website": "https://www.sharemouse.com/"
+    },
+    {
+      "name": "InputLeap",
+      "license": "Open Source - GPL-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Share keyboard and mouse over network",
+        "Cross-platform",
+        "Clipboard sharing",
+        "Actively developed (fork of Barrier/Synergy)"
+      ],
+      "website": "https://github.com/inputleap/inputleap"
+    },
+    {
+      "name": "Hardware KVM Switches",
+      "license": "Proprietary",
+      "platforms": [
+        "Hardware"
+      ],
+      "mainFeatures": [
+        "Physical switching of Keyboard, Video, Mouse signals",
+        "Dedicated hardware ports for connections",
+        "Various connectivity options (HDMI, DisplayPort, USB)",
+        "Supports multiple computers and monitors",
+        "Does not require software installation on controlled machines"
+      ],
+      "website": "Varies by brand (e.g., ATEN, IOGEAR, StarTech, Belkin)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Synergy",
+    "Mouse Without Borders",
+    "Hardware KVM Switches"
+  ],
+  "marketPositioning": "Display-switch is positioned as a cost-effective, open-source alternative to traditional multi-monitor hardware KVM switches. It bridges the gap between software-only KVMs (which only share keyboard/mouse) and expensive hardware KVMs (which also switch displays) by using an inexpensive USB switch for peripheral switching and software-based DDC/CI commands for automatic monitor input switching. This makes it appealing to users seeking multi-monitor control without the significant investment in dedicated KVM hardware, relying instead on software automation and affordable components."
+}

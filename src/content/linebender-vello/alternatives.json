@@ -1,0 +1,132 @@
+{
+  "projectName": "vello",
+  "projectPurpose": "To provide a high-performance, GPU compute-centric 2D graphics rendering engine for efficiently handling large and complex 2D scenes.",
+  "platforms": [
+    "Cross-platform (where wgpu is supported)"
+  ],
+  "mainFeatures": [
+    "GPU compute-centric 2D rendering",
+    "Draw large 2D scenes with interactive or near-interactive performance",
+    "Uses wgpu for GPU access",
+    "PostScript-inspired drawing API (shapes, images, gradients, text)",
+    "Leverages GPU compute shaders for parallelizing work"
+  ],
+  "website": "https://github.com/linebender/vello",
+  "alternatives": [
+    {
+      "name": "Skia",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Comprehensive 2D graphics API",
+        "Hardware acceleration",
+        "Used by major products (Chrome, Android, Flutter)",
+        "Supports text, shapes, images, gradients",
+        "Cross-platform compatibility"
+      ],
+      "website": "https://skia.org/"
+    },
+    {
+      "name": "Cairo",
+      "license": "Open Source (LGPL or MPL)",
+      "platforms": [
+        "Cross-platform (X11, Quartz, Win32, etc.)"
+      ],
+      "mainFeatures": [
+        "2D graphics library with multiple output devices",
+        "Consistent output across media",
+        "Optional hardware acceleration",
+        "PostScript-inspired drawing operations",
+        "Antialiased text rendering"
+      ],
+      "website": "https://www.cairographics.org/"
+    },
+    {
+      "name": "Blend2D",
+      "license": "Open Source (Zlib)",
+      "platforms": [
+        "Cross-platform (CPU-based JIT, portable fallback)"
+      ],
+      "mainFeatures": [
+        "High-performance 2D vector graphics engine",
+        "Utilizes JIT compiler and multi-threading",
+        "Renders shapes, geometries, and text",
+        "Supports composition, opacity, gradients, images",
+        "C and C++ APIs"
+      ],
+      "website": "https://blend2d.com/"
+    },
+    {
+      "name": "Direct2D",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Hardware-accelerated 2D graphics API",
+        "Immediate-mode rendering",
+        "High performance",
+        "High-quality rendering for geometry, bitmaps, text",
+        "Part of DirectX"
+      ],
+      "website": "https://learn.microsoft.com/en-us/windows/win32/direct2d/direct2d-portal"
+    },
+    {
+      "name": "Core Graphics (Quartz 2D)",
+      "license": "Proprietary",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "tvOS"
+      ],
+      "mainFeatures": [
+        "Low-level 2D rendering engine",
+        "High output fidelity",
+        "Resolution- and device-independent",
+        "Path-based drawing",
+        "Color management and transparency"
+      ],
+      "website": "https://developer.apple.com/documentation/coregraphics"
+    },
+    {
+      "name": "ThorVG",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Lightweight and portable",
+        "Renders vector scenes and animations (SVG, Lottie)",
+        "User-friendly APIs",
+        "Used in Tizen OS, Godot, LVGL",
+        "Designed for embedded and general use"
+      ],
+      "website": "https://www.thorvg.org/"
+    },
+    {
+      "name": "Pathfinder",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Fast GPU rasterizer",
+        "Designed for fonts and vector graphics",
+        "Can use GPU compute for path conversion",
+        "Supports multiple backends (OpenGL, Vulkan, Metal, D3D)"
+      ],
+      "website": "https://github.com/servo/pathfinder"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Skia"
+  ],
+  "marketPositioning": "Vello is positioned as a cutting-edge, experimental 2D graphics rendering engine that differentiates itself through a strong emphasis on GPU compute for maximizing performance on modern hardware, particularly for complex scenes. It aims to be a high-performance alternative to more traditional renderers like Skia and Cairo, offering a modern, Rust-based implementation built on the portable wgpu API. Its focus is on pushing the boundaries of what's possible with GPU-accelerated 2D graphics by offloading core rendering tasks to compute shaders."
+}

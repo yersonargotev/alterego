@@ -1,0 +1,79 @@
+{
+  "projectName": "rust-practice",
+  "projectPurpose": "A personal collection of small coding projects created during the process of learning the Rust programming language, serving as a learning journal and shared examples.",
+  "platforms": [
+    "GitHub (Code Repository)"
+  ],
+  "mainFeatures": [
+    "Collection of small, independent Rust code projects",
+    "Demonstrates practical application of Rust concepts",
+    "Reflects a personal learning journey",
+    "Openly accessible for others to view and learn from"
+  ],
+  "website": "https://github.com/rosedblabs/rust-practice",
+  "alternatives": [
+    {
+      "name": "The Rust Programming Language (\"The Book\")",
+      "license": "Open Source (MIT OR Apache-2.0)",
+      "platforms": [
+        "Web",
+        "Print Book"
+      ],
+      "mainFeatures": [
+        "Comprehensive official language guide",
+        "Detailed conceptual explanations",
+        "Includes example projects",
+        "Foundational resource for learning Rust"
+      ],
+      "website": "https://doc.rust-lang.org/book/"
+    },
+    {
+      "name": "Rust by Example",
+      "license": "Open Source (MIT OR Apache-2.0)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Collection of runnable code examples",
+        "Illustrates concepts with minimal text",
+        "Covers various Rust features and standard library",
+        "Includes small exercises"
+      ],
+      "website": "https://doc.rust-lang.org/rust-by-example/"
+    },
+    {
+      "name": "Rustlings",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Command Line",
+        "Web (adaptations)"
+      ],
+      "mainFeatures": [
+        "Hands-on, compiler-error driven exercises",
+        "Covers basic to advanced Rust topics",
+        "Helps users get familiar with Rust syntax and compiler messages",
+        "Integrates with a local Rust environment"
+      ],
+      "website": "https://github.com/rust-lang/rustlings"
+    },
+    {
+      "name": "Exercism",
+      "license": "Open Source (AGPL-3.0 for platform, MIT for exercises)",
+      "platforms": [
+        "Web",
+        "Command Line Interface"
+      ],
+      "mainFeatures": [
+        "Coding exercises in numerous languages (including Rust)",
+        "Automated code analysis",
+        "Optional human mentorship",
+        "Community-driven learning platform"
+      ],
+      "website": "https://exercism.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "The Rust Programming Language (\"The Book\")"
+  ],
+  "marketPositioning": "\"rust-practice\" is positioned as a personal, project-based learning supplement for Rust. Unlike formal documentation or structured interactive courses, it offers a view into an individual's journey of learning Rust through building small, practical code examples. Its value lies in providing diverse, 'real-world' (albeit tiny) project inspirations and demonstrating one learner's approach to applying Rust concepts, rather than serving as a primary, comprehensive, or interactive learning tool."
+}

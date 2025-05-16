@@ -1,0 +1,107 @@
+{
+  "projectName": "rust-course",
+  "projectPurpose": "To serve as a comprehensive, in-depth, and engaging learning resource (a book/tutorial) for the Rust programming language, specifically targeting Chinese-speaking learners.",
+  "platforms": [
+    "Web",
+    "Offline (as a book)"
+  ],
+  "mainFeatures": [
+    "Comprehensive and in-depth explanations",
+    "Vivid and relevant examples",
+    "Smooth and carefully crafted content",
+    "Covers Rust's core concepts and advantages (performance, safety, memory management, multi-paradigm)",
+    "Focuses on Chinese-speaking learners"
+  ],
+  "website": "https://github.com/sunface/rust-course",
+  "alternatives": [
+    {
+      "name": "The Rust Programming Language (\"The Book\")",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Offline",
+        "Paperback/Ebook"
+      ],
+      "mainFeatures": [
+        "Comprehensive introduction to Rust",
+        "Covers fundamentals and advanced concepts",
+        "Includes examples and exercises",
+        "Official and community-maintained"
+      ],
+      "website": "https://doc.rust-lang.org/stable/book/"
+    },
+    {
+      "name": "Rust by Example",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Learn Rust concepts through runnable code examples",
+        "Hands-on practice with code snippets",
+        "Illustrates core language features"
+      ],
+      "website": "https://doc.rust-lang.org/rust-by-example/"
+    },
+    {
+      "name": "Rustlings",
+      "license": "Open Source",
+      "platforms": [
+        "Command Line"
+      ],
+      "mainFeatures": [
+        "Small, interactive coding exercises",
+        "Guides user through compiler messages",
+        "Focuses on fundamental Rust syntax and concepts"
+      ],
+      "website": "https://github.com/rust-lang/rustlings"
+    },
+    {
+      "name": "Exercism.io (Rust Track)",
+      "license": "Open Source (Platform)",
+      "platforms": [
+        "Web",
+        "Command Line"
+      ],
+      "mainFeatures": [
+        "Numerous coding exercises (98+)",
+        "Automatic code analysis",
+        "Optional personal mentoring",
+        "Covers a wide range of Rust topics"
+      ],
+      "website": "https://exercism.io/tracks/rust"
+    },
+    {
+      "name": "Online Course Platforms (e.g., Udemy, Coursera, freeCodeCamp)",
+      "license": "Proprietary / Open (depending on specific course)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Structured video lectures",
+        "Hands-on projects and quizzes",
+        "Covers beginner to advanced topics",
+        "Often provides certificates of completion"
+      ],
+      "website": "Various (e.g., Udemy.com, Coursera.org)"
+    },
+    {
+      "name": "Other Rust Books (e.g., \"Rust in Action\", \"Rust for Rustaceans\")",
+      "license": "Proprietary",
+      "platforms": [
+        "Physical book",
+        "Ebook"
+      ],
+      "mainFeatures": [
+        "Offer different perspectives and depths",
+        "May focus on specific application areas (e.g., systems, web)",
+        "Provide structured, long-form content"
+      ],
+      "website": "Various (e.g., Amazon.com, publisher websites)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "The Rust Programming Language (\"The Book\")"
+  ],
+  "marketPositioning": "\"rust-course\" is positioned as a premium, localized learning resource specifically for the Chinese-speaking Rust community. While official English resources like \"The Book\" and Rustlings are foundational globally, \"rust-course\" distinguishes itself by providing comprehensive, in-depth, and well-explained content tailored for a Chinese audience, aiming to be the most dedicated and high-quality tutorial available in that language. Its success is evidenced by its significant popularity on GitHub, indicating it effectively serves a specific linguistic and cultural niche within the broader Rust learning ecosystem."
+}

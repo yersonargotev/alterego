@@ -1,0 +1,133 @@
+{
+  "projectName": "py-spy",
+  "projectPurpose": "To provide a low-overhead, external sampling profiler for Python programs, enabling visualization and analysis of execution time in development and production environments without code modification or program restarts.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "FreeBSD"
+  ],
+  "mainFeatures": [
+    "Sampling profiler for Python programs",
+    "Visualizes where your Python program is spending time",
+    "Works without restarting the program or modifying the code",
+    "Extremely low overhead (written in Rust, doesn't run in the same process)",
+    "Safe to use against production Python code",
+    "Supports profiling native extensions (C/C++, Cython)",
+    "Can profile subprocesses",
+    "Non-blocking profiling option",
+    "Provides a top-like live view and generates flame graphs",
+    "Can dump call stacks for each thread"
+  ],
+  "website": "https://github.com/benfred/py-spy",
+  "alternatives": [
+    {
+      "name": "cProfile",
+      "license": "Open Source (Python Software Foundation License)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Deterministic profiling of function calls",
+        "Provides statistics on call count, total time, and cumulative time per function",
+        "Built into the Python standard library",
+        "Lower overhead than the 'profile' module",
+        "Output can be viewed with tools like pstats, SnakeViz, or gprof2dot"
+      ],
+      "website": "https://docs.python.org/3/library/cprofile.html"
+    },
+    {
+      "name": "line_profiler",
+      "license": "Open Source (BSD License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Line-by-line profiling of specific functions",
+        "Requires decorating functions with @profile",
+        "Shows time spent on each individual line",
+        "Often used with the kernprof script"
+      ],
+      "website": "https://github.com/pyutils/line_profiler"
+    },
+    {
+      "name": "SnakeViz",
+      "license": "Open Source (BSD License)",
+      "platforms": [
+        "Web",
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Web-based viewer for Python profiling data (typically from cProfile)",
+        "Visualizes profiling statistics interactively in a browser",
+        "Inspired by RunSnakeRun"
+      ],
+      "website": "https://jiffyclub.github.io/snakeviz/"
+    },
+    {
+      "name": "Pyinstrument",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Statistical profiler",
+        "Visualizes call stacks",
+        "Low overhead",
+        "Can produce console output flame graphs"
+      ],
+      "website": "https://github.com/joerick/pyinstrument"
+    },
+    {
+      "name": "Scalene",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Combines CPU and memory profiling",
+        "Profiles GPU time",
+        "Low overhead",
+        "Highlights energy consumption"
+      ],
+      "website": "https://github.com/plasma-umass/scalene"
+    },
+    {
+      "name": "VizTracer",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Tracer and visualizer",
+        "Generates detailed execution timelines",
+        "Can track variables",
+        "Supports multiprocessing/multithreading"
+      ],
+      "website": "https://github.com/gaogaotiantian/viztracer"
+    },
+    {
+      "name": "PyCharm Profiler",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Integrated into the PyCharm IDE",
+        "Provides graphical representation of profiling data",
+        "Supports various profiling modes (CPU, Memory)",
+        "Easy to use within the IDE workflow"
+      ],
+      "website": "https://www.jetbrains.com/pycharm/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "cProfile"
+  ],
+  "marketPositioning": "py-spy is positioned as a high-performance, external sampling profiler for Python, particularly strong for production environments due to its extremely low overhead and ability to attach to running processes without code changes or restarts. Its Rust implementation contributes to its speed, and its support for profiling native extensions differentiates it from many Python-specific profilers. While focusing primarily on CPU profiling (unlike tools that combine CPU and memory analysis), its versatile output formats and cross-platform compatibility make it a powerful tool for diagnosing performance issues in a non-intrusive manner."
+}

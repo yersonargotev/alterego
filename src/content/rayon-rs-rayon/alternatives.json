@@ -1,0 +1,169 @@
+{
+  "projectName": "rayon",
+  "projectPurpose": "To provide a lightweight and convenient data parallelism library for Rust, enabling easy parallelization of computations while ensuring data-race freedom through Rust's safety guarantees.",
+  "platforms": [
+    "Cross-platform (wherever Rust is supported)"
+  ],
+  "mainFeatures": [
+    "Easy conversion of sequential computations to parallel",
+    "Guaranteed data-race free executions via Rust's type system",
+    "High-level parallel constructs (e.g., parallel iterators)",
+    "Custom task creation with join and scope",
+    "Customizable thread pools"
+  ],
+  "website": "https://github.com/rayon-rs/rayon",
+  "alternatives": [
+    {
+      "name": "Rust Standard Library (std::thread)",
+      "license": "Open Source (MIT OR Apache-2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Low-level thread creation and management",
+        "Basic synchronization primitives (Mutex, RwLock, Channels)",
+        "Atomic types"
+      ],
+      "website": "https://doc.rust-lang.org/std/thread/"
+    },
+    {
+      "name": "Crossbeam",
+      "license": "Open Source (MIT OR Apache-2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Thread-safe data structures (queues, deques)",
+        "Atomic types",
+        "Scoped threads",
+        "Utilities for concurrent programming"
+      ],
+      "website": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "name": "Tokio",
+      "license": "Open Source (MIT OR Apache-2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Asynchronous runtime",
+        "Non-blocking I/O",
+        "Task management",
+        "Asynchronous synchronization primitives"
+      ],
+      "website": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "name": "async-std",
+      "license": "Open Source (Apache-2.0 OR MIT)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Asynchronous runtime",
+        "Non-blocking I/O",
+        "Async streams",
+        "Parallel stream processing (via parallel-stream crate)"
+      ],
+      "website": "https://github.com/async-rs/async-std"
+    },
+    {
+      "name": "OpenMP",
+      "license": "Open Source (BSD-like)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Compiler directives for parallelization",
+        "Supports shared-memory multiprocessing",
+        "Parallel loops",
+        "Task parallelism"
+      ],
+      "website": "https://www.openmp.org/"
+    },
+    {
+      "name": "Intel TBB (oneTBB)",
+      "license": "Open Source (Apache-2.0) or Commercial",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "C++ template library for parallel programming",
+        "Task-based parallelism",
+        "Parallel algorithms (e.g., parallel_for, parallel_reduce)",
+        "Concurrent containers",
+        "Scalable memory allocator"
+      ],
+      "website": "https://github.com/oneapi-src/oneTBB"
+    },
+    {
+      "name": "Java Parallel Streams",
+      "license": "Open Source (GPLv2 with Classpath Exception)",
+      "platforms": [
+        "Cross-platform (JVM-based)"
+      ],
+      "mainFeatures": [
+        "Built-in support for parallel collection processing",
+        "Stream API integration",
+        "Automatic work splitting",
+        "Utilizes ForkJoinPool"
+      ],
+      "website": "https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/package-summary.html"
+    },
+    {
+      "name": "Python Multiprocessing",
+      "license": "Open Source (Python Software Foundation License)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Process-based parallelism",
+        "Leverages multiple CPU cores",
+        "API similar to threading module",
+        "Inter-process communication (Pipes, Queues)"
+      ],
+      "website": "https://docs.python.org/3/library/multiprocessing.html"
+    },
+    {
+      "name": "Dask",
+      "license": "Open Source (BSD 3-Clause)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Parallelizes NumPy, Pandas, and custom code",
+        "Task scheduling",
+        "Supports distributed computing",
+        "Handles larger-than-memory datasets"
+      ],
+      "website": "https://www.dask.org/"
+    },
+    {
+      "name": "Go Standard Library (sync, go, channels)",
+      "license": "Open Source (BSD License)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Lightweight goroutines for concurrent execution",
+        "Channels for communication and synchronization",
+        "Mutexes and other synchronization primitives",
+        "Select statement for managing multiple communication operations"
+      ],
+      "website": "https://golang.org/pkg/sync/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OpenMP",
+    "Java Parallel Streams",
+    "Python Multiprocessing",
+    "Dask"
+  ],
+  "marketPositioning": "Rayon is positioned as the idiomatic and safe data parallelism library for Rust. Its core strength lies in seamlessly integrating with Rust's ownership system to provide compile-time guarantees against data races, a significant advantage for writing correct parallel code. It aims for developer convenience through high-level APIs like parallel iterators, making it easy to parallelize existing code for CPU-bound tasks. While other languages have established parallel computing libraries, Rayon's unique value proposition is its 'fearless parallelism' enabled by Rust's safety features, distinguishing it within the broader landscape of parallel programming tools."
+}

@@ -1,0 +1,131 @@
+{
+  "projectName": "chainsaw",
+  "projectPurpose": "To provide a fast and efficient command-line tool for cybersecurity professionals (blue teams, threat hunters, and incident responders) to analyze Windows forensic artifacts, primarily event logs, for rapid threat detection and incident investigation.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Rapidly search and hunt through Windows forensic artifacts (Event Logs, MFT, Shimcache, SRUM, registry hives).",
+    "Search and extract event log records by string matching, and regex patterns.",
+    "Hunt for threats using built-in support for Sigma detection rules and custom Chainsaw detection rules.",
+    "Create execution timelines by analyzing Shimcache and enriching with Amcache data.",
+    "Analyze the SRUM (System Resource Usage Monitor) database.",
+    "Dump raw content of forensic artifacts (MFT, registry hives, ESE databases).",
+    "Fast execution speed due to being written in Rust.",
+    "Lightweight execution and output.",
+    "Output results in multiple formats (ASCII table, CSV, JSON)."
+  ],
+  "website": "https://github.com/WithSecureLabs/chainsaw",
+  "alternatives": [
+    {
+      "name": "Hayabusa",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Fast forensics and detection for Windows event logs.",
+        "Sigma-based threat hunting.",
+        "Timeline generation from event logs.",
+        "Customizable keyword lists for analysis."
+      ],
+      "website": "https://github.com/YamatoSecurity/hayabusa"
+    },
+    {
+      "name": "Autopsy",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "GUI-based digital forensics platform.",
+        "Analyzes hard drives and smartphones.",
+        "Built on The Sleuth Kit.",
+        "Supports various file systems and image formats."
+      ],
+      "website": "https://www.autopsy.com/"
+    },
+    {
+      "name": "SIFT Workstation (SANS Investigative Forensic Toolkit)",
+      "license": "Open Source",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Suite of open-source forensic tools.",
+        "Designed for in-depth investigations.",
+        "Securely scans disk images in read-only manner.",
+        "Supports various evidence formats."
+      ],
+      "website": "https://www.sans.org/tools/sift-workstation/"
+    },
+    {
+      "name": "ManageEngine EventLog Analyzer",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Log management and SIEM capabilities.",
+        "Agent-based and agentless log collection.",
+        "Powerful log search engine.",
+        "Real-time alerting and threat intelligence integration."
+      ],
+      "website": "https://www.manageengine.com/products/eventlog/"
+    },
+    {
+      "name": "Splunk",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Ingests, indexes, analyzes, and visualizes machine data.",
+        "Analytics-driven SIEM capabilities.",
+        "Real-time monitoring and alerting.",
+        "Scalable for large volumes of data."
+      ],
+      "website": "https://www.splunk.com/"
+    },
+    {
+      "name": "Elastic Stack (ELK Stack)",
+      "license": "Proprietary (SSPL/various)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Centralized log collection and processing (Logstash).",
+        "Scalable search and analytics (Elasticsearch).",
+        "Data visualization and dashboards (Kibana).",
+        "Widely used for log analysis and SIEM."
+      ],
+      "website": "https://www.elastic.co/elastic-stack"
+    },
+    {
+      "name": "Graylog",
+      "license": "Open Source, Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Centralized log management.",
+        "Powerful search and analytics.",
+        "Customizable dashboards.",
+        "Real-time monitoring and alerting."
+      ],
+      "website": "https://graylog.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Splunk",
+    "Elastic Stack (ELK Stack)"
+  ],
+  "marketPositioning": "Chainsaw is a rapid, open-source command-line tool developed in Rust for quickly searching and hunting through Windows forensic artifacts, including Event Logs, MFT files, Shimcache, SRUM, and registry hives. Designed as a powerful \"first-response\" capability for blue teams, threat hunters, and incident responders, it provides a fast and lightweight method to identify threats within Windows event logs by leveraging built-in support for community-driven Sigma detection rules and custom Chainsaw rules. Unlike comprehensive digital forensics suites or large-scale SIEM systems, Chainsaw focuses on providing rapid triage and analysis of collected artifacts on a per-system basis. It allows users to search event logs using keywords and regex patterns, extract and parse specific alerts (like AV alerts), analyze system activity timelines from Shimcache and Amcache, examine the SRUM database, and dump raw artifact content. Its speed, portability (runs on Windows, macOS, and Linux), and focus on applying detection logic directly to raw or collected forensic data make it an essential tool for quickly gaining initial visibility into suspicious activity during incident investigations where traditional monitoring might be unavailable or insufficient."
+}

@@ -1,0 +1,104 @@
+{
+  "projectName": "era-sync_vm",
+  "projectPurpose": "To provide the core verifiable computation engine (Zero-Knowledge Virtual Machine circuit implementation) for the zkSync Era network, enabling scalable and secure execution of smart contracts via zero-knowledge proofs.",
+  "platforms": [
+    "Ethereum (Layer 2 ecosystem)"
+  ],
+  "mainFeatures": [
+    "Zero-Knowledge Virtual Machine (zkVM) implementation",
+    "Designed for zkSync Era network",
+    "Circuit implementation for generating validity proofs",
+    "Enables scalable and secure off-chain computation"
+  ],
+  "website": "https://github.com/matter-labs/era-sync_vm",
+  "alternatives": [
+    {
+      "name": "Polygon zkEVM",
+      "license": "Open Source",
+      "platforms": [
+        "Ethereum (Layer 2 ecosystem)"
+      ],
+      "mainFeatures": [
+        "EVM equivalence (bytecode level)",
+        "Uses SNARK/STARK proofs",
+        "Fast transaction finality",
+        "Reduced gas costs"
+      ],
+      "website": "https://polygon.technology/polygon-zkevm"
+    },
+    {
+      "name": "Scroll",
+      "license": "Open Source",
+      "platforms": [
+        "Ethereum (Layer 2 ecosystem)"
+      ],
+      "mainFeatures": [
+        "Bytecode-level EVM compatibility",
+        "Zero-knowledge proofs (zk-rollups)",
+        "High throughput",
+        "Lower fees"
+      ],
+      "website": "https://scroll.io/"
+    },
+    {
+      "name": "Linea",
+      "license": "Proprietary",
+      "platforms": [
+        "Ethereum (Layer 2 ecosystem)"
+      ],
+      "mainFeatures": [
+        "Type 2 zkEVM (high EVM compatibility)",
+        "Utilizes zkSNARK technology",
+        "Low transaction fees",
+        "Fast processing times"
+      ],
+      "website": "https://linea.build/"
+    },
+    {
+      "name": "Arbitrum (Stylus)",
+      "license": "Business Source License",
+      "platforms": [
+        "Ethereum (Layer 2 ecosystem)"
+      ],
+      "mainFeatures": [
+        "Optimistic rollup with WASM VM (Stylus)",
+        "Supports multiple programming languages (Rust, C, C++)",
+        "Lower gas fees for complex operations"
+      ],
+      "website": "https://arbitrum.io/"
+    },
+    {
+      "name": "Optimism (OP Stack / Cannon)",
+      "license": "Open Source",
+      "platforms": [
+        "Ethereum (Layer 2 ecosystem)"
+      ],
+      "mainFeatures": [
+        "Optimistic rollup framework (OP Stack)",
+        "Modular architecture",
+        "Cannon Fault Proof VM"
+      ],
+      "website": "https://www.optimism.io/"
+    },
+    {
+      "name": "StarkNet",
+      "license": "Open Source",
+      "platforms": [
+        "Ethereum (Layer 2 ecosystem)"
+      ],
+      "mainFeatures": [
+        "zk-STARK based rollup",
+        "Uses Cairo VM",
+        "High scalability",
+        "Enables building and deploying dApps"
+      ],
+      "website": "https://www.starknet.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Polygon zkEVM",
+    "Scroll",
+    "Linea"
+  ],
+  "marketPositioning": "era-sync_vm is positioned as a core, open-source infrastructure component powering the zkSync Era zk-rollup. It is the specific circuit implementation of the zkVM for this ecosystem, enabling the generation of zero-knowledge proofs for verifiable computation. It competes within the broader landscape of Ethereum Layer 2 scaling solutions, specifically against other zk-rollup platforms like Polygon zkEVM, Scroll, and Linea, which also feature their own zkVM implementations."
+}

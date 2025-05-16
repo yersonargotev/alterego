@@ -1,0 +1,122 @@
+{
+  "projectName": "vector",
+  "projectPurpose": "To provide a single, high-performance, and flexible tool for collecting, transforming, and routing all types of observability data (logs, metrics, and eventually traces) from various sources to various destinations, giving users control over their data and reducing vendor lock-in.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "Docker",
+    "Kubernetes"
+  ],
+  "mainFeatures": [
+    "High-performance data pipeline built in Rust",
+    "Collect, transform, and route logs and metrics (traces coming soon)",
+    "Deployable as an agent or aggregator",
+    "Vendor-agnostic with support for numerous sources and destinations",
+    "Flexible processing topologies and programmable transformations (Vector Remap Language)"
+  ],
+  "website": "https://vector.dev/",
+  "alternatives": [
+    {
+      "name": "Fluentd",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Docker",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Unified logging layer",
+        "Pluggable architecture (200+ plugins)",
+        "Reliable data buffering",
+        "Supports logs and events",
+        "Flexible routing based on tags"
+      ],
+      "website": "https://www.fluentd.org/"
+    },
+    {
+      "name": "Logstash",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Server-side data processing pipeline",
+        "Ingests data from various sources",
+        "Extensive filtering capabilities (parsing, transforming, enriching)",
+        "Ships data to multiple destinations (commonly Elasticsearch)",
+        "Large collection of plugins"
+      ],
+      "website": "https://www.elastic.co/logstash"
+    },
+    {
+      "name": "OpenTelemetry Collector",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Docker",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Vendor-agnostic telemetry collection",
+        "Receives, processes, and exports traces, metrics, and logs",
+        "Supports various open standards and protocols (OTLP, Jaeger, Prometheus)",
+        "Extensible architecture with receivers, processors, and exporters",
+        "Deployable as an agent or gateway"
+      ],
+      "website": "https://opentelemetry.io/docs/collector/"
+    },
+    {
+      "name": "Splunk Universal Forwarder",
+      "license": "Proprietary (requires Splunk license)",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "FreeBSD",
+        "Solaris",
+        "AIX",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Lightweight data collection agent",
+        "Efficiently forwards data to Splunk Indexers",
+        "Minimal resource consumption",
+        "Reliable data delivery with buffering and compression",
+        "Supports various operating systems"
+      ],
+      "website": "https://www.splunk.com/en_us/products/universal-forwarder.html"
+    },
+    {
+      "name": "Datadog Agent",
+      "license": "Open Source (source code available), used with commercial Datadog platform",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Docker",
+        "Kubernetes",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Collects metrics, events, logs, and traces",
+        "Extensive integrations with technologies and services",
+        "Supports various environments (host, containerized, cloud)",
+        "Real-time data collection and forwarding",
+        "Integral part of the Datadog monitoring platform"
+      ],
+      "website": "https://docs.datadoghq.com/agent/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Datadog Agent",
+    "OpenTelemetry Collector"
+  ],
+  "marketPositioning": "Vector positions itself as a high-performance, unified, and vendor-agnostic observability data pipeline built for speed and efficiency using Rust. It differentiates itself from traditional logging tools like Fluentd and Logstash by handling logs, metrics, and traces within a single platform and emphasizing superior performance. Compared to commercial vendor-specific agents like Datadog Agent or Splunk Universal Forwarder, Vector offers freedom from vendor lock-in by allowing data routing to any destination. Its focus on programmable transformations and end-to-end capabilities (agent and aggregator) provides users with granular control over their observability data for cost optimization, enrichment, and security before it reaches analysis platforms. Vector competes strongly in the open-source observability data collection space, particularly against the OpenTelemetry Collector, by highlighting its performance advantages and transformation language."
+}

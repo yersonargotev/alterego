@@ -1,0 +1,149 @@
+{
+  "projectName": "martin",
+  "projectPurpose": "To provide a blazing fast and lightweight server for serving map tiles from PostGIS, MBtiles, and PMtiles sources, along with tools for tile generation and MBtiles management.",
+  "platforms": [],
+  "mainFeatures": [
+    "Blazing fast and lightweight tile serving",
+    "Supports PostGIS, MBtiles, and PMtiles data sources",
+    "Includes tile generation capabilities",
+    "Provides MBtiles tooling"
+  ],
+  "website": "https://github.com/maplibre/martin",
+  "alternatives": [
+    {
+      "name": "TileServer GL",
+      "license": "Open Source - BSD-2-Clause",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Serves vector and raster maps with GL styles",
+        "Server-side rendering with MapLibre GL Native",
+        "Supports MBTiles and tiles over HTTP",
+        "Provides WMTS endpoint"
+      ],
+      "website": "https://github.com/maptiler/tileserver-gl"
+    },
+    {
+      "name": "Tegola",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Open source vector tile server",
+        "Written in Go",
+        "Supports PostGIS and GeoPackage data providers",
+        "Slices geospatial data into vector tiles"
+      ],
+      "website": "https://tegola.io/"
+    },
+    {
+      "name": "pg_tileserv",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "PostGIS-only tile server",
+        "Written in Go",
+        "Executes SQL to return MVT tiles",
+        "API similar to Martin"
+      ],
+      "website": "https://github.com/CrunchyData/pg_tileserv"
+    },
+    {
+      "name": "GeoServer",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Full-featured geospatial server",
+        "Supports numerous data formats (including PostGIS)",
+        "Publishes OGC-compliant services (WMS, WFS, WMTS)",
+        "Supports vector tile output (GeoJSON, TopoJSON, MVT)"
+      ],
+      "website": "http://geoserver.org/"
+    },
+    {
+      "name": "mbtileserver",
+      "license": "Open Source - ISC",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Simple Go-based MBTiles server",
+        "Supports PNG, JPG, WebP, and PBF tilesets",
+        "Provides TileJSON endpoint",
+        "Can serve from multiple MBTiles files"
+      ],
+      "website": "https://github.com/consbio/mbtileserver"
+    },
+    {
+      "name": "MapTiler Server",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Docker",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Commercial map server",
+        "Supports MBTiles, GeoPackage, PostGIS",
+        "Offers raster and vector tile serving",
+        "WMTS and OGC Tiles API support",
+        "Server-side rendering"
+      ],
+      "website": "https://www.maptiler.com/server/"
+    },
+    {
+      "name": "ArcGIS Server",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Enterprise-level GIS server",
+        "Publishes various GIS services",
+        "Supports numerous data formats",
+        "Serves raster and vector map tiles"
+      ],
+      "website": "https://www.esri.com/en-us/arcgis/products/arcgis-server/overview"
+    },
+    {
+      "name": "OpenFreeMap",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Free OpenStreetMap vector tile hosting",
+        "Self-hosting option",
+        "Provides MBTiles downloads",
+        "Uses OpenMapTiles schema"
+      ],
+      "website": "https://openfreemap.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GeoServer",
+    "ArcGIS Server"
+  ],
+  "marketPositioning": "Martin is positioned as a high-performance, lightweight, and versatile open-source tile server. Its key differentiators are its focus on speed and efficiency, support for a combination of popular geospatial tile formats (MBtiles, PMtiles) and dynamic PostGIS serving within a single tool, and inclusion of MBtiles tooling. It competes with more comprehensive open-source GIS servers by offering a simpler, faster alternative specifically for tile delivery and with commercial tile services by providing a free, self-hostable option with strong performance."
+}

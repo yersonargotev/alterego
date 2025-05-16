@@ -1,0 +1,125 @@
+{
+  "projectName": "swc",
+  "projectPurpose": "To provide a high-performance, extensible platform for web development tools, primarily focusing on the compilation, bundling, and minification of JavaScript and TypeScript code using Rust for speed.",
+  "platforms": [
+    "Cross-platform (executables for Mac, Linux, Windows, Android; Node.js API)"
+  ],
+  "mainFeatures": [
+    "Compilation (JavaScript/TypeScript)",
+    "Bundling (swcpack, under development)",
+    "Minification",
+    "Transforming with WebAssembly",
+    "Extensibility via plugins"
+  ],
+  "website": "https://swc.rs/",
+  "alternatives": [
+    {
+      "name": "Babel",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Node.js)"
+      ],
+      "mainFeatures": [
+        "Transforms modern JavaScript syntax",
+        "Polyfills missing features",
+        "Supports JSX and TypeScript syntax stripping",
+        "Plugin-based architecture",
+        "CLI and API interfaces"
+      ],
+      "website": "https://babeljs.io/"
+    },
+    {
+      "name": "Webpack",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Node.js)"
+      ],
+      "mainFeatures": [
+        "Module bundling (JS, CSS, assets)",
+        "Code splitting",
+        "Loaders for file transformations",
+        "Plugin system for extensibility",
+        "Hot Module Replacement (HMR)"
+      ],
+      "website": "https://webpack.js.org/"
+    },
+    {
+      "name": "esbuild",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Go executable, Node.js API)"
+      ],
+      "mainFeatures": [
+        "Extremely fast bundling and minification",
+        "Built-in support for JS, CSS, TypeScript, JSX",
+        "Command-line and API interfaces",
+        "Tree shaking",
+        "Source map generation"
+      ],
+      "website": "https://esbuild.github.io/"
+    },
+    {
+      "name": "TypeScript Compiler (tsc)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform (Node.js)"
+      ],
+      "mainFeatures": [
+        "Compiles TypeScript to JavaScript",
+        "Static type checking",
+        "Generates declaration files",
+        "Supports sourcemaps",
+        "Configurable via tsconfig.json"
+      ],
+      "website": "https://www.typescriptlang.org/"
+    },
+    {
+      "name": "Parcel",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Node.js)"
+      ],
+      "mainFeatures": [
+        "Zero configuration",
+        "Fast builds with parallel processing",
+        "Supports various asset types",
+        "Hot Module Replacement (HMR)",
+        "Automatic code splitting"
+      ],
+      "website": "https://parceljs.org/"
+    },
+    {
+      "name": "Rollup",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Node.js)"
+      ],
+      "mainFeatures": [
+        "Efficient bundling for JavaScript libraries",
+        "Focus on ES Modules",
+        "Tree shaking",
+        "Plugin system"
+      ],
+      "website": "https://rollupjs.org/"
+    },
+    {
+      "name": "Vite",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Node.js)"
+      ],
+      "mainFeatures": [
+        "Fast development server (Native ESM)",
+        "Optimized production builds (Rollup)",
+        "Hot Module Replacement (HMR)",
+        "Supports TypeScript, JSX, CSS pre-processors"
+      ],
+      "website": "https://vitejs.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Webpack",
+    "Babel"
+  ],
+  "marketPositioning": "SWC is positioned as a high-performance, Rust-based compiler and minifier for the web, offering significant speed improvements over traditional tools like Babel. While it includes bundling capabilities (under development), its primary strength lies in fast code transformation. It competes with esbuild in the fast build tool space and is increasingly being adopted by larger frameworks and build tools (like Next.js and Parcel) as a performance-enhancing replacement for parts of their build pipeline (e.g., replacing Babel for transpilation). Its market position is that of a foundational, high-speed layer for modern web build processes, prioritizing performance and extensibility."
+}

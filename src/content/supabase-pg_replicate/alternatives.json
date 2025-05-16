@@ -1,0 +1,85 @@
+{
+  "projectName": "pg_replicate",
+  "projectPurpose": "To provide a Rust library for building applications that consume and process PostgreSQL logical replication streams for Change Data Capture (CDC) and real-time data integration.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Interact with PostgreSQL logical replication streams in Rust",
+    "Consume Change Data Capture (CDC) data from PostgreSQL",
+    "Library for building custom replication/CDC applications"
+  ],
+  "website": "https://github.com/supabase/pg_replicate",
+  "alternatives": [
+    {
+      "name": "Debezium",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via Docker/JVM)"
+      ],
+      "mainFeatures": [
+        "Change Data Capture (CDC) platform",
+        "Connectors for multiple databases (PostgreSQL, MySQL, MongoDB, etc.)",
+        "Outputs change events to Kafka or other messaging systems",
+        "Handles schema evolution"
+      ],
+      "website": "https://debezium.io/"
+    },
+    {
+      "name": "Apache Kafka Connect",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via Docker/JVM)"
+      ],
+      "mainFeatures": [
+        "Framework for streaming data between Kafka and other systems",
+        "Scalable and fault-tolerant",
+        "Large ecosystem of connectors",
+        "Handles data transformation"
+      ],
+      "website": "https://kafka.apache.org/documentation/connect"
+    },
+    {
+      "name": "pglogical",
+      "license": "Open Source - The PostgreSQL License",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS (runs as a PostgreSQL extension)"
+      ],
+      "mainFeatures": [
+        "Logical replication extension for PostgreSQL",
+        "Supports replication between different PostgreSQL versions",
+        "Selective replication (publications/subscriptions)",
+        "Conflict resolution"
+      ],
+      "website": "https://github.com/2ndQuadrant/pglogical"
+    },
+    {
+      "name": "pypgoutput",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (requires Python)"
+      ],
+      "mainFeatures": [
+        "Python library for PostgreSQL logical decoding",
+        "Reads and parses pgoutput messages",
+        "Converts messages to CDC format",
+        "Uses psycopg2 for connection"
+      ],
+      "website": "https://github.com/dgea005/pypgoutput"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Debezium (with Kafka Connect)"
+  ],
+  "marketPositioning": "pg_replicate is a specialized open-source Rust library for developers seeking to build high-performance, custom applications that consume PostgreSQL logical replication streams. Unlike broader CDC platforms like Debezium (which provide an end-to-end solution often integrated with Kafka) or database-level replication tools like pglogical, pg_replicate focuses specifically on providing the foundational components in Rust to read and process real-time data changes from PostgreSQL's logical decoding feature. This positions it as a tool for developers who require fine-grained control over their CDC pipeline or data integration logic and prefer to work within the Rust ecosystem."
+}

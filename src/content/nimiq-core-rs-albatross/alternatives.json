@@ -1,0 +1,125 @@
+{
+  "projectName": "core-rs-albatross",
+  "projectPurpose": "To provide a high-performance, secure Rust implementation of the Albatross Proof-of-Stake consensus protocol as the core of the Nimiq 2.0 blockchain, focused on frictionless web payments.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Rust implementation of Albatross Proof-of-Stake consensus protocol",
+    "Designed for high performance (sub-second confirmation, >1000 TPS) and security",
+    "Supports validator and delegated staking",
+    "Forms the core of the Nimiq 2.0 blockchain",
+    "Focuses on frictionless web payments"
+  ],
+  "website": "https://github.com/nimiq/core-rs-albatross",
+  "alternatives": [
+    {
+      "name": "Substrate (Polkadot SDK)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "Modular blockchain framework in Rust",
+        "Allows building custom blockchains",
+        "Supports various consensus mechanisms",
+        "Hot-swappable components (pallets)",
+        "Used for Polkadot ecosystem"
+      ],
+      "website": "https://substrate.io/"
+    },
+    {
+      "name": "Cosmos SDK",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Framework for building application-specific blockchains",
+        "Inter-Blockchain Communication (IBC) protocol",
+        "Modular design",
+        "Uses Tendermint BFT consensus by default",
+        "Primarily Go-based with Rust components (CosmWasm)"
+      ],
+      "website": "https://docs.cosmos.network/main/"
+    },
+    {
+      "name": "Hyperledger Fabric",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Modular framework for enterprise blockchain solutions",
+        "Permissioned network",
+        "Pluggable consensus mechanisms",
+        "Supports smart contracts (chaincode)",
+        "Written in Go"
+      ],
+      "website": "https://www.hyperledger.org/use/fabric"
+    },
+    {
+      "name": "Ethereum (Geth)",
+      "license": "Open Source - LGPL-3.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Implementation of the Ethereum protocol",
+        "Supports Smart Contracts (EVM)",
+        "Public, decentralized network",
+        "Moving from Proof-of-Work to Proof-of-Stake",
+        "Largest DApp ecosystem"
+      ],
+      "website": "https://geth.ethereum.org/"
+    },
+    {
+      "name": "Solana",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "High-performance blockchain platform",
+        "Uses Proof of History + Proof of Stake consensus",
+        "Known for high transaction throughput",
+        "Core components written in Rust",
+        "Growing ecosystem for DApps and NFTs"
+      ],
+      "website": "https://solana.com/"
+    },
+    {
+      "name": "Corda",
+      "license": "Open Source - Apache 2.0 (Open Source), Proprietary (Enterprise)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Designed for regulated financial institutions",
+        "Permissioned network",
+        "Supports smart contracts (CorDapps)",
+        "Focuses on managing financial obligations",
+        "Written in Kotlin and Java"
+      ],
+      "website": "https://www.r3.com/platforms/corda/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "Core-rs-albatross is positioned as the foundational Rust implementation of the Nimiq project's high-performance Albatross Proof-of-Stake consensus protocol. Unlike broad blockchain frameworks, it's a specific core implementation tailored for Nimiq's goal of providing a frictionless and highly performant payment protocol for the web. It competes with other blockchain core implementations and platforms, particularly those focused on Proof-of-Stake and high transaction throughput, leveraging the safety and performance benefits of Rust for its specific use case within the Nimiq ecosystem."
+}

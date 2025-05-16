@@ -1,0 +1,110 @@
+{
+  "projectName": "aws-lambda-web-adapter",
+  "projectPurpose": "To simplify running traditional web applications built with popular frameworks on AWS Lambda with minimal code changes, allowing developers to leverage serverless benefits.",
+  "platforms": [
+    "AWS Lambda"
+  ],
+  "mainFeatures": [
+    "Run traditional web frameworks (Express.js, Flask, SpringBoot, Laravel, Django, ASP.NET, etc.) on AWS Lambda.",
+    "Acts as a bridge between Lambda runtime API and web application's HTTP server.",
+    "Supports API Gateway, Lambda Function URLs, and Application Load Balancer triggers.",
+    "Works with Lambda managed runtimes, custom runtimes, and Docker OCI images.",
+    "Requires minimal to no code changes to the web application."
+  ],
+  "website": "https://github.com/awslabs/aws-lambda-web-adapter",
+  "alternatives": [
+    {
+      "name": "Zappa",
+      "license": "Open Source",
+      "platforms": [
+        "AWS Lambda",
+        "AWS API Gateway (Python)"
+      ],
+      "mainFeatures": [
+        "Deploy Python WSGI web apps (Django, Flask, etc.) to AWS Lambda.",
+        "Handles packaging, deployment, and scaling.",
+        "Supports asynchronous task execution.",
+        "Manages IAM roles and permissions."
+      ],
+      "website": "https://github.com/zappa/Zappa"
+    },
+    {
+      "name": "Serverless Framework",
+      "license": "Open Source",
+      "platforms": [
+        "AWS Lambda",
+        "Google Cloud Functions",
+        "Azure Functions",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Develop, deploy, and manage serverless applications.",
+        "Supports multiple languages and cloud providers.",
+        "Uses YAML for defining applications.",
+        "Extensible with plugins."
+      ],
+      "website": "https://www.serverless.com/"
+    },
+    {
+      "name": "AWS Serverless Application Model (SAM)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "AWS"
+      ],
+      "mainFeatures": [
+        "Simplified syntax (YAML) for defining serverless resources on AWS.",
+        "Extension of AWS CloudFormation.",
+        "CLI for local testing, debugging, and deployment.",
+        "Integrates with other AWS tools."
+      ],
+      "website": "https://aws.amazon.com/serverless/sam/"
+    },
+    {
+      "name": "Bref",
+      "license": "Open Source",
+      "platforms": [
+        "AWS Lambda (PHP)"
+      ],
+      "mainFeatures": [
+        "Provides PHP runtimes for AWS Lambda, including PHP-FPM.",
+        "Compatible with traditional PHP frameworks (Symfony, Laravel).",
+        "Distributed as Lambda layers and Docker images.",
+        "Supports event-driven functions and web apps."
+      ],
+      "website": "https://bref.sh/"
+    },
+    {
+      "name": "AWS Fargate",
+      "license": "Proprietary",
+      "platforms": [
+        "AWS"
+      ],
+      "mainFeatures": [
+        "Serverless compute for containers (ECS and EKS).",
+        "Eliminates the need to manage servers.",
+        "Scales automatically.",
+        "Pay for compute resources used."
+      ],
+      "website": "https://aws.amazon.com/fargate/"
+    },
+    {
+      "name": "AWS App Runner",
+      "license": "Proprietary",
+      "platforms": [
+        "AWS"
+      ],
+      "mainFeatures": [
+        "Fully managed service for deploying web applications and APIs.",
+        "Builds and deploys from source code or container images.",
+        "Handles traffic encryption, load balancing, and scaling.",
+        "Pay for compute and memory used."
+      ],
+      "website": "https://aws.amazon.com/apprunner/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Serverless Framework",
+    "Zappa"
+  ],
+  "marketPositioning": "The AWS Lambda Web Adapter is positioned as a generic, language-agnostic solution for easily running traditional HTTP-serving web applications on AWS Lambda with minimal code changes. It targets developers and organizations who want to leverage Lambda's serverless benefits for existing web workloads without a full rewrite or deep immersion into Lambda's native event model. It sits between traditional server/container hosting and native Lambda function development, offering a simplified 'lift and shift' path compared to general serverless frameworks or language-specific adapters."
+}

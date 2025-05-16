@@ -1,0 +1,88 @@
+{
+  "projectName": "rainfrog",
+  "projectPurpose": "To provide a terminal user interface (TUI) for managing and interacting with PostgreSQL databases.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Database management for PostgreSQL",
+    "Terminal User Interface (TUI)",
+    "Interactive database exploration and interaction"
+  ],
+  "website": "https://github.com/achristmascarl/rainfrog",
+  "alternatives": [
+    {
+      "name": "psql",
+      "license": "Open Source - PostgreSQL License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Interactive SQL querying",
+        "Scripting capabilities",
+        "Meta-commands for administration",
+        "Backup and restore utilities"
+      ],
+      "website": "https://www.postgresql.org/docs/current/app-psql.html"
+    },
+    {
+      "name": "pgAdmin",
+      "license": "Open Source - PostgreSQL License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Graphical interface for PostgreSQL",
+        "SQL editor with syntax highlighting",
+        "Graphical object management",
+        "Server status dashboard"
+      ],
+      "website": "https://www.pgadmin.org/"
+    },
+    {
+      "name": "DBeaver",
+      "license": "Open Source (Community Edition), Proprietary (Enterprise/Pro)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Universal database tool (PostgreSQL and others)",
+        "SQL editor with code completion",
+        "Visual data editor",
+        "ER diagrams"
+      ],
+      "website": "https://dbeaver.io/"
+    },
+    {
+      "name": "TablePlus",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Modern, native GUI",
+        "Supports multiple databases (PostgreSQL and others)",
+        "Quick data editing",
+        "Secure connections (SSH, TLS)"
+      ],
+      "website": "https://tableplus.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "DBeaver",
+    "pgAdmin"
+  ],
+  "marketPositioning": "Rainfrog is a specialized, open-source TUI tool for PostgreSQL management. It occupies a niche between the standard psql CLI and full-featured graphical tools like pgAdmin or DBeaver, targeting users who prefer a terminal-centric workflow with a more interactive interface than the basic command line."
+}

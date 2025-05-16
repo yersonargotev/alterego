@@ -1,0 +1,101 @@
+{
+  "projectName": "dora",
+  "projectPurpose": "To provide a high-performance, low-latency, composable, and distributed middleware for building AI-based robotic applications using a dataflow architecture.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Low-latency, zero-copy dataflow communication",
+    "Composable applications modeled as directed graphs (pipelines)",
+    "Distributed architecture",
+    "Polyglot support (Rust, Python, C, C++)",
+    "Middleware for AI-based robotic applications"
+  ],
+  "website": "https://github.com/dora-rs/dora",
+  "alternatives": [
+    {
+      "name": "ROS (Robot Operating System)",
+      "license": "Open Source (various, primarily Apache 2.0, BSD)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Large ecosystem of tools and libraries",
+        "Node-based architecture (publish/subscribe)",
+        "Hardware abstraction",
+        "Simulation tools"
+      ],
+      "website": "https://www.ros.org/"
+    },
+    {
+      "name": "ROS 2 (Robot Operating System 2)",
+      "license": "Open Source (various, primarily Apache 2.0, BSD)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "RTOS"
+      ],
+      "mainFeatures": [
+        "Improved real-time capabilities",
+        "Uses DDS as middleware",
+        "Enhanced security features",
+        "Support for multiple programming languages"
+      ],
+      "website": "https://docs.ros.org/en/humble/index.html"
+    },
+    {
+      "name": "DDS (Data Distribution Service)",
+      "license": "Open Standard (implementations vary, e.g., Apache 2.0, Proprietary)",
+      "platforms": [
+        "Various (including embedded, desktop, cloud)"
+      ],
+      "mainFeatures": [
+        "Real-time data communication",
+        "Quality of Service (QoS) policies",
+        "Data-centric publish-subscribe",
+        "Scalability"
+      ],
+      "website": "https://www.dds-foundation.org/"
+    },
+    {
+      "name": "Orocos (Open Real-time Control System)",
+      "license": "Open Source (LGPL)",
+      "platforms": [
+        "Linux (with real-time extensions)"
+      ],
+      "mainFeatures": [
+        "Focus on real-time control",
+        "Component-based framework",
+        "C++ based",
+        "Supports distributed execution"
+      ],
+      "website": "https://orocos.org/"
+    },
+    {
+      "name": "YARP (Yet Another Robot Platform)",
+      "license": "Open Source (BSD)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Communication middleware",
+        "Device abstraction",
+        "Supports multiple programming languages",
+        "Data visualization and logging tools"
+      ],
+      "website": "http://www.yarp.it/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ROS",
+    "ROS 2"
+  ],
+  "marketPositioning": "DORA positions itself as a modern, high-performance, and developer-friendly middleware for AI-based robotic applications. It differentiates itself from established players like ROS/ROS 2 by leveraging Rust for enhanced speed and low-latency communication through zero-copy data transfer. Its focus on a composable dataflow architecture and polyglot support aims to simplify development and integration, particularly for performance-critical AI workloads and distributed systems, offering an alternative for developers seeking higher performance and a more modern technology stack than traditional robotics middleware."
+}

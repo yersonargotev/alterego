@@ -1,0 +1,65 @@
+{
+  "projectName": "serde",
+  "projectPurpose": "To provide a robust, generic, and efficient framework for serializing and deserializing data structures within the Rust programming language.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "Generic serialization/deserialization framework",
+    "Support for numerous data formats via ecosystem crates (JSON, YAML, BSON, etc.)",
+    "Derivation of serialization logic using macros",
+    "High performance and memory safety",
+    "Type-safe conversions"
+  ],
+  "website": "https://github.com/serde-rs/serde",
+  "alternatives": [
+    {
+      "name": "Jackson",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Java (JVM)"
+      ],
+      "mainFeatures": [
+        "Data binding (JSON to/from Java objects)",
+        "Tree Model for JSON manipulation",
+        "Streaming API for large data",
+        "Extensive annotation support"
+      ],
+      "website": "https://github.com/FasterXML/jackson"
+    },
+    {
+      "name": "Json.NET",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        ".NET (Windows, macOS, Linux, Mono, Xamarin, Unity)"
+      ],
+      "mainFeatures": [
+        "Serialize and deserialize any .NET object",
+        "LINQ to JSON for querying/modifying",
+        "High performance",
+        "XML conversion support"
+      ],
+      "website": "https://www.newtonsoft.com/json"
+    },
+    {
+      "name": "Protocol Buffers",
+      "license": "Open Source - BSD License / Apache License 2.0",
+      "platforms": [
+        "Cross-platform (C++, Java, Python, Go, C#, Ruby, Dart, etc.)"
+      ],
+      "mainFeatures": [
+        "Schema-first data serialization",
+        "Language and platform neutral",
+        "Efficient and compact binary format",
+        "Code generation for supported languages"
+      ],
+      "website": "https://protobuf.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Protocol Buffers",
+    "Jackson",
+    "Json.NET"
+  ],
+  "marketPositioning": "Serde is positioned as the foundational, high-performance, and type-safe serialization and deserialization framework for the Rust ecosystem. It distinguishes itself through its generic architecture, which offloads format-specific logic to external crates, fostering a rich ecosystem. This allows Rust developers to seamlessly work with a wide variety of data formats while benefiting from Rust's performance characteristics and compile-time safety guarantees. Unlike language-specific libraries that might be tied to a particular format like JSON (e.g., Jackson, Json.NET), Serde provides a format-agnostic core. Compared to schema-first systems like Protocol Buffers, Serde offers flexibility in handling diverse and potentially dynamic formats, making it the de facto standard for data serialization within the Rust world."
+}

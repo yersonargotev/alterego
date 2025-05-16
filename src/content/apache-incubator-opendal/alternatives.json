@@ -1,0 +1,127 @@
+{
+  "projectName": "Apache OpenDAL",
+  "projectPurpose": "To provide a universal data access layer that allows applications to interact with various storage services through a single, consistent API.",
+  "platforms": [
+    "Cross-platform (library for developers)"
+  ],
+  "mainFeatures": [
+    "Seamless interaction with diverse storage services",
+    "Unified API for multiple storage backends",
+    "Object Storage First design",
+    "Extensible architecture for adding new services",
+    "Provides file-system-like APIs"
+  ],
+  "website": "https://github.com/apache/incubator-opendal",
+  "alternatives": [
+    {
+      "name": "AWS SDK for S3",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Cross-platform (depending on language SDK)"
+      ],
+      "mainFeatures": [
+        "Direct interaction with Amazon S3",
+        "Bucket and object operations",
+        "Multipart uploads",
+        "Access control and security features",
+        "Integration with AWS ecosystem"
+      ],
+      "website": "https://aws.amazon.com/developer/tools/"
+    },
+    {
+      "name": "Azure Blob Storage Client Libraries",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Cross-platform (depending on language SDK)"
+      ],
+      "mainFeatures": [
+        "Direct interaction with Azure Blob Storage",
+        "Container and blob operations",
+        "Support for different blob types",
+        "Access tiers and lifecycle management",
+        "Integration with Azure ecosystem"
+      ],
+      "website": "https://azure.microsoft.com/en-us/developer/libraries/"
+    },
+    {
+      "name": "Google Cloud Storage Client Libraries",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Cross-platform (depending on language SDK)"
+      ],
+      "mainFeatures": [
+        "Direct interaction with Google Cloud Storage",
+        "Bucket and object operations",
+        "Object versioning",
+        "Integration with Google Cloud ecosystem",
+        "Authentication and authorization"
+      ],
+      "website": "https://cloud.google.com/storage/docs/reference/libraries"
+    },
+    {
+      "name": "rclone",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Synchronize and copy files to/from cloud storage",
+        "Supports numerous cloud providers",
+        "Mount cloud storage as a disk",
+        "Serve files over various protocols",
+        "Check and verify files"
+      ],
+      "website": "https://rclone.org/"
+    },
+    {
+      "name": "Apache jclouds",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "JVM-based platforms (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Multi-cloud toolkit for Java",
+        "Abstraction for compute, blobstore, load balancer",
+        "Supports numerous cloud providers",
+        "Portable across different JVMs"
+      ],
+      "website": "https://jclouds.apache.org/"
+    },
+    {
+      "name": "FluentStorage",
+      "license": "Open Source - MIT",
+      "platforms": [
+        ".NET",
+        ".NET Standard/.NET Core"
+      ],
+      "mainFeatures": [
+        "Polycloud storage abstraction for .NET",
+        "Unified API for Blob storage",
+        "Supports major cloud providers",
+        "Synchronous and asynchronous operations",
+        "In-memory and on-disk storage support"
+      ],
+      "website": "https://github.com/robinrodricks/FluentStorage"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "AWS SDK for S3",
+    "Azure Blob Storage Client Libraries",
+    "Google Cloud Storage Client Libraries",
+    "rclone"
+  ],
+  "marketPositioning": "Apache OpenDAL positions itself as a universal data access layer built with a solid foundation in Rust for performance and safety. Unlike cloud-specific SDKs or migration tools like rclone, OpenDAL provides a single, unified API for applications to interact with a diverse range of storage services, emphasizing an \"Object Storage First\" approach. Its extensible and actively developed nature differentiates it from some older Java-based abstraction libraries, targeting modern cloud-native applications requiring portable and efficient data access."
+}

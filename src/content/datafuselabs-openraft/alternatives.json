@@ -1,0 +1,117 @@
+{
+  "projectName": "openraft",
+  "projectPurpose": "To provide a robust and improved implementation of the Raft distributed consensus algorithm in Rust, specifically targeting use in distributed data storage systems.",
+  "platforms": [
+    "Rust",
+    "Tokio"
+  ],
+  "mainFeatures": [
+    "Implementation of the Raft consensus algorithm",
+    "Written in Rust",
+    "Uses Tokio for asynchronous operations",
+    "Aims to improve upon existing Raft implementations",
+    "Designed for distributed data storage systems"
+  ],
+  "website": "https://github.com/datafuselabs/openraft",
+  "alternatives": [
+    {
+      "name": "etcd",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (often containerized)"
+      ],
+      "mainFeatures": [
+        "Distributed key-value store",
+        "Uses Raft for consistency",
+        "Supports watching for changes",
+        "Secure communication (TLS/SSL)",
+        "High write throughput"
+      ],
+      "website": "https://etcd.io/"
+    },
+    {
+      "name": "Consul",
+      "license": "Proprietary (HashiCorp Enterprise), Open Source (HashiCorp Commons)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Service discovery",
+        "Configuration management (key-value store)",
+        "Health checking",
+        "Service mesh capabilities",
+        "Uses Raft for consistency"
+      ],
+      "website": "https://www.consul.io/"
+    },
+    {
+      "name": "Apache ZooKeeper",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java (JVM)"
+      ],
+      "mainFeatures": [
+        "Centralized coordination service",
+        "Hierarchical namespace (znodes)",
+        "Leader election",
+        "Configuration management",
+        "Distributed locking"
+      ],
+      "website": "https://zookeeper.apache.org/"
+    },
+    {
+      "name": "raft-rs (TiKV implementation)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Core Raft consensus module in Rust",
+        "Pluggable components (storage, state machine, transport)",
+        "Fault-tolerant",
+        "Designed for distributed systems"
+      ],
+      "website": "https://github.com/tikv/raft-rs"
+    },
+    {
+      "name": "hashicorp/raft",
+      "license": "Open Source - MPL 2.0",
+      "platforms": [
+        "Go"
+      ],
+      "mainFeatures": [
+        "Go implementation of Raft",
+        "Manages a replicated log",
+        "Supports replicated state machines (FSM)",
+        "Log compaction and snapshots",
+        "Membership changes"
+      ],
+      "website": "https://github.com/hashicorp/raft"
+    },
+    {
+      "name": "MicroRaft",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java (JVM)"
+      ],
+      "mainFeatures": [
+        "Feature-complete Raft implementation in Java",
+        "Leader election and log replication",
+        "Log compaction (snapshotting)",
+        "Cluster membership changes",
+        "Optimizations and enhancements"
+      ],
+      "website": "https://github.com/micro-raft/MicroRaft"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "etcd",
+    "Consul",
+    "Apache ZooKeeper"
+  ],
+  "marketPositioning": "Openraft is positioned as an advanced, next-generation Raft consensus algorithm implementation in Rust. Unlike full-fledged distributed systems like etcd, Consul, or ZooKeeper, which are built on top of consensus algorithms and provide higher-level services (key-value store, service discovery, etc.), Openraft provides the core consensus engine. Its market position is as a foundational library for developers building high-performance, reliable distributed data storage systems and other distributed applications in the Rust ecosystem, offering potential improvements over other available Raft libraries in Rust."
+}

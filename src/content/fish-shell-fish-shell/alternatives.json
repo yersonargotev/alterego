@@ -1,0 +1,76 @@
+{
+  "projectName": "fish-shell",
+  "projectPurpose": "To provide a highly user-friendly, interactive, and discoverable command-line shell experience with advanced features working out of the box.",
+  "platforms": [
+    "macOS",
+    "Linux",
+    "Windows (via WSL)"
+  ],
+  "mainFeatures": [
+    "Syntax highlighting",
+    "Autosuggest-as-you-type",
+    "Fancy tab completions (no configuration required)",
+    "Web-based configuration",
+    "Universal variables"
+  ],
+  "website": "https://fishshell.com/",
+  "alternatives": [
+    {
+      "name": "Bash",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "Unix-like",
+        "macOS",
+        "Windows (via WSL, Cygwin, MSYS)",
+        "Android",
+        "Oracle Solaris"
+      ],
+      "mainFeatures": [
+        "Command-line editing",
+        "Command history",
+        "Programmable command completion",
+        "Shell scripting",
+        "Job control"
+      ],
+      "website": "https://www.gnu.org/software/bash/"
+    },
+    {
+      "name": "Zsh",
+      "license": "Open Source - MIT-like",
+      "platforms": [
+        "Unix-like",
+        "macOS",
+        "Kali Linux",
+        "Windows (via UnxUtils, WSL)"
+      ],
+      "mainFeatures": [
+        "Programmable command-line completion",
+        "Extended file globbing",
+        "Themeable prompts",
+        "Spelling correction and autofill",
+        "Shared command history"
+      ],
+      "website": "https://www.zsh.org/"
+    },
+    {
+      "name": "PowerShell Core",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Object-based pipeline",
+        "Cmdlets",
+        "Task automation and configuration management",
+        "Cross-platform scripting",
+        "Integration with structured data and APIs"
+      ],
+      "website": "https://learn.microsoft.com/en-us/powershell/"
+    }
+  ],
+  "mostWellKnownAlternative": "Bash",
+  "marketPositioning": "Fish positions itself as 'The user-friendly command line shell', prioritizing ease of use and out-of-the-box functionality over strict POSIX compliance. Its market position is as a modern, interactive shell that provides advanced features like autosuggestions and rich tab completions with minimal configuration, appealing to users who want a more intuitive command-line experience compared to traditional shells like Bash and Zsh, which often require extensive customization for similar features. Its web-based configuration tool further enhances its user-friendly approach."
+}

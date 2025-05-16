@@ -1,0 +1,113 @@
+{
+  "projectName": "ripgrep",
+  "projectPurpose": "To provide a fast, efficient, and user-friendly command-line tool for recursively searching directories for text patterns using regular expressions, especially optimized for code search, by respecting ignore files and leveraging modern performance techniques.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Recursively searches directories for a regex pattern",
+    "Respects .gitignore rules by default",
+    "Automatically skips hidden files, directories, and binary files",
+    "Extremely fast search performance",
+    "Full Unicode support",
+    "Optional PCRE2 regex engine support",
+    "Supports searching specific file types and excluding others",
+    "Can search compressed files",
+    "Highlights matches with color",
+    "Parallel directory traversal"
+  ],
+  "website": "https://github.com/BurntSushi/ripgrep",
+  "alternatives": [
+    {
+      "name": "grep",
+      "license": "Open Source - GNU GPL v3+",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Searches plain text using regular expressions",
+        "Recursively searches files and directories",
+        "Supports basic and extended regular expressions",
+        "Options for case-insensitive search and inverted matching",
+        "Can show line numbers and colorized output"
+      ],
+      "website": "https://www.gnu.org/software/grep/"
+    },
+    {
+      "name": "ack",
+      "license": "Open Source - Artistic License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Designed for programmers to search code",
+        "Intelligently skips VCS directories (.git, .svn, .hg)",
+        "Recognizes and filters by file types",
+        "Highlights search results",
+        "User-friendly for code search"
+      ],
+      "website": "https://beyondgrep.com/"
+    },
+    {
+      "name": "The Silver Searcher (ag)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Fast code-searching tool",
+        "Ignores .gitignore, .hgignore, and .ignore files",
+        "Uses multiple CPU cores for parallel search",
+        "Supports regex and literal string searching",
+        "Editor integrations"
+      ],
+      "website": "https://github.com/ggreer/the_silver_searcher"
+    },
+    {
+      "name": "git grep",
+      "license": "Open Source - GNU GPL (part of Git)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Searches patterns in files tracked by Git",
+        "Respects .gitignore by default",
+        "Faster than standard grep in Git repositories",
+        "Can search object history"
+      ],
+      "website": "https://git-scm.com/docs/git-grep"
+    },
+    {
+      "name": "Platinum Searcher (pt)",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Fast code search tool",
+        "Similar interface to The Silver Searcher (ag)",
+        "Supports .gitignore and .ignore files",
+        "Written in Go"
+      ],
+      "website": "https://github.com/monochromegane/the_platinum_searcher"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "grep"
+  ],
+  "marketPositioning": "Ripgrep is positioned as the leading high-performance, modern command-line search tool specifically optimized for developers and codebases. It builds upon the core functionality of traditional tools like grep and the developer-focused features of ack and The Silver Searcher, but significantly surpasses them in speed and efficiency through its Rust implementation, parallel processing, and intelligent defaults like comprehensive .gitignore support and full Unicode handling. It aims to be the fastest and most capable recursive regex search tool available, offering first-class support across major operating systems."
+}

@@ -1,0 +1,99 @@
+{
+  "projectName": "rpgp",
+  "projectPurpose": "To provide a robust, secure, and flexible library for implementing OpenPGP functionality in applications, specifically focusing on a pure Rust implementation with a permissive license.",
+  "platforms": [
+    "Cross-platform (where Rust is supported, including Windows, macOS, Linux, Android, iOS, and experimental WASM)"
+  ],
+  "mainFeatures": [
+    "Pure Rust implementation of OpenPGP",
+    "Permissive licensing (MIT or Apache 2.0)",
+    "Implements RFC9580 (including v6 keys and AEAD) and older RFCs (RFC4880, RFC6637)",
+    "Provides a flexible low-level API",
+    "Used as a library in other applications"
+  ],
+  "website": "https://github.com/rpgp/rpgp",
+  "alternatives": [
+    {
+      "name": "GnuPG (GNU Privacy Guard)",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Complete OpenPGP implementation",
+        "Command-line tool",
+        "Versatile key management",
+        "Supports S/MIME and SSH"
+      ],
+      "website": "https://gnupg.org/"
+    },
+    {
+      "name": "Sequoia PGP",
+      "license": "Open Source (More restrictive than rpgp's permissive license)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Modular OpenPGP implementation in Rust",
+        "Focuses on safety and correctness",
+        "Aims to be a GnuPG replacement tool",
+        "Supports OpenPGP RFC9580"
+      ],
+      "website": "https://sequoia-pgp.org/"
+    },
+    {
+      "name": "OpenPGP.js",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web",
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "OpenPGP implementation in JavaScript",
+        "Used for web and Node.js applications",
+        "Supports encryption and decryption",
+        "Supports signing and verification"
+      ],
+      "website": "https://openpgpjs.org/"
+    },
+    {
+      "name": "Bouncy Castle",
+      "license": "Open Source (Dual licensed under the Bouncy Castle Licence and the MIT Licence)",
+      "platforms": [
+        "Java",
+        "C#"
+      ],
+      "mainFeatures": [
+        "Cryptography APIs",
+        "Low-level OpenPGP implementation",
+        "Supports a wide range of algorithms"
+      ],
+      "website": "https://www.bouncycastle.org/"
+    },
+    {
+      "name": "PGPainless",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java"
+      ],
+      "mainFeatures": [
+        "High-level OpenPGP library for Java",
+        "Simplifies OpenPGP usage",
+        "Supports key generation",
+        "Supports encryption and decryption",
+        "Supports signing and verification"
+      ],
+      "website": "https://pgpainless.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GnuPG"
+  ],
+  "marketPositioning": "rPGP is positioned as a foundational OpenPGP library for developers, particularly within the Rust ecosystem, emphasizing a pure Rust implementation for enhanced safety and memory safety. Its permissive MIT/Apache 2.0 license distinguishes it from some alternatives, making it suitable for a wider range of integration scenarios. Unlike comprehensive end-user tools like GnuPG or direct command-line replacements like Sequoia's `sq`, rpgp focuses on providing a flexible, low-level API for embedding OpenPGP capabilities into other applications. Its use in projects like Delta Chat and various Rust-based development tools highlights its role as a core library component."
+}

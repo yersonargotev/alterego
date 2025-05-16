@@ -1,0 +1,95 @@
+{
+  "projectName": "rust-by-practice",
+  "projectPurpose": "To provide a hands-on learning resource for the Rust programming language through challenging examples, exercises, and projects, helping users transition from beginner to skilled developers.",
+  "platforms": [
+    "Agnostic (requires Rust environment)"
+  ],
+  "mainFeatures": [
+    "Learning Rust through practical examples",
+    "Providing challenging exercises",
+    "Including projects for hands-on application",
+    "Aimed at bridging the gap between beginner and skilled developer"
+  ],
+  "website": "https://github.com/sunface/rust-by-practice",
+  "alternatives": [
+    {
+      "name": "Rustlings",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Small, guided exercises",
+        "Command-line based",
+        "Focus on compiler messages",
+        "Covers Rust fundamentals"
+      ],
+      "website": "https://github.com/rust-lang/rustlings"
+    },
+    {
+      "name": "Rust By Example",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Runnable code examples",
+        "Illustrates Rust concepts",
+        "Available online",
+        "Includes exercises"
+      ],
+      "website": "https://doc.rust-lang.org/stable/rust-by-example/"
+    },
+    {
+      "name": "The Rust Programming Language (The Book)",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Web",
+        "Print"
+      ],
+      "mainFeatures": [
+        "Comprehensive language overview",
+        "Concept explanations",
+        "Includes project chapters",
+        "Official Rust documentation"
+      ],
+      "website": "https://doc.rust-lang.org/book/"
+    },
+    {
+      "name": "Exercism.org (Rust Track)",
+      "license": "Open Source (Exercises and website code)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Coding exercises with increasing difficulty",
+        "Automated test checks",
+        "Community-based code review",
+        "Covers various language features"
+      ],
+      "website": "https://exercism.org/tracks/rust"
+    },
+    {
+      "name": "Comprehensive Rust (Google)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Web",
+        "PDF"
+      ],
+      "mainFeatures": [
+        "Free course by Google",
+        "Covers basic to advanced topics",
+        "Includes hands-on exercises",
+        "Specialized topics (Android, Embedded, etc.)"
+      ],
+      "website": "https://google.github.io/comprehensive-rust/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Rustlings",
+    "The Rust Programming Language (The Book)"
+  ],
+  "marketPositioning": "rust-by-practice is positioned as a hands-on learning resource that complements introductory materials like 'The Book' and Rustlings. While those resources focus on fundamentals and initial exposure, rust-by-practice aims to deepen understanding and build practical skills through a wider range of challenging examples, exercises, and projects, targeting learners who want to solidify their knowledge and bridge the gap to becoming a skilled Rust developer through extensive coding practice."
+}

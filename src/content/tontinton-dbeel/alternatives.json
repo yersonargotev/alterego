@@ -1,0 +1,110 @@
+{
+  "projectName": "dbeel",
+  "projectPurpose": "To explore and implement a high-performance, distributed document database using modern Rust asynchronous programming paradigms and distributed database concepts, serving as a learning exercise.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Distributed architecture",
+    "Thread-per-core architecture",
+    "Document data model",
+    "Leaderless replication with tunable consistency",
+    "LSM Tree storage engine",
+    "io_uring and Direct I/O support"
+  ],
+  "website": "https://github.com/tontinton/dbeel",
+  "alternatives": [
+    {
+      "name": "MongoDB",
+      "license": "Server Side Public License (SSPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Document data model (BSON)",
+        "Ad hoc queries",
+        "Indexing",
+        "Replication",
+        "Sharding"
+      ],
+      "website": "https://www.mongodb.com/"
+    },
+    {
+      "name": "Apache CouchDB",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Document data model (JSON)",
+        "ACID properties",
+        "Offline synchronization",
+        "Replication",
+        "HTTP API"
+      ],
+      "website": "https://couchdb.apache.org/"
+    },
+    {
+      "name": "Couchbase",
+      "license": "Community Edition (Apache License 2.0), Enterprise Edition (Proprietary)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Document data model (JSON)",
+        "Key-value store",
+        "Built-in caching",
+        "Distributed architecture",
+        "N1QL query language"
+      ],
+      "website": "https://www.couchbase.com/"
+    },
+    {
+      "name": "Apache Cassandra",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS (via Docker)",
+        "Windows (via Docker)",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Wide-column store",
+        "Distributed architecture",
+        "High availability",
+        "Linear scalability",
+        "Tunable consistency"
+      ],
+      "website": "https://cassandra.apache.org/"
+    },
+    {
+      "name": "ScyllaDB",
+      "license": "Open Source - Apache License 2.0, Enterprise Edition (Proprietary)",
+      "platforms": [
+        "Linux",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Wide-column store (Cassandra compatible)",
+        "Thread-per-core architecture",
+        "High performance",
+        "Low latency",
+        "Auto-tuning"
+      ],
+      "website": "https://www.scylladb.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "MongoDB"
+  ],
+  "marketPositioning": "dbeel is positioned as a high-performance, distributed document database project leveraging a thread-per-core architecture for optimal efficiency on modern multi-core systems. Unlike established, production-ready document databases such as MongoDB or Couchbase, dbeel is currently a hobby/learning project. Its unique blend of a document model with performance-oriented thread-per-core design, inspired by databases like ScyllaDB, places it in a niche focused on exploring cutting-edge database implementation techniques rather than being a direct competitor in the current database market."
+}

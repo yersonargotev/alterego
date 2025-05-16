@@ -1,0 +1,90 @@
+{
+  "projectName": "sway",
+  "projectPurpose": "To provide a modern, safe, and efficient domain-specific programming language and associated tooling for developing smart contracts on the Fuel blockchain platform, improving upon existing smart contract languages with Rust-inspired features and a focus on developer experience, performance, and security.",
+  "platforms": [
+    "Fuel Virtual Machine (FuelVM)"
+  ],
+  "mainFeatures": [
+    "Domain-specific programming language for smart contracts",
+    "Inspired by Rust",
+    "Targets the Fuel Virtual Machine (FuelVM)",
+    "Modern language features (generics, algebraic types, trait-based polymorphism)",
+    "Integrated and unified toolchain (LSP server, formatter, documentation generation, deployment tools)",
+    "Strong typing",
+    "Extensive static analysis for security",
+    "Designed for performance, fine-grained control, and gas cost optimization",
+    "Supports four program types: Contract, Library, Script, and Predicate",
+    "Contracts are callable and stateful",
+    "Uses ABI declarations for contract interfaces",
+    "Default safe math (overflow/exception is a panic)",
+    "Global reverts (panics cannot be caught)",
+    "No practical code size limit",
+    "Solidity to Sway transpiler"
+  ],
+  "website": "https://github.com/FuelLabs/sway",
+  "alternatives": [
+    {
+      "name": "Solidity",
+      "license": "Open Source - GNU General Public License v3.0",
+      "platforms": [
+        "Ethereum Virtual Machine (EVM) and compatible chains (Ethereum, Polygon, Binance Smart Chain, Avalanche, etc.)"
+      ],
+      "mainFeatures": [
+        "Statically typed, object-oriented language",
+        "Designed for the Ethereum Virtual Machine (EVM)",
+        "Supports inheritance, libraries, and complex user-defined types",
+        "Turing complete",
+        "Syntax inspired by C++, Python, and JavaScript"
+      ],
+      "website": "https://soliditylang.org/"
+    },
+    {
+      "name": "Vyper",
+      "license": "Open Source",
+      "platforms": [
+        "Ethereum Virtual Machine (EVM)"
+      ],
+      "mainFeatures": [
+        "Pythonic programming language for smart contracts",
+        "Prioritizes security, simplicity, and auditability",
+        "Strong typing, bounds and overflow checking",
+        "Decidability (gas consumption upper bound)",
+        "Intentionally omits certain Solidity features for security"
+      ],
+      "website": "https://vyper.readthedocs.io/en/stable/"
+    },
+    {
+      "name": "Clarity",
+      "license": "Open Source",
+      "platforms": [
+        "Stacks blockchain (integrated with Bitcoin)"
+      ],
+      "mainFeatures": [
+        "Decidable language, outcomes known from code",
+        "Interpreted, source code published on blockchain",
+        "Optimizes for predictability and security",
+        "Turing incomplete",
+        "Read access to the Bitcoin chain",
+        "Emphasizes composition over inheritance"
+      ],
+      "website": "https://docs.stacks.co/clarity"
+    },
+    {
+      "name": "Rust",
+      "license": "Open Source - MIT License and Apache License 2.0 (Dual-licensed)",
+      "platforms": [
+        "Blockchains supporting WebAssembly (Wasm) for smart contracts (e.g., Solana, NEAR, Polkadot, ICP)"
+      ],
+      "mainFeatures": [
+        "Focus on memory safety and performance",
+        "Systems programming language",
+        "Strong static analysis",
+        "Used for blockchain runtimes and smart contracts (Wasm)",
+        "Modern language features and strong type system"
+      ],
+      "website": "https://www.rust-lang.org/"
+    }
+  ],
+  "mostWellKnownAlternative": "Solidity",
+  "marketPositioning": "Sway is positioned as the native, modern, safe, and high-performance smart contract programming language for the Fuel network. By drawing heavy inspiration from Rust, it emphasizes developer experience, strong typing, static analysis, and efficient execution tailored for the Fuel Virtual Machine (FuelVM). It distinguishes itself from established EVM-based languages like Solidity and Vyper by targeting a different virtual machine optimized for parallel processing and offering a development paradigm familiar to Rust developers. Its domain-specific nature allows for targeted optimizations for the blockchain environment. The inclusion of a Solidity transpiler also suggests a strategy to attract developers from the most dominant smart contract ecosystem."
+}

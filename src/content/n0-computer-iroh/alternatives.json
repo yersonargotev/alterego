@@ -1,0 +1,97 @@
+{
+  "projectName": "iroh",
+  "projectPurpose": "To provide a simple, reliable, and secure toolkit for establishing peer-to-peer connections and building distributed applications, abstracting away complex networking concerns.",
+  "platforms": [],
+  "mainFeatures": [
+    "Peer-to-peer connectivity",
+    "Direct connections using QUIC",
+    "Connection establishment via hole punching and relay servers",
+    "Authenticated and end-to-end encrypted connections",
+    "Facilities for data transfer and state synchronization",
+    "Support for pluggable application-level protocols"
+  ],
+  "website": "https://github.com/n0-computer/iroh",
+  "alternatives": [
+    {
+      "name": "Syncthing",
+      "license": "Open Source - MPL-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Solaris",
+        "Darwin",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Decentralized architecture",
+        "Peer-to-peer file synchronization",
+        "End-to-end encryption",
+        "NAT punching and relaying",
+        "Web-based GUI"
+      ],
+      "website": "https://syncthing.net/"
+    },
+    {
+      "name": "Resilio Sync",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Windows Phone",
+        "Amazon Kindle Fire",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Peer-to-peer file synchronization",
+        "Based on modified BitTorrent protocol",
+        "End-to-end encryption",
+        "Selective Sync",
+        "Cross-platform support"
+      ],
+      "website": "https://www.resilio.com/individuals/"
+    },
+    {
+      "name": "IPFS (InterPlanetary File System)",
+      "license": "Open Source - MIT, Apache License 2.0",
+      "platforms": [
+        "Cross-platform (various implementations and clients)"
+      ],
+      "mainFeatures": [
+        "Content-addressed file storage",
+        "Decentralized peer-to-peer architecture",
+        "Distributed Hash Table (DHT)",
+        "Versioned file system",
+        "Used in decentralized applications"
+      ],
+      "website": "https://ipfs.tech/"
+    },
+    {
+      "name": "WebTorrent",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Streaming torrent client for web and desktop",
+        "Uses WebRTC for P2P in browser",
+        "Connects to BitTorrent and WebTorrent peers",
+        "Streams while downloading"
+      ],
+      "website": "https://webtorrent.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "IPFS (InterPlanetary File System)",
+    "Syncthing"
+  ],
+  "marketPositioning": "Iroh is positioned as a developer toolkit for building reliable and performant peer-to-peer applications. Unlike end-user file synchronization tools (like Syncthing or Resilio Sync), iroh provides a lower-level library focused on simplifying P2P connectivity and data exchange using QUIC, handling complexities like NAT traversal automatically. Compared to decentralized protocols like IPFS, which focuses on content addressing and distributed storage, iroh appears more focused on direct, secure peer-to-peer communication and state synchronization between specific nodes, offering a foundation for a wider range of custom distributed applications beyond just file storage and retrieval."
+}

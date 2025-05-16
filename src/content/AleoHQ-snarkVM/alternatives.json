@@ -1,0 +1,97 @@
+{
+  "projectName": "snarkVM",
+  "projectPurpose": "To provide a virtual machine environment specifically designed for executing programs using zero-knowledge proofs, enabling private and verifiable computation off-chain, particularly within the Aleo blockchain ecosystem.",
+  "platforms": [
+    "Likely Linux, macOS (based on Rust development and blockchain focus)"
+  ],
+  "mainFeatures": [
+    "Virtual Machine for zero-knowledge executions",
+    "Enables privacy-preserving computation",
+    "Generates zero-knowledge proofs (zk-SNARKs)",
+    "Executes Aleo programs (Aleo Instructions/compiled Leo)",
+    "Command-line interface for program development",
+    "Supports hardware acceleration (e.g., CUDA via feature flags)"
+  ],
+  "website": "https://github.com/AleoHQ/snarkVM",
+  "alternatives": [
+    {
+      "name": "RISC Zero",
+      "license": "Open Source (Apache 2.0 / MIT)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "General-purpose zkVM based on RISC-V",
+        "Proves execution of standard code",
+        "Separates computation from consensus",
+        "Focuses on verifiable computation broadly"
+      ],
+      "website": "https://www.risczero.com/"
+    },
+    {
+      "name": "Polygon Miden",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Likely Linux, macOS, Windows (Rust-based)"
+      ],
+      "mainFeatures": [
+        "STARK-based zero-knowledge virtual machine",
+        "Aims for general-purpose computation",
+        "Beyond EVM compatibility focus",
+        "Designed for efficiency and scalability"
+      ],
+      "website": "https://github.com/0xPolygonMiden/miden-vm"
+    },
+    {
+      "name": "zkSync Era",
+      "license": "Open Source (MIT/Apache 2.0)",
+      "platforms": [
+        "Web (Layer 2 network)",
+        "Likely Linux, macOS, Windows (for dev tools)"
+      ],
+      "mainFeatures": [
+        "zkEVM (Zero-Knowledge Ethereum Virtual Machine)",
+        "Supports Solidity via a compiler",
+        "Different bytecode format than EVM",
+        "Layer 2 scaling solution for Ethereum"
+      ],
+      "website": "https://zksync.io/"
+    },
+    {
+      "name": "Scroll",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Web (Layer 2 network)",
+        "Likely Linux, macOS, Windows (for dev tools)"
+      ],
+      "mainFeatures": [
+        "zkEVM aiming for high EVM compatibility",
+        "Layer 2 scaling solution for Ethereum",
+        "Bytecode compatible with EVM"
+      ],
+      "website": "https://scroll.io/"
+    },
+    {
+      "name": "StarkNet (Cairo VM)",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Web (Layer 2 network)",
+        "Likely Linux, macOS, Windows (for dev tools)"
+      ],
+      "mainFeatures": [
+        "Permissionless decentralized ZK-Rollup",
+        "Uses the Cairo VM for ZK execution",
+        "Layer 2 network on Ethereum",
+        "Focuses on scalability and provable computation"
+      ],
+      "website": "https://starkware.co/starknet/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Polygon zkEVM",
+    "zkSync Era"
+  ],
+  "marketPositioning": "snarkVM is positioned as the foundational off-chain execution environment for the Aleo blockchain, specifically tailored for private, programmable computations using zk-SNARKs. Unlike many alternatives focused on EVM compatibility for Ethereum scaling, snarkVM is integral to Aleo's native privacy-preserving Layer 1 architecture. It executes programs written for the Aleo ecosystem (Aleo Instructions/Leo) and works in conjunction with SnarkOS for on-chain proof verification. Its market is centered around developers and users building and interacting with private applications on Aleo, emphasizing privacy through ZK executions."
+}

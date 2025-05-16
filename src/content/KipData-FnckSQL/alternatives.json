@@ -1,0 +1,64 @@
+{
+  "projectName": "FnckSQL",
+  "projectPurpose": "To provide a functional approach to embedding and executing SQL queries within Rust applications.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "SQL as a Function paradigm",
+    "Functional query composition",
+    "Idiomatic Rust interface",
+    "Database interaction library"
+  ],
+  "website": "https://github.com/KipData/FnckSQL",
+  "alternatives": [
+    {
+      "name": "Diesel",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust (cross-platform)"
+      ],
+      "mainFeatures": [
+        "ORM capabilities",
+        "Query builder",
+        "Type-safe queries",
+        "Database migrations",
+        "Supports PostgreSQL, MySQL, SQLite"
+      ],
+      "website": "https://diesel.rs/"
+    },
+    {
+      "name": "sqlx",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Rust (cross-platform, async)"
+      ],
+      "mainFeatures": [
+        "Asynchronous database driver",
+        "Pure Rust implementation",
+        "Compile-time checked queries",
+        "Supports PostgreSQL, MySQL, SQLite, MSSQL"
+      ],
+      "website": "https://github.com/launchbadge/sqlx"
+    },
+    {
+      "name": "SeaORM",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust (cross-platform, async)"
+      ],
+      "mainFeatures": [
+        "Async ORM",
+        "Dynamic query builder",
+        "Type-safe entity/model definition",
+        "Supports PostgreSQL, MySQL, SQLite"
+      ],
+      "website": "https://www.sea-ql.org/SeaORM/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Diesel",
+    "sqlx"
+  ],
+  "marketPositioning": "FnckSQL positions itself as a unique alternative to traditional Rust ORMs and database drivers by implementing a \"SQL as a Function\" paradigm. This approach aims to provide a functional and potentially more idiomatic way to compose and execute SQL queries directly within Rust code, differentiating it from libraries that focus on full ORM mapping or more traditional query builder patterns."
+}

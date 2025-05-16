@@ -1,0 +1,118 @@
+{
+  "projectName": "cryo",
+  "projectPurpose": "To provide a fast, flexible, and easy-to-use command-line interface and Python library for developers and researchers to extract raw or structured blockchain data from various EVM-compatible networks and output it into common data formats for analysis and storage.",
+  "platforms": [
+    "Command Line",
+    "Python Library"
+  ],
+  "mainFeatures": [
+    "Extracts blockchain data (blocks, transactions, logs, traces, storage diffs)",
+    "Outputs data to parquet, csv, json, or python dataframes",
+    "Flexible filtering by block ranges, contracts, columns, and events",
+    "High-performance data extraction powered by Rust",
+    "Supports multiple EVM-compatible blockchain networks"
+  ],
+  "website": "https://github.com/paradigmxyz/cryo",
+  "alternatives": [
+    {
+      "name": "The Graph",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Self-hosted"
+      ],
+      "mainFeatures": [
+        "Decentralized protocol for indexing blockchain data",
+        "Query data using GraphQL APIs (Subgraphs)",
+        "Supports a wide range of blockchain networks",
+        "Offers real-time data streams (Substreams)",
+        "Provides a hosted service and decentralized network"
+      ],
+      "website": "https://thegraph.com/"
+    },
+    {
+      "name": "Dune Analytics",
+      "license": "Proprietary (with free tier)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Platform for querying blockchain data using SQL",
+        "Community-driven dashboards and visualizations",
+        "Supports multiple blockchain networks",
+        "Provides real-time data updates",
+        "Focuses on analytics for DeFi, NFTs, etc."
+      ],
+      "website": "https://dune.com/"
+    },
+    {
+      "name": "Nansen",
+      "license": "Proprietary (with limited free plan)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Blockchain analytics platform with wallet labeling ('Smart Money')",
+        "Dashboards for tracking on-chain activity and trends",
+        "Real-time data and alerts",
+        "Supports multiple blockchains",
+        "In-depth analytics on tokens, NFTs, and wallets"
+      ],
+      "website": "https://www.nansen.ai/"
+    },
+    {
+      "name": "SubQuery Network",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Web",
+        "Self-hosted",
+        "SDK"
+      ],
+      "mainFeatures": [
+        "Decentralized data indexing framework",
+        "Provides custom APIs for web3 projects",
+        "Open-source indexer SDK",
+        "Supports cross-chain data aggregation",
+        "Decentralized network of indexers and RPC providers"
+      ],
+      "website": "https://subquery.network/"
+    },
+    {
+      "name": "TrueBlocks",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Desktop"
+      ],
+      "mainFeatures": [
+        "Local indexing of Ethereum blockchain data",
+        "Query transaction history and wallet balances",
+        "Can work offline",
+        "Supports EVM-based chains",
+        "Human-readable output using contract ABIs ('articulation')"
+      ],
+      "website": "https://trueblocks.io/"
+    },
+    {
+      "name": "Subsquid",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "SDK"
+      ],
+      "mainFeatures": [
+        "Data network for efficient blockchain data retrieval",
+        "Open-source SDK for data extraction and transformation",
+        "ETL capabilities",
+        "GraphQL server for querying indexed data",
+        "Supports a large number of chains (EVM and Substrate)"
+      ],
+      "website": "https://www.subsquid.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Dune Analytics",
+    "The Graph"
+  ],
+  "marketPositioning": "cryo positions itself as a high-performance, flexible data extraction tool for blockchain data, focusing on providing raw or structured data in common formats (parquet, csv, json, dataframes) for developers and researchers. Unlike end-to-end analytics platforms or indexing protocols that offer querying APIs, cryo specializes in the initial data fetching phase. Its command-line and Python interfaces, combined with Rust's performance, make it suitable for programmatic access and large-scale data processing, filling a niche for users who need to integrate blockchain data into their existing data pipelines and analysis workflows.",
+  "expandedDescription": "cryo is a powerful and flexible open-source command-line interface and Python library built in Rust, designed to streamline the extraction of blockchain data from various EVM-compatible networks. It provides developers, data scientists, and researchers with an efficient way to fetch raw or structured blockchain information, including blocks, transactions, logs, and traces. Unlike platforms focused on analysis or indexed querying, cryo specializes in the crucial data extraction step, outputting data directly into widely compatible formats such as Parquet, CSV, JSON, and native Python dataframes (Pandas, Polars). This allows seamless integration with existing data analysis pipelines and tools. With extensive options for filtering by block ranges, contract addresses, specific columns, or event signatures, and the ability to manage request rates for third-party RPC providers, cryo offers granular control and high performance for accessing and processing large volumes of on-chain data."
+}

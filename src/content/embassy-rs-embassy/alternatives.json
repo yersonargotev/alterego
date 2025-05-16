@@ -1,0 +1,106 @@
+{
+  "projectName": "embassy",
+  "projectPurpose": "To provide a modern and efficient framework for developing software for embedded systems using the Rust programming language and its asynchronous programming capabilities.",
+  "platforms": [
+    "Embedded systems (various microcontrollers)"
+  ],
+  "mainFeatures": [
+    "Embedded framework",
+    "Uses Rust programming language",
+    "Leverages async/await for concurrency",
+    "Targets embedded systems"
+  ],
+  "website": "https://github.com/embassy-rs/embassy",
+  "alternatives": [
+    {
+      "name": "FreeRTOS",
+      "license": "Open Source - MIT (Commercial options available)",
+      "platforms": [
+        "ARM",
+        "x86",
+        "RISC-V",
+        "Various microcontrollers (40+ architectures)"
+      ],
+      "mainFeatures": [
+        "Priority-based preemptive task scheduling",
+        "Inter-task communication and synchronization primitives (queues, semaphores, mutexes)",
+        "Software timers",
+        "Low-power tickless mode",
+        "Modular with optional libraries for networking, security, etc."
+      ],
+      "website": "https://www.freertos.org/"
+    },
+    {
+      "name": "Zephyr Project",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "ARM",
+        "x86",
+        "RISC-V",
+        "ARC",
+        "Nios II",
+        "Various architectures"
+      ],
+      "mainFeatures": [
+        "Scalable real-time operating system",
+        "Comprehensive connectivity support (Bluetooth, Thread, Wi-Fi, Ethernet)",
+        "Strong focus on security",
+        "Wide hardware support",
+        "Rich development toolset"
+      ],
+      "website": "https://www.zephyrproject.org/"
+    },
+    {
+      "name": "RIOT OS",
+      "license": "Open Source - LGPLv2.1",
+      "platforms": [
+        "8-bit, 16-bit, and 32-bit microcontrollers (ARM Cortex-M, AVR, MSP430, ESP32, RISC-V)",
+        "Linux (Native port)",
+        "BSD (Native port)"
+      ],
+      "mainFeatures": [
+        "Microkernel architecture",
+        "Energy-efficiency and small memory footprint",
+        "Real-time capabilities and modularity",
+        "Multiple network stacks (IPv6, 6LoWPAN, CoAP, MQTT, BLE, LoRaWAN)",
+        "Supports C, C++, and Rust"
+      ],
+      "website": "https://www.riot-os.org/"
+    },
+    {
+      "name": "Mbed OS",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "32-bit ARM Cortex-M microcontrollers"
+      ],
+      "mainFeatures": [
+        "Designed for IoT devices",
+        "Includes an RTOS core",
+        "Standardized APIs",
+        "Connectivity and security features",
+        "Integrated development tools"
+      ],
+      "website": "https://os.mbed.com/"
+    },
+    {
+      "name": "RTIC",
+      "license": "Open Source (Typically MIT/Apache 2.0)",
+      "platforms": [
+        "ARM Cortex-M",
+        "RISC-V (with CLIC)"
+      ],
+      "mainFeatures": [
+        "Real-Time Interrupt-driven Concurrency framework",
+        "Hardware-accelerated task scheduling",
+        "Compile-time guarantees against data races and deadlocks (SRP)",
+        "Preemptive multitasking",
+        "Memory efficient (shared stack)"
+      ],
+      "website": "https://github.com/rust-embedded/cortex-m-rtic"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "FreeRTOS"
+  ],
+  "marketPositioning": "Embassy is positioned as a modern, Rust-native embedded framework that strongly emphasizes the use of the async/await programming model for concurrency. While it competes with established embedded operating systems and RTOSes like FreeRTOS, Zephyr, RIOT, and Mbed OS, which are primarily C/C++ based (though some offer Rust support), Embassy differentiates itself by being built from the ground up for Rust and its async capabilities. It targets developers who prioritize Rust's safety features and wish to leverage a modern, asynchronous approach to embedded software development, standing alongside other Rust-based efforts like RTIC but with a distinct focus on async."
+}

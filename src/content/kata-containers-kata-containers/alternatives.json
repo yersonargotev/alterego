@@ -1,0 +1,81 @@
+{
+  "projectName": "kata-containers",
+  "projectPurpose": "To provide a secure container runtime that leverages lightweight virtualization for enhanced isolation and security.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Lightweight Virtual Machines (VMs) for isolation",
+    "Container-like feel and performance",
+    "Strong workload isolation via hardware virtualization",
+    "Seamless integration with container orchestrators (e.g., Kubernetes via CRI)",
+    "Open Source and community-driven"
+  ],
+  "website": "https://katacontainers.io/",
+  "alternatives": [
+    {
+      "name": "gVisor",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Application kernel in userspace",
+        "System call interception",
+        "Strong isolation without full VMs",
+        "OCI runtime compliant (runsc)"
+      ],
+      "website": "https://gvisor.dev/"
+    },
+    {
+      "name": "Firecracker",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Lightweight microVMs",
+        "Minimized attack surface",
+        "Optimized for serverless workloads",
+        "Fast startup time"
+      ],
+      "website": "https://firecracker-microvm.github.io/"
+    },
+    {
+      "name": "crun",
+      "license": "Open Source - GPL-2.0-or-later",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast and lightweight OCI runtime",
+        "Written in C",
+        "Supports cgroups v2",
+        "Uses standard Linux isolation"
+      ],
+      "website": "https://github.com/containers/crun"
+    },
+    {
+      "name": "runC",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "OCI runtime specification implementation",
+        "Default runtime for Docker and containerd",
+        "Basic container lifecycle management",
+        "Relies on Linux namespaces and cgroups"
+      ],
+      "website": "https://github.com/opencontainers/runc"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Docker",
+    "runC",
+    "gVisor",
+    "Firecracker"
+  ],
+  "marketPositioning": "Kata Containers is positioned as a secure, production-ready container runtime that bridges the gap between traditional containers and Virtual Machines. It targets users and organizations requiring stronger workload isolation than standard container runtimes can provide, particularly for multi-tenant environments or running untrusted code. By using lightweight VMs, it offers enhanced security without the full overhead of traditional VMs, differentiating it from namespace/cgroup-based runtimes (like runC, crun) and offering a different isolation approach compared to user-space kernel runtimes (like gVisor). Its compatibility with standard container interfaces like CRI allows for easy adoption within existing container orchestration platforms."
+}

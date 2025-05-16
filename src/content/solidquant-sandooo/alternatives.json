@@ -1,0 +1,135 @@
+{
+  "projectName": "sandooo",
+  "projectPurpose": "To automate the execution of 'sandwich attacks' in decentralized finance (DeFi) trading.",
+  "platforms": [],
+  "mainFeatures": [
+    "Automated detection of sandwich opportunities in DeFi",
+    "Automated execution of buy and sell orders around large transactions",
+    "Interaction with decentralized exchanges (DEXs)",
+    "Designed for low-latency and high-frequency trading (inferred from purpose and language)"
+  ],
+  "website": "https://github.com/solidquant/sandooo",
+  "alternatives": [
+    {
+      "name": "Freqtrade",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Free and open source",
+        "Supports major crypto exchanges",
+        "Backtesting and strategy optimization",
+        "Telegram and web UI control"
+      ],
+      "website": "https://www.freqtrade.io/"
+    },
+    {
+      "name": "Hummingbot",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Open-source framework for bot building",
+        "Supports centralized and decentralized exchanges",
+        "Market making strategies",
+        "Arbitrage strategies"
+      ],
+      "website": "https://hummingbot.org/"
+    },
+    {
+      "name": "Superalgos",
+      "license": "Open Source - Community-owned",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Visual scripting environment",
+        "Data mining and visualization",
+        "Strategy design and testing (backtesting, paper trading)",
+        "Crypto trading automation"
+      ],
+      "website": "https://superalgos.org/"
+    },
+    {
+      "name": "Zenbot",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Command-line interface",
+        "Supports multiple exchanges",
+        "Technical analysis strategies",
+        "Backtesting and paper trading"
+      ],
+      "website": "https://github.com/DeviaVir/zenbot"
+    },
+    {
+      "name": "MetaTrader 5",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Multi-asset trading (Forex, stocks, CFDs, futures, crypto via CFDs)",
+        "Algorithmic trading (Expert Advisors)",
+        "Technical and fundamental analysis tools",
+        "Market Depth feature"
+      ],
+      "website": "https://www.metaquotes.net/metatrader5"
+    },
+    {
+      "name": "TradingView",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Advanced charting and analysis tools",
+        "Real-time market data",
+        "Pine Script for custom indicators and strategies",
+        "Social networking for traders"
+      ],
+      "website": "https://www.tradingview.com/"
+    },
+    {
+      "name": "Gekko",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Open source trading bot platform",
+        "Technical analysis indicator-based strategies",
+        "Backtesting and paper trading",
+        "Web interface"
+      ],
+      "website": "https://gekko trading bot.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "TradingView",
+    "MetaTrader 5"
+  ],
+  "marketPositioning": "sandooo is a highly specialized, open-source tool positioned within the niche area of DeFi algorithmic trading, specifically focused on executing 'sandwich attacks'. Unlike broader trading bots that offer a variety of strategies across different markets, sandooo targets a specific Maximal Extractable Value (MEV) opportunity on decentralized exchanges. Its development in Rust suggests a focus on performance critical for competitive MEV strategies, distinguishing it from general-purpose platforms or bots which may not offer the low-level control and speed required for this specific use case. Its market position is as a tool for advanced users looking to engage in or understand the mechanics of DeFi sandwich trading."
+}

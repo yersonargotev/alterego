@@ -1,0 +1,141 @@
+{
+  "projectName": "Apache OpenDAL",
+  "projectPurpose": "To provide a unified data access layer for various storage services, simplifying application development and preventing vendor lock-in.",
+  "platforms": [
+    "Cross-platform (Library with bindings for multiple languages)"
+  ],
+  "mainFeatures": [
+    "Unified API for diverse storage services (cloud, filesystem, key-value, cache)",
+    "Supports read, write, list, delete, and stat operations via path",
+    "Implemented in Rust for performance and reliability",
+    "Provides bindings for numerous programming languages (Rust, C, C++, Haskell, LUA, Ruby, Swift, Zig, Java, Node.js, Python)",
+    "Includes built-in features like retry, logging, metrics, tracing, timeout, and throttling"
+  ],
+  "website": "https://github.com/apache/opendal",
+  "alternatives": [
+    {
+      "name": "rclone",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Solaris",
+        "Plan9"
+      ],
+      "mainFeatures": [
+        "Sync files and directories to/from cloud storage",
+        "Copy, move, and delete files across storage",
+        "Mount cloud storage as a virtual drive",
+        "Encrypt and decrypt files",
+        "Supports a large number of cloud providers"
+      ],
+      "website": "https://rclone.org/"
+    },
+    {
+      "name": "Apache Libcloud",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform (Python library)"
+      ],
+      "mainFeatures": [
+        "Unified API for multiple cloud provider services (Compute, Storage, DNS, etc.)",
+        "Supports over 30 cloud providers",
+        "Helps avoid vendor lock-in",
+        "Provides abstract interfaces for different cloud resource types"
+      ],
+      "website": "https://libcloud.apache.org/"
+    },
+    {
+      "name": "MinIO Client (mc)",
+      "license": "Open Source - GNU AGPL v3.0 (associated with MinIO server)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Command-line tool for S3-compatible object storage",
+        "Provides Unix-like commands (ls, cp, mirror)",
+        "Supports local filesystems",
+        "Designed for interacting with object storage"
+      ],
+      "website": "https://min.io/docs/minio/linux/reference/minio-client/mc.html"
+    },
+    {
+      "name": "fsspec",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Python library)"
+      ],
+      "mainFeatures": [
+        "Pythonic interface to filesystems and storage systems",
+        "Supports local, HDFS, S3, GCS, Azure, FTP, HTTP, etc.",
+        "Integrates with data science libraries (Pandas, Dask)",
+        "Provides a unified API for file-like operations"
+      ],
+      "website": "https://github.com/fsspec/filesystem_spec"
+    },
+    {
+      "name": "FluentStorage",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (.NET library)"
+      ],
+      "mainFeatures": [
+        "Polycloud .NET cloud storage library",
+        "Unified API for Blob storage and Messaging",
+        "Supports major cloud providers (AWS S3, GCP, Azure, etc.)",
+        "Supports FTP, SFTP protocols",
+        "Provides synchronous and asynchronous methods"
+      ],
+      "website": "https://github.com/robinrodricks/FluentStorage"
+    },
+    {
+      "name": "Unifile",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Node.js library)"
+      ],
+      "mainFeatures": [
+        "Unified access to cloud storage via a web API",
+        "Supports services like Dropbox, GitHub, FTP, SFTP, WebDAV",
+        "Uses OAuth2 for authentication where supported",
+        "Provides a common API similar to Node.js fs module"
+      ],
+      "website": "https://github.com/silexlabs/unifile"
+    },
+    {
+      "name": "Apache jclouds",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform (Java library)"
+      ],
+      "mainFeatures": [
+        "Multi-cloud toolkit for Java",
+        "Provides APIs for compute, blobstore, and other services",
+        "Supports various cloud providers",
+        "Designed for cloud-portable applications"
+      ],
+      "website": "https://jclouds.apache.org/"
+    },
+    {
+      "name": "Cloud Storage (Python)",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Python library, Python +3.5)"
+      ],
+      "mainFeatures": [
+        "Unified API for cloud storage services (S3, Azure, GCS, MinIO, Rackspace)",
+        "Supports local file system",
+        "Generate temporary signed URLs",
+        "Supports request and response headers",
+        "Iterate through containers and blobs"
+      ],
+      "website": "https://pypi.org/project/cloudstorage/"
+    }
+  ],
+  "mostWellKnownAlternative": "rclone",
+  "marketPositioning": "Apache OpenDAL is positioned as a low-level, high-performance, and language-agnostic data access layer (DAL) or storage abstraction library. It serves as a fundamental building block for developers who need a unified API to interact with a wide variety of storage backends (cloud, filesystem, key-value, cache) from different programming languages. Unlike command-line tools like rclone focused on data synchronization and management tasks, OpenDAL provides a programmatic interface for integrating storage access directly into applications. Its key strengths lie in its Rust implementation, extensive language bindings, broad storage service support, and built-in operational features, aiming to be a robust and universal storage connector for developers."
+}

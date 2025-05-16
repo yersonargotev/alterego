@@ -1,0 +1,149 @@
+{
+  "projectName": "rust-ci-cd-template",
+  "projectPurpose": "To provide a pre-configured and opinionated template for setting up Continuous Integration and Continuous Deployment workflows for Rust projects, simplifying and accelerating the adoption of CI/CD practices for Rust developers.",
+  "platforms": [
+    "GitHub Actions (primary intended platform)"
+  ],
+  "mainFeatures": [
+    "Pre-configured CI/CD workflow for Rust projects",
+    "Includes steps for building and testing Rust code (likely using Cargo)",
+    "Likely includes steps for code quality checks (linting, formatting)",
+    "Provides a ready-to-use template file (e.g., for GitHub Actions)",
+    "Aids in establishing consistent CI/CD practices for Rust repositories"
+  ],
+  "website": "https://github.com/ameknite/rust-ci-cd-template",
+  "alternatives": [
+    {
+      "name": "GitHub Actions",
+      "license": "Free for public repositories, usage-based for private",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "ARM",
+        "GPU",
+        "Containers",
+        "Self-hosted"
+      ],
+      "mainFeatures": [
+        "Automate workflows on GitHub events",
+        "Hosted and self-hosted runners",
+        "Matrix builds",
+        "Extensive marketplace for actions",
+        "Built-in secret management"
+      ],
+      "website": "https://github.com/features/actions"
+    },
+    {
+      "name": "GitLab CI/CD",
+      "license": "Free tier, Paid tiers (Premium, Ultimate), Open Source (MIT) for self-managed",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS (via runners)",
+        "Integrates with various deployment environments"
+      ],
+      "mainFeatures": [
+        "Integrated with GitLab repository",
+        "CI/CD as code (.gitlab-ci.yml)",
+        "Auto DevOps",
+        "Integrated security testing",
+        "Container registry"
+      ],
+      "website": "https://about.gitlab.com/topics/ci-cd/"
+    },
+    {
+      "name": "Jenkins",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Cross-platform (Windows, macOS, Linux, etc.)",
+        "Can run in Docker"
+      ],
+      "mainFeatures": [
+        "Highly extensible via plugins",
+        "Supports wide range of tools and languages",
+        "Can be self-hosted",
+        "Integrates with various SCMs",
+        "Large community support"
+      ],
+      "website": "https://www.jenkins.io/"
+    },
+    {
+      "name": "CircleCI",
+      "license": "Usage-based pricing with a free tier",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Docker",
+        "Cloud-hosted",
+        "Self-hosted (Server plan)"
+      ],
+      "mainFeatures": [
+        "Fast builds with parallel jobs",
+        "Customizable workflows",
+        "Integrates with GitHub and Bitbucket",
+        "Reusable configuration (Orbs)",
+        "Release orchestration"
+      ],
+      "website": "https://circleci.com/"
+    },
+    {
+      "name": "Travis CI",
+      "license": "Free for open source, Commercial plans",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (experimental)"
+      ],
+      "mainFeatures": [
+        "Simple YAML configuration",
+        "Integrates with GitHub and Bitbucket",
+        "Build matrices",
+        "Supports many languages",
+        "Notifications"
+      ],
+      "website": "https://travis-ci.com/"
+    },
+    {
+      "name": "Azure DevOps Pipelines",
+      "license": "Free tier, Paid plans",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux (hosted and self-hosted agents)"
+      ],
+      "mainFeatures": [
+        "Supports any language and platform",
+        "Integrates with Azure ecosystem",
+        "YAML pipelines",
+        "Hosted and self-hosted agents",
+        "Flexible deployments"
+      ],
+      "website": "https://azure.microsoft.com/en-us/products/devops/pipelines"
+    },
+    {
+      "name": "Buildkite",
+      "license": "Usage-based pricing with a free tier",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows (via agents)",
+        "Hybrid (run agents on your infrastructure)"
+      ],
+      "mainFeatures": [
+        "Hybrid CI/CD approach",
+        "Run agents on your infrastructure",
+        "Cross-platform support",
+        "Pipeline-as-code",
+        "Comprehensive integrations"
+      ],
+      "website": "https://buildkite.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Jenkins",
+    "GitHub Actions"
+  ],
+  "marketPositioning": "The `rust-ci-cd-template` is positioned not as a CI/CD platform itself, but as a specialized configuration template designed to bootstrap and standardize CI/CD workflows specifically for Rust projects. While alternative platforms like GitHub Actions, GitLab CI/CD, Jenkins, CircleCI, Travis CI, Azure DevOps Pipelines, and Buildkite provide the underlying infrastructure and general-purpose automation capabilities, this template offers a ready-to-use, opinionated setup tailored to the Rust ecosystem's tools (Cargo, Clippy, etc.). Its market niche is providing a convenience layer for Rust developers to quickly implement robust and maintainable CI/CD pipelines, likely leveraging the features of a platform like GitHub Actions."
+}

@@ -1,0 +1,131 @@
+{
+  "projectName": "linera-protocol",
+  "projectPurpose": "To provide a decentralized blockchain infrastructure with high scalability, low latency, and predictable performance for Web3 applications through a microchain architecture.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Microchain architecture (dedicated chain per user/app)",
+    "Real-time performance and low latency (<0.5s finality)",
+    "Unlimited horizontal scalability",
+    "Asynchronous cross-chain communication",
+    "Language-agnostic multi-chain programming model (Rust/Wasm SDK available)",
+    "Bridge-friendly block headers (EVM compatible)"
+  ],
+  "website": "https://linera.dev/",
+  "alternatives": [
+    {
+      "name": "Ethereum",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Smart contracts (EVM)",
+        "Decentralized Applications (DApps)",
+        "Large ecosystem (DeFi, NFTs)",
+        "Proof-of-Stake consensus"
+      ],
+      "website": "https://ethereum.org/"
+    },
+    {
+      "name": "Solana",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "High transaction throughput (TPS)",
+        "Low transaction costs",
+        "Proof-of-History (PoH) consensus",
+        "Fast block times"
+      ],
+      "website": "https://solana.com/"
+    },
+    {
+      "name": "Avalanche",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "High transaction throughput",
+        "Fast finality (sub-second)",
+        "Multiple blockchains (X-Chain, C-Chain, P-Chain)",
+        "Customizable subnets"
+      ],
+      "website": "https://www.avax.network/"
+    },
+    {
+      "name": "Cosmos",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Web",
+        "Desktop"
+      ],
+      "mainFeatures": [
+        "Interoperability (IBC)",
+        "Scalability (Tendermint BFT)",
+        "Application-specific blockchains (zones)",
+        "Modularity (Cosmos SDK)"
+      ],
+      "website": "https://cosmos.network/"
+    },
+    {
+      "name": "Corda",
+      "license": "Open Source - Apache 2.0 / Proprietary",
+      "platforms": [
+        "Enterprise/Private Networks",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Designed for regulated industries",
+        "Transaction privacy (need-to-know basis)",
+        "High transaction throughput",
+        "Finality for agreed-upon transactions"
+      ],
+      "website": "https://www.r3.com/platforms/corda/"
+    },
+    {
+      "name": "IOTA",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Tangle (DAG) architecture",
+        "Feeless transactions",
+        "Scalability for IoT",
+        "Data integrity"
+      ],
+      "website": "https://www.iota.org/"
+    },
+    {
+      "name": "Hedera Hashgraph",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Desktop"
+      ],
+      "mainFeatures": [
+        "Hashgraph consensus (Gossip about Gossip)",
+        "High transaction speed",
+        "Low fees",
+        "Fairness (consensus order)"
+      ],
+      "website": "https://hedera.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "Linera positions itself as a Layer 1 \"Real-Time Blockchain\" specifically optimized for high-performance Web3 applications that require predictable, low-latency interactions and internet-scale capacity. Its unique microchain architecture, providing dedicated chains per user or application, is a key differentiator compared to traditional monolithic blockchains and even other scalable multi-chain or modular approaches. It aims to solve the blockspace scarcity problem and offer a developer-friendly environment for building responsive decentralized applications, drawing on expertise from high-performance payment protocol research."
+}

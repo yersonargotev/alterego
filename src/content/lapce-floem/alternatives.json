@@ -1,0 +1,164 @@
+{
+  "projectName": "floem",
+  "projectPurpose": "To provide Rust developers with a performant and native-looking graphical user interface library that utilizes fine-grained reactivity for efficient updates.",
+  "platforms": [],
+  "mainFeatures": [
+    "Native UI library",
+    "Written in Rust",
+    "Fine-grained reactivity"
+  ],
+  "website": "https://github.com/lapce/floem",
+  "alternatives": [
+    {
+      "name": "iced",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Elm-inspired architecture",
+        "Reactive programming model",
+        "Cross-platform",
+        "GPU accelerated rendering"
+      ],
+      "website": "https://github.com/iced-rs/iced"
+    },
+    {
+      "name": "egui",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Immediate mode GUI",
+        "Easy to use and portable",
+        "Pure Rust",
+        "Integrates with game engines",
+        "WebAssembly support"
+      ],
+      "website": "https://github.com/emilk/egui/"
+    },
+    {
+      "name": "Slint",
+      "license": "Mixed (GPL for open source, Commercial for proprietary)",
+      "platforms": [
+        "Embedded",
+        "Desktop (Windows, macOS, Linux)",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Declarative UI with custom DSL",
+        "Multi-language support (Rust, C++, JavaScript, Python)",
+        "Lightweight",
+        "Live preview",
+        "Native look and feel options"
+      ],
+      "website": "https://slint.dev/"
+    },
+    {
+      "name": "Tauri",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Rust backend with web frontend",
+        "Uses native webview",
+        "Small binary sizes",
+        "Security focused",
+        "Cross-platform"
+      ],
+      "website": "https://tauri.app/"
+    },
+    {
+      "name": "Druid",
+      "license": "Open Source - Apache-2.0 OR MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "OpenBSD",
+        "FreeBSD",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Data-driven declarative approach",
+        "Focus on polished user experience",
+        "Built on piet for 2D graphics",
+        "Experimental status"
+      ],
+      "website": "https://github.com/linebender/druid"
+    },
+    {
+      "name": "GTK (via gtk-rs)",
+      "license": "Open Source - LGPL",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "HTML5"
+      ],
+      "mainFeatures": [
+        "Mature and widely used toolkit",
+        "Native look and feel",
+        "Large set of widgets",
+        "Supports multiple programming languages via bindings"
+      ],
+      "website": "https://www.gtk.org/"
+    },
+    {
+      "name": "Qt (via Rust bindings)",
+      "license": "Mixed (LGPL, GPL, Proprietary)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "Comprehensive application framework",
+        "Mature and feature-rich",
+        "Strong tooling (Qt Creator, Qt Designer)",
+        "Used in various industries"
+      ],
+      "website": "https://www.qt.io/"
+    },
+    {
+      "name": "Flutter",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Single codebase for multiple platforms",
+        "Fast development with hot reload",
+        "Expressive and flexible UI",
+        "High performance (compiled to native code)"
+      ],
+      "website": "https://flutter.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Qt",
+    "Flutter"
+  ],
+  "marketPositioning": "Floem is positioned as a native Rust UI library that stands out due to its emphasis on fine-grained reactivity for performance optimization. While other Rust GUI libraries exist (like iced, egui, and Slint), and frameworks like Tauri leverage web technologies with a Rust backend, Floem focuses on providing a pure-Rust, native-feeling UI with an efficient reactive model. This positions it as a strong contender for Rust developers building performance-sensitive desktop applications who prefer a native approach over web views and value fine-grained control over UI updates."
+}

@@ -1,0 +1,133 @@
+{
+  "projectName": "rustgpt",
+  "projectPurpose": "To provide an open-source, self-hosted web user interface for interacting with large language models like ChatGPT, built using the Rust programming language and the HTMX web development approach, emphasizing performance and a specific technology stack.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Open-source ChatGPT UI",
+    "Built with Rust and HTMX",
+    "Self-hostable",
+    "Server-Sent Events (SSE) for real-time streaming",
+    "SQLite database with compile-time query verification"
+  ],
+  "website": "https://github.com/bitswired/rustgpt",
+  "alternatives": [
+    {
+      "name": "ChatGPT (Official)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android",
+        "Desktop"
+      ],
+      "mainFeatures": [
+        "Conversational AI interaction",
+        "Access to various GPT models",
+        "Mobile applications",
+        "Image generation (DALL-E integration)",
+        "Voice mode"
+      ],
+      "website": "https://chatgpt.com/"
+    },
+    {
+      "name": "Google Gemini (formerly Bard)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Conversational AI interaction",
+        "Integration with Google services (Search, Workspace)",
+        "Access to Gemini models",
+        "Real-time information access",
+        "Image generation"
+      ],
+      "website": "https://gemini.google.com/"
+    },
+    {
+      "name": "Claude",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Focus on helpful, honest, and harmless conversations",
+        "Handles longer contexts",
+        "Different models available (Claude 3 series)",
+        "API access"
+      ],
+      "website": "https://claude.ai/"
+    },
+    {
+      "name": "Perplexity AI",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "AI-powered conversational search engine",
+        "Provides sources for answers",
+        "Answers complex queries",
+        "Discover feature for exploring topics",
+        "Mobile applications"
+      ],
+      "website": "https://www.perplexity.ai/"
+    },
+    {
+      "name": "LobeChat",
+      "license": "Open Source - MIT w/ license exception [9]",
+      "platforms": [
+        "Web",
+        "Desktop"
+      ],
+      "mainFeatures": [
+        "Modern UI supporting multiple AI providers",
+        "Extensible plugin system",
+        "Knowledge Base (RAG) support",
+        "Multi-modal capabilities",
+        "One-click deployment options"
+      ],
+      "website": "https://github.com/lobehub/lobe-chat"
+    },
+    {
+      "name": "Jan",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Offline-first AI assistant",
+        "Supports various local LLMs",
+        "Desktop application",
+        "Connects to remote APIs",
+        "Local API server (OpenAI-compatible)"
+      ],
+      "website": "https://jan.ai/"
+    },
+    {
+      "name": "Open WebUI",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "User-friendly web UI for LLMs",
+        "Supports Ollama, OpenAI, and other APIs",
+        "Self-hostable",
+        "Offline capabilities (with local models)",
+        "Customizable"
+      ],
+      "website": "https://github.com/open-webui/open-webui"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ChatGPT (Official)"
+  ],
+  "marketPositioning": "RustGPT is positioned as an open-source, self-hosted web UI for LLMs, specifically highlighting its foundation in the Rust programming language and HTMX for a performance-oriented and architecturally distinct alternative to mainstream proprietary AI interfaces (like ChatGPT, Gemini) and other open-source UIs (often built with JavaScript frameworks). It targets users and developers seeking transparency, control, and an interest in the Rust/HTMX technology stack, offering a more focused feature set initially compared to broader platforms like LobeChat or Jan which support more models and features out-of-the-box but use different underlying technologies."
+}

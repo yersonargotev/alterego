@@ -1,0 +1,86 @@
+{
+  "projectName": "polars",
+  "projectPurpose": "High-performance library for efficient data manipulation and analysis on structured data, targeting speed, memory efficiency, and handling datasets larger than available RAM on a single machine.",
+  "platforms": [
+    "Cross-platform (Python, R, NodeJS bindings run on various OS)"
+  ],
+  "mainFeatures": [
+    "Multithreaded, vectorized query engine",
+    "Written in Rust for performance",
+    "Lazy and eager execution APIs",
+    "Handles datasets larger than RAM (Out of Core/Streaming)",
+    "Optimized query execution",
+    "Support for various data formats (CSV, Parquet, JSON, IPC/Feather, Avro)",
+    "Apache Arrow support",
+    "GPU Support (Open Beta)"
+  ],
+  "website": "https://github.com/pola-rs/polars",
+  "alternatives": [
+    {
+      "name": "Pandas",
+      "license": "Open Source - New BSD License",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Data Structures (Series, DataFrame)",
+        "Handling missing data",
+        "Data alignment",
+        "Group by functionality",
+        "IO tools (CSV, Excel, databases, etc.)"
+      ],
+      "website": "https://pandas.pydata.org/"
+    },
+    {
+      "name": "Apache Spark",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Large-scale distributed processing",
+        "In-memory computation",
+        "Supports batch, streaming, ML, SQL, graph processing",
+        "APIs for Scala, Java, Python, R",
+        "Fault tolerance"
+      ],
+      "website": "https://spark.apache.org/"
+    },
+    {
+      "name": "DuckDB",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (Windows, macOS, Linux, Web)"
+      ],
+      "mainFeatures": [
+        "Embedded analytical database (OLAP)",
+        "Column-oriented vectorized execution",
+        "Serverless, no external dependencies",
+        "SQL support",
+        "Deep integration with Python and R"
+      ],
+      "website": "https://duckdb.org/"
+    },
+    {
+      "name": "data.table (R package)",
+      "license": "Open Source (typically GPL-2 or GPL-3 compatible)",
+      "platforms": [
+        "Cross-platform (where R is supported)"
+      ],
+      "mainFeatures": [
+        "Fast aggregation",
+        "Fast ordered joins",
+        "Fast column operations by group (no copies)",
+        "Fast CSV read/write",
+        "Memory efficient"
+      ],
+      "website": "https://r-datatable.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Pandas"
+  ],
+  "marketPositioning": "Polars is positioned as a high-performance, modern, and memory-efficient in-process DataFrame library for data science and engineering tasks on single nodes. It directly competes with established libraries like Pandas by offering significantly faster execution times and better memory utilization, particularly for medium to large datasets that fit within a single machine's resources. Unlike distributed systems like Apache Spark, Polars focuses on maximizing performance on a single machine or vertically scaled environment through its Rust-based, multithreaded, and vectorized query engine with lazy evaluation and streaming capabilities. It offers a compelling alternative for users who have outgrown Pandas' performance limitations but do not require the complexity of a distributed computing framework, or as a faster single-node alternative for tasks sometimes handled by Spark or DuckDB."
+}

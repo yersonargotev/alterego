@@ -1,0 +1,99 @@
+{
+  "projectName": "madara",
+  "projectPurpose": "To provide an open-source, modular framework for building highly customizable and scalable application-specific blockchains (appchains) using Zero-Knowledge (ZK) Rollup technology, specifically within or integrating with the Starknet ecosystem, leveraging Cairo and Substrate.",
+  "platforms": [
+    "Web (framework for building chains)"
+  ],
+  "mainFeatures": [
+    "Modular ZK Rollup framework",
+    "Built using Cairo and Starknet technology",
+    "Allows building appchains (L2/L3)",
+    "Leverages Substrate framework for modularity and flexibility",
+    "Facilitates settlement to Ethereum or Starknet",
+    "Fully open source and customizable",
+    "High-performance Starknet sequencer",
+    "Supports JSON-RPC methods"
+  ],
+  "website": "https://github.com/keep-starknet-strange/madara",
+  "alternatives": [
+    {
+      "name": "Polygon CDK",
+      "license": "Open Source",
+      "platforms": [
+        "Web (framework for building chains)"
+      ],
+      "mainFeatures": [
+        "Modular toolkit for ZK-powered L2 chains",
+        "Supports rollup and validium configurations",
+        "Aims for interoperability within Polygon ecosystem",
+        "Utilizes ZK technology for security and finality",
+        "Customizable features (gas tokens, DA solutions)"
+      ],
+      "website": "https://polygon.technology/polygon-cdk"
+    },
+    {
+      "name": "ZK Stack",
+      "license": "Open Source",
+      "platforms": [
+        "Web (framework for building chains)"
+      ],
+      "mainFeatures": [
+        "Modular framework for sovereign ZK-powered Ethereum rollups",
+        "Based on zkSync Era code",
+        "Offers sovereignty and seamless connectivity via hyperbridges",
+        "Supports customizable aspects (DA layers, gas tokens)",
+        "Includes zkEVM and node services"
+      ],
+      "website": "https://zkstack.io/"
+    },
+    {
+      "name": "OP Stack",
+      "license": "Open Source",
+      "platforms": [
+        "Web (framework for building chains)"
+      ],
+      "mainFeatures": [
+        "Modular development stack for L2 ecosystems",
+        "Powers Optimism and the Superchain",
+        "Provides components for execution, DA, and sequencing",
+        "Supports custom gas tokens and DA layers (Plasma Mode)",
+        "Focuses on a shared, open-source system for rollups"
+      ],
+      "website": "https://docs.optimism.io/stacks/op-stack"
+    },
+    {
+      "name": "Sovereign SDK",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Web (toolkit for building rollups)"
+      ],
+      "mainFeatures": [
+        "Toolkit for building scalable and interoperable rollups (ZK/Optimistic)",
+        "Defines a minimal Rollup Interface",
+        "Aims for clean separation of concerns",
+        "Includes a module system and full node",
+        "Supports adapters for different DA layers and zkVMs"
+      ],
+      "website": "https://www.sovereign.xyz/"
+    },
+    {
+      "name": "Arbitrum Orbit",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (framework for building chains)"
+      ],
+      "mainFeatures": [
+        "Allows launching customizable Layer 3 chains",
+        "Settles to Arbitrum Layer 2 chains",
+        "Provides flexibility in design choices",
+        "Integrates within the Arbitrum ecosystem"
+      ],
+      "website": "https://arbitrum.io/orbit/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OP Stack",
+    "Polygon CDK"
+  ],
+  "marketPositioning": "Madara is an official, open-source implementation of the SN Stack, designed as a highly modular ZK Rollup framework for building customizable appchains. It leverages Starknet's core technologies, including the Cairo VM and STARK proofs, providing a powerful engine for creating provable programs and scalable infrastructure. Built on the Substrate framework, Madara offers exceptional modularity and flexibility, allowing developers to configure key components such as consensus mechanisms, data availability layers, and execution environments. Madara enables the deployment of appchains that can settle to either Ethereum or Starknet, facilitating Layer 2 and Layer 3 scaling solutions. Its open-source nature encourages customization and community contributions, positioning it as a leading choice for developers seeking to build application-specific blockchains deeply integrated with or extending the Starknet ecosystem, while also offering potential interoperability with other Substrate-based chains. Madara is recognized as a high-performance Starknet sequencer, optimized for developer experience and supporting the full range of Starknet JSON-RPC methods alongside its own custom extensions."
+}

@@ -1,0 +1,142 @@
+{
+  "projectName": "tsukimi",
+  "projectPurpose": "To provide a dedicated and simple third-party desktop client for the Emby media server on Linux, with partial compatibility for Jellyfin.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Simple third-party Emby client",
+    "Written in GTK4-RS",
+    "Uses MPV for video playback and GStreamer for music playback",
+    "Partially compatible with Jellyfin",
+    "Supports basic and most admin functions of Emby/Jellyfin"
+  ],
+  "website": "https://github.com/tsukinaha/tsukimi",
+  "alternatives": [
+    {
+      "name": "Emby Theater",
+      "license": "Proprietary (Playback requires Emby Premiere)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Streaming Devices",
+        "Smart TVs",
+        "Gaming Consoles"
+      ],
+      "mainFeatures": [
+        "Optimized for TV experience",
+        "Remote control and gamepad support",
+        "HDR mode switching",
+        "Connects to Emby server"
+      ],
+      "website": "https://emby.media/emby-theater.html"
+    },
+    {
+      "name": "Emby for Windows",
+      "license": "Proprietary (Playback requires Emby Premiere)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Optimized for Windows desktop",
+        "Integrates with Windows appearance",
+        "Fast browsing",
+        "Supports DVR"
+      ],
+      "website": "https://emby.media/emby-for-windows.html"
+    },
+    {
+      "name": "Emby Mobile/Web Clients",
+      "license": "Proprietary (Playback on some platforms requires Emby Premiere or one-time unlock)",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Stream media from Emby server",
+        "Manage libraries",
+        "Offline downloads (Premiere)",
+        "Live TV and DVR (Premiere)"
+      ],
+      "website": "https://emby.media/download.html"
+    },
+    {
+      "name": "Jellyfin Media Player",
+      "license": "Open Source - GPL v2",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Desktop client using jellyfin-web",
+        "Embedded MPV player",
+        "Supports audio passthrough",
+        "Plays media within the same window"
+      ],
+      "website": "https://github.com/jellyfin/jellyfin-media-player"
+    },
+    {
+      "name": "Jellyfin Mobile/Web Clients",
+      "license": "Open Source",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Stream media from Jellyfin server",
+        "Manage libraries",
+        "Available on various app stores"
+      ],
+      "website": "https://jellyfin.org/clients/"
+    },
+    {
+      "name": "Plex",
+      "license": "Proprietary (Free tier with limitations, Plex Pass subscription for full features)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Mobile",
+        "Smart TVs",
+        "Streaming Devices",
+        "Gaming Consoles",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Organize and stream media",
+        "Live TV & DVR",
+        "News and podcasts",
+        "Mobile sync (Plex Pass)"
+      ],
+      "website": "https://www.plex.tv/"
+    },
+    {
+      "name": "Kodi",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Raspberry Pi",
+        "etc."
+      ],
+      "mainFeatures": [
+        "Play local media",
+        "Extensive add-on ecosystem (including Emby/Jellyfin clients)",
+        "Customizable interface",
+        "Supports various media formats"
+      ],
+      "website": "https://kodi.tv/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Plex"
+  ],
+  "marketPositioning": "Tsukimi is positioned as a simple, open-source, third-party desktop client specifically for Emby users on Linux. It offers a native GTK4 interface and utilizes popular open-source media players (MPV, GStreamer). While official Emby clients exist for Linux, tsukimi provides an alternative focusing on simplicity and native integration within the Linux desktop environment. Its partial compatibility with Jellyfin also makes it a viable option for users of that open-source media server. It caters to users who prefer open-source solutions and a dedicated desktop application over a web or less integrated client."
+}

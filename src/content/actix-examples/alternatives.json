@@ -1,0 +1,148 @@
+{
+  "projectName": "examples",
+  "projectPurpose": "To provide a community showcase and practical code examples for developers learning and using the Actix Web framework and its ecosystem in Rust.",
+  "platforms": [
+    "Cross-platform (as it documents usage of a Rust web framework)"
+  ],
+  "mainFeatures": [
+    "Community showcase of Actix Web usage",
+    "Provides code examples for Actix Web ecosystem features",
+    "Demonstrates real-world usage patterns of Actix Web"
+  ],
+  "website": "https://github.com/actix/examples",
+  "alternatives": [
+    {
+      "name": "Rocket",
+      "license": "Open Source (MIT or Apache)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "FreeBSD",
+        "OpenBSD"
+      ],
+      "mainFeatures": [
+        "Type-safe web applications",
+        "Minimal boilerplate",
+        "Built-in templating",
+        "Automatic request parsing",
+        "Extensible"
+      ],
+      "website": "https://rocket.rs/"
+    },
+    {
+      "name": "Axum",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Macro-free routing",
+        "Declarative request parsing (Extractors)",
+        "Simple error handling",
+        "Leverages Tower/tower-http ecosystem"
+      ],
+      "website": "https://github.com/tokio-rs/axum"
+    },
+    {
+      "name": "Django",
+      "license": "Open Source (BSD)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Full-stack framework",
+        "ORM",
+        "Built-in Admin panel",
+        "Robust security features",
+        "Templating engine"
+      ],
+      "website": "https://www.djangoproject.com/"
+    },
+    {
+      "name": "Flask",
+      "license": "Open Source (BSD)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Lightweight microframework",
+        "Built-in development server and debugger",
+        "RESTful request dispatching",
+        "Jinja templating",
+        "Extensible via extensions"
+      ],
+      "website": "https://flask.palletsprojects.com/"
+    },
+    {
+      "name": "FastAPI",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "High performance",
+        "Automatic API documentation",
+        "Data validation (Pydantic)",
+        "Dependency injection",
+        "Asynchronous support"
+      ],
+      "website": "https://fastapi.tiangolo.com/"
+    },
+    {
+      "name": "Express",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Minimalist web framework",
+        "Robust routing",
+        "Middleware support",
+        "Templating support",
+        "High performance (Node.js)"
+      ],
+      "website": "https://expressjs.com/"
+    },
+    {
+      "name": "NestJS",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Scalable server-side applications",
+        "Built with TypeScript",
+        "Modular architecture",
+        "Dependency injection",
+        "Supports Microservices, REST, GraphQL, WebSockets"
+      ],
+      "website": "https://nestjs.com/"
+    },
+    {
+      "name": "Spring",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Cross-platform (Java)"
+      ],
+      "mainFeatures": [
+        "Comprehensive enterprise framework",
+        "Dependency Injection",
+        "AOP",
+        "Transaction Management",
+        "Spring MVC/WebFlux"
+      ],
+      "website": "https://spring.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Spring",
+    "Django",
+    "Express"
+  ],
+  "marketPositioning": "Actix Web's examples repository is positioned as a key resource supporting a high-performance, pragmatic, and feature-rich web framework within the Rust ecosystem. While not a framework itself, its existence and comprehensiveness are crucial for developers choosing Actix Web, particularly those prioritizing speed and a wide array of built-in capabilities like WebSockets and streaming, differentiating it from Rust alternatives focused on minimal design or specific architectural patterns."
+}

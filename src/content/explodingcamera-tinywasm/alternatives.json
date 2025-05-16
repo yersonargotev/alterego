@@ -1,0 +1,115 @@
+{
+  "projectName": "tinywasm",
+  "projectPurpose": "To provide a small and lightweight interpreted runtime environment for executing WebAssembly code.",
+  "platforms": [],
+  "mainFeatures": [
+    "WebAssembly Runtime",
+    "Tiny/Lightweight",
+    "Interpreted execution",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/explodingcamera/tinywasm",
+  "alternatives": [
+    {
+      "name": "Wasmi",
+      "license": "Open Source - Apache-2.0 OR MIT",
+      "platforms": [
+        "Cross-platform (Rust supported platforms)"
+      ],
+      "mainFeatures": [
+        "Efficient and lightweight interpreter",
+        "Focus on embedded environments",
+        "Simple, correct, and deterministic execution",
+        "Supports fuel metering",
+        "Loosely mirrors Wasmtime API"
+      ],
+      "website": "https://github.com/wasmi-labs/wasmi"
+    },
+    {
+      "name": "Wasmtime",
+      "license": "Open Source - Apache-2.0 OR MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "illumos"
+      ],
+      "mainFeatures": [
+        "Fast (JIT/AOT compilation)",
+        "Secure (focus on correctness and security)",
+        "Standards-compliant (WASI, Component Model)",
+        "Embeddable in multiple languages",
+        "Configurable resource limits"
+      ],
+      "website": "https://wasmtime.dev/"
+    },
+    {
+      "name": "Wasmer",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web (via JS)",
+        "Various architectures"
+      ],
+      "mainFeatures": [
+        "Fast (multiple compiler backends)",
+        "Secure by default",
+        "Embeddable in multiple languages",
+        "Supports WASI and WASIX",
+        "Pluggable architecture (supports interpreters and other runtimes as backends)"
+      ],
+      "website": "https://wasmer.io/"
+    },
+    {
+      "name": "WebAssembly Micro Runtime (WAMR)",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Embedded",
+        "IoT",
+        "Edge",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Lightweight and small footprint",
+        "Supports interpreter, JIT, and AOT modes",
+        "Highly configurable",
+        "Targeted at resource-constrained devices",
+        "Part of Bytecode Alliance"
+      ],
+      "website": "https://github.com/bytecodealliance/wasm-micro-runtime"
+    },
+    {
+      "name": "Wasm3",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "OS X",
+        "FreeBSD",
+        "Android",
+        "iOS",
+        "MCUs",
+        "Browsers",
+        "Various architectures"
+      ],
+      "mainFeatures": [
+        "Fast interpreter",
+        "Universal compatibility (wide platform/arch support)",
+        "Low memory usage",
+        "Suitable for embedded systems",
+        "Passes WebAssembly spec testsuite"
+      ],
+      "website": "https://github.com/wasm3/wasm3"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Wasmtime",
+    "Wasmer"
+  ],
+  "marketPositioning": "tinywasm positions itself as a highly lightweight and purely interpreted WebAssembly runtime written in Rust. While other runtimes like Wasmer and WAMR offer interpreter modes and projects like Wasmi and Wasm3 are also interpreters, tinywasm specifically emphasizes its 'tiny' nature. This suggests a market focus on extreme resource constraints or scenarios where minimal runtime size and fast initial load/startup (characteristic of interpreters) are the primary requirements, potentially differentiating it from runtimes that prioritize peak execution speed through complex JIT/AOT compilation."
+}

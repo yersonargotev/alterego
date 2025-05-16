@@ -1,0 +1,95 @@
+{
+  "projectName": "binary_greedy_mesher_demo",
+  "projectPurpose": "To demonstrate and provide a proof-of-concept implementation of a binary greedy meshing algorithm for optimizing voxel data rendering in Rust.",
+  "platforms": [
+    "Cross-platform (Development Environment)"
+  ],
+  "mainFeatures": [
+    "Binary greedy meshing algorithm implementation",
+    "Optimized for performance",
+    "Handles binary voxel data",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/TanTanDev/binary_greedy_mesher_demo",
+  "alternatives": [
+    {
+      "name": "block-mesh-rs",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Development Environment)"
+      ],
+      "mainFeatures": [
+        "Generates voxel block meshes",
+        "Supports greedy quads algorithm",
+        "Supports visible block faces algorithm",
+        "Written in Rust"
+      ],
+      "website": "https://github.com/bonsairobo/block-mesh-rs"
+    },
+    {
+      "name": "building-blocks",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Development Environment)"
+      ],
+      "mainFeatures": [
+        "Voxel library for real-time applications",
+        "Provides voxel data structures",
+        "Includes meshing capabilities or integrates with meshing algorithms",
+        "Written in Rust"
+      ],
+      "website": "https://github.com/bonsairobo/building-blocks"
+    },
+    {
+      "name": "MeshLib",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Comprehensive 3D data manipulation",
+        "Supports meshes, point clouds, and voxels",
+        "Voxel processing algorithms",
+        "Conversion between 3D formats"
+      ],
+      "website": "https://www.meshinspector.com/meshlib"
+    },
+    {
+      "name": "SimpleVoxelEngine",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Development Environment)"
+      ],
+      "mainFeatures": [
+        "Simple voxel engine from scratch",
+        "Includes custom meshing logic",
+        "Chunk management",
+        "Written in C++ and OpenGL"
+      ],
+      "website": "https://github.com/JamesRandall/SimpleVoxelEngine"
+    },
+    {
+      "name": "IOLITE",
+      "license": "Proprietary (with free version)",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Modern voxel-powered game engine",
+        "Embedded WYSIWYG editor",
+        "Import assets from VOX files",
+        "Integrated GPU path tracer"
+      ],
+      "website": "https://iolite-engine.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "block-mesh-rs",
+    "IOLITE (in the context of voxel engines)"
+  ],
+  "marketPositioning": "Positioned as a specific, highly optimized demonstration of the binary greedy meshing algorithm within the Rust ecosystem. It serves as an educational resource and proof-of-concept rather than a general-purpose library or a complete voxel engine component. Its primary value is showcasing the performance potential of this specific meshing technique in Rust, differentiating it from broader voxel libraries or engines that may offer multiple meshing algorithms or more extensive features."
+}

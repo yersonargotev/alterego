@@ -1,0 +1,116 @@
+{
+  "projectName": "aici",
+  "projectPurpose": "To provide a low-level, efficient, and secure interface for precisely controlling the output generation process of Large Language Models (LLMs) in real-time using WebAssembly programs.",
+  "platforms": [
+    "Platform-agnostic (runs alongside LLM inference engines on various platforms)"
+  ],
+  "mainFeatures": [
+    "Allows building controllers to constrain and direct LLM output in real time",
+    "Controllers implemented as lightweight WebAssembly (Wasm) modules",
+    "Wasm modules run on the same machine as the LLM inference engine for efficiency",
+    "Supports constrained decoding (grammar enforcement, regex, substrings)",
+    "Enables dynamic editing of prompts and generated text",
+    "Facilitates coordinating execution across multiple, parallel generations",
+    "Supports implementing custom logic during token-by-token decoding and maintaining state",
+    "Designed for local and cloud execution, including multi-tenant deployments",
+    "Integrates with various LLM inference and serving engines",
+    "Supports controllers written in languages compilable to Wasm or interpreted within Wasm"
+  ],
+  "website": "https://github.com/microsoft/aici",
+  "alternatives": [
+    {
+      "name": "LangChain",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Platform-agnostic (primarily Python/JavaScript libraries)"
+      ],
+      "mainFeatures": [
+        "Modular components (chains, agents, tools)",
+        "Integrations with many LLMs and data sources",
+        "Facilitates building complex LLM applications/workflows",
+        "Supports structured output through various methods (e.g., function calling)",
+        "Agent trajectory evaluation"
+      ],
+      "website": "https://www.langchain.com/"
+    },
+    {
+      "name": "LlamaIndex",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Platform-agnostic (primarily Python library)"
+      ],
+      "mainFeatures": [
+        "Data connectors for diverse sources",
+        "Data structuring (indices, graphs) for LLMs",
+        "Advanced retrieval and query interface (RAG focus)",
+        "Integrations with LLMs and other frameworks",
+        "Simplifies connecting custom data to LLMs"
+      ],
+      "website": "https://www.llamaindex.ai/"
+    },
+    {
+      "name": "Guidance",
+      "license": "Open Source - MIT (Likely)",
+      "platforms": [
+        "Platform-agnostic (Python/TypeScript libraries)"
+      ],
+      "mainFeatures": [
+        "Programming paradigm for steering LLMs",
+        "Constrained generation (regex, CFGs, JSON Schema, selects)",
+        "Interleaving control (conditionals, loops, tool use) and generation",
+        "Aims for efficiency (lower latency and cost)",
+        "Integrates with various LLM backends"
+      ],
+      "website": "https://github.com/guidance-ai/guidance"
+    },
+    {
+      "name": "Instructor",
+      "license": "Open Source - MIT (Likely)",
+      "platforms": [
+        "Platform-agnostic (Python library)"
+      ],
+      "mainFeatures": [
+        "Simplifies structured data extraction from LLMs",
+        "Built on Pydantic for schema definition and validation",
+        "Manages validation, retries, and streaming responses",
+        "Supports multiple LLM backends",
+        "User-friendly API"
+      ],
+      "website": "https://github.com/jxnl/instructor"
+    },
+    {
+      "name": "Ollama",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Running LLMs locally",
+        "Easy setup and management of models",
+        "Provides a local API for integration",
+        "Supports various open-source models",
+        "Focuses on privacy and offline use"
+      ],
+      "website": "https://ollama.com/"
+    },
+    {
+      "name": "vLLM",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux (primarily, with GPU acceleration)"
+      ],
+      "mainFeatures": [
+        "High-throughput LLM serving",
+        "Memory-efficient inference (PagedAttention)",
+        "Continuous batching",
+        "OpenAI-compatible API server",
+        "Includes features for structured outputs"
+      ],
+      "website": "https://vllm.ai/"
+    }
+  ],
+  "mostWellKnownAlternative": "LangChain",
+  "marketPositioning": "AICI is positioned as a foundational, low-level interface for controlling LLM decoding at the token generation level. Its core innovation is the use of WebAssembly (Wasm) modules running directly alongside the LLM inference engine, offering a performant, secure, and portable way to implement real-time control logic. Unlike higher-level frameworks that focus on orchestrating multi-step workflows or data integration, AICI provides a mechanism to directly influence the LLM's output generation process itself. It serves as a layer upon which more specialized control libraries can be built, offering efficiency and portability across different LLM serving backends."
+}

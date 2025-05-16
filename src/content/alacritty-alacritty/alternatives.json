@@ -1,0 +1,140 @@
+{
+  "projectName": "alacritty",
+  "projectPurpose": "To provide a highly performant, simple, and cross-platform terminal emulator leveraging GPU acceleration for rendering, prioritizing speed and efficiency.",
+  "platforms": [
+    "BSD",
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Cross-platform support",
+    "OpenGL / GPU accelerated rendering",
+    "Focus on performance and simplicity",
+    "Extensive configuration via text file (TOML)",
+    "Vi Mode for navigation and selection",
+    "Search within scrollback buffer",
+    "Regex Hints for interaction",
+    "Multi-Window support for resource usage",
+    "True color and text formatting support",
+    "No built-in tabs or splits (designed for external multiplexers)"
+  ],
+  "website": "https://github.com/alacritty/alacritty",
+  "alternatives": [
+    {
+      "name": "Kitty",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "GPU-accelerated rendering",
+        "Supports 'kittens' (supplemental programs)",
+        "Tiling of multiple windows and tabs",
+        "Display images",
+        "Highly configurable"
+      ],
+      "website": "https://sw.kovidgoyal.net/kitty/"
+    },
+    {
+      "name": "iTerm2",
+      "license": "Open Source - GPL v2",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Split panes",
+        "Hotkey window",
+        "Powerful search with regex",
+        "Autocomplete",
+        "Paste History"
+      ],
+      "website": "https://iterm2.com/"
+    },
+    {
+      "name": "Hyper",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Built on web technologies (HTML/CSS/JS)",
+        "Fully extensible with themes and plugins",
+        "Highly configurable",
+        "Beautiful colors and design"
+      ],
+      "website": "https://hyper.is/"
+    },
+    {
+      "name": "GNOME Terminal",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Colored text and themes",
+        "Transparency",
+        "Multiple tabs",
+        "Automatic text rewrapping",
+        "Multiple profiles"
+      ],
+      "website": "https://wiki.gnome.org/Apps/Terminal"
+    },
+    {
+      "name": "Konsole",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Tabbed interface",
+        "Split views",
+        "Profile management",
+        "Bookmark directories and SSH",
+        "Configurable color schemes and translucency"
+      ],
+      "website": "https://konsole.kde.org/"
+    },
+    {
+      "name": "WezTerm",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "GPU-accelerated",
+        "Terminal multiplexer built-in",
+        "Highly customizable using Lua",
+        "Tabs and splits"
+      ],
+      "website": "https://wezfurlong.org/wezterm/"
+    },
+    {
+      "name": "Ghostty",
+      "license": "Open Source",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast and feature-rich",
+        "GPU acceleration",
+        "Platform-native UI",
+        "Windows, tabs, and splits",
+        "Hundreds of color themes"
+      ],
+      "website": "https://ghostty.github.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "iTerm2"
+  ],
+  "marketPositioning": "Alacritty is positioned as a high-performance, minimalist, and cross-platform terminal emulator that distinguishes itself through aggressive GPU acceleration and a deliberate focus on core terminal functionality. It targets users who prioritize speed and efficiency and are willing to use external tools like terminal multiplexers for features such as tabs and split panes, contrasting with more feature-inclusive alternatives."
+}

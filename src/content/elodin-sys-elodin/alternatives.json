@@ -1,0 +1,108 @@
+{
+  "projectName": "elodin",
+  "projectPurpose": "To provide a flexible, high-performance, and code-centric platform for physics simulation specifically tailored for the space and aerospace industries, facilitating the rapid design, testing, and deployment of autonomous systems, including drones and satellites.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Physics simulation for space and aerospace applications",
+    "Code-first simulation framework with expressive API",
+    "High-performance simulation using Rust, Python, XLA, and JAX (GPU accelerated)",
+    "Simulation of large fleets of drones and satellites",
+    "Support for Monte Carlo simulations",
+    "Integration with flight software components and testing (SITL/HITL)",
+    "Includes 3D viewer and graphing tool",
+    "Allows defining custom mathematical models"
+  ],
+  "website": "https://elodin.systems/",
+  "alternatives": [
+    {
+      "name": "General Mission Analysis Tool (GMAT)",
+      "license": "Open Source - Apache License V2.0",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Spacecraft mission design, optimization, and navigation",
+        "High fidelity space system models",
+        "Optimization and targeting",
+        "GUI and scripting interface (MATLAB-like)",
+        "Support for various orbit regimes (LEO to deep space)"
+      ],
+      "website": "https://opengmat.org/"
+    },
+    {
+      "name": "Orekit",
+      "license": "Open Source - Apache Software License version 2.0",
+      "platforms": [
+        "Java-based (platform independent)"
+      ],
+      "mainFeatures": [
+        "Low-level space dynamics library",
+        "Accurate orbit propagation with perturbing forces",
+        "Handling of various time systems and frames",
+        "Orbit determination and maneuver modeling",
+        "Support for various file formats (e.g., SP3, CCSDS OPM/OEM)"
+      ],
+      "website": "https://www.orekit.org/"
+    },
+    {
+      "name": "Systems Tool Kit (STK)",
+      "license": "Proprietary (Free version available)",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web (STK Cloud)"
+      ],
+      "mainFeatures": [
+        "Physics-based modeling and simulation for digital mission engineering",
+        "Analyze complex systems in operational environments",
+        "Time-dynamic 3D visualization",
+        "Modeling of ground, sea, air, and space assets",
+        "RF, optical, and radar analysis"
+      ],
+      "website": "https://www.ansys.com/products/mission-safety/stk"
+    },
+    {
+      "name": "FreeFlyer",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Space mission design, analysis, and operations",
+        "Robust scripting language",
+        "High-fidelity orbit propagation and force modeling",
+        "Maneuver optimization and orbit determination",
+        "Customizable 2D and 3D visualizations"
+      ],
+      "website": "https://www.ai-solutions.com/freeflyer"
+    },
+    {
+      "name": "Basilisk",
+      "license": "Open Source - ISC Open Source License",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Spacecraft-centric mission simulation framework",
+        "Faster-than-realtime and real-time (HITL) simulations",
+        "Python modules with C/C++ execution speed",
+        "Astrodynamics research and flight software development support",
+        "Accompanying 3D visualization tool (Vizard)"
+      ],
+      "website": "https://hanspeterschaub.info/basilisk/index.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Systems Tool Kit (STK)",
+    "FreeFlyer"
+  ],
+  "marketPositioning": "Elodin is positioned as a modern, high-performance, code-first physics simulation platform specifically for the space and aerospace industries. It distinguishes itself through its use of a modern technology stack (Rust, Python, JAX, XLA for GPU acceleration), enabling fast and large-scale simulations (fleets, Monte Carlo). Its integration with flight software development components provides a more comprehensive toolchain for autonomous systems compared to purely simulation or astrodynamics packages. While established tools like STK, FreeFlyer, and GMAT offer extensive, validated features and broad industry adoption, Elodin targets users who prioritize programmatic control, flexibility, and leveraging modern hardware for performance, offering an open-source alternative with a distinct technical foundation."
+}

@@ -1,0 +1,103 @@
+{
+  "projectName": "rnote",
+  "projectPurpose": "To provide a versatile and feature-rich open-source application for digital note-taking, sketching, and document annotation, particularly optimized for use with styluses and drawing tablets.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Open-source vector-based drawing app",
+    "Adaptive UI focused on stylus input",
+    "Pressure-sensitive stylus input with configurable stroke styles",
+    "Shape tool",
+    "Selection tool (move, rotate, resize, modify)",
+    "Different document expansion layouts (fixed, continuous, infinite)",
+    "Customizable backgrounds, patterns, sizes, and page format",
+    "PDF, Bitmap, and SVG image import",
+    "Export to SVG, PDF, Xopp, PNG, and JPEG",
+    "Tabbed document editing",
+    "Autosave and printing",
+    "Integrated workspace browser",
+    "Drag & Drop and clipboard support"
+  ],
+  "website": "https://rnote.flxzt.net/",
+  "alternatives": [
+    {
+      "name": "Xournal++",
+      "license": "Open Source - GPL-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android (Mobile, early development)"
+      ],
+      "mainFeatures": [
+        "Handwriting note-taking and PDF annotation",
+        "Supports pressure-sensitive styluses",
+        "Different drawing tools and stroke styles",
+        "Image insertion and LaTeX support",
+        "Audio recording and playback"
+      ],
+      "website": "https://xournalpp.github.io/"
+    },
+    {
+      "name": "Goodnotes",
+      "license": "Proprietary (Paid, Subscription/One-time purchase)",
+      "platforms": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "Windows",
+        "Android",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Digital handwriting with stylus support",
+        "PDF annotation and organization",
+        "OCR for handwriting recognition",
+        "Sync across devices",
+        "AI tools and collaboration"
+      ],
+      "website": "https://www.goodnotes.com/"
+    },
+    {
+      "name": "Notability",
+      "license": "Proprietary (Subscription-based, Free plan available)",
+      "platforms": [
+        "iOS",
+        "iPadOS",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Handwriting and typing notes",
+        "PDF annotation",
+        "Audio recording and sync with notes",
+        "Handwriting and math conversion"
+      ],
+      "website": "https://notability.com/"
+    },
+    {
+      "name": "Microsoft OneNote",
+      "license": "Proprietary (Free with most features, Microsoft 365 subscription for full benefits)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "iPadOS",
+        "Android",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Free-form note-taking",
+        "Supports typing, inking, and multimedia",
+        "Sync across devices via OneDrive",
+        "Collaboration features",
+        "Handwriting to text conversion"
+      ],
+      "website": "https://www.onenote.com/"
+    }
+  ],
+  "mostWellKnownAlternative": "Microsoft OneNote",
+  "marketPositioning": "Rnote is positioned as a free and open-source alternative in the digital note-taking and sketching market. It differentiates itself by focusing on a robust, vector-based inking experience optimized for stylus input across multiple desktop platforms (Linux, macOS, Windows). While lacking some advanced features found in proprietary competitors like comprehensive OCR, audio sync, or extensive cloud ecosystems, rnote appeals to users who prioritize open-source software, customization, and a dedicated drawing/inking tool with flexible canvas options, offering a compelling choice outside the dominant commercial offerings."
+}

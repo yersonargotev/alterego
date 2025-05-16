@@ -1,0 +1,110 @@
+{
+  "projectName": "apache/arrow-datafusion",
+  "projectPurpose": "To provide a high-performance, extensible SQL query engine library for developers to build data-centric systems like databases, data lakes, and analytics platforms.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Extensible query engine written in Rust",
+    "Uses Apache Arrow as its in-memory format",
+    "Offers SQL and Dataframe APIs",
+    "Columnar, vectorized, multi-threaded, streaming execution engine",
+    "Built-in support for CSV, Parquet, JSON, and Avro file formats",
+    "Supports reading from object stores (S3, Azure Blob Storage, Google Cloud Storage)",
+    "Extensive customization and extension points"
+  ],
+  "website": "https://github.com/apache/arrow-datafusion",
+  "alternatives": [
+    {
+      "name": "DuckDB",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "In-process analytical database",
+        "High-performance OLAP queries (columnar-vectorized)",
+        "Rich SQL dialect",
+        "Supports various file formats (CSV, Parquet, JSON, Arrow)",
+        "Integrates with data science tools (Pandas, R)"
+      ],
+      "website": "https://duckdb.org/"
+    },
+    {
+      "name": "Apache Spark (Spark SQL)",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Unified engine for large-scale data processing",
+        "Spark SQL for querying structured data (SQL/DataFrame API)",
+        "In-memory computing",
+        "Supports batch, interactive, streaming, and ML workloads",
+        "Scalable and fault-tolerant distributed processing"
+      ],
+      "website": "https://spark.apache.org/"
+    },
+    {
+      "name": "Trino",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Distributed (runs on clusters)"
+      ],
+      "mainFeatures": [
+        "Distributed SQL query engine for big data",
+        "Query federation across diverse data sources",
+        "High performance and scalability (MPP architecture)",
+        "ANSI SQL compliant",
+        "Designed for interactive analytics and batch ETL"
+      ],
+      "website": "https://trino.io/"
+    },
+    {
+      "name": "ClickHouse",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "Column-oriented database management system",
+        "Optimized for OLAP and real-time analytics",
+        "High query performance (vectorized, compression)",
+        "Scalable distributed architecture",
+        "Supports SQL-like query language"
+      ],
+      "website": "https://clickhouse.com/"
+    },
+    {
+      "name": "Velox",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "C++ database acceleration library",
+        "Columnar, vectorized execution engine",
+        "High-performance data processing",
+        "Embeddable in various data systems",
+        "Supports various data formats"
+      ],
+      "website": "https://velox-lib.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Spark"
+  ],
+  "marketPositioning": "Apache DataFusion is positioned as an extensible, high-performance SQL query engine library built in Rust, primarily for developers building new data-centric systems. It differentiates itself through its Rust implementation, tight integration with Apache Arrow, and its focus on providing a customizable core engine that can be embedded or used as a foundation for databases, data lakes, and analytical applications, rather than being a standalone end-user database or a large-scale distributed processing framework like Spark or Trino."
+}

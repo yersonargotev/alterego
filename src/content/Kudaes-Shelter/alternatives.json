@@ -1,0 +1,129 @@
+{
+  "projectName": "Shelter",
+  "projectPurpose": "To evade memory scanners and other security monitoring tools by obfuscating the in-memory representation of a payload (like a Portable Executable) during periods of inactivity (sleep) using ROP-based techniques.",
+  "platforms": [
+    "Windows"
+  ],
+  "mainFeatures": [
+    "ROP-based sleep obfuscation",
+    "Evades memory scanners",
+    "Fully encrypts in-memory payload (AES-128)",
+    "Whole PE encryption capability",
+    "Removal of execution permission during sleep",
+    "Exclusive use of ROP (no APC/HWBP/Timers)",
+    "Unwinder for call stack spoofing",
+    "DInvoke_rs, indirect syscalls, string literals encryption (OPSEC considerations)"
+  ],
+  "website": "https://github.com/Kudaes/Shelter",
+  "alternatives": [
+    {
+      "name": "VMProtect",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Code virtualization and obfuscation",
+        "Anti-debugging and anti-VM",
+        "Resource encryption and compression",
+        "Integrity checks"
+      ],
+      "website": "https://vmpsoft.com/"
+    },
+    {
+      "name": "Themida",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Code obfuscation and encryption",
+        "Advanced anti-debugging techniques",
+        "Anti-VM and anti-emulator",
+        "API encryption",
+        "Protection for various programming languages"
+      ],
+      "website": "https://www.oreans.com/themida.php"
+    },
+    {
+      "name": "UPX (Ultimate Packer for eXecutables)",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "DOS",
+        " \u0648\u063a\u064a\u0631\u0647\u0627"
+      ],
+      "mainFeatures": [
+        "Executable compression",
+        "Supports various executable formats (PE, ELF, Mach-O, etc.)",
+        "In-place decompression",
+        "Command-line interface"
+      ],
+      "website": "https://upx.github.io/"
+    },
+    {
+      "name": "Obfuscator (3xpl01tc0d3r)",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Shellcode encryption (XOR, AES)",
+        "Supports multiple shellcode formats (base64, hex, c, raw)",
+        "Command-line interface",
+        "Blog post documentation"
+      ],
+      "website": "https://github.com/3xpl01tc0d3r/Obfuscator"
+    },
+    {
+      "name": "Waffles Crypt",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Shellcode encryption (XOR, RC4, AES)",
+        "Custom deobfuscation functions (MAC, IPv4, IPv6)",
+        "Runtime XOR key brute-forcing",
+        "Modular C/C++ code generation"
+      ],
+      "website": "https://github.com/naksyn/WafflesCrypt"
+    },
+    {
+      "name": "Ekko",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Sleep obfuscation via Timer Queues",
+        "Uses SystemFunction032 and NtContinue",
+        "Encrypts memory during sleep",
+        "Open-source proof of concept"
+      ],
+      "website": "https://github.com/Cracked5pider/Ekko"
+    },
+    {
+      "name": "Cronos",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Sleep obfuscation via Waitable Timers",
+        "Uses ROP and NtContinue",
+        "Encrypts memory during sleep",
+        "Open-source proof of concept"
+      ],
+      "website": "https://github.com/Idov31/Cronos"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "VMProtect",
+    "Themida",
+    "UPX"
+  ],
+  "marketPositioning": "Shelter is positioned as a highly specialized, open-source tool within the offensive security domain, focusing on advanced in-memory payload evasion techniques. Its key differentiators include the exclusive use of ROP for sleep obfuscation (avoiding common detection vectors like APCs/Timers), the ability to encrypt the entire PE, and incorporating call stack spoofing via an unwinder. While commercial tools like VMProtect and Themida offer broader, more robust protection suites often used for legitimate software (but also by malware), and general packers like UPX provide basic compression/obfuscation, Shelter targets a specific, modern evasion problem with a unique ROP-centric approach. Compared to other open-source sleep obfuscation PoCs like Ekko and Cronos, Shelter emphasizes its pure ROP implementation and comprehensive PE encryption. This makes Shelter a valuable tool for red teams and security researchers requiring sophisticated, potentially less-detected methods for maintaining stealth in memory."
+}

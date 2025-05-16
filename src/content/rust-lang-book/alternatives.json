@@ -1,0 +1,82 @@
+{
+  "projectName": "The Rust Programming Language",
+  "projectPurpose": "To serve as the official, comprehensive, and free guide for individuals to learn how to program in the Rust language.",
+  "platforms": [
+    "Web",
+    "Print (via generated formats)"
+  ],
+  "mainFeatures": [
+    "Comprehensive guide to the Rust programming language",
+    "Covers fundamental and advanced Rust concepts",
+    "Official resource from the rust-lang organization",
+    "Available freely online",
+    "Open-source and community-contributed"
+  ],
+  "website": "https://github.com/rust-lang/book",
+  "alternatives": [
+    {
+      "name": "The Python Tutorial",
+      "license": "Open Source (Python Software Foundation License)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Introduction to Python syntax and features",
+        "Informal guide for beginners",
+        "Covers the Python standard library",
+        "Available offline"
+      ],
+      "website": "https://docs.python.org/3/tutorial/"
+    },
+    {
+      "name": "Eloquent JavaScript",
+      "license": "Open Source (Creative Commons)",
+      "platforms": [
+        "Web",
+        "Print"
+      ],
+      "mainFeatures": [
+        "Covers JavaScript basics to advanced topics",
+        "Includes programming exercises",
+        "Available online for free",
+        "Discusses fundamental computer science principles"
+      ],
+      "website": "https://eloquentjavascript.net/"
+    },
+    {
+      "name": "Structure and Interpretation of Computer Programs (SICP)",
+      "license": "Proprietary (Published by MIT Press), often available freely online unofficially or older editions under open licenses.",
+      "platforms": [
+        "Print",
+        "PDF"
+      ],
+      "mainFeatures": [
+        "Introduces fundamental computer science concepts",
+        "Uses Scheme or JavaScript for examples",
+        "Focuses on building mental models of computation",
+        "Includes exercises"
+      ],
+      "website": "https://mitpress.mit.edu/sicp/"
+    },
+    {
+      "name": "W3Schools JavaScript Tutorial",
+      "license": "Proprietary (Website content is copyrighted)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Interactive code examples ('Try it Yourself')",
+        "Covers various JavaScript versions",
+        "Structured curriculum",
+        "Beginner-friendly approach"
+      ],
+      "website": "https://www.w3schools.com/js/default.asp"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "The Python Tutorial",
+    "Eloquent JavaScript",
+    "W3Schools JavaScript Tutorial"
+  ],
+  "marketPositioning": " \"The Rust Programming Language\" is positioned as the official, authoritative, and comprehensive free guide for learning the Rust programming language. It serves as the go-to, foundational resource directly from the language's creators, offering an in-depth, structured, and text-based approach suitable for both beginners and those seeking a deeper understanding, differentiating itself from quick tutorials and proprietary paid courses."
+}

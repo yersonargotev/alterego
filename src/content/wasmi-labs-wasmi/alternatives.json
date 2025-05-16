@@ -1,0 +1,159 @@
+{
+  "projectName": "wasmi",
+  "projectPurpose": "To provide an efficient, lightweight, and secure WebAssembly interpreter specifically designed for environments with limited resources, such as embedded systems, IoT devices, smart contracts, and plugin systems.",
+  "platforms": [
+    "Cross-platform",
+    "Embedded systems (no_std support)"
+  ],
+  "mainFeatures": [
+    "Efficient and lightweight WebAssembly interpreter",
+    "Focus on constrained and embedded systems",
+    "Simple, correct, and deterministic execution",
+    "Low-overhead and cross-platform runtime",
+    "100% WebAssembly spec testsuite compliance",
+    "Built-in support for fuel metering",
+    "Fast startup times (rewriting interpreter)",
+    "Supports WASI preview1",
+    "Can run inside of WebAssembly itself",
+    "Loosely mirrors the Wasmtime API"
+  ],
+  "website": "https://github.com/wasmi-labs/wasmi",
+  "alternatives": [
+    {
+      "name": "Wasmtime",
+      "license": "Open Source - Apache 2.0/MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Cross-platform (configurable minimal builds)"
+      ],
+      "mainFeatures": [
+        "Fast JIT and AOT compilation (Cranelift)",
+        "Secure execution (sandboxing)",
+        "Standards compliant (WASI, Wasm C-API)",
+        "Configurable resource limits (CPU, memory)",
+        "Supports multiple languages via embeddings"
+      ],
+      "website": "https://wasmtime.dev/"
+    },
+    {
+      "name": "Wasmer",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Web (browser)",
+        "Edge",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Universal Wasm runtime (runs everywhere)",
+        "Supports multiple compilation backends",
+        "Large language support",
+        "Lightweight containers",
+        "Focus on developer experience"
+      ],
+      "website": "https://wasmer.io/"
+    },
+    {
+      "name": "WasmEdge",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux (x86_64, aarch64)",
+        "macOS (x86_64, M1)",
+        "Windows 10",
+        "Android",
+        "seL4 RTOS",
+        "OpenWrt",
+        "OpenHarmony",
+        "Raspberry Pi",
+        "RISC-V (WIP)"
+      ],
+      "mainFeatures": [
+        "High-performance (LLVM-based AOT compiler)",
+        "Lightweight and extensible",
+        "Cloud-native and edge focused",
+        "Supports JavaScript",
+        "AI inference support (TensorFlow, PyTorch)"
+      ],
+      "website": "https://wasmedge.org/"
+    },
+    {
+      "name": "V8",
+      "license": "Open Source - New BSD License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "Other platforms supported by Chrome/Node.js"
+      ],
+      "mainFeatures": [
+        "Integrated into Chrome and Node.js",
+        "High-performance JIT compilation",
+        "Supports latest WebAssembly features",
+        "Used for running Wasm in browsers and server-side JavaScript",
+        "Optimized for peak execution speed"
+      ],
+      "website": "https://v8.dev/"
+    },
+    {
+      "name": "Wasm3",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform",
+        "Embedded systems",
+        "Microcontrollers",
+        "Web (via Emscripten)"
+      ],
+      "mainFeatures": [
+        "Fastest WebAssembly interpreter",
+        "Lightweight and embeddable",
+        "Small footprint",
+        "Supports multiple languages",
+        "Can run in constrained environments"
+      ],
+      "website": "https://github.com/wasm3/wasm3"
+    },
+    {
+      "name": "WAMR (WebAssembly Micro Runtime)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Embedded systems",
+        "IoT devices",
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Small footprint",
+        "Interpreter, AOT, and JIT options",
+        "Highly configurable",
+        "Designed for embedded and IoT",
+        "Supports dynamic/remote application management"
+      ],
+      "website": "https://github.com/bytecodealliance/wasm-micro-runtime"
+    },
+    {
+      "name": "Chicory",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "JVM (Java Virtual Machine)"
+      ],
+      "mainFeatures": [
+        "WebAssembly interpreter written in Java",
+        "Zero native dependencies",
+        "Runs on any JVM",
+        "Safely interacts with Wasm libraries",
+        "Embeddable in Java applications"
+      ],
+      "website": "https://github.com/dylibso/chicory"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "V8"
+  ],
+  "marketPositioning": "Wasmi is positioned as an efficient, lightweight, and secure WebAssembly interpreter focused on constrained and embedded systems. It differentiates itself from JIT/AOT-based runtimes by prioritizing fast startup times, low memory overhead, deterministic execution, and suitability for environments where JIT compilation is not feasible or desired. It targets use cases like embedded devices, IoT, and blockchain smart contracts, offering a reliable and resource-conscious Wasm execution environment, sometimes serving as a drop-in alternative or prototyping tool to runtimes like Wasmtime in specific contexts."
+}

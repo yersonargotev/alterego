@@ -1,0 +1,134 @@
+{
+  "projectName": "pgprolog",
+  "projectPurpose": "To integrate the Prolog programming language as a procedural language within PostgreSQL, allowing users to write server-side functions and procedures in Prolog.",
+  "platforms": [
+    "PostgreSQL (Linux, Windows, macOS, etc.)"
+  ],
+  "mainFeatures": [
+    "Provides a Prolog language handler for PostgreSQL",
+    "Enables writing database functions and procedures in Prolog",
+    "Written in Rust",
+    "Integrates Prolog's logic programming with PostgreSQL data management"
+  ],
+  "website": "https://github.com/tatut/pgprolog",
+  "alternatives": [
+    {
+      "name": "PL/pgSQL",
+      "license": "Open Source (part of PostgreSQL)",
+      "platforms": [
+        "Runs within PostgreSQL (Linux, Windows, macOS, etc.)"
+      ],
+      "mainFeatures": [
+        "SQL-like syntax for procedural code",
+        "Tight integration with PostgreSQL data types and operations",
+        "Control structures (loops, conditionals)",
+        "Error handling and transaction management"
+      ],
+      "website": "https://www.postgresql.org/docs/current/plpgsql.html"
+    },
+    {
+      "name": "PL/Python",
+      "license": "Open Source (part of PostgreSQL)",
+      "platforms": [
+        "Runs within PostgreSQL (Linux, Windows, macOS, etc.)"
+      ],
+      "mainFeatures": [
+        "Allows writing functions in Python",
+        "Access to Python's extensive libraries",
+        "Interaction with database data",
+        "Error handling"
+      ],
+      "website": "https://www.postgresql.org/docs/current/plpython.html"
+    },
+    {
+      "name": "PL/Perl",
+      "license": "Open Source (part of PostgreSQL)",
+      "platforms": [
+        "Runs within PostgreSQL (Linux, Windows, macOS, etc.)"
+      ],
+      "mainFeatures": [
+        "Allows writing functions in Perl",
+        "Leverages Perl's text processing capabilities",
+        "Interaction with database data",
+        "Supports trusted and untrusted variants"
+      ],
+      "website": "https://www.postgresql.org/docs/current/plperl.html"
+    },
+    {
+      "name": "PL/Tcl",
+      "license": "Open Source (part of PostgreSQL)",
+      "platforms": [
+        "Runs within PostgreSQL (Linux, Windows, macOS, etc.)"
+      ],
+      "mainFeatures": [
+        "Allows writing functions in Tcl",
+        "Simple scripting language integration",
+        "Interaction with database data",
+        "Supports trusted and untrusted variants"
+      ],
+      "website": "https://www.postgresql.org/docs/current/pltcl.html"
+    },
+    {
+      "name": "PL/Java",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Runs within PostgreSQL (Linux, Windows, macOS, etc.)"
+      ],
+      "mainFeatures": [
+        "Allows writing functions in Java",
+        "Access to the Java ecosystem and libraries",
+        "Runs a JVM within the PostgreSQL process",
+        "Supports database access from Java code"
+      ],
+      "website": "http://tada.github.io/pljava/"
+    },
+    {
+      "name": "PL/Lua",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Runs within PostgreSQL (Linux, Windows, macOS, etc.)"
+      ],
+      "mainFeatures": [
+        "Allows writing functions in Lua",
+        "Lightweight scripting language integration",
+        "Efficient execution within the database",
+        "Access to database data"
+      ],
+      "website": "https://github.com/PostgreSQL/pllua"
+    },
+    {
+      "name": "Psqlog",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Runs within PostgreSQL (Linux, Windows, macOS, etc.)"
+      ],
+      "mainFeatures": [
+        "Implements the Datalog subset of Prolog",
+        "Runs directly within PostgreSQL",
+        "Uses database tables and views for logic programming",
+        "Focuses on Datalog's declarative querying capabilities"
+      ],
+      "website": "https://github.com/ekoontz/psqlog"
+    },
+    {
+      "name": "Standard Database Connectors (e.g., ODBC, JDBC, libpq bindings)",
+      "license": "Varies (often Open Source or bundled)",
+      "platforms": [
+        "Varies widely depending on language and driver"
+      ],
+      "mainFeatures": [
+        "Connects external applications to PostgreSQL",
+        "Allows execution of SQL queries and commands",
+        "Retrieval and processing of query results",
+        "Enables interaction with database from any supported language"
+      ],
+      "website": "Varies (e.g., https://odbc.postgresql.org/, https://jdbc.postgresql.org/, https://www.postgresql.org/docs/current/libpq.html)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "PL/pgSQL",
+    "PL/Python",
+    "Standard Database Connectors"
+  ],
+  "marketPositioning": "pgprolog is a niche procedural language handler for PostgreSQL, targeting users who require the specific capabilities of the Prolog logic programming paradigm within their database. Unlike standard imperative or SQL-based procedural languages like PL/pgSQL, PL/Python, or PL/Java, pgprolog offers a declarative, rule-based approach to server-side logic. Its positioning is unique, catering to use cases where Prolog's strengths in areas like complex rule evaluation, knowledge representation, and automated reasoning are beneficial for data processing and querying within PostgreSQL. While not as widely adopted as the mainstream procedural languages, it provides a distinct and powerful option for a specific set of users."
+}

@@ -1,0 +1,98 @@
+{
+  "projectName": "static-analysis",
+  "projectPurpose": "To provide a comprehensive, community-driven directory and curated list of static analysis (SAST) tools and linters for various programming languages, configuration files, and build tools, focused on improving code quality and identifying security vulnerabilities.",
+  "platforms": [
+    "Web (Resource list/Directory)"
+  ],
+  "mainFeatures": [
+    "Curated list of static analysis (SAST) tools and linters",
+    "Covers a wide range of programming languages, config files, and build tools",
+    "Focuses on tools that improve code quality and include SAST capabilities",
+    "Serves as an information resource for static analysis (articles, talks, etc.)",
+    "Powers the analysis-tools.dev website with additional features like rankings and comments"
+  ],
+  "website": "https://analysis-tools.dev/",
+  "alternatives": [
+    {
+      "name": "OWASP Source Code Analysis Tools",
+      "license": "Open Source",
+      "platforms": [
+        "Web (Resource list)"
+      ],
+      "mainFeatures": [
+        "Lists SAST tools",
+        "Includes open-source and commercial options",
+        "Part of the broader OWASP effort",
+        "Focuses on application security"
+      ],
+      "website": "https://owasp.org/www-community/Source_Code_Analysis_Tools"
+    },
+    {
+      "name": "GitHub Super Linter",
+      "license": "Open Source",
+      "platforms": [
+        "GitHub Actions"
+      ],
+      "mainFeatures": [
+        "Bundles multiple linters into a single action",
+        "Automates linting in CI/CD workflows",
+        "Supports many languages and formats",
+        "Configurable via a single action"
+      ],
+      "website": "https://github.com/github/super-linter"
+    },
+    {
+      "name": "SonarQube",
+      "license": "Open Source (Community Edition) / Proprietary (Commercial Editions)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (Server)"
+      ],
+      "mainFeatures": [
+        "Multi-language static code analysis",
+        "Detects bugs, security vulnerabilities (SAST), and code smells",
+        "Integrates with CI/CD pipelines",
+        "Provides a dashboard for code quality metrics",
+        "Supports defining quality gates and profiles"
+      ],
+      "website": "https://www.sonarqube.org/"
+    },
+    {
+      "name": "Veracode Static Analysis",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (SaaS)"
+      ],
+      "mainFeatures": [
+        "Enterprise-grade SAST solution",
+        "Supports a large number of languages and frameworks",
+        "Integrates throughout the SDLC (IDE, CI/CD)",
+        "Provides vulnerability remediation guidance",
+        "Known for high accuracy and low false positives"
+      ],
+      "website": "https://www.veracode.com/software-testing/static-analysis-sast"
+    },
+    {
+      "name": "Codacy",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (SaaS)"
+      ],
+      "mainFeatures": [
+        "Automated code analysis (SAST, complexity, duplication, coverage)",
+        "Supports over 20 programming languages",
+        "Integrates with GitHub, GitLab, and Bitbucket",
+        "Provides analysis results directly in pull requests",
+        "Includes security analysis checks"
+      ],
+      "website": "https://www.codacy.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SonarQube",
+    "Veracode"
+  ],
+  "marketPositioning": "The 'static-analysis' project and its associated website analysis-tools.dev are positioned as a central, comprehensive, and community-driven hub for discovering and comparing a wide array of static analysis tools and linters across diverse technologies. Unlike individual tools that perform analysis (e.g., SonarQube, Veracode), this project acts as a curated directory, providing developers and teams with a valuable starting point to navigate the complex landscape of static code analysis solutions for code quality and security. Its broad scope and community contributions differentiate it from more narrowly focused lists or commercial marketplaces."
+}

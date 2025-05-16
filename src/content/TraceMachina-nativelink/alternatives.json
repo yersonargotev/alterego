@@ -1,0 +1,101 @@
+{
+  "projectName": "nativelink",
+  "projectPurpose": "To provide an open-source, high-performance build cache and remote execution server that accelerates the build and test processes of compatible build systems like Bazel, Pants, and Buck2 by leveraging remote infrastructure.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Open source",
+    "High-performance build cache",
+    "Remote execution server",
+    "Compatible with Bazel, Pants, Buck2, Reclient, and other RBE-compatible build systems",
+    "Drastically faster builds",
+    "Reduced test flakiness",
+    "Support for specialized hardware"
+  ],
+  "website": "https://github.com/TraceMachina/nativelink",
+  "alternatives": [
+    {
+      "name": "Buildbarn",
+      "license": "Open Source",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Remote caching",
+        "Remote execution",
+        "Microservice architecture",
+        "Optimized for large clusters",
+        "Supports Bazel, Buck2, BuildStream, recc"
+      ],
+      "website": "https://github.com/buildbarn/buildbarn"
+    },
+    {
+      "name": "BuildBuddy",
+      "license": "Open Source (FOSS) / Proprietary (Commercial)",
+      "platforms": [
+        "Web",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Remote execution",
+        "Remote caching",
+        "Build event viewer/UI",
+        "Supports Bazel",
+        "Managed service and on-prem options"
+      ],
+      "website": "https://www.buildbuddy.io/"
+    },
+    {
+      "name": "EngFlow",
+      "license": "Proprietary (Commercial) / Free Tier",
+      "platforms": [
+        "Web",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Remote execution",
+        "Remote caching",
+        "Build and test UI",
+        "Supports Bazel",
+        "Managed service and self-hosted options"
+      ],
+      "website": "https://engflow.com/"
+    },
+    {
+      "name": "bazel-remote",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Remote build cache (HTTP/1.1 and gRPC)",
+        "Supports disk, S3, GCS, and Azure backends",
+        "Automatic cache size enforcement"
+      ],
+      "website": "https://github.com/buchgr/bazel-remote"
+    },
+    {
+      "name": "Buildfarm",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Remote caching",
+        "Remote execution",
+        "Compatible with Bazel, Buck2, Pants, etc.",
+        "Scalable architecture"
+      ],
+      "website": "https://github.com/bazelbuild/buildfarm"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "BuildBuddy",
+    "EngFlow"
+  ],
+  "marketPositioning": "NativeLink is positioned as a high-performance, open-source implementation of the Bazel Remote Execution API. It competes with other open-source alternatives like Buildbarn and Buildfarm by emphasizing performance and Rust-based implementation. Compared to commercial services such as BuildBuddy and EngFlow, NativeLink offers the control and transparency of open source, appealing to organizations preferring self-hosted solutions. Its focus on speed and support for specialized hardware caters to users with demanding build workloads and specific infrastructure needs within the RBE-compatible build system ecosystem."
+}

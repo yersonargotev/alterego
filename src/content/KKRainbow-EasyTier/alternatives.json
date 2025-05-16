@@ -1,0 +1,141 @@
+{
+  "projectName": "EasyTier",
+  "projectPurpose": "To provide a simple, secure, and decentralized solution for creating mesh VPN networks using the WireGuard protocol, enabling direct peer-to-peer connections between devices and servers without a central authority.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android"
+  ],
+  "mainFeatures": [
+    "Decentralized Mesh Topology",
+    "WireGuard Integration",
+    "Cross-platform support",
+    "Networking without public IP",
+    "NAT Traversal",
+    "Subnet Proxy (Point-to-Network)",
+    "Smart Routing",
+    "High Availability",
+    "IPv6 Support",
+    "Multiple Protocol Types (WebSocket, QUIC)",
+    "Web Management Interface"
+  ],
+  "website": "https://www.easytier.top/",
+  "alternatives": [
+    {
+      "name": "Tailscale",
+      "license": "Proprietary (Client open source, control server closed source)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "FreeBSD",
+        "OpenBSD",
+        "NetBSD",
+        "Solaris",
+        "Docker",
+        "Synology",
+        "Raspberry Pi",
+        "ChromeOS",
+        "tvOS",
+        "Embedded Linux"
+      ],
+      "mainFeatures": [
+        "Based on WireGuard",
+        "Zero configuration mesh VPN",
+        "Identity-based authentication",
+        "Subnet routing and exit nodes",
+        "Access control policies"
+      ],
+      "website": "https://tailscale.com/"
+    },
+    {
+      "name": "ZeroTier",
+      "license": "Open Source (BSDL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "FreeBSD",
+        "OpenBSD",
+        "NetBSD",
+        "Solaris",
+        "Docker",
+        "Synology",
+        "Raspberry Pi"
+      ],
+      "mainFeatures": [
+        "Creates virtual Layer 2 networks",
+        "Decentralized architecture",
+        "Automatic peer-to-peer connections (NAT traversal)",
+        "Centralized management console",
+        "Supports various network topologies"
+      ],
+      "website": "https://www.zerotier.com/"
+    },
+    {
+      "name": "Nebula",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Scalable, distributed overlay network",
+        "Uses 'lighthouse' for peer discovery",
+        "Certificate-based security model",
+        "Acts as a virtual network interface"
+      ],
+      "website": "https://github.com/slackhq/nebula"
+    },
+    {
+      "name": "Netmaker",
+      "license": "Open Source (SSPL)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Docker",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Web-based UI for managing WireGuard networks",
+        "Automated WireGuard configuration",
+        "Centralized control plane",
+        "DNS management"
+      ],
+      "website": "https://www.netmaker.io/"
+    },
+    {
+      "name": "WireGuard",
+      "license": "Open Source (GPLv2)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "BSD",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Modern, fast, and secure VPN protocol",
+        "Simple protocol design",
+        "Kernel-level implementation on Linux",
+        "Strong cryptography"
+      ],
+      "website": "https://www.wireguard.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Tailscale",
+    "ZeroTier"
+  ],
+  "marketPositioning": "EasyTier is positioned as a simple, secure, and truly decentralized mesh VPN solution built upon the WireGuard protocol. Unlike solutions that rely on centralized control servers, EasyTier emphasizes a peer-to-peer architecture, appealing to users who prioritize full ownership, control, and resilience without a single point of failure managed by a third party. It offers a more user-friendly approach to establishing WireGuard mesh networks compared to manual configuration, while providing advanced features like NAT traversal and subnet proxying. Its open-source nature and focus on simplicity distinguish it from more feature-rich but potentially more complex or less decentralized alternatives like Tailscale or ZeroTier."
+}

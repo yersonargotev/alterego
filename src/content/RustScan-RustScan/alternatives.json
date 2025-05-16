@@ -1,0 +1,94 @@
+{
+  "projectName": "RustScan",
+  "projectPurpose": "To provide a very fast and efficient port scanner that quickly identifies open ports, particularly designed to improve the initial port scanning phase of network reconnaissance and vulnerability assessment by accelerating the process and integrating with tools like Nmap.",
+  "platforms": [],
+  "mainFeatures": [
+    "Scans all 65k ports rapidly (e.g., in 3 seconds on optimized systems)",
+    "Full scripting engine support (Python, Lua, Shell)",
+    "Automatically pipes results into Nmap for further analysis",
+    "Adaptive learning for performance optimization",
+    "Supports IPv6, CIDR, and file input"
+  ],
+  "website": "https://github.com/RustScan/RustScan",
+  "alternatives": [
+    {
+      "name": "Nmap",
+      "license": "NPSL or modified GPLv2 or proprietary",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "BSD",
+        "Solaris",
+        "IRIX",
+        "HP-UX",
+        "NetBSD",
+        "Sun OS",
+        "Amiga"
+      ],
+      "mainFeatures": [
+        "Host discovery",
+        "Various port scanning techniques",
+        "Operating system detection",
+        "Service version detection",
+        "Nmap Scripting Engine (NSE) for advanced tasks"
+      ],
+      "website": "https://nmap.org/"
+    },
+    {
+      "name": "Masscan",
+      "license": "Affero GNU Public License",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Internet-scale scanning capability",
+        "Extremely high-speed asynchronous packet transmission",
+        "Banner grabbing",
+        "Supports various output formats",
+        "Custom TCP/IP stack"
+      ],
+      "website": "https://github.com/robertdavidgraham/masscan"
+    },
+    {
+      "name": "ZMap",
+      "license": "Apache License 2.0",
+      "platforms": [
+        "GNU/Linux",
+        "Mac OS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Fast, stateless single packet network scanning",
+        "Designed for Internet-wide network surveys",
+        "Scans entire IPv4 address space on a single port quickly",
+        "Supports various probe modules (TCP SYN, ICMP, DNS, etc.)",
+        "Works with ZGrab for application-layer handshakes"
+      ],
+      "website": "https://zmap.io/"
+    },
+    {
+      "name": "Angry IP Scanner",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast IP address and port scanning",
+        "Scans IP addresses in any range and their ports",
+        "Resolves hostnames",
+        "Command-line and GUI modes",
+        "Exports scan results in various formats"
+      ],
+      "website": "https://angryip.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Nmap"
+  ],
+  "marketPositioning": "RustScan positions itself as a modern, high-speed port scanner focused on drastically reducing the time required for the initial port discovery phase. Its key differentiator is its exceptional speed and its seamless integration with Nmap, allowing users to quickly find open ports with RustScan and then perform detailed analysis using Nmap's comprehensive features on only those open ports. It serves as a powerful front-end to accelerate existing security workflows, particularly for penetration testers and security professionals who rely on Nmap but need faster initial results."
+}

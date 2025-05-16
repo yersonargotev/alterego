@@ -1,0 +1,107 @@
+{
+  "projectName": "legba",
+  "projectPurpose": "To provide a fast, efficient, and multiprotocol open-source tool for security professionals to perform credentials bruteforcing, password spraying, and enumeration against various network services as part of security assessments and penetration testing.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Multiprotocol support (including AMQP, Cassandra, HTTP, Kerberos, LDAP, MongoDB, MQTT, SQL, SSH, Telnet, VNC, etc.)",
+    "Credentials bruteforcing",
+    "Password spraying",
+    "Various enumeration capabilities (DNS, Kerberos, HTTP)",
+    "High performance and resource efficiency via Rust and Tokio",
+    "Advanced HTTP features (NTLM, forms, CSRF, enumeration)",
+    "TCP and UDP port scanning with banner grabbing"
+  ],
+  "website": "https://github.com/evilsocket/legba",
+  "alternatives": [
+    {
+      "name": "THC-Hydra",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Linux",
+        "Windows/Cygwin",
+        "macOS",
+        "Solaris",
+        "FreeBSD",
+        "OpenBSD",
+        "QNX/Blackberry"
+      ],
+      "mainFeatures": [
+        "Broad protocol support (50+ protocols)",
+        "Parallelized attacks",
+        "Dictionary and brute-force attacks",
+        "Flexible command-line interface"
+      ],
+      "website": "https://github.com/vanhauser-thc/thc-hydra"
+    },
+    {
+      "name": "Medusa",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Speedy, parallel, and modular design",
+        "Thread-based parallel testing",
+        "Flexible user input for targets and credentials",
+        "Supports various protocols (SSH, FTP, HTTP, RDP, SMB, etc.)"
+      ],
+      "website": "http://www.foofus.net/~jmk/medusa/"
+    },
+    {
+      "name": "Ncrack",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "High-speed network authentication cracking",
+        "Modular architecture",
+        "Command-line syntax similar to Nmap",
+        "Supports protocols like SSH, RDP, HTTP(S), SMB, VNC, FTP, Telnet"
+      ],
+      "website": "https://nmap.org/ncrack/"
+    },
+    {
+      "name": "Patator",
+      "license": "Open Source - GPL-2.0",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Multi-purpose brute-forcer",
+        "Modular design (Python-based)",
+        "Threaded for speed",
+        "Supports a wide range of protocols (FTP, SSH, SMTP, SQL, HTTP, etc.)"
+      ],
+      "website": "https://github.com/lanjelot/patator"
+    },
+    {
+      "name": "NetExec (formerly CrackMapExec)",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Post-exploitation tool for Windows environments",
+        "Enumeration of shares, sessions, users, etc.",
+        "Password spraying against SMB, LDAP, etc.",
+        "Module support for various tasks (e.g., dumping hashes)",
+        "Supports SMB, WinRM, SSH"
+      ],
+      "website": "https://www.netexec.wiki/"
+    }
+  ],
+  "mostWellKnownAlternative": "THC-Hydra",
+  "marketPositioning": "Legba positions itself as a modern, high-performance, and resource-efficient multiprotocol credentials testing tool built with Rust and an asynchronous runtime. It aims to compete with established tools like THC-Hydra and Medusa by offering a wide range of protocol support combined with superior speed and lower resource consumption, as demonstrated by its benchmarks. Its comprehensive feature set, including detailed HTTP options and enumeration capabilities, makes it a versatile choice for contemporary network security assessments, appealing to users seeking a faster and more efficient alternative in the crowded space of network penetration testing tools."
+}

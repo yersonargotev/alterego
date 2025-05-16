@@ -1,0 +1,68 @@
+{
+  "projectName": "cc-rs",
+  "projectPurpose": "To provide a convenient and idiomatic way for Rust developers to compile native C, C++, assembly, and CUDA code within their Cargo build process and link the resulting artifacts into their Rust crates, facilitating interoperability.",
+  "platforms": [
+    "Cross-platform (wherever Rust and native compilers run)"
+  ],
+  "mainFeatures": [
+    "Compile C/C++/assembly/CUDA files",
+    "Used in Cargo build scripts",
+    "Links compiled code into the Rust crate",
+    "Calls out to the default compiler for the platform",
+    "Automatically detects cross-compilation and environment variables",
+    "Supports parallel compilation (optional feature)"
+  ],
+  "website": "https://github.com/rust-lang/cc-rs",
+  "alternatives": [
+    {
+      "name": "cmake-rs",
+      "license": "MIT OR Apache-2.0",
+      "platforms": [
+        "Cross-platform (wherever CMake and Rust run)"
+      ],
+      "mainFeatures": [
+        "Runs the cmake build tool from a Cargo build script",
+        "Handles boilerplate for invoking CMake",
+        "Assists with cross-compilation setups",
+        "Manages linking native libraries built by CMake into Rust"
+      ],
+      "website": "https://github.com/rust-lang/cmake-rs"
+    },
+    {
+      "name": "CMake",
+      "license": "BSD-3-Clause",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Many others"
+      ],
+      "mainFeatures": [
+        "Cross-platform meta-build system",
+        "Generates build scripts for various native build tools",
+        "Manages complex project structures and dependencies",
+        "Supports system introspection",
+        "Includes testing, packaging, and installation features"
+      ],
+      "website": "https://cmake.org/"
+    },
+    {
+      "name": "Direct compiler invocation in build.rs",
+      "license": "N/A (uses system compilers, e.g., GCC, Clang, MSVC)",
+      "platforms": [
+        "Cross-platform (wherever Rust and native compilers run)"
+      ],
+      "mainFeatures": [
+        "Direct control over the compilation process",
+        "Allows calling any system command",
+        "Requires manual handling of compiler arguments, includes, libraries, and linking",
+        "No built-in cross-compilation handling (requires manual configuration)"
+      ],
+      "website": "https://doc.rust-lang.org/std/process/struct.Command.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "CMake"
+  ],
+  "marketPositioning": "cc-rs is positioned as a convenient, Rust-idiomatic, and lightweight build dependency for compiling small-to-medium amounts of C/C++/assembly/CUDA code directly within the Cargo build process, without requiring a separate, complex build system like CMake. It simplifies common tasks like compiler detection, flag handling, and cross-compilation, making it easier to integrate native code into Rust projects compared to manual compiler invocation or relying on an external CMake project."
+}

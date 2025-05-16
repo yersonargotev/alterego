@@ -1,0 +1,140 @@
+{
+  "projectName": "june",
+  "projectPurpose": "To provide an easier-to-learn and easier-to-use safe systems programming language as an alternative to Rust, focusing on a simpler approach to memory safety.",
+  "platforms": [
+    "Cross-platform (as it compiles to C, which can be compiled on various platforms)"
+  ],
+  "mainFeatures": [
+    "Implemented in Rust",
+    "Compiles to C",
+    "Aims for easier safe systems programming than Rust",
+    "Supports basic programming constructs (conditionals, loops, assignment, recursion)",
+    "Includes built-in data structures (structs, vecs, maps, sets)",
+    "Provides file I/O capabilities"
+  ],
+  "website": "https://github.com/sophiajt/june",
+  "alternatives": [
+    {
+      "name": "Rust",
+      "license": "Open Source - MIT / Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "WebAssembly",
+        "Embedded"
+      ],
+      "mainFeatures": [
+        "Memory safety without garbage collection",
+        "Concurrency without data races",
+        "High performance",
+        "Rich type system",
+        "Large package ecosystem (crates.io)"
+      ],
+      "website": "https://www.rust-lang.org/"
+    },
+    {
+      "name": "Go",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Various"
+      ],
+      "mainFeatures": [
+        "Garbage collection",
+        "Built-in concurrency (goroutines, channels)",
+        "Fast compilation",
+        "Strong standard library",
+        "Static typing"
+      ],
+      "website": "https://go.dev/"
+    },
+    {
+      "name": "C++",
+      "license": "Open Source (Compiler dependent)",
+      "platforms": [
+        "Virtually all platforms"
+      ],
+      "mainFeatures": [
+        "High performance",
+        "Low-level memory manipulation",
+        "Vast ecosystem and libraries",
+        "Supports multiple programming paradigms"
+      ],
+      "website": "https://isocpp.org/"
+    },
+    {
+      "name": "C",
+      "license": "Open Source (Compiler dependent)",
+      "platforms": [
+        "Virtually all platforms"
+      ],
+      "mainFeatures": [
+        "Low-level memory access",
+        "High performance",
+        "Foundational for OS and embedded systems",
+        "Simple syntax"
+      ],
+      "website": "https://en.cppreference.com/w/c"
+    },
+    {
+      "name": "Zig",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Various"
+      ],
+      "mainFeatures": [
+        "Focus on performance and safety",
+        "Explicit error handling",
+        "Compile-time code execution",
+        "C interoperability"
+      ],
+      "website": "https://ziglang.org/"
+    },
+    {
+      "name": "Nim",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "JavaScript"
+      ],
+      "mainFeatures": [
+        "Compiles to C, C++, or JavaScript",
+        "Static typing with type inference",
+        "Flexible memory management",
+        "Powerful metaprogramming"
+      ],
+      "website": "https://nim-lang.org/"
+    },
+    {
+      "name": "Ada",
+      "license": "Open Source (Compiler dependent)",
+      "platforms": [
+        "Various (often safety-critical systems)"
+      ],
+      "mainFeatures": [
+        "Strong typing",
+        "Built-in concurrency support",
+        "Exception handling",
+        "Designed for large-scale systems"
+      ],
+      "website": "https://www.adacore.com/academia"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "C++",
+    "Go"
+  ],
+  "marketPositioning": "June is positioned as an experimental, easier-to-learn safe systems programming language compared to Rust. It targets developers seeking performance and safety without the steeper learning curve associated with Rust's ownership and borrowing system. By compiling to C, it offers potential interoperability with existing C codebases. Currently in a pre-alpha stage, it is exploring alternative approaches to memory safety and aims to provide a more approachable entry point into systems development."
+}

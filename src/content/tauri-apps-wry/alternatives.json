@@ -1,0 +1,109 @@
+{
+  "projectName": "wry",
+  "projectPurpose": "To provide a low-level, cross-platform library in Rust for embedding web content (HTML, CSS, JavaScript) within native desktop applications using the operating system's native WebView capabilities, serving as a core component for frameworks like Tauri.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android",
+    "iOS"
+  ],
+  "mainFeatures": [
+    "Cross-platform WebView rendering",
+    "Written in Rust",
+    "Utilizes native system WebViews (WebView2, WebKit, WebKitGTK)",
+    "Supports custom protocols",
+    "Supports file drop handling"
+  ],
+  "website": "https://github.com/tauri-apps/wry",
+  "alternatives": [
+    {
+      "name": "Electron",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Embeds Chromium and Node.js",
+        "Build desktop apps with web technologies (HTML, CSS, JS)",
+        "Native GUI APIs",
+        "Automatic software updates",
+        "App store distribution"
+      ],
+      "website": "https://www.electronjs.org/"
+    },
+    {
+      "name": "NW.js",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Embeds Chromium and Node.js",
+        "Call Node.js modules directly from DOM",
+        "Build native apps with web technologies",
+        "JavaScript Source Protection"
+      ],
+      "website": "https://nwjs.io/"
+    },
+    {
+      "name": "Chromium Embedded Framework (CEF)",
+      "license": "BSD",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "OpenHarmony",
+        "Oniro OS",
+        "HarmonyOS"
+      ],
+      "mainFeatures": [
+        "Embed a Chromium web browser",
+        "Use HTML, CSS, JS for application UI",
+        "C/C++ interfaces with bindings for other languages",
+        "Support for custom plugins and protocols",
+        "Multi-process architecture"
+      ],
+      "website": "bitbucket.org/chromiumembedded/cef"
+    },
+    {
+      "name": "Qt WebEngine",
+      "license": "Commercial, LGPL v3.0, GPL v3.0, GPL v2.0 (Qt specific), various (Chromium parts including LGPL v2.1)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Other Qt supported platforms"
+      ],
+      "mainFeatures": [
+        "Embeds a Chromium-based web engine",
+        "Integrates with the Qt framework",
+        "Render HTML5, CSS, JavaScript",
+        "Provides C++ API"
+      ],
+      "website": "https://www.qt.io/"
+    },
+    {
+      "name": "webview (Rust crate)",
+      "license": "ISC license",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Embeds native WebView",
+        "Call Rust from JavaScript and vice versa",
+        "Compile to a small binary",
+        "Controllable window properties"
+      ],
+      "website": "https://crates.io/crates/webview"
+    }
+  ],
+  "mostWellKnownAlternative": "Electron",
+  "marketPositioning": "Wry is positioned as a lightweight, performance-oriented, and secure cross-platform WebView library written in Rust. Unlike frameworks that bundle a full browser engine, Wry leverages the operating system's native WebView, resulting in significantly smaller binary sizes and lower resource consumption. It serves as a foundational component for the Tauri framework, appealing to developers who prioritize minimal overhead, security, and building applications primarily within the Rust ecosystem. While this approach may lead to minor rendering inconsistencies across platforms compared to bundled solutions, Wry's focus on native integration and Rust's benefits distinguishes it in the market for building efficient desktop applications with web technologies."
+}

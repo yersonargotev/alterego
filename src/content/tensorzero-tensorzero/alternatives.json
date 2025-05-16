@@ -1,0 +1,161 @@
+{
+  "projectName": "tensorzero",
+  "projectPurpose": "To provide an open-source framework for building, managing, and optimizing production-grade LLM applications by creating a feedback loop that uses production data to improve models.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows (via Docker)",
+    "Web (UI)"
+  ],
+  "mainFeatures": [
+    "Unified LLM gateway (Rust-based, high-performance, <1ms P99 latency)",
+    "Comprehensive LLM observability (tracing inference and feedback)",
+    "LLM optimization tools (prompts, fine-tuning, RL, inference strategies)",
+    "LLM evaluation framework (compare prompts, models, strategies)",
+    "Built-in experimentation (A/B testing, routing, fallbacks)",
+    "Self-hosted with data control (uses ClickHouse)",
+    "Support for multi-step LLM systems",
+    "Dynamic In-Context Learning (DICL)"
+  ],
+  "website": "https://tensorzero.com",
+  "alternatives": [
+    {
+      "name": "Langfuse",
+      "license": "Open Source - MIT / Freemium Cloud",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via Docker)",
+        "Web"
+      ],
+      "mainFeatures": [
+        "LLM call tracking and tracing",
+        "Prompt management",
+        "Evaluation and datasets",
+        "Usage monitoring",
+        "Self-hosting option"
+      ],
+      "website": "https://langfuse.com/"
+    },
+    {
+      "name": "Helicone",
+      "license": "Open Source - MIT / Freemium Cloud",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via Docker)",
+        "Web"
+      ],
+      "mainFeatures": [
+        "LLM monitoring and debugging",
+        "Tracing and analytics",
+        "Prompt management and evals",
+        "User feedback collection",
+        "Supports various LLM providers"
+      ],
+      "website": "https://www.helicone.ai/"
+    },
+    {
+      "name": "Arize AI (Phoenix)",
+      "license": "Phoenix: Open Source - ELv2 / Arize AI: Proprietary",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via Docker)",
+        "Web"
+      ],
+      "mainFeatures": [
+        "ML and LLM observability and analytics",
+        "Tracing and evaluation",
+        "Retrieval analysis for RAG",
+        "Hallucination detection (Phoenix)",
+        "Supports major frameworks (LangChain, LlamaIndex)"
+      ],
+      "website": "https://www.arize.com/"
+    },
+    {
+      "name": "Galileo",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "LLM observability and error analysis",
+        "Prompt inspection and debugging",
+        "Evaluation and experiment management",
+        "Tracing and metrics",
+        "Supports fine-tuning workflows"
+      ],
+      "website": "https://galileo.ai/"
+    },
+    {
+      "name": "PromptLayer",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Prompt versioning and management",
+        "Performance and cost monitoring",
+        "Error detection",
+        "Granular prompt tracking",
+        "Framework integrations"
+      ],
+      "website": "https://promptlayer.com/"
+    },
+    {
+      "name": "WhyLabs (LangKit)",
+      "license": "LangKit: Open Source / WhyLabs: Proprietary",
+      "platforms": [
+        "Library",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Data and model monitoring",
+        "Explainability and alerting",
+        "Extracts telemetry data",
+        "Detects issues (toxicity, hallucinations)",
+        "Focus on data quality and model health"
+      ],
+      "website": "https://whylabs.ai/"
+    },
+    {
+      "name": "Opik (by Comet)",
+      "license": "Open Source / Freemium Cloud",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via Docker)",
+        "Web"
+      ],
+      "mainFeatures": [
+        "LLM evaluation, testing, and monitoring",
+        "Tracing and annotations",
+        "Prompt and model playground",
+        "Automated evaluations",
+        "Production monitoring dashboards"
+      ],
+      "website": "https://www.comet.com/site/products/opik/"
+    },
+    {
+      "name": "LangSmith (by LangChain)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Debugging and testing LLM applications",
+        "Tracing and logging",
+        "Evaluation and feedback collection",
+        "Retrieval analysis for RAG",
+        "Tight integration with LangChain"
+      ],
+      "website": "https://smith.langchain.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "LangSmith",
+    "Arize AI"
+  ],
+  "marketPositioning": "TensorZero is positioned as a comprehensive, open-source, self-hostable LLMOps framework targeting engineers building production-grade LLM applications. It differentiates itself by unifying a high-performance LLM gateway, robust observability, explicit optimization tools, evaluation, and experimentation into a single platform, forming a continuous feedback loop. This contrasts with tools primarily focused on only observability or evaluation, or commercial platforms that may lack the open-source/self-hosted flexibility and performance-oriented gateway."
+}

@@ -1,0 +1,135 @@
+{
+  "projectName": "shuttle",
+  "projectPurpose": "To simplify the building and deployment of Rust backend applications by abstracting away infrastructure configuration.",
+  "platforms": [
+    "Cloud"
+  ],
+  "mainFeatures": [
+    "Build and ship backends without writing infrastructure files.",
+    "One-line resource provisioning via code (e.g., databases, secrets).",
+    "Rapid development and deployment.",
+    "First-class support for popular Rust frameworks (Axum, Actix Web, Rocket, etc.).",
+    "Infrastructure from Code capabilities.",
+    "Automatic HTTPS.",
+    "Managed deployment on cloud infrastructure (AWS)."
+  ],
+  "website": "https://www.shuttle.rs/",
+  "alternatives": [
+    {
+      "name": "Heroku",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Supports multiple programming languages (polyglot).",
+        "Container-based deployment (Dynos).",
+        "Managed databases (Postgres, Redis).",
+        "Add-ons ecosystem.",
+        "Integrated CI/CD features (Heroku Flow)."
+      ],
+      "website": "https://www.heroku.com/"
+    },
+    {
+      "name": "Render",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Unified platform for web services, databases, static sites, etc.",
+        "Supports multiple languages.",
+        "Managed databases (Postgres, Redis).",
+        "Automatic scaling.",
+        "Global CDN."
+      ],
+      "website": "https://render.com/"
+    },
+    {
+      "name": "Fly.io",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Deploy applications close to users (at the edge).",
+        "Runs on Firecracker MicroVMs.",
+        "Persistent storage (Volumes, Postgres).",
+        "Scale-to-zero.",
+        "Global Anycast Networking."
+      ],
+      "website": "https://fly.io/"
+    },
+    {
+      "name": "Vercel",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Optimized for frontend frameworks.",
+        "Serverless Functions for backend logic.",
+        "Automatic deployments via Git.",
+        "Global CDN.",
+        "Preview deployments."
+      ],
+      "website": "https://vercel.com/"
+    },
+    {
+      "name": "Netlify",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Static site hosting and deployment.",
+        "Serverless Functions.",
+        "Continuous deployment from Git.",
+        "Global Application Delivery Network (ADN).",
+        "Form handling."
+      ],
+      "website": "https://www.netlify.com/"
+    },
+    {
+      "name": "AWS Elastic Beanstalk",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (AWS)"
+      ],
+      "mainFeatures": [
+        "Supports multiple programming languages and platforms.",
+        "Automates infrastructure provisioning.",
+        "Auto-scaling and load balancing.",
+        "Application health monitoring.",
+        "Integration with other AWS services."
+      ],
+      "website": "https://aws.amazon.com/elasticbeanstalk/"
+    },
+    {
+      "name": "Google App Engine",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (Google Cloud)"
+      ],
+      "mainFeatures": [
+        "Fully managed PaaS environment.",
+        "Supports popular languages (Java, Python, Node.js, etc.).",
+        "Automatic scaling.",
+        "Traffic splitting and versioning.",
+        "Integrated services (databases, memcache)."
+      ],
+      "website": "https://cloud.google.com/appengine"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "AWS Elastic Beanstalk",
+    "Google App Engine",
+    "Heroku"
+  ],
+  "marketPositioning": "Shuttle is positioned as a Rust-native PaaS that provides a highly simplified developer experience by enabling 'Infrastructure from Code'. It targets the Rust web development community, offering first-class support for Rust frameworks and abstracting away traditional infrastructure configuration through code-based resource provisioning. This differentiates it from general-purpose PaaS providers and frontend-focused platforms by offering a tailored workflow and deep integration for the Rust ecosystem."
+}

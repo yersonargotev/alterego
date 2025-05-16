@@ -1,0 +1,120 @@
+{
+  "projectName": "comprehensive-rust",
+  "projectPurpose": "To provide a comprehensive and accelerated course curriculum and materials for teaching the Rust programming language to experienced software engineers.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Comprehensive Rust curriculum",
+    "Designed for experienced software engineers (e.g., C++/Java background)",
+    "Covers basic syntax to advanced topics (generics, error handling, concurrency)",
+    "Includes material for quickly teaching Rust",
+    "Contains potentially Android-specific content"
+  ],
+  "website": "https://github.com/google/comprehensive-rust",
+  "alternatives": [
+    {
+      "name": "The Rust Programming Language (\"The Book\")",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Offline (PDF/Book)"
+      ],
+      "mainFeatures": [
+        "Official introduction to Rust",
+        "Covers core language concepts",
+        "Includes practical examples and projects",
+        "Freely available online"
+      ],
+      "website": "https://doc.rust-lang.org/book/"
+    },
+    {
+      "name": "Rust by Example",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Learn Rust through runnable code examples",
+        "Minimal explanatory text",
+        "Includes exercises",
+        "Focuses on practical code snippets"
+      ],
+      "website": "https://doc.rust-lang.org/rust-by-example/"
+    },
+    {
+      "name": "Rustlings",
+      "license": "Open Source",
+      "platforms": [
+        "Command Line (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Small, interactive exercises",
+        "Helps practice reading and writing Rust code",
+        "Assists with Rust toolchain setup",
+        "Hands-on learning approach"
+      ],
+      "website": "https://github.com/rust-lang/rustlings"
+    },
+    {
+      "name": "Programming Rust",
+      "license": "Proprietary (Paid Book)",
+      "platforms": [
+        "Book (Physical/Ebook)"
+      ],
+      "mainFeatures": [
+        "Deep dive into Rust performance and reliability",
+        "Comprehensive coverage from basics to advanced",
+        "Detailed explanations of memory model and concurrency",
+        "Covers FFI"
+      ],
+      "website": "https://www.oreilly.com/library/view/programming-rust/9781492052586/"
+    },
+    {
+      "name": "Rust in Action",
+      "license": "Proprietary (Paid Book)",
+      "platforms": [
+        "Book (Physical/Ebook)"
+      ],
+      "mainFeatures": [
+        "Focuses on systems programming concepts",
+        "Project-based learning (e.g., web server, OS)",
+        "Targets developers with some Rust experience",
+        "Explores low-level techniques"
+      ],
+      "website": "https://www.manning.com/books/rust-in-action"
+    },
+    {
+      "name": "Zero To Production In Rust",
+      "license": "Proprietary (Paid Book/Course)",
+      "platforms": [
+        "Book/Online Course"
+      ],
+      "mainFeatures": [
+        "Project-based: building a backend web application",
+        "Covers production-ready practices (testing, logging)",
+        "Focuses on the Rust web ecosystem",
+        "End-to-end development guide"
+      ],
+      "website": "https://www.zero2prod.com/"
+    },
+    {
+      "name": "Udemy/Coursera/Other Online Courses",
+      "license": "Proprietary (Paid Courses)",
+      "platforms": [
+        "Web (Online Learning Platforms)"
+      ],
+      "mainFeatures": [
+        "Video lectures and tutorials",
+        "Hands-on exercises and projects",
+        "Varying levels (beginner to advanced)",
+        "Often focus on specific domains"
+      ],
+      "website": "https://www.udemy.com/courses/it-and-software/programming-languages/rust/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "The Rust Programming Language (\"The Book\")"
+  ],
+  "marketPositioning": "Comprehensive Rust is positioned as a high-quality, accelerated Rust training resource specifically tailored for experienced software engineers, particularly those transitioning from languages like C++ or Java, and used internally at Google. It differentiates itself from general-purpose introductory materials by providing in-depth coverage suitable for professional development and potentially including content relevant to specific large-scale applications like Android."
+}

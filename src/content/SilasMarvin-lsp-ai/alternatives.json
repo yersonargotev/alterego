@@ -1,0 +1,168 @@
+{
+  "projectName": "lsp-ai",
+  "projectPurpose": "To provide an open-source, Language Server Protocol (LSP)-based backend that integrates AI (specifically Large Language Models or LLMs) into various code editors, empowering software engineers with features like code completion and in-editor chat.",
+  "platforms": [
+    "Agnostic (Works with any LSP-compatible editor on their supported platforms)"
+  ],
+  "mainFeatures": [
+    "Acts as a language server backend for AI functionality",
+    "Provides in-editor chatting with LLMs",
+    "Offers AI-powered code completions",
+    "Works with any LSP-compatible code editor",
+    "Abstracts LLM backend complexities"
+  ],
+  "website": "https://github.com/SilasMarvin/lsp-ai",
+  "alternatives": [
+    {
+      "name": "GitHub Copilot",
+      "license": "Proprietary",
+      "platforms": [
+        "VS Code",
+        "JetBrains",
+        "Neovim",
+        "Other IDEs"
+      ],
+      "mainFeatures": [
+        "AI code completion (lines, functions, blocks)",
+        "Code suggestions based on context",
+        "Supports many programming languages",
+        "Generates code from comments"
+      ],
+      "website": "https://github.com/features/copilot/"
+    },
+    {
+      "name": "Tabnine",
+      "license": "Proprietary",
+      "platforms": [
+        "VS Code",
+        "IntelliJ IDEA",
+        "Atom",
+        "Other IDEs"
+      ],
+      "mainFeatures": [
+        "AI-powered code completion",
+        "Context-aware suggestions",
+        "Supports many languages and frameworks",
+        "Team training on codebase",
+        "Privacy-focused options"
+      ],
+      "website": "https://www.tabnine.com/"
+    },
+    {
+      "name": "Amazon CodeWhisperer",
+      "license": "Proprietary",
+      "platforms": [
+        "VS Code",
+        "JetBrains"
+      ],
+      "mainFeatures": [
+        "AI code suggestions",
+        "Optimizes for AWS services",
+        "Includes security scans",
+        "Supports multiple languages"
+      ],
+      "website": "https://aws.amazon.com/codewhisperer/"
+    },
+    {
+      "name": "Windsurf (formerly Codeium)",
+      "license": "Proprietary",
+      "platforms": [
+        "40+ IDEs",
+        "Windsurf Editor (AI-native IDE)"
+      ],
+      "mainFeatures": [
+        "AI-powered autocomplete",
+        "AI chat and search",
+        "Supports 70+ languages",
+        "Context awareness",
+        "Custom commands"
+      ],
+      "website": "https://www.windsurf.ai/"
+    },
+    {
+      "name": "Cursor",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "AI-powered code generation and autocompletion",
+        "In-editor chat with codebase context",
+        "Natural language editing",
+        "Intelligent debugging/error handling"
+      ],
+      "website": "https://www.cursor.sh/"
+    },
+    {
+      "name": "Continue",
+      "license": "Open Source - Apache License",
+      "platforms": [
+        "VS Code",
+        "JetBrains"
+      ],
+      "mainFeatures": [
+        "Open-source AI assistant extension",
+        "Connect any models (including local)",
+        "Connect any context (codebase, docs)",
+        "Tab to autocomplete",
+        "Chat with codebase context"
+      ],
+      "website": "https://continue.dev/"
+    },
+    {
+      "name": "Tabby",
+      "license": "Open Source",
+      "platforms": [
+        "Self-hosted",
+        "VS Code",
+        "Integrates via OpenAPI"
+      ],
+      "mainFeatures": [
+        "Self-hosted AI coding assistant",
+        "Open-source alternative to Copilot",
+        "Code completion",
+        "Chat experience",
+        "Supports consumer-grade GPUs"
+      ],
+      "website": "https://tabby.tabbyml.com/"
+    },
+    {
+      "name": "FauxPilot",
+      "license": "Open Source",
+      "platforms": [
+        "Self-hosted",
+        "VS Code"
+      ],
+      "mainFeatures": [
+        "Open-source alternative to Copilot",
+        "Runs on your own server",
+        "Powered by Salesforce CodeGen models",
+        "Provides code suggestions"
+      ],
+      "website": "https://github.com/TabbyML/FauxPilot"
+    },
+    {
+      "name": "Cody (by Sourcegraph)",
+      "license": "Proprietary",
+      "platforms": [
+        "VS Code",
+        "JetBrains",
+        "Other IDEs"
+      ],
+      "mainFeatures": [
+        "AI coding assistant for codebase context",
+        "Leverages advanced search",
+        "Context-aware suggestions",
+        "Integrated AI chatbot",
+        "Custom commands"
+      ],
+      "website": "https://sourcegraph.com/cody"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GitHub Copilot"
+  ],
+  "marketPositioning": "LSP-AI is positioned as a flexible, open-source language server backend for AI-powered code assistance. Unlike many proprietary AI coding tools that target specific popular IDEs, LSP-AI leverages the Language Server Protocol to offer broad compatibility with any LSP-supported editor. It differentiates itself by abstracting the complexities of integrating various LLM backends and focusing on empowering developers with core AI features like completion and chat within their preferred, potentially less mainstream, coding environments. Its open-source nature and emphasis on being a backend layer make it a foundational tool for those seeking customizable and editor-agnostic AI integration."
+}

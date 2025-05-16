@@ -1,0 +1,105 @@
+{
+  "projectName": "StyLua",
+  "projectPurpose": "To automatically format Lua code to ensure a consistent and opinionated style, improving readability and maintainability across various Lua versions and dialects.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Deterministic code formatting for multiple Lua variants (5.1-5.4, LuaJIT, Luau, CfxLua/FiveM)",
+    "Opinionated styling, inspired by Prettier and the Roblox Lua Style Guide",
+    "Parses and re-prints code for consistent style",
+    "Configurable via .stylua.toml file",
+    "Multiple installation methods (binaries, Cargo, GitHub Actions, pre-commit)"
+  ],
+  "website": "https://github.com/JohnnyMorganz/StyLua",
+  "alternatives": [
+    {
+      "name": "Prettier (with prettier-plugin-lua)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Opinionated code formatting for many languages",
+        "Plugin system for language support",
+        "Integrates with editors, linters, and build systems",
+        "Focuses on consistent style by parsing and re-printing",
+        "Large community and ecosystem"
+      ],
+      "website": "https://prettier.io/"
+    },
+    {
+      "name": "lua-fmt",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Pretty-printer for Lua code",
+        "Written in TypeScript",
+        "Inspired by Prettier",
+        "Aims for a single and consistent standard",
+        "Tests against Lua 5.3.4 test suite"
+      ],
+      "website": "https://github.com/trixnz/lua-fmt"
+    },
+    {
+      "name": "LuaFormatter (Koihik/LuaFormatter)",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Code formatter for Lua",
+        "Command-line interface",
+        "Used in editor integrations (e.g., Neovim)",
+        "Aims for consistent code style"
+      ],
+      "website": "https://github.com/Koihik/LuaFormatter"
+    },
+    {
+      "name": "luafmt (CurtisFenner/luafmt)",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Code formatter for Lua 5.1",
+        "Written in Lua 5.1",
+        "Formats itself",
+        "Simple command-line tool"
+      ],
+      "website": "https://github.com/CurtisFenner/luafmt"
+    },
+    {
+      "name": "Online Lua Beautifiers/Formatters",
+      "license": "Free to use (Web-based)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Format Lua code in a web browser",
+        "Simple paste or upload interface",
+        "Improves code readability and organization",
+        "No installation required",
+        "Convenient for one-off formatting"
+      ],
+      "website": "Multiple websites (e.g., https://luaformatter.com/)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Prettier"
+  ],
+  "marketPositioning": "StyLua is positioned as a dedicated, opinionated, and high-performance code formatter for the diverse Lua ecosystem. Its key strengths lie in its comprehensive support for a wide range of Lua versions and dialects, including those used in specific communities like Roblox (by following the Roblox Lua Style Guide). Being written in Rust likely contributes to its performance. It competes with general-purpose formatters like Prettier (via a plugin) and other Lua-specific formatters. StyLua differentiates itself through its explicit multi-dialect support and its opinionated approach tailored for Lua developers seeking a consistent and automated code style."
+}

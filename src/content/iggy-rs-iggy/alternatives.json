@@ -1,0 +1,105 @@
+{
+  "projectName": "iggy",
+  "projectPurpose": "To provide a high-performance, efficient, and persistent message streaming platform designed for handling large volumes of real-time data with low latency, serving as a modern, open-source alternative to existing message streaming/queueing systems.",
+  "platforms": [
+    "Cross-platform (Server runs on various OS, clients are language-dependent)"
+  ],
+  "mainFeatures": [
+    "Persistent message streaming",
+    "Written in Rust for performance and efficiency",
+    "Supports QUIC, TCP, and HTTP transport protocols",
+    "High throughput (millions of messages/sec) and low latency",
+    "Flexible message polling (offset, timestamp, etc.)",
+    "Dedicated Web UI for management",
+    "Official client SDKs for multiple languages"
+  ],
+  "website": "https://github.com/iggy-rs/iggy",
+  "alternatives": [
+    {
+      "name": "Apache Kafka",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (JVM-based server, multi-language clients)"
+      ],
+      "mainFeatures": [
+        "Distributed publish-subscribe messaging",
+        "High throughput and low latency",
+        "Durable message storage (append-only log)",
+        "Stream processing capabilities"
+      ],
+      "website": "https://kafka.apache.org/"
+    },
+    {
+      "name": "Apache Pulsar",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (JVM-based server, multi-language clients)"
+      ],
+      "mainFeatures": [
+        "Distributed messaging and streaming",
+        "Multi-tenancy and geo-replication",
+        "Tiered storage",
+        "Decoupled architecture (compute/storage)"
+      ],
+      "website": "https://pulsar.apache.org/"
+    },
+    {
+      "name": "RabbitMQ",
+      "license": "Open Source - Mozilla Public License 2.0 (Commercial offerings available)",
+      "platforms": [
+        "Cross-platform (Erlang-based server, multi-language clients)"
+      ],
+      "mainFeatures": [
+        "General purpose message broker",
+        "Supports multiple protocols (AMQP, MQTT, STOMP, etc.)",
+        "Flexible routing",
+        "Message queuing and streaming"
+      ],
+      "website": "https://www.rabbitmq.com/"
+    },
+    {
+      "name": "NATS",
+      "license": "Open Source - Apache License 2.0 (JetStream adds persistence/streaming)",
+      "platforms": [
+        "Cross-platform (Go-based server, multi-language clients)"
+      ],
+      "mainFeatures": [
+        "High-performance, lightweight messaging",
+        "Pub/Sub, Request/Reply, and Queueing patterns",
+        "Designed for cloud-native and microservices",
+        "JetStream for persistence and streaming"
+      ],
+      "website": "https://nats.io/"
+    },
+    {
+      "name": "Apache ActiveMQ",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (Java-based server, multi-language clients)"
+      ],
+      "mainFeatures": [
+        "Popular open source message broker",
+        "Supports multiple protocols (OpenWire, AMQP, MQTT, STOMP, REST)",
+        "JMS support",
+        "Enterprise integration patterns"
+      ],
+      "website": "https://activemq.apache.org/"
+    },
+    {
+      "name": "Redpanda",
+      "license": "Redpanda Business Source License (BSL) / Apache License 2.0 (converts over time), Enterprise Edition under Community License",
+      "platforms": [
+        "Cross-platform (C++-based server, Kafka API compatible clients)"
+      ],
+      "mainFeatures": [
+        "Kafka API compatible",
+        "Written in C++ for performance",
+        "Aims for simpler operations",
+        "High throughput, low latency"
+      ],
+      "website": "https://redpanda.com/"
+    }
+  ],
+  "mostWellKnownAlternative": "Apache Kafka",
+  "marketPositioning": "Apache Iggy is positioned as a high-performance, resource-efficient, and flexible open-source message streaming platform built in Rust. It differentiates itself by offering superior performance characteristics and predictable resource usage compared to JVM-based alternatives like Kafka and Pulsar, while also supporting modern protocols like QUIC. By being built from scratch and emphasizing a simple architecture, it aims to provide an efficient solution for real-time data processing and event-driven systems, directly competing with established players in the streaming and message queuing market based on its technical merits."
+}

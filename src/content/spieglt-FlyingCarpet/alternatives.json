@@ -1,0 +1,134 @@
+{
+  "projectName": "FlyingCarpet",
+  "projectPurpose": "To provide a simple, secure, and cross-platform solution for transferring files directly between nearby devices using ad hoc WiFi, without needing an existing network infrastructure or internet connection, similar to Apple's AirDrop.",
+  "platforms": [
+    "Android",
+    "iOS",
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Cross-platform file transfer (Android, iOS, Linux, macOS, Windows)",
+    "Uses ad hoc WiFi for direct device-to-device transfer",
+    "No existing network infrastructure or internet required",
+    "Encrypted file transfer",
+    "Optional Bluetooth for connection negotiation"
+  ],
+  "website": "https://github.com/spieglt/FlyingCarpet",
+  "alternatives": [
+    {
+      "name": "LocalSend",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "File and text sharing over local network",
+        "No internet or external servers required",
+        "Automatic device discovery on the same network",
+        "Uses REST API and HTTPS encryption",
+        "User-friendly GUI"
+      ],
+      "website": "https://localsend.org/"
+    },
+    {
+      "name": "Nearby Share (Quick Share)",
+      "license": "Proprietary",
+      "platforms": [
+        "Android",
+        "Chrome OS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "System-level integration on supported platforms",
+        "Uses various technologies (Bluetooth, BLE, Wi-Fi Direct, UWB)",
+        "Transfers files and content between nearby devices",
+        "Can work without internet for direct connections",
+        "Contact and device visibility options"
+      ],
+      "website": "https://www.android.com/better-together/nearby-share-file-sharing/"
+    },
+    {
+      "name": "ShareDrop",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web (Cross-platform via browser)"
+      ],
+      "mainFeatures": [
+        "Web-based, no installation required",
+        "Peer-to-peer file transfer using WebRTC",
+        "Works on devices on the same local network",
+        "Allows sharing between different networks via rooms",
+        "Secure and encrypted connections"
+      ],
+      "website": "https://www.sharedrop.io/"
+    },
+    {
+      "name": "AirDrop",
+      "license": "Proprietary",
+      "platforms": [
+        "iOS",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Native integration within the Apple ecosystem",
+        "Uses Bluetooth LE for discovery and Wi-Fi for transfer",
+        "Creates ad-hoc network for direct transfer",
+        "Simple and intuitive user interface",
+        "Secure transfers"
+      ],
+      "website": "https://support.apple.com/en-us/HT204144"
+    },
+    {
+      "name": "Send Anywhere",
+      "license": "Freemium - Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web",
+        "Chrome Extension",
+        "Amazon Kindle",
+        "Windows Phone"
+      ],
+      "mainFeatures": [
+        "Peer-to-peer file transfer",
+        "Uses 6-digit key, QR code, or direct connection",
+        "Supports large files",
+        "Works over internet or local network",
+        "Broad platform support"
+      ],
+      "website": "https://send-anywhere.com/"
+    },
+    {
+      "name": "SHAREit",
+      "license": "Freemium - Proprietary",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "High-speed file transfer",
+        "Uses Wi-Fi Direct or local network",
+        "Supports various file types",
+        "Additional features like phone replicate and video player"
+      ],
+      "website": "https://www.ushareit.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "AirDrop (within Apple ecosystem)",
+    "Nearby Share / Quick Share (within Android/Windows ecosystems)",
+    "Send Anywhere (third-party app)"
+  ],
+  "marketPositioning": "FlyingCarpet is positioned as a privacy-focused, open-source, and truly cross-platform alternative to Apple's AirDrop. Its key differentiator is the ability to create and utilize an ad hoc WiFi network for direct device-to-device file transfer, even when no existing router or network infrastructure is available. This distinguishes it from many alternatives like LocalSend and ShareDrop, which primarily rely on a shared local network. While Nearby Share/Quick Share also offers direct connection capabilities, FlyingCarpet provides a consistent application experience across a broader range of desktop and mobile operating systems, including Linux."
+}

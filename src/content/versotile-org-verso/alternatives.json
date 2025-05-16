@@ -1,0 +1,160 @@
+{
+  "projectName": "verso",
+  "projectPurpose": "To develop a new, experimental web browser using the Servo engine, written in Rust, serving as a platform for exploring and demonstrating the capabilities of embedding Servo in a full browser context, with a focus on innovative UI approaches.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Based on the Servo web engine",
+    "Written in Rust",
+    "Exploring multi-view and multi-window experiences",
+    "Goal to build UI elements from Servo itself",
+    "Aims to be a robust browser built around Servo"
+  ],
+  "website": "https://github.com/versotile-org/verso",
+  "alternatives": [
+    {
+      "name": "Mozilla Firefox",
+      "license": "Open Source - MPL 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Uses Gecko engine",
+        "Extensive add-on ecosystem",
+        "Strong privacy features",
+        "Customizable interface"
+      ],
+      "website": "https://www.mozilla.org/firefox/"
+    },
+    {
+      "name": "Google Chrome",
+      "license": "Proprietary (with open-source Chromium base)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Uses Blink engine",
+        "Fast performance",
+        "Large extension library",
+        "Sync across devices"
+      ],
+      "website": "https://www.google.com/chrome/"
+    },
+    {
+      "name": "Microsoft Edge",
+      "license": "Proprietary (based on Chromium)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Uses Blink engine",
+        "Integrated Microsoft services",
+        "Performance features",
+        "Collection feature"
+      ],
+      "website": "https://www.microsoft.com/en-us/edge"
+    },
+    {
+      "name": "Apple Safari",
+      "license": "Proprietary",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "iPadOS"
+      ],
+      "mainFeatures": [
+        "Uses WebKit engine",
+        "Optimized for Apple hardware",
+        "Strong privacy features",
+        "iCloud Tabs sync"
+      ],
+      "website": "https://www.apple.com/safari/"
+    },
+    {
+      "name": "Brave Browser",
+      "license": "Open Source - MPL 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Based on Chromium",
+        "Built-in ad and tracker blocker",
+        "Rewards users with BAT cryptocurrency",
+        "Focuses on privacy and speed"
+      ],
+      "website": "https://brave.com/"
+    },
+    {
+      "name": "Vivaldi",
+      "license": "Proprietary (parts are open-source)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Based on Chromium",
+        "Highly customizable interface",
+        "Tab management features",
+        "Built-in mail, calendar, and feed reader"
+      ],
+      "website": "https://vivaldi.com/"
+    },
+    {
+      "name": "Electron",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Uses Chromium and Node.js",
+        "Build desktop apps with web technologies",
+        "Large community",
+        "Cross-platform development"
+      ],
+      "website": "https://www.electronjs.org/"
+    },
+    {
+      "name": "Tauri",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Uses Rust for backend",
+        "Uses system webviews for frontend",
+        "Smaller bundle sizes",
+        "Focuses on security"
+      ],
+      "website": "https://tauri.app/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Google Chrome"
+  ],
+  "marketPositioning": "Verso is positioned as an experimental, open-source web browser built on the Rust-based Servo engine. Its unique value proposition lies in exploring alternative browser architectures, specifically focusing on innovative multi-view/multi-window interfaces and the ambitious goal of rendering the browser UI using the web engine itself. It currently operates as a research and development project pushing the boundaries of web engine embedding, rather than a direct competitor to established, feature-rich mainstream browsers. Its potential integration with frameworks like Tauri also positions it as a potential future high-performance, embeddable web rendering component."
+}

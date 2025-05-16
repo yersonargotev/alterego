@@ -1,0 +1,123 @@
+{
+  "projectName": "rust-bindgen",
+  "projectPurpose": "To automatically generate Rust FFI bindings for existing C and, to a limited extent, C++ libraries, simplifying interoperability.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Automatically generates Rust FFI bindings.",
+    "Parses C header files.",
+    "Provides limited support for parsing C++ header files.",
+    "Uses libclang for robust parsing.",
+    "Supports various customization options for generated bindings."
+  ],
+  "website": "https://github.com/rust-lang/rust-bindgen",
+  "alternatives": [
+    {
+      "name": "cbindgen",
+      "license": "Mozilla Public License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Generates C/C++11 headers from Rust code.",
+        "Supports C and C++ output formats.",
+        "Reads Rust source code.",
+        "Configurable output."
+      ],
+      "website": "https://github.com/mozilla/cbindgen"
+    },
+    {
+      "name": "CXX",
+      "license": "MIT OR Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Provides safe interop between Rust and C++.",
+        "Uses a shared definition to generate code for both languages.",
+        "Handles C++ features like smart pointers and strings idiomatically.",
+        "Guarantees C++ and Rust sides match at compile time.",
+        "Aims for zero-overhead interop."
+      ],
+      "website": "https://github.com/dtolnay/cxx"
+    },
+    {
+      "name": "autocxx",
+      "license": "Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Automatic safe interop between Rust and C++.",
+        "Builds on bindgen and cxx.",
+        "Automates handling of destructors, string conversions, and pointers.",
+        "Supports calling C++ from Rust and Rust from C++.",
+        "Designed for large existing C++ codebases."
+      ],
+      "website": "https://google.github.io/autocxx/"
+    },
+    {
+      "name": "SWIG (Simplified Wrapper and Interface Generator)",
+      "license": "GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Generates interface code for multiple target languages from C/C++ headers.",
+        "Supports a wide range of scripting and programming languages.",
+        "Configurable through interface files.",
+        "Handles C and C++ constructs."
+      ],
+      "website": "http://www.swig.org/"
+    },
+    {
+      "name": "Flapigen",
+      "license": "BSD-3-Clause",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Connects Rust to other programming languages (including C++, Java, Python).",
+        "Uses a single code parser and type library.",
+        "Designed to be used from cargo build scripts.",
+        "Supports referencing structures and calling functions."
+      ],
+      "website": "https://github.com/Dushistov/flapigen-rs"
+    },
+    {
+      "name": "Rusty-bind",
+      "license": "MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Generates bindings from Rust to other languages (including C++).",
+        "Flexible architecture with language-specific generators.",
+        "Supports enums, optionals, and results.",
+        "Early stage of development."
+      ],
+      "website": "https://github.com/wildland-io/rusty-bind"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SWIG (general purpose)",
+    "CXX (Rust/C++ specific)"
+  ],
+  "marketPositioning": "rust-bindgen is a foundational tool in the Rust ecosystem focused on automatically generating low-level Rust FFI bindings directly from existing C and C++ header files. It is the standard tool for integrating with C libraries and provides a practical, albeit sometimes limited for C++, way to interact with existing native code without writing manual FFI code. Its strength lies in parsing existing headers, contrasting with approaches like CXX which use a shared definition language. While CXX offers safer and more idiomatic C++ interop, bindgen remains essential for working with existing C APIs and as a base for more advanced C++ interop tools like autocxx."
+}

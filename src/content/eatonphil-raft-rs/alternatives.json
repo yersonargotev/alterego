@@ -1,0 +1,105 @@
+{
+  "projectName": "raft-rs",
+  "projectPurpose": "To provide a minimal implementation of the Raft distributed consensus algorithm as a library in the Rust programming language, focusing on the core consensus logic.",
+  "platforms": [
+    "Rust environment (generally cross-platform)"
+  ],
+  "mainFeatures": [
+    "Implements the core Raft consensus algorithm",
+    "Written in Rust",
+    "Minimalistic design"
+  ],
+  "website": "https://github.com/eatonphil/raft-rs",
+  "alternatives": [
+    {
+      "name": "hashicorp/raft",
+      "license": "Open Source - MPL 2.0",
+      "platforms": [
+        "Go environment (generally cross-platform)"
+      ],
+      "mainFeatures": [
+        "Manages a replicated log",
+        "Integrates with a Finite State Machine (FSM)",
+        "Provides consensus capabilities",
+        "Supports snapshotting and log compaction",
+        "Pluggable storage and transport layers"
+      ],
+      "website": "https://github.com/hashicorp/raft"
+    },
+    {
+      "name": "Apache Ratis",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java environment (generally cross-platform)"
+      ],
+      "mainFeatures": [
+        "Highly customizable Raft protocol implementation",
+        "Pluggable state machine implementations",
+        "Pluggable Raft log and RPC implementations",
+        "Supports high throughput data ingest"
+      ],
+      "website": "https://ratis.apache.org/"
+    },
+    {
+      "name": "MicroRaft",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java environment (generally cross-platform)"
+      ],
+      "mainFeatures": [
+        "Feature-complete Raft implementation",
+        "Minimalistic and modular design",
+        "Requires implementing interfaces for persistence, networking, etc.",
+        "Lightweight JAR"
+      ],
+      "website": "https://github.com/micro-raft/microraft"
+    },
+    {
+      "name": "etcd/raft",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Go environment (generally cross-platform)"
+      ],
+      "mainFeatures": [
+        "Implements the core Raft algorithm (minimalistic design)",
+        "Used in etcd",
+        "Deterministic behavior",
+        "Requires user-implemented storage and transport"
+      ],
+      "website": "https://github.com/etcd-io/etcd/tree/main/raft"
+    },
+    {
+      "name": "tikv/raft-rs",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Rust environment (generally cross-platform)"
+      ],
+      "mainFeatures": [
+        "Raft distributed consensus algorithm implementation",
+        "Used in TiKV",
+        "Implements the core Consensus Module",
+        "Requires user-built Log, State Machine, and Transport components"
+      ],
+      "website": "https://github.com/tikv/raft-rs"
+    },
+    {
+      "name": "Openraft",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Rust environment (generally cross-platform)"
+      ],
+      "mainFeatures": [
+        "Production-ready Raft implementation",
+        "Focuses on usability and correctness",
+        "Provides abstractions for storage, network, and state machine",
+        "Supports various features like log compaction, membership changes"
+      ],
+      "website": "https://github.com/datafuselabs/openraft"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "hashicorp/raft",
+    "etcd/raft"
+  ],
+  "marketPositioning": "raft-rs is positioned as a minimal and understandable implementation of the Raft consensus algorithm in Rust. Unlike more comprehensive libraries that include built-in solutions for networking, persistence, and state machine integration, raft-rs focuses primarily on the core Raft logic. This makes it suitable for developers who need a foundational Raft component and prefer to build the surrounding infrastructure tailored to their specific distributed system requirements. Its minimalistic nature may also appeal to those seeking to learn or audit a concise Raft implementation."
+}

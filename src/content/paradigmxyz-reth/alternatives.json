@@ -1,0 +1,102 @@
+{
+  "projectName": "reth",
+  "projectPurpose": "Reth is a high-performance, modular, and contributor-friendly implementation of the Ethereum execution layer protocol, written in Rust. Its primary purpose is to provide a fast, efficient, and stable alternative Ethereum client, improving client diversity and offering features tailored for various users, including stakers, developers, and RPC node operators.",
+  "platforms": [
+    "Linux",
+    "Windows",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Modular implementation",
+    "Contributor-friendly",
+    "Blazing-fast performance",
+    "Implemented in Rust",
+    "Ethereum Execution Layer client",
+    "Efficient syncing and low storage usage",
+    "Feature-complete up to Shanghai, Cancun support planned",
+    "Full Ethereum JSON-RPC support",
+    "Fast live and historical tracing",
+    "Cross-platform binaries and Docker containers",
+    "Designed for stability and security for production/staking",
+    "Optimal RPC throughput",
+    "Scalability and ease of contribution",
+    "Designed for power users",
+    "Component reusability as libraries"
+  ],
+  "website": "https://github.com/paradigmxyz/reth",
+  "alternatives": [
+    {
+      "name": "Geth (Go Ethereum)",
+      "license": "Open Source - GNU LGPL v3",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Official Golang implementation",
+        "Most popular Ethereum client",
+        "Supports full, light, and archive nodes",
+        "Wide range of tools",
+        "Stable and reliable"
+      ],
+      "website": "https://geth.ethereum.org/"
+    },
+    {
+      "name": "Nethermind",
+      "license": "Open Source - LGPL-3.0",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "ARM"
+      ],
+      "mainFeatures": [
+        "High-performance and highly configurable",
+        "Built on C# .NET",
+        "Fast sync speeds",
+        "Optimized virtual machine",
+        "Modular design and plugin system"
+      ],
+      "website": "https://nethermind.io/"
+    },
+    {
+      "name": "Hyperledger Besu",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Enterprise-grade Ethereum client",
+        "Java-based",
+        "Supports public and private networks",
+        "Runs all Ethereum Mainnet features (tracing, GraphQL)",
+        "Supports various consensus mechanisms"
+      ],
+      "website": "https://besu.hyperledger.org/"
+    },
+    {
+      "name": "Erigon",
+      "license": "Open Source - GNU LGPL v3 (Implied)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Re-architected Go Ethereum fork",
+        "Focuses on speed and disk space savings",
+        "Efficient state storage",
+        "Faster archive node sync",
+        "Modular and optimized"
+      ],
+      "website": "https://github.com/ledgerwatch/erigon"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Geth (Go Ethereum)"
+  ],
+  "marketPositioning": "Reth positions itself as a high-performance, modular, and developer/contributor-friendly Ethereum execution client written in Rust. It aims to offer competitive or superior performance in terms of sync speed, storage efficiency, and RPC throughput compared to existing clients. By being modular and written in Rust, it seeks to lower the barrier to contribution and allow components to be reused as libraries in other projects. Its focus on stability and security also targets users requiring reliable nodes for production environments like staking. While clients like Geth are dominant, Reth aims to contribute to client diversity, which is crucial for the Ethereum network's resilience. Its key differentiators appear to be its implementation language (Rust), emphasis on modularity and composability, and strong focus on performance and efficiency from the ground up."
+}

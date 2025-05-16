@@ -1,0 +1,125 @@
+{
+  "projectName": "GQL",
+  "projectPurpose": "To provide a SQL-like interface for querying and analyzing data within Git repositories, making Git data more accessible to users familiar with SQL.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "SQL-like query language for Git",
+    "Queries performed directly on .git files",
+    "Supports SQL features: grouping, ordering, aggregation",
+    "Lightweight, on-the-fly query execution",
+    "Extensible SDK for customization"
+  ],
+  "website": "https://github.com/AmrDeveloper/GQL",
+  "alternatives": [
+    {
+      "name": "Git Command Line Interface",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "View commit history (git log)",
+        "Search file content and history (git grep)",
+        "Show changes between commits (git diff)",
+        "Summarize commit activity (git shortlog)",
+        "Filter logs by various criteria"
+      ],
+      "website": "https://git-scm.com/"
+    },
+    {
+      "name": "AskGit",
+      "license": "Open Source",
+      "platforms": [
+        "Command Line (Cross-platform)"
+      ],
+      "mainFeatures": [
+        "Run SQL queries on Git repositories",
+        "Treats Git data as relational tables",
+        "Command-line interface",
+        "Integrates with SQL data visualization tools"
+      ],
+      "website": "https://askgit.github.io/askgit/"
+    },
+    {
+      "name": "gitbase",
+      "license": "Open Source",
+      "platforms": [
+        "Server (Linux, macOS, potentially Windows via Docker)"
+      ],
+      "mainFeatures": [
+        "Exposes Git repositories as a SQL database",
+        "Allows complex SQL queries on Git data",
+        "Designed for large-scale analysis",
+        "SQL database interface"
+      ],
+      "website": "https://github.com/src-d/gitbase"
+    },
+    {
+      "name": "GitStats",
+      "license": "Open Source",
+      "platforms": [
+        "Command Line (Python-based, Cross-platform)"
+      ],
+      "mainFeatures": [
+        "Generates detailed Git repository statistics",
+        "Produces HTML reports",
+        "Visualizes repository activity",
+        "Reports on commits, contributors, files, and lines of code"
+      ],
+      "website": "https://github.com/hoxu/gitstats"
+    },
+    {
+      "name": "Gitinspector",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Command Line (Python-based, Cross-platform)"
+      ],
+      "mainFeatures": [
+        "Statistical analysis of Git repositories",
+        "Reports on author activity and workload",
+        "Timeline analysis",
+        "Filters results by file extension",
+        "Supports HTML, JSON, XML, and text output"
+      ],
+      "website": "https://github.com/ejwa/gitinspector"
+    },
+    {
+      "name": "GrimoireLab",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Server with Web Interface"
+      ],
+      "mainFeatures": [
+        "Gathers data from multiple development platforms (Git, GitHub, etc.)",
+        "Data enrichment and merging",
+        "Provides data visualization and dashboards",
+        "Focuses on software development and community analytics"
+      ],
+      "website": "https://chaoss.github.io/grimoirelab/"
+    },
+    {
+      "name": "Integrated Platform Analytics (e.g., GitHub Insights)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Built-in dashboards for repository activity",
+        "Contributor metrics",
+        "Pull request analysis",
+        "Team productivity reports"
+      ],
+      "website": "https://github.com/features/insights/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Native Git Command Line Interface"
+  ],
+  "marketPositioning": "GQL is positioned as a lightweight, developer-friendly tool that allows users to perform ad-hoc queries and analysis on Git repository data using a familiar SQL syntax, without the overhead of setting up a separate database. It competes with native Git commands by offering a more structured querying approach and with other SQL-on-Git tools by providing direct, on-the-fly execution."
+}

@@ -1,0 +1,120 @@
+{
+  "projectName": "GhostDriver",
+  "projectPurpose": "To provide a tool for bypassing antivirus and endpoint detection and response (EDR) security software on Windows systems by leveraging a vulnerable driver using the Bring Your Own Vulnerable Driver (BYOVD) technique.",
+  "platforms": [
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Kills processes by name using a Ghost Driver",
+    "Utilizes the Bring Your Own Vulnerable Driver (BYOVD) technique for AV/EDR bypass"
+  ],
+  "website": "https://github.com/BlackSnufkin/GhostDriver",
+  "alternatives": [
+    {
+      "name": "KDU (Kernel Driver Utility)",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Leverages vulnerable drivers",
+        "Loads unsigned drivers",
+        "Facilitates BYOVD attacks"
+      ],
+      "website": "https://github.com/hfiref0x/KDU"
+    },
+    {
+      "name": "PPLKiller",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Disables LSA Protection",
+        "Uses vulnerable RTCore64.sys driver",
+        "BYOVD technique implementation"
+      ],
+      "website": "https://github.com/Expandiesel/PPLKiller"
+    },
+    {
+      "name": "Dellicious",
+      "license": "Open Source - BSD-3-Clause",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Enables/disables LSA Protection",
+        "Uses vulnerable Dell DBUtilDrv2.sys driver",
+        "BYOVD technique implementation"
+      ],
+      "website": "https://github.com/jbaines-r7/dellicious"
+    },
+    {
+      "name": "Veil Framework",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Linux",
+        "Windows (generated payloads)"
+      ],
+      "mainFeatures": [
+        "Generates antivirus-evading payloads",
+        "Multiple evasion techniques",
+        "Supports various payload types"
+      ],
+      "website": "https://github.com/Veil-Framework/Veil"
+    },
+    {
+      "name": "Metasploit Framework",
+      "license": "Open Source / Commercial (Pro)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Large database of exploits and payloads",
+        "Extensive post-exploitation modules",
+        "Includes some defense evasion capabilities",
+        "Supports integration with other tools"
+      ],
+      "website": "https://www.metasploit.com/"
+    },
+    {
+      "name": "Cobalt Strike",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux (server)"
+      ],
+      "mainFeatures": [
+        "Advanced adversary simulation",
+        "Malleable C2 profiles",
+        "Comprehensive post-exploitation features",
+        "Designed for red teaming"
+      ],
+      "website": "https://www.fortra.com/cybersecurity/mcafee/cobalt-strike"
+    },
+    {
+      "name": "Sliver",
+      "license": "Open Source - BSD 3-Clause \"New\" or \"Revised\" License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Open-source C2 framework",
+        "Supports various implants (beacons)",
+        "Offers multiple C2 protocols for evasion",
+        "Under active development"
+      ],
+      "website": "https://github.com/BishopFox/sliver"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Metasploit Framework",
+    "Cobalt Strike"
+  ],
+  "marketPositioning": "GhostDriver is positioned as a specialized, open-source tool focused specifically on using the BYOVD technique for disabling security processes on Windows. While broader frameworks like Metasploit and Cobalt Strike offer a wide array of offensive capabilities including evasion, GhostDriver provides a targeted implementation of a specific, advanced evasion technique. Its open-source nature and implementation in Rust differentiate it from some commercial alternatives and provide transparency and potential for community contributions in its specific niche."
+}

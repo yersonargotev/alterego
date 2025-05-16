@@ -1,0 +1,81 @@
+{
+  "projectName": "govee2mqtt",
+  "projectPurpose": "To provide a bridge between Govee smart home devices and the Home Assistant home automation platform using MQTT, enabling control and status updates within Home Assistant.",
+  "platforms": [
+    "Home Assistant Add-On",
+    "Docker"
+  ],
+  "mainFeatures": [
+    "Connects Govee lights and devices to Home Assistant via MQTT.",
+    "Robust LAN-first design for supported devices.",
+    "Supports per-device modes and scenes.",
+    "Utilizes AWS IoT and Platform API for broader compatibility and fallback.",
+    "Available as a Home Assistant Add-On and Docker container."
+  ],
+  "website": "https://github.com/wez/govee2mqtt",
+  "alternatives": [
+    {
+      "name": "Home Assistant Official Govee Integration (Local)",
+      "license": "Open Source - Apache-2.0 (Home Assistant)",
+      "platforms": [
+        "Home Assistant"
+      ],
+      "mainFeatures": [
+        "Integrates Govee lights into Home Assistant.",
+        "Uses Local API control for supported devices.",
+        "Configurable via Home Assistant UI."
+      ],
+      "website": "https://www.home-assistant.io/integrations/govee_light_local/"
+    },
+    {
+      "name": "HACS Govee Integration",
+      "license": "Open Source (Varies, often MIT)",
+      "platforms": [
+        "Home Assistant (requires HACS)"
+      ],
+      "mainFeatures": [
+        "Integrates Govee devices using the Govee cloud API.",
+        "Control and monitor lights and switches.",
+        "Requires a Govee API key."
+      ],
+      "website": "https://github.com/LaggAt/hacs-govee"
+    },
+    {
+      "name": "OpenMQTTGateway",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "ESP8266",
+        "ESP32",
+        "Sonoff RF Bridge",
+        "Arduino"
+      ],
+      "mainFeatures": [
+        "MQTT gateway for multiple technologies.",
+        "Supports Govee BLE devices for sensor data.",
+        "Integrates with Home Assistant/OpenHAB via MQTT."
+      ],
+      "website": "https://www.openmqttgateway.com/"
+    },
+    {
+      "name": "Govee Home App",
+      "license": "Proprietary",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Official control for all Govee devices.",
+        "Access to all device features, modes, and scenes.",
+        "Device setup and management.",
+        "Cloud connectivity."
+      ],
+      "website": "https://www.govee.com/download"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Home Assistant Official Govee Integration (Local)",
+    "HACS Govee Integration",
+    "Govee Home App"
+  ],
+  "marketPositioning": "Govee2MQTT is positioned as a dedicated, open-source MQTT bridge for integrating Govee devices into Home Assistant, emphasizing a reliable 'LAN-first' approach for supported devices. It differentiates itself from official or other community integrations by attempting to leverage multiple Govee communication methods (LAN, AWS IoT, API) to provide broader device support and more comprehensive control within Home Assistant, addressing common limitations like API rate limits and inconsistent feature availability in other integrations. It targets Home Assistant users seeking enhanced local control and integration capabilities for their Govee ecosystem."
+}

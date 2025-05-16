@@ -1,0 +1,116 @@
+{
+  "projectName": "foundry",
+  "projectPurpose": "To provide a comprehensive, high-performance, and flexible command-line toolkit for developers building applications on the Ethereum Virtual Machine (EVM), with a strong focus on speed, testing, and debugging capabilities, streamlining the entire smart contract development lifecycle.",
+  "platforms": [
+    "macOS",
+    "Linux",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Forge: Build, test, fuzz, debug and deploy Solidity contracts",
+    "Cast: Interact with EVM smart contracts, send transactions, get chain data",
+    "Anvil: Fast local Ethereum development node",
+    "Chisel: Fast, utilitarian, and verbose Solidity REPL",
+    "High-Performance Compilation (Incremental, Parallelized)",
+    "Advanced Testing (Solidity tests, Fuzzing, Invariant Testing)",
+    "Debugging (Interactive debugger, console.sol)",
+    "RPC Forking",
+    "Lightweight & Portable",
+    "Streamlined CI/CD (GitHub action)"
+  ],
+  "website": "https://github.com/foundry-rs/foundry",
+  "alternatives": [
+    {
+      "name": "Hardhat",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Ethereum development environment",
+        "Compiling, deploying, testing, and debugging smart contracts",
+        "Hardhat Network: Local Ethereum network for development",
+        "Plugin system for extensibility",
+        "Solidity debugging with stack traces and console.log"
+      ],
+      "website": "https://hardhat.org/"
+    },
+    {
+      "name": "Truffle Suite",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Comprehensive suite for smart contract development",
+        "Built-in smart contract compilation, deployment, and management",
+        "Automated contract testing (Mocha, Chai)",
+        "Configurable build pipeline",
+        "Integration with Ganache for local blockchain"
+      ],
+      "website": "https://trufflesuite.com/"
+    },
+    {
+      "name": "Ganache",
+      "license": "MIT license",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Personal blockchain for Ethereum development",
+        "Simulates Ethereum network locally",
+        "Provides test accounts with pre-funded Ether",
+        "User interface to view transactions and chain state",
+        "Supports RPC functions"
+      ],
+      "website": "https://trufflesuite.com/ganache/"
+    },
+    {
+      "name": "Brownie",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Python-based development and testing framework",
+        "Write, deploy, and test smart contracts in Python",
+        "Seamless integration with Ethereum networks",
+        "Automated contract testing, coverage analysis, gas profiling",
+        "Intuitive syntax for writing tests"
+      ],
+      "website": "https://eth-brownie.readthedocs.io/en/stable/"
+    },
+    {
+      "name": "Remix IDE",
+      "license": "Apache-2.0 license",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Browser-based IDE for Solidity and Vyper",
+        "Compile, run, debug, and deploy smart contracts",
+        "User-friendly interface with plugins",
+        "Integrated testing environment (Remix VM)",
+        "Connects to various networks (Injected Provider, Hardhat Provider, Ganache Provider, etc.)"
+      ],
+      "website": "https://remix.ethereum.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Hardhat",
+    "Remix IDE"
+  ],
+  "marketPositioning": "Foundry is positioned as a high-performance, portable, and modular command-line toolkit for Ethereum application development. Written in Rust, it emphasizes speed, the ability to write tests directly in Solidity, and advanced testing and debugging features. This differentiates it from Node.js-based tools like Hardhat and the now sunsetting Truffle Suite, and the web-based Remix IDE, targeting developers who prefer a CLI-centric workflow and prioritize performance and in-depth testing capabilities."
+}

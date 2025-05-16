@@ -1,0 +1,165 @@
+{
+  "projectName": "hftbacktest",
+  "projectPurpose": "To provide a sophisticated and accurate open-source backtesting framework and trading bot for high-frequency trading and market-making strategies, focusing on granular tick data simulation, order book dynamics, queue position, and latency modeling.",
+  "platforms": [
+    "Python",
+    "Rust"
+  ],
+  "mainFeatures": [
+    "High-frequency trading and market making backtesting",
+    "Accounts for limit orders, queue positions, and latencies",
+    "Utilizes full tick data for trades and order books",
+    "Complete tick-by-tick simulation",
+    "Full order book reconstruction based on L2 and L3 feeds",
+    "Order fill simulation considering order queue position",
+    "Backtesting of multi-asset and multi-exchange models",
+    "Deployment of a live trading bot using the same algorithm code (Rust-only)",
+    "Real-world crypto market-making examples (e.g., Binance Futures)"
+  ],
+  "website": "https://github.com/nkaz001/hftbacktest",
+  "alternatives": [
+    {
+      "name": "Zipline",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Event-driven backtesting framework",
+        "Integrated with data providers",
+        "Focus on US equities historical data",
+        "Accessible via Jupyter notebook interface"
+      ],
+      "website": "https://github.com/quantopian/zipline"
+    },
+    {
+      "name": "Backtrader",
+      "license": "Open Source",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Event-driven backtesting engine",
+        "Supports multiple data feeds and timeframes",
+        "Wide range of technical indicators",
+        "Strategy optimization",
+        "Broker integration for live trading"
+      ],
+      "website": "https://www.backtrader.com/"
+    },
+    {
+      "name": "Backtesting.py",
+      "license": "Open Source",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Lightweight and fast backtesting framework",
+        "Supports various financial instruments and data types",
+        "Interactive visualizations",
+        "Built-in optimizer",
+        "Vectorized and event-based backtesting"
+      ],
+      "website": "https://kernc.github.io/backtesting.py/"
+    },
+    {
+      "name": "QuantConnect (Lean Engine)",
+      "license": "Open Source (Lean Engine)",
+      "platforms": [
+        "Cloud (Web)",
+        "Python",
+        "C#"
+      ],
+      "mainFeatures": [
+        "Cloud-based backtesting and trading platform",
+        "Access to extensive historical data (including tick data)",
+        "Supports multiple asset classes",
+        "Paper and live trading capabilities",
+        "Large community and educational resources"
+      ],
+      "website": "https://www.quantconnect.com/"
+    },
+    {
+      "name": "Hummingbot",
+      "license": "Open Source",
+      "platforms": [
+        "Python (Framework)"
+      ],
+      "mainFeatures": [
+        "Focus on cryptocurrency market making and arbitrage",
+        "Direct exchange integrations (CEX/DEX)",
+        "Modular strategy framework",
+        "Backtesting capabilities",
+        "Web-based dashboard available"
+      ],
+      "website": "https://hummingbot.org/"
+    },
+    {
+      "name": "NautilusTrader",
+      "license": "Open Source",
+      "platforms": [
+        "Python",
+        "Rust"
+      ],
+      "mainFeatures": [
+        "High-performance, event-driven engine",
+        "Designed for production-grade trading",
+        "Supports multi-venue and multi-asset HFT",
+        "Parity between backtesting and live trading",
+        "Suitable for AI trading agent training"
+      ],
+      "website": "https://github.com/nautechsystems/nautilus_trader"
+    },
+    {
+      "name": "Barter",
+      "license": "Open Source",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "High-performance Rust libraries",
+        "Event-driven architecture",
+        "Supports live-trading, paper-trading, and backtesting",
+        "Focus on speed and robustness",
+        "Multi-exchange capabilities"
+      ],
+      "website": "https://github.com/barter-rs/barter-rs"
+    },
+    {
+      "name": "Forex Tester",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Visual interface for manual/semi-automated testing",
+        "Uses historical tick data",
+        "Detailed analytics",
+        "No coding required for manual testing"
+      ],
+      "website": "https://www.forextester.com/"
+    },
+    {
+      "name": "TradeStation",
+      "license": "Proprietary",
+      "platforms": [
+        "Desktop",
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Integrated brokerage and platform",
+        "Charting and technical analysis tools",
+        "Custom backtesting language (EasyLanguage)",
+        "Automated execution",
+        "Supports multiple asset classes"
+      ]
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "QuantConnect",
+    "Backtrader"
+  ],
+  "marketPositioning": "Hftbacktest is positioned as a specialized, open-source tool for high-frequency trading and market-making strategy development. Unlike many general-purpose backtesting frameworks, it places a strong emphasis on simulating market microstructure at the tick level, accurately accounting for factors like order book depth, queue position, and latency. This detailed approach, coupled with its support for both Python (with Numba acceleration) and Rust for performance, and the inclusion of live trading bot capabilities, makes it particularly suitable for quantitative traders and developers requiring high-fidelity simulations for HFT and market-making strategies, especially within the cryptocurrency domain as demonstrated by its examples. Its open-source nature provides transparency and flexibility compared to proprietary institutional solutions."
+}

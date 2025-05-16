@@ -1,0 +1,87 @@
+{
+  "projectName": "lsd",
+  "projectPurpose": "To provide a modern, visually enhanced, and feature-rich alternative to the standard 'ls' command-line utility.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Enhanced file listing with extensive coloring",
+    "Addition of icons for file types",
+    "Tree view for recursive directory listing",
+    "Support for many standard 'ls' options",
+    "Customizable output"
+  ],
+  "website": "https://github.com/lsd-rs/lsd",
+  "alternatives": [
+    {
+      "name": "ls",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "List directory contents",
+        "Various sorting options",
+        "Detailed file information (permissions, size, date)",
+        "Filtering options"
+      ],
+      "website": null
+    },
+    {
+      "name": "exa",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Uses colors for information by default",
+        "Displays Git status",
+        "Tree view for recursive listing",
+        "Shows extended attributes",
+        "Queries files in parallel"
+      ],
+      "website": "https://the.exa.website/"
+    },
+    {
+      "name": "eza",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Actively maintained fork of exa",
+        "Includes exa's features (colors, Git status, tree view)",
+        "Improved performance and bug fixes",
+        "Community-driven development"
+      ],
+      "website": "https://github.com/eza-community/eza"
+    },
+    {
+      "name": "tree",
+      "license": "Open Source - GPLv2+",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Lists directory contents in a tree-like format",
+        "Can display file sizes, dates, and permissions",
+        "Supports various sorting options",
+        "Output in different formats (e.g., XML, JSON)"
+      ],
+      "website": "http://mama.indstate.edu/users/ice/tree/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ls"
+  ],
+  "marketPositioning": "LSD positions itself as a modern, aesthetically pleasing, and user-friendly replacement for the standard 'ls' command. It competes with other modern alternatives like exa and eza by heavily emphasizing visual enhancements such as extensive coloring and icons, aiming to make terminal file listing more intuitive and easier to read. While offering core 'ls' functionality and modern features like tree view, its primary market position is as a 'deluxe' interactive command for users who prioritize clarity and visual feedback in their terminal workflow."
+}

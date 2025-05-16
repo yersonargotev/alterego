@@ -1,0 +1,96 @@
+{
+  "projectName": "just",
+  "projectPurpose": "To provide a simple, cross-platform command runner for defining and executing project-specific tasks and commands (recipes), serving as a user-friendly alternative to traditional build tools like make for automation purposes.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "Other reasonable unices"
+  ],
+  "mainFeatures": [
+    "Saves and runs project-specific commands (recipes)",
+    "Uses a justfile with make-like syntax",
+    "Cross-platform support (Linux, macOS, Windows)",
+    "Recipes can accept command line arguments",
+    "Loads .env files",
+    "Can be invoked from any subdirectory",
+    "Static error checking and informative error messages",
+    "Supports aliases and fuzzy searching of recipes",
+    "Allows defining a default recipe"
+  ],
+  "website": "https://github.com/casey/just",
+  "alternatives": [
+    {
+      "name": "Make",
+      "license": "Open Source (GNU Make is GPL)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Automates building programs from source files",
+        "Uses a Makefile to define rules and dependencies",
+        "Tracks file timestamps to determine what needs rebuilding",
+        "Widely used in Unix environments",
+        "Can be used for general task automation"
+      ],
+      "website": "https://www.gnu.org/software/make/"
+    },
+    {
+      "name": "Task",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Task runner/build tool",
+        "Uses a YAML configuration file (Taskfile.yml)",
+        "Simple and easy to use",
+        "Supports task dependencies"
+      ],
+      "website": "https://taskfile.dev/"
+    },
+    {
+      "name": "npm scripts",
+      "license": "Open Source (typically MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Define custom scripts in package.json",
+        "Run repetitive development tasks",
+        "Simple command definition",
+        "Supports pre and post scripts",
+        "Can run multiple scripts sequentially or in parallel"
+      ],
+      "website": "https://docs.npmjs.com/cli/v8/using-npm/scripts"
+    },
+    {
+      "name": "cargo-make",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Rust task runner and build tool",
+        "Uses a TOML configuration file (Makefile.toml)",
+        "Supports task dependencies",
+        "Allows defining tasks as commands, scripts, or Rust code",
+        "Platform-specific configuration options"
+      ],
+      "website": "https://github.com/sagiegurari/cargo-make"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Make"
+  ],
+  "marketPositioning": "Just is a command runner, not a build system, designed to help you save and run project-specific commands efficiently across Linux, macOS, and Windows. It uses a simple justfile with a syntax inspired by make but avoids much of make's complexity and idiosyncrasies, making it easier to define and manage common development tasks. Recipes (commands) can accept arguments, load environment variables from .env files, and be written in any language. just provides specific and informative error messages, performs static checks for errors like unknown recipes or circular dependencies before execution, and can be invoked from any subdirectory of your project. Features like command line completion, recipe listing, aliases, and fuzzy searching enhance the developer experience, making just a convenient and powerful tool for automating project workflows."
+}

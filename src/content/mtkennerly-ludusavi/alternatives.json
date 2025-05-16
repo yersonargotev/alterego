@@ -1,0 +1,86 @@
+{
+  "projectName": "ludusavi",
+  "projectPurpose": "To provide a reliable, easy-to-use, and automated solution for backing up and restoring PC video game save data across various platforms and game launchers, preventing data loss.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Steam Deck"
+  ],
+  "mainFeatures": [
+    "Back up data from over 19,000 games plus custom entries",
+    "Backup and restore for Steam, GOG, Epic, Heroic, Lutris, and other game libraries",
+    "Graphical interface and command-line interface",
+    "Supports saves stored as files and in the Windows registry",
+    "Supports Proton saves with Steam",
+    "Cloud synchronization via Rclone integration"
+  ],
+  "website": "https://github.com/mtkennerly/ludusavi",
+  "alternatives": [
+    {
+      "name": "GameSave Manager",
+      "license": "Free and Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Scans for game saves",
+        "Backup and restore saves",
+        "Supports over 8,000 games",
+        "Manual custom paths",
+        "Cloud storage support"
+      ],
+      "website": "https://www.techspot.com/downloads/5366-gamesave-manager.html"
+    },
+    {
+      "name": "Game Backup Monitor",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Automatic game detection",
+        "Runs in the background and backs up on game exit",
+        "Configurable presets",
+        "Can import Ludusavi manifest"
+      ],
+      "website": "https://github.com/cabrin/GameBackupMonitor"
+    },
+    {
+      "name": "FreeFileSync",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Folder comparison and synchronization",
+        "Creates backup copies",
+        "Supports local drives",
+        "Supports cloud storage (SFTP, FTP, Google Drive)"
+      ],
+      "website": "https://freefilesync.org/"
+    },
+    {
+      "name": "Built-in Game Launcher Cloud Saves",
+      "license": "Proprietary (part of launcher)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Automatic cloud synchronization",
+        "Access saves from different machines",
+        "Integrated into game platform"
+      ],
+      "website": "https://www.pcgamingwiki.com/wiki/Cloud_saves"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Built-in Game Launcher Cloud Saves"
+  ],
+  "marketPositioning": "Ludusavi is positioned as a comprehensive, cross-platform, and open-source game save backup solution that offers broad compatibility with various game launchers and an extensive list of supported games. It differentiates itself from older, Windows-only alternatives like GameSave Manager by providing multi-platform support, including Linux and Steam Deck, a larger database of recognized games, faster performance, and the flexibility of both GUI and CLI interfaces, along with cloud sync capabilities. Compared to built-in cloud saves, it offers a unified backup strategy across all platforms and allows for local backups and management of games without native cloud support. Its open-source nature also contributes to its appeal for users seeking transparency and community-driven development."
+}

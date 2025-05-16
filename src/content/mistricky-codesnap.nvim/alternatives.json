@@ -1,0 +1,106 @@
+{
+  "projectName": "codesnap.nvim",
+  "projectPurpose": "To provide a feature-rich Neovim plugin for creating aesthetically pleasing image snapshots of code snippets directly within the editor.",
+  "platforms": [
+    "Neovim"
+  ],
+  "mainFeatures": [
+    "Generate pretty code snapshots",
+    "Integrated within Neovim",
+    "Rich customization options (implied by description)"
+  ],
+  "website": "https://github.com/mistricky/codesnap.nvim",
+  "alternatives": [
+    {
+      "name": "Carbon",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Web-based code editor for snapshots",
+        "Customizable themes and styles",
+        "Syntax highlighting for many languages",
+        "Export as PNG or SVG"
+      ],
+      "website": "https://carbon.now.sh/"
+    },
+    {
+      "name": "Ray.so",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "VS Code Extension"
+      ],
+      "mainFeatures": [
+        "Simple and modern interface",
+        "Gradient backgrounds",
+        "Quick sharing features",
+        "VS Code integration"
+      ],
+      "website": "https://ray.so/"
+    },
+    {
+      "name": "CodeSnap (VS Code Extension)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "VS Code (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Directly integrated into VS Code",
+        "Capture selected code easily",
+        "Copy image to clipboard",
+        "Toggle line numbers"
+      ],
+      "website": "https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap"
+    },
+    {
+      "name": "Polacode",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "VS Code (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Create visually appealing 'Polaroid' style snapshots",
+        "Easy to use by selecting code",
+        "Supports VS Code themes",
+        "Dynamic editor/extension view switching"
+      ],
+      "website": "https://marketplace.visualstudio.com/items?itemName=pnp.polacode"
+    },
+    {
+      "name": "Codeimg.io",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Online editor with live preview",
+        "Customizable padding, shadows, backgrounds",
+        "Supports various programming languages",
+        "Easy sharing options"
+      ],
+      "website": "https://codeimg.io/"
+    },
+    {
+      "name": "Snappify",
+      "license": "Proprietary (Free + Paid plans)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Create static and animated code snippets",
+        "Detailed customization options",
+        "Templates and pre-sets",
+        "Collaboration features (paid)"
+      ],
+      "website": "https://snappify.com/editor"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Carbon",
+    "CodeSnap (VS Code Extension)",
+    "Polacode"
+  ],
+  "marketPositioning": "codesnap.nvim is positioned as a native and feature-rich code snapshot tool specifically for the Neovim editor. While numerous web-based tools and extensions for other editors exist (like Carbon, Ray.so, and VS Code's CodeSnap/Polacode), codesnap.nvim differentiates itself by offering a seamless, integrated experience directly within the Neovim workflow, appealing to users who prefer to perform such tasks without leaving their preferred editing environment."
+}

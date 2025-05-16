@@ -1,0 +1,105 @@
+{
+  "projectName": "ratatui",
+  "projectPurpose": "To provide a high-level, idiomatic Rust library for developers to build complex and interactive terminal user interfaces (TUIs).",
+  "platforms": [
+    "Cross-platform (Linux, macOS, Windows) via different backends"
+  ],
+  "mainFeatures": [
+    "Creating terminal user interfaces (TUIs)",
+    "Lightweight and efficient rendering",
+    "Layout management",
+    "Set of widgets and utilities",
+    "Supports multiple terminal backends (crossterm, termion, termwiz)"
+  ],
+  "website": "https://ratatui.rs",
+  "alternatives": [
+    {
+      "name": "ncurses",
+      "license": "MIT-style license",
+      "platforms": [
+        "POSIX (Linux, macOS, BSD)",
+        "Windows (via PDCurses)"
+      ],
+      "mainFeatures": [
+        "Low-level terminal control",
+        "Character-cell display management",
+        "Keyboard mapping",
+        "Color support",
+        "Panels, menus, forms libraries"
+      ],
+      "website": "invisible-island.net/ncurses/"
+    },
+    {
+      "name": "Urwid",
+      "license": "GNU Lesser General Public License (LGPL)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Cygwin",
+        "Windows (partial)"
+      ],
+      "mainFeatures": [
+        "Widget-based UI development",
+        "Automatic text alignment and wrapping",
+        "Rich text markup",
+        "Flexible list box",
+        "Various event loop support"
+      ],
+      "website": "https://urwid.org/"
+    },
+    {
+      "name": "Textual",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Widget library",
+        "Flexible layout system (CSS grid)",
+        "Asynchronous event handling",
+        "Built-in themes",
+        "Dev console"
+      ],
+      "website": "https://textual.textualize.io/"
+    },
+    {
+      "name": "tview",
+      "license": "MIT License",
+      "platforms": [
+        "Cross-platform (Windows, Linux, macOS, etc.)"
+      ],
+      "mainFeatures": [
+        "Rich widgets (TextView, Table, TreeView, Forms)",
+        "Layout managers (Grid, Flex, Pages)",
+        "Event handling (keyboard, mouse, resize)",
+        "Colors and styling"
+      ],
+      "website": "https://github.com/rivo/tview"
+    },
+    {
+      "name": "FTXUI",
+      "license": "MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (experimental)",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "Functional style",
+        "Simple syntax",
+        "Keyboard & mouse navigation",
+        "Animations",
+        "Drawing"
+      ],
+      "website": "https://arthursonzogni.github.io/FTXUI/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ncurses"
+  ],
+  "marketPositioning": "ratatui is positioned as a modern, idiomatic Rust crate for building lightweight, efficient, and complex terminal user interfaces (TUIs). It differentiates itself by being Rust-native, offering a modern API, flexible backend support for cross-platform compatibility, and focusing on performance through its rendering model. It competes with TUI libraries in other languages by providing a similar level of abstraction while leveraging the performance and ecosystem benefits of Rust."
+}

@@ -1,0 +1,72 @@
+{
+  "projectName": "awesome-rust",
+  "projectPurpose": "To serve as a curated, central index for discovering high-quality Rust code, resources, and tools within the Rust programming language ecosystem.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Curated list of Rust code and resources",
+    "Categorized collection of links",
+    "Community-driven recommendations"
+  ],
+  "website": "https://github.com/rust-unofficial/awesome-rust",
+  "alternatives": [
+    {
+      "name": "crates.io",
+      "license": "Apache 2.0, MIT (for the registry software; individual crates have their own licenses)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Official Rust package registry",
+        "Search and discovery of crates",
+        "Download statistics and versioning",
+        "Integration with Cargo"
+      ],
+      "website": "https://crates.io/"
+    },
+    {
+      "name": "lib.rs",
+      "license": "Various (as it indexes crates with different licenses)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Alternative Rust crate search engine",
+        "Curated categories and tags",
+        "Focus on discoverability and quality metrics"
+      ],
+      "website": "https://lib.rs/"
+    },
+    {
+      "name": "Blessed.rs",
+      "license": "Various (as it recommends crates with different licenses)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Hand-curated recommendations for common use cases",
+        "Guide to the crates.io ecosystem",
+        "Highlights trusted and well-maintained crates"
+      ],
+      "website": "https://blessed.rs/"
+    },
+    {
+      "name": "Official Rust Documentation (docs.rust-lang.org)",
+      "license": "Apache License 2.0, MIT",
+      "platforms": [
+        "Web",
+        "Offline (via rustup)"
+      ],
+      "mainFeatures": [
+        "Comprehensive language reference",
+        "Standard Library API documentation",
+        "Guides for Cargo and Rustdoc",
+        "Tutorials and learning resources"
+      ],
+      "website": "https://doc.rust-lang.org/"
+    }
+  ],
+  "mostWellKnownAlternative": "crates.io",
+  "marketPositioning": "Awesome-rust positions itself as a high-level, community-curated entry point into the Rust ecosystem. It complements official resources like crates.io and the Rust documentation by providing a filtered, subjectively 'awesome' collection of projects and resources across various categories. Its strength lies in its human-powered curation, offering a more guided discovery experience compared to the exhaustive search capabilities of package registries. It is particularly valuable for users looking for recommended and established solutions or wanting to explore the breadth of what's available in Rust in an organized manner."
+}

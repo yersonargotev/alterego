@@ -1,0 +1,93 @@
+{
+  "projectName": "esp-hal",
+  "projectPurpose": "To provide a low-level, bare-metal Hardware Abstraction Layer (HAL) in Rust for the ESP32 family of microcontrollers, enabling safe and idiomatic interaction with hardware peripherals in `no_std` embedded environments.",
+  "platforms": [
+    "ESP32",
+    "ESP32-C Series",
+    "ESP32-H Series",
+    "ESP32-S Series"
+  ],
+  "mainFeatures": [
+    "Bare-metal (no_std) operation",
+    "Hardware Abstraction Layer for ESP32 peripherals",
+    "Implements embedded-hal traits for interoperability",
+    "Supports various ESP32 chip series",
+    "Provides interfaces for direct hardware interaction"
+  ],
+  "website": "https://github.com/esp-rs/esp-hal",
+  "alternatives": [
+    {
+      "name": "ESP-IDF (Espressif IoT Development Framework)",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "ESP32",
+        "ESP32-S Series",
+        "ESP32-C Series",
+        "ESP32-H Series",
+        "ESP32-P4"
+      ],
+      "mainFeatures": [
+        "Official development framework from Espressif",
+        "Supports C and C++ languages",
+        "Includes FreeRTOS",
+        "Comprehensive drivers and libraries (Wi-Fi, Bluetooth, peripherals, networking)",
+        "Supports advanced features like OTA updates and secure boot"
+      ],
+      "website": "https://github.com/espressif/esp-idf"
+    },
+    {
+      "name": "Arduino Core for ESP32",
+      "license": "Open Source",
+      "platforms": [
+        "ESP32",
+        "ESP32-C Series",
+        "ESP32-H Series",
+        "ESP32-S Series",
+        "ESP32-P4"
+      ],
+      "mainFeatures": [
+        "Enables programming ESP32 with Arduino API and IDE",
+        "Simplified C++ interface",
+        "Large community and extensive libraries",
+        "Supports Wi-Fi and Bluetooth",
+        "Easy to get started for beginners"
+      ],
+      "website": "https://github.com/espressif/arduino-esp32"
+    },
+    {
+      "name": "MicroPython",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "ESP32"
+      ],
+      "mainFeatures": [
+        "Python 3 implementation for microcontrollers",
+        "Interactive REPL (Read-Eval-Print Loop)",
+        "Easy to learn and rapid prototyping",
+        "Supports ESP32 Wi-Fi and Bluetooth",
+        "Growing set of modules and libraries"
+      ],
+      "website": "https://micropython.org/"
+    },
+    {
+      "name": "Zephyr RTOS",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "ESP32"
+      ],
+      "mainFeatures": [
+        "Scalable real-time operating system",
+        "Supports multiple architectures and boards",
+        "Comprehensive networking stack",
+        "Strong focus on security and safety",
+        "Active and diverse community"
+      ],
+      "website": "https://www.zephyrproject.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ESP-IDF (Espressif IoT Development Framework)",
+    "Arduino Core for ESP32"
+  ],
+  "marketPositioning": "esp-hal is positioned as a core component within the embedded Rust ecosystem for Espressif chips, specifically offering a bare-metal, `no_std` Hardware Abstraction Layer. While alternatives like ESP-IDF and Arduino provide broader frameworks (often including an RTOS and standard libraries) for ESP32 development using C/C++ or simplified C++, esp-hal focuses on providing a low-level, Rust-idiomatic interface to hardware. This caters to developers who prioritize Rust's safety guarantees and performance for embedded systems, require fine-grained hardware control without the overhead of a full OS, and want to leverage the `embedded-hal` ecosystem for portable driver development. It represents Espressif's commitment to supporting Rust as a viable language for their microcontrollers."
+}

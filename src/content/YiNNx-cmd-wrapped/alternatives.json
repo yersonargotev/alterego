@@ -1,0 +1,91 @@
+{
+  "projectName": "cmd-wrapped",
+  "projectPurpose": "To analyze user shell history and provide statistics and visualizations about command-line activity, particularly focusing on annual summaries.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows (via supported shells/history tools)"
+  ],
+  "mainFeatures": [
+    "Analyzes command-line activity distribution (months, days, hours)",
+    "Generates Github-style command distribution graph",
+    "Supports zsh, bash, fish, nushell, and atuin history analysis",
+    "Command-line interface tool"
+  ],
+  "website": "https://github.com/YiNNx/cmd-wrapped",
+  "alternatives": [
+    {
+      "name": "Atuin",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (experimental)",
+        "Bash",
+        "ZSH",
+        "Fish",
+        "NuShell",
+        "Xonsh"
+      ],
+      "mainFeatures": [
+        "Replaces history with SQLite database",
+        "Encrypted history sync across machines",
+        "Full-screen history search UI",
+        "Stores additional command context",
+        "Calculates usage statistics"
+      ],
+      "website": "https://atuin.sh/"
+    },
+    {
+      "name": "history command (built-in)",
+      "license": "Open Source (part of shell license)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Displays list of past commands",
+        "Allows command re-execution by number",
+        "Basic filtering via piping",
+        "Configurable history size and format"
+      ],
+      "website": "N/A (Shell documentation)"
+    },
+    {
+      "name": "zsh-history-analysis",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Unix-like systems (Requires Zsh, Python, R)"
+      ],
+      "mainFeatures": [
+        "Parses Zsh history files",
+        "Scripts for analysis and visualization",
+        "Can be extended for Bash",
+        "Focuses on plotting history statistics"
+      ],
+      "website": "https://github.com/bamos/zsh-history-analysis"
+    },
+    {
+      "name": "Clink",
+      "license": "Open Source",
+      "platforms": [
+        "Windows (cmd.exe, PowerShell)"
+      ],
+      "mainFeatures": [
+        "Enhances cmd.exe with Bash-style features",
+        "Persistent command history",
+        "Command completion and editing",
+        "Configurable history behavior"
+      ],
+      "website": "https://mridgers.github.io/clink/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "history command (built-in)",
+    "Atuin"
+  ],
+  "marketPositioning": "cmd-wrapped is positioned as a dedicated analysis and visualization tool for existing shell history data. Unlike alternatives like Atuin that replace the history mechanism with advanced search and sync, cmd-wrapped focuses specifically on generating statistical summaries and visual reports (like year-end 'wrapped' stats and activity graphs) from various shell history sources. It serves as a reporting layer to help users understand their command-line usage patterns over time."
+}

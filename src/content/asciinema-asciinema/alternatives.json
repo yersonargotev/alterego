@@ -1,0 +1,118 @@
+{
+  "projectName": "asciinema",
+  "projectPurpose": "To provide a command-line tool for recording terminal sessions in a lightweight, text-based format and an ecosystem for replaying, sharing, and embedding these recordings.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "BSD",
+    "Windows (via third-party ports/WSL)"
+  ],
+  "mainFeatures": [
+    "Records terminal sessions to lightweight .cast files",
+    "Replays recordings in terminal or web browser",
+    "Supports embedding recordings on websites",
+    "Allows publishing recordings to asciinema.org or self-hosted servers",
+    "Enables copy-pasting text from playback"
+  ],
+  "website": "https://asciinema.org/",
+  "alternatives": [
+    {
+      "name": "script",
+      "license": "Open Source (part of util-linux)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Records terminal session output to a file (typescript)",
+        "Basic replay using scriptreplay",
+        "Widely available on Unix-like systems"
+      ],
+      "website": "https://manned.org/script"
+    },
+    {
+      "name": "ttyrec",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Records terminal session output and timing to .tty files",
+        "Lighter weight than video",
+        "Replay using ttyplay",
+        "Specific format for terminal output"
+      ],
+      "website": "http://0xcc.net/ttyrec/"
+    },
+    {
+      "name": "showterm",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Records terminal sessions",
+        "Generates web page for replay",
+        "Allows embedding recordings",
+        "Based on the script utility"
+      ],
+      "website": "http://showterm.io/"
+    },
+    {
+      "name": "Terminalizer",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Cross-platform (requires Node.JS)"
+      ],
+      "mainFeatures": [
+        "Records terminal sessions",
+        "Generates animated GIF images",
+        "Provides web player link for sharing",
+        "Allows editing of recordings",
+        "Supports custom frame styles for GIFs"
+      ],
+      "website": "https://terminalizer.com/"
+    },
+    {
+      "name": "termtosvg",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Unix-like systems (requires Python)"
+      ],
+      "mainFeatures": [
+        "Records terminal sessions",
+        "Renders recordings as standalone SVG animations",
+        "High-quality vector output",
+        "Customizable appearance"
+      ],
+      "website": "https://github.com/nbedos/termtosvg"
+    },
+    {
+      "name": "OBS Studio",
+      "license": "Open Source (GPL-2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "General screen recording and streaming",
+        "Records desktop, windows, or regions",
+        "High-quality video output",
+        "Audio recording",
+        "Scene composition"
+      ],
+      "website": "https://obsproject.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OBS Studio",
+    "Terminalizer"
+  ],
+  "marketPositioning": "Asciinema is positioned as the leading open-source tool for recording and sharing terminal sessions in a lightweight, text-based format (.cast). It differentiates itself from traditional screen recorders by capturing terminal output as text and timing data, enabling features like copy-paste from playback, resolution independence, and smaller file sizes. Its integrated ecosystem (recorder, player, server) provides a comprehensive solution for technical demonstrations, tutorials, and troubleshooting, offering a modern, interactive alternative to static text logs or heavy video files. It competes with older tools like script and ttyrec by offering modern web sharing/embedding, and with GIF-generating tools by providing a more feature-rich, interactive playback experience via its dedicated player."
+}

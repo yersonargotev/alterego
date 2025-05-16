@@ -1,0 +1,145 @@
+{
+  "projectName": "buck2",
+  "projectPurpose": "Buck2 is a modern, large-scale, and fast open-source build system developed by Meta. Its purpose is to efficiently build software projects, particularly large and polyglot codebases often found in monorepos, by providing a fast, reliable, and extensible platform with features like parallelism, remote execution, and a clear separation of concerns. It aims to improve developer productivity by significantly reducing build times.",
+  "platforms": [
+    "Cross-platform (Linux, macOS, Windows supported by alternatives, likely similar for Buck2)"
+  ],
+  "mainFeatures": [
+    "Successor to Buck",
+    "Large-scale build system",
+    "Fast and performant",
+    "Written in Rust (core)",
+    "Extensible with Starlark for language-specific rules",
+    "Complete separation of core and language-specific rules",
+    "Integration with remote execution (using Bazel API)",
+    "Hermetic builds",
+    "Multi-language support",
+    "Designed for monorepos"
+  ],
+  "website": "https://buck2.build/",
+  "alternatives": [
+    {
+      "name": "Bazel",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast, incremental builds with caching and parallel execution",
+        "Supports multiple languages and platforms",
+        "Scalable for large codebases and monorepos",
+        "Extensible with its own extension language",
+        "Hermetic and reproducible builds"
+      ],
+      "website": "https://bazel.build/"
+    },
+    {
+      "name": "Gradle",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Highly scalable build automation tool",
+        "Supports multiple languages",
+        "Uses a Groovy- or Kotlin-based DSL",
+        "Incremental builds and build caching",
+        "Strong IDE and CI integration"
+      ],
+      "website": "https://gradle.org/"
+    },
+    {
+      "name": "Apache Maven",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Dependency management",
+        "Convention over configuration",
+        "Plugin-based architecture",
+        "Manages build lifecycle",
+        "Generates project documentation and reports"
+      ],
+      "website": "https://maven.apache.org/"
+    },
+    {
+      "name": "CMake",
+      "license": "Open Source - BSD 3-Clause License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Meta-build tool generating native build scripts",
+        "Compiler and platform independent",
+        "Supports complex directory hierarchies",
+        "Out-of-source builds",
+        "Extensible scripting language"
+      ],
+      "website": "https://cmake.org/"
+    },
+    {
+      "name": "GNU Make",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via tools like MinGW, Cygwin)"
+      ],
+      "mainFeatures": [
+        "Manages dependencies between files",
+        "Uses Makefiles to define build rules",
+        "Simple and widely available",
+        "Efficient for simple builds"
+      ],
+      "website": "https://www.gnu.org/software/make/"
+    },
+    {
+      "name": "Ninja",
+      "license": "Open Source - Apache License 2.0 (or similar permissive license)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Focuses on build speed and efficiency",
+        "Designed as a backend for other build systems (like CMake)",
+        "Processes build rules quickly",
+        "Ideal for large projects with frequent changes"
+      ],
+      "website": "https://ninja-build.org/"
+    },
+    {
+      "name": "Pants",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Scalable build system for monorepos",
+        "Supports multiple languages",
+        "Dependency modeling using static analysis",
+        "Fine-grained invalidation and caching",
+        "Concurrent and remote execution"
+      ],
+      "website": "https://www.pantsbuild.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Bazel"
+  ],
+  "marketPositioning": "Buck2 is positioned as a next-generation, large-scale, fast, and reliable build system, directly competing with tools like Bazel and Pants, particularly in the context of large, polyglot monorepos. Its key differentiators include its Rust-based core, clean separation of core and language-specific rules (Starlark), explicit design for remote execution and virtual file systems, a single dependency graph for improved parallelism, and the BXL introspection language. Buck2 leverages lessons from its predecessor Buck1 and provides a migration path, aiming to offer superior performance and extensibility compared to existing solutions for complex build environments."
+}

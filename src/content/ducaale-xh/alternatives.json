@@ -1,0 +1,129 @@
+{
+  "projectName": "xh",
+  "projectPurpose": "To provide a user-friendly, fast, and modern command-line interface (CLI) tool for making HTTP requests, serving as a performant alternative to tools like HTTPie while maintaining a similar, intuitive syntax.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "FreeBSD",
+    "Android"
+  ],
+  "mainFeatures": [
+    "Friendly and fast",
+    "Improved startup speed",
+    "Available as a single statically linked binary",
+    "HTTP/2 support",
+    "Built-in translation to curl commands",
+    "Uses HTTPie's request-item syntax",
+    "Supports shorthand form for URLs",
+    "Colorized output",
+    "Built-in JSON support"
+  ],
+  "website": "https://github.com/ducaale/xh",
+  "alternatives": [
+    {
+      "name": "curl",
+      "license": "MIT/X inspired, ISC, 3-clause BSD, 4-clause BSD (Open Source)",
+      "platforms": [
+        "AIX",
+        "AmigaOS",
+        "Android",
+        "BeOS",
+        "BlackBerry Tablet OS",
+        "BlackBerry 10",
+        "OpenVMS",
+        "Darwin",
+        "DOS",
+        "FreeBSD",
+        "HP-UX",
+        "HURD",
+        "iOS",
+        "IRIX",
+        "Linux",
+        "macOS",
+        "NetBSD",
+        "NetWare",
+        "OpenBSD",
+        "OS/2",
+        "QNX Neutrino",
+        "RISC OS",
+        "Solaris",
+        "Symbian",
+        "Tru64",
+        "Ultrix",
+        "UnixWare",
+        "Microsoft Windows",
+        "OpenHarmony"
+      ],
+      "mainFeatures": [
+        "Supports numerous protocols (HTTP, HTTPS, FTP, etc.)",
+        "SSL certificate support",
+        "Proxies and authentication",
+        "File transfer and resume",
+        "Highly portable and scriptable"
+      ],
+      "website": "https://curl.se/"
+    },
+    {
+      "name": "HTTPie",
+      "license": "BSD License (BSD-3-Clause) (Open Source)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "FreeBSD",
+        "Web",
+        "Desktop"
+      ],
+      "mainFeatures": [
+        "Expressive and intuitive syntax",
+        "Formatted and colorized terminal output",
+        "Built-in JSON support",
+        "Persistent sessions",
+        "Plugin system"
+      ],
+      "website": "https://httpie.io/cli"
+    },
+    {
+      "name": "Postman",
+      "license": "Proprietary (Free for personal use, paid plans for business)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "GUI-based interface",
+        "API testing, documentation, monitoring",
+        "Environment management",
+        "Collaboration features",
+        "Supports various protocols (REST, GraphQL, SOAP, etc.)"
+      ],
+      "website": "https://www.postman.com/"
+    },
+    {
+      "name": "Insomnia",
+      "license": "Apache License 2.0 (Open Source for Desktop, Paid for Sync/Collaboration)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "CLI (Inso)"
+      ],
+      "mainFeatures": [
+        "User-friendly GUI",
+        "Supports REST, GraphQL, WebSockets, gRPC",
+        "Environment management",
+        "Code generation",
+        "Plugins"
+      ],
+      "website": "https://insomnia.rest/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "curl",
+    "Postman"
+  ],
+  "marketPositioning": "xh is positioned as a performant and user-friendly command-line HTTP client. It directly competes with other CLI tools like curl and HTTPie, aiming to offer a faster alternative to HTTPie while retaining its intuitive syntax. Its key advantages are its speed due to being written in Rust and its easy distribution as a single binary. It serves developers and system administrators who prioritize command-line workflows, speed, and ease of installation over the graphical interfaces offered by tools like Postman and Insomnia."
+}

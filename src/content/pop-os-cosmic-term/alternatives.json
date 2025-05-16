@@ -1,0 +1,137 @@
+{
+  "projectName": "cosmic-term",
+  "projectPurpose": "To develop the default terminal emulator for the COSMIC desktop environment.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "WIP (Work In Progress)",
+    "Integrated with COSMIC desktop environment",
+    "Built using alacritty_terminal framework",
+    "Supports GPU rendering"
+  ],
+  "website": "https://github.com/pop-os/cosmic-term",
+  "alternatives": [
+    {
+      "name": "GNOME Terminal",
+      "license": "Open Source - GPL v3",
+      "platforms": [
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Tabbed interface",
+        "Customizable profiles",
+        "Clickable links",
+        "Automatic text rewrapping",
+        "Theming and transparency"
+      ],
+      "website": "https://wiki.gnome.org/Apps/Terminal"
+    },
+    {
+      "name": "Konsole",
+      "license": "Open Source - GPL-2.0-or-later, GNU Free Documentation License",
+      "platforms": [
+        "Linux",
+        "Unix-like",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "Tabbed interface",
+        "Split-view mode",
+        "Directory and SSH bookmarking",
+        "Customizable appearance",
+        "Multiple profile support"
+      ],
+      "website": "https://konsole.kde.org/"
+    },
+    {
+      "name": "Alacritty",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "GPU-accelerated rendering",
+        "Performance-focused",
+        "Vi mode for navigation",
+        "Search functionality",
+        "Supports true color"
+      ],
+      "website": "https://alacritty.org/"
+    },
+    {
+      "name": "kitty",
+      "license": "Open Source - GPL-3.0-only, LGPL-2.1-or-later, Zlib, MIT, CC0-1.0, BSD-2-Clause",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "GPU-accelerated rendering",
+        "Supports modern terminal features (graphics, unicode)",
+        "Tiling multiple windows",
+        "Extensible with Kittens",
+        "Supports startup sessions"
+      ],
+      "website": "https://sw.kovidgoyal.net/kitty/"
+    },
+    {
+      "name": "iTerm2",
+      "license": "Open Source - GPL v2",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Split panes",
+        "Hotkey window (dropdown)",
+        "Robust search",
+        "Autocomplete",
+        "Paste history"
+      ],
+      "website": "https://iterm2.com/"
+    },
+    {
+      "name": "Windows Terminal",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Multiple tabs and panes",
+        "Supports various command-line shells",
+        "GPU-accelerated text rendering",
+        "Customizable themes and appearance",
+        "Supports 24-bit color and Unicode"
+      ],
+      "website": "https://aka.ms/terminal"
+    },
+    {
+      "name": "Hyper",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Built on web technologies (Electron)",
+        "Extensible via plugins",
+        "Theming support",
+        "Configurable",
+        "Modern user interface"
+      ],
+      "website": "https://hyper.is/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GNOME Terminal",
+    "Konsole",
+    "Windows Terminal"
+  ],
+  "marketPositioning": "COSMIC Terminal (cosmic-term) is positioned as the native, high-performance terminal emulator for the new COSMIC desktop environment by System76. By building upon the Alacritty framework, it emphasizes GPU acceleration and speed, differentiating itself from traditional terminal emulators. Its primary market is users adopting the COSMIC desktop, offering a tightly integrated command-line experience within that ecosystem. While still under development, its focus is on providing a performant and cohesive terminal for the future of the COSMIC environment."
+}

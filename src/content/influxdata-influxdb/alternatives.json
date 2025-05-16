@@ -1,0 +1,124 @@
+{
+  "projectName": "influxdb",
+  "projectPurpose": "To provide a scalable datastore optimized for storing metrics, events, and performing real-time analytics on time-series data.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "Cloud Platforms (AWS, GCP, Azure)"
+  ],
+  "mainFeatures": [
+    "Scalable datastore for metrics and events",
+    "Real-time analytics capabilities",
+    "High-speed data ingestion",
+    "Efficient time-series data storage (columnar, Parquet)",
+    "Multiple query language options (InfluxQL, Flux, SQL)"
+  ],
+  "website": "https://github.com/influxdata/influxdb",
+  "alternatives": [
+    {
+      "name": "Prometheus",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Docker",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Multi-dimensional data model",
+        "PromQL query language",
+        "Pull-based metric collection",
+        "Alerting system",
+        "Service discovery"
+      ],
+      "website": "https://prometheus.io/"
+    },
+    {
+      "name": "TimescaleDB",
+      "license": "Open Source - Apache 2.0 (Core), Timescale License (Community)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Cloud Platforms (AWS, GCP, Azure)"
+      ],
+      "mainFeatures": [
+        "PostgreSQL extension for time-series",
+        "Automatic time-based partitioning (Hypertables)",
+        "Full SQL support with time-series functions",
+        "High-performance data ingestion",
+        "Hybrid row/columnar storage"
+      ],
+      "website": "https://www.timescale.com/"
+    },
+    {
+      "name": "Graphite",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Real-time graphing",
+        "Hierarchical data model",
+        "Scalable storage backend options",
+        "Data rendering and visualization"
+      ],
+      "website": "https://graphiteapp.org/"
+    },
+    {
+      "name": "OpenTSDB",
+      "license": "Open Source - LGPL",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Distributed time series database",
+        "Scalable architecture (on HBase/Cassandra)",
+        "Tagging for metadata",
+        "Integration with monitoring tools"
+      ],
+      "website": "http://opentsdb.net/"
+    },
+    {
+      "name": "ClickHouse",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD",
+        "Cloud Platforms (AWS, GCP, Azure)"
+      ],
+      "mainFeatures": [
+        "Columnar data storage",
+        "High-performance OLAP queries",
+        "Standard SQL support",
+        "Optimized for time-series workloads",
+        "Scalable and distributed architecture"
+      ],
+      "website": "https://clickhouse.com/"
+    },
+    {
+      "name": "Datadog",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (SaaS)",
+        "Agents for Windows, macOS, Linux"
+      ],
+      "mainFeatures": [
+        "Unified monitoring (metrics, logs, traces)",
+        "Real-time observability platform",
+        "Customizable dashboards and visualizations",
+        "Automated alerting and incident management",
+        "Extensive integrations"
+      ],
+      "website": "https://www.datadoghq.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Prometheus",
+    "Datadog"
+  ],
+  "marketPositioning": "InfluxDB is positioned as a purpose-built, high-performance, and scalable open-source time-series database. Its market strength lies in providing a dedicated solution for collecting, storing, and analyzing time-series data from sources like monitoring systems, IoT devices, and applications, emphasizing high ingestion rates and fast real-time query responses. While competing with broader monitoring tools like Prometheus and comprehensive observability platforms like Datadog, InfluxDB focuses specifically on optimizing the time-series data layer. Its support for multiple query languages, including recent adoption of SQL, broadens its appeal beyond users of its native languages, positioning it as a flexible alternative to both specialized time-series databases and general-purpose databases for time-series workloads."
+}

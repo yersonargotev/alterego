@@ -1,0 +1,129 @@
+{
+  "projectName": "oculante",
+  "projectPurpose": "To provide a fast, lightweight, and simple-to-use cross-platform image viewer with broad format support, basic editing, and analysis capabilities, prioritizing performance and user privacy.",
+  "platforms": [
+    "Linux",
+    "Mac",
+    "Windows",
+    "FreeBSD",
+    "NetBSD"
+  ],
+  "mainFeatures": [
+    "Minimalistic and fast interface",
+    "Cross-platform compatibility",
+    "Wide support for various image formats (common, RAW, professional/niche)",
+    "Basic non-destructive editing tools (crop, resize, color adjust, etc.)",
+    "Image analysis tools (pixel info, channel inspection)",
+    "Configurable image caching and hardware acceleration",
+    "Portable and low resource usage",
+    "Privacy-focused (no data collection)"
+  ],
+  "website": "https://github.com/woelper/oculante",
+  "alternatives": [
+    {
+      "name": "nomacs",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "OS/2"
+      ],
+      "mainFeatures": [
+        "Supports common, RAW, and PSD formats",
+        "Semi-transparent widgets (thumbnails, metadata, histogram)",
+        "Image manipulation tools",
+        "Synchronization of multiple instances for comparison",
+        "Browses images in zip/office files"
+      ],
+      "website": "https://nomacs.org/"
+    },
+    {
+      "name": "XnView MP",
+      "license": "Freeware for private/educational use, Proprietary for commercial use",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Supports 500+ image formats including RAW",
+        "Photo management features (thumbnail, fullscreen, compare)",
+        "Basic editing tools",
+        "Batch processing (convert, rename, resize)",
+        "Metadata support"
+      ],
+      "website": "https://www.xnview.com/en/xnviewmp/"
+    },
+    {
+      "name": "FastStone Image Viewer",
+      "license": "Freeware for personal/educational use, License required for commercial use",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Image browsing, viewing, management, conversion, editing",
+        "Supports major graphic and RAW formats",
+        "Intuitive full-screen mode",
+        "Slideshow with effects",
+        "Basic editing tools"
+      ],
+      "website": "https://www.faststone.org/FSViewerDetail.htm"
+    },
+    {
+      "name": "IrfanView",
+      "license": "Freeware for non-commercial use, Proprietary for commercial use",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Fast and compact",
+        "Supports numerous file formats (including RAW, audio, video)",
+        "Batch conversion and renaming",
+        "Basic editing tools and effects",
+        "Supports Adobe Photoshop plugins"
+      ],
+      "website": "https://www.irfanview.com/"
+    },
+    {
+      "name": "qView",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Lightweight and minimalistic interface",
+        "Fast opening and image switching",
+        "Supports common image formats",
+        "Configurable preferences",
+        "Animated GIF controls and file history"
+      ],
+      "website": "https://qview.github.io/"
+    },
+    {
+      "name": "feh",
+      "license": "Open Source - MIT license variant",
+      "platforms": [
+        "Linux",
+        "FreeBSD",
+        "OpenBSD"
+      ],
+      "mainFeatures": [
+        "Lightweight and command-line driven",
+        "Multiple operation modes (slideshow, thumbnail, multiwindow)",
+        "Supports various image formats via imlib2",
+        "Can set X11 backgrounds",
+        "Configurable keyboard shortcuts and custom actions"
+      ],
+      "website": "https://feh.finalrewind.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "IrfanView",
+    "XnView MP"
+  ],
+  "marketPositioning": "Oculante positions itself as a high-performance, privacy-aware, cross-platform image viewer that prioritizes speed and broad format compatibility over extensive management or editing features. It targets users needing a fast, reliable tool for viewing a diverse range of image types, including professional and niche formats, across different operating systems without the complexity or resource overhead of larger suites. Its minimalistic design, Rust-based performance, hardware acceleration, and privacy focus differentiate it from more feature-heavy or Windows-centric alternatives."
+}

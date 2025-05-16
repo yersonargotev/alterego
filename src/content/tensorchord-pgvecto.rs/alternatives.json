@@ -1,0 +1,133 @@
+{
+  "projectName": "pgvecto.rs",
+  "projectPurpose": "To provide advanced, scalable, and low-latency vector search capabilities directly within the PostgreSQL database, allowing users to perform vector similarity searches and hybrid queries without needing a separate dedicated vector database.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Vector Search in PostgreSQL",
+    "Scalable and Low-latency",
+    "Hybrid-enabled Vector Search (vector search + filtering/relational queries)",
+    "Written in Rust for performance",
+    "Supports high vector dimensions (up to 65535)",
+    "Advanced Indexing (HNSW, IVF)",
+    "Supports various vector data types (FP16, INT8, Binary)",
+    "Filtering during search",
+    "Python SDK available"
+  ],
+  "website": "https://github.com/tensorchord/pgvecto.rs",
+  "alternatives": [
+    {
+      "name": "pgvector",
+      "license": "Open Source - PostgreSQL License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Vector storage in PostgreSQL",
+        "Exact and approximate nearest neighbor search",
+        "Various distance metrics (L2, Inner Product, Cosine)",
+        "Integrates with PostgreSQL indexing",
+        "SQL compatibility"
+      ],
+      "website": "https://github.com/pgvector/pgvector"
+    },
+    {
+      "name": "Milvus",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Docker",
+        "Kubernetes",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Scalable distributed architecture",
+        "Supports multiple index types (IVF, HNSW, DiskANN)",
+        "Real-time data ingestion",
+        "Cloud-native design",
+        "Optimized for large datasets"
+      ],
+      "website": "https://milvus.io/"
+    },
+    {
+      "name": "Qdrant",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (Docker)",
+        "Cloud",
+        "Hybrid Cloud"
+      ],
+      "mainFeatures": [
+        "High-performance vector search",
+        "JSON payload for filtering",
+        "Distributed deployment",
+        "Vector quantization",
+        "Hybrid search"
+      ],
+      "website": "https://qdrant.tech/"
+    },
+    {
+      "name": "Weaviate",
+      "license": "Open Source - BSD 3-Clause License",
+      "platforms": [
+        "Docker",
+        "Kubernetes",
+        "Cloud",
+        "On-premise"
+      ],
+      "mainFeatures": [
+        "Vector search with structured filtering",
+        "Supports various media types (text, images)",
+        "Integrates with ML models and hubs",
+        "Scalable and production-ready",
+        "GraphQL, REST, gRPC APIs"
+      ],
+      "website": "https://weaviate.io/"
+    },
+    {
+      "name": "Pinecone",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (AWS, GCP, Azure)"
+      ],
+      "mainFeatures": [
+        "Fully managed service",
+        "Highly scalable",
+        "Low-latency search",
+        "Real-time data ingestion",
+        "Metadata filtering"
+      ],
+      "website": "https://www.pinecone.io/"
+    },
+    {
+      "name": "Chroma DB",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (Docker)"
+      ],
+      "mainFeatures": [
+        "AI-native vector database",
+        "Focuses on LLM applications",
+        "Simplifies embedding storage and retrieval",
+        "Supports metadata",
+        "Easy to use"
+      ],
+      "website": "https://www.trychroma.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Milvus",
+    "Pinecone",
+    "pgvector"
+  ],
+  "marketPositioning": "pgvecto.rs is positioned as a high-performance, scalable vector search extension for PostgreSQL. Its primary market position is to serve users who already use PostgreSQL and want to add advanced vector search and hybrid query capabilities without the complexity of deploying and managing a separate dedicated vector database. It competes with the standard pgvector extension by offering enhanced features, potentially better performance through its Rust implementation, and separate index management. It competes with dedicated vector databases by providing the convenience and architectural simplicity of integrating vector workloads directly into an existing relational database, while aiming to deliver comparable performance and scalability for many use cases."
+}

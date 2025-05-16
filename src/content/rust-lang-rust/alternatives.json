@@ -1,0 +1,81 @@
+{
+  "projectName": "rust",
+  "projectPurpose": "To provide a programming language and toolchain for building reliable and efficient software, particularly in systems programming, with a focus on memory safety and concurrency without garbage collection.",
+  "platforms": [
+    "Cross-platform"
+  ],
+  "mainFeatures": [
+    "Memory safety without garbage collection",
+    "Concurrency without data races",
+    "Performance comparable to C/C++",
+    "Reliable software development",
+    "Efficient software development"
+  ],
+  "website": "https://www.rust-lang.org/",
+  "alternatives": [
+    {
+      "name": "C",
+      "license": "Open Standard (compilers often Open Source - GPL, LLVM)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Low-level memory access via pointers",
+        "Procedural programming paradigm",
+        "Fast execution",
+        "Rich set of operators",
+        "Extensible"
+      ],
+      "website": "No single official website (often associated with standards bodies or compiler projects)"
+    },
+    {
+      "name": "C++",
+      "license": "Open Standard (compilers often Open Source - GPL, LLVM or Proprietary)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Object-Oriented Programming",
+        "Low-level memory manipulation",
+        "High performance",
+        "Large standard library (STL)",
+        "Supports procedural and generic programming"
+      ],
+      "website": "https://isocpp.org/"
+    },
+    {
+      "name": "Go",
+      "license": "Open Source - BSD 3-clause + patent grant",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Built-in concurrency (goroutines, channels)",
+        "Garbage collection",
+        "Fast compilation",
+        "Simple syntax",
+        "Strong standard library"
+      ],
+      "website": "https://go.dev/"
+    },
+    {
+      "name": "Zig",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Focus on performance and simplicity",
+        "Manual memory management with explicit control",
+        "Excellent C interoperability",
+        "Compile-time metaprogramming"
+      ],
+      "website": "https://ziglang.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "C++",
+    "C"
+  ],
+  "marketPositioning": "Rust is positioned as a modern systems programming language that offers the performance and low-level control of C/C++ while providing strong memory safety and concurrency guarantees without a garbage collector. Its unique ownership and borrowing system distinguishes it by preventing common memory-related errors at compile time, making it a strong choice for building reliable, efficient, and safe software in domains traditionally dominated by C and C++, as well as in areas requiring safe concurrency like network services and embedded systems, offering a compelling alternative to languages like Go and Zig by providing more explicit memory control."
+}

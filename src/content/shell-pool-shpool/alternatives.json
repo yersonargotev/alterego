@@ -1,0 +1,99 @@
+{
+  "projectName": "shpool",
+  "projectPurpose": "To provide a simpler terminal multiplexing and session management tool, positioned as a less complex alternative to tmux.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Terminal multiplexing",
+    "Session management (detach/reattach)",
+    "Simpler alternative to tmux",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/shell-pool/shpool",
+  "alternatives": [
+    {
+      "name": "tmux",
+      "license": "ISC, BSD-3-Clause, BSD-2-Clause",
+      "platforms": [
+        "OpenBSD",
+        "FreeBSD",
+        "NetBSD",
+        "Linux",
+        "macOS",
+        "Solaris",
+        "Windows (via WSL/Cygwin)"
+      ],
+      "mainFeatures": [
+        "Multiple terminals in one screen",
+        "Session detach and reattach",
+        "Split windows into panes",
+        "Scriptable and configurable",
+        "Plugin support"
+      ],
+      "website": "https://tmux.github.io/"
+    },
+    {
+      "name": "GNU Screen",
+      "license": "GNU GPL v2 or later",
+      "platforms": [
+        "Linux",
+        "BSD",
+        "Solaris",
+        "macOS",
+        "Windows (via Cygwin/MSYS2)"
+      ],
+      "mainFeatures": [
+        "Multiplex terminal sessions",
+        "Session detach and reattach",
+        "Virtual terminals with scrollback",
+        "Copy-paste between windows",
+        "Serial connection support"
+      ],
+      "website": "https://www.gnu.org/software/screen/"
+    },
+    {
+      "name": "Zellij",
+      "license": "Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD",
+        "OpenBSD",
+        "NetBSD",
+        "Windows (via WSL)"
+      ],
+      "mainFeatures": [
+        "Layouts using simple declarative files",
+        "Pane and tab management",
+        "Built-in capabilities (search, scroll, etc.)",
+        "Plugin system",
+        "Collaborative sessions"
+      ],
+      "website": "https://zellij.dev/"
+    },
+    {
+      "name": "Byobu",
+      "license": "GPLv3",
+      "platforms": [
+        "Linux",
+        "BSD",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Text-based window manager",
+        "Enhances GNU Screen and tmux",
+        "System status notifications",
+        "Convenient keybindings",
+        "Enhanced profiles"
+      ],
+      "website": "https://www.byobu.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "tmux",
+    "GNU Screen"
+  ],
+  "marketPositioning": "shpool is positioned as a simpler, less complex alternative to established terminal multiplexers like tmux and GNU Screen. It targets users who require core session management and window/pane splitting features but prefer a more minimalist tool with a potentially simpler configuration and user experience. Its implementation in Rust differentiates it from the C-based tmux and GNU Screen."
+}

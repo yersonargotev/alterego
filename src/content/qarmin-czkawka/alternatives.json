@@ -1,0 +1,106 @@
+{
+  "projectName": "czkawka",
+  "projectPurpose": "To help users clean up computer storage by identifying and removing various types of redundant, unnecessary, or problematic files and directories efficiently and privately across multiple platforms.",
+  "platforms": [
+    "Linux",
+    "Windows",
+    "macOS",
+    "FreeBSD"
+  ],
+  "mainFeatures": [
+    "Finds duplicate files (by name, size, hash, or partial hash)",
+    "Finds empty folders and files",
+    "Finds similar images, videos, and music",
+    "Finds big files and temporary files",
+    "Finds invalid symbolic links, broken files, and bad extensions",
+    "Fast scanning using multithreading and caching",
+    "Cross-platform compatibility (Linux, Windows, macOS, FreeBSD)",
+    "Open Source and free with no ads or spying",
+    "Provides both CLI and GUI interfaces"
+  ],
+  "website": "https://github.com/qarmin/czkawka",
+  "alternatives": [
+    {
+      "name": "dupeGuru",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Finds duplicate files by content or filename",
+        "Fuzzy matching for similar filenames",
+        "Special modes for Music and Picture scanning",
+        "Customizable matching engine",
+        "Safe deletion with reference directories"
+      ],
+      "website": "https://dupeguru.voltaicideas.net/"
+    },
+    {
+      "name": "Duplicate Cleaner Pro",
+      "license": "Proprietary (Paid, with limited Free version)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Finds duplicate files (documents, photos, music, video)",
+        "Advanced similar image detection (resized, rotated, edited)",
+        "Finds duplicate folders and unique files",
+        "Scans inside zip files",
+        "Various scan modes (Regular, Image, Audio, Video)"
+      ],
+      "website": "https://www.duplicatecleaner.com/"
+    },
+    {
+      "name": "VisiPics",
+      "license": "Open Source - Freeware",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Finds duplicate and similar images",
+        "Uses multiple comparison methods (hash, pixel, feature)",
+        "Adjustable similarity levels",
+        "Side-by-side image preview",
+        "Supports major image formats"
+      ],
+      "website": "http://www.visipics.info/index.php?page=download"
+    },
+    {
+      "name": "FSlint",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Finds duplicate files (using md5sum and sha1sum)",
+        "Finds empty directories",
+        "Finds problematic filenames and bad symlinks",
+        "Includes tools for temporary files and non-stripped binaries",
+        "Offers both GUI and command-line interfaces"
+      ],
+      "website": "http://www.pixelbeat.org/fslint/"
+    },
+    {
+      "name": "AllDup",
+      "license": "Freeware",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Finds duplicate files of any type",
+        "Compares files by content, name, extension, dates, or attributes",
+        "Fast search algorithm",
+        "Supports multiple search locations (folders, drives, network shares)",
+        "Provides detailed results and options for handling duplicates"
+      ],
+      "website": "https://www.alldup.de/en/alldup.php"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "CCleaner",
+    "Duplicate Cleaner Pro"
+  ],
+  "marketPositioning": "Czkawka is positioned as a comprehensive, high-performance, and privacy-focused free and open-source disk cleanup utility. It differentiates itself by offering a wide array of cleaning tools (beyond just exact duplicates to include similar media, broken files, etc.) within a single application, its speed due to being written in Rust with multithreading, and its broad cross-platform support. It competes with both specialized duplicate/similar file finders and more general system optimization tools by providing a versatile and transparent solution for freeing up disk space and organizing files without cost or privacy concerns."
+}

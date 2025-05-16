@@ -1,0 +1,84 @@
+{
+  "projectName": "teloxide",
+  "projectPurpose": "To provide a comprehensive, easy-to-use, and elegant framework in the Rust programming language for developers to build Telegram bots efficiently, abstracting away API complexities.",
+  "platforms": [
+    "Cross-platform (where Rust runs)"
+  ],
+  "mainFeatures": [
+    "Elegant and full-featured Telegram bots framework for Rust",
+    "Simplifies building Telegram bots by handling API complexities",
+    "Asynchronous (built on Tokio)",
+    "Declarative design",
+    "Extensible framework",
+    "Supports various Telegram Bot API features (messages, commands, inline mode, payments, etc.)",
+    "Supports different storage options (Redis, Sqlite)",
+    "Supports different TLS implementations (native-tls, rustls)",
+    "Webhook support"
+  ],
+  "website": "https://github.com/teloxide/teloxide",
+  "alternatives": [
+    {
+      "name": "python-telegram-bot",
+      "license": "Open Source - LGPLv3",
+      "platforms": [
+        "Cross-platform (where Python runs)"
+      ],
+      "mainFeatures": [
+        "Asynchronous interface for Telegram Bot API",
+        "High-level classes for simplified development (Updater, Handlers)",
+        "Supports all Bot API types and methods",
+        "Comprehensive documentation and examples",
+        "Webhook and polling support"
+      ],
+      "website": "https://github.com/python-telegram-bot/python-telegram-bot"
+    },
+    {
+      "name": "Telegraf",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (where Node.js runs)",
+        "Web (Serverless/Webhooks)"
+      ],
+      "mainFeatures": [
+        "Modern Telegram Bot Framework for Node.js",
+        "Simplified bot development process",
+        "Supports middleware",
+        "Full Telegram Bot API support",
+        "Webhook compatible"
+      ],
+      "website": "https://github.com/telegraf/telegraf"
+    },
+    {
+      "name": "TelegramBots",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (where Java runs)"
+      ],
+      "mainFeatures": [
+        "Simple to use library to create Telegram Bots in Java",
+        "Supports Telegram Bots API",
+        "Webhook supported",
+        "Can be integrated with Spring Boot"
+      ],
+      "website": "https://github.com/rubenlagus/TelegramBots"
+    },
+    {
+      "name": "go-telegram-bot-api",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (where Go runs)"
+      ],
+      "mainFeatures": [
+        "Simple and clean Telegram bot client for Go",
+        "Provides a direct wrapper around the API",
+        "Supports polling and webhooks",
+        "Minimal dependencies"
+      ],
+      "website": "https://github.com/go-telegram-bot-api/telegram-bot-api"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "python-telegram-bot"
+  ],
+  "marketPositioning": "Teloxide is positioned as a modern, elegant, and full-featured Telegram bot framework specifically for the Rust ecosystem. It differentiates itself by offering a strong focus on developer experience and leveraging Rust's performance and safety features. While competing with frameworks across various languages, its primary market is developers who prefer or require Rust for their bot development, offering a high-level, opinionated approach compared to simpler Rust wrappers or libraries in other languages."
+}

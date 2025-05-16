@@ -1,0 +1,40 @@
+{
+  "projectName": "fd",
+  "projectPurpose": "To provide a simple, fast, and user-friendly command-line utility for searching files and directories, serving as an alternative to the traditional 'find' command.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Simple and intuitive syntax",
+    "Fast search speed (parallel traversal)",
+    "User-friendly defaults (ignores .gitignore, hidden files by default)",
+    "Colorized output",
+    "Supports regular expressions",
+    "Supports parallel command execution"
+  ],
+  "website": "https://github.com/sharkdp/fd",
+  "alternatives": [
+    {
+      "name": "ripgrep (rg)",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Extremely fast content searching",
+        "Respects .gitignore by default",
+        "Supports various patterns including regex",
+        "Colorized output"
+      ],
+      "website": "https://github.com/BurntSushi/ripgrep"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "find"
+  ],
+  "marketPositioning": "fd positions itself as a modern, faster, and more user-friendly alternative to the traditional 'find' command. It sacrifices some of the advanced complexity and extensive options of 'find' for simplicity, speed, and better default behavior, making it ideal for everyday file searching tasks. Compared to 'locate', it performs real-time filesystem searches with greater accuracy, while still being significantly faster than 'find' for most common use cases."
+}

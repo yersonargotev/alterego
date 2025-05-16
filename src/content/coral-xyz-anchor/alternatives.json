@@ -1,0 +1,94 @@
+{
+  "projectName": "anchor",
+  "projectPurpose": "To provide a high-level framework for developing smart contracts (programs) on the Solana blockchain, simplifying the development process using Rust.",
+  "platforms": [
+    "Solana (blockchain)"
+  ],
+  "mainFeatures": [
+    "Reduces boilerplate code for Solana program development",
+    "Simplifies account validation and data serialization/deserialization",
+    "Provides a Command Line Interface (CLI)",
+    "Includes a testing framework",
+    "Supports verifiable builds"
+  ],
+  "website": "https://github.com/coral-xyz/anchor",
+  "alternatives": [
+    {
+      "name": "Solana Native Development",
+      "license": "Open Source (typically Apache 2.0 or MIT for related SDKs)",
+      "platforms": [
+        "Solana (blockchain)"
+      ],
+      "mainFeatures": [
+        "Direct interaction with Solana SDKs",
+        "Maximum control over program logic",
+        "Requires manual handling of accounts and data",
+        "Written primarily in Rust or C"
+      ],
+      "website": "https://docs.solana.com/developing/on-chain-programs/developing-in-rust"
+    },
+    {
+      "name": "Hardhat",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Ethereum (blockchain)",
+        "Development Environment (Node.js)"
+      ],
+      "mainFeatures": [
+        "Ethereum development environment",
+        "Tools for compiling, deploying, testing, and debugging",
+        "Pluggable architecture",
+        "Used primarily with Solidity and TypeScript/JavaScript"
+      ],
+      "website": "https://hardhat.org/"
+    },
+    {
+      "name": "Truffle",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Ethereum (blockchain)",
+        "Development Environment (Node.js)"
+      ],
+      "mainFeatures": [
+        "Suite of tools for Ethereum development",
+        "Smart contract compilation and linking",
+        "Deployment and migration framework",
+        "Automated contract testing"
+      ],
+      "website": "https://trufflesuite.com/"
+    },
+    {
+      "name": "Solana Playground",
+      "license": "Open Source (repository licenses vary)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "In-browser IDE for Solana development",
+        "Write, compile, and deploy programs from browser",
+        "Good for learning and experimentation",
+        "Integrated with Solana wallets"
+      ],
+      "website": "https://beta.solana.com/playground"
+    },
+    {
+      "name": "Neon EVM",
+      "license": "Open Source (repository licenses vary)",
+      "platforms": [
+        "Solana (blockchain)"
+      ],
+      "mainFeatures": [
+        "Enables running Ethereum smart contracts on Solana",
+        "Supports Solidity and Vyper languages",
+        "Compatible with Ethereum tooling (Hardhat, Foundry)",
+        "Facilitates migration of EVM dApps to Solana"
+      ],
+      "website": "https://neon-evm.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Hardhat",
+    "Truffle"
+  ],
+  "marketPositioning": "Anchor is positioned as the leading high-level framework for building programs on the Solana blockchain. It simplifies and accelerates development by providing abstractions and tools that reduce boilerplate compared to native Rust development. It serves a similar purpose to well-known smart contract frameworks on other blockchains like Ethereum's Hardhat and Truffle, but is specifically designed for Solana's unique architecture and Rust-based development environment. Anchor is widely recommended for both beginners and experienced developers in the Solana ecosystem."
+}

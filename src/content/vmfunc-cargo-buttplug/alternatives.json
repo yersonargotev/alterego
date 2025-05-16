@@ -1,0 +1,66 @@
+{
+  "projectName": "cargo-buttplug",
+  "projectPurpose": "To provide physical, haptic feedback (likely vibrations) during software development tasks using the Rust programming language and the Cargo build tool, serving as 'positive reinforcement' during coding sessions.",
+  "platforms": [
+    "Depends on the underlying Buttplug.io server and device support (typically Windows, macOS, Linux)"
+  ],
+  "mainFeatures": [
+    "Cargo subcommand integration",
+    "Connects to Buttplug.io server (e.g., Intiface Central)",
+    "Provides physical feedback (haptics/vibrations) based on cargo command events",
+    "Designed for 'positive reinforcement' during coding"
+  ],
+  "website": "https://github.com/vmfunc/cargo-buttplug",
+  "alternatives": [
+    {
+      "name": "Intiface Central",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Hub for connecting and managing intimate haptic/sensor hardware",
+        "Provides API for applications to control devices",
+        "Supports various hardware connection methods (Bluetooth LE, Serial, USB HID, Websockets)",
+        "Used by various third-party applications"
+      ],
+      "website": "https://intiface.com/central/"
+    },
+    {
+      "name": "Buttplug.io Libraries (e.g., Rust, Python, C#)",
+      "license": "Open Source (e.g., BSD, MIT)",
+      "platforms": [
+        "Cross-platform (Windows, macOS, Linux, sometimes mobile)"
+      ],
+      "mainFeatures": [
+        "APIs for developers to integrate Buttplug device control",
+        "Implement the Buttplug protocol",
+        "Handle communication with Buttplug.io servers or hardware",
+        "Available in multiple programming languages"
+      ],
+      "website": "https://buttplug.io"
+    },
+    {
+      "name": "Custom Physical Computing Setup (e.g., Arduino/Raspberry Pi)",
+      "license": "Varies (Hardware proprietary, software can be open source/custom)",
+      "platforms": [
+        "Hardware platforms (Arduino, Raspberry Pi, etc.) controlled via various OS (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Sense environmental data",
+        "Control physical devices (motors, lights, haptics)",
+        "Programmable reaction to digital signals or data",
+        "Requires significant custom development for specific integrations"
+      ],
+      "website": "N/A (Concept)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Buttplug.io framework (Intiface Central)"
+  ],
+  "marketPositioning": "cargo-buttplug is positioned as a highly niche and experimental developer tool that applies the Buttplug.io framework, primarily used in entertainment, to the software development process. It uniquely offers physical feedback integrated directly into the Cargo build workflow for Rust developers. Its market is likely limited to developers interested in novel productivity hacks or humorous/unconventional coding experiences, leveraging the existing Buttplug.io hardware ecosystem rather than competing with core development tools."
+}

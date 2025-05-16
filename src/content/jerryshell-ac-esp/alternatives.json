@@ -1,0 +1,112 @@
+{
+  "projectName": "ac-esp",
+  "projectPurpose": "To provide an Extra Sensory Perception (ESP) hack for the game AssaultCube, implemented as a DLL in Rust, likely for educational or experimental purposes related to game hacking.",
+  "platforms": [
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Provides ESP (Extra Sensory Perception) functionality for AssaultCube",
+    "Implemented as a Dynamic Link Library (DLL)",
+    "Written in the Rust programming language",
+    "Reads game memory to obtain player information"
+  ],
+  "website": "https://github.com/jerryshell/ac-esp",
+  "alternatives": [
+    {
+      "name": "Cheat Engine",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Memory scanning and editing",
+        "Debugger and disassembler",
+        "Assembler and code injection",
+        "Speedhack and trainer creation tools"
+      ],
+      "website": "https://cheatengine.org/"
+    },
+    {
+      "name": "Ghidra",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Disassembler and assembler",
+        "Decompiler",
+        "Graphing and scripting capabilities",
+        "Supports various processor architectures"
+      ],
+      "website": "https://ghidra-sre.org/"
+    },
+    {
+      "name": "IDA Pro",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Interactive disassembler",
+        "Debugger",
+        "Decompiler (for various languages)",
+        "Supports a wide range of file formats and processors"
+      ],
+      "website": "https://hex-rays.com/ida-pro/"
+    },
+    {
+      "name": "x64dbg",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "64-bit debugger",
+        "Attachable to running processes",
+        "Analyzes and modifies memory",
+        "Scriptable"
+      ],
+      "website": "https://github.com/x64dbg/x64dbg"
+    },
+    {
+      "name": "ReClass.NET",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Reverses C++ objects in memory",
+        "Generates C++ class definitions",
+        "Visualizes memory structures",
+        "Integrates with debuggers"
+      ],
+      "website": "https://github.com/ReClassNET/ReClass.NET"
+    },
+    {
+      "name": "memflow",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Generic memory introspection",
+        "Accesses physical and virtual memory",
+        "Supports different connectors (hardware, VMs, dumps)",
+        "Provides OS abstraction layers"
+      ],
+      "website": "https://github.com/memflow/memflow"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Cheat Engine"
+  ],
+  "marketPositioning": "ac-esp is a highly specific tool targeting the game AssaultCube. Its market positioning is not as a general-purpose game hacking tool, but rather as a dedicated hack for a particular game and as a potential learning resource for implementing game cheats in Rust. It exists within the niche community of AssaultCube modding and game hacking enthusiasts interested in Rust development, contrasting with broader tools like Cheat Engine or comprehensive reverse engineering platforms like Ghidra and IDA Pro."
+}

@@ -1,0 +1,131 @@
+{
+  "projectName": "rust-gpu",
+  "projectPurpose": "To enable developers to write GPU shaders and compute programs using the Rust programming language, providing a modern, safe, and performant alternative to traditional shader languages with a unified development experience across CPU and GPU.",
+  "platforms": [
+    "GPU (via SPIR-V and Vulkan)",
+    "CPU (Rust development environment)"
+  ],
+  "mainFeatures": [
+    "Compile unmodified Rust code to SPIR-V (Vulkan)",
+    "Enable writing and running GPU software in Rust",
+    "Leverage Rust's safety, concurrency, and performance features for GPU programming",
+    "Unified codebase for CPU and GPU development in Rust",
+    "Benefit from Rust's existing ecosystem (e.g., no_std crates)",
+    "Support for powerful abstractions",
+    "Multi-vendor support through Vulkan/SPIR-V output"
+  ],
+  "website": "https://github.com/Rust-GPU/Rust-GPU",
+  "alternatives": [
+    {
+      "name": "GLSL (OpenGL Shading Language)",
+      "license": "Khronos License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (via WebGL)"
+      ],
+      "mainFeatures": [
+        "C-like syntax",
+        "Used with the OpenGL graphics API",
+        "Supports vertex and fragment shaders",
+        "Can be compiled to SPIR-V"
+      ],
+      "website": "https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language"
+    },
+    {
+      "name": "HLSL (High-Level Shading Language)",
+      "license": "MIT License",
+      "platforms": [
+        "Windows (DirectX)",
+        "Other platforms via compilation to SPIR-V or Metal"
+      ],
+      "mainFeatures": [
+        "C-like syntax",
+        "Developed by Microsoft for Direct3D",
+        "Widely used in Windows game development",
+        "Supports various shader stages",
+        "Can be compiled to DXIL or SPIR-V"
+      ],
+      "website": "https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl"
+    },
+    {
+      "name": "WGSL (WebGPU Shading Language)",
+      "license": "W3C Document License, Apache 2.0, MIT (implementations)",
+      "platforms": [
+        "Web browsers (WebGPU)",
+        "Native (wgpu)"
+      ],
+      "mainFeatures": [
+        "Designed for the WebGPU API",
+        "Safer and more portable for the web",
+        "Strict type system and memory model",
+        "Actively being developed"
+      ],
+      "website": "https://www.w3.org/TR/WGSL/"
+    },
+    {
+      "name": "SPIR-V (Standard Portable Intermediate Representation)",
+      "license": "Khronos License, Apache 2.0 (tools)",
+      "platforms": [
+        "Used with Vulkan, OpenGL, OpenCL, etc.",
+        "Tools for Windows, macOS, Linux"
+      ],
+      "mainFeatures": [
+        "Intermediate language for graphics and compute shaders",
+        "Binary format",
+        "Reduces need for multiple front-end compilers",
+        "Can be consumed by GPU drivers",
+        "Tools for assembly, disassembly, validation, optimization"
+      ],
+      "website": "https://www.khronos.org/spir/"
+    },
+    {
+      "name": "Rust-CUDA / nvptx backend in rustc",
+      "license": "MIT/Apache 2.0",
+      "platforms": [
+        "NVIDIA GPUs (CUDA)"
+      ],
+      "mainFeatures": [
+        "Compile Rust code for CUDA",
+        "Aims to make Rust a tier-1 language for CUDA computing",
+        "Provides tools and libraries for using CUDA in Rust",
+        "Focuses on high-performance GPU computing"
+      ],
+      "website": "https://github.com/Rust-GPU/Rust-CUDA"
+    },
+    {
+      "name": "CUDA C/C++",
+      "license": "Proprietary (NVIDIA)",
+      "platforms": [
+        "NVIDIA GPUs on Windows, Linux, macOS"
+      ],
+      "mainFeatures": [
+        "Extension of C/C++ for parallel programming on GPUs",
+        "Widely used for GPGPU and HPC",
+        "Rich ecosystem of libraries and tools",
+        "Vendor-specific (NVIDIA)"
+      ],
+      "website": "https://developer.nvidia.com/cuda-toolkit"
+    },
+    {
+      "name": "OpenCL C/C++",
+      "license": "Khronos License",
+      "platforms": [
+        "Diverse GPUs, CPUs, and other processors from multiple vendors"
+      ],
+      "mainFeatures": [
+        "Framework for heterogeneous parallel programming",
+        "Based on C99 with extensions",
+        "Used for parallel programming",
+        "Open standard supporting multiple vendors"
+      ],
+      "website": "https://www.khronos.org/opencl/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "HLSL",
+    "GLSL"
+  ],
+  "marketPositioning": "Rust-GPU is positioned as a modern, safe, and high-performance alternative to traditional shader languages like GLSL and HLSL. Its core value proposition is enabling GPU programming using the Rust language and its robust ecosystem, offering advantages in memory safety, tooling, and abstractions. By targeting SPIR-V and Vulkan, it provides multi-vendor compatibility, differentiating itself from vendor-locked solutions like CUDA. It aims to unify CPU and GPU development within the Rust environment, pushing the boundaries of what's possible in GPU programming with a focus on code quality and developer experience."
+}

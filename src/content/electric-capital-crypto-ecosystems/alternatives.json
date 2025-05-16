@@ -1,0 +1,123 @@
+{
+  "projectName": "crypto-ecosystems",
+  "projectPurpose": "To create and maintain a structured classification system (taxonomy) for open-source projects within the cryptocurrency, blockchain, and decentralized ecosystems.",
+  "platforms": [],
+  "mainFeatures": [
+    "Structured classification/taxonomy for decentralized projects",
+    "Focus on open-source cryptocurrency, blockchain, and decentralized ecosystems",
+    "Provides a framework for organizing project information"
+  ],
+  "website": "https://github.com/electric-capital/crypto-ecosystems",
+  "alternatives": [
+    {
+      "name": "CoinMarketCap",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Mobile (iOS, Android)"
+      ],
+      "mainFeatures": [
+        "Real-time price tracking",
+        "Market capitalization data",
+        "Cryptocurrency rankings",
+        "Exchange information",
+        "Historical data and charts"
+      ],
+      "website": "https://coinmarketcap.com/"
+    },
+    {
+      "name": "CoinGecko",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Mobile (Android, iOS)"
+      ],
+      "mainFeatures": [
+        "Real-time price tracking",
+        "Market analytics and metrics (including developer activity)",
+        "Portfolio tracker",
+        "Historical data and charts",
+        "DeFi and NFT tracking"
+      ],
+      "website": "https://www.coingecko.com/"
+    },
+    {
+      "name": "Messari",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Market intelligence",
+        "In-depth research reports",
+        "Data analytics on crypto assets",
+        "On-chain data",
+        "Project fundamentals analysis"
+      ],
+      "website": "https://messari.io/"
+    },
+    {
+      "name": "Dune Analytics",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "On-chain data analysis (SQL-based)",
+        "Customizable dashboards and visualizations",
+        "Real-time and historical data",
+        "DeFi and NFT analytics",
+        "Community-driven insights"
+      ],
+      "website": "https://dune.com/"
+    },
+    {
+      "name": "Token Terminal",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Bloomberg Terminal App Portal"
+      ],
+      "mainFeatures": [
+        "Standardized financial and alternative data for blockchains and dapps",
+        "Focus on fundamental metrics",
+        "On-chain data platform",
+        "Institutional-grade due diligence tools"
+      ],
+      "website": "https://tokenterminal.com/"
+    },
+    {
+      "name": "Everest",
+      "license": "Undetermined (Decentralized platform)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Decentralized registry for crypto projects",
+        "Directory of Web3 projects",
+        "Community-governed rating system",
+        "Focus on transparency",
+        "Decentralized ecosystem navigation"
+      ],
+      "website": "Implied platform, specific URL not universally found as a single site."
+    },
+    {
+      "name": "Token Taxonomy Framework (TTF)",
+      "license": "Open Source",
+      "platforms": [],
+      "mainFeatures": [
+        "Common language for defining tokens",
+        "Classification of token types and behaviors",
+        "Implementation-neutral specifications",
+        "Framework for token standards",
+        "Supports collaborative definition of digital assets"
+      ],
+      "website": "https://github.com/TokenTaxonomyFramework/token-taxonomy"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "CoinMarketCap",
+    "CoinGecko"
+  ],
+  "marketPositioning": "\"crypto-ecosystems\" is positioned as a foundational, open-source project focused on providing a structured taxonomy for the open-source cryptocurrency, blockchain, and decentralized ecosystem projects. Unlike commercial data platforms (like CoinMarketCap, CoinGecko, Messari, Dune Analytics, Token Terminal) that prioritize market data, trading insights, or on-chain analytics, this project's core offering is the organizational framework itself. Its open-source nature encourages collaborative development of the classification system, making it a unique resource for researchers and developers seeking to understand the structure and relationships within the decentralized open-source landscape rather than just market performance."
+}

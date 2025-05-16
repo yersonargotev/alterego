@@ -1,0 +1,100 @@
+{
+  "projectName": "gxhash",
+  "projectPurpose": "To provide an extremely fast non-cryptographic hashing algorithm for performance-critical applications.",
+  "platforms": [
+    "Likely cross-platform given Rust language, but specific platform support depends on implementation details."
+  ],
+  "mainFeatures": [
+    "Claims to be the fastest hashing algorithm",
+    "Written in Rust",
+    "Non-cryptographic"
+  ],
+  "website": "https://github.com/ogxd/gxhash",
+  "alternatives": [
+    {
+      "name": "xxHash",
+      "license": "Open Source - BSD License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Various (via bindings)"
+      ],
+      "mainFeatures": [
+        "Extremely fast non-cryptographic hash",
+        "Good distribution and randomness (SMHasher passed)",
+        "Portable, identical hashes across platforms",
+        "Supports 32-bit, 64-bit, and 128-bit hashes (XXH3)"
+      ],
+      "website": "https://github.com/Cyan4973/xxHash"
+    },
+    {
+      "name": "CityHash",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Primarily Little-Endian 64-bit/32-bit CPUs",
+        "Various (via bindings)"
+      ],
+      "mainFeatures": [
+        "Fast hash functions for strings",
+        "Not suitable for cryptography",
+        "Offers 32-bit, 64-bit, and 128-bit hashes",
+        "Variants using CRC32 instruction"
+      ],
+      "website": "https://github.com/google/cityhash"
+    },
+    {
+      "name": "FarmHash",
+      "license": "Open Source - MIT License or Apache-2.0",
+      "platforms": [
+        "Primarily Little-Endian",
+        "Various (via bindings)"
+      ],
+      "mainFeatures": [
+        "Successor to CityHash",
+        "Fast non-cryptographic hash functions",
+        "Not suitable for cryptography",
+        "Designed for in-memory hash tables"
+      ],
+      "website": "https://github.com/google/farmhash"
+    },
+    {
+      "name": "MurmurHash",
+      "license": "Public Domain or MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Various (via bindings)"
+      ],
+      "mainFeatures": [
+        "Fast and robust non-cryptographic hash",
+        "Good statistical properties",
+        "Widely used",
+        "Supports 32-bit and 128-bit hashes"
+      ],
+      "website": "https://github.com/aappleby/smhasher"
+    },
+    {
+      "name": "HighwayHash",
+      "license": "Open Source - Apache-2.0 License",
+      "platforms": [
+        "x86-64 (with AVX2, SSE4.1, VSX support for speed)",
+        "Various (via bindings)"
+      ],
+      "mainFeatures": [
+        "Fast and more collision resistant than typical non-crypto hashes",
+        "Uses SIMD instructions",
+        "Robust against hash flooding/timing attacks",
+        "64-bit hashes are platform independent"
+      ],
+      "website": "https://github.com/google/highwayhash"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "xxHash",
+    "MurmurHash"
+  ],
+  "marketPositioning": "gxhash is positioned as a high-performance, non-cryptographic hashing algorithm whose primary differentiator is its claim to be 'the fastest'. It competes directly with other speed-optimized hashes like xxHash, CityHash, FarmHash, and MurmurHash, targeting use cases where maximum hashing throughput is essential. Its market appeal is centered around providing superior speed within the non-cryptographic hashing landscape."
+}

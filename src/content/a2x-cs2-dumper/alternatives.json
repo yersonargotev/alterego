@@ -1,0 +1,114 @@
+{
+  "projectName": "cs2-dumper",
+  "projectPurpose": "To extract memory offsets and interface addresses from the Counter-Strike 2 game process for reverse engineering and tool development.",
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Dumps Counter-Strike 2 memory offsets",
+    "Dumps Counter-Strike 2 interface addresses",
+    "Supports Windows and Linux",
+    "Powered by memflow for external memory access",
+    "Generates output in multiple formats (cs, hpp, json, rs)"
+  ],
+  "website": "https://github.com/a2x/cs2-dumper",
+  "alternatives": [
+    {
+      "name": "Cheat Engine",
+      "license": "Open Source (GPLv2)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Memory scanner",
+        "Debugger",
+        "Disassembler",
+        "Structure dissection",
+        "Cheat Table creation"
+      ],
+      "website": "https://www.cheatengine.org/"
+    },
+    {
+      "name": "Ghidra",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Disassembler",
+        "Decompiler",
+        "Debugger",
+        "Code analysis",
+        "Scripting"
+      ],
+      "website": "https://ghidra-sre.org/"
+    },
+    {
+      "name": "IDA Pro (Interactive DisAssembler)",
+      "license": "Proprietary (Commercial)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Multi-processor disassembler",
+        "Debugger",
+        "Decompiler (optional)",
+        "Supports numerous file formats"
+      ],
+      "website": "https://hex-rays.com/ida-pro/"
+    },
+    {
+      "name": "x64dbg",
+      "license": "Open Source (GPLv3)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Debugger (x64 and x32)",
+        "Disassembler",
+        "Scripting",
+        "Plugin support"
+      ],
+      "website": "https://x64dbg.com/"
+    },
+    {
+      "name": "ReClass.NET",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Visualize memory as data types",
+        "Reconstruct C++ classes/structs in memory",
+        "Generate C++ code for structures"
+      ],
+      "website": "https://github.com/ReClassNET/ReClass.NET"
+    },
+    {
+      "name": "Volatility Framework",
+      "license": "Open Source (GPLv2)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Memory analysis",
+        "Artifact extraction",
+        "Supports various memory dump formats",
+        "Plugin architecture"
+      ],
+      "website": "https://www.volatilityfoundation.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Cheat Engine",
+    "IDA Pro"
+  ],
+  "marketPositioning": "cs2-dumper is a highly specialized open-source tool positioned within the Counter-Strike 2 reverse engineering and tool development community. Its unique value proposition lies in its specific focus on automating the extraction of game-specific memory offsets and interfaces for CS2 on both Windows and Linux, powered by memflow. This contrasts with more general-purpose reverse engineering and memory analysis tools that require significant manual effort to achieve the same result for a specific game like CS2. It serves a niche but crucial need for developers and researchers targeting this particular game."
+}

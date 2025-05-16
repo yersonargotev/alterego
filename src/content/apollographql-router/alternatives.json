@@ -1,0 +1,110 @@
+{
+  "projectName": "router",
+  "projectPurpose": "To serve as a configurable, high-performance runtime engine for orchestrating and routing GraphQL requests in a federated architecture using Apollo Federation, acting as a single entry point for clients to access data from various backend services (subgraphs).",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Configurable, high-performance graph router written in Rust",
+    "Runs a federated supergraph using Apollo Federation 2",
+    "Intelligent query planning and execution across subgraphs",
+    "Security features (JWT authentication, safelisting, etc.)",
+    "Observability (telemetry, tracing, metrics)",
+    "Caching (in-memory, distributed)",
+    "Performance tuning (traffic shaping, query batching)",
+    "Extensibility (Rhai scripts, native Rust plugins, coprocessors)"
+  ],
+  "website": "https://github.com/apollographql/router",
+  "alternatives": [
+    {
+      "name": "WunderGraph Cosmo",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform (Go-based)"
+      ],
+      "mainFeatures": [
+        "Open-source alternative to Apollo GraphOS",
+        "Supports GraphQL Federation v1 and v2",
+        "Includes Schema Registry",
+        "Fast GraphQL Router/Gateway",
+        "Analytics, Metrics & Tracing"
+      ],
+      "website": "https://wundergraph.com/cosmo"
+    },
+    {
+      "name": "The Guild's Hive Gateway",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Containerized)"
+      ],
+      "mainFeatures": [
+        "GraphQL schema registry and gateway for federation",
+        "Supports persisted documents",
+        "Authorization and Authentication features",
+        "Monitoring and Tracing",
+        "Works with Apollo Federation runtime"
+      ],
+      "website": "https://the-guild.dev/graphql/hive"
+    },
+    {
+      "name": "Kong Gateway",
+      "license": "Open Source (Community Edition), Proprietary (Enterprise)",
+      "platforms": [
+        "Docker",
+        "Kubernetes",
+        "Linux",
+        "macOS",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Extensible via plugins",
+        "Authentication and Authorization",
+        "Rate Limiting and Load Balancing",
+        "Service Discovery",
+        "API Analytics"
+      ],
+      "website": "https://konghq.com/kong-gateway"
+    },
+    {
+      "name": "Apache APISIX",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Docker",
+        "Kubernetes",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "High-performance and dynamic routing",
+        "Real-time traffic management",
+        "Authentication and Security",
+        "Observability",
+        "Cloud-native focus"
+      ],
+      "website": "https://apisix.apache.org/"
+    },
+    {
+      "name": "GraphQL Mesh",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Node.js (Cross-platform)"
+      ],
+      "mainFeatures": [
+        "Generates GraphQL API from various sources (REST, gRPC, etc.)",
+        "Supports schema stitching and federation",
+        "Unified GraphQL API layer",
+        "Transformations and custom logic",
+        "Caching and PubSub support"
+      ],
+      "website": "https://www.graphql-mesh.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Kong Gateway",
+    "Apache APISIX",
+    "WunderGraph Cosmo"
+  ],
+  "marketPositioning": "The Apollo Router is positioned as a high-performance, production-grade runtime for building and operating federated GraphQL APIs using Apollo Federation 2. Written in Rust for speed and efficiency, it serves as the core gateway component for routing and executing queries across distributed services. It targets organizations requiring a robust, scalable, and secure solution for managing complex GraphQL architectures in microservices environments, often within or alongside the broader Apollo GraphOS ecosystem. It competes with other GraphQL-native gateways and general API gateways that offer GraphQL capabilities, emphasizing its deep integration with Apollo Federation and its performance characteristics."
+}

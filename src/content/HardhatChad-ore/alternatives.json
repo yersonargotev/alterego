@@ -1,0 +1,93 @@
+{
+  "projectName": "ore",
+  "projectPurpose": "To create and support a decentralized digital currency ('Ore') that can be mined using a novel, non-exclusive proof-of-work algorithm, aiming to be accessible for mining by anyone and preventing miner starvation.",
+  "platforms": [
+    "Linux",
+    "Windows",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Digital currency mining",
+    "Novel proof-of-work algorithm",
+    "Non-exclusive mining rewards",
+    "Personalized computational challenges",
+    "Guaranteed earnings for valid solutions",
+    "Avoidance of miner starvation",
+    "Linearly bounded supply growth",
+    "Dynamically adjusted mining reward rate",
+    "Command-line interface (ore-cli)",
+    "Private pool server and client options"
+  ],
+  "website": "https://ore.supply/",
+  "alternatives": [
+    {
+      "name": "Bitcoin (BTC)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Decentralized digital currency",
+        "SHA-256 Proof-of-Work",
+        "Fixed supply cap (21 million)",
+        "Peer-to-peer transactions",
+        "Established network effect"
+      ],
+      "website": "https://bitcoin.org/"
+    },
+    {
+      "name": "Litecoin (LTC)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Decentralized digital currency",
+        "Scrypt Proof-of-Work",
+        "Faster block generation time",
+        "Larger total supply",
+        "Peer-to-peer transactions"
+      ],
+      "website": "https://litecoin.org/"
+    },
+    {
+      "name": "Monero (XMR)",
+      "license": "Open Source - ISC",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Privacy-focused digital currency",
+        "RandomX Proof-of-Work (CPU-friendly)",
+        "Dynamic block size",
+        "Fungible",
+        "Ring signatures, stealth addresses, CoinJoin"
+      ],
+      "website": "https://getmonero.org/"
+    },
+    {
+      "name": "Ravencoin (RVN)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Focus on asset issuance and transfer",
+        "KAWPOW Proof-of-Work (GPU-friendly)",
+        "No ICO or pre-mine",
+        "Community-driven development"
+      ],
+      "website": "https://ravencoin.org/"
+    }
+  ],
+  "mostWellKnownAlternative": "Bitcoin (BTC)",
+  "marketPositioning": "Ore is a digital currency designed for inclusive and accessible mining. Unlike traditional cryptocurrencies where mining is dominated by specialized hardware and large pools, Ore utilizes a novel proof-of-work algorithm with non-exclusive rewards. This unique approach provides each miner with a personalized computational challenge, guaranteeing that any valid solution earns a portion of the supply and preventing miner starvation. The supply growth of Ore is strictly bounded and linear, with the mining reward rate dynamically adjusting to maintain predictability. Developed in Rust, Ore offers command-line tools and support for private mining pools, empowering individuals to participate in the network and obtain the currency from standard computing devices, challenging the centralization seen in other mineable cryptocurrencies."
+}

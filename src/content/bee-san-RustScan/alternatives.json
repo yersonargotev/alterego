@@ -1,0 +1,107 @@
+{
+  "projectName": "RustScan",
+  "projectPurpose": "To provide a fast and efficient tool for scanning network ports to identify open services on target hosts, often acting as a rapid initial scanner before using more comprehensive tools.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows (via Docker)"
+  ],
+  "mainFeatures": [
+    "Scans all 65,536 ports in seconds",
+    "Automatically pipes results into Nmap for further analysis",
+    "Flexible scripting engine support (Python, Lua, Shell)",
+    "Supports IPv6 and CIDR notation",
+    "Simple and user-friendly command-line interface"
+  ],
+  "website": "https://github.com/bee-san/RustScan",
+  "alternatives": [
+    {
+      "name": "Nmap",
+      "license": "NPSL or modified GPLv2 or proprietary",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "BSD",
+        "Various Others"
+      ],
+      "mainFeatures": [
+        "Comprehensive port scanning techniques",
+        "OS detection",
+        "Service and version detection",
+        "Nmap Scripting Engine (NSE)",
+        "Host discovery"
+      ],
+      "website": "https://nmap.org/"
+    },
+    {
+      "name": "Masscan",
+      "license": "GNU Affero General Public License v3.0",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Internet-scale scanning capabilities",
+        "Extremely high scanning speed",
+        "Asynchronous transmission",
+        "Banner checking",
+        "Supports arbitrary port and address ranges"
+      ],
+      "website": "https://github.com/robertdavidgraham/masscan"
+    },
+    {
+      "name": "Unicornscan",
+      "license": "GPL license",
+      "platforms": [
+        "Linux",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Asynchronous stateless TCP scanning",
+        "Asynchronous UDP scanning",
+        "Asynchronous TCP banner grabbing",
+        "Active/passive remote OS and application identification"
+      ],
+      "website": "https://github.com/unicornscan/unicornscan"
+    },
+    {
+      "name": "Naabu",
+      "license": "MIT license",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Fast SYN probe based scanning",
+        "Simple and modular code base",
+        "Multiple output formats (Json, File, Stdout)",
+        "Supports Stdin and Stdout for workflows",
+        "Host discovery options"
+      ],
+      "website": "https://github.com/projectdiscovery/naabu"
+    },
+    {
+      "name": "Netcat",
+      "license": "Varied (often open source)",
+      "platforms": [
+        "Unix-like systems",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Read and write data across network connections",
+        "Port listening",
+        "Basic port scanning",
+        "Banner grabbing",
+        "Network debugging"
+      ],
+      "website": "https://nmap.org/ncat/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Nmap"
+  ],
+  "marketPositioning": "RustScan positions itself as a modern, high-speed port scanner focused on rapid initial port discovery. It aims to be faster than traditional scanners like Nmap for the initial port scan phase and complements them by providing seamless piping of results for deeper analysis. Its emphasis on speed, simplicity, and integration with established tools like Nmap differentiates it from more monolithic or solely speed-focused alternatives. It targets users who prioritize quick identification of open ports before performing more detailed network analysis."
+}

@@ -1,0 +1,74 @@
+{
+  "projectName": "mini-lsm",
+  "projectPurpose": "To serve as an educational tutorial guiding developers on how to build a simple LSM-Tree storage engine in Rust.",
+  "platforms": [
+    "Cross-platform (as a Rust library/tutorial)"
+  ],
+  "mainFeatures": [
+    "Step-by-step tutorial for building an LSM-Tree storage engine",
+    "Implemented in Rust",
+    "Covers core LSM-Tree concepts (memtable, SSTables, compaction)",
+    "Provides starter code and solution checkpoints"
+  ],
+  "website": "https://github.com/skyzh/mini-lsm",
+  "alternatives": [
+    {
+      "name": "LevelDB",
+      "license": "Open Source (New BSD License)",
+      "platforms": [
+        "Unix-based systems",
+        "macOS",
+        "Windows",
+        "Android"
+      ],
+      "mainFeatures": [
+        "On-disk key-value store",
+        "Ordered key-value mapping",
+        "Supports batch writes",
+        "Forward and backward iteration",
+        "Data compression"
+      ],
+      "website": "https://github.com/google/leveldb"
+    },
+    {
+      "name": "RocksDB",
+      "license": "Open Source (Dual Apache 2.0 and GPLv2)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "OpenBSD",
+        "Solaris",
+        "AIX"
+      ],
+      "mainFeatures": [
+        "High performance embedded key-value store",
+        "Optimized for fast storage (SSD)",
+        "Supports transactions",
+        "Column families",
+        "Time to Live (TTL)"
+      ],
+      "website": "https://rocksdb.org/"
+    },
+    {
+      "name": "Database Internals by Alex Petrov",
+      "license": "Proprietary (Book purchase)",
+      "platforms": [
+        "N/A (Book)"
+      ],
+      "mainFeatures": [
+        "Explains database storage engine concepts (B-Trees, LSM-Trees)",
+        "Covers distributed systems",
+        "Discusses concurrency control",
+        "Examines source code of open source databases"
+      ],
+      "website": "https://www.oreilly.com/library/view/database-internals/9781492040347/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "RocksDB",
+    "LevelDB"
+  ],
+  "marketPositioning": "mini-lsm is positioned as an educational tutorial for developers to learn the practical implementation of an LSM-Tree storage engine in Rust. Unlike production-grade key-value stores like RocksDB or LevelDB, its primary goal is knowledge transfer through hands-on coding rather than providing a ready-to-use database component. It serves as a code-centric alternative or complement to theoretical resources like 'Database Internals', specifically focusing on the LSM-Tree data structure."
+}

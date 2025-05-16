@@ -1,0 +1,103 @@
+{
+  "projectName": "ntsc-rs",
+  "projectPurpose": "Provides a free, open-source, and accurate emulation of analog TV (NTSC) and VHS visual effects for digital video.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Accurate emulation of NTSC and VHS artifacts based on technical models.",
+    "Functions as a standalone application.",
+    "Available as plugins for Adobe After Effects, Adobe Premiere Pro, and OpenFX-compatible software (DaVinci Resolve, Hitfilm, Vegas, etc.).",
+    "Free and open-source.",
+    "High performance due to Rust implementation, multithreading, and SIMD acceleration."
+  ],
+  "website": "https://github.com/valadaptive/ntsc-rs",
+  "alternatives": [
+    {
+      "name": "Red Giant Universe",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Large collection of effects and transitions.",
+        "Includes a VHS effect.",
+        "Integrated into Adobe After Effects, Premiere Pro, Final Cut Pro X, DaVinci Resolve, Vegas Pro, HitFilm Pro.",
+        "Regular updates and additions.",
+        "Subscription or perpetual licensing."
+      ],
+      "website": "https://www.maxon.net/en/red-giant/universe"
+    },
+    {
+      "name": "Boris FX Sapphire",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Extensive suite of visual effects plugins.",
+        "Includes a specific S_VHSDamage filter (Sapphire 2025).",
+        "Broad host compatibility (Adobe, Avid, OFX hosts like DaVinci Resolve).",
+        "High-quality, complex effects.",
+        "Industry-standard toolset."
+      ],
+      "website": "https://www.borisfx.com/products/sapphire/"
+    },
+    {
+      "name": "FxFactory Pro (Analog TV filter)",
+      "license": "Proprietary",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Platform for a wide range of plugins.",
+        "Includes an Analog TV filter with scan lines, distortion, and curve emulation.",
+        "Compatible with Final Cut Pro, Motion, and After Effects.",
+        "Offers various presets and customization options."
+      ],
+      "website": "https://fxfactory.com/info/fxfactorypro/"
+    },
+    {
+      "name": "CapCut (Desktop)",
+      "license": "Proprietary (Free to use)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "User-friendly interface.",
+        "Includes built-in static TV and glitch effects.",
+        "Suitable for beginners and professionals.",
+        "Basic video editing capabilities.",
+        "Cross-platform availability (mobile and desktop)."
+      ],
+      "website": "https://www.capcut.com/"
+    },
+    {
+      "name": "Realistic VHS Video Converter",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Converts videos to a realistic VHS look.",
+        "Uses customizable video/audio effects.",
+        "Supports various video input formats.",
+        "Includes realistic VHS overlays and sound effects.",
+        "Manages presets."
+      ],
+      "website": "https://sourceforge.net/projects/realistic-vhs-video-converter/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Red Giant Universe",
+    "Boris FX Sapphire"
+  ],
+  "marketPositioning": "ntsc-rs is positioned as a technically accurate, free, and open-source solution for analog TV and VHS emulation. It differentiates itself from many commercial and free alternatives by modeling the underlying analog processes for greater authenticity. While commercial suites like Red Giant Universe and Boris FX Sapphire offer broader effect libraries and professional support, ntsc-rs provides a focused, high-performance, and customizable tool for users who prioritize accurate retro video effects and value open-source software within their video editing workflow."
+}

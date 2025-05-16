@@ -1,0 +1,113 @@
+{
+  "projectName": "eldenring-practice-tool",
+  "projectPurpose": "To provide dedicated practice utilities and features for players, primarily speedrunners, of the video game Elden Ring.",
+  "platforms": [
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Radial shortcut menu for quick access to features",
+    "Character stats editor (including HP, FP, SP)",
+    "Show all graces/landmarks",
+    "Event region display and 'Ignore event regions' flag",
+    "Collision display color toggle",
+    "Item spawning",
+    "Teleporting"
+  ],
+  "website": "https://github.com/veeenu/eldenring-practice-tool",
+  "alternatives": [
+    {
+      "name": "Cheat Engine",
+      "license": "Proprietary (installer), Open Source (core)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux (via Wine)"
+      ],
+      "mainFeatures": [
+        "Memory scanning and editing",
+        "Debugging capabilities",
+        "Create custom cheat tables/scripts",
+        "View disassembled memory"
+      ],
+      "website": "https://www.cheatengine.org/"
+    },
+    {
+      "name": "WeMod",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Linux (via community launchers)"
+      ],
+      "mainFeatures": [
+        "Large library of supported games",
+        "Easy-to-use interface (one-click cheats)",
+        "Customizable hotkeys (paid feature)",
+        "Mobile app/overlay (paid feature)"
+      ],
+      "website": "https://www.wemod.com/"
+    },
+    {
+      "name": "Fearless Revolution",
+      "license": "Varies (community-shared tools)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Large collection of cheat tables and trainers",
+        "Active community forums",
+        "Supports requesting trainers",
+        "Dedicated application"
+      ],
+      "website": "https://fearlessrevolution.com/"
+    },
+    {
+      "name": "ERTool / DS3Tool",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Collision Mesh/Hitbox display",
+        "No Death mode",
+        "Fast quit out",
+        "Stat editing",
+        "Item spawning"
+      ],
+      "website": "https://github.com/kh0nsu/EldenRingTool"
+    },
+    {
+      "name": "PLITCH",
+      "license": "Proprietary (Commercial)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Large game library support",
+        "Customizable difficulty/cheats",
+        "Safe and legal approach",
+        "User-friendly interface"
+      ],
+      "website": "https://www.plitch.com/"
+    },
+    {
+      "name": "Elden Menu",
+      "license": "User-created (often free)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "In-game overlay menu",
+        "Stats/Runes editing",
+        "Invincibility/Infinite resources",
+        "Teleporting",
+        "Boss manipulation"
+      ],
+      "website": "https://www.nexusmods.com/eldenring/mods/2427"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Cheat Engine",
+    "WeMod"
+  ],
+  "marketPositioning": "The Elden Ring Practice Tool is positioned as a dedicated, open-source utility specifically tailored for the Elden Ring speedrunning and practice community. Unlike general game trainers, it focuses on features crucial for practicing specific game segments, optimizing routes, and mastering advanced techniques relevant to speedrunning. Its open-source nature fosters community trust and collaboration, differentiating it from proprietary alternatives and generic cheating tools by offering a transparent and specialized solution for a niche but dedicated player base."
+}

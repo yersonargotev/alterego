@@ -1,0 +1,120 @@
+{
+  "projectName": "loco",
+  "projectPurpose": "To provide a productive and efficient web development framework in Rust, specifically tailored for individual developers and small startup teams building web applications.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Web framework written in Rust",
+    "Aimed at solo developers and startups",
+    "Focus on productivity and rapid development",
+    "Leverages Rust's performance and safety"
+  ],
+  "website": "https://github.com/loco-rs/loco",
+  "alternatives": [
+    {
+      "name": "Actix Web",
+      "license": "Open Source - MIT or Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "High performance",
+        "HTTP/1.x and HTTP/2 support",
+        "WebSockets",
+        "Middleware support"
+      ],
+      "website": "https://actix.rs/"
+    },
+    {
+      "name": "Axum",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Built on Tokio, Hyper, and Tower",
+        "Ergonomic and type-safe API",
+        "Routing",
+        "Middleware"
+      ],
+      "website": "https://github.com/tokio-rs/axum"
+    },
+    {
+      "name": "Rocket",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Focus on ease of use and type safety",
+        "Routing with macros",
+        "Templating",
+        "JSON support"
+      ],
+      "website": "https://rocket.rs/"
+    },
+    {
+      "name": "Django",
+      "license": "Open Source - 3-clause BSD license",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "\"Batteries-included\" framework",
+        "ORM",
+        "Automatic admin interface",
+        "Robust security features"
+      ],
+      "website": "https://www.djangoproject.com/"
+    },
+    {
+      "name": "Ruby on Rails",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "MVC architecture",
+        "Convention over Configuration",
+        "Rapid application development",
+        "Strong emphasis on developer productivity"
+      ],
+      "website": "https://rubyonrails.org/"
+    },
+    {
+      "name": "Express.js",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Minimalist and flexible",
+        "Robust routing",
+        "Middleware support",
+        "Building APIs"
+      ],
+      "website": "https://expressjs.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Django",
+    "Ruby on Rails",
+    "Express.js"
+  ],
+  "marketPositioning": "Loco is positioned as a productive, focused web framework within the Rust ecosystem. It specifically targets solo developers and startups, aiming to provide a streamlined and efficient experience for building web applications quickly, leveraging Rust's performance and safety while simplifying development complexities. This contrasts with other Rust frameworks that may target broader use cases or require more configuration, and with rapid development frameworks in other languages that don't offer Rust's core advantages."
+}

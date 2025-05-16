@@ -1,0 +1,112 @@
+{
+  "projectName": "ATAC",
+  "projectPurpose": "To provide a simple, fast, and efficient command-line interface (CLI) tool for interacting with APIs, serving as a terminal-based alternative to graphical API clients.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Docker"
+  ],
+  "mainFeatures": [
+    "Terminal-based API client",
+    "Postman-like functionality in the terminal",
+    "Free and open-source",
+    "Account-less and offline capable",
+    "Vim key-bindings and NeoVim integration",
+    "Supports themes",
+    "Built with Rust for performance"
+  ],
+  "website": "https://github.com/Julien-cpsn/ATAC",
+  "alternatives": [
+    {
+      "name": "Postman",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "API repository and collaboration",
+        "API builder and design workflow",
+        "Extensive testing tools (client, design, documentation, testing, mock servers)",
+        "Support for various HTTP requests",
+        "CI/CD pipeline integration"
+      ],
+      "website": "https://www.postman.com/"
+    },
+    {
+      "name": "Insomnia",
+      "license": "Open Source (GPL-3.0) with Commercial subscriptions",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Supports multiple protocols (REST, GraphQL, gRPC, SOAP, WebSockets)",
+        "API design, debugging, and testing",
+        "Test suites and mock servers",
+        "Collaboration features with Cloud, Local, and Git sync",
+        "OpenAPI editor and visual preview"
+      ],
+      "website": "https://insomnia.rest/"
+    },
+    {
+      "name": "cURL",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Other Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Command-line tool for data transfer",
+        "Supports numerous protocols (HTTP, HTTPS, FTP, etc.)",
+        "Widely used for scripting and automation",
+        "Simple syntax for sending requests",
+        "Cross-platform compatibility"
+      ],
+      "website": "https://curl.se/"
+    },
+    {
+      "name": "HTTPie",
+      "license": "Open Source (BSD License) for CLI, Proprietary for Desktop/Web",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Human-friendly command syntax",
+        "Formatted and colorized terminal output",
+        "Built-in JSON support",
+        "Persistent sessions",
+        "Plugins and extensions"
+      ],
+      "website": "https://httpie.io/"
+    },
+    {
+      "name": "Bruno",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Offline and local-first",
+        "Uses a plain text markup language (Bru)",
+        "Git friendly for version control",
+        "No accounts or cloud sync required",
+        "Collection organization"
+      ],
+      "website": "https://www.usebruno.com/"
+    }
+  ],
+  "mostWellKnownAlternative": "Postman",
+  "marketPositioning": "ATAC is positioned as a fast, efficient, and privacy-focused terminal-based API client, offering a 'Postman-like' experience without the need for a graphical interface, accounts, or cloud synchronization. It competes directly with other CLI API tools like cURL and HTTPie, differentiating itself by providing a more interactive and feature-rich environment within the terminal, built with Rust for performance."
+}

@@ -1,0 +1,86 @@
+{
+  "projectName": "rabbitink",
+  "projectPurpose": "To enable the use of affordable e-ink display modules with IT8915 controllers as functional, low-latency computer monitors, particularly optimized for tasks like coding and writing, offering a cost-effective alternative to dedicated e-ink monitors.",
+  "platforms": [
+    "Linux",
+    "Windows",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Supports e-ink screens with IT8915 USB controllers.",
+    "Low-latency mode suitable for coding and writing.",
+    "Supports a gray mode with 16 levels and Floyd-Steinberg dithering.",
+    "Can be configured as a secondary monitor.",
+    "Techniques to reduce perceived latency and optimize display for e-ink."
+  ],
+  "website": "https://github.com/blahgeek/rabbitink",
+  "alternatives": [
+    {
+      "name": "DASUNG Paperlike",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Dedicated e-ink monitors.",
+        "High refresh rates for e-ink.",
+        "Various sizes and resolutions.",
+        "Intended for use as primary or secondary displays."
+      ],
+      "website": "https://www.dasung.com/"
+    },
+    {
+      "name": "Onyx Boox Monitors",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Dedicated e-ink monitors.",
+        "Touch support on some models.",
+        "Front light.",
+        "Designed for productivity and reading."
+      ],
+      "website": "https://shop.boox.com/collections/eink-monitors"
+    },
+    {
+      "name": "PaperTTY",
+      "license": "Open Source",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Uses e-ink displays as a TTY/terminal.",
+        "Supports various e-ink controllers (including IT8951).",
+        "Designed for text-based interfaces.",
+        "Open-source and community-driven."
+      ],
+      "website": "https://github.com/joukos/PaperTTY"
+    },
+    {
+      "name": "Waveshare E-Paper IT8951 driver board",
+      "license": "Hardware with varying software licenses",
+      "platforms": [
+        "Embedded Systems",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Hardware driver board for e-paper displays.",
+        "Provides SDKs or examples for interaction.",
+        "Requires technical setup.",
+        "Supports displays using the IT8951 controller."
+      ],
+      "website": "https://www.waveshare.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "DASUNG Paperlike",
+    "Onyx Boox Monitors"
+  ],
+  "marketPositioning": "RabbitInk is positioned as a cost-effective, open-source alternative to expensive commercial e-ink monitors. It targets users willing to purchase separate e-ink display modules with IT8915 controllers and who have some technical ability for setup. Its focus is on providing a functional, low-latency graphical display experience optimized for coding and writing, differentiating itself from text-only solutions and higher-cost plug-and-play monitors."
+}

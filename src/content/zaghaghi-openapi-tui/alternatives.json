@@ -1,0 +1,128 @@
+{
+  "projectName": "openapi-tui",
+  "projectPurpose": "To provide a terminal user interface (TUI) for listing, browsing, and running APIs defined by the OpenAPI specification, catering to developers and testers who prefer a terminal-centric workflow for API interaction and testing.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Terminal UI for API interaction",
+    "Supports OpenAPI v3.0 and v3.1",
+    "List and browse API endpoints",
+    "Execute API calls",
+    "Display API documentation details (parameters, responses, webhooks)",
+    "Filter APIs and endpoints",
+    "Call history and request/response viewers"
+  ],
+  "website": "https://github.com/zaghaghi/openapi-tui",
+  "alternatives": [
+    {
+      "name": "Postman",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Comprehensive GUI for API testing and development",
+        "Request and response inspection",
+        "Collections, environments, and variables",
+        "Automated testing and monitoring",
+        "API documentation and mocking"
+      ],
+      "website": "https://www.postman.com/"
+    },
+    {
+      "name": "Insomnia",
+      "license": "Open Source / Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "GUI API testing and development client",
+        "Supports REST and GraphQL",
+        "Environments and variables",
+        "Test suites and mock servers",
+        "Collaboration features"
+      ],
+      "website": "https://insomnia.rest/"
+    },
+    {
+      "name": "curl",
+      "license": "Open Source - MIT/X derivate",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Many others (CLI)"
+      ],
+      "mainFeatures": [
+        "Command-line tool for data transfer",
+        "Supports numerous protocols (HTTP, HTTPS, FTP, etc.)",
+        "Highly scriptable",
+        "Widely available and lightweight",
+        "Basic request/response handling"
+      ],
+      "website": "https://curl.se/"
+    },
+    {
+      "name": "HTTPie",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux (CLI)"
+      ],
+      "mainFeatures": [
+        "User-friendly command-line HTTP client",
+        "Intuitive syntax and colorized output",
+        "Built-in JSON support",
+        "Sessions and plugins",
+        "Supports HTTPS and proxies"
+      ],
+      "website": "https://httpie.io/"
+    },
+    {
+      "name": "Swagger UI",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Interactive API documentation from OpenAPI specs",
+        "Allows direct interaction with API endpoints in browser",
+        "Visualizes API structure",
+        "Supports various authentication methods",
+        "Primarily documentation focused with testing capabilities"
+      ],
+      "website": "https://swagger.io/tools/swagger-ui/"
+    },
+    {
+      "name": "Bruno",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Open-source API client with GUI",
+        "Stores collections in plain text (Git-friendly)",
+        "Supports REST and GraphQL",
+        "Environments and variables",
+        "Offline-first design"
+      ],
+      "website": "https://www.usebruno.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Postman",
+    "Insomnia"
+  ],
+  "marketPositioning": "openapi-tui is positioned as a specialized API interaction tool for developers who prefer a terminal-based workflow. Unlike comprehensive GUI clients like Postman or Insomnia, it focuses on providing an interactive TUI experience specifically for exploring and testing APIs defined by OpenAPI specifications. It offers a more structured interface than generic command-line tools like curl or HTTPie when working with OpenAPI, bridging the gap between raw command-line utilities and full-fledged graphical API platforms. Its strength lies in catering to a terminal-centric development style while leveraging the detailed information provided by OpenAPI documents."
+}

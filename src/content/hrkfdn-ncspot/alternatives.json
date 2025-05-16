@@ -1,0 +1,153 @@
+{
+  "projectName": "ncspot",
+  "projectPurpose": "To provide a lightweight, cross-platform, terminal-based interface for interacting with the Spotify music streaming service.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Ncurses-based terminal UI",
+    "Spotify client",
+    "Cross-platform compatibility",
+    "Written in Rust",
+    "Direct audio streaming"
+  ],
+  "website": "https://github.com/hrkfdn/ncspot",
+  "alternatives": [
+    {
+      "name": "Spotify (Official Client)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Music and podcast streaming",
+        "Playlist management",
+        "Music discovery",
+        "Social features",
+        "Offline listening (Premium)"
+      ],
+      "website": "https://www.spotify.com/"
+    },
+    {
+      "name": "spotify-tui",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Terminal UI",
+        "Spotify playback control (requires separate backend)",
+        "Playlist management",
+        "Searching"
+      ],
+      "website": "https://github.com/Rigellute/spotify-tui"
+    },
+    {
+      "name": "spotifyd",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Spotify Connect receiver",
+        "Lightweight daemon",
+        "Streams music",
+        "Controlled by other clients"
+      ],
+      "website": "https://github.com/Spotifyd/spotifyd"
+    },
+    {
+      "name": "Mopidy (with Mopidy-Spotify extension)",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS (Server/Daemon)"
+      ],
+      "mainFeatures": [
+        "Extensible music server",
+        "Supports multiple music sources (Spotify via extension)",
+        "Controlled remotely by various clients",
+        "Playlist management"
+      ],
+      "website": "https://mopidy.com/"
+    },
+    {
+      "name": "Spot (GTK Spotify Client)",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Native GUI client (GTK)",
+        "Uses librespot",
+        "Lightweight",
+        "GNOME desktop integration"
+      ],
+      "website": "https://github.com/xou816/spot"
+    },
+    {
+      "name": "spotify-qt",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Lightweight GUI client (Qt)",
+        "Alternative to official client",
+        "Requires separate playback client (e.g., spotifyd)"
+      ],
+      "website": "https://github.com/kraxarn/spotify-qt"
+    },
+    {
+      "name": "Spotify Player",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Terminal UI",
+        "Direct audio streaming",
+        "Spotify Connect",
+        "Lyrics support",
+        "Album art display"
+      ],
+      "website": "https://github.com/aome510/spotify-player"
+    },
+    {
+      "name": "Spotube",
+      "license": "Open Source",
+      "platforms": [
+        "Desktop",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Does not require Spotify Premium",
+        "Uses YouTube Music source",
+        "Open Source",
+        "Does not use Electron"
+      ],
+      "website": "https://github.com/Spotube/Spotube"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Spotify (Official Client)"
+  ],
+  "marketPositioning": "ncspot is positioned as a lightweight, cross-platform Spotify client for users who prefer a terminal-based interface. It competes within the niche of command-line Spotify clients, offering direct audio streaming unlike some alternatives that require a separate playback daemon. Its use of Rust emphasizes performance and efficiency, appealing to users seeking an alternative to more resource-intensive GUI clients. It caters specifically to users comfortable with an ncurses interface, providing a fast and keyboard-driven way to interact with Spotify."
+}

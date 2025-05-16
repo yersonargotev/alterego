@@ -1,0 +1,87 @@
+{
+  "projectName": "Seelen-UI",
+  "projectPurpose": "To provide Windows 10 and 11 users with a highly customizable and modular desktop environment that enhances both aesthetics and productivity, without modifying core system files, offering a more personalized and efficient user experience than the default Windows UI.",
+  "platforms": [
+    "Windows 10",
+    "Windows 11"
+  ],
+  "mainFeatures": [
+    "Fully Customizable Desktop Environment",
+    "Non-destructive customization (overlay-based)",
+    "Fully modular interface (menus, taskbars, widgets)",
+    "Theme and plugin ecosystem",
+    "Tiling Windows Manager",
+    "Integrated media module",
+    "App launcher (Rofi-inspired)",
+    "User-Friendly Configuration",
+    "Customizable dock/taskbar (Seelenweg)",
+    "Toolbar (Fancy Toolbar)"
+  ],
+  "website": "https://github.com/eythaann/Seelen-UI",
+  "alternatives": [
+    {
+      "name": "Rainmeter",
+      "license": "Open Source - GNU GPL v2",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Display customizable skins (widgets)",
+        "Shows system information, weather, RSS feeds",
+        "Highly customizable skin creation",
+        "Low resource usage",
+        "Large community and skin library"
+      ],
+      "website": "https://www.rainmeter.net/"
+    },
+    {
+      "name": "ObjectDock",
+      "license": "Freeware / Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Animated application dock",
+        "Organize shortcuts and running tasks",
+        "Supports multiple and tabbed docks",
+        "Customizable appearance",
+        "Minimize windows to dock"
+      ],
+      "website": "https://www.stardock.com/products/objectdock/"
+    },
+    {
+      "name": "RocketDock",
+      "license": "Freeware / Creative Commons License / MIT License",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Animated application launcher dock (Mac OS X style)",
+        "Real-time window previews",
+        "Running application indicators",
+        "Multi-monitor support",
+        "Customizable themes and icons"
+      ],
+      "website": "https://punklabs.com/"
+    },
+    {
+      "name": "WindowBlinds",
+      "license": "Trialware / Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Skins the entire Windows GUI",
+        "Thousands of downloadable skins",
+        "Customizable window elements, taskbar, start button",
+        "Supports per-application skinning",
+        "Uses hardware acceleration"
+      ],
+      "website": "https://www.stardock.com/products/windowblinds/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Rainmeter"
+  ],
+  "marketPositioning": "Seelen-UI positions itself as a comprehensive, fully customizable desktop environment for Windows 10/11, going beyond the scope of tools focused solely on docks, widgets, or visual styles. Its webview-based, non-destructive approach, coupled with integrated productivity features like a tiling window manager and app launcher, differentiates it by offering a more cohesive and modern alternative UI experience than traditional customization tools. Its open-source nature also sets it apart from commercial alternatives."
+}

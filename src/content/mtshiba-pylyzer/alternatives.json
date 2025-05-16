@@ -1,0 +1,110 @@
+{
+  "projectName": "pylyzer",
+  "projectPurpose": "To provide a fast static code analyzer and language server for Python to improve code quality and developer experience.",
+  "platforms": [
+    "Cross-platform (Python package, works wherever Python runs: Windows, macOS, Linux)"
+  ],
+  "mainFeatures": [
+    "Fast static code analysis for Python, written in Rust",
+    "Language server capabilities (completion, renaming)",
+    "Type checking based on the Erg programming language type system",
+    "Readable error reports",
+    "Detection of specific errors beyond standard type checking (e.g., list out-of-bounds, invalid dictionary key access)"
+  ],
+  "website": "https://github.com/mtshiba/pylyzer",
+  "alternatives": [
+    {
+      "name": "mypy",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (Python package)"
+      ],
+      "mainFeatures": [
+        "Static type checker for Python (PEP 484)",
+        "Type inference and gradual typing",
+        "Supports generics and union types",
+        "Used by many Python projects for type correctness"
+      ],
+      "website": "https://www.mypy-lang.org/"
+    },
+    {
+      "name": "Pylint",
+      "license": "Open Source - GNU General Public License (GPL)",
+      "platforms": [
+        "Cross-platform (Python package)"
+      ],
+      "mainFeatures": [
+        "Analyzes code for programming errors and code smells",
+        "Enforces coding standards (PEP 8)",
+        "Provides refactoring suggestions",
+        "Highly configurable with plugins"
+      ],
+      "website": "https://pylint.pycqorsersa.org/"
+    },
+    {
+      "name": "Flake8",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (Python package)"
+      ],
+      "mainFeatures": [
+        "Combines PyFlakes, pycodestyle, and McCabe",
+        "Checks for code style, errors, and complexity",
+        "Extensible through plugins",
+        "Supports ignoring specific lines or files"
+      ],
+      "website": "https://flake8.pycqorsa.org/"
+    },
+    {
+      "name": "Ruff",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (Rust binary/Python package)"
+      ],
+      "mainFeatures": [
+        "Extremely fast linter and formatter written in Rust",
+        "Can replace multiple existing tools",
+        "Large set of built-in rules with autofix support",
+        "Built-in caching for performance"
+      ],
+      "website": "https://docs.astral.sh/ruff/"
+    },
+    {
+      "name": "Pyright",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (Command-line tool and LSP server)"
+      ],
+      "mainFeatures": [
+        "Fast static type checker for Python (Microsoft)",
+        "Designed for large codebases",
+        "Supports modern Python typing features",
+        "Provides Language Server Protocol features"
+      ],
+      "website": "https://github.com/microsoft/pyright"
+    },
+    {
+      "name": "Pylance",
+      "license": "Proprietary (Microsoft)",
+      "platforms": [
+        "Visual Studio Code (Windows, macOS, Linux, Web)"
+      ],
+      "mainFeatures": [
+        "Rich language support for Python in VS Code",
+        "Powered by Pyright for static analysis",
+        "Enhanced IntelliSense and code completion",
+        "Signature help and auto-imports",
+        "Code navigation and type checking modes"
+      ],
+      "website": "https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Pylint",
+    "mypy",
+    "Ruff",
+    "Pylance (within VS Code)",
+    "Pyright"
+  ],
+  "marketPositioning": "Pylyzer positions itself as a high-performance alternative in the Python static analysis and language server space, leveraging Rust for speed. It focuses on type checking and core language server features, aiming to compete on performance with existing tools like mypy and Pyright, while offering a potentially different analysis approach through its use of the Erg type checker. It differentiates from Rust-based linters like Ruff by prioritizing type analysis and LSP capabilities over broad linting/formatting rules."
+}

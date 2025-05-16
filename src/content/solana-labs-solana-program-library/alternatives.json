@@ -1,0 +1,66 @@
+{
+  "projectName": "solana-program-library",
+  "projectPurpose": "To provide a collection of tested, optimized, and reusable on-chain programs (smart contracts) for the Solana blockchain to accelerate dApp development, promote standardization, and lower the technical barrier to entry.",
+  "platforms": [
+    "Solana blockchain"
+  ],
+  "mainFeatures": [
+    "Collection of modular, pre-written on-chain programs",
+    "Includes standard programs for tokens (fungible and non-fungible), swaps, staking, lending, and governance",
+    "Optimized for Solana's Sealevel parallel runtime and stateless architecture",
+    "Provides reusable components for a 'building block' approach to dApp development",
+    "Maintained by Solana Labs"
+  ],
+  "website": "https://github.com/solana-labs/solana-program-library",
+  "alternatives": [
+    {
+      "name": "OpenZeppelin Contracts",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Ethereum",
+        "EVM-compatible blockchains"
+      ],
+      "mainFeatures": [
+        "Secure, tested, and audited smart contract libraries",
+        "Implementations of standards like ERC20 and ERC721",
+        "Flexible role-based permissioning schemes",
+        "Reusable Solidity components",
+        "Development tools like Contracts Wizard"
+      ],
+      "website": "https://www.openzeppelin.com/contracts"
+    },
+    {
+      "name": "Plutus",
+      "license": "Open Source",
+      "platforms": [
+        "Cardano blockchain"
+      ],
+      "mainFeatures": [
+        "Based on Haskell (functional programming)",
+        "Separation of on-chain (Plutus Core) and off-chain (PAF) code",
+        "Secure smart contract development",
+        "Tools for forging native tokens",
+        "Supports complex DeFi and NFT applications"
+      ],
+      "website": "https://developers.cardano.org/docs/smart-contracts/plutus"
+    },
+    {
+      "name": "Substrate (FRAME Pallets)",
+      "license": "Open Source",
+      "platforms": [
+        "Blockchains built with Substrate (including Polkadot)"
+      ],
+      "mainFeatures": [
+        "Modular blockchain development framework",
+        "Collection of pre-built pallets for common chain functionalities (consensus, staking, assets, NFTs)",
+        "Ability to create custom pallets",
+        "Runtime configuration and storage management"
+      ],
+      "website": "https://docs.substrate.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OpenZeppelin Contracts"
+  ],
+  "marketPositioning": "The Solana Program Library (SPL) is positioned as the official and foundational library of standardized, optimized, and battle-tested on-chain programs for the Solana blockchain. Maintained by Solana Labs, it is deeply integrated with Solana's unique architecture, offering essential building blocks for common dApp functionalities like tokens and DeFi. While other blockchain ecosystems have similar libraries of reusable smart contracts, SPL's primary market position is defined by its native optimization for Solana's high-performance characteristics, aiming to accelerate development and ensure interoperability within the Solana ecosystem."
+}

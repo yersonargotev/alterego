@@ -1,0 +1,86 @@
+{
+  "projectName": "windows-rs",
+  "projectPurpose": "To provide comprehensive, safe, and idiomatic bindings for the entire Windows API (Win32, COM, WinRT), allowing Rust developers to seamlessly interact with Windows operating system functionalities.",
+  "platforms": [
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Call any Windows API (past, present, and future)",
+    "Code generated on the fly from Windows metadata",
+    "Raw bindings for C-style Windows APIs (`windows-sys`)",
+    "Safer bindings including C-style APIs, COM, and WinRT APIs (`windows`)",
+    "Idiomatic Rust way to call Windows APIs",
+    "Support for WinRT type system and implementation",
+    "Robust and consistent error handling"
+  ],
+  "website": "https://github.com/microsoft/windows-rs",
+  "alternatives": [
+    {
+      "name": "C/C++ with Windows SDK/Win32 API",
+      "license": "Varies (Compiler/IDE), Free (Windows SDK)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Direct, low-level access to the entire Windows API",
+        "High performance",
+        "Full control over system resources and memory",
+        "Widely used for system-level programming"
+      ],
+      "website": "https://learn.microsoft.com/en-us/windows/apps/desktop/get-started"
+    },
+    {
+      "name": "C# (.NET) with P/Invoke or .NET wrappers",
+      "license": "Open Source (MIT for .NET), Varies (Visual Studio)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Access to a significant portion of the Windows API via P/Invoke",
+        "Higher-level abstractions from the .NET framework",
+        "Garbage collection and memory management",
+        "Integration with the .NET ecosystem"
+      ],
+      "website": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+    },
+    {
+      "name": "Delphi",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Native Windows development with VCL (Visual Component Library)",
+        "Direct access to the Windows API",
+        "Rapid Application Development (RAD)",
+        "Compiles to native code"
+      ],
+      "website": "https://www.embarcadero.com/products/delphi"
+    },
+    {
+      "name": "Python with ctypes or pywin32",
+      "license": "Open Source (PSF License for Python, various for libraries)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Dynamic access to DLLs via ctypes",
+        "Pythonic interface to many Windows APIs (pywin32)",
+        "Suitable for scripting and automation",
+        "Interpreted language flexibility"
+      ],
+      "website": "https://www.python.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "C++",
+    "C# (.NET)"
+  ],
+  "marketPositioning": "windows-rs is positioned as the premier solution for Rust developers seeking deep, safe, and idiomatic integration with the Windows operating system. It differentiates itself from traditional C/C++ by offering memory safety, from C# by providing direct, low-level access without a garbage collector overhead and comprehensive API coverage via metadata-based generation, and from Delphi and Python by focusing specifically on the Rust ecosystem and leveraging Rust's performance and safety guarantees. Its target market is Rust developers building Windows-native applications or components."
+}

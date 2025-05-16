@@ -1,0 +1,100 @@
+{
+  "projectName": "rolldown",
+  "projectPurpose": "To provide a high-performance JavaScript and TypeScript module bundler written in Rust, aiming for significantly faster build times and serving as the future bundler for Vite, while maintaining compatibility with the Rollup API and plugin ecosystem.",
+  "platforms": [
+    "Cross-platform (Runs on Node.js)"
+  ],
+  "mainFeatures": [
+    "Fast bundling speed (written in Rust)",
+    "Rollup-compatible API and plugin interface",
+    "Designed to be the future bundler for Vite",
+    "Supports JavaScript and TypeScript",
+    "Can be used as a standalone bundler",
+    "Includes built-in features like platform presets, TS/JSX transforms, Node.js module resolution, ESM/CJS interop, CSS bundling (experimental), and minification (WIP)"
+  ],
+  "website": "https://rolldown.rs/",
+  "alternatives": [
+    {
+      "name": "Webpack",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Bundles JavaScript, CSS, images, and other assets",
+        "Extensive plugin and loader ecosystem",
+        "Supports code splitting",
+        "Hot Module Replacement (HMR)",
+        "Dependency graph generation"
+      ],
+      "website": "https://webpack.js.org/"
+    },
+    {
+      "name": "Rollup",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Web",
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Module bundler for JavaScript",
+        "Uses standard ES module format",
+        "Superior tree-shaking",
+        "Code-splitting without overhead",
+        "Easy-to-learn plugin API"
+      ],
+      "website": "https://rollupjs.org/"
+    },
+    {
+      "name": "esbuild",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Extremely fast bundling and minification",
+        "Written in Go",
+        "Built-in support for JS, CSS, TS, JSX",
+        "Supports ESM and CommonJS modules",
+        "Tree shaking, minification, source maps"
+      ],
+      "website": "https://esbuild.github.io/"
+    },
+    {
+      "name": "Parcel",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Zero configuration",
+        "Automatic production optimization",
+        "Fast build times (Rust-based JS compiler)",
+        "Built-in dev server with HMR",
+        "Supports multiple targets"
+      ],
+      "website": "https://parceljs.org/"
+    },
+    {
+      "name": "SWC",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Super-fast TS/JS compiler (written in Rust)",
+        "Bundling capabilities (under development)",
+        "Minification",
+        "Extensible with plugins",
+        "Can be used as a Webpack loader"
+      ],
+      "website": "https://swc.rs/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Webpack"
+  ],
+  "marketPositioning": "Rolldown is positioned as a high-performance, Rust-based JavaScript and TypeScript bundler that offers a compelling combination of speed (similar to esbuild) and ecosystem compatibility (leveraging Rollup's API and plugins). Its primary strategic positioning is as the future core bundler for the Vite build tool, providing a faster underlying build experience for Vite users. Additionally, it aims to serve as a standalone bundler, potentially replacing Rollup for users seeking speed improvements or offering an esbuild alternative with more flexible chunking control. Its key differentiator is the blend of Rust-powered speed with strong compatibility with the established Rollup ecosystem."
+}

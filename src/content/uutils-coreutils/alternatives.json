@@ -1,0 +1,71 @@
+{
+  "projectName": "coreutils",
+  "projectPurpose": "To provide a modern, cross-platform, and memory-safe alternative implementation of standard Unix command-line utilities, aiming for high compatibility with GNU coreutils.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "Unix-like"
+  ],
+  "mainFeatures": [
+    "Cross-platform compatibility (Linux, macOS, Windows, etc.)",
+    "Rewritten in Rust for memory safety and reliability",
+    "Aims to be a drop-in replacement for GNU coreutils",
+    "Implements standard Unix-based shell commands (file, shell, text manipulation)",
+    "Strives for compatibility with the GNU test suite",
+    "Can be built as a multicall binary"
+  ],
+  "website": "https://uutils.github.io/",
+  "alternatives": [
+    {
+      "name": "GNU coreutils",
+      "license": "GPL-3.0-or-later",
+      "platforms": [
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Comprehensive set of standard command-line utilities",
+        "POSIX compliant with extensions",
+        "Widely used and mature",
+        "Basic file, shell, and text manipulation utilities"
+      ],
+      "website": "http://www.gnu.org/software/coreutils/"
+    },
+    {
+      "name": "BSD coreutils",
+      "license": "BSD License",
+      "platforms": [
+        "BSD-based systems",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Standard command-line utilities",
+        "Derived from BSD operating systems",
+        "Often known for simpler codebases",
+        "POSIX compliant"
+      ],
+      "website": "https://github.com/DiegoMagdaleno/BSDCoreUtils"
+    },
+    {
+      "name": "BusyBox",
+      "license": "GPL-2.0-only",
+      "platforms": [
+        "Linux",
+        "Android",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "Single executable with many utilities",
+        "Highly configurable",
+        "Small footprint",
+        "Designed for embedded systems and limited resources"
+      ],
+      "website": "https://busybox.net/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GNU coreutils"
+  ],
+  "marketPositioning": "uutils/coreutils positions itself as a modern, safe, and cross-platform alternative to the ubiquitous GNU coreutils. Its key selling points are the enhanced memory safety provided by Rust and broad compatibility across operating systems, including Windows, which is not a primary target for GNU coreutils. While BSD coreutils offer an alternative, uutils/coreutils is a focused rewrite aiming for direct functional parity with GNU. Unlike BusyBox, which targets embedded systems with a minimal footprint, uutils/coreutils focuses on providing a full-featured, safe, and consistent command-line experience for general-purpose computing across diverse platforms. It aims to directly compete with and potentially replace the established GNU coreutils in various environments."
+}

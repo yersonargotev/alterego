@@ -1,0 +1,83 @@
+{
+  "projectName": "universal-android-debloater-next-generation",
+  "projectPurpose": "To provide a user-friendly, accessible, and cross-platform graphical tool that enables users to remove or disable pre-installed system applications (bloatware) from their non-rooted Android devices by leveraging the Android Debug Bridge (ADB), thereby improving the device's privacy, security, and performance.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Cross-platform GUI",
+    "Utilizes ADB for app management",
+    "Works on non-rooted Android devices",
+    "Debloating functionality (disable/uninstall apps)",
+    "Aims to improve privacy, security, and battery life"
+  ],
+  "website": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+  "alternatives": [
+    {
+      "name": "ADB AppControl",
+      "license": "Freemium (Free and Extended/Proprietary version)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Disable and uninstall applications without root",
+        "Batch applications installation",
+        "Save and loading applications list-presets",
+        "Permissions Manager",
+        "ADB console"
+      ],
+      "website": "https://adbappcontrol.com/"
+    },
+    {
+      "name": "Manual ADB Commands",
+      "license": "Open Source (Part of Android SDK Platform Tools)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Install and uninstall apps via command line",
+        "Grant and deny permissions",
+        "Change system settings",
+        "Access device shell",
+        "Low-level device interaction"
+      ],
+      "website": "https://developer.android.com/tools/releases/platform-tools"
+    },
+    {
+      "name": "Android Debloat Scripts (Various)",
+      "license": "Varies (Often Open Source - e.g., MIT, GPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Automate ADB uninstall commands",
+        "Target specific bloatware lists",
+        "Device/manufacturer specific lists",
+        "Can be customized"
+      ],
+      "website": "https://github.com/search?q=android+debloat+script"
+    },
+    {
+      "name": "NoBloat (Root Required)",
+      "license": "Freemium (Free and Paid versions)",
+      "platforms": [
+        "Android"
+      ],
+      "mainFeatures": [
+        "Uninstall/disable system apps (with root)",
+        "Backup apps before deleting",
+        "Batch operations",
+        "Manage app lists"
+      ],
+      "website": "https://play.google.com/store/apps/details?id=com.tvkdevelopment.nobloatfree&hl=en_US&gl=US"
+    }
+  ],
+  "mostWellKnownAlternative": "ADB AppControl",
+  "marketPositioning": "Universal Android Debloater Next Generation is positioned as a user-friendly, cross-platform, and open-source GUI tool for debloating non-rooted Android devices using ADB. Its key differentiators are its cross-platform nature (Windows, macOS, and Linux support) and its open-source licensing, providing a free and accessible alternative to Windows-only or partially proprietary GUI tools like ADB AppControl, and offering a more user-friendly approach compared to manual ADB commands or standalone scripts."
+}

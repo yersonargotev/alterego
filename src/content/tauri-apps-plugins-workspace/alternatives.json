@@ -1,0 +1,74 @@
+{
+  "projectName": "plugins-workspace",
+  "projectPurpose": "To provide a centralized repository and development workspace for official plugins that extend the functionality of applications built with the Tauri framework.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android",
+    "iOS"
+  ],
+  "mainFeatures": [
+    "Collection of official plugins for the Tauri framework",
+    "Extends core Tauri capabilities with various functionalities"
+  ],
+  "website": "https://github.com/tauri-apps/plugins-workspace",
+  "alternatives": [
+    {
+      "name": "Electron",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Build desktop apps with HTML, CSS, JavaScript",
+        "Embeds Chromium and Node.js",
+        "Native OS integration APIs",
+        "Automatic updates",
+        "Large ecosystem and community"
+      ],
+      "website": "https://www.electronjs.org/"
+    },
+    {
+      "name": "NW.js",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Build desktop apps with HTML, CSS, JavaScript",
+        "Embeds Chromium and Node.js",
+        "Call Node.js modules directly from DOM",
+        "Easy packaging and distribution",
+        "Supports native features"
+      ],
+      "website": "https://nwjs.io/"
+    },
+    {
+      "name": "Flutter",
+      "license": "Open Source - BSD 3-Clause, Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Single codebase for multiple platforms",
+        "Compiles to native code",
+        "Rich UI widget library",
+        "Hot Reload",
+        "Access to underlying platform APIs"
+      ],
+      "website": "https://flutter.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": "Electron",
+  "marketPositioning": "The plugins-workspace project is positioned as a key component of the Tauri ecosystem. Tauri itself is positioned as a modern, lightweight, and secure alternative to frameworks like Electron and NW.js for building cross-platform desktop applications using web frontends. Tauri differentiates by leveraging the system's native webview (resulting in smaller binary sizes and lower resource usage) and a Rust backend for enhanced security and performance. The plugins-workspace reinforces this by providing readily available official extensions, simplifying the integration of common features and strengthening Tauri's offering against the more mature but often more resource-intensive alternatives."
+}

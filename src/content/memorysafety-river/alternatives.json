@@ -1,0 +1,134 @@
+{
+  "projectName": "river",
+  "projectPurpose": "To provide a high-performance, memory-safe reverse proxy application built upon Cloudflare's pingora Rust library, offering a robust and configurable alternative to existing reverse proxies with a strong emphasis on security and performance.",
+  "platforms": [],
+  "mainFeatures": [
+    "Reverse proxying",
+    "Based on Cloudflare's pingora library",
+    "Written in Rust (memory-safe)",
+    "Configurable via KDL file",
+    "TLS termination",
+    "HTTP/1.x and HTTP/2.0 support",
+    "Load balancing",
+    "Rate limiting",
+    "Serving static files",
+    "Graceful reloads",
+    "CIDR range based blocking"
+  ],
+  "website": "https://github.com/memorysafety/river",
+  "alternatives": [
+    {
+      "name": "Nginx",
+      "license": "Open Source (2-clause BSD license), Proprietary (NGINX Plus)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "BSD variants",
+        "Solaris",
+        "HP-UX",
+        "IBM AIX"
+      ],
+      "mainFeatures": [
+        "High-performance web serving",
+        "Reverse proxying with caching",
+        "Load balancing",
+        "SSL/TLS termination",
+        "HTTP/2 and HTTP/3 support"
+      ],
+      "website": "https://nginx.org/"
+    },
+    {
+      "name": "HAProxy",
+      "license": "Open Source (GPLv2 and LGPLv2.1), Proprietary (HAProxy Enterprise)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD",
+        "Red Hat Enterprise Linux",
+        "OpenShift",
+        "Ansible Automation Platform",
+        "OpenStack Platform"
+      ],
+      "mainFeatures": [
+        "High-performance TCP/HTTP load balancing",
+        "Reverse proxying",
+        "SSL/TLS termination",
+        "Health checks",
+        "High availability"
+      ],
+      "website": "http://www.haproxy.org/"
+    },
+    {
+      "name": "Caddy",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "BSD variants",
+        "Solaris",
+        "Plan 9"
+      ],
+      "mainFeatures": [
+        "Automatic HTTPS",
+        "Easy configuration (Caddyfile, JSON)",
+        "HTTP/1.1, HTTP/2, and HTTP/3 support",
+        "Reverse proxying",
+        "Static file serving"
+      ],
+      "website": "https://caddyserver.com/"
+    },
+    {
+      "name": "Envoy Proxy",
+      "license": "Open Source (Apache-2.0 license)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Cloud-native focus",
+        "High-performance edge/service proxy",
+        "HTTP/2 and gRPC support",
+        "Advanced load balancing",
+        "Dynamic configuration (xDS API)"
+      ],
+      "website": "https://www.envoyproxy.io/"
+    },
+    {
+      "name": "Traefik",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Dynamic configuration discovery",
+        "Automatic SSL/TLS",
+        "Real-time monitoring dashboard",
+        "Container orchestrator integration"
+      ],
+      "website": "https://traefik.io/"
+    },
+    {
+      "name": "Apache HTTP Server (httpd)",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Unix",
+        "Linux",
+        "Windows",
+        "macOS",
+        "NetWare"
+      ],
+      "mainFeatures": [
+        "General-purpose web server",
+        "Reverse proxying (mod_proxy)",
+        "Load balancing",
+        "Highly configurable"
+      ],
+      "website": "https://httpd.apache.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Nginx"
+  ],
+  "marketPositioning": "River positions itself as a modern, memory-safe reverse proxy built on Cloudflare's high-performance pingora library. Its primary advantage lies in using Rust to minimize memory safety vulnerabilities, differentiating it from widely used proxies like Nginx and HAProxy (written in C/C++). While Caddy offers ease of use and automatic HTTPS and is written in Go (with better memory safety than C/C++), River leverages pingora's proven performance at scale. Envoy is strong in cloud-native environments with dynamic configuration, but River targets users who may prefer declarative file-based configuration (KDL). River competes by offering a blend of high performance, memory safety, and essential reverse proxy features, aiming to be a secure and reliable alternative in the proxy landscape."
+}

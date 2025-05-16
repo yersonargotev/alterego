@@ -1,0 +1,102 @@
+{
+  "projectName": "imessage-exporter",
+  "projectPurpose": "To provide a free, open-source, command-line tool for comprehensive iMessage data export, backup, archiving, and diagnostics on macOS, Linux, and Windows.",
+  "platforms": [
+    "macOS",
+    "Linux",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Export iMessage data to open, portable formats (TXT, HTML)",
+    "Run iMessage diagnostics",
+    "Preserve multimedia content (images, videos, audio)",
+    "Support a wide array of iMessage features (replies, attachments, tapbacks, etc.)",
+    "Facilitate easy migration and archiving of message history"
+  ],
+  "website": "https://github.com/ReagentX/imessage-exporter",
+  "alternatives": [
+    {
+      "name": "iMazing",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Comprehensive iPhone, iPad, iPod management",
+        "Export messages in various formats (PDF, Text, CSV, RSMF)",
+        "Backup and restore devices",
+        "Transfer music, photos, files, and data",
+        "Extract data from backups"
+      ],
+      "website": "https://imazing.com/"
+    },
+    {
+      "name": "CopyTrans Contacts",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Export SMS, iMessages, and WhatsApp chats",
+        "Save messages in readable formats (PDF, Word)",
+        "Manage contacts, calendars, notes",
+        "Transfer files to and from device",
+        "Work with or without iTunes backups"
+      ],
+      "website": "https://www.copytrans.net/copytranscontacts/"
+    },
+    {
+      "name": "Decipher TextMessage",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Save and print iPhone text messages and iMessages",
+        "Extract messages from iTunes or Finder backups",
+        "Export messages to PDF",
+        "Include attachments in exports",
+        "Recover deleted messages from backups"
+      ],
+      "website": "https://deciphertools.com/products/decipher-textmessage"
+    },
+    {
+      "name": "EaseUS MobiMover",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Transfer data between iPhone and computer",
+        "Export messages to HTML",
+        "Backup and restore iPhone data",
+        "Transfer data between iOS devices",
+        "Manage various data types (photos, videos, contacts, etc.)"
+      ],
+      "website": "https://www.easeus.com/iphone-data-transfer-software/"
+    },
+    {
+      "name": "TouchCopy",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Save and print iPhone messages (iMessage, SMS, WhatsApp)",
+        "Export messages to HTML or PDF",
+        "Transfer other iPhone data (photos, music, contacts)",
+        "Access data from backups",
+        "Works directly with connected device"
+      ],
+      "website": "https://www.wideanglesoftware.com/touchcopy/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "iMazing"
+  ],
+  "marketPositioning": "imessage-exporter is positioned as a free and open-source, command-line solution for users who need deep, technical access and control over their iMessage data. Unlike most proprietary graphical tools that offer broad iPhone management features, imessage-exporter focuses specifically on providing a comprehensive, accurate, and diagnostic export of iMessage conversations and attachments in open formats. Its command-line interface caters to a more technical audience or those requiring automated data handling, distinguishing it from user-friendly GUI-based alternatives."
+}

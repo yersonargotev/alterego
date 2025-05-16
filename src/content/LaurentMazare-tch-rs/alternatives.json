@@ -1,0 +1,105 @@
+{
+  "projectName": "tch-rs",
+  "projectPurpose": "To provide Rust developers with access to the PyTorch deep learning framework's C++ API, enabling deep learning development within the Rust ecosystem.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Provides Rust bindings to PyTorch's C++ API",
+    "Enables deep learning model building and training in Rust using PyTorch backend",
+    "Leverages PyTorch's GPU acceleration and automatic differentiation",
+    "Allows interoperability with the PyTorch ecosystem"
+  ],
+  "website": "https://github.com/LaurentMazare/tch-rs",
+  "alternatives": [
+    {
+      "name": "TensorFlow Rust Bindings",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Idiomatic Rust bindings for TensorFlow",
+        "Supports TensorFlow core features (e.g., eager execution)",
+        "GPU support",
+        "Conversion with ndarray tensors"
+      ],
+      "website": "https://github.com/tensorflow/rust"
+    },
+    {
+      "name": "Burn",
+      "license": "Open Source - MIT and Apache 2.0",
+      "platforms": [
+        "Linux",
+        "Mac",
+        "Windows",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Native deep learning framework in Rust",
+        "Pluggable backends (Torch/Tch, Ndarray, WebGPU, Candle)",
+        "Comprehensive training tools",
+        "Automatic differentiation"
+      ],
+      "website": "https://github.com/tracel-ai/burn"
+    },
+    {
+      "name": "Candle",
+      "license": "Open Source - Apache 2.0, MIT, MPL 2.0",
+      "platforms": [
+        "CPU",
+        "CUDA",
+        "WASM"
+      ],
+      "mainFeatures": [
+        "Minimalist ML framework for Rust",
+        "Focus on performance and ease of use",
+        "Serverless inference focus",
+        "Supports various model formats (safetensors, PyTorch etc.)"
+      ],
+      "website": "https://github.com/huggingface/candle"
+    },
+    {
+      "name": "dfdx",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "CPU",
+        "CUDA"
+      ],
+      "mainFeatures": [
+        "Deep learning in Rust",
+        "Shape-checked tensors",
+        "Neural network modules",
+        "Focus on safety and performance"
+      ],
+      "website": "https://github.com/core-rs/dfdx"
+    },
+    {
+      "name": "tfmicro",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Microcontrollers",
+        "WASM",
+        "no_std environments"
+      ],
+      "mainFeatures": [
+        "Bindings for TensorFlow Lite for Microcontrollers",
+        "Designed for resource-constrained environments",
+        "Zero-copy model loading",
+        "Tensor arena memory management"
+      ],
+      "website": "https://crates.io/crates/tfmicro"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "TensorFlow",
+    "PyTorch"
+  ],
+  "marketPositioning": "Tch-rs positions itself as the bridge for Rust developers to access the mature and widely-adopted PyTorch deep learning ecosystem. It allows users to leverage PyTorch's powerful features like GPU acceleration and dynamic graphs within a Rust environment, benefiting from Rust's performance and safety. While native Rust frameworks exist, tch-rs appeals to those familiar with PyTorch or needing PyTorch compatibility, offering a way to combine Rust's strengths with a leading deep learning library."
+}

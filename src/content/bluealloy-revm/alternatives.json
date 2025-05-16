@@ -1,0 +1,126 @@
+{
+  "projectName": "revm",
+  "projectPurpose": "To provide a highly performant, stable, and easy-to-integrate implementation of the Ethereum Virtual Machine (EVM) in Rust, serving as a core component for various Ethereum-related tools, clients, and Layer 2 solutions.",
+  "platforms": [
+    "Cross-platform (as a library)"
+  ],
+  "mainFeatures": [
+    "Fast and efficient EVM execution",
+    "Simple and flexible interface",
+    "Passes all ethereum/tests test suites",
+    "Functions as both an executor and an extensible framework",
+    "Integrated into major clients, L2s, tooling, and zkVMs"
+  ],
+  "website": "https://github.com/bluealloy/revm",
+  "alternatives": [
+    {
+      "name": "Geth (Go-Ethereum)",
+      "license": "Open Source (GNU LGPL v3.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Full Ethereum node implementation",
+        "Command-line interface for interacting with the network",
+        "Supports all Ethereum network features (mining, transactions, smart contracts)",
+        "Widely used and large community support"
+      ],
+      "website": "https://geth.ethereum.org/"
+    },
+    {
+      "name": "Nethermind",
+      "license": "Open Source (GPL-3.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Full Ethereum node implementation in C#",
+        "Supports Ethereum 1.0 and 2.0 features",
+        "Open-source and enterprise-grade",
+        "REST API and JSON RPC support"
+      ],
+      "website": "https://www.nethermind.io/"
+    },
+    {
+      "name": "Besu",
+      "license": "Open Source (Apache-2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Full Ethereum node implementation in Java",
+        "Supports both public and permissioned networks",
+        "Monitoring and management APIs",
+        "Pluggable consensus mechanisms"
+      ],
+      "website": "https://besu.hyperledger.org/"
+    },
+    {
+      "name": "Erigon",
+      "license": "Open Source (GPL-3.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Re-architected Ethereum execution layer client",
+        "Focused on speed and disk space efficiency",
+        "Supports archive nodes efficiently",
+        "Written in Go with ongoing implementations in other languages"
+      ],
+      "website": "https://github.com/ledgerwatch/erigon"
+    },
+    {
+      "name": "evmone",
+      "license": "Open Source (Apache-2.0)",
+      "platforms": [
+        "Cross-platform (as a library)"
+      ],
+      "mainFeatures": [
+        "Fast standalone EVM implementation",
+        "Written in C++",
+        "Exposes EVMC API for integration",
+        "Optimized for efficient smart contract execution"
+      ],
+      "website": "https://github.com/ethereum/evmone"
+    },
+    {
+      "name": "ethereumjs-vm",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Cross-platform (as a library/Node.js)"
+      ],
+      "mainFeatures": [
+        "Standalone EVM implementation in Javascript",
+        "Part of the larger EthereumJS ecosystem",
+        "Useful for testing and development in Javascript environments"
+      ],
+      "website": "https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/vm"
+    },
+    {
+      "name": "Py-EVM",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Cross-platform (as a library/Python)"
+      ],
+      "mainFeatures": [
+        "Standalone EVM implementation in Python",
+        "Designed to be highly configurable and modular",
+        "Part of the larger Trinity client project",
+        "Useful for research and development in Python environments"
+      ],
+      "website": "https://github.com/ethereum/py-evm"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Geth (Go-Ethereum)"
+  ],
+  "marketPositioning": "Revm is positioned as a high-performance, stable, and simple-to-integrate Ethereum Virtual Machine library written in Rust. Unlike full Ethereum clients that include an EVM, Revm focuses solely on providing a core EVM execution engine designed for speed and flexibility. Its key market advantage lies in its Rust implementation, known for performance and safety, and its modular design, making it a preferred component for integration into a wide range of Ethereum ecosystem projects, including other clients, Layer 2 scaling solutions, block builders, and zkVMs, rather than serving as a standalone client itself. It distinguishes itself from other standalone EVM implementations through its Rust-native approach and significant adoption within the broader Ethereum development landscape."
+}

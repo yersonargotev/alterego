@@ -1,0 +1,129 @@
+{
+  "projectName": "motor-os",
+  "projectPurpose": "To provide a lightweight, secure, and high-performance operating system specifically designed for cloud-based virtualized environments, addressing inefficiencies of traditional operating systems for virtualized workloads.",
+  "platforms": [
+    "x86-64 (virtualized KVM)"
+  ],
+  "mainFeatures": [
+    "Microkernel-based architecture",
+    "Built entirely in Rust",
+    "Targets virtualized workloads exclusively",
+    "Optimized for Rust-based client applications",
+    "Simple, fast, and secure design"
+  ],
+  "website": "https://moturus.us/",
+  "alternatives": [
+    {
+      "name": "seL4",
+      "license": "Open Source (GPLv2, BSD 2-clause)",
+      "platforms": [
+        "ARM",
+        "x86",
+        "RISC-V",
+        "QEMU"
+      ],
+      "mainFeatures": [
+        "Formally verified kernel",
+        "Capability-based security",
+        "High performance",
+        "Microkernel design",
+        "Supports mixed criticality systems"
+      ],
+      "website": "https://sel4.systems/"
+    },
+    {
+      "name": "QNX Neutrino RTOS",
+      "license": "Proprietary",
+      "platforms": [
+        "ARM",
+        "x86",
+        "PowerPC",
+        "RISC-V"
+      ],
+      "mainFeatures": [
+        "Microkernel architecture",
+        "Real-time performance",
+        "Safety and security certified",
+        "Modular design",
+        "Used in mission-critical systems"
+      ],
+      "website": "https://www.blackberry.com/us/en/products/qnx"
+    },
+    {
+      "name": "VxWorks",
+      "license": "Proprietary",
+      "platforms": [
+        "x86",
+        "ARM",
+        "PowerPC",
+        "RISC-V",
+        "MIPS"
+      ],
+      "mainFeatures": [
+        "Real-time operating system (RTOS)",
+        "Deterministic performance",
+        "Modular architecture",
+        "Safety and security features",
+        "Widely used in aerospace, defense, industrial automation"
+      ],
+      "website": "https://www.windriver.com/products/vxworks"
+    },
+    {
+      "name": "Zephyr",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "ARM Cortex-A, R, M",
+        "Intel x86",
+        "RISC-V",
+        "ARC",
+        "Nios II",
+        "Tensilica Xtensa",
+        "SPARC",
+        "MIPS"
+      ],
+      "mainFeatures": [
+        "Scalable RTOS",
+        "Optimized for resource-constrained devices",
+        "Modular architecture",
+        "Broad hardware support",
+        "Built with security in mind"
+      ],
+      "website": "https://www.zephyrproject.org/"
+    },
+    {
+      "name": "RT-Thread",
+      "license": "Open Source (Apache License 2.0 or GPL V2+)",
+      "platforms": [
+        "Various MCUs and module chips"
+      ],
+      "mainFeatures": [
+        "Open-source RTOS",
+        "Designed for embedded systems and IoT",
+        "Small memory footprint",
+        "Modular design",
+        "Rich components and package ecosystem"
+      ],
+      "website": "https://www.rt-thread.io/"
+    },
+    {
+      "name": "Fuchsia",
+      "license": "Open Source (Multiple)",
+      "platforms": [
+        "Diverse hardware (IoT, laptops, etc.)"
+      ],
+      "mainFeatures": [
+        "Capability-based OS",
+        "Based on custom Zircon kernel",
+        "Simple, secure, updatable, performant",
+        "Designed for a diverse range of devices",
+        "Open source"
+      ],
+      "website": "https://fuchsia.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "VxWorks",
+    "QNX Neutrino RTOS"
+  ],
+  "marketPositioning": "Motor OS positions itself as a modern, secure, and efficient microkernel-based operating system built in Rust, specifically tailored for cloud-based virtualized x86-64 workloads like web serving and serverless computing. Unlike traditional general-purpose OS or embedded RTOS, it focuses exclusively on the needs of cloud virtualization environments. Its 'Rust-first' approach and focus on a specific virtualization target differentiate it from broader microkernel projects and traditional embedded/real-time operating systems, placing it in an emerging market segment for cloud-native OS foundations."
+}

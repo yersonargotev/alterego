@@ -1,0 +1,108 @@
+{
+  "projectName": "hyperswitch",
+  "projectPurpose": "To provide an open-source, flexible, and robust payment orchestration layer that allows businesses to connect to and manage multiple payment processors through a single API, enabling features like smart routing, improved reliability, and reduced costs.",
+  "platforms": [
+    "Web",
+    "Android",
+    "iOS",
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Open-source payments switch built with Rust",
+    "Connects to multiple payment processors via a single API",
+    "Intelligent payment routing (rule-based, volume-based, success rate-based)",
+    "Supports comprehensive payment flows (auth, capture, refund, void, etc.)",
+    "Unified SDK for various payment methods (cards, wallets, BNPL)",
+    "Provides a customizable and reusable core payment stack",
+    "Multi-tenant support"
+  ],
+  "website": "https://github.com/juspay/hyperswitch",
+  "alternatives": [
+    {
+      "name": "Stripe",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Comprehensive payment processing (cards, wallets, bank transfers)",
+        "Recurring billing and subscriptions",
+        "Global payments and payouts",
+        "Fraud detection (Radar)",
+        "Tools for platforms and marketplaces (Connect)"
+      ],
+      "website": "https://stripe.com/"
+    },
+    {
+      "name": "Adyen",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Mobile",
+        "In-person (POS)"
+      ],
+      "mainFeatures": [
+        "Global payment processing across channels",
+        "Supports a wide range of payment methods",
+        "Unified platform (gateway, risk, acquiring)",
+        "Advanced analytics and reporting",
+        "Solutions for platforms and marketplaces"
+      ],
+      "website": "https://www.adyen.com/"
+    },
+    {
+      "name": "Spreedly",
+      "license": "Proprietary",
+      "platforms": [
+        "Web API"
+      ],
+      "mainFeatures": [
+        "Payment orchestration platform",
+        "Single API for multiple gateways",
+        "Secure card vaulting (PCI-compliant)",
+        "Customizable routing logic",
+        "Extensive third-party integrations"
+      ],
+      "website": "https://www.spreedly.com/"
+    },
+    {
+      "name": "IXOPAY",
+      "license": "Proprietary (SaaS)",
+      "platforms": [
+        "Web (SaaS)"
+      ],
+      "mainFeatures": [
+        "Payment orchestration platform",
+        "Multi-acquirer support",
+        "Smart transaction routing",
+        "Risk management engine",
+        "White-label solution"
+      ],
+      "website": "https://www.ixopay.com/"
+    },
+    {
+      "name": "Corefy",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Payment orchestration platform",
+        "Connects to 650+ payment providers",
+        "400+ payment methods",
+        "Payment routing",
+        "White labeling"
+      ],
+      "website": "https://corefy.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Stripe",
+    "Adyen"
+  ],
+  "marketPositioning": "Hyperswitch is positioned as a leading open-source payment switch and orchestration platform. Its key differentiator is being open-source, providing businesses with greater control, transparency, and customization compared to predominantly proprietary alternatives like Stripe, Adyen, Spreedly, and IXOPAY. By offering a reusable, Rust-based core payment stack, it aims to reduce the development effort and cost associated with integrating multiple payment processors while providing advanced features like smart routing and unified payment experiences. It directly competes with proprietary orchestration layers by offering a self-hostable and highly adaptable solution, aiming for high performance, reliability, and affordability."
+}

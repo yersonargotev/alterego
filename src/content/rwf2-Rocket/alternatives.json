@@ -1,0 +1,142 @@
+{
+  "projectName": "Rocket",
+  "projectPurpose": "To provide a safe, fast, and ergonomic web framework for building web applications and APIs in Rust.",
+  "platforms": [
+    "Cross-platform (runs on systems supporting Rust)"
+  ],
+  "mainFeatures": [
+    "Type-safe request handling and routing",
+    "Compile-time validation and code generation (using macros)",
+    "Focus on developer ergonomics and ease of use",
+    "Leverages Rust's safety and performance",
+    "Support for common web development tasks (e.g., forms, templates, JSON)"
+  ],
+  "website": "https://rocket.rs/",
+  "alternatives": [
+    {
+      "name": "Actix-web",
+      "license": "Open Source (MIT or Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Extremely fast performance",
+        "Supports HTTP/1.x and HTTP/2",
+        "Powerful request routing",
+        "WebSockets support",
+        "Middleware support"
+      ],
+      "website": "https://actix.rs/"
+    },
+    {
+      "name": "Axum",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Ergonomic and modular design",
+        "Built with Tokio, Tower, and Hyper",
+        "Macro-free routing API",
+        "Declarative request parsing with extractors",
+        "Integration with Tower ecosystem"
+      ],
+      "website": "https://github.com/tokio-rs/axum"
+    },
+    {
+      "name": "Warp",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Composable filter system for request handling",
+        "Built on Hyper",
+        "Supports HTTP/1 and HTTP/2",
+        "WebSockets support",
+        "Static file serving and compression"
+      ],
+      "website": "https://github.com/seanmonstar/warp"
+    },
+    {
+      "name": "Tide",
+      "license": "Open Source (Apache 2.0 or MIT)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Minimal and pragmatic design",
+        "Built for rapid async development",
+        "Routing and middleware support",
+        "Integration with async-std"
+      ],
+      "website": "https://github.com/http-rs/tide"
+    },
+    {
+      "name": "Salvo",
+      "license": "Open Source (MIT OR Apache-2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Simple and powerful",
+        "Supports HTTP/1, HTTP/2, HTTP/3",
+        "Unified middleware/handler interface",
+        "Nested routers",
+        "Automatic OpenAPI documentation generation"
+      ],
+      "website": "https://salvo.rs/"
+    },
+    {
+      "name": "Express",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Cross-platform (Node.js)"
+      ],
+      "mainFeatures": [
+        "Minimalist and flexible",
+        "Robust routing",
+        "Extensive middleware support",
+        "High performance (built on Node.js)",
+        "Supports various template engines and database integrations"
+      ],
+      "website": "https://expressjs.com/"
+    },
+    {
+      "name": "Django",
+      "license": "Open Source (3-clause BSD)",
+      "platforms": [
+        "Cross-platform (Python)"
+      ],
+      "mainFeatures": [
+        "High-level, full-featured ('batteries-included')",
+        "ORM (Object-Relational Mapper)",
+        "Automatic administrative interface",
+        "Built-in authentication system",
+        "Emphasizes rapid development and security"
+      ],
+      "website": "https://www.djangoproject.com/"
+    },
+    {
+      "name": "Spring Framework",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Cross-platform (Java)"
+      ],
+      "mainFeatures": [
+        "Comprehensive framework for enterprise Java",
+        "Inversion of Control (IoC) and Dependency Injection (DI)",
+        "Spring MVC for web applications",
+        "Extensive data access support",
+        "Robust security features"
+      ],
+      "website": "https://spring.io/projects/spring-framework"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Express (Node.js)",
+    "Django (Python)",
+    "Spring Framework (Java)"
+  ],
+  "marketPositioning": "Rocket is positioned within the Rust ecosystem as a high-performance, safe, and developer-friendly web framework. It balances Rust's inherent speed and safety with an emphasis on ergonomics and ease of use, distinguishing itself from some Rust alternatives that prioritize raw performance above all else. Compared to web frameworks in other languages, Rocket competes on the strength of Rust's performance and memory safety guarantees, appealing to developers who require these attributes for their web services and APIs, particularly in domains where efficiency and reliability are critical."
+}

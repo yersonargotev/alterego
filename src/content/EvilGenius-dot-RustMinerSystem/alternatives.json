@@ -1,0 +1,127 @@
+{
+  "projectName": "RustMinerSystem",
+  "projectPurpose": "To provide a high-performance, reliable, and feature-rich mining proxy system for professional mining farm operations, enabling efficient hashrate management, precise fee sharing, and stable connections to mining pools.",
+  "platforms": [
+    "Linux",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Mining pool proxy/relay/agent",
+    "Precise fee sharing (\u77ff\u6c60\u62bd\u6c34)",
+    "Supports encryption",
+    "Includes self-startup and process daemon/guardian",
+    "High concurrency (millions of connections)",
+    "Low loss/\u635f\u8017",
+    "Stable hashrate",
+    "Supports multiple mining algorithms and currencies"
+  ],
+  "website": "https://github.com/EvilGenius-dot/RustMinerSystem",
+  "alternatives": [
+    {
+      "name": "BFGMiner",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "ASIC/FPGA firmware"
+      ],
+      "mainFeatures": [
+        "Multi-threaded and multi-pool mining",
+        "Supports ASIC, FPGA, GPU, and CPU mining",
+        "Dynamic clocking, monitoring, and fanspeed support",
+        "Can function as a stratum proxy",
+        "Focuses on FPGA and ASIC miners"
+      ],
+      "website": "http://luke.dashjr.org/programs/bitcoin/files/bfgminer"
+    },
+    {
+      "name": "CGMiner",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "ASIC/FPGA firmware"
+      ],
+      "mainFeatures": [
+        "Supports GPU, FPGA, and ASIC mining",
+        "Remote interface capabilities",
+        "Fan speed control and overclocking",
+        "Supports stratum mining protocol",
+        "Pool failover and load balancing"
+      ],
+      "website": "http://ck.kolivas.org/apps/cgminer/"
+    },
+    {
+      "name": "XMRig",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "High-performance CPU/GPU miner",
+        "Supports multiple algorithms (RandomX, KawPow, CryptoNight, etc.)",
+        "Cross-platform",
+        "Includes a stratum proxy",
+        "Configurable via JSON file and HTTP API"
+      ],
+      "website": "https://xmrig.com/"
+    },
+    {
+      "name": "Stratum Proxy (by Stratehm)",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Java (cross-platform)"
+      ],
+      "mainFeatures": [
+        "Java implementation of a stratum proxy",
+        "Web GUI",
+        "Pool switching strategies (PriorityFailover, WeightedRoundRobin)",
+        "Simple installation and configuration",
+        "API available (JSON)"
+      ],
+      "website": "https://github.com/Stratehm/stratum-proxy"
+    },
+    {
+      "name": "Braiins Farm Proxy",
+      "license": "Proprietary (Free to use with any pool)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Hashrate aggregation",
+        "Bandwidth savings",
+        "Multiple pool usage and backup pools",
+        "Network optimization based on latency/errors",
+        "Configuration via GUI"
+      ],
+      "website": "https://braiins.com/farm-proxy"
+    },
+    {
+      "name": "Ultimate Proxy",
+      "license": "Proprietary (Free for evaluation, requires license for full features)",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Bandwidth usage reduction",
+        "Stable job distributions",
+        "Ratio and Smart switching between pools",
+        "End-to-end encryption",
+        "Supports a wide range of coins/algorithms"
+      ],
+      "website": "https://github.com/susanouper/prxmnvltz"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "CGMiner",
+    "BFGMiner",
+    "XMRig"
+  ],
+  "marketPositioning": "RustMinerSystem is positioned as a high-performance, Rust-based mining proxy specifically tailored for professional mining farms. It differentiates itself through its emphasis on precise fee sharing ('drawing water'), minimal hashrate loss, and high connection concurrency, aiming to provide a more optimized and stable solution compared to general-purpose miners with proxy features or less specialized proxy software. Its support for a wide range of algorithms expands its appeal across different mining operations. It competes directly with other dedicated mining proxy solutions by focusing on efficiency, stability, and profit optimization critical for large-scale mining."
+}

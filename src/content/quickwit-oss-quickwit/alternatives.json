@@ -1,0 +1,152 @@
+{
+  "projectName": "quickwit",
+  "projectPurpose": "Quickwit is a cloud-native, open-source search engine specifically optimized for observability data, such as logs and traces. Its primary purpose is to provide a cost-effective, scalable, and high-performance alternative to established proprietary and open-source tools in the observability space by leveraging cloud object storage for data storage and enabling fast searches directly on this storage.",
+  "platforms": [
+    "Linux",
+    "Docker",
+    "Kubernetes"
+  ],
+  "mainFeatures": [
+    "Full-text search and aggregation queries",
+    "Elasticsearch-compatible API (ingest and search)",
+    "OTEL-native for logs and traces",
+    "Sub-second search on cloud storage (Amazon S3, Azure Blob Storage, Google Cloud Storage, etc.)",
+    "Decoupled compute and storage"
+  ],
+  "website": "https://github.com/quickwit-oss/quickwit",
+  "alternatives": [
+    {
+      "name": "Datadog",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (SaaS)",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Unified observability (metrics, logs, traces)",
+        "Extensive integrations (>600 services)",
+        "Real-time dashboards and alerting",
+        "Application Performance Monitoring (APM)",
+        "Security monitoring"
+      ],
+      "website": "https://www.datadoghq.com/"
+    },
+    {
+      "name": "Elasticsearch",
+      "license": "Triple-licensed: Elastic License 2.0, SSPL, and AGPLv3 (for free features)",
+      "platforms": [
+        "Cross-platform",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Docker",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Distributed full-text search engine",
+        "Scalable and near real-time search",
+        "Schema-free JSON documents",
+        "RESTful API",
+        "Integrated with Kibana, Logstash, Beats (Elastic Stack)"
+      ],
+      "website": "https://www.elastic.co/elasticsearch/"
+    },
+    {
+      "name": "Loki (Grafana Loki)",
+      "license": "AGPLv3",
+      "platforms": [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "Web (Grafana Cloud)"
+      ],
+      "mainFeatures": [
+        "Log aggregation system",
+        "Indexes only metadata/labels (not log content)",
+        "Cost-effective storage on object storage",
+        "Horizontally scalable",
+        "Integrates with Grafana"
+      ],
+      "website": "https://grafana.com/oss/loki/"
+    },
+    {
+      "name": "Tempo (Grafana Tempo)",
+      "license": "AGPLv3",
+      "platforms": [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "Web (Grafana Cloud)"
+      ],
+      "mainFeatures": [
+        "Distributed tracing backend",
+        "Cost-effective and scalable",
+        "Integrates with Grafana, Mimir, Loki",
+        "Supports Jaeger, OpenTelemetry, Zipkin protocols"
+      ],
+      "website": "https://grafana.com/oss/tempo/"
+    },
+    {
+      "name": "OpenSearch",
+      "license": "Apache 2.0",
+      "platforms": [
+        "Cross-platform",
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "Web (Amazon OpenSearch Service)"
+      ],
+      "mainFeatures": [
+        "Open-source search and analytics suite (fork of Elasticsearch/Kibana)",
+        "Full-text search and analytics",
+        "Real-time application monitoring and log analytics",
+        "Built-in security features",
+        "Integrates with OpenSearch Dashboards"
+      ],
+      "website": "https://opensearch.org/"
+    },
+    {
+      "name": "Splunk",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (Splunk Cloud Platform)"
+      ],
+      "mainFeatures": [
+        "Machine data collection, indexing, search, analysis, visualization",
+        "Real-time monitoring and alerting",
+        "SIEM and IT operations capabilities",
+        "Scalable for enterprise use cases"
+      ],
+      "website": "https://www.splunk.com/"
+    },
+    {
+      "name": "ClickHouse",
+      "license": "Apache 2.0",
+      "platforms": [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "Web (ClickHouse Cloud)"
+      ],
+      "mainFeatures": [
+        "Column-oriented database management system (OLAP)",
+        "High performance for large-scale data analytics",
+        "Real-time data ingestion",
+        "Distributed and scalable architecture",
+        "SQL support"
+      ],
+      "website": "https://clickhouse.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Elasticsearch",
+    "Datadog"
+  ],
+  "marketPositioning": "Quickwit positions itself as a cloud-native, open-source search engine specifically designed for the demanding requirements of observability data (logs and traces). It differentiates itself from traditional search engines like Elasticsearch/OpenSearch and log aggregation systems like Loki by its unique architecture that leverages cost-efficient cloud object storage for primary data residency while still providing sub-second search latency. Unlike proprietary, comprehensive platforms such as Datadog and Splunk, Quickwit offers a purely open-source alternative with a focus on optimizing performance and cost for petabyte-scale immutable data in cloud environments. Its Elasticsearch-compatible API aims to ease migration for users of the Elastic Stack, while native OpenTelemetry and Jaeger support cater directly to the observability ecosystem. Quickwit competes on the basis of its cloud-native efficiency, cost savings through object storage, and a truly open-source license in a market increasingly dominated by source-available or proprietary licenses."
+}

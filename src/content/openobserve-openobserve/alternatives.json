@@ -1,0 +1,110 @@
+{
+  "projectName": "openobserve",
+  "projectPurpose": "To provide a unified, high-performance, scalable, and cost-effective open-source platform for observability and monitoring, covering logs, metrics, traces, RUM, Error tracking, and Session replay, as an alternative to tools like Elasticsearch, Splunk, and Datadog.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Unified logs, metrics, traces, RUM, Error tracking, Session replay",
+    "140x lower storage cost (claimed)",
+    "High performance",
+    "Petabyte scale",
+    "10x easier to use (claimed)"
+  ],
+  "website": "https://openobserve.ai/",
+  "alternatives": [
+    {
+      "name": "Elasticsearch (part of Elastic Stack)",
+      "license": "Triple-licensed Elastic License, SSPL, and AGPL",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Cloud (Elastic Cloud)"
+      ],
+      "mainFeatures": [
+        "Full-text search and analytics",
+        "Distributed architecture",
+        "RESTful API",
+        "Integrations with Kibana and Beats/Logstash",
+        "Real-time data analysis"
+      ],
+      "website": "https://www.elastic.co/elasticsearch/"
+    },
+    {
+      "name": "Splunk",
+      "license": "Proprietary (Commercial)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "Cloud (Splunk Cloud)"
+      ],
+      "mainFeatures": [
+        "Data indexing and search (SPL)",
+        "Real-time monitoring and alerting",
+        "Dashboards and visualizations",
+        "IT Operations and Security (SIEM) capabilities",
+        "App ecosystem"
+      ],
+      "website": "https://www.splunk.com/"
+    },
+    {
+      "name": "Datadog",
+      "license": "Proprietary (SaaS Subscription)",
+      "platforms": [
+        "Web (SaaS)",
+        "Agents for Linux, macOS, Windows",
+        "Cloud Platforms (AWS, Azure, GCP)"
+      ],
+      "mainFeatures": [
+        "Unified observability (metrics, logs, traces)",
+        "Extensive integrations (>600)",
+        "APM, Infrastructure, RUM, Security Monitoring",
+        "Real-time dashboards and alerting",
+        "Cloud-native focus"
+      ],
+      "website": "https://www.datadoghq.com/"
+    },
+    {
+      "name": "Prometheus + Grafana + Loki + Tempo",
+      "license": "Open Source (Apache 2.0, AGPLv3)",
+      "platforms": [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "Cloud (Grafana Cloud)"
+      ],
+      "mainFeatures": [
+        "Modular components for metrics (Prometheus), logs (Loki), traces (Tempo)",
+        "Visualization with Grafana",
+        "Cost-effective log storage (Loki)",
+        "High-scale distributed tracing (Tempo)",
+        "Strong open-source community"
+      ],
+      "website": "https://grafana.com/oss/"
+    },
+    {
+      "name": "New Relic",
+      "license": "Proprietary (SaaS Subscription)",
+      "platforms": [
+        "Web (SaaS)",
+        "Agents for various environments"
+      ],
+      "mainFeatures": [
+        "Full-stack observability (APM, infra, logs, RUM, synthetics)",
+        "AI-powered insights",
+        "Cloud cost intelligence",
+        "Error tracking",
+        "Integrations"
+      ],
+      "website": "https://newrelic.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Datadog",
+    "Elasticsearch"
+  ],
+  "marketPositioning": "OpenObserve is positioned as a disruptive open-source observability platform that directly challenges established proprietary solutions (Datadog, Splunk, New Relic) and complex open-source stacks (ELK, Grafana Ecosystem) by emphasizing significantly lower storage costs, high performance, scalability to petabytes, and ease of use. It aims to provide a unified, comprehensive observability experience (logs, metrics, traces, RUM, etc.) within a single, cost-efficient, and easier-to-manage open-source solution."
+}

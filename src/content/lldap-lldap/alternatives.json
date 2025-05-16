@@ -1,0 +1,141 @@
+{
+  "projectName": "lldap",
+  "projectPurpose": "To provide a lightweight, easy-to-set-up, and easy-to-manage LDAP server specifically designed for authentication, primarily targeting self-hosting environments and integration with open-source applications that support LDAP for external authentication, simplifying the process compared to traditional LDAP servers.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Lightweight authentication server",
+    "Simplified LDAP interface for authentication",
+    "User-friendly web UI for user management",
+    "Supports SQLite, MySQL/MariaDB, or PostgreSQL backends",
+    "Simple to set up and manage",
+    "Low resource usage"
+  ],
+  "website": "https://github.com/lldap/lldap",
+  "alternatives": [
+    {
+      "name": "OpenLDAP",
+      "license": "Open Source - OpenLDAP Public License",
+      "platforms": [
+        "Linux/UNIX",
+        "macOS",
+        "Windows (client tools)"
+      ],
+      "mainFeatures": [
+        "LDAPv3 compliant",
+        "Supports SASL and TLS",
+        "Highly configurable access control",
+        "Multi-master replication"
+      ],
+      "website": "https://www.openldap.org/"
+    },
+    {
+      "name": "389 Directory Server",
+      "license": "Open Source - GPL, LGPLv2, Apache",
+      "platforms": [
+        "Linux/Unix"
+      ],
+      "mainFeatures": [
+        "Enterprise-class",
+        "High performance and scalability",
+        "Multi-supplier replication",
+        "Online configuration and management"
+      ],
+      "website": "https://www.port389.org/"
+    },
+    {
+      "name": "FreeIPA",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Integrated identity management (LDAP, Kerberos, DNS, CA)",
+        "Centralized authentication and authorization",
+        "Web UI and CLI",
+        "Multi-master replication"
+      ],
+      "website": "https://www.freeipa.org/"
+    },
+    {
+      "name": "Microsoft Active Directory Domain Services (AD DS)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows Server"
+      ],
+      "mainFeatures": [
+        "Centralized user, computer, and resource management",
+        "Strong authentication and authorization (Kerberos, LDAP)",
+        "Group Policy management",
+        "Scalable and fault tolerant"
+      ],
+      "website": "https://learn.microsoft.com/en-us/windows/win32/ad/active-directory-domain-services"
+    },
+    {
+      "name": "Apache Directory Server",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Embedded LDAP server",
+        "Supports LDAPv3",
+        "Includes Apache Directory Studio (GUI client)",
+        "Extensible architecture"
+      ],
+      "website": "https://directory.apache.org/"
+    },
+    {
+      "name": "Google Workspace",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "User and group management",
+        "Centralized administration",
+        "Single Sign-On (SSO)",
+        "Integrates with Google applications"
+      ],
+      "website": "https://workspace.google.com/"
+    },
+    {
+      "name": "Microsoft Entra ID",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud (Web)"
+      ],
+      "mainFeatures": [
+        "Cloud-based identity and access management",
+        "SSO and MFA",
+        "Integrates with Azure and third-party apps",
+        "Can synchronize with on-prem AD DS"
+      ],
+      "website": "https://azure.microsoft.com/en-us/products/entra/id"
+    },
+    {
+      "name": "GLAuth",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Lightweight",
+        "Secure",
+        "Configurable backends",
+        "Two-factor authentication"
+      ],
+      "website": "https://github.com/glauth/glauth"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Microsoft Active Directory Domain Services (AD DS)"
+  ],
+  "marketPositioning": "LLDAP positions itself as a simple, lightweight, and user-friendly LDAP authentication server for self-hosted and small-scale deployments. It prioritizes ease of use and minimal resource requirements over the comprehensive feature sets found in traditional, enterprise-grade LDAP servers like OpenLDAP or 389 Directory Server, or full identity management solutions like FreeIPA. Its target audience includes users and small organizations needing a straightforward way to add LDAP authentication to open-source applications without the complexity of larger directory services."
+}

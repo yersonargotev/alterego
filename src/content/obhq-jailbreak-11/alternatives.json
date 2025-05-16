@@ -1,0 +1,100 @@
+{
+  "projectName": "jailbreak-11",
+  "projectPurpose": "To develop and provide an experimental exploit or method to achieve a jailbreak on PlayStation 4 consoles running firmware version 11.00 or lower.",
+  "platforms": [
+    "PS4",
+    "PC",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Enables jailbreak on PS4 firmware 11.00 and lower",
+    "Experimental exploit implementation"
+  ],
+  "website": "https://github.com/obhq/jailbreak-11",
+  "alternatives": [
+    {
+      "name": "GoldHEN",
+      "license": "Open Source",
+      "platforms": [
+        "PS4",
+        "PC",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Homebrew Enabler",
+        "Debug Settings",
+        "Remote Package Install",
+        "FTP Server",
+        "BinLoader"
+      ],
+      "website": "https://github.com/GoldHEN/GoldHEN"
+    },
+    {
+      "name": "PS4HEN",
+      "license": "Open Source",
+      "platforms": [
+        "PS4",
+        "PC",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Homebrew Enabler",
+        "Jailbreak",
+        "Sandbox Escape",
+        "Debug Settings"
+      ],
+      "website": "https://github.com/EchoStretch/ps4-hen-vtx"
+    },
+    {
+      "name": "Mira",
+      "license": "Open Source",
+      "platforms": [
+        "PS4",
+        "PC",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Homebrew support",
+        "Debug Settings",
+        "Development features",
+        "Custom firmware"
+      ],
+      "website": "(Various repositories, often linked from PS4 hacking communities)"
+    },
+    {
+      "name": "PS4 Exploit Host",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Hosts exploits and payloads",
+        "Blocks PSN updates",
+        "Serves firmware updates",
+        "Local or remote hosting"
+      ],
+      "website": "https://github.com/Al-Azif/ps4-exploit-host"
+    },
+    {
+      "name": "PPPwn",
+      "license": "Open Source",
+      "platforms": [
+        "PC",
+        "PS4"
+      ],
+      "mainFeatures": [
+        "Kernel exploit for FW 11.00+",
+        "Leverages network vulnerability",
+        "Enables jailbreak"
+      ],
+      "website": "https://github.com/TheOfficialFloW/PPPwn"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GoldHEN"
+  ],
+  "marketPositioning": "jailbreak-11 is positioned as an experimental, foundational tool for achieving the initial jailbreak on PS4 firmware 11.00 and lower. It likely implements a specific exploit (such as PPPwn) to gain system access. Unlike more comprehensive tools like GoldHEN that provide a full suite of post-exploit features (homebrew enabling, debug settings, etc.), jailbreak-11's primary focus is the exploit itself, serving as the necessary precursor for loading such payloads."
+}

@@ -1,0 +1,153 @@
+{
+  "projectName": "leptos",
+  "projectPurpose": "To provide a high-performance, full-stack web framework written in Rust, enabling developers to build fast, reliable, and interactive web applications by leveraging Rust's strengths and modern web development paradigms like fine-grained reactivity and a component-based architecture.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Full-stack, isomorphic web framework",
+    "Leverages fine-grained reactivity (No Virtual DOM)",
+    "Declarative user interfaces",
+    "Supports CSR, SSR, and Hydration",
+    "Isomorphic server functions",
+    "Component-based architecture",
+    "Integrated tooling for client/server builds (e.g., cargo-leptos)",
+    "Strong type safety from Rust"
+  ],
+  "website": "https://leptos.dev/",
+  "alternatives": [
+    {
+      "name": "Yew",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Rust/WebAssembly framework",
+        "Component-based architecture",
+        "JSX-like syntax macros",
+        "Uses a Virtual DOM",
+        "JavaScript interoperability"
+      ],
+      "website": "https://yew.rs/"
+    },
+    {
+      "name": "Dioxus",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile",
+        "SSR",
+        "Liveview"
+      ],
+      "mainFeatures": [
+        "Full-stack, cross-platform framework in Rust",
+        "Single codebase for multiple platforms",
+        "Uses a Virtual DOM with signals for reactivity",
+        "Integrated tooling (hot-reloading, bundler)",
+        "Declarative UI with RSX"
+      ],
+      "website": "https://dioxuslabs.com/"
+    },
+    {
+      "name": "Blazor",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Build UIs with C# and .NET",
+        "Runs on WebAssembly or Server (SignalR)",
+        "Component-based architecture (Razor components)",
+        "JavaScript interoperability",
+        "Access to .NET ecosystem"
+      ],
+      "website": "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
+    },
+    {
+      "name": "React",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web",
+        "Native"
+      ],
+      "mainFeatures": [
+        "JavaScript library for building UIs",
+        "Component-based architecture",
+        "Declarative views",
+        "Uses a Virtual DOM",
+        "JSX syntax"
+      ],
+      "website": "https://react.dev/"
+    },
+    {
+      "name": "Vue.js",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Progressive JavaScript framework",
+        "Declarative rendering and reactivity",
+        "Component-based model",
+        "HTML-based template syntax",
+        "Incrementally adoptable"
+      ],
+      "website": "https://vuejs.org/"
+    },
+    {
+      "name": "Angular",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web",
+        "Mobile",
+        "Desktop"
+      ],
+      "mainFeatures": [
+        "Comprehensive JavaScript framework (TypeScript)",
+        "Component-based architecture",
+        "Two-way data binding",
+        "Includes routing, forms, HTTP client",
+        "Opinionated structure"
+      ],
+      "website": "https://angular.io/"
+    },
+    {
+      "name": "Svelte",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Compiler-based framework",
+        "No Virtual DOM runtime",
+        "Reactive by default (compiler-managed)",
+        "Component-based architecture",
+        "SvelteKit for full-stack"
+      ],
+      "website": "https://svelte.dev/"
+    },
+    {
+      "name": "SolidJS",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "JavaScript library for building UIs",
+        "Fine-grained reactivity",
+        "No Virtual DOM (compiles to native JS)",
+        "Component-based architecture (components run once)",
+        "JSX syntax"
+      ],
+      "website": "https://www.solidjs.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "React"
+  ],
+  "marketPositioning": "Leptos is positioned as a high-performance, full-stack web framework built in Rust, offering a compelling alternative to traditional JavaScript frameworks. It targets developers who value Rust's performance, memory safety, and type system for building reliable web applications end-to-end. Its key differentiators include fine-grained reactivity without a Virtual DOM for efficient updates, comprehensive full-stack capabilities with integrated server functions and tooling, and a focus on leveraging web standards. It competes with other Rust frameworks like Yew and Dioxus by offering a distinct reactivity model and a strong emphasis on the full-stack web experience, while also providing a Rust-based alternative to mainstream JavaScript/TypeScript frameworks like React, Vue, and Angular, and .NET-based Blazor."
+}

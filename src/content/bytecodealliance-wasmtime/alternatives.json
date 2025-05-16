@@ -1,0 +1,125 @@
+{
+  "projectName": "wasmtime",
+  "projectPurpose": "To provide a high-performance, secure, and portable runtime environment for executing WebAssembly code outside of web browsers, suitable for server-side, edge computing, and embedded systems.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "ARM64",
+    "no_std environments"
+  ],
+  "mainFeatures": [
+    "Lightweight WebAssembly runtime",
+    "Fast execution via Cranelift (JIT/AOT)",
+    "Secure sandboxed execution",
+    "Standards-compliant (Wasm, WASI, Component Model)",
+    "Embeddable as a library",
+    "Configurable resource limits",
+    "Developed with a strong focus on security and correctness"
+  ],
+  "website": "https://github.com/bytecodealliance/wasmtime",
+  "alternatives": [
+    {
+      "name": "Wasmer",
+      "license": "Open Source - MIT (Core)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Fast and secure runtime",
+        "Supports multiple compilation backends",
+        "Embeddable in many languages",
+        "Supports WASI and WASIX",
+        "Can create standalone executables"
+      ],
+      "website": "https://wasmer.io/"
+    },
+    {
+      "name": "WasmEdge",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Microkernel and RTOS",
+        "Intel x86",
+        "ARM",
+        "M1 CPUs"
+      ],
+      "mainFeatures": [
+        "Lightweight and high-performance",
+        "Optimized for cloud-native and edge",
+        "Supports WASI and extensions",
+        "Embeddable in various languages",
+        "Can run JavaScript"
+      ],
+      "website": "https://wasmedge.org/"
+    },
+    {
+      "name": "WebAssembly Micro Runtime (WAMR)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Embedded systems",
+        "IoT",
+        "Edge",
+        "TEE",
+        "Cloud Native"
+      ],
+      "mainFeatures": [
+        "Lightweight with small footprint",
+        "Designed for embedded environments",
+        "Supports interpretation, AOT, and JIT",
+        "Part of the Bytecode Alliance"
+      ],
+      "website": "https://github.com/bytecodealliance/wasm-micro-runtime"
+    },
+    {
+      "name": "V8",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Various architectures"
+      ],
+      "mainFeatures": [
+        "High-performance JavaScript and WebAssembly engine",
+        "Used in Chrome and Node.js",
+        "Supports JIT compilation",
+        "Embeddable in C++"
+      ],
+      "website": "https://v8.dev/"
+    },
+    {
+      "name": "Wasm3",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "FreeBSD",
+        "Android",
+        "iOS",
+        "MCUs",
+        "Browsers",
+        "Various architectures"
+      ],
+      "mainFeatures": [
+        "Fast WebAssembly interpreter",
+        "Extremely universal and portable",
+        "Small footprint",
+        "Easy to embed"
+      ],
+      "website": "https://github.com/wasm3/wasm3"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "V8"
+  ],
+  "marketPositioning": "Wasmtime is positioned as a leading, secure, and standards-driven WebAssembly runtime for server-side and edge environments. It differentiates itself through its strong emphasis on security and correctness, leveraging Rust's safety features and rigorous testing. Built on the Cranelift optimizing compiler, it offers high performance through both JIT and AOT compilation. As a core project of the Bytecode Alliance, Wasmtime is at the forefront of implementing WASI and the Component Model, promoting open standards and interoperability. It serves as a robust, embeddable, and configurable alternative to browser-based runtimes and heavier container solutions, particularly for use cases requiring safe and efficient execution of untrusted code outside the web."
+}

@@ -1,0 +1,93 @@
+{
+  "projectName": "taffy",
+  "projectPurpose": "To provide a high-performance, flexible, and embeddable UI layout library in Rust, implementing standard CSS layout algorithms like Flexbox, Grid, and Block for use in other UI frameworks and applications.",
+  "platforms": [
+    "Cross-platform"
+  ],
+  "mainFeatures": [
+    "High-performance layout computation",
+    "Implements CSS Block, Flexbox, and CSS Grid algorithms",
+    "Designed for embedding in UI/GUI libraries",
+    "Provides high-level and low-level APIs",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/DioxusLabs/taffy",
+  "alternatives": [
+    {
+      "name": "Yoga",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (via bindings)",
+        "C++ (core)"
+      ],
+      "mainFeatures": [
+        "Embeddable layout engine",
+        "Implements a subset of CSS Flexbox",
+        "Written in C++",
+        "Bindings for multiple languages",
+        "Used in React Native, Unity"
+      ],
+      "website": "https://github.com/facebook/yoga"
+    },
+    {
+      "name": "Flutter Rendering Engine (Layout)",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Integrated into the Flutter framework",
+        "Constraint-based layout system",
+        "Handles layout, painting, and composition",
+        "Optimized for performance",
+        "Part of a complete UI toolkit"
+      ],
+      "website": "https://flutter.dev/"
+    },
+    {
+      "name": "Qt Layout System",
+      "license": "Open Source (LGPL/GPL) and Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Mobile",
+        "Embedded",
+        "Web (via Qt for WebAssembly)"
+      ],
+      "mainFeatures": [
+        "Provides various layout classes (Box, Grid, Form)",
+        "Used with Qt Widgets and QML",
+        "Handles widget positioning and resizing",
+        "Integrated into the Qt framework",
+        "Supports design tools like Qt Designer"
+      ],
+      "website": "https://www.qt.io/"
+    },
+    {
+      "name": "Stretch",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "UI layout library",
+        "Implements Flexbox layout",
+        "Written in Rust",
+        "Taffy forked from Stretch"
+      ],
+      "website": "https://github.com/stretchtext/stretch"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Yoga",
+    "Flutter Rendering Engine",
+    "Qt Layout System"
+  ],
+  "marketPositioning": "Taffy is positioned as a high-performance, Rust-native UI layout library that differentiates itself by offering comprehensive support for modern CSS layout algorithms (Block, Flexbox, and Grid), unlike some alternatives that focus primarily on Flexbox. It serves as a modular, embeddable engine for other UI frameworks and applications, particularly those within the Rust ecosystem, providing a performant alternative to C++-based engines like Yoga and the integrated layout systems of larger frameworks like Flutter and Qt."
+}

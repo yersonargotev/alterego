@@ -1,0 +1,92 @@
+{
+  "projectName": "PPHC",
+  "projectPurpose": "To provide a free and open-source educational resource (a book) explaining the philosophical principles of high concurrency.",
+  "platforms": [
+    "Web",
+    "Digital Book"
+  ],
+  "mainFeatures": [
+    "Open Source Book",
+    "Focus on Philosophical Principles of High Concurrency",
+    "Licensed under CC BY-NC-ND",
+    "Available online"
+  ],
+  "website": "https://pphc.lvwenhan.com",
+  "alternatives": [
+    {
+      "name": "Designing Data-Intensive Applications",
+      "license": "Proprietary",
+      "platforms": [
+        "Book (Physical/Digital)"
+      ],
+      "mainFeatures": [
+        "Covers principles of distributed systems",
+        "Data models, consistency, replication",
+        "Fault tolerance",
+        "Practical and comprehensive"
+      ],
+      "website": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/"
+    },
+    {
+      "name": "Java Concurrency in Practice",
+      "license": "Proprietary",
+      "platforms": [
+        "Book (Physical/Digital)"
+      ],
+      "mainFeatures": [
+        "Deep dive into Java concurrency",
+        "Threads, locks, and synchronization",
+        "Java Memory Model",
+        "Concurrent utilities and best practices"
+      ],
+      "website": "https://www.javaconcurrencyinpractice.com/"
+    },
+    {
+      "name": "The Little Book of Semaphores",
+      "license": "Open Source",
+      "platforms": [
+        "Digital Book (PDF)"
+      ],
+      "mainFeatures": [
+        "Focuses on fundamental concurrency concepts",
+        "Uses semaphores to explain synchronization",
+        "Covers classic concurrency problems",
+        "Freely available"
+      ],
+      "website": "https://greenteapress.com/wp/semaphores/"
+    },
+    {
+      "name": "Distributed Systems, Principles and Paradigms",
+      "license": "Proprietary",
+      "platforms": [
+        "Book (Physical/Digital)"
+      ],
+      "mainFeatures": [
+        "Comprehensive academic text",
+        "Covers a wide range of distributed systems topics",
+        "Includes communication, processes, and naming",
+        "Discusses consistency, fault tolerance, and security"
+      ],
+      "website": "https://stichting-lezen.github.io/distributed-systems-3rd-edition/"
+    },
+    {
+      "name": "Online Courses (Coursera, Udemy, etc.)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Structured learning paths",
+        "Video lectures and quizzes",
+        "Programming assignments",
+        "Cover various languages and paradigms"
+      ],
+      "website": "https://www.coursera.org/browse/computer-science/systems/concurrent-programming"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Designing Data-Intensive Applications",
+    "Java Concurrency in Practice"
+  ],
+  "marketPositioning": "PPHC is positioned as a unique, open-source and freely accessible book focused specifically on the underlying philosophical principles of high concurrency, distinguishing itself from most alternatives which are either proprietary, language-specific, or broader in scope like covering distributed systems more generally. Its open license and conceptual focus cater to learners seeking foundational understanding rather than practical implementation details in a specific technology."
+}

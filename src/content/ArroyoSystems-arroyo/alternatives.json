@@ -1,0 +1,107 @@
+{
+  "projectName": "arroyo",
+  "projectPurpose": "To provide a distributed, high-performance, and fault-tolerant stream processing engine built in Rust, enabling users to process real-time, high-volume data streams efficiently with support for stateful computations and analytical SQL, designed for ease of use and cloud-native deployments.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Docker",
+    "Kubernetes"
+  ],
+  "mainFeatures": [
+    "Distributed stream processing engine",
+    "Written in Rust",
+    "Stateful computations (windows, joins, aggregations)",
+    "SQL and Rust APIs for pipeline development",
+    "Scales to millions of events per second",
+    "State checkpointing for fault-tolerance and recovery",
+    "Timely stream processing via the Dataflow model",
+    "Designed for serverless/cloud-native deployments (seamless scaling, recovery)",
+    "High performance SQL support",
+    "Easy to use for non-experts",
+    "Exactly-once semantics",
+    "Supports lookup joins and nested SQL updates"
+  ],
+  "website": "https://github.com/ArroyoSystems/arroyo",
+  "alternatives": [
+    {
+      "name": "Apache Flink",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (YARN, Kubernetes, Standalone)"
+      ],
+      "mainFeatures": [
+        "Unified batch and stream processing",
+        "Stateful computations",
+        "Event-time processing and watermarks",
+        "Exactly-once consistency",
+        "High throughput and low latency"
+      ],
+      "website": "https://flink.apache.org/"
+    },
+    {
+      "name": "Apache Spark Structured Streaming",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (Hadoop YARN, Kubernetes, Mesos, Standalone)"
+      ],
+      "mainFeatures": [
+        "Micro-batch processing model (with event-time support)",
+        "Unified batch and streaming APIs (DataFrames/Datasets)",
+        "Fault tolerance",
+        "Integrates with various data sources/sinks",
+        "Supports SQL, Java, Scala, Python, R"
+      ],
+      "website": "https://spark.apache.org/streaming/"
+    },
+    {
+      "name": "Apache Kafka Streams",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform (deployable to containers, VMs, bare metal, cloud)"
+      ],
+      "mainFeatures": [
+        "Client library for building stream processing applications on Kafka",
+        "Elastic and highly scalable",
+        "Fault-tolerant",
+        "Exactly-once processing semantics",
+        "Stateful processing using RocksDB"
+      ],
+      "website": "https://kafka.apache.org/documentation/streams/"
+    },
+    {
+      "name": "Amazon Kinesis Data Streams",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (AWS Managed Service)"
+      ],
+      "mainFeatures": [
+        "Fully managed real-time data streaming service",
+        "Scalable and durable data ingestion",
+        "Supports multiple consumers with Enhanced Fan-Out",
+        "Integrates with other AWS services",
+        "Low latency"
+      ],
+      "website": "https://aws.amazon.com/kinesis/data-streams/"
+    },
+    {
+      "name": "Google Cloud Dataflow",
+      "license": "Proprietary (Managed Service), based on Open Source Apache Beam",
+      "platforms": [
+        "Web (Google Cloud Managed Service)"
+      ],
+      "mainFeatures": [
+        "Fully managed service",
+        "Unified programming model for batch and streaming (Apache Beam)",
+        "Serverless and auto-scaling",
+        "Supports various data sources and sinks",
+        "SDKs in Java, Python, Go"
+      ],
+      "website": "https://cloud.google.com/dataflow"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Flink",
+    "Apache Spark Structured Streaming"
+  ],
+  "marketPositioning": "Arroyo positions itself as a high-performance, cloud-native, and user-friendly distributed stream processing engine built in Rust. It differentiates itself from established Java/Scala frameworks like Flink and Spark through its Rust implementation (potentially offering performance/safety benefits), its strong emphasis on a first-class SQL experience for broader accessibility, and a design specifically tailored for modern cloud-native and serverless operations, aiming to simplify deployment and management compared to traditional systems. While managed services like Kinesis and Dataflow offer serverless capabilities, Arroyo provides an open-source alternative with cloud-native features and the flexibility to run in various environments, including Docker and Kubernetes, balancing ease of operation with avoiding vendor lock-in. Its recent acquisition by Cloudflare further indicates its strategic positioning within the serverless edge data platform space."
+}

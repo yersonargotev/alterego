@@ -1,0 +1,76 @@
+{
+  "projectName": "geektime-rust",
+  "projectPurpose": "To serve as a companion code repository for a Rust programming course on the Geektime online education platform, providing practical code examples and exercises.",
+  "platforms": [
+    "N/A (Code Repository)"
+  ],
+  "mainFeatures": [
+    "Code examples aligned with a specific Rust course curriculum",
+    "Updated alongside course content",
+    "Provides practical exercises for students"
+  ],
+  "website": "https://github.com/tyrchen/geektime-rust",
+  "alternatives": [
+    {
+      "name": "The Rust Programming Language (\"The Book\")",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Print"
+      ],
+      "mainFeatures": [
+        "Comprehensive guide to Rust",
+        "Official documentation",
+        "Covers core concepts and advanced topics",
+        "Available online for free"
+      ],
+      "website": "https://doc.rust-lang.org/book/"
+    },
+    {
+      "name": "Rust by Example",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Learn Rust through runnable code examples",
+        "Hands-on approach to understanding concepts",
+        "Covers various language features and standard library",
+        "Interactive online environment"
+      ],
+      "website": "https://rustbyexample.com/"
+    },
+    {
+      "name": "Rustlings",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Command-line (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Interactive learning via small coding exercises",
+        "Focuses on fixing compiler errors",
+        "Helps users get familiar with Rust syntax and concepts",
+        "Includes a watch mode for guided progress"
+      ],
+      "website": "https://github.com/rust-lang/rustlings/"
+    },
+    {
+      "name": "Online Courses (Udemy, Coursera, etc.)",
+      "license": "Proprietary (typically paid)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Structured video lectures",
+        "Quizzes and coding assignments",
+        "Guided learning paths",
+        "Often cover specific Rust application areas (e.g., web dev)"
+      ],
+      "website": "Varies by platform (e.g., https://www.udemy.com/courses/it-and-software/programming-languages/rust/)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "The Rust Programming Language (\"The Book\")"
+  ],
+  "marketPositioning": "geektime-rust is positioned as a supplementary resource specifically for students enrolled in a commercial Rust programming course on the Geektime platform. Unlike general, freely available Rust learning resources such as The Rust Programming Language book, Rust by Example, or Rustlings, which serve a broad audience of Rust learners, this repository's primary value lies in its direct correlation with the specific curriculum and teaching style of the accompanying paid course. It is a code companion designed to be used in conjunction with the course content, rather than a standalone learning tool."
+}

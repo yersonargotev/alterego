@@ -1,0 +1,101 @@
+{
+  "projectName": "union",
+  "projectPurpose": "To provide a highly secure, decentralized, and trust-minimized infrastructure for cross-chain communication and asset transfer, specifically designed for decentralized finance (DeFi) applications and aiming to connect various blockchain ecosystems (including EVM and IBC chains) without relying on trusted intermediaries.",
+  "platforms": [
+    "Cross-chain (connecting EVM and IBC chains)"
+  ],
+  "mainFeatures": [
+    "Trust-minimized and zero-knowledge bridging protocol",
+    "Designed for censorship resistance and extremely high security",
+    "Supports general message passing, asset transfers, NFTs, and DeFi",
+    "Based on consensus verification, no dependencies on trusted third parties, oracles, multi-signatures, or MPC",
+    "Uses Zero-Knowledge Cryptography and BLS signatures",
+    "Implements IBC for compatibility with Cosmos chains and connects to EVM chains",
+    "Decentralized governance",
+    "Native transfer of any asset to any chain",
+    "Overcomes sovereign bridging trilemma (speed, ubiquity, ownership)"
+  ],
+  "website": "https://github.com/unionlabs/union",
+  "alternatives": [
+    {
+      "name": "LayerZero",
+      "license": "Business Source License 1.1 (BUSL-1.1)",
+      "platforms": [
+        "Cross-chain (over 70+ networks including EVM and non-EVM)"
+      ],
+      "mainFeatures": [
+        "Omnichain interoperability protocol",
+        "Secure cross-chain messaging",
+        "Ultra Light Node architecture",
+        "Configurable security model (DVNs)",
+        "Omnichain Fungible Token (OFT) standard"
+      ],
+      "website": "https://layerzero.network/"
+    },
+    {
+      "name": "Wormhole",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-chain (multiple blockchains)"
+      ],
+      "mainFeatures": [
+        "Cross-chain message passing",
+        "Native token transfers and token bridging",
+        "Multichain governance",
+        "Real-time data queries",
+        "Guardian network for validation"
+      ],
+      "website": "https://wormhole.com/"
+    },
+    {
+      "name": "Chainlink CCIP",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-chain (multiple blockchains including EVM)"
+      ],
+      "mainFeatures": [
+        "Secure cross-chain communication",
+        "Token transfers and arbitrary messaging",
+        "Programmable token transfers",
+        "Leverages Chainlink oracle network",
+        "Active Risk Management network"
+      ],
+      "website": "https://chain.link/ccip"
+    },
+    {
+      "name": "Celer cBridge",
+      "license": "LGPL-3.0, GPL-3.0 (or similar open-source licenses)",
+      "platforms": [
+        "Cross-chain (over 40+ networks)"
+      ],
+      "mainFeatures": [
+        "Fast and low-cost asset transfers",
+        "Uses liquidity pools",
+        "Powered by Celer State Guardian Network (SGN)",
+        "Supports multi-blockchain applications",
+        "Extensive chain compatibility"
+      ],
+      "website": "https://cbridge.celer.network/"
+    },
+    {
+      "name": "Synapse Protocol",
+      "license": "AGPLv3 (with commercial licenses available for the homeserver, protocol is decentralized)",
+      "platforms": [
+        "Cross-chain (wide variety of EVM and non-EVM chains)"
+      ],
+      "mainFeatures": [
+        "Secure cross-chain communication",
+        "Low-cost and high-speed transfers",
+        "Supports tokens, NFTs, and smart contract calls",
+        "Uses cross-chain multi-party computation (MPC)",
+        "Synapse Bridge and Synapse Swap products"
+      ],
+      "website": "https://synapseprotocol.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "LayerZero",
+    "Wormhole"
+  ],
+  "marketPositioning": "Union positions itself as a cutting-edge, highly secure, and decentralized cross-chain bridging and interoperability protocol. Its primary differentiator is its deep reliance on zero-knowledge cryptography and consensus verification for trust minimization, explicitly avoiding traditional trusted third parties, oracles, multi-signatures, or MPC for core validation. This focus on trustlessness and censorship resistance, combined with its hyper-efficient ZK proving system and support for both EVM and IBC chains, targets the DeFi market and users prioritizing the highest levels of security and decentralization compared to alternative bridging solutions that may employ different trust assumptions like validator networks or MPC schemes."
+}

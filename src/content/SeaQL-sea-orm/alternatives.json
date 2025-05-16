@@ -1,0 +1,94 @@
+{
+  "projectName": "sea-orm",
+  "projectPurpose": "To provide a modern, async-first, and flexible Object-Relational Mapper (ORM) for the Rust programming language, specifically tailored for building web services and APIs that interact with relational databases, offering a developer experience similar to ORMs in dynamic languages.",
+  "platforms": [
+    "Rust supported platforms (Windows, macOS, Linux, etc.)"
+  ],
+  "mainFeatures": [
+    "Async-friendly database operations",
+    "Dynamic query building via SeaQuery integration",
+    "Testable with mock connections and SQLite",
+    "Service-oriented features for building APIs (REST, GraphQL, gRPC)",
+    "CLI for migrations, entity, and model generation",
+    "Support for multiple relational databases (MySQL, PostgreSQL, MariaDB, SQLite)",
+    "ActiveModel for extending entity behavior"
+  ],
+  "website": "https://github.com/SeaQL/sea-orm",
+  "alternatives": [
+    {
+      "name": "Diesel",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust supported platforms (Windows, macOS, Linux, etc.)"
+      ],
+      "mainFeatures": [
+        "Compile-time safety and query checking",
+        "Powerful query builder and data mapper",
+        "Database migrations",
+        "Supports PostgreSQL, MySQL, SQLite"
+      ],
+      "website": "https://diesel.rs/"
+    },
+    {
+      "name": "SQLx",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust supported platforms (Windows, macOS, Linux, etc.)"
+      ],
+      "mainFeatures": [
+        "Async-first database driver",
+        "Compile-time checked queries (via macros)",
+        "Database agnostic (PostgreSQL, MySQL, MariaDB, SQLite)",
+        "Connection pooling",
+        "Row streaming"
+      ],
+      "website": "https://github.com/launchbadge/sqlx"
+    },
+    {
+      "name": "Rustorm",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust supported platforms"
+      ],
+      "mainFeatures": [
+        "ORM for Rust",
+        "Supports multiple databases"
+      ],
+      "website": "https://github.com/rustorm/rustorm"
+    },
+    {
+      "name": "Oxidizer",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust supported platforms"
+      ],
+      "mainFeatures": [
+        "Async database interactions",
+        "Based on tokio-postgres and refinery",
+        "Supports PostgreSQL",
+        "Relations via macros"
+      ],
+      "website": "https://oxidizer.rs/"
+    },
+    {
+      "name": "Sqlx-models-orm",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust supported platforms"
+      ],
+      "mainFeatures": [
+        "ActiveRecord pattern based on SQLx",
+        "Compile-time checked queries",
+        "Boilerplate reduction via proc macro",
+        "Postgres only support"
+      ],
+      "website": "https://crates.io/crates/sqlx-models-orm"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Hibernate (Java)",
+    "SQLAlchemy (Python)",
+    "Sequelize (Node.js)"
+  ],
+  "marketPositioning": "SeaORM positions itself as a modern, async-first, and dynamic ORM for Rust web service development. Leveraging SQLx for async capabilities and SeaQuery for flexible query building, it offers a higher-level ORM abstraction compared to SQLx's query builder approach and is async-native unlike the core Diesel library. Its feature set, including a CLI and complementary tools like Seaography and SeaORM Pro, targets developers seeking a comprehensive solution for building data-driven APIs in Rust with a development flow that may feel more familiar to users of ORMs in dynamic languages. It competes directly with Diesel as a primary Rust ORM alternative, emphasizing async support and dynamic query flexibility as key differentiators."
+}

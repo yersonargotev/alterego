@@ -1,0 +1,83 @@
+{
+  "projectName": "zksync-era",
+  "projectPurpose": "To serve as a Layer 2 scaling solution for the Ethereum network, significantly increasing transaction throughput and reducing transaction costs using Zero-Knowledge Rollup technology, while maintaining Ethereum's security and decentralization and providing a developer and user experience similar to Ethereum.",
+  "platforms": [
+    "Web (blockchain network)"
+  ],
+  "mainFeatures": [
+    "Layer 2 ZK rollup for Ethereum scaling",
+    "Uses cryptographic validity proofs (Zero-Knowledge Proofs) for secure and low-cost transactions",
+    "EVM compatibility/equivalence for easy smart contract deployment",
+    "Native account abstraction for enhanced user experience and flexible fee payment",
+    "High transaction throughput and lower transaction fees compared to Ethereum mainnet",
+    "Security inherited from Ethereum"
+  ],
+  "website": "https://github.com/matter-labs/zksync-era",
+  "alternatives": [
+    {
+      "name": "StarkNet",
+      "license": "Open Source",
+      "platforms": [
+        "Web (blockchain network)"
+      ],
+      "mainFeatures": [
+        "Layer 2 Validity Rollup on Ethereum using STARK proofs",
+        "Unlimited scale while retaining Ethereum's security",
+        "Uses Cairo, a Turing-complete language",
+        "Native Account Abstraction",
+        "General purpose for deploying any business logic"
+      ],
+      "website": "https://starknet.io/"
+    },
+    {
+      "name": "Polygon zkEVM",
+      "license": "Open Source",
+      "platforms": [
+        "Web (blockchain network)"
+      ],
+      "mainFeatures": [
+        "Layer 2 ZK-Rollup providing EVM equivalence",
+        "Uses zk-SNARKs and recursive STARKs for proofs",
+        "Reduces transaction costs and increases throughput",
+        "Compatibility with existing Ethereum tools and smart contracts",
+        "Inherits security from Ethereum L1"
+      ],
+      "website": "https://polygon.technology/solutions/polygon-zkevm/"
+    },
+    {
+      "name": "Scroll",
+      "license": "Open Source",
+      "platforms": [
+        "Web (blockchain network)"
+      ],
+      "mainFeatures": [
+        "Layer 2 zkEVM for scaling Ethereum",
+        "Leverages zero-knowledge rollup technology",
+        "Aims for high EVM compatibility",
+        "Reduces gas fees and increases throughput",
+        "Inherits Ethereum's security model"
+      ],
+      "website": "https://scroll.io/"
+    },
+    {
+      "name": "Loopring",
+      "license": "Open Protocol",
+      "platforms": [
+        "Web (protocol for DEXs on Ethereum)"
+      ],
+      "mainFeatures": [
+        "Layer 2 scaling protocol for decentralized exchanges (DEXs) on Ethereum",
+        "Uses zkRollups for high throughput and low costs",
+        "Non-custodial technology",
+        "Order ring mechanism for enhanced liquidity and efficiency",
+        "Enables building high-speed, non-custodial DEXs"
+      ],
+      "website": "https://loopring.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Polygon zkEVM",
+    "StarkNet"
+  ],
+  "marketPositioning": "zkSync Era is positioned as a leading general-purpose Layer 2 ZK Rollup for Ethereum, emphasizing a high degree of EVM compatibility/equivalence and native account abstraction. It directly competes with other major ZK-Rollup initiatives like Polygon zkEVM and Scroll, as well as other Layer 2 scaling solutions, by offering a seamless developer and user experience akin to Ethereum L1 but with significantly enhanced scalability, lower transaction costs, and strong security inherited from Ethereum."
+}

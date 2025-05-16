@@ -1,0 +1,108 @@
+{
+  "projectName": "tower",
+  "projectPurpose": "To provide a foundational, protocol-agnostic framework in Rust for building flexible, robust, and reusable network services and clients through a core Service abstraction and a middleware composition mechanism.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "FreeBSD",
+    "WebAssembly"
+  ],
+  "mainFeatures": [
+    "Modular and reusable components for networking",
+    "Core Service trait for request/response handling",
+    "Protocol-agnostic design",
+    "Composable middleware via Layer trait and ServiceBuilder",
+    "Provides common middleware (timeout, rate limiting, etc.)"
+  ],
+  "website": "https://github.com/tower-rs/tower",
+  "alternatives": [
+    {
+      "name": "Actix Web",
+      "license": "Open Source - MIT or Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "HTTP/1.x and HTTP/2 support",
+        "Powerful request routing",
+        "Middleware support",
+        "WebSockets support",
+        "Integrates with Tokio"
+      ],
+      "website": "https://actix.rs/"
+    },
+    {
+      "name": "Tokio",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "FreeBSD",
+        "WebAssembly"
+      ],
+      "mainFeatures": [
+        "Asynchronous runtime for Rust",
+        "Multithreaded task scheduler",
+        "Event queue (reactor)",
+        "Asynchronous TCP and UDP sockets",
+        "Utilities for asynchronous I/O"
+      ],
+      "website": "https://tokio.rs/"
+    },
+    {
+      "name": "Express.js",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Node.js (Cross-platform)"
+      ],
+      "mainFeatures": [
+        "Minimalist web application framework",
+        "Robust routing",
+        "Middleware support",
+        "HTTP helpers",
+        "Supports various templating engines"
+      ],
+      "website": "https://expressjs.com/"
+    },
+    {
+      "name": "Spring Framework",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Java Platform (Cross-platform)"
+      ],
+      "mainFeatures": [
+        "Dependency Injection container",
+        "Aspect-Oriented Programming (AOP)",
+        "Data access framework",
+        "Transaction management",
+        "MVC web framework"
+      ],
+      "website": "https://spring.io/projects/spring-framework"
+    },
+    {
+      "name": "FastAPI",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Python (Cross-platform)"
+      ],
+      "mainFeatures": [
+        "High performance",
+        "Automatic data validation and serialization (Pydantic)",
+        "Automatic interactive API documentation (Swagger UI & ReDoc)",
+        "Dependency Injection system",
+        "Asynchronous support (asyncio)"
+      ],
+      "website": "https://fastapi.tiangolo.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Spring Framework",
+    "Express.js"
+  ],
+  "marketPositioning": "Tower is a foundational library in the Rust ecosystem designed to simplify the development of robust and modular asynchronous networking clients and servers. At its core is the `Service` trait, a flexible abstraction representing an asynchronous function that processes a request and returns a response or an error. This simple yet powerful abstraction allows Tower to be protocol-agnostic, applicable to various request/response-based protocols, not just HTTP. Tower promotes code reusability and maintainability through its `Layer` trait and `ServiceBuilder`, enabling developers to compose middleware (like rate limiting, timeouts, or logging) around existing services. Unlike opinionated, all-in-one web frameworks, Tower provides the essential building blocks and patterns, serving as an integration point for application logic, middleware libraries, and protocol-specific implementations. This makes Tower an excellent choice for developers building custom network services, RPC systems, or contributing to higher-level frameworks within the asynchronous Rust landscape."
+}

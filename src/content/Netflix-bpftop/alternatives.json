@@ -1,0 +1,78 @@
+{
+  "projectName": "bpftop",
+  "projectPurpose": "To provide a dynamic, real-time monitoring tool for observing the performance and resource usage of running eBPF programs on Linux.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Dynamic real-time view of running eBPF programs",
+    "Displays average runtime per program",
+    "Shows events per second per program",
+    "Estimates total CPU % per program",
+    "Interactive, top-like terminal interface"
+  ],
+  "website": "https://github.com/Netflix/bpftop",
+  "alternatives": [
+    {
+      "name": "bpftool",
+      "license": "Open Source (GPL-2.0)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "List loaded eBPF programs",
+        "Dump eBPF program instructions",
+        "Show basic statistics (runtime, run count) if enabled",
+        "Manage eBPF maps"
+      ],
+      "website": "https://github.com/libbpf/bpftool"
+    },
+    {
+      "name": "BCC (BPF Compiler Collection)",
+      "license": "Open Source (Apache-2.0)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Collection of pre-built eBPF tools for tracing and monitoring",
+        "Python and C interfaces for custom eBPF programs",
+        "Tools for I/O analysis, networking, etc.",
+        "Includes tools to inspect process activity"
+      ],
+      "website": "https://github.com/iovisor/bcc"
+    },
+    {
+      "name": "BPFtrace",
+      "license": "Open Source (Apache-2.0)",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "High-level tracing language for eBPF",
+        "Simplifies eBPF program creation",
+        "Command-line interface",
+        "Includes pre-built tracing tools"
+      ],
+      "website": "https://github.com/iovisor/bpftrace"
+    },
+    {
+      "name": "Inspektor Gadget",
+      "license": "Open Source (Apache-2.0)",
+      "platforms": [
+        "Linux (Kubernetes)"
+      ],
+      "mainFeatures": [
+        "Tools for Kubernetes introspection and debugging",
+        "Uses eBPF to collect data",
+        "Includes 'top ebpf' gadget for K8s environments",
+        "Provides kubectl plugin"
+      ],
+      "website": "https://github.com/inspektor-gadget/inspektor-gadget"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "bpftool",
+    "BCC (BPF Compiler Collection)"
+  ],
+  "marketPositioning": "bpftop is positioned as a specialized, real-time performance monitoring tool specifically for eBPF programs on Linux. Unlike general system monitors or broader eBPF toolkits, it provides a dynamic, continuously updated view focused on the runtime, event rate, and CPU usage of individual eBPF programs. This makes it a focused tool for developers and system administrators who need immediate, detailed visibility into eBPF program performance, complementing the capabilities of more general eBPF management tools like bpftool and the extensive tracing capabilities of BCC and BPFtrace."
+}

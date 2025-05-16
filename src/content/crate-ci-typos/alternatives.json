@@ -1,0 +1,112 @@
+{
+  "projectName": "typos",
+  "projectPurpose": "To provide a fast, efficient, and low false-positive spell checker specifically designed for source code, suitable for both interactive development and automated workflows.",
+  "platforms": [
+    "Command Line",
+    "CI/CD",
+    "Editors (via LSP/extensions)"
+  ],
+  "mainFeatures": [
+    "Source code aware spell checking (handles identifiers like snake_case, CamelCase)",
+    "Low false positives using a curated list of known typos",
+    "Fast performance for large codebases",
+    "Integrations with CI/CD (GitHub Actions, pre-commit)",
+    "Editor integration via Language Server Protocol (LSP)"
+  ],
+  "website": "https://github.com/crate-ci/typos",
+  "alternatives": [
+    {
+      "name": "Code Spell Checker",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "VS Code"
+      ],
+      "mainFeatures": [
+        "Integrates directly into VS Code",
+        "Supports multiple languages and dictionaries",
+        "Allows workspace and user dictionaries",
+        "Checks comments, strings, and identifiers"
+      ],
+      "website": "https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
+    },
+    {
+      "name": "codespell",
+      "license": "Open Source - GPL-2.0-only",
+      "platforms": [
+        "Command Line",
+        "CI/CD"
+      ],
+      "mainFeatures": [
+        "Focuses on common misspellings in text files and source code",
+        "Uses a dictionary of common spelling errors",
+        "Skip backslash escapes",
+        "Integration with GitHub Actions"
+      ],
+      "website": "https://github.com/codespell-project/codespell"
+    },
+    {
+      "name": "Vale",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Command Line",
+        "Editors (via extensions)"
+      ],
+      "mainFeatures": [
+        "Pluggable linting for prose",
+        "Supports spell checking with custom dictionaries and styles",
+        "Integrates into CI/CD",
+        "Editor integrations (VS Code, others)"
+      ],
+      "website": "https://vale.sh/"
+    },
+    {
+      "name": "GNU Aspell",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Command Line",
+        "Library"
+      ],
+      "mainFeatures": [
+        "General purpose spell checker",
+        "Superior suggestion engine",
+        "Supports multiple dictionaries",
+        "Handles UTF-8"
+      ],
+      "website": "http://aspell.net/"
+    },
+    {
+      "name": "Hunspell",
+      "license": "Open Source - LGPL/GPL/MPL",
+      "platforms": [
+        "Command Line",
+        "Library"
+      ],
+      "mainFeatures": [
+        "Spell checker and morphological analyzer",
+        "Used in many applications (browsers, office suites)",
+        "Supports affix compression",
+        "Unicode support"
+      ],
+      "website": "https://hunspell.github.io/"
+    },
+    {
+      "name": "scspell",
+      "license": "Open Source",
+      "platforms": [
+        "Command Line"
+      ],
+      "mainFeatures": [
+        "Spell checks alphanumeric strings in source code",
+        "Splits tokens based on underscores and capitalization",
+        "Supports language-specific and file-specific dictionaries",
+        "Interactive mode and reporting mode"
+      ],
+      "website": "https://github.com/myint/scspell"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Code Spell Checker (VS Code extension)",
+    "codespell"
+  ],
+  "marketPositioning": "typos is positioned as a fast, low false-positive source code spell checker built in Rust. Its core differentiator is its reliance on a curated list of known typo corrections rather than a comprehensive dictionary, which significantly reduces false positives in code. This makes it highly effective for automated checks in CI/CD pipelines. It also offers editor integrations via LSP, providing a balance between accuracy, speed, and developer workflow."
+}

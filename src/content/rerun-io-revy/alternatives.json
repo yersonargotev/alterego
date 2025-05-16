@@ -1,0 +1,136 @@
+{
+  "projectName": "revy",
+  "projectPurpose": "To provide time-travel debugging capabilities for the Bevy game engine, allowing developers to investigate gameplay, physics, and behavioral bugs by recording and inspecting the game state over time.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Time-travel debugging for Bevy",
+    "Records frame-by-frame state diffs",
+    "Logs data to Rerun database",
+    "Inspect and visualize historical game state",
+    "Supports custom loggers"
+  ],
+  "website": "https://github.com/rerun-io/revy",
+  "alternatives": [
+    {
+      "name": "Unity Debugger (via Visual Studio/Rider)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "Mobile",
+        "Consoles"
+      ],
+      "mainFeatures": [
+        "Breakpoints and stepping",
+        "Variable inspection",
+        "Expression evaluation",
+        "Attach to running instances",
+        "Frame debugger"
+      ],
+      "website": "https://unity.com/"
+    },
+    {
+      "name": "Unreal Engine Debugger (via Visual Studio/Rider/Built-in)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Consoles",
+        "Mobile",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Breakpoints and watchpoints",
+        "Inspect/evaluate expressions",
+        "Gameplay Debugger",
+        "Visual Logger",
+        "Natvis support"
+      ],
+      "website": "https://www.unrealengine.com/"
+    },
+    {
+      "name": "Godot Debugger",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "Mobile",
+        "Consoles"
+      ],
+      "mainFeatures": [
+        "Integrated debugger panel",
+        "Breakpoints and stepping",
+        "Runtime data inspection",
+        "Visualize collision shapes",
+        "Real-time in-editor interaction"
+      ],
+      "website": "https://godotengine.org/"
+    },
+    {
+      "name": "Bevy's Built-in/Community Debugging Tools",
+      "license": "Open Source (MIT/Apache 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "Mobile",
+        "Consoles"
+      ],
+      "mainFeatures": [
+        "FPS overlay",
+        "On-screen text/visuals",
+        "State debugging tools",
+        "In-game property inspection (bevy_inspector_egui)",
+        "Debug console (bevy_mod_debug_console)"
+      ],
+      "website": "https://bevyengine.org/"
+    },
+    {
+      "name": "Rerun",
+      "license": "Open Source - Apache 2.0, MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Visualize multimodal data streams",
+        "Time-aware data handling (time travel)",
+        "SDKs for multiple languages",
+        "Live or file logging",
+        "Interactive viewer"
+      ],
+      "website": "https://www.rerun.io/"
+    },
+    {
+      "name": "Undo LiveRecorder",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Record and replay execution",
+        "True time-travel debugging",
+        "Analyze complex bugs",
+        "GDB integration"
+      ],
+      "website": "https://www.perforce.com/products/helix-core/learn/time-travel-debugging"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Unity Debugger",
+    "Unreal Engine Debugger"
+  ],
+  "marketPositioning": "revy is a proof-of-concept time-travel debugger tailored for the Bevy game engine, built using the Rerun platform. It is positioned as a specialized tool for advanced Bevy debugging, offering the unique capability to record and step back through the game's state over time to diagnose complex gameplay and behavioral bugs. Unlike traditional game engine debuggers that primarily focus on forward stepping and static state inspection at a breakpoint, revy provides a historical view. It complements Bevy's existing debugging ecosystem (which includes real-time inspectors and visualizers) by adding a time-travel dimension. As a proof-of-concept, it explores this specific debugging paradigm within the Bevy context, leveraging Rerun's multimodal data visualization strengths, rather than aiming to be a comprehensive replacement for all debugging needs like graphics or performance profiling."
+}

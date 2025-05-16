@@ -1,0 +1,117 @@
+{
+  "projectName": "gooey",
+  "projectPurpose": "To provide an experimental cross-platform graphical user interface (GUI) toolkit in the form of a Rust crate.",
+  "platforms": [
+    "Cross-platform"
+  ],
+  "mainFeatures": [
+    "Provides a graphical user interface (GUI) toolkit",
+    "Cross-platform compatibility",
+    "Implemented as a Rust crate",
+    "Currently in an experimental phase"
+  ],
+  "website": "https://github.com/khonsulabs/gooey",
+  "alternatives": [
+    {
+      "name": "Iced",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Cross-platform GUI library",
+        "Inspired by Elm architecture",
+        "Responsive layout",
+        "Built-in and custom widgets"
+      ],
+      "website": "https://iced.rs/"
+    },
+    {
+      "name": "egui",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Web",
+        "Native (Linux, Mac, Windows, Android)",
+        "Integrable into game engines"
+      ],
+      "mainFeatures": [
+        "Immediate mode GUI library",
+        "Pure Rust implementation",
+        "Simple, fast, and portable",
+        "Easy to integrate"
+      ],
+      "website": "https://www.egui.rs/"
+    },
+    {
+      "name": "Relm4",
+      "license": "Open Source - Apache 2.0 OR MIT",
+      "platforms": [
+        "Cross-platform (depends on GTK4)"
+      ],
+      "mainFeatures": [
+        "Idiomatic GUI library based on gtk4-rs",
+        "Inspired by Elm architecture",
+        "Focus on productivity and simplicity",
+        "Uses macros for declarative UI"
+      ],
+      "website": "https://relm4.org/"
+    },
+    {
+      "name": "gtk-rs",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform (bindings for GTK)"
+      ],
+      "mainFeatures": [
+        "Safe Rust bindings for GTK 4",
+        "Access to a mature toolkit",
+        "Extensive documentation",
+        "Supports a wide range of widgets"
+      ],
+      "website": "https://gtk-rs.org/"
+    },
+    {
+      "name": "Slint",
+      "license": "Open Source (GPL, royalty-free for desktop/mobile), Proprietary",
+      "platforms": [
+        "Embedded devices",
+        "Desktop (Windows, macOS, Linux)",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Declarative GUI toolkit",
+        "Supports Rust, C++, JavaScript, Python",
+        "Custom markup language (.slint)",
+        "Focus on fluid user interfaces"
+      ],
+      "website": "https://slint.dev/"
+    },
+    {
+      "name": "cxx-qt",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "WebAssembly",
+        "Other Qt/Rust supported platforms"
+      ],
+      "mainFeatures": [
+        "Create bidirectional Rust \u2194 C++ bindings with Qt",
+        "Implement QObject subclasses in Rust",
+        "Integrate Rust into C++ or build Rust applications with Cargo",
+        "Safe communication between Rust and C++ using CXX"
+      ],
+      "website": "https://github.com/KDAB/cxx-qt"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Qt",
+    "Iced",
+    "egui"
+  ],
+  "marketPositioning": "\"gooey\" is positioned as an experimental, early-stage cross-platform GUI library for Rust. Unlike more established Rust GUI options or bindings to mature toolkits, it is still in active development and exploration. Its position is currently niche within the Rust GUI ecosystem, appealing to developers interested in contributing to or experimenting with new GUI paradigms in Rust. Its future market standing will depend on its progress, unique features, and community adoption compared to more mature and widely used alternatives like Iced, egui, and gtk-rs, or even solutions leveraging existing frameworks like Qt via cxx-qt."
+}

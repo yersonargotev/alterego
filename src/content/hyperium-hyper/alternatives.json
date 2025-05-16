@@ -1,0 +1,99 @@
+{
+  "projectName": "hyper",
+  "projectPurpose": "To provide a fundamental, low-level, and high-performance library for implementing HTTP clients and servers in the Rust programming language, serving as a building block for other libraries and frameworks.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "Low-level HTTP primitives",
+    "High-performance",
+    "Memory safety (due to Rust)",
+    "Integration with Rust's async ecosystem (Tokio)"
+  ],
+  "website": "https://github.com/hyperium/hyper",
+  "alternatives": [
+    {
+      "name": "reqwest",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Rust",
+        "WASM"
+      ],
+      "mainFeatures": [
+        "Asynchronous and blocking clients",
+        "Handles JSON, urlencoded, multipart bodies",
+        "Customizable redirect policy",
+        "HTTPS support (native-tls or rustls)",
+        "Cookie store"
+      ],
+      "website": "https://github.com/seanmonstar/reqwest"
+    },
+    {
+      "name": "Actix Web",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "HTTP/1.x and HTTP/2 support",
+        "Request routing",
+        "Tokio compatibility",
+        "WebSockets support",
+        "Middleware support"
+      ],
+      "website": "https://actix.rs/"
+    },
+    {
+      "name": "Python Requests",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "Keep-Alive & Connection Pooling",
+        "Automatic Content Decoding",
+        "Sessions with Cookie Persistence",
+        "Browser-style SSL Verification",
+        "Various Authentication Methods"
+      ],
+      "website": "https://requests.readthedocs.io/en/latest/"
+    },
+    {
+      "name": "Go net/http",
+      "license": "Open Source - BSD-style",
+      "platforms": [
+        "Go"
+      ],
+      "mainFeatures": [
+        "HTTP client and server implementations",
+        "Handles standard HTTP methods (GET, POST, etc.)",
+        "Customizable Client for headers and redirects",
+        "Transport for lower-level control (proxies, TLS)",
+        "Built-in to Go standard library"
+      ],
+      "website": "https://pkg.go.dev/net/http"
+    },
+    {
+      "name": "OkHttp",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "JVM",
+        "Android",
+        "GraalVM"
+      ],
+      "mainFeatures": [
+        "HTTP/2 support",
+        "Connection pooling",
+        "Transparent GZIP compression",
+        "Response caching",
+        "Synchronous and asynchronous calls"
+      ],
+      "website": "https://square.github.io/okhttp/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Python Requests",
+    "OkHttp"
+  ],
+  "marketPositioning": "Hyper is positioned as a foundational, low-level, and high-performance HTTP library for Rust. It is designed for developers building higher-level web frameworks, proxies, or other network infrastructure in Rust where control over the raw HTTP protocol and maximum performance are critical. Unlike more 'batteries-included' HTTP clients like reqwest or web frameworks like Actix Web, Hyper provides the core components. Compared to HTTP libraries in other languages, its key differentiator is leveraging Rust's memory safety and concurrency model to offer a reliable and efficient base layer for HTTP in the Rust ecosystem."
+}

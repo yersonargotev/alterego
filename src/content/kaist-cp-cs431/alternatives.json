@@ -1,0 +1,93 @@
+{
+  "projectName": "cs431",
+  "projectPurpose": "Serves as the online repository and resource hub for the KAIST CS431 Concurrent Programming course, providing educational materials and assignments for students to learn and practice concurrent programming in Rust.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Provides course materials for Concurrent Programming",
+    "Focuses on the Rust programming language",
+    "Covers theoretical programming models for concurrency",
+    "Explores practical implementation of locks and lock-free data structures",
+    "Includes detailed programming assignments"
+  ],
+  "website": "https://github.com/kaist-cp/cs431",
+  "alternatives": [
+    {
+      "name": "The Rust Book (Concurrency Chapter)",
+      "license": "Open Source (MIT/Apache 2.0)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Introduction to Rust concurrency features",
+        "Explains threads and message passing",
+        "Covers shared state concurrency and Rust's safety guarantees",
+        "Part of the official Rust documentation"
+      ],
+      "website": "https://doc.rust-lang.org/book/ch16-00-concurrency.html"
+    },
+    {
+      "name": "Rust Atomics and Locks by Mara Bos",
+      "license": "Proprietary (Book)",
+      "platforms": [
+        "Book (Physical/Digital)"
+      ],
+      "mainFeatures": [
+        "In-depth coverage of low-level concurrency in Rust",
+        "Explains atomic operations",
+        "Details implementation of locks and synchronization primitives",
+        "Focuses on `std::sync` and `std::sync::atomic`"
+      ],
+      "website": "https://marabos.nl/atomics/"
+    },
+    {
+      "name": "Operating Systems: Three Easy Pieces (Concurrency sections)",
+      "license": "Open Source (Freely available)",
+      "platforms": [
+        "Web",
+        "PDF"
+      ],
+      "mainFeatures": [
+        "Classic textbook material on OS concepts",
+        "Covers foundational concurrency, threads, and locks",
+        "Explains synchronization primitives",
+        "Discusses common concurrency problems"
+      ],
+      "website": "https://pages.cs.wisc.edu/~remzi/OSTEP/"
+    },
+    {
+      "name": "Online Course Platforms (e.g., Coursera, edX)",
+      "license": "Proprietary (Course fees, some audits free)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Structured video lectures",
+        "Assignments and quizzes",
+        "Cover various languages and concurrency paradigms",
+        "Offer certificates"
+      ],
+      "website": "https://www.coursera.org/"
+    },
+    {
+      "name": "Concurrency in C++ by Anthony Williams",
+      "license": "Proprietary (Book)",
+      "platforms": [
+        "Book (Physical/Digital)"
+      ],
+      "mainFeatures": [
+        "Focuses on C++ concurrency features",
+        "Covers threads, futures, and promises",
+        "Discusses the C++ memory model",
+        "Explores concurrent data structures"
+      ],
+      "website": "https://www.packtpub.com/product/c-concurrency-in-action-second-edition/9781617294224"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Operating Systems: Three Easy Pieces",
+    "Online Course Platforms (Coursera, edX)"
+  ],
+  "marketPositioning": "KAIST CS431 is positioned as a high-quality academic course repository for learning concurrent programming specifically through the lens of the Rust language. Unlike general books or online tutorials, it offers a structured, university-level curriculum with detailed assignments and theoretical depth, making it a valuable resource for students formally studying the subject or advanced self-learners seeking a rigorous approach to concurrency in Rust."
+}

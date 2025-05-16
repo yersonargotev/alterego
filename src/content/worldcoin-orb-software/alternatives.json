@@ -1,0 +1,116 @@
+{
+  "projectName": "orb-software",
+  "projectPurpose": "Provides the software for the Worldcoin Orb device to capture and process iris biometrics, verifying human uniqueness for the purpose of issuing a World ID within the Worldcoin ecosystem.",
+  "platforms": [
+    "Embedded (specifically for the Worldcoin Orb hardware)"
+  ],
+  "mainFeatures": [
+    "Iris image capture and processing",
+    "Generation of unique iris codes for identity verification",
+    "Verification of human uniqueness against existing iris codes",
+    "Deletion of biometric images after processing for privacy",
+    "Integration with the Worldcoin ecosystem for World ID issuance"
+  ],
+  "website": "https://github.com/worldcoin/orb-software",
+  "alternatives": [
+    {
+      "name": "Neurotechnology VeriEye SDK",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Rapid and accurate iris identification",
+        "Robust recognition under various conditions",
+        "Iris liveness detection",
+        "Multiplatform SDK for integration"
+      ],
+      "website": "https://www.neurotechnology.com/verieye"
+    },
+    {
+      "name": "Iris ID iData SDK",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Likely others for broader solutions"
+      ],
+      "mainFeatures": [
+        "Integration of iris recognition into access control/time & attendance",
+        "Management of secure data storage on Iris Readers",
+        "Programming interfaces (C++, C#, VB.NET)"
+      ],
+      "website": "https://www.irisid.com/software/software-products"
+    },
+    {
+      "name": "Aware IrisCheck SDK",
+      "license": "Proprietary",
+      "platforms": [
+        "Various (SDKs typically support major OS)"
+      ],
+      "mainFeatures": [
+        "Automated quality analysis of iris images",
+        "Compliance assurance for biometric standards",
+        "Advanced image processing",
+        "Detects non-compliant features in iris scans"
+      ],
+      "website": "https://www.aware.com/system-integrator-solutions/biometric-sdks/"
+    },
+    {
+      "name": "Eyecool Cool-Iris SDK",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Iris recognition algorithm",
+        "Capture client application",
+        "Demo code and tools",
+        "Supports 1v1 and 1vN matching"
+      ],
+      "website": "https://www.eyecool.com/sdk.html"
+    },
+    {
+      "name": "OpenBR",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "OS X",
+        "Linux",
+        "Raspbian"
+      ],
+      "mainFeatures": [
+        "Open source biometric framework",
+        "Supports various biometric modalities (primarily face initially)",
+        "Development of open algorithms",
+        "Reproducible evaluations"
+      ],
+      "website": "http://openbiometrics.org/"
+    },
+    {
+      "name": "Simprints",
+      "license": "Open Source",
+      "platforms": [
+        "Mobile (Android based on use cases)"
+      ],
+      "mainFeatures": [
+        "Open-source biometric ID platform",
+        "Privacy-focused design",
+        "Designed for challenging, remote environments",
+        "Focus on social impact applications"
+      ],
+      "website": "https://simprints.gitbook.io/simprints-documentation/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Neurotechnology VeriEye SDK (for iris recognition SDKs)",
+    "Onfido (for broader identity verification platforms incorporating biometrics)"
+  ],
+  "marketPositioning": "The orb-software holds a unique market position as the dedicated operating software for the proprietary Worldcoin Orb hardware. Unlike general-purpose biometric SDKs or identity verification platforms that can be integrated into various systems, this software is purpose-built for a specific device within the Worldcoin ecosystem. Its positioning is not as a direct competitor in the broader biometric software market but rather as the foundational software enabling the Orb's function of verifying human uniqueness through iris scanning to facilitate the creation of a World ID. Its open-sourcing is positioned as a measure of transparency for the Worldcoin project rather than making it a general-purpose open-source biometric tool."
+}

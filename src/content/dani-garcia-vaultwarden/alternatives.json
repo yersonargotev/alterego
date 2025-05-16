@@ -1,0 +1,103 @@
+{
+  "projectName": "vaultwarden",
+  "projectPurpose": "To provide a lightweight, self-hostable, and Bitwarden-client-compatible server implementation for password management.",
+  "platforms": [
+    "Server (Linux, Docker, etc.)"
+  ],
+  "mainFeatures": [
+    "Bitwarden client compatibility",
+    "Low resource usage",
+    "Self-hostable server",
+    "Written in Rust (efficiency)"
+  ],
+  "website": "https://github.com/dani-garcia/vaultwarden",
+  "alternatives": [
+    {
+      "name": "Bitwarden (Official)",
+      "license": "Open Source (Server: AGPL-3.0, Clients: GPL-3.0, some proprietary modules)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "Android",
+        "iOS",
+        "Browser Extensions",
+        "CLI"
+      ],
+      "mainFeatures": [
+        "Secure vault storage",
+        "Password generator",
+        "Secure sharing",
+        "Multi-factor authentication",
+        "Self-hosting option"
+      ],
+      "website": "https://bitwarden.com/"
+    },
+    {
+      "name": "KeePass",
+      "license": "Open Source (GNU General Public License)",
+      "platforms": [
+        "Windows",
+        "macOS (via ports)",
+        "Linux (via ports)",
+        "Mobile (via ports)"
+      ],
+      "mainFeatures": [
+        "Strong encryption (AES-256, Twofish)",
+        "Offline database",
+        "Portable",
+        "Password generator",
+        "Plugin support"
+      ],
+      "website": "https://keepass.info/"
+    },
+    {
+      "name": "LastPass",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Browser Extensions"
+      ],
+      "mainFeatures": [
+        "Password vault",
+        "Autofill",
+        "Password generator",
+        "Secure notes",
+        "Secure sharing"
+      ],
+      "website": "https://www.lastpass.com/"
+    },
+    {
+      "name": "1Password",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Browser Extensions",
+        "Web app"
+      ],
+      "mainFeatures": [
+        "Secure vault for multiple item types",
+        "Autofill",
+        "Secure sharing",
+        "Travel Mode",
+        "Integrations (SSO, SIEM)"
+      ],
+      "website": "https://1password.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "LastPass",
+    "1Password"
+  ],
+  "marketPositioning": "Vaultwarden is positioned as a lightweight, open-source, self-hostable server alternative to the official Bitwarden server. It specifically targets users who want to self-host their password vault on resource-constrained devices while utilizing the full-featured and widely available official Bitwarden clients. Its compatibility with Bitwarden clients is a key differentiator compared to other self-hosted solutions with their own client ecosystems. It competes with the official Bitwarden self-hosted option by offering lower resource requirements and with proprietary cloud services by providing a self-hosted, privacy-focused alternative."
+}

@@ -1,0 +1,82 @@
+{
+  "projectName": "monolith",
+  "projectPurpose": "To provide a command-line tool for saving complete web pages as a single HTML file with embedded resources for offline viewing.",
+  "platforms": [
+    "Command Line (various operating systems where Rust is supported)"
+  ],
+  "mainFeatures": [
+    "Saves complete web pages",
+    "Embeds all external assets (CSS, images, fonts, etc.)",
+    "Outputs a single HTML file",
+    "Command-Line Interface (CLI)",
+    "Written in Rust (implying performance and portability)"
+  ],
+  "website": "https://github.com/Y2Z/monolith",
+  "alternatives": [
+    {
+      "name": "SingleFile",
+      "license": "Open Source",
+      "platforms": [
+        "Browser Extension (Chrome, Firefox, Edge, Safari, etc.)",
+        "CLI (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Saves complete page as single HTML",
+        "Supports various browsers",
+        "Offers GUI (extension) and CLI versions",
+        "Includes features like annotations and auto-save (extension)",
+        "Can save to cloud storage (extension)"
+      ],
+      "website": "https://github.com/gildas-lormeau/SingleFile"
+    },
+    {
+      "name": "Save Page WE",
+      "license": "Open Source",
+      "platforms": [
+        "Firefox Extension"
+      ],
+      "mainFeatures": [
+        "Saves complete page as single HTML",
+        "Supports saving multiple pages",
+        "Command-line automation capabilities"
+      ],
+      "website": "https://addons.mozilla.org/en-US/firefox/addon/save-page-we/"
+    },
+    {
+      "name": "Browser's Native Save (MHTML)",
+      "license": "Proprietary (part of browser)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Built into web browsers",
+        "Saves page and assets in a single file (.mht/.mhtml)",
+        "Convenient for basic offline saving"
+      ],
+      "website": "N/A (Built into browsers)"
+    },
+    {
+      "name": "Wget",
+      "license": "Open Source (GNU GPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Downloads files and websites",
+        "Supports recursive downloads",
+        "Can download page requisites",
+        "CLI-based"
+      ],
+      "website": "https://www.gnu.org/software/wget/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Browser's Native Save (including MHTML)",
+    "SingleFile (Browser Extension)"
+  ],
+  "marketPositioning": "monolith is positioned as a focused, efficient, and portable command-line tool for developers and users who prioritize a CLI workflow for archiving web pages into single, self-contained HTML files. Unlike browser extensions that offer a GUI and a wider range of features, monolith excels in its simplicity, speed, and ease of integration into scripts and automated tasks. Compared to general downloaders like Wget, its core strength lies in embedding assets directly into the HTML, creating a truly single-file archive. Its implementation in Rust further emphasizes its focus on performance and resource efficiency, appealing to users who need a reliable, no-frills solution for offline web page preservation via the command line."
+}

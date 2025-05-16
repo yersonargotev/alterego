@@ -1,0 +1,135 @@
+{
+  "projectName": "plock",
+  "projectPurpose": "To provide a quick and universal interface for interacting with Large Language Models (LLMs) and other scripts from any typing context on a system.",
+  "platforms": [
+    "Likely Cross-platform (Rust project, but specific platform support not detailed in metadata)"
+  ],
+  "mainFeatures": [
+    "Query Large Language Models (LLMs)",
+    "Stream output from LLMs",
+    "Query any other script",
+    "Accessible from anywhere you can type"
+  ],
+  "website": "https://github.com/jasonjmcghee/plock",
+  "alternatives": [
+    {
+      "name": "LLM (CLI Utility by Simon Willison)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Interact with LLMs via CLI",
+        "Supports remote APIs and local models (via plugins)",
+        "Store results in SQLite",
+        "Generate embeddings",
+        "Process images, audio, and video via terminal"
+      ],
+      "website": "https://llm.datasette.io/"
+    },
+    {
+      "name": "Query LLM",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (requires Node.js or Bun)"
+      ],
+      "mainFeatures": [
+        "Simple CLI tool for querying LLMs",
+        "Supports cloud and local models",
+        "Zero-dependency",
+        "Uses Chain-of-Thought method"
+      ],
+      "website": "https://github.com/mnielsen/query-llm"
+    },
+    {
+      "name": "PyGPT",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Desktop AI Assistant with GUI",
+        "Supports various LLMs and services",
+        "Chat, Vision, Image Generation, Tools",
+        "Voice control",
+        "Plugin extensions"
+      ],
+      "website": "https://pygpt.net/"
+    },
+    {
+      "name": "Jan",
+      "license": "Open Source - AGPL-3.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Open-source ChatGPT alternative",
+        "Runs models 100% offline",
+        "Local-first AI",
+        "Model Hub for downloading models",
+        "Connect to Cloud AIs"
+      ],
+      "website": "https://jan.ai/"
+    },
+    {
+      "name": "Raycast",
+      "license": "Proprietary (Free and Pro plans)",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Powerful quick-access launcher",
+        "File search and application launching",
+        "Extensions for various apps",
+        "Raycast AI for quick AI queries",
+        "Snippets and text expansion"
+      ],
+      "website": "https://www.raycast.com/"
+    },
+    {
+      "name": "Alfred",
+      "license": "Proprietary (Free and Powerpack paid license)",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Quick-access launcher",
+        "Search Mac and web",
+        "Workflows for automation (Powerpack)",
+        "Text expansion (Powerpack)",
+        "Clipboard history (Powerpack)"
+      ],
+      "website": "https://www.alfredapp.com/"
+    },
+    {
+      "name": "Mycroft",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Raspberry Pi"
+      ],
+      "mainFeatures": [
+        "Open-source voice assistant",
+        "Runs on various platforms",
+        "Private by default",
+        "Completely customizable",
+        "Skills for extended functionality"
+      ],
+      "website": "https://mycroft.ai/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Raycast",
+    "Alfred"
+  ],
+  "marketPositioning": "plock is positioned as a minimalist, efficient, and universally accessible tool for interacting with LLMs and custom scripts. Unlike full desktop AI assistants with graphical interfaces, it focuses on providing quick access from any typing context, similar to quick launchers but specifically tailored for querying LLMs and scripts. Its ability to execute arbitrary scripts differentiates it from many LLM-specific tools, offering broader automation potential directly integrated into the user's typing workflow. It stands apart from more established universal launchers by explicitly highlighting LLM interaction as a core feature.",
+  "expandedDescription": "From anywhere you can type, plock allows you to instantly query and stream the output of a Large Language Model (LLM) or execute and stream the results of any other script. This tool provides a seamless way to integrate AI capabilities and custom automation directly into your daily workflow, accessible without needing to switch applications or open a dedicated terminal window."
+}

@@ -1,0 +1,95 @@
+{
+  "projectName": "DragonOS",
+  "projectPurpose": "To create a new, lightweight operating system kernel using the Rust programming language with Linux compatibility, designed for lightweight cloud computing scenarios.",
+  "platforms": [],
+  "mainFeatures": [
+    "Operating system developed from scratch",
+    "Written in Rust",
+    "Linux compatibility",
+    "Designed for lightweight cloud computing scenarios"
+  ],
+  "website": "https://github.com/DragonOS-Community/DragonOS",
+  "alternatives": [
+    {
+      "name": "Redox OS",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "x86",
+        "ARM (preliminary)"
+      ],
+      "mainFeatures": [
+        "Microkernel design",
+        "Written in Rust",
+        "Partial POSIX compatibility",
+        "Source compatibility with Linux/BSD programs",
+        "Custom filesystem (RedoxFS)"
+      ],
+      "website": "https://www.redox-os.org/"
+    },
+    {
+      "name": "Linux",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "x86",
+        "ARM",
+        "Multiple others"
+      ],
+      "mainFeatures": [
+        "Monolithic kernel",
+        "Highly customizable",
+        "Large software repository",
+        "Dominant in servers and cloud"
+      ],
+      "website": "https://www.kernel.org/"
+    },
+    {
+      "name": "Minix 3",
+      "license": "Open Source - BSD 3-Clause",
+      "platforms": [
+        "x86",
+        "ARM"
+      ],
+      "mainFeatures": [
+        "Microkernel design",
+        "High reliability focus",
+        "Small footprint",
+        "POSIX-compliant with NetBSD userland"
+      ],
+      "website": "http://www.minix3.org/"
+    },
+    {
+      "name": "Bottlerocket",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "AWS Cloud",
+        "Other environments"
+      ],
+      "mainFeatures": [
+        "Minimalist",
+        "Container-focused",
+        "Security-hardened",
+        "Designed for running container hosts"
+      ],
+      "website": "https://aws.amazon.com/bottlerocket/"
+    },
+    {
+      "name": "OSv",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Cloud environments",
+        "Virtual Machines"
+      ],
+      "mainFeatures": [
+        "Unikernel",
+        "Designed for cloud and performance",
+        "Runs unmodified Linux applications",
+        "Simple API"
+      ],
+      "website": "https://osv.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Linux"
+  ],
+  "marketPositioning": "DragonOS positions itself as an innovative operating system kernel for lightweight cloud computing, built from scratch in Rust to leverage its safety and performance benefits. Unlike established general-purpose kernels like Linux or other Rust-based OS efforts like Redox OS, DragonOS specifically targets the cloud environment with a focus on being lightweight and aims for practical usability by including Linux compatibility to run existing applications."
+}

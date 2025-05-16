@@ -1,0 +1,96 @@
+{
+  "projectName": "rCore-Tutorial-v3",
+  "projectPurpose": "To provide a tutorial for learning operating system development from scratch, targeting the RISC-V architecture and using the Rust programming language.",
+  "platforms": [
+    "RISC-V (target architecture)",
+    "Requires a development environment compatible with Rust and RISC-V toolchains (typically Linux, macOS, or Windows with WSL)"
+  ],
+  "mainFeatures": [
+    "Step-by-step guide to building an OS kernel",
+    "Focuses on the RISC-V architecture",
+    "Uses the Rust programming language",
+    "Teaches OS concepts through practical implementation"
+  ],
+  "website": "https://github.com/rcore-os/rCore-Tutorial-v3",
+  "alternatives": [
+    {
+      "name": "OSDev Wiki",
+      "license": "Various (Content licensed under the GNU Free Documentation License)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Comprehensive collection of OS development resources",
+        "Tutorials on various architectures and topics",
+        "Hardware information and specifications",
+        "Community-maintained knowledge base"
+      ],
+      "website": "https://wiki.osdev.org/"
+    },
+    {
+      "name": "Writing an OS in Rust (Philipp Oppermann's blog)",
+      "license": "MIT License (for code examples)",
+      "platforms": [
+        "x86 (target architecture)",
+        "Requires a development environment compatible with Rust and x86 toolchains"
+      ],
+      "mainFeatures": [
+        "Detailed blog series on OS development in Rust",
+        "Focuses on the x86 architecture",
+        "Covers modern OS concepts (paging, multitasking, etc.)",
+        "Provides step-by-step code examples"
+      ],
+      "website": "https://os.phil-opp.com/"
+    },
+    {
+      "name": "The Adventures of OS: Making a RISC-V Operating System using Rust (Stephen Marz's blog)",
+      "license": "Undetermined (Blog content)",
+      "platforms": [
+        "RISC-V (target architecture)",
+        "Requires a development environment compatible with Rust and RISC-V toolchains"
+      ],
+      "mainFeatures": [
+        "Blog series on building a RISC-V OS in Rust",
+        "Covers topics like booting, interrupts, and system calls",
+        "Focuses on the RISC-V architecture",
+        "Uses the Rust programming language"
+      ],
+      "website": "https://osblog.stephenmarz.com/"
+    },
+    {
+      "name": "The little book about OS development",
+      "license": "Creative Commons Attribution-ShareAlike 3.0 Unported License",
+      "platforms": [
+        "x86 (target architecture)",
+        "Requires a development environment compatible with C and x86 toolchains"
+      ],
+      "mainFeatures": [
+        "Book/tutorial on OS development",
+        "Uses the C programming language",
+        "Focuses on basic OS concepts",
+        "Targets the x86 architecture"
+      ],
+      "website": "https://littleosbook.github.io/"
+    },
+    {
+      "name": "Operating Systems: Three Easy Pieces",
+      "license": "Copyright \u00a9 2015 Arpaci-Dusseau Books, LLC",
+      "platforms": [
+        "Web (PDF book)"
+      ],
+      "mainFeatures": [
+        "Free online textbook on OS concepts",
+        "Covers virtualization, concurrency, and persistence",
+        "Provides theoretical foundation for OS development",
+        "Includes exercises and potential projects"
+      ],
+      "website": "https://pages.cs.wisc.edu/~remzi/OSTEP/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OSDev Wiki",
+    "Writing an OS in Rust (Philipp Oppermann's blog)",
+    "Operating Systems: Three Easy Pieces"
+  ],
+  "marketPositioning": "rCore-Tutorial-v3 is positioned as a specialized educational resource within the operating system development space. It uniquely combines a tutorial format with a focus on the modern RISC-V architecture and the Rust programming language. While other resources exist for OS development in general (OSDev Wiki, various books), or for Rust-based OS development on other architectures (Philipp Oppermann's blog for x86), or for RISC-V specific development potentially in other languages, rCore-Tutorial-v3 caters specifically to individuals interested in learning OS development using Rust on RISC-V. This makes it a valuable resource for those looking to engage with newer technologies in the low-level programming domain, differentiating it from more traditional or architecture-specific tutorials."
+}

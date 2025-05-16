@@ -1,0 +1,82 @@
+{
+  "projectName": "ore-miner",
+  "projectPurpose": "To provide a high-performance and efficient mining software for the ORE cryptocurrency on the Solana blockchain, leveraging the Jito bundle service and supporting both CPU and GPU hardware.",
+  "platforms": [
+    "Likely Linux, macOS, Windows (via WSL) based on Rust and Solana CLI dependencies, and GPU support requirements."
+  ],
+  "mainFeatures": [
+    "Built on top of Jito bundle service for faster transaction landing",
+    "Supports both CPU and GPU hashing",
+    "Capable of handling a large number of wallets on high-end GPUs",
+    "Potential for performance improvement through optimization"
+  ],
+  "website": "https://github.com/tonyke-bot/ore-miner",
+  "alternatives": [
+    {
+      "name": "ORE Official CLI Miner",
+      "license": "Open Source (Likely Apache 2.0 or MIT, common for Solana projects)",
+      "platforms": [
+        "Windows (via WSL)",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Official command-line tool for ORE mining",
+        "Requires Solana CLI and Rust installation",
+        "Direct interaction with the ORE program on Solana",
+        "Allows configuration of mining parameters"
+      ],
+      "website": "https://ore.supply/download"
+    },
+    {
+      "name": "ORE Official Web Miner",
+      "license": "Proprietary (Web Service)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Easy-to-use browser-based mining interface",
+        "Requires a compatible Solana wallet",
+        "No software installation needed",
+        "Simple start/stop mining functionality"
+      ],
+      "website": "https://legacy.ore.supply/home"
+    },
+    {
+      "name": "Backpack Wallet ORE Miner",
+      "license": "Proprietary (Wallet Feature)",
+      "platforms": [
+        "Depends on Backpack Wallet support (Mobile, Desktop)"
+      ],
+      "mainFeatures": [
+        "Integrated mining functionality within Backpack wallet",
+        "Simplified mining process for wallet users",
+        "Directly linked to the user's wallet",
+        "Abstracts some technical complexities"
+      ],
+      "website": "https://www.backpack.exchange/"
+    },
+    {
+      "name": "Third-party ORE Miners (e.g., nodecattel/oreminer)",
+      "license": "Open Source (Varies by project, often MIT or Apache 2.0)",
+      "platforms": [
+        "Windows (via WSL)",
+        "macOS",
+        "Linux",
+        "Mobile (via Termux)"
+      ],
+      "mainFeatures": [
+        "Community-developed mining scripts/programs",
+        "May offer specific optimizations (e.g., multi-core, Jito integration)",
+        "Requires technical setup (Solana CLI, Rust, script execution)",
+        "Variety in features and performance based on implementation"
+      ],
+      "website": "https://github.com/nodecattel/oreminer"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ORE Official CLI Miner",
+    "ORE Official Web Miner"
+  ],
+  "marketPositioning": "ORE Miner by tonyke-bot is positioned as a performance-optimized, third-party mining software for the ORE cryptocurrency on Solana. It targets users seeking higher efficiency through features like Jito bundle integration for faster transaction processing and robust support for both CPU and GPU hardware, including the ability to manage many wallets on high-end cards. This distinguishes it from the official, more broadly accessible CLI and web miners by focusing on technical users looking to maximize their mining output and leverage powerful hardware."
+}

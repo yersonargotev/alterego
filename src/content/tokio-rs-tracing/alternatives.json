@@ -1,0 +1,151 @@
+{
+  "projectName": "tracing",
+  "projectPurpose": "To provide a robust and flexible framework for adding structured, event-based observability and tracing instrumentation to Rust applications, especially beneficial for asynchronous and concurrent systems.",
+  "platforms": [
+    "Cross-platform (where Rust compiles)"
+  ],
+  "mainFeatures": [
+    "Framework for structured, event-based application instrumentation.",
+    "Uses spans (periods of time) and events (points in time) to represent execution flow.",
+    "Spans are structured and can include typed data.",
+    "Designed to handle complexity in asynchronous Rust applications.",
+    "Flexible Subscriber trait allows integration with various data collection backends.",
+    "Provides the #[instrument] attribute macro for easy function instrumentation.",
+    "Compatibility with the standard 'log' crate."
+  ],
+  "website": "https://github.com/tokio-rs/tracing",
+  "alternatives": [
+    {
+      "name": "OpenTelemetry (Rust SDK)",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Vendor-agnostic observability framework (traces, metrics, logs).",
+        "Provides APIs and SDKs for instrumentation.",
+        "Exports telemetry to various backends (Jaeger, Zipkin, commercial).",
+        "Supports distributed context propagation.",
+        "Integrations available for 'tracing' and 'log' crates."
+      ],
+      "website": "https://opentelemetry.io/"
+    },
+    {
+      "name": "Sentry (Rust SDK with sentry-tracing)",
+      "license": "Commercial (with free tier)",
+      "platforms": [
+        "Cross-platform",
+        "SaaS Backend",
+        "Self-hosted Backend"
+      ],
+      "mainFeatures": [
+        "Error tracking and application monitoring.",
+        "Rust SDK with tracing integration.",
+        "Automatic tracking of tracing spans as Sentry spans/transactions.",
+        "Captures events and breadcrumbs from tracing.",
+        "Distributed tracing capabilities."
+      ],
+      "website": "https://sentry.io/for/rust/"
+    },
+    {
+      "name": "log crate",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Lightweight logging facade for Rust.",
+        "Provides standard logging macros.",
+        "Relies on external logger implementations.",
+        "Simpler, traditional log line-based diagnostics."
+      ],
+      "website": "https://crates.io/crates/log"
+    },
+    {
+      "name": "Jaeger",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Backend (Linux, Docker)",
+        "Web UI"
+      ],
+      "mainFeatures": [
+        "Distributed tracing system.",
+        "Monitors and troubleshoots microservices.",
+        "Supports OpenTracing and OpenTelemetry.",
+        "Provides service dependency analysis.",
+        "Trace visualization UI."
+      ],
+      "website": "https://www.jaegertracing.io/"
+    },
+    {
+      "name": "Zipkin",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Backend (JVM-based)",
+        "Web UI"
+      ],
+      "mainFeatures": [
+        "Distributed tracing system.",
+        "Visualizes request journeys.",
+        "Easy setup for small to medium projects.",
+        "Supports various languages.",
+        "Integrates with OpenTelemetry."
+      ],
+      "website": "https://zipkin.io/"
+    },
+    {
+      "name": "Grafana Tempo",
+      "license": "Open Source - Apache 2.0, Commercial (Cloud)",
+      "platforms": [
+        "Backend (Linux, Docker)",
+        "Web UI (via Grafana)"
+      ],
+      "mainFeatures": [
+        "High-volume distributed tracing system.",
+        "Cost-effective trace storage using object stores.",
+        "Deep integration with Prometheus and Loki.",
+        "Supports Jaeger, Zipkin, and OpenTelemetry protocols.",
+        "Designed for scalability."
+      ],
+      "website": "https://grafana.com/oss/tempo/"
+    },
+    {
+      "name": "Datadog APM",
+      "license": "Commercial (SaaS)",
+      "platforms": [
+        "SaaS (Web UI)",
+        "Agents (various OS)"
+      ],
+      "mainFeatures": [
+        "Unified monitoring platform (APM, logs, metrics).",
+        "In-depth application performance visibility.",
+        "Supports distributed tracing across diverse tech stacks.",
+        "Real-time analytics and customizable dashboards.",
+        "Code-level diagnostics and dependency mapping."
+      ],
+      "website": "https://www.datadoghq.com/product/apm/"
+    },
+    {
+      "name": "New Relic",
+      "license": "Commercial (SaaS)",
+      "platforms": [
+        "SaaS (Web UI)",
+        "Agents (various OS)"
+      ],
+      "mainFeatures": [
+        "Comprehensive APM suite.",
+        "Distributed tracing and sampling.",
+        "Correlates trace data with infrastructure/user monitoring.",
+        "Real-time analytics and performance monitoring.",
+        "Supports OpenTelemetry."
+      ],
+      "website": "https://newrelic.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OpenTelemetry (as an instrumentation standard)",
+    "Datadog APM",
+    "New Relic"
+  ],
+  "marketPositioning": "tracing positions itself as the primary, Rust-native *instrumentation framework* for application-level diagnostics. Unlike full APM suites or distributed tracing backends, it focuses specifically on providing the APIs and tools within Rust to generate structured, temporal, and causal trace data (spans and events). Its strength lies in its deep integration with Rust language features and async runtimes. It does not provide a default collection or visualization backend but offers a flexible 'Subscriber' mechanism and integrations (notably via tracing-opentelemetry) to connect with various logging tools, distributed tracing systems (like Jaeger, Zipkin, Tempo), and commercial APM platforms (like Sentry, Datadog, New Relic). This makes it a foundational layer within the Rust observability ecosystem, designed to produce high-quality telemetry that can be consumed by a wide range of downstream analysis tools."
+}

@@ -1,0 +1,116 @@
+{
+  "projectName": "atomicalsir",
+  "projectPurpose": "To provide a high-performance, open-source mining engine specifically for participating in the proof-of-work (Bitwork) process of the Atomicals protocol on the Bitcoin blockchain.",
+  "platforms": [
+    "Likely Cross-platform (Rust)",
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Atomicals protocol mining engine",
+    "Written in Rust for performance",
+    "Supports Bitwork proof-of-work",
+    "Designed for mining digital objects and ARC20 tokens on Bitcoin"
+  ],
+  "website": "https://github.com/hack-ink/atomicalsir",
+  "alternatives": [
+    {
+      "name": "CGMiner",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Command-line interface",
+        "Supports various ASICs and GPUs",
+        "Monitoring and remote interface",
+        "Highly configurable"
+      ],
+      "website": "http://ck.xyz/cgminer/"
+    },
+    {
+      "name": "BFGMiner",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Primarily for ASICs",
+        "Monitoring and remote interface",
+        "Dynamic clocking",
+        "Mining pool failover"
+      ],
+      "website": "http://bfgminer.org/"
+    },
+    {
+      "name": "EasyMiner",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Graphical User Interface (GUI)",
+        "Supports CPU, GPU, and ASIC mining",
+        "Connects to mining pools",
+        "Performance statistics display"
+      ],
+      "website": "https://easyminer.net/"
+    },
+    {
+      "name": "Awesome Miner",
+      "license": "Proprietary (with Free version)",
+      "platforms": [
+        "Windows",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Centralized management for multiple miners",
+        "Supports various algorithms and pools",
+        "Profitability switching",
+        "Remote management and monitoring"
+      ],
+      "website": "https://www.awesomeminer.com/"
+    },
+    {
+      "name": "NiceHash Miner",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Easy to use GUI",
+        "Automatically finds most profitable algorithms",
+        "Pays out in Bitcoin",
+        "Connects to NiceHash marketplace"
+      ],
+      "website": "https://www.nicehash.com/download-center"
+    },
+    {
+      "name": "Cudo Miner",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "User-friendly GUI",
+        "Automated coin switching",
+        "Supports CPU, GPU, and ASIC mining",
+        "Remote management"
+      ],
+      "website": "https://www.cudominer.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "CGMiner",
+    "BFGMiner",
+    "NiceHash Miner"
+  ],
+  "marketPositioning": "atomicalsir is positioned as a specialized, high-performance mining engine built in Rust specifically for the Atomicals protocol on Bitcoin. Unlike general-purpose mining software that targets various cryptocurrencies and algorithms, atomicalsir focuses solely on enabling users to participate in the unique Bitwork proof-of-work mechanism central to creating and distributing Atomicals assets. Its use of Rust highlights a focus on efficiency and speed, aiming to provide a competitive edge within the specific niche of Atomicals mining."
+}

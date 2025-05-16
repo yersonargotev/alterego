@@ -1,0 +1,120 @@
+{
+  "projectName": "good_training_language",
+  "projectPurpose": "To provide a programming language specifically designed for teaching and learning programming concepts.",
+  "platforms": [],
+  "mainFeatures": [
+    "Designed as an educational programming language"
+  ],
+  "website": "https://github.com/tsoding/good_training_language",
+  "alternatives": [
+    {
+      "name": "Scratch",
+      "license": "Open Source - GNU Affero General Public License (AGPL) v3.0 (Scratch 3.0), BSD 3-Clause (earlier 3.0), GPLv2 and Scratch Source Code License (1.x)",
+      "platforms": [
+        "Web",
+        "macOS",
+        "Windows",
+        "ChromeOS",
+        "Android (Tablets)"
+      ],
+      "mainFeatures": [
+        "Visual block-based programming",
+        "Drag-and-drop interface",
+        "Easy creation of interactive stories, games, and animations",
+        "Large online community"
+      ],
+      "website": "https://scratch.mit.edu"
+    },
+    {
+      "name": "Blockly",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Web",
+        "Mobile (iOS, Android)"
+      ],
+      "mainFeatures": [
+        "Web-based visual programming editor library",
+        "Interlocking graphical blocks",
+        "Generates code in various text-based languages",
+        "Customizable blocks"
+      ],
+      "website": "https://developers.google.com/blockly"
+    },
+    {
+      "name": "Python",
+      "license": "Open Source - Python Software Foundation License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Other"
+      ],
+      "mainFeatures": [
+        "Readable syntax",
+        "Large standard library",
+        "Extensive community support",
+        "Versatile for various applications"
+      ],
+      "website": "https://www.python.org"
+    },
+    {
+      "name": "Processing",
+      "license": "Open Source - GNU GPL and LGPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Integrated Development Environment (IDE)",
+        "Designed for visual arts and teaching programming fundamentals",
+        "Simplified syntax based on Java",
+        "Easy creation of graphics, animations, and interactive applications"
+      ],
+      "website": "https://processing.org"
+    },
+    {
+      "name": "Racket",
+      "license": "Open Source - MIT or Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Multi-paradigm language",
+        "Designed for language-oriented programming",
+        "Includes DrRacket IDE tailored for learning",
+        "Used in computer science education and research"
+      ],
+      "website": "https://racket-lang.org"
+    },
+    {
+      "name": "Free Pascal",
+      "license": "Open Source - GPL (compiler), LGPL with static linking exception (libraries)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "DOS",
+        "BSD",
+        "Android",
+        "Embedded Systems",
+        "Other"
+      ],
+      "mainFeatures": [
+        "Structured programming",
+        "Strong typing",
+        "Designed for teaching programming fundamentals",
+        "Readable syntax"
+      ],
+      "website": "https://www.freepascal.org"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Scratch",
+    "Python"
+  ],
+  "marketPositioning": "Positioned as a new educational programming language, 'good_training_language' enters a market with established visual (Scratch, Blockly) and text-based (Python, Racket, Pascal, Processing) alternatives. Its specific niche or unique selling proposition is not explicitly detailed in the metadata, but the name suggests a focus on providing a beneficial learning experience. It likely aims to appeal to educators and learners seeking an alternative text-based language, potentially one with a specific design philosophy or set of features tailored for a particular pedagogical approach or curriculum, distinguishing itself from more general-purpose languages used in education."
+}

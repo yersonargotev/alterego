@@ -1,0 +1,143 @@
+{
+  "projectName": "airmail",
+  "projectPurpose": "A lightweight geocoding library written in pure Rust to convert location names or addresses into geographic coordinates.",
+  "platforms": [
+    "Rust ecosystem (likely cross-platform where Rust is supported)"
+  ],
+  "mainFeatures": [
+    "Lightweight",
+    "Pure Rust implementation",
+    "Geocoding capabilities"
+  ],
+  "website": "https://github.com/ellenhp/airmail",
+  "alternatives": [
+    {
+      "name": "Nominatim",
+      "license": "Open Source (LGPL-2.1 or later for code, ODbL for data)",
+      "platforms": [
+        "Server-side (Linux), accessible via API"
+      ],
+      "mainFeatures": [
+        "Open Source geocoder based on OpenStreetMap data",
+        "Supports geocoding and reverse geocoding",
+        "Scalable installation",
+        "Powers openstreetmap.org search"
+      ],
+      "website": "https://nominatim.org/"
+    },
+    {
+      "name": "Photon",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Server-side (requires Java, Elasticsearch), accessible via API"
+      ],
+      "mainFeatures": [
+        "Open Source geocoder for OpenStreetMap data",
+        "Optimized for search-as-you-type",
+        "Supports multilingual search",
+        "Reverse geocoding"
+      ],
+      "website": "https://photon.komoot.io/"
+    },
+    {
+      "name": "Google Geocoding API",
+      "license": "Proprietary (Paid with Free Tier)",
+      "platforms": [
+        "Web (API), Client Libraries (Java, Python, Go, Node.js, Rust)"
+      ],
+      "mainFeatures": [
+        "Converts addresses to coordinates and vice-versa",
+        "Global coverage",
+        "High accuracy",
+        "Integration with Google Maps Platform"
+      ],
+      "website": "https://developers.google.com/maps/documentation/geocoding/overview"
+    },
+    {
+      "name": "Mapbox Geocoding API",
+      "license": "Proprietary (Paid with Free Tier)",
+      "platforms": [
+        "Web (API), SDKs (Web, Mobile)"
+      ],
+      "mainFeatures": [
+        "Forward and reverse geocoding",
+        "Uses OpenStreetMap and open data",
+        "Optimized for speed",
+        "Temporary and permanent storage options"
+      ],
+      "website": "https://docs.mapbox.com/api/search/geocoding/"
+    },
+    {
+      "name": "GeoPy",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Python library (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Python client for multiple geocoding services",
+        "Supports various geocoding APIs (Nominatim, Google, etc.)",
+        "Calculates distances"
+      ],
+      "website": "https://geopy.readthedocs.io/"
+    },
+    {
+      "name": "Pelias",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Server-side (requires Elasticsearch), accessible via API"
+      ],
+      "mainFeatures": [
+        "Open-source geocoder from open data",
+        "Modular design",
+        "Supports multiple languages",
+        "Optimized for autocomplete"
+      ],
+      "website": "https://pelias.io/"
+    },
+    {
+      "name": "Geoapify Geocoding API",
+      "license": "Proprietary (Paid with Free Tier), Permissive Data Use",
+      "platforms": [
+        "Web (API)"
+      ],
+      "mainFeatures": [
+        "Geocoding and reverse geocoding",
+        "Address validation and verification",
+        "Confidence scores",
+        "Supports filtering and biasing"
+      ],
+      "website": "https://www.geoapify.com/geocoding-api"
+    },
+    {
+      "name": "LocationIQ",
+      "license": "Proprietary (Paid with Generous Free Tier)",
+      "platforms": [
+        "Web (API)"
+      ],
+      "mainFeatures": [
+        "Geocoding, reverse geocoding, autocomplete",
+        "Uses OpenStreetMap and open data",
+        "Affordable alternative to major providers"
+      ],
+      "website": "https://locationiq.com/"
+    },
+    {
+      "name": "MapTiler Geocoding API",
+      "license": "Proprietary (Paid with Free Tier)",
+      "platforms": [
+        "Web (API), SDKs (JavaScript)"
+      ],
+      "mainFeatures": [
+        "Fast and reliable geocoding",
+        "Global coverage, local precision",
+        "Multilingual support",
+        "Batch geocoding"
+      ],
+      "website": "https://www.maptiler.com/geocoding-api/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Google Geocoding API"
+  ],
+  "marketPositioning": "Airmail is positioned as a lightweight, pure Rust geocoding library. It targets developers within the Rust ecosystem who require in-application geocoding without the need to integrate with external services or manage separate server-based geocoding instances like Nominatim or Photon. Its focus on being lightweight and pure Rust differentiates it from language-agnostic APIs (Google, Mapbox) and libraries in other languages (GeoPy), emphasizing performance, memory safety, and seamless integration within Rust projects. While it may not offer the extensive global data coverage or advanced features of large commercial APIs, its appeal lies in providing a native, efficient geocoding solution for Rust applications."
+}

@@ -1,0 +1,86 @@
+{
+  "projectName": "vibe",
+  "projectPurpose": "To provide a privacy-focused, local-first audio transcription tool for users to transcribe audio on their own device.",
+  "platforms": [],
+  "mainFeatures": [
+    "Local audio transcription",
+    "Privacy-oriented (no cloud processing)",
+    "Built in Rust (implying performance and memory safety)"
+  ],
+  "website": "https://github.com/thewh1teagle/vibe",
+  "alternatives": [
+    {
+      "name": "OpenAI Whisper",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Integrable into applications on various platforms"
+      ],
+      "mainFeatures": [
+        "Multilingual speech recognition (90+ languages)",
+        "Speech translation (to English)",
+        "Robustness to accents and noise",
+        "Speaker identification (via models/implementations)",
+        "Word-level timestamps"
+      ],
+      "website": "https://github.com/openai/whisper"
+    },
+    {
+      "name": "VOSK",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android",
+        "iOS",
+        "Raspberry Pi"
+      ],
+      "mainFeatures": [
+        "Offline speech recognition",
+        "Supports 20+ languages and dialects",
+        "Small model size options",
+        "Continuous large vocabulary transcription",
+        "Speaker identification"
+      ],
+      "website": "https://alphacephei.com/vosk/"
+    },
+    {
+      "name": "Otter.ai",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Real-time transcription",
+        "Speaker identification",
+        "Meeting summarization",
+        "Integration with video conferencing tools (Zoom, Meet, Teams)",
+        "Collaborative features"
+      ],
+      "website": "https://otter.ai/"
+    },
+    {
+      "name": "Descript",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Edit audio/video by editing text transcript",
+        "Automatic transcription",
+        "Filler word removal",
+        "Studio Sound enhancement",
+        "Screen recording"
+      ],
+      "website": "https://www.descript.com/"
+    }
+  ],
+  "mostWellKnownAlternative": "Otter.ai",
+  "marketPositioning": "\"vibe\" is positioned as a user-controlled, privacy-centric desktop application for audio transcription. By performing transcription locally, it directly addresses concerns users might have about sending sensitive audio data to cloud-based services like Otter.ai. While it likely utilizes underlying open-source models akin to or including aspects of OpenAI Whisper or VOSK, its market position is as a user-friendly application layer that prioritizes the 'on your own' aspect, offering an alternative to both technical command-line tools and proprietary cloud platforms."
+}

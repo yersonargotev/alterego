@@ -1,0 +1,49 @@
+{
+  "projectName": "object",
+  "projectPurpose": "To provide Rust developers with a unified, safe, and performant library for reading and writing common executable and object file formats like ELF, PE, and Mach-O.",
+  "platforms": [
+    "Cross-platform"
+  ],
+  "mainFeatures": [
+    "Unified API for multiple object file formats (ELF, PE, Mach-O)",
+    "Reading capabilities for file structures (headers, sections, symbols)",
+    "Writing capabilities (to a certain extent)",
+    "Designed for safety and performance in Rust"
+  ],
+  "website": "https://github.com/gimli-rs/object",
+  "alternatives": [
+    {
+      "name": "LIEF",
+      "license": "Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Parse and modify many formats (ELF, PE, Mach-O, OAT, DEX, ART)",
+        "Common abstraction layer",
+        "APIs for C++, Python, Rust, C",
+        "Includes disassembler and extended features"
+      ],
+      "website": "https://lief.re/"
+    },
+    {
+      "name": "Go debug packages",
+      "license": "BSD-style",
+      "platforms": [
+        "Cross-platform (where Go is supported)"
+      ],
+      "mainFeatures": [
+        "Specific packages for ELF, Mach-O, PE",
+        "Native Go implementation",
+        "Primarily read-only access",
+        "Part of the Go standard library"
+      ],
+      "website": "https://pkg.go.dev/debug"
+    }
+  ],
+  "mostWellKnownAlternative": "LIEF",
+  "marketPositioning": "Positioned as a Rust-native library offering a safe and performant way to interact with standard object file formats. It serves the Rust ecosystem specifically, prioritizing idiomatic Rust APIs and integration over the extensive multi-language support or broad feature set of tools like LIEF. It provides a more unified interface within Rust compared to language-native solutions like Go's separate debug packages."
+}

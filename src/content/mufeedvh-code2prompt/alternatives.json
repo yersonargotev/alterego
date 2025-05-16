@@ -1,0 +1,91 @@
+{
+  "projectName": "code2prompt",
+  "projectPurpose": "To streamline and automate the process of preparing codebase content by converting it into a single, structured prompt suitable for interaction with Large Language Models (LLMs) for tasks like analysis, generation, and documentation.",
+  "platforms": [
+    "CLI (operates on the command line, implying cross-platform compatibility where Rust is supported)"
+  ],
+  "mainFeatures": [
+    "Convert codebases into a single LLM prompt with source tree.",
+    "Smart filtering using glob patterns and .gitignore rules.",
+    "Flexible prompt templating with Handlebars.",
+    "Token counting to manage LLM context limits.",
+    "Git integration for including diffs, logs, and branch comparisons.",
+    "Automatic clipboard copy and file organization options."
+  ],
+  "website": "https://github.com/mufeedvh/code2prompt",
+  "alternatives": [
+    {
+      "name": "Repomix (formerly Repopack)",
+      "license": "Open Source",
+      "platforms": [
+        "CLI"
+      ],
+      "mainFeatures": [
+        "Packs entire repository into a single file.",
+        "AI-friendly format for LLMs.",
+        "Supports various LLMs (Claude, ChatGPT, Gemini, etc.)."
+      ],
+      "website": "https://github.com/yamadashy/repomix"
+    },
+    {
+      "name": "Concat-Proj",
+      "license": "Open Source",
+      "platforms": [
+        "Utility/CLI"
+      ],
+      "mainFeatures": [
+        "Combines multiple project files into a single text file.",
+        "Aids in providing code context to AI chat assistants.",
+        "Creates a well-formatted output."
+      ],
+      "website": "https://github.com/seeu/concat-proj"
+    },
+    {
+      "name": "Prelude",
+      "license": "Open Source",
+      "platforms": [
+        "CLI"
+      ],
+      "mainFeatures": [
+        "Simple tool for building LLM prompts from code repositories.",
+        "Written in Bash.",
+        "Uses the 'tree' CLI tool."
+      ],
+      "website": "https://github.com/lestgak/prelude"
+    },
+    {
+      "name": "SnapSource for VS Code",
+      "license": "Open Source",
+      "platforms": [
+        "VS Code Extension"
+      ],
+      "mainFeatures": [
+        "VS Code integration.",
+        "Copies file/folder contents.",
+        "Preserves project tree structure.",
+        "One-click copy to clipboard."
+      ],
+      "website": "https://marketplace.visualstudio.com/items?itemName=LeonKohli.snapsource"
+    },
+    {
+      "name": "OpenAI Codex CLI",
+      "license": "Open Source",
+      "platforms": [
+        "CLI"
+      ],
+      "mainFeatures": [
+        "Acts as a local coding agent.",
+        "Reads, modifies, and runs code.",
+        "Explains codebases.",
+        "Supports multimodal inputs.",
+        "Offers rich approvals workflow."
+      ],
+      "website": "https://github.com/openai/codex-cli"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GitHub Copilot (in-IDE AI assistant, broader use case)",
+    "OpenAI's models (accessed via various tools and platforms, core technology for many AI code tasks)"
+  ],
+  "marketPositioning": "Code2prompt is positioned as a focused, flexible, and developer-centric CLI tool specifically for the task of preparing codebase content for consumption by LLMs. Unlike broader AI coding assistants or code analysis platforms, its core strength lies in structuring an entire codebase into a single, templated prompt while providing essential features like token counting and Git integration. This makes it particularly useful for developers who want fine-grained control over the context they provide to LLMs for a variety of code-related tasks, positioning it as a key utility in the emerging workflow of using LLMs for codebase-wide analysis and interaction."
+}

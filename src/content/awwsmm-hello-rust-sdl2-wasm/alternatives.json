@@ -1,0 +1,133 @@
+{
+  "projectName": "hello-rust-sdl2-wasm",
+  "projectPurpose": "To serve as a demonstration or example repository showcasing how to build a simple interactive application using the Rust programming language together with the SDL2 library, and how to compile this application to WebAssembly so it can run in a web browser, in addition to running natively on a desktop. It illustrates a cross-platform development approach for basic 2D graphics and input.",
+  "platforms": [
+    "Desktop",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Uses Rust programming language",
+    "Utilizes SDL2 for user interaction (graphics, input)",
+    "Supports running locally (desktop)",
+    "Supports compilation to WebAssembly (WASM) for web execution"
+  ],
+  "website": "https://github.com/awwsmm/hello-rust-sdl2-wasm",
+  "alternatives": [
+    {
+      "name": "Bevy",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Data-driven Entity Component System (ECS)",
+        "2D and 3D rendering capabilities",
+        "Flexible render graph",
+        "Built-in UI framework",
+        "Fast compile times"
+      ],
+      "website": "https://bevyengine.org/"
+    },
+    {
+      "name": "Macroquad",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "HTML5",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Simple and easy-to-use API",
+        "Same code for all supported platforms",
+        "Efficient 2D rendering with batching",
+        "Minimal dependencies and fast compiles",
+        "Immediate mode UI library"
+      ],
+      "website": "https://macroquad.rs/"
+    },
+    {
+      "name": "SFML",
+      "license": "Open Source - zlib",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "Android (experimental)",
+        "iOS (experimental)"
+      ],
+      "mainFeatures": [
+        "Cross-platform multimedia API (C++ base)",
+        "Modules for system, window, graphics (2D), audio, network",
+        "Bindings available for various languages including Rust",
+        "Hardware accelerated 2D graphics",
+        "Simple and fast"
+      ],
+      "website": "https://www.sfml-dev.org/"
+    },
+    {
+      "name": "Godot Engine",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "HTML5 (WASM)",
+        "Consoles (via third parties)"
+      ],
+      "mainFeatures": [
+        "Feature-packed 2D and 3D engine",
+        "Unified editor interface",
+        "Node-based architecture",
+        "Multiple scripting languages (GDScript, C#, C++)",
+        "One-click export to many platforms"
+      ],
+      "website": "https://godotengine.org/"
+    },
+    {
+      "name": "HTML5 Canvas API / WebGL API",
+      "license": "Open Standard - Royalty-Free",
+      "platforms": [
+        "Web (all major browsers)"
+      ],
+      "mainFeatures": [
+        "Native browser graphics APIs",
+        "Canvas for 2D graphics",
+        "WebGL for hardware-accelerated 2D and 3D graphics",
+        "Integrated with other web standards",
+        "Accessible via JavaScript (or other languages compiled to WASM)"
+      ],
+      "website": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"
+    },
+    {
+      "name": "PixiJS",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web (all major browsers)"
+      ],
+      "mainFeatures": [
+        "Fast and lightweight 2D rendering library",
+        "WebGL renderer with Canvas fallback",
+        "Automatic smart batching for performance",
+        "Full scene graph",
+        "Easy to use API"
+      ],
+      "website": "https://pixijs.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Godot Engine",
+    "HTML5 Canvas API / WebGL API"
+  ],
+  "marketPositioning": "Hello Rust SDL2 WASM is a demonstration project that illustrates the process of building a simple interactive application using the Rust programming language in conjunction with the Simple DirectMedia Layer (SDL2) library for handling graphics and user input. A key feature of this project is its ability to be compiled into WebAssembly (WASM), enabling the application to run directly within a web browser, in addition to being executable as a native application on desktop platforms. It serves as a practical example for developers looking to leverage Rust's performance and safety features for cross-platform 2D graphics and interactive applications, specifically highlighting the workflow for deploying Rust/SDL2 projects to the web via WASM."
+}

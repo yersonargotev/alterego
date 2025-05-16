@@ -1,0 +1,133 @@
+{
+  "projectName": "openvas-scanner",
+  "projectPurpose": "To provide the core scanning engine for the Greenbone Community Edition, a comprehensive open-source vulnerability management solution used to identify security vulnerabilities in networks, systems, and applications.",
+  "platforms": [
+    "Linux",
+    "Windows (via Docker)",
+    "macOS (via Docker)"
+  ],
+  "mainFeatures": [
+    "Vulnerability scanning (unauthenticated and authenticated)",
+    "Supports various internet and industrial protocols",
+    "Performance tuning for large-scale scans",
+    "Uses a powerful internal programming language for vulnerability tests",
+    "Obtains tests from a daily updated feed (Greenbone Community Feed)",
+    "Integrates with other security tools via API",
+    "Detailed reporting",
+    "Credentialed scanning",
+    "Automated scans",
+    "Asset discovery and management"
+  ],
+  "website": "https://github.com/greenbone/openvas-scanner",
+  "alternatives": [
+    {
+      "name": "Nessus",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Raspberry Pi"
+      ],
+      "mainFeatures": [
+        "Extensive vulnerability scanning (IT, web, cloud)",
+        "Large plugin library with real-time updates",
+        "Configuration, compliance, and security audits",
+        "Vulnerability scoring and prioritization",
+        "Deployable on various platforms"
+      ],
+      "website": "https://www.tenable.com/products/nessus"
+    },
+    {
+      "name": "Qualys",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (SaaS)"
+      ],
+      "mainFeatures": [
+        "All-in-One VMDR platform",
+        "Continuous monitoring and automated remediation",
+        "Asset discovery and inventory",
+        "Risk-based prioritization (TruRisk\u2122)",
+        "Compliance monitoring and policy assessment"
+      ],
+      "website": "https://www.qualys.com/"
+    },
+    {
+      "name": "Rapid7 Nexpose",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows Server",
+        "Linux",
+        "Virtual Appliance",
+        "Hardware Appliance",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Comprehensive vulnerability management and risk assessment",
+        "Prioritization based on exploitability (Real Risk Score)",
+        "Continuous scanning and adaptive security",
+        "Integration with Metasploit for validation",
+        "Compliance reporting and policy assessment"
+      ],
+      "website": "https://www.rapid7.com/products/nexpose/"
+    },
+    {
+      "name": "Acunetix",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web (Cloud)"
+      ],
+      "mainFeatures": [
+        "Focus on web application security testing (DAST, IAST)",
+        "High speed and accuracy, low false positives",
+        "Automated and continuous scanning",
+        "Integration with issue trackers",
+        "Vulnerability management and reporting"
+      ],
+      "website": "https://www.invicti.com/products/acunetix/"
+    },
+    {
+      "name": "Nmap",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Network discovery and mapping",
+        "Port scanning",
+        "OS detection",
+        "Service version detection",
+        "Scriptable vulnerability detection (NSE)"
+      ],
+      "website": "https://nmap.org/"
+    },
+    {
+      "name": "OWASP ZAP (Zed Attack Proxy)",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Web application security scanner",
+        "Intercepting proxy",
+        "Automated scanner",
+        "Passive scanner",
+        "API for integration"
+      ],
+      "website": "https://www.zaproxy.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Nessus (Tenable)",
+    "Qualys"
+  ],
+  "marketPositioning": "The openvas-scanner is the core component of the Greenbone Community Edition (GCE), positioning it as a powerful, open-source vulnerability scanning engine within a larger open-source vulnerability management framework. Unlike proprietary alternatives such as Nessus, Qualys, and Rapid7 Nexpose, GCE offers a free and transparent solution for vulnerability assessment. It competes by providing a comprehensive feature set including diverse protocol support, performance tuning, a robust testing language, and integration capabilities, making it a strong choice for users and organizations prioritizing cost-effectiveness, customization, and control over their scanning infrastructure. Its role as the scanning engine in GCE allows it to serve as an accessible entry point into vulnerability management, complementing Greenbone's commercial offerings which provide additional enterprise-grade features and support."
+}

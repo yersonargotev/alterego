@@ -1,0 +1,71 @@
+{
+  "projectName": "ckb",
+  "projectPurpose": "To provide a secure, decentralized, and flexible public permissionless layer-1 blockchain that serves as the foundation for the Nervos network, addressing scalability and interoperability limitations while maintaining core principles like Proof-of-Work and extending the UTXO model, with a key focus on enhancing Bitcoin's capabilities.",
+  "platforms": [
+    "Cross-platform (nodes)"
+  ],
+  "mainFeatures": [
+    "Public permissionless layer-1 blockchain",
+    "Proof-of-Work (PoW) consensus (NC-MAX)",
+    "Generalized UTXO model (Cell Model)",
+    "Turing-complete smart contracts",
+    "Modular architecture supporting Layer 2 solutions",
+    "Protocol-level account abstraction",
+    "Interoperability",
+    "RISC-V based virtual machine (CKB-VM)",
+    "Native token for resource management (CKB)",
+    "Enhancing Bitcoin with programmability and scalability (BTCKB initiative)"
+  ],
+  "website": "https://github.com/nervosnetwork/ckb",
+  "alternatives": [
+    {
+      "name": "Ethereum",
+      "license": "Open Source (various, e.g., MIT, Apache 2.0 compatible)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Smart contract platform (EVM)",
+        "Decentralized Applications (dApps)",
+        "DeFi ecosystem",
+        "NFTs",
+        "Proof-of-Stake consensus"
+      ],
+      "website": "https://ethereum.org/"
+    },
+    {
+      "name": "Solana",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "High transaction speed (Proof-of-History)",
+        "Low transaction costs",
+        "Decentralized Applications (dApps)",
+        "NFTs",
+        "DeFi"
+      ],
+      "website": "https://solana.com/"
+    },
+    {
+      "name": "Polkadot",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Cross-chain interoperability (Relay Chain, Parachains)",
+        "Shared security",
+        "On-chain governance",
+        "Staking (NPoS)",
+        "Bridges"
+      ],
+      "website": "https://polkadot.network/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "Nervos CKB positions itself as a highly secure, decentralized, and flexible layer-1 blockchain rooted in Proof-of-Work and a modified UTXO model, offering Turing-complete smart contracts and native account abstraction. While addressing general blockchain scalability and interoperability, a key differentiator and emerging focus is its role as a Bitcoin Layer 2 solution, aiming to bring greater programmability and scalability to the Bitcoin ecosystem without relying on traditional cross-chain bridges. This contrasts with alternatives like Ethereum (Proof-of-Stake, account model, broad dApp ecosystem), Solana (high speed, low cost, Proof-of-History), and Polkadot (interoperability between distinct chains)."
+}

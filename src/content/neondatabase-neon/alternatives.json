@@ -1,0 +1,95 @@
+{
+  "projectName": "neon",
+  "projectPurpose": "To provide a modern, serverless, and highly scalable PostgreSQL database solution with developer-centric features like database branching by re-architecting the traditional database architecture.",
+  "platforms": [
+    "Cloud",
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Serverless PostgreSQL",
+    "Separated storage and compute architecture",
+    "Autoscaling",
+    "Database branching",
+    "Scale to zero",
+    "Instant provisioning",
+    "Point-in-time recovery",
+    "Serverless driver for edge computing",
+    "Instant read replicas",
+    "API and CLI for database management",
+    "pgvector support for vector search"
+  ],
+  "website": "https://neon.tech",
+  "alternatives": [
+    {
+      "name": "Amazon Aurora Serverless (PostgreSQL-compatible)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (AWS Cloud)"
+      ],
+      "mainFeatures": [
+        "Serverless configuration with autoscaling",
+        "High performance and scalability",
+        "Storage auto-scaling",
+        "Low-latency read replicas",
+        "Point-in-time recovery"
+      ],
+      "website": "https://aws.amazon.com/rds/aurora/serverless/"
+    },
+    {
+      "name": "Google Cloud SQL for PostgreSQL",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (Google Cloud)"
+      ],
+      "mainFeatures": [
+        "Fully managed PostgreSQL",
+        "Automatic storage increases",
+        "Automated and on-demand backups, point-in-time recovery",
+        "High availability with automatic failover",
+        "Encryption at rest and in transit"
+      ],
+      "website": "https://cloud.google.com/sql/docs/postgres"
+    },
+    {
+      "name": "Supabase",
+      "license": "Open Source (Apache 2.0) / Commercial (Platform)",
+      "platforms": [
+        "Web (Supabase Cloud)",
+        "Self-hosted"
+      ],
+      "mainFeatures": [
+        "PostgreSQL Database core",
+        "Automatic APIs (REST and GraphQL)",
+        "Authentication",
+        "File Storage",
+        "Edge Functions"
+      ],
+      "website": "https://supabase.com/"
+    },
+    {
+      "name": "CockroachDB",
+      "license": "CockroachDB Software License (Source Available)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (CockroachCloud)"
+      ],
+      "mainFeatures": [
+        "Distributed SQL database",
+        "Horizontal scalability",
+        "High availability and fault tolerance",
+        "Strong consistency (ACID)",
+        "Multi-region data distribution"
+      ],
+      "website": "https://www.cockroachlabs.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Amazon Aurora Serverless (PostgreSQL-compatible)",
+    "Google Cloud SQL for PostgreSQL"
+  ],
+  "marketPositioning": "Neon is positioned as a pioneering open-source serverless PostgreSQL that fundamentally re-architects the database with separated storage and compute. This enables highly granular autoscaling, aggressive scale-to-zero capabilities, and unique developer workflows like instant database branching. While major cloud providers offer managed and serverless-like PostgreSQL options (Aurora Serverless, Cloud SQL), Neon differentiates itself with its core architecture allowing for potentially greater cost efficiency and developer agility, especially with its branching feature. Compared to a BaaS like Supabase, Neon focuses specifically on the database layer. Compared to a distributed SQL database like CockroachDB, Neon maintains a closer adherence to standard PostgreSQL while offering cloud-native scaling and developer features.",
+  "expandedDescription": "Neon is a serverless open-source PostgreSQL database designed for modern cloud applications. By separating storage and compute, Neon offers unique features such as instant provisioning, automatic scaling based on workload, and the ability to scale down to zero when idle, providing significant cost savings. A standout feature is database branching, allowing developers to instantly create isolated copies of their database for development, testing, or CI/CD workflows, akin to code branching. Neon also provides instant point-in-time recovery, a serverless driver for efficient queries in edge environments, and supports features like read replicas and vector search (via pgvector). With APIs and a CLI, Neon aims to simplify database operations and management for developers. It presents itself as a cloud-native alternative to traditional managed PostgreSQL services, focusing on developer experience, scalability, and cost efficiency through its innovative architecture."
+}

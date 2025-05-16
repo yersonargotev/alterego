@@ -1,0 +1,128 @@
+{
+  "projectName": "rquickshare",
+  "projectPurpose": "To provide an open-source, cross-platform implementation of Android's Nearby Share (now Quick Share) functionality for Linux and macOS, enabling seamless local file sharing with Android devices.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Implements Android's Nearby Share/Quick Share protocol",
+    "Enables local file sharing with Android devices",
+    "Runs natively on Linux and macOS",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/Martichou/rquickshare",
+  "alternatives": [
+    {
+      "name": "LocalSend",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Decentralized peer-to-peer file sharing",
+        "Cross-platform support",
+        "End-to-end encryption",
+        "No internet connection required (local network)",
+        "Easy device discovery"
+      ],
+      "website": "https://localsend.org/"
+    },
+    {
+      "name": "Snapdrop",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Web-based, no installation required",
+        "Local network file sharing",
+        "Simple and intuitive interface",
+        "Inspired by AirDrop",
+        "Uses WebRTC for secure transfers"
+      ],
+      "website": "https://snapdrop.net/"
+    },
+    {
+      "name": "AirDrop",
+      "license": "Proprietary",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "iPadOS"
+      ],
+      "mainFeatures": [
+        "Native Apple ecosystem integration",
+        "Fast local file transfers",
+        "Encrypted communication",
+        "Seamless sharing from native applications"
+      ],
+      "website": "https://support.apple.com/en-us/HT204144"
+    },
+    {
+      "name": "Quick Share (formerly Nearby Share)",
+      "license": "Proprietary",
+      "platforms": [
+        "Android",
+        "ChromeOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Native Android, ChromeOS, and Windows integration",
+        "Share files, links, and more",
+        "Adjustable device visibility",
+        "Utilizes Bluetooth, Wi-Fi Direct, WebRTC",
+        "Share with devices logged into the same Google account without prompts"
+      ],
+      "website": "https://android.com/bettertogether/quick-share-for-windows/"
+    },
+    {
+      "name": "Pushbullet",
+      "license": "Freemium (Proprietary)",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Windows",
+        "macOS (via browser)",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Push files and links between devices",
+        "Mirror phone notifications on desktop",
+        "Send and receive SMS from computer",
+        "Remote file access",
+        "Follow channels for updates"
+      ],
+      "website": "https://www.pushbullet.com/"
+    },
+    {
+      "name": "Syncthing",
+      "license": "Open Source - MPL 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "BSD",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Decentralized peer-to-peer synchronization",
+        "Continuous, real-time syncing",
+        "Encrypted communication",
+        "Versioning and selective sync",
+        "Sync any folder on your device"
+      ],
+      "website": "https://syncthing.net/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "AirDrop",
+    "Quick Share (formerly Nearby Share)"
+  ],
+  "marketPositioning": "rquickshare positions itself as an open-source solution that brings the functionality of Android's native Nearby Share (now Quick Share) to Linux and macOS. By implementing the specific Android protocol, it aims to provide a seamless and direct method for users of these platforms to share files with Android devices, filling a gap not directly addressed by Google's official Quick Share support (which primarily focuses on Windows outside of the Android/ChromeOS ecosystem). It competes with generic cross-platform local sharing tools like LocalSend and Snapdrop by focusing on interoperability with a widely used mobile standard, offering a distinct advantage for users deeply integrated into the Android ecosystem while using Linux or macOS as their primary desktop OS."
+}

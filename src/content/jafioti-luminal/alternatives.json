@@ -1,0 +1,109 @@
+{
+  "projectName": "luminal",
+  "projectPurpose": "To provide a high-performance, efficient, and potentially low-level deep learning library written in Rust.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "High-performance deep learning",
+    "Written in Rust for speed and efficiency",
+    "Uses composable compilers for optimization",
+    "Direct interaction with hardware APIs (CUDA, Metal)",
+    "Minimal core with primitive operations"
+  ],
+  "website": "https://github.com/jafioti/luminal",
+  "alternatives": [
+    {
+      "name": "TensorFlow",
+      "license": "Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android",
+        "iOS",
+        "JavaScript"
+      ],
+      "mainFeatures": [
+        "Large ecosystem and community",
+        "Tools for production deployment (Serving, Lite,.js)",
+        "Supports multiple programming languages",
+        "Keras high-level API integration",
+        "Static and dynamic computation graphs"
+      ],
+      "website": "https://www.tensorflow.org/"
+    },
+    {
+      "name": "PyTorch",
+      "license": "BSD 3-Clause",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Pythonic and easy-to-use API",
+        "Dynamic computation graphs (eager execution)",
+        "Strong in research and prototyping",
+        "Supports distributed training",
+        "C++ frontend (LibTorch)"
+      ],
+      "website": "https://pytorch.org/"
+    },
+    {
+      "name": "JAX",
+      "license": "Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Composable function transformations (grad, jit, vmap, pmap)",
+        "Automatic differentiation",
+        "JIT compilation via XLA",
+        "NumPy-like interface"
+      ],
+      "website": "https://jax.readthedocs.io/en/latest/"
+    },
+    {
+      "name": "Apache MXNet",
+      "license": "Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Supports multiple programming languages",
+        "Flexible programming model (imperative and symbolic)",
+        "Scalable to multiple GPUs and machines",
+        "Designed for efficiency and flexibility"
+      ],
+      "website": "http://mxnet.apache.org/"
+    },
+    {
+      "name": "Burn",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Deep learning framework in Rust",
+        "Emphasizes performance, flexibility, and portability",
+        "Based on tensor operation streams",
+        "Designed for training and inference"
+      ],
+      "website": "https://burn.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "TensorFlow",
+    "PyTorch"
+  ],
+  "marketPositioning": "Luminal is positioned as a high-performance deep learning library built in Rust, targeting developers who prioritize speed, efficiency, and low-level control. It differentiates itself from mainstream Python-based frameworks by leveraging Rust's performance characteristics and direct hardware interaction through composable compilers, aiming to be a faster alternative for specific use cases and hardware platforms, particularly appealing to the Rust ecosystem."
+}

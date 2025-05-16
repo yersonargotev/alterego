@@ -1,0 +1,102 @@
+{
+  "projectName": "rustix",
+  "projectPurpose": "To provide safe, idiomatic, and efficient Rust bindings to low-level operating system APIs, primarily POSIX-like, Unix-like, Linux, and Winsock syscalls.",
+  "platforms": [
+    "Linux",
+    "Unix-like (POSIX-ish)",
+    "Windows (limited Winsock support)"
+  ],
+  "mainFeatures": [
+    "Safe and idiomatic Rust bindings to OS syscalls",
+    "Memory-safe and I/O-safe wrappers",
+    "Configurable backends (raw syscalls or libc)",
+    "Uses Rust types (Result, slices, OwnedFd) for safety",
+    "Covers filesystem, I/O, networking, process, and memory operations"
+  ],
+  "website": "https://github.com/bytecodealliance/rustix",
+  "alternatives": [
+    {
+      "name": "std (Rust Standard Library)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Other supported Rust targets"
+      ],
+      "mainFeatures": [
+        "Core types and operations",
+        "Portable OS abstractions (File, TcpStream, Thread)",
+        "High-level I/O",
+        "Memory management",
+        "Concurrency primitives"
+      ],
+      "website": "https://doc.rust-lang.org/std/"
+    },
+    {
+      "name": "libc",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Other supported Rust targets"
+      ],
+      "mainFeatures": [
+        "Raw FFI bindings to system C libraries",
+        "Exposes C type definitions and constants",
+        "Allows direct calls to C library functions",
+        "Platform-specific API access"
+      ],
+      "website": "https://crates.io/crates/libc"
+    },
+    {
+      "name": "nix",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Unix-like (Linux, macOS, BSD)"
+      ],
+      "mainFeatures": [
+        "Idiomatic Rust bindings for Unix APIs",
+        "Safe wrappers for C functions",
+        "Covers processes, signals, files, sockets",
+        "Focus on POSIX and Unix extensions"
+      ],
+      "website": "https://crates.io/crates/nix"
+    },
+    {
+      "name": "winapi",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Raw FFI bindings to the Windows API",
+        "Access to a vast number of Windows functions",
+        "Direct mapping to Windows types and constants",
+        "Requires unsafe for interaction"
+      ],
+      "website": "https://crates.io/crates/winapi"
+    },
+    {
+      "name": "relibc",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "Redox OS"
+      ],
+      "mainFeatures": [
+        "C standard library implementation in Rust",
+        "Aims for C-compatible interfaces",
+        "Provides higher-level C/POSIX functionality",
+        "Can potentially replace system libc"
+      ],
+      "website": "https://github.com/redox-os/relibc"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "std (Rust Standard Library)",
+    "libc"
+  ],
+  "marketPositioning": "Rustix is positioned as a safe, idiomatic, and efficient low-level systems programming library for Rust, primarily on Unix-like systems and Linux. It differentiates itself from raw FFI bindings like `libc` by prioritizing memory and I/O safety through Rust's type system and providing more ergonomic APIs. While the Rust standard library (`std`) offers higher-level portable abstractions, rustix provides safe access to a broader range of underlying syscalls. Compared to other binding crates like `nix`, rustix emphasizes I/O safety types and offers flexible backends, including direct syscalls, making it a strong candidate for foundational libraries and applications requiring fine-grained, safe control over OS interfaces."
+}

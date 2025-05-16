@@ -1,0 +1,125 @@
+{
+  "projectName": "komodo",
+  "projectPurpose": "To provide a centralized, user-friendly, and open-source platform for managing servers, orchestrating Docker containers, and automating software builds and deployments across multiple machines, simplifying DevOps workflows.",
+  "platforms": [
+    "Linux",
+    "Windows",
+    "macOS",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Centralized server management",
+    "Docker orchestration and management (containers, images, stacks)",
+    "Deployment automation",
+    "Built-in CI/CD capabilities",
+    "Intuitive web-based user interface",
+    "Monitoring and notifications",
+    "Git integration",
+    "Terminal access to containers"
+  ],
+  "website": "https://komo.do",
+  "alternatives": [
+    {
+      "name": "Ansible",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Web (Automation Platform)"
+      ],
+      "mainFeatures": [
+        "Agentless architecture (SSH/WinRM)",
+        "Configuration Management",
+        "Application Deployment",
+        "Orchestration",
+        "YAML playbooks"
+      ],
+      "website": "https://www.ansible.com/"
+    },
+    {
+      "name": "Chef",
+      "license": "Open Source - Apache 2.0, Proprietary",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Configuration Management (Recipes/Cookbooks)",
+        "Infrastructure as Code",
+        "Idempotent",
+        "Automated testing"
+      ],
+      "website": "https://www.chef.io/"
+    },
+    {
+      "name": "Puppet",
+      "license": "Open Source - Apache 2.0, Proprietary",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Declarative language",
+        "Configuration Management",
+        "Idempotency",
+        "Client-server architecture (Master/Agent)"
+      ],
+      "website": "https://puppet.com/"
+    },
+    {
+      "name": "SaltStack (Salt)",
+      "license": "Open Source - Apache 2.0, Proprietary",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Remote Execution Engine",
+        "Configuration Management",
+        "Event-driven orchestration",
+        "Scalable (Master/Minion)",
+        "Python API"
+      ],
+      "website": "https://www.saltstack.com/"
+    },
+    {
+      "name": "Fabric",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Execute shell commands over SSH",
+        "Python library and CLI tool",
+        "Task-based execution",
+        "Remote execution"
+      ],
+      "website": "http://www.fabfile.org/"
+    },
+    {
+      "name": "Portainer",
+      "license": "Business Source License, Proprietary",
+      "platforms": [
+        "Web (as Docker container)"
+      ],
+      "mainFeatures": [
+        "Web-based Docker management GUI",
+        "Container, Image, Network, Volume management",
+        "Stack deployment (Docker Compose)",
+        "Limited user management (Community Edition)"
+      ],
+      "website": "https://www.portainer.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ansible",
+    "Docker (with management tools like Portainer)"
+  ],
+  "marketPositioning": "Komodo is positioned as a comprehensive, open-source, and free alternative for centralized server and Docker container management and deployment. It differentiates itself from traditional configuration management tools by offering a more integrated, GUI-driven platform with built-in Docker orchestration and CI/CD capabilities. Compared to GUI-based Docker managers like Portainer, Komodo provides broader server management features and is entirely open-source with no paid tiers or feature limitations, aiming to be a unified solution for managing distributed infrastructure and containerized applications, particularly appealing to self-hosters and smaller enterprises seeking a free, all-in-one tool."
+}

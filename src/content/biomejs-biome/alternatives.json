@@ -1,0 +1,101 @@
+{
+  "projectName": "biome",
+  "projectPurpose": "To provide a unified, fast, and efficient toolchain for web development projects by combining essential functionalities like code formatting and linting into a single tool.",
+  "platforms": [
+    "Cross-platform (CLI)",
+    "Web (via WASM)",
+    "Windows (Editor Integrations)",
+    "macOS (Editor Integrations)",
+    "Linux (Editor Integrations)"
+  ],
+  "mainFeatures": [
+    "Code Formatter",
+    "Code Linter",
+    "Supports JavaScript, TypeScript, JSX, JSON, CSS, GraphQL",
+    "Fast performance (built in Rust)",
+    "Usable via CLI and LSP",
+    "Detailed and contextualized diagnostics",
+    "Organizes imports",
+    "Zero configuration needed to get started (with sensible defaults)"
+  ],
+  "website": "https://biomejs.dev/",
+  "alternatives": [
+    {
+      "name": "Prettier",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (CLI)",
+        "Web (Editor Integrations)",
+        "Windows (Editor Integrations)",
+        "macOS (Editor Integrations)",
+        "Linux (Editor Integrations)"
+      ],
+      "mainFeatures": [
+        "Opinionated code formatting",
+        "Supports many languages (JS, CSS, HTML, Vue, Angular, GraphQL, Markdown, YAML, etc.)",
+        "Integrates with editors",
+        "Integrates with pre-commit hooks",
+        "Integrates with CI environments"
+      ],
+      "website": "https://prettier.io/"
+    },
+    {
+      "name": "ESLint",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (CLI)",
+        "Web (Editor Integrations)",
+        "Windows (Editor Integrations)",
+        "macOS (Editor Integrations)",
+        "Linux (Editor Integrations)"
+      ],
+      "mainFeatures": [
+        "Pluggable JavaScript linter",
+        "Configurable rules and custom rules",
+        "Covers code quality and style issues",
+        "Supports JSX and TypeScript (via plugins)",
+        "Supports CSS, JSON, and Markdown"
+      ],
+      "website": "https://eslint.org/"
+    },
+    {
+      "name": "Stylelint",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (CLI)",
+        "Web (Editor Integrations)",
+        "Windows (Editor Integrations)",
+        "macOS (Editor Integrations)",
+        "Linux (Editor Integrations)"
+      ],
+      "mainFeatures": [
+        "CSS linter",
+        "Over 100 built-in rules",
+        "Supports plugins for custom rules",
+        "Automatically fixes problems",
+        "Supports shareable configs"
+      ],
+      "website": "https://stylelint.io/"
+    },
+    {
+      "name": "Ruff",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (CLI)"
+      ],
+      "mainFeatures": [
+        "Extremely fast Python linter and formatter",
+        "Built in Rust",
+        "Supports over 800 rules",
+        "Integrates with editors",
+        "Compatible with Black and Flake8 rules"
+      ],
+      "website": "https://docs.astral.sh/ruff/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ESLint",
+    "Prettier"
+  ],
+  "marketPositioning": "Biome positions itself as a modern, high-performance, unified toolchain for web projects, directly challenging the traditional setup involving separate tools like ESLint and Prettier. Its key differentiator is its implementation in Rust, offering significant speed advantages. It aims to simplify the development workflow by combining formatting and linting into a single tool with a unified configuration and command-line interface. While currently supporting a core set of web languages, its language support is growing. Its focus on speed, simplicity, and a cohesive developer experience through features like LSP support and detailed diagnostics sets it apart as a next-generation solution."
+}

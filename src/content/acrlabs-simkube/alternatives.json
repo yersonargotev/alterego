@@ -1,0 +1,90 @@
+{
+  "projectName": "simkube",
+  "projectPurpose": "To provide a tool for simulating Kubernetes scheduling behavior by acting as a Virtual Kubelet provider.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Kubernetes scheduling simulations",
+    "Utilizes Virtual Kubelet to simulate nodes and pods",
+    "Interacts with a real Kubernetes control plane",
+    "Potential for recording and replaying scenarios"
+  ],
+  "website": "https://github.com/acrlabs/simkube",
+  "alternatives": [
+    {
+      "name": "kube-scheduler-simulator",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Simulates Kubernetes scheduler decisions",
+        "Web UI for visualization",
+        "Tests scheduling constraints and configurations",
+        "Uses KWOK for fake cluster"
+      ],
+      "website": "https://github.com/kubernetes-sigs/kube-scheduler-simulator"
+    },
+    {
+      "name": "Kube-burner",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Stress tests Kubernetes clusters",
+        "Creates/deletes resources at scale",
+        "Collects Prometheus metrics",
+        "Measures performance (e.g., pod latency)",
+        "Supports alerting"
+      ],
+      "website": "https://kube-burner.github.io/kube-burner/"
+    },
+    {
+      "name": "K8sSim",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Kubernetes cluster simulator",
+        "Focuses on scheduler performance/optimization",
+        "Incorporates Kubernetes and Volcano schedulers",
+        "Aims for accurate and accelerated simulation"
+      ],
+      "website": "https://github.com/LINC-BIT/k8sSimulator"
+    },
+    {
+      "name": "k6",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Developer-centric load testing",
+        "JavaScript scripting",
+        "Distributed testing",
+        "Kubernetes integration (operator)",
+        "Focuses on backend service performance"
+      ],
+      "website": "https://k6.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "k6",
+    "Kube-burner"
+  ],
+  "marketPositioning": "SimKube is positioned as a specialized simulation tool for understanding and testing Kubernetes scheduling behavior. Unlike broader performance or load testing tools that interact with a full cluster, SimKube focuses specifically on the scheduler by using a Virtual Kubelet provider to simulate the data plane. This allows for scalable and cost-effective analysis of scheduling decisions and policies in a realistic, yet simulated, environment, potentially including the ability to record and replay real-world scenarios."
+}

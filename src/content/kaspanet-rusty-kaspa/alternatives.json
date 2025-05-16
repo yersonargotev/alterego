@@ -1,0 +1,76 @@
+{
+  "projectName": "rusty-kaspa",
+  "projectPurpose": "To provide a high-performance, secure, and efficient reference implementation of a full node for the Kaspa network, written in the Rust programming language, improving upon the previous Go implementation and supporting various ecosystem tools.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Rust-based full-node implementation",
+    "Advanced pruning for near-constant storage",
+    "Fast synchronization times using parallelism",
+    "RPC interface (including wRPC) and CLI tools",
+    "Wallet functionality (supporting HD accounts, multiple accounts, instant transfers)",
+    "WASM compatibility for web/mobile browser support",
+    "BlockDAG visualizer"
+  ],
+  "website": "https://github.com/kaspanet/rusty-kaspa",
+  "alternatives": [
+    {
+      "name": "Bitcoin Core",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Bitcoin full node implementation",
+        "Transaction and block validation",
+        "Includes a Bitcoin wallet",
+        "Supports Lightning Network",
+        "Maintains a full copy of the Bitcoin blockchain"
+      ],
+      "website": "https://bitcoincore.org/"
+    },
+    {
+      "name": "Geth (Go Ethereum)",
+      "license": "Open Source - GNU Lesser General Public License (Core), GNU General Public License (Clients)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Ethereum full node implementation",
+        "Transaction validation and smart contract execution",
+        "Supports full, light, and archive nodes",
+        "Provides a command-line interface",
+        "Exposes JSON-RPC API"
+      ],
+      "website": "https://geth.ethereum.org/"
+    },
+    {
+      "name": "Solana Validator",
+      "license": "Open Source - Apache-2.0 License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Solana network node (validator)",
+        "Verifies transactions and secures blockchain",
+        "Participates in PoH and PoS consensus",
+        "Generates blocks and earns rewards",
+        "Can function as a consensus or RPC node"
+      ],
+      "website": "https://solana.com/validators"
+    }
+  ],
+  "mostWellKnownAlternative": "Bitcoin Core",
+  "marketPositioning": "Rusty Kaspa positions itself as the high-performance, Rust-based reference implementation for the Kaspa network, offering significant technical advantages in efficiency, resource usage (via advanced pruning), and synchronization speed compared to other blockchain full nodes. Its focus on leveraging Rust and providing a robust foundation for the growing Kaspa ecosystem, including seamless integration with web and mobile applications via WASM, differentiates it within the broader landscape of blockchain node software. While not as widely recognized as foundational clients for larger networks like Bitcoin or Ethereum, it aims to be the technical standard-bearer for the Kaspa BlockDAG."
+}

@@ -1,0 +1,161 @@
+{
+  "projectName": "pyxel",
+  "projectPurpose": "To provide an easy-to-use, open-source retro game engine for Python programmers, focusing on creating pixel-art-style 2D games with deliberate constraints inspired by vintage consoles.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Programming with Python",
+    "Fixed 16-color palette",
+    "Limited simultaneous sound playback (4 channels)",
+    "Built-in image and sound editor",
+    "Customizable screen size",
+    "Support for tilemaps and image banks",
+    "Keyboard, mouse, and gamepad input support",
+    "Dedicated application distribution format (.pyxapp)",
+    "Inspired by PICO-8 and TIC-80"
+  ],
+  "website": "https://github.com/kitao/pyxel",
+  "alternatives": [
+    {
+      "name": "Pygame",
+      "license": "Open Source - LGPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Modules for 2D graphics, sound, and input",
+        "Built on SDL",
+        "Large community and extensive resources",
+        "Suitable for various 2D game types"
+      ],
+      "website": "https://www.pygame.org/"
+    },
+    {
+      "name": "Arcade",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Modern Python framework for 2D games",
+        "Uses Pyglet and OpenGL for performance",
+        "Includes built-in physics engine",
+        "Supports Python 3 type hinting and animated sprites"
+      ],
+      "website": "https://arcade.academy/"
+    },
+    {
+      "name": "Godot Engine",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "HTML5",
+        "Consoles"
+      ],
+      "mainFeatures": [
+        "All-in-one 2D and 3D engine",
+        "Node-based scene system",
+        "Dedicated 2D tools (renderer, physics, tilemaps, animation)",
+        "Uses GDScript (Python-like) or C#",
+        "Built-in editors"
+      ],
+      "website": "https://godotengine.org/"
+    },
+    {
+      "name": "GameMaker",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Ubuntu",
+        "HTML5",
+        "Android",
+        "iOS",
+        "Consoles"
+      ],
+      "mainFeatures": [
+        "Primarily 2D focused",
+        "Drag-and-drop visual programming (GML Visual)",
+        "Scripting language (GML)",
+        "Built-in editors",
+        "Extensive export options"
+      ],
+      "website": "https://gamemaker.io/"
+    },
+    {
+      "name": "Unity",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "HTML5",
+        "Consoles"
+      ],
+      "mainFeatures": [
+        "Powerful 2D and 3D engine",
+        "Comprehensive toolset (editors, physics, animation, rendering)",
+        "Large Asset Store",
+        "C# scripting",
+        "Wide platform support"
+      ],
+      "website": "https://unity.com/"
+    },
+    {
+      "name": "PICO-8",
+      "license": "Proprietary (Fantasy Console)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Raspberry Pi"
+      ],
+      "mainFeatures": [
+        "Deliberately limited 'fantasy console' environment",
+        "Built-in code, sprite, map, and sound editors",
+        "Lua scripting",
+        "Focus on creation within strict constraints"
+      ],
+      "website": "https://www.lexaloffle.com/pico-8.php"
+    },
+    {
+      "name": "TIC-80",
+      "license": "Open Source - MIT (with optional Pro version)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Fantasy console with built-in editors",
+        "Supports multiple scripting languages including Python",
+        "Similar constraints to PICO-8",
+        "Can run in a web browser"
+      ],
+      "website": "https://tic80.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Unity",
+    "Godot Engine"
+  ],
+  "marketPositioning": "Pyxel occupies a niche within the game development landscape, specifically targeting Python developers interested in creating retro-style 2D games. Unlike broader Python libraries (Pygame, Arcade) or powerful general-purpose engines (Godot, GameMaker, Unity) that offer more flexibility in graphics and features, Pyxel deliberately enforces constraints inspired by vintage 'fantasy consoles' like PICO-8 and TIC-80. This focus on a fixed palette, limited sound, and specific asset sizes defines its retro aesthetic and simplifies the development process, appealing to creators who thrive within creative boundaries or seek to replicate a classic gaming feel. Its use of Python makes it uniquely accessible to the large Python development community, differentiating it from other fantasy consoles that use different scripting languages."
+}

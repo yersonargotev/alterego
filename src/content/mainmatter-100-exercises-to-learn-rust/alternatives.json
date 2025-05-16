@@ -1,0 +1,82 @@
+{
+  "projectName": "100-exercises-to-learn-rust",
+  "projectPurpose": "To provide a large collection of hands-on coding exercises for learning the Rust programming language at a self-paced rate.",
+  "platforms": [
+    "Requires local Rust installation (Windows, macOS, Linux)"
+  ],
+  "mainFeatures": [
+    "Offers 100 structured coding exercises",
+    "Supports self-paced learning",
+    "Focuses on practical application of Rust concepts",
+    "Hosted as a GitHub repository for easy access and local execution"
+  ],
+  "website": "https://github.com/mainmatter/100-exercises-to-learn-rust",
+  "alternatives": [
+    {
+      "name": "The Rust Book",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Web",
+        "Offline (via rustup)",
+        "Print/Ebook"
+      ],
+      "mainFeatures": [
+        "Comprehensive guide to the Rust language",
+        "Covers fundamental and advanced topics",
+        "Official documentation",
+        "Includes code examples"
+      ],
+      "website": "https://doc.rust-lang.org/stable/book/"
+    },
+    {
+      "name": "Rustlings",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Requires local Rust installation (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Collection of small Rust exercises",
+        "Command-line tool to guide learners",
+        "Focuses on getting used to reading and writing Rust code",
+        "Includes watch mode to automatically check solutions"
+      ],
+      "website": "https://github.com/rust-lang/rustlings"
+    },
+    {
+      "name": "Exercism (Rust track)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web",
+        "Requires local Exercism CLI and Rust installation (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Interactive platform with many language tracks",
+        "Provides programming exercises with increasing difficulty",
+        "Offers automated code analysis",
+        "Community-driven with optional mentoring"
+      ],
+      "website": "https://exercism.org/tracks/rust"
+    },
+    {
+      "name": "Rust By Example",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Web",
+        "Offline (via git clone and mdbook)"
+      ],
+      "mainFeatures": [
+        "Collection of runnable code examples",
+        "Illustrates various Rust concepts and standard libraries",
+        "Part of the official Rust documentation",
+        "Focuses on showing code in action"
+      ],
+      "website": "https://doc.rust-lang.org/rust-by-example/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "The Rust Book",
+    "Rustlings",
+    "Exercism"
+  ],
+  "marketPositioning": "\"100-exercises-to-learn-rust\" is positioned as a focused, exercise-first, self-paced resource for learning Rust. It complements official documentation like 'The Rust Book' and 'Rust By Example' by providing a large, structured set of hands-on coding challenges. Compared to 'Rustlings', it offers a different collection of exercises and relies solely on the GitHub repository structure rather than a dedicated command-line tool. Its market niche is learners who prefer a direct, code-heavy approach to mastering Rust fundamentals outside of a fully interactive online environment, valuing the ability to work locally through a substantial number of practical examples."
+}

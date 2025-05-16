@@ -1,0 +1,166 @@
+{
+  "projectName": "borgo",
+  "projectPurpose": "To provide a statically typed programming language that compiles to Go, offering a balance between Go's simplicity and Rust's expressiveness and type safety, while being compatible with the Go ecosystem.",
+  "platforms": [
+    "N/A (Language compiles to Go, which supports various platforms)"
+  ],
+  "mainFeatures": [
+    "Statically typed language",
+    "Compiles to Go source code",
+    "Compatible with existing Go packages",
+    "Syntax similar to Rust",
+    "Aims for more expressiveness than Go and less complexity than Rust"
+  ],
+  "website": "https://github.com/borgo-lang/borgo",
+  "alternatives": [
+    {
+      "name": "Go",
+      "license": "Open Source - BSD 3-Clause",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        " \u0648\u063a\u064a\u0631\u0647\u0627"
+      ],
+      "mainFeatures": [
+        "Concurrency with Goroutines and Channels",
+        "Fast compilation",
+        "Garbage collection",
+        "Strong standard library",
+        "Statically typed"
+      ],
+      "website": "https://go.dev/"
+    },
+    {
+      "name": "Rust",
+      "license": "Open Source - MIT/Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        " \u0648\u063a\u064a\u0631\u0647\u0627"
+      ],
+      "mainFeatures": [
+        "Memory safety without garbage collection",
+        "Fearless concurrency",
+        "Performance of C/C++",
+        "Rich type system and ownership model",
+        "Strong tooling"
+      ],
+      "website": "https://www.rust-lang.org/"
+    },
+    {
+      "name": "TypeScript",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "N/A (Compiles to JavaScript, runs on Node.js)"
+      ],
+      "mainFeatures": [
+        "Statically typed superset of JavaScript",
+        "Adds optional static typing to JavaScript",
+        "Great tooling and IDE support",
+        "Large community and ecosystem (Node.js)",
+        "Used for both frontend and backend development"
+      ],
+      "website": "https://www.typescriptlang.org/"
+    },
+    {
+      "name": "Java",
+      "license": "Open Source (OpenJDK) / Proprietary (Oracle JDK)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Solaris",
+        " \u0648\u063a\u064a\u0631\u0647\u0627"
+      ],
+      "mainFeatures": [
+        "Object-oriented",
+        "Platform independent (JVM)",
+        "Large ecosystem and libraries",
+        "Automatic memory management (Garbage Collection)",
+        "Strong performance for many applications"
+      ],
+      "website": "https://www.java.com/"
+    },
+    {
+      "name": "C#",
+      "license": "Open Source (.NET) / Proprietary (Visual Studio)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Object-oriented and component-oriented",
+        "Integrated with the .NET ecosystem",
+        "Strong performance",
+        "Automatic memory management (Garbage Collection)",
+        "Versatile (web, desktop, mobile, games)"
+      ],
+      "website": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+    },
+    {
+      "name": "Kotlin",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "JVM",
+        "Android",
+        "Browser (JavaScript)",
+        "Native"
+      ],
+      "mainFeatures": [
+        "Concise and expressive syntax",
+        "Interoperable with Java",
+        "Null safety",
+        "Coroutines for asynchronous programming",
+        "Versatile (backend, mobile, frontend, etc.)"
+      ],
+      "website": "https://kotlinlang.org/"
+    },
+    {
+      "name": "Zig",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        " \u0648\u063a\u064a\u0631\u0647\u0627"
+      ],
+      "mainFeatures": [
+        "Focus on low-level programming and performance",
+        "Explicit error handling",
+        "Compile-time features (comptime)",
+        "C code interoperability without FFI",
+        "Simple language specification"
+      ],
+      "website": "https://ziglang.org/"
+    },
+    {
+      "name": "Odin",
+      "license": "Open Source - BSD 3-Clause",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Focus on performance, simplicity, and build times",
+        "Explicit control over data layout",
+        "Excellent C interop",
+        "Built-in types for common data structures",
+        "Context-oriented design"
+      ],
+      "website": "https://odin-lang.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Java",
+    "Python",
+    "Go"
+  ],
+  "marketPositioning": "Borgo positions itself as a high-level, statically typed language that offers a more expressive and potentially safer alternative to Go, while being less complex than Rust. Its key differentiator is compiling directly to Go, allowing it to seamlessly integrate with and leverage the vast Go ecosystem and tooling. It targets developers who appreciate Go's performance and concurrency but desire more advanced language features, providing a stepping stone or an alternative paradigm within the Go landscape rather than a complete replacement that requires a new ecosystem."
+}

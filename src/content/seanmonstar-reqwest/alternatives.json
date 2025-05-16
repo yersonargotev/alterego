@@ -1,0 +1,126 @@
+{
+  "projectName": "reqwest",
+  "projectPurpose": "To provide a user-friendly, yet capable, library in the Rust programming language for making HTTP requests, simplifying common HTTP client tasks while offering flexibility for more complex scenarios, supporting both asynchronous and blocking operations.",
+  "platforms": [
+    "Rust-supported platforms (generally cross-platform, including WASM)"
+  ],
+  "mainFeatures": [
+    "Async and blocking Clients",
+    "Plain bodies, JSON, urlencoded, multipart",
+    "Customizable redirect policy",
+    "HTTP Proxies",
+    "Uses system-native TLS (or optionally, rustls)",
+    "Cookies"
+  ],
+  "website": "https://github.com/seanmonstar/reqwest",
+  "alternatives": [
+    {
+      "name": "hyper",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust-supported platforms"
+      ],
+      "mainFeatures": [
+        "Low-level HTTP/1 and HTTP/2 implementation",
+        "Asynchronous design",
+        "Client and Server APIs",
+        "Designed as a building block"
+      ],
+      "website": "https://hyper.rs/"
+    },
+    {
+      "name": "isahc",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust-supported platforms"
+      ],
+      "mainFeatures": [
+        "HTTP/1.1 and HTTP/2 support",
+        "Configurable timeouts and redirect policies",
+        "Synchronous and asynchronous APIs",
+        "Sessions and cookie persistence"
+      ],
+      "website": "https://isahc.rs/"
+    },
+    {
+      "name": "ureq",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Rust-supported platforms"
+      ],
+      "mainFeatures": [
+        "Simple blocking API",
+        "Pure Rust implementation (avoids unsafe)",
+        "Cookies",
+        "JSON support",
+        "HTTP Proxies"
+      ],
+      "website": "https://crates.io/crates/ureq"
+    },
+    {
+      "name": "Requests",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Python-supported platforms (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Simple API (\"HTTP for Humans\")",
+        "Automatic Content Decoding",
+        "Sessions with Cookie Persistence",
+        "HTTP(S) Proxy Support",
+        "Various Authentication Methods"
+      ],
+      "website": "https://requests.readthedocs.io/"
+    },
+    {
+      "name": "Axios",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Browser",
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Promise-based",
+        "Intercept requests and responses",
+        "Automatic JSON data transformation",
+        "Client-side XSRF protection"
+      ],
+      "website": "https://axios-http.com/"
+    },
+    {
+      "name": "Apache HttpClient",
+      "license": "Open Source - Apache License",
+      "platforms": [
+        "Java-supported platforms"
+      ],
+      "mainFeatures": [
+        "Standards-based HTTP/1.0 and 1.1",
+        "Various HTTP methods",
+        "HTTPS support",
+        "Connection management",
+        "Cookie handling"
+      ],
+      "website": "https://hc.apache.org/httpcomponents-client-4.5.x/"
+    },
+    {
+      "name": "Guzzle",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "PHP-supported platforms"
+      ],
+      "mainFeatures": [
+        "Simple interface",
+        "Synchronous and asynchronous requests",
+        "PSR-7 and PSR-18 support",
+        "Middleware system",
+        "Handles streaming and cookies"
+      ],
+      "website": "https://docs.guzzlephp.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Requests (Python)",
+    "Axios (JavaScript)"
+  ],
+  "marketPositioning": "Reqwest is a popular and versatile HTTP client library for the Rust programming language, designed to be both easy to use and powerful. It provides a high-level API built upon the lower-level `hyper` library, abstracting away much of the complexity involved in making HTTP requests. Reqwest supports both asynchronous operations, leveraging Rust's `async`/`await` features with runtimes like Tokio, and a simpler blocking API for less complex use cases. It offers built-in support for handling various request and response body types, including plain text, JSON, URL-encoded forms, and multipart data. Key features include customizable redirect policies, support for HTTP proxies, automatic handling of HTTPS via system-native TLS or optional `rustls`, and persistent cookie stores. With additional features like WebAssembly (WASM) support and compression decoding (gzip, brotli, zstd, deflate) available via feature flags, Reqwest positions itself as a comprehensive, batteries-included HTTP client solution for a wide range of applications in the Rust ecosystem, competing with lower-level libraries by offering convenience and higher-level features expected by developers familiar with similar libraries in other languages like Python's Requests or JavaScript's Axios."
+}

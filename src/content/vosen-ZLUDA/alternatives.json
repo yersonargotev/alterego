@@ -1,0 +1,74 @@
+{
+  "projectName": "ZLUDA",
+  "projectPurpose": "To provide a compatibility layer that allows existing NVIDIA CUDA applications and binaries to run on non-NVIDIA GPUs (initially AMD) without requiring code modification or recompilation.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Enables execution of unmodified CUDA applications/binaries on non-NVIDIA GPUs",
+    "Compatibility layer for the CUDA API and runtime",
+    "Initial support for AMD GPUs",
+    "Aims to extend the CUDA software ecosystem to other hardware"
+  ],
+  "website": "https://github.com/vosen/ZLUDA",
+  "alternatives": [
+    {
+      "name": "AMD HIP (Heterogeneous-Compute Interface for Portability)",
+      "license": "Open Source (MIT or Apache 2.0)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "C++ Runtime API and kernel language",
+        "Portable code for AMD and NVIDIA GPUs from a single source",
+        "HIPify tools for automated CUDA to HIP source code translation",
+        "Thin layer with low overhead"
+      ],
+      "website": "https://github.com/ROCm-Developer-Tools/HIP"
+    },
+    {
+      "name": "OpenCL (Open Computing Language)",
+      "license": "Open Standard (Khronos Group), implementations vary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "FreeBSD",
+        "Various (CPUs, GPUs, FPGAs, DSPs)"
+      ],
+      "mainFeatures": [
+        "Open, royalty-free standard for heterogeneous parallel programming",
+        "C/C++ based kernel language",
+        "Supports a wide range of hardware vendors and types (CPUs, GPUs, FPGAs, etc.)",
+        "Runtime compilation of kernels"
+      ],
+      "website": "https://www.khronos.org/opencl/"
+    },
+    {
+      "name": "SYCL (SYCL is Your Companion for Heterogeneous Programming) / Intel oneAPI",
+      "license": "Open Standard (Khronos Group) / Mixed (Intel oneAPI)",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Various (CPUs, GPUs, FPGAs, AI Accelerators)"
+      ],
+      "mainFeatures": [
+        "Higher-level C++ abstraction layer based on C++17/20",
+        "Single-source programming model for heterogeneous systems",
+        "Aims for code portability across vendors and architectures",
+        "Includes Intel's DPC++ compiler and SYCLomatic CUDA migration tool (in oneAPI)"
+      ],
+      "website": "https://www.khronos.org/sycl/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "NVIDIA CUDA (dominant proprietary platform ZLUDA aims to be compatible with)",
+    "OpenCL (most established open standard for heterogeneous computing)",
+    "AMD HIP (most direct open competitor for CUDA portability via source porting)"
+  ],
+  "marketPositioning": "ZLUDA carves out a unique market position as a compatibility layer that aims to run existing NVIDIA CUDA binaries directly on non-NVIDIA hardware (initially AMD). This is distinct from mainstream alternatives like OpenCL and SYCL (which require rewriting code to a new standard) or AMD HIP and Intel SYCLomatic (which require porting CUDA source code). ZLUDA targets users who need to leverage existing CUDA-based software without the effort of recompilation or modification, directly challenging NVIDIA's hardware ecosystem lock-in facilitated by CUDA."
+}

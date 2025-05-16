@@ -1,0 +1,84 @@
+{
+  "projectName": "cs220",
+  "projectPurpose": "The project serves as the GitHub repository for the KAIST (Korea Advanced Institute of Science and Technology) course CS220: Programming Principles. Its purpose is to provide students with a solid understanding of fundamental programming principles and concepts using the Rust programming language, equipping them with skills necessary for developing robust software systems.",
+  "platforms": [
+    "Web",
+    "GitHub"
+  ],
+  "mainFeatures": [
+    "Review of basic programming concepts using Rust",
+    "Covers Type and Correctness",
+    "Focuses on Rust's Reference and Ownership system",
+    "Explores Functions and Iterators",
+    "Introduces Concurrency and Parallelism",
+    "Includes a comprehensive testing system for assignments"
+  ],
+  "website": "https://github.com/kaist-cp/cs220",
+  "alternatives": [
+    {
+      "name": "Structure and Interpretation of Computer Programs (SICP)",
+      "license": "Open Access (CC BY-SA 4.0 for online version)",
+      "platforms": [
+        "Book",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Covers fundamental programming concepts",
+        "Data abstraction",
+        "Different programming paradigms (functional, imperative)",
+        "Metalinguistic abstraction (interpreters)"
+      ],
+      "website": "https://sicp.mit.edu/"
+    },
+    {
+      "name": "Crafting Interpreters",
+      "license": "Open Access (MIT License for content)",
+      "platforms": [
+        "Book",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Teaches building a programming language and interpreter",
+        "Covers lexical analysis and parsing",
+        "Explores semantic analysis",
+        "Discusses tree-walk interpreters and virtual machines"
+      ],
+      "website": "https://craftinginterpreters.com/"
+    },
+    {
+      "name": "The Rust Book",
+      "license": "Open Source (MIT and Apache 2.0)",
+      "platforms": [
+        "Web",
+        "Book"
+      ],
+      "mainFeatures": [
+        "Comprehensive guide to Rust syntax and concepts",
+        "Covers ownership, borrowing, and lifetimes",
+        "Explains enums and pattern matching",
+        "Introduces concurrency in Rust"
+      ],
+      "website": "https://doc.rust-lang.org/book/"
+    },
+    {
+      "name": "Online Programming Principles Courses (e.g., Coursera, edX)",
+      "license": "Proprietary (Varies per course/platform, often paid)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Structured video lectures and readings",
+        "Quizzes and programming assignments",
+        "Peer discussion forums",
+        "Certificates upon completion (typically paid)"
+      ],
+      "website": "https://www.coursera.org/courses?query=programming%20principles"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Structure and Interpretation of Computer Programs (SICP)",
+    "The Rust Book"
+  ],
+  "marketPositioning": "KAIST CS220 positions itself as an academic course focused on fundamental programming principles, specifically leveraging the Rust programming language to illustrate concepts related to correctness, memory management, and concurrency. Unlike many traditional programming principles courses that might use older or different languages, CS220 offers a modern approach using Rust, making it particularly relevant for students interested in systems programming and reliable software development. Its positioning is that of a rigorous, university-level introduction with a strong emphasis on practical application through a comprehensive testing system.",
+  "expandedDescription": "KAIST CS220: Programming Principles is a university course offered by KAIST that aims to equip students with the fundamental programming concepts necessary for effectively communicating ideas to computers and developing robust software systems. The course uses the Rust programming language as the primary tool for exploring these principles. Key topics covered include a review of basic programming concepts, types and correctness, Rust's ownership and borrowing system, functions, iterators, and an introduction to concurrency and parallelism. The course emphasizes a practical approach, providing a comprehensive testing system for assignments to help students solidify their understanding. It is recommended for students who have completed introductory programming and mathematics courses."
+}

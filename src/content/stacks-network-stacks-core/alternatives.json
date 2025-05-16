@@ -1,0 +1,111 @@
+{
+  "projectName": "stacks-core",
+  "projectPurpose": "To implement the Stacks blockchain, a Layer-1 (often described as Layer-2 on Bitcoin) blockchain designed to bring smart contract functionality and decentralized applications (dApps) to the Bitcoin ecosystem without modifying the core Bitcoin protocol, leveraging Bitcoin's security and network effects.",
+  "platforms": [
+    "Web",
+    "Desktop",
+    "Mobile"
+  ],
+  "mainFeatures": [
+    "Bitcoin-anchored Layer-1 blockchain for smart contracts and dApps",
+    "Proof of Transfer (PoX) consensus mechanism linked to Bitcoin mining",
+    "Clarity smart contract language for predictable and secure execution",
+    "Enables 'stacking' STX to earn Bitcoin rewards",
+    "Smart contracts can read Bitcoin state and react to Bitcoin transactions",
+    "Transactions settle on the Bitcoin blockchain for enhanced security",
+    "Supports faster transactions and microblocks compared to Bitcoin's base layer",
+    "Decentralized peg system (sBTC) for trust-minimized BTC movement (upcoming)"
+  ],
+  "website": "https://stacks.org/",
+  "alternatives": [
+    {
+      "name": "Ethereum",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Largest smart contract platform ecosystem",
+        "Proof-of-Stake (PoS) consensus",
+        "Supports Solidity programming language",
+        "Extensive Layer 2 scaling solutions",
+        "Wide range of dApps and DeFi protocols"
+      ],
+      "website": "https://ethereum.org/"
+    },
+    {
+      "name": "Solana",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "High transaction throughput (TPS)",
+        "Low transaction costs",
+        "Proof of History (PoH) and Proof of Stake (PoS) consensus",
+        "Supports Rust, C, C++",
+        "Rapid transaction finality"
+      ],
+      "website": "https://solana.com/"
+    },
+    {
+      "name": "Cardano",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Research-driven development approach",
+        "Proof-of-Stake (PoS) consensus (Ouroboros)",
+        "Two-layer architecture",
+        "Supports Plutus and Marlowe",
+        "Focus on scalability (sidechains, Hydra)"
+      ],
+      "website": "https://cardano.org/"
+    },
+    {
+      "name": "Avalanche",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Unique Avalanche consensus for rapid finality",
+        "High transaction throughput",
+        "EVM compatibility and Solidity support",
+        "Multi-chain architecture with subnets",
+        "Designed for dApps and enterprise solutions"
+      ],
+      "website": "https://www.avax.network/"
+    },
+    {
+      "name": "Core Chain",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "EVM-compatible Layer-1",
+        "Leverages Bitcoin mining hash power (Satoshi Plus consensus)",
+        "Supports Bitcoin staking",
+        "Aims for hyper-scalability",
+        "Focus on the BTCfi ecosystem"
+      ],
+      "website": "https://www.coredao.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "Stacks is positioned as the leading platform for building smart contracts and decentralized applications that leverage the security and capital of Bitcoin. Unlike other major smart contract platforms that operate with their own independent security models (like Ethereum, Solana, Cardano, and Avalanche), Stacks is uniquely anchored to Bitcoin through its Proof of Transfer consensus mechanism. This allows it to inherit Bitcoin's unparalleled security guarantees and unlock Bitcoin's potential for programmatic use cases without altering Bitcoin's core protocol. Its market position is defined by being the primary gateway for developers and users to bring Web3 functionality, such as DeFi and NFTs, directly onto the most secure and decentralized blockchain network, Bitcoin."
+}

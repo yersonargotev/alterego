@@ -1,0 +1,97 @@
+{
+  "projectName": "tokei",
+  "projectPurpose": "To provide a fast, accurate, and highly configurable command-line tool and library for counting lines of code, comments, and blank lines in software projects, supporting a wide variety of programming languages.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Fast and accurate code counting",
+    "Supports over 150 programming languages",
+    "Outputs in multiple formats (CBOR, JSON, YAML)",
+    "Can combine results from previous runs",
+    "Available as a library for integration"
+  ],
+  "website": "https://github.com/XAMPPRocky/tokei",
+  "alternatives": [
+    {
+      "name": "cloc",
+      "license": "Open Source - GNU General Public License version 2.0 (GPLv2)",
+      "platforms": [
+        "Linux",
+        "FreeBSD",
+        "NetBSD",
+        "OpenBSD",
+        "macOS",
+        "AIX",
+        "HP-UX",
+        "Solaris",
+        "IRIX",
+        "z/OS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Counts lines of code, comments, blanks",
+        "Supports many programming languages",
+        "Computes differences between code versions",
+        "Outputs in various formats",
+        "Can count code within compressed archives"
+      ],
+      "website": "http://www.dwheeler.com/cloc/"
+    },
+    {
+      "name": "SLOCCount",
+      "license": "Open Source - GNU General Public License (GPL)",
+      "platforms": [
+        "GNU/Linux",
+        "FreeBSD",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Counts physical Source Lines of Code (SLOC)",
+        "Auto-determines languages",
+        "Supports a large number of languages",
+        "Estimates cost and time"
+      ],
+      "website": "http://www.dwheeler.com/sloccount/"
+    },
+    {
+      "name": "SonarQube",
+      "license": "Open Core (Community Edition GPLv3, Commercial Licenses available)",
+      "platforms": [
+        "Cross-platform (Server-based, Web UI)"
+      ],
+      "mainFeatures": [
+        "Continuous code inspection for quality and security",
+        "Static analysis for bugs, smells, and vulnerabilities",
+        "Supports over 30 programming languages",
+        "Integration with CI/CD platforms",
+        "Comprehensive reporting on code metrics"
+      ],
+      "website": "https://www.sonarqube.org/"
+    },
+    {
+      "name": "scc (Sloc, Cloc and Code)",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Fast and accurate code counting",
+        "Provides complexity calculations",
+        "Offers COCOMO estimates",
+        "Supports many programming languages",
+        "Supports multiple output formats"
+      ],
+      "website": "https://github.com/boyter/scc"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SonarQube",
+    "cloc"
+  ],
+  "marketPositioning": "Tokei is positioned as a fast, accurate, and versatile command-line utility and library specifically for counting lines of code. Its key differentiators include its speed (attributed to being written in Rust), high accuracy in handling comments, and support for a wide array of languages and output formats. Unlike broader platforms like SonarQube, Tokei focuses solely on code counting, making it a lightweight yet powerful tool for developers and teams who need quick and reliable code statistics without the overhead of a full static analysis suite. Its availability as a library also makes it suitable for integration into other development tools and workflows."
+}

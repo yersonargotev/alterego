@@ -1,0 +1,135 @@
+{
+  "projectName": "exa",
+  "projectPurpose": "To provide a modern, feature-rich, and visually enhanced command-line tool for listing files and directories, serving as a replacement for the standard 'ls' command.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "BSD"
+  ],
+  "mainFeatures": [
+    "Color-coded file and metadata display",
+    "Supports extended attributes and Git status",
+    "Recursive tree view of directories",
+    "Improved default options for file listing",
+    "Fast performance (written in Rust)"
+  ],
+  "website": "https://the.exa.website/",
+  "alternatives": [
+    {
+      "name": "ls",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Basic file and directory listing",
+        "Options for formatting output",
+        "Sorting and filtering capabilities",
+        "Part of GNU Core Utilities"
+      ],
+      "website": "https://www.gnu.org/software/coreutils/"
+    },
+    {
+      "name": "dir",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Basic file and directory listing",
+        "Often similar or aliased to 'ls'",
+        "Part of GNU Core Utilities"
+      ],
+      "website": "https://www.gnu.org/software/coreutils/"
+    },
+    {
+      "name": "vdir",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Detailed file listing by default (similar to 'ls -l')",
+        "Part of GNU Core Utilities"
+      ],
+      "website": "https://www.gnu.org/software/coreutils/"
+    },
+    {
+      "name": "tree",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Lists directory contents in a tree format",
+        "Options for controlling depth",
+        "Shows hidden files",
+        "Filtering options"
+      ],
+      "website": "http://mama.indstate.edu/users/ice/tree/"
+    },
+    {
+      "name": "lsd",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Color-coded output and icons",
+        "Tree view display",
+        "Git integration",
+        "Extensive customization options"
+      ],
+      "website": "https://github.com/Peltoche/lsd"
+    },
+    {
+      "name": "colorls",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Colorized output and icons",
+        "Git integration",
+        "File type indicators",
+        "Requires Ruby"
+      ],
+      "website": "https://github.com/athityakumar/colorls"
+    },
+    {
+      "name": "eza",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Actively maintained fork of exa",
+        "Color-coded output and icons",
+        "Git integration and tree view",
+        "Supports extended attributes"
+      ],
+      "website": "https://github.com/eza-community/eza"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ls"
+  ],
+  "marketPositioning": "exa positions itself as a modern and enhanced replacement for the standard 'ls' command, targeting command-line users who desire a more visually appealing and informative file listing experience. By offering features like color-coding, icons, Git integration, and a tree view out-of-the-box or with simple options, it differentiates itself from the basic functionality of 'ls', 'dir', and 'vdir'. It competes with other modern alternatives like lsd and colorls by emphasizing performance (due to being written in Rust) and a comprehensive set of features. The existence and popularity of the 'eza' fork highlight the strong demand for exa's feature set and its impact on the command-line utility landscape."
+}

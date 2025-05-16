@@ -1,0 +1,128 @@
+{
+  "projectName": "aptos-core",
+  "projectPurpose": "To create a highly scalable, secure, reliable, and user-friendly Layer 1 blockchain platform capable of supporting widespread decentralized applications and enabling mass adoption of Web3 technologies by addressing the limitations of existing blockchains, particularly in terms of performance, cost, and user experience.",
+  "platforms": [
+    "Cross-platform"
+  ],
+  "mainFeatures": [
+    "Layer 1 blockchain for widespread use and mass adoption",
+    "Built with Move programming language for enhanced security and performance",
+    "Parallel execution engine (Block-STM) for high transaction throughput and low latency",
+    "Modular architecture for flexibility and upgradeability",
+    "Focus on user experience with features like flexible key management and transaction transparency",
+    "AptosBFT consensus mechanism",
+    "Low transaction costs"
+  ],
+  "website": "https://github.com/aptos-labs/aptos-core",
+  "alternatives": [
+    {
+      "name": "Ethereum",
+      "license": "Open Source (Various, e.g., GPLv3, Apache 2.0 for clients)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Established Smart Contract Platform (EVM)",
+        "Large Ecosystem and Developer Community",
+        "Decentralized Finance (DeFi) Hub",
+        "NFT Support",
+        "Proof-of-Stake (PoS) Consensus"
+      ],
+      "website": "https://ethereum.org/"
+    },
+    {
+      "name": "Solana",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "High Transaction Throughput",
+        "Low Transaction Costs",
+        "Proof-of-History (PoH) and Proof-of-Stake (PoS) Consensus",
+        "Fast Transaction Finality",
+        "Growing Ecosystem (DeFi, NFTs, Gaming)"
+      ],
+      "website": "https://solana.com/"
+    },
+    {
+      "name": "Cardano",
+      "license": "Open Source - Apache",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Research-Driven Development",
+        "Proof-of-Stake Consensus (Ouroboros)",
+        "Layered Architecture (Settlement Layer, Computation Layer)",
+        "Formal Verification Focus",
+        "Smart Contract Support (Plutus)"
+      ],
+      "website": "https://cardano.org/"
+    },
+    {
+      "name": "Polkadot",
+      "license": "Open Source (GPL-3.0-only for Polkadot Host, Apache 2.0 for Substrate)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Interoperability (Connecting Blockchains via Relay Chain and Parachains)",
+        "Shared Security",
+        "On-Chain Governance",
+        "Scalability (Parallel Transaction Processing)",
+        "Nominated Proof-of-Stake Consensus"
+      ],
+      "website": "https://polkadot.network/"
+    },
+    {
+      "name": "Avalanche",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "High Throughput and Low Latency",
+        "Unique Consensus Mechanism (Avalanche consensus)",
+        "Subnets (Customizable Blockchains)",
+        "EVM Compatibility",
+        "Fast Transaction Finality"
+      ],
+      "website": "https://www.avax.network/"
+    },
+    {
+      "name": "BNB Chain",
+      "license": "Open Source (GPLv3 for BSC client)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "EVM Compatibility",
+        "High Transaction Speed and Low Fees",
+        "Proof-of-Staked-Authority (PoSA) Consensus",
+        "Large Ecosystem and User Base",
+        "Support for dApps, DeFi, NFTs"
+      ],
+      "website": "https://www.bnbchain.org/"
+    },
+    {
+      "name": "NEAR Protocol",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "User-Friendly Account Names",
+        "Sharding (Nightshade) for Scalability",
+        "Proof-of-Stake Consensus (Doomslug, TPoS)",
+        "Aurora (EVM Compatibility Layer)",
+        "Focus on Developer and User Experience"
+      ],
+      "website": "https://near.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "Aptos is positioned as a next-generation Layer 1 blockchain specifically engineered for mass adoption and widespread use of Web3. It differentiates itself from established and newer Layer 1 competitors primarily through its utilization of the Move programming language for enhanced security and its innovative Block-STM parallel execution engine, which promises high throughput and low latency without typical development constraints. By focusing on these technical advancements, a modular architecture for seamless upgrades, and a strong emphasis on user and developer experience, Aptos aims to overcome the scalability, cost, and usability challenges faced by many existing blockchains, striving to provide a more robust and accessible foundation for the future of decentralized applications and digital assets."
+}

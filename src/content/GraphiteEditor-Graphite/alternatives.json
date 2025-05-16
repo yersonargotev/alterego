@@ -1,0 +1,170 @@
+{
+  "projectName": "Graphite",
+  "projectPurpose": "To provide a comprehensive 2D vector and raster graphics editor with a modern node-based, non-destructive, and procedural workflow.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "2D vector editing",
+    "2D raster editing",
+    "Node-based workflow",
+    "Non-destructive editing",
+    "Procedural workflow",
+    "Combines layers and nodes"
+  ],
+  "website": "https://graphite.rs/",
+  "alternatives": [
+    {
+      "name": "Inkscape",
+      "license": "Open Source - GPL-3.0-or-later",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD"
+      ],
+      "mainFeatures": [
+        "Vector graphics editing",
+        "Scalable SVG format support",
+        "Path effects",
+        "Wide range of file format support",
+        "Large community support"
+      ],
+      "website": "https://inkscape.org/"
+    },
+    {
+      "name": "GIMP",
+      "license": "Open Source - GPL-3.0-or-later",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "OpenBSD",
+        "Solaris",
+        "AmigaOS 4"
+      ],
+      "mainFeatures": [
+        "Raster graphics editing",
+        "Photo retouching and manipulation",
+        "Digital painting tools",
+        "Extensibility with plugins and scripting",
+        "Wide file format support"
+      ],
+      "website": "https://www.gimp.org/"
+    },
+    {
+      "name": "Krita",
+      "license": "Open Source - GPL-3.0-only, LGPLv2.1, PublicDomain",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "ChromeOS",
+        "Haiku"
+      ],
+      "mainFeatures": [
+        "Digital painting focus",
+        "Advanced brush engine",
+        "Non-destructive layers and masks",
+        "Vector artwork support",
+        "Animation tools"
+      ],
+      "website": "https://krita.org/"
+    },
+    {
+      "name": "Adobe Illustrator",
+      "license": "Proprietary (Subscription-based - Creative Cloud)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iPadOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Industry-standard vector graphics editing",
+        "Advanced drawing tools",
+        "Typography features",
+        "Seamless Creative Cloud integration",
+        "AI-powered features"
+      ],
+      "website": "https://www.adobe.com/products/illustrator.html"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "license": "Proprietary (Subscription-based - Creative Cloud)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iPadOS",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Industry-standard raster graphics editing",
+        "Photo retouching and manipulation",
+        "Compositing",
+        "Digital painting",
+        "Wide plugin support"
+      ],
+      "website": "https://www.adobe.com/products/photoshop.html"
+    },
+    {
+      "name": "Affinity Designer",
+      "license": "Proprietary (One-time purchase)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iPadOS"
+      ],
+      "mainFeatures": [
+        "Vector graphics editing",
+        "Pixel persona for raster tools",
+        "Non-destructive editing",
+        "Strong performance",
+        "Affordable one-time purchase"
+      ],
+      "website": "https://affinity.serif.com/designer/"
+    },
+    {
+      "name": "Affinity Photo",
+      "license": "Proprietary (One-time purchase)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iPadOS"
+      ],
+      "mainFeatures": [
+        "Raster graphics editing",
+        "Professional photo retouching",
+        "Non-destructive editing",
+        "RAW processing",
+        "HDR merge"
+      ],
+      "website": "https://affinity.serif.com/photo/"
+    },
+    {
+      "name": "CorelDRAW",
+      "license": "Proprietary (Subscription or Perpetual License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Web",
+        "iPad"
+      ],
+      "mainFeatures": [
+        "Vector graphics editing",
+        "Page layout",
+        "Photo editing (with Photo-Paint)",
+        "Tracing bitmaps",
+        "Wide format compatibility"
+      ],
+      "website": "https://www.coreldraw.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Adobe Photoshop",
+    "Adobe Illustrator"
+  ],
+  "marketPositioning": "Graphite is an open-source 2D graphics editor that distinguishes itself by adopting a node-based, non-destructive, and procedural workflow for both vector and raster graphics. While traditional editors rely on layers, Graphite's core is built around a node graph, offering unparalleled flexibility and control over the design process, allowing for easy iteration and modification. This positions it as a modern, innovative alternative challenging the paradigms of established layer-based tools like Adobe Photoshop/Illustrator, GIMP, and Inkscape, and more closely aligning its workflow with procedural tools found in 3D and VFX. It aims to be a versatile, all-in-one procedural toolbox for 2D content creation."
+}

@@ -1,0 +1,93 @@
+{
+  "projectName": "brontes",
+  "projectPurpose": "To provide a high-performance, modular, and programmable engine for general blockchain data analysis, with a specific focus on systematic detection and analysis of Maximal Extractable Value (MEV) within the Ethereum ecosystem.",
+  "platforms": [
+    "Likely Linux/macOS (as a Rust application, requires compilation and running locally or on a server)"
+  ],
+  "mainFeatures": [
+    "Transforms raw Ethereum data into a structured, analyzable format",
+    "Enhances analysis with off-chain data (metadata, CEX prices, p2p data)",
+    "Provides a modular framework for implementing user-defined custom analytics (inspectors)",
+    "Built on top of Reth for performance",
+    "Specialized in systematic MEV detection"
+  ],
+  "website": "https://github.com/SorellaLabs/brontes",
+  "alternatives": [
+    {
+      "name": "Dune Analytics",
+      "license": "Freemium (Open Source platform with paid features)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "SQL querying of blockchain data",
+        "Custom and community dashboards",
+        "Real-time data access",
+        "Collaboration features"
+      ],
+      "website": "https://dune.com/"
+    },
+    {
+      "name": "Nansen",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Wallet labeling and 'smart money' tracking",
+        "Real-time on-chain data and alerts",
+        "NFT analytics",
+        "Portfolio tracking"
+      ],
+      "website": "https://www.nansen.ai/"
+    },
+    {
+      "name": "Glassnode",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Comprehensive on-chain and financial metrics",
+        "Customizable charts and dashboards",
+        "API access",
+        "Specialized research and reports"
+      ],
+      "website": "https://glassnode.com/"
+    },
+    {
+      "name": "EigenPhi",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Specialized MEV data and analysis (arbitrage, sandwich, liquidation)",
+        "Real-time MEV detection",
+        "Token flow analysis",
+        "Comprehensive DeFi deep data"
+      ],
+      "website": "https://eigenphi.io/"
+    },
+    {
+      "name": "Forta Network",
+      "license": "Open Source",
+      "platforms": [
+        "Web (Alerts)"
+      ],
+      "mainFeatures": [
+        "Real-time threat and anomaly detection",
+        "Decentralized network of detection bots",
+        "Customizable alerts",
+        "Focus on blockchain security monitoring"
+      ],
+      "website": "https://forta.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Dune Analytics",
+    "Nansen"
+  ],
+  "marketPositioning": "Brontes is positioned as a high-performance, developer-focused blockchain analytics engine, distinguishing itself with a specific emphasis on systematic MEV detection and a modular architecture built on Rust and Reth. Unlike broader, UI-centric platforms like Dune Analytics or Nansen, brontes targets users who need programmatic control and the ability to build custom analysis workflows for complex on-chain data and MEV strategies. While EigenPhi also specializes in MEV, brontes appears to offer a more foundational engine for custom development rather than primarily providing pre-packaged dashboards and data feeds. Its focus on speed, raw data transformation, and off-chain data integration caters to researchers and developers tackling the challenges of large-scale, low-level blockchain data analysis and sophisticated MEV analysis."
+}

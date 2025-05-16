@@ -1,0 +1,133 @@
+{
+  "projectName": "difftastic",
+  "projectPurpose": "To provide a more intelligent and human-readable way to compare code and structured text files by understanding their underlying syntax rather than simply comparing lines of text, reducing noise caused by formatting changes.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "FreeBSD",
+    "NetBSD",
+    "OpenBSD",
+    "Redox",
+    "Solaris",
+    "WASI"
+  ],
+  "mainFeatures": [
+    "Structural diff (understands syntax)",
+    "Compares files and directories",
+    "Supports over 50 programming languages and structured text formats",
+    "Highlights differences based on syntax using ASTs",
+    "Shows real line numbers and understands nesting/line wrapping",
+    "Can check for syntactic changes without a full diff"
+  ],
+  "website": "https://github.com/Wilfred/difftastic",
+  "alternatives": [
+    {
+      "name": "diff",
+      "license": "Open Source (Various, e.g., MIT, GPL)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Unix-like",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Compares two files or directories line by line",
+        "Outputs differences in various formats (context, unified, ed script)",
+        "Supports ignoring whitespace changes",
+        "Recursive directory comparison"
+      ],
+      "website": "https://en.wikipedia.org/wiki/Diff"
+    },
+    {
+      "name": "Git Diff",
+      "license": "Open Source (GPL v2)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Compares commits, branches, files, working directory/staging area",
+        "Outputs diffs in a standard format",
+        "Can be configured to use external diff tools",
+        "Supports word-by-word diff highlighting"
+      ],
+      "website": "https://git-scm.com/docs/git-diff"
+    },
+    {
+      "name": "Meld",
+      "license": "Open Source (GPL v2 or later)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Visual diff and merge tool",
+        "Supports two-way and three-way file and directory comparison",
+        "Integrated editor for resolving merge conflicts",
+        "Version control integration",
+        "Syntax highlighting"
+      ],
+      "website": "https://meldmerge.org/"
+    },
+    {
+      "name": "Beyond Compare",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Compares files, folders, archives, and FTP/SFTP sites",
+        "Three-way merging",
+        "Syntax highlighting for various languages",
+        "Folder synchronization",
+        "Can be configured as a Git diff/merge tool"
+      ],
+      "website": "https://www.scootersoftware.com/"
+    },
+    {
+      "name": "KDiff3",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Compares and merges two or three files or directories",
+        "Shows differences line by line and character by character",
+        "Automatic merge facility and integrated editor for conflicts",
+        "Supports Unicode and various codecs",
+        "Graphical user interface"
+      ],
+      "website": "http://kdiff3.sourceforge.net/"
+    },
+    {
+      "name": "Visual Studio Code (Integrated Diff Editor)",
+      "license": "Proprietary (Microsoft Software License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Built-in file comparison within the editor",
+        "Compares working directory, staged changes, and Git versions",
+        "Highlights added, removed, and changed lines",
+        "Side-by-side or inline comparison",
+        "Integrates with Git source control"
+      ],
+      "website": "https://code.visualstudio.com/docs/editor/versioncontrol"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "diff",
+    "Git Diff"
+  ],
+  "marketPositioning": "Difftastic is positioned as a specialized command-line diff tool that excels at comparing code and structured text by understanding their syntax. Unlike traditional line-based diff tools, it minimizes noise from formatting changes, offering a more accurate view of structural modifications. It stands apart from basic diff utilities and Git's built-in diff by its core structural comparison logic. While graphical tools like Beyond Compare and Meld offer visual interfaces and merging, they typically rely on line-based comparisons. Difftastic's strength lies in its precise, syntax-aware comparison and broad language support via tree-sitter, making it a powerful tool for developers who need clear and accurate code diffs, especially when integrated into existing command-line or Git workflows."
+}

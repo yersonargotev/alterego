@@ -1,0 +1,69 @@
+{
+  "projectName": "tantivy",
+  "projectPurpose": "To provide a high-performance, full-featured library for building custom full-text search engines, inspired by Apache Lucene but written in Rust.",
+  "platforms": [
+    "Cross-platform (Rust-based)"
+  ],
+  "mainFeatures": [
+    "Full-text search capabilities",
+    "Configurable tokenizer with multi-language support",
+    "Fast performance and tiny startup time",
+    "BM25 scoring",
+    "Natural query language and phrase queries",
+    "Incremental and multithreaded indexing",
+    "Support for various field types (Text, numeric, date, IP, boolean, facets, JSON)",
+    "Aggregations and faceted search",
+    "Lenient query parser",
+    "Sorting by fast fields"
+  ],
+  "website": "https://github.com/quickwit-oss/tantivy",
+  "alternatives": [
+    {
+      "name": "Apache Lucene",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "High-performance indexing and search library",
+        "Numerous query types (wildcard, phrase, proximity, range)",
+        "Pluggable ranking models (BM25, Vector Space Model)",
+        "Flexible faceting and highlighting",
+        "Incremental indexing"
+      ],
+      "website": "https://lucene.apache.org/"
+    },
+    {
+      "name": "Elasticsearch",
+      "license": "Triple-licensed (Elastic License, SSPL, AGPL) - Primarily Proprietary/Source-Available",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Distributed search and analytics engine",
+        "Near real-time search",
+        "RESTful API and schema-free JSON documents",
+        "Aggregation framework",
+        "Scalable and fault tolerant"
+      ],
+      "website": "https://www.elastic.co/elasticsearch/"
+    },
+    {
+      "name": "Apache Solr",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Enterprise search platform",
+        "Full-text search with hit highlighting and faceting",
+        "Distributed search and index replication (SolrCloud)",
+        "Real-time indexing",
+        "REST-like API"
+      ],
+      "website": "https://solr.apache.org/"
+    }
+  ],
+  "mostWellKnownAlternative": "Elasticsearch",
+  "marketPositioning": "Tantivy is positioned as a high-performance, Rust-native full-text search *library*, serving as a direct alternative to Apache Lucene for developers who require an embeddable search engine or wish to build custom search solutions. Unlike full-fledged search servers like Elasticsearch and Apache Solr, which offer distributed capabilities and a complete server stack, Tantivy focuses on providing the core indexing and searching primitives with a strong emphasis on speed, low-level control, and the benefits of the Rust programming language. This makes it suitable for applications where embedding the search functionality is preferred or where a custom search server needs to be built from the ground up, leveraging Rust's performance and safety features."
+}

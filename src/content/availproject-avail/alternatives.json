@@ -1,0 +1,76 @@
+{
+  "projectName": "avail",
+  "projectPurpose": "To provide a foundational data availability layer and unification platform for modular blockchain ecosystems, enabling scalability, interoperability, and trust-minimized data verification for rollups and app-specific chains.",
+  "platforms": [
+    "Blockchain (Nodes)",
+    "Web (Light Clients)",
+    "Desktop (Light Clients)"
+  ],
+  "mainFeatures": [
+    "Data Availability Layer (Avail DA)",
+    "Modular Blockchain Architecture",
+    "Scalability via Data Availability Sampling (DAS)",
+    "Trust-Minimized Infrastructure",
+    "Support for multiple execution environments (EVM, WASM, custom)",
+    "KZG Polynomial Commitments",
+    "Light Clients with DAS",
+    "Cross-chain Interoperability (Avail Nexus)",
+    "Multi-asset Staking (Avail Fusion)"
+  ],
+  "website": "https://www.availproject.org/",
+  "alternatives": [
+    {
+      "name": "Celestia",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Blockchain (Nodes)",
+        "Web (Light Clients)",
+        "Desktop (Light Clients)"
+      ],
+      "mainFeatures": [
+        "Data Availability Sampling (DAS)",
+        "Modular Consensus Layer",
+        "Supports various execution environments",
+        "Sovereign Rollup Deployment"
+      ],
+      "website": "https://celestia.org/"
+    },
+    {
+      "name": "EigenDA",
+      "license": "Proprietary/Managed Service",
+      "platforms": [
+        "Ethereum (as a service for rollups)",
+        "Web (Clients)",
+        "Desktop (Clients)"
+      ],
+      "mainFeatures": [
+        "Leverages Ethereum Security via Restaking",
+        "High Throughput",
+        "Low Transaction Costs for DA",
+        "Scalable Data Blobs"
+      ],
+      "website": "https://www.eigenlayer.xyz/eigenda"
+    },
+    {
+      "name": "Ethereum (with EIP-4844/Danksharding)",
+      "license": "Open Source (Various, e.g., GPL, MIT)",
+      "platforms": [
+        "Blockchain (Nodes)",
+        "Web (Clients)",
+        "Desktop (Clients)"
+      ],
+      "mainFeatures": [
+        "Base Layer Security and Settlement",
+        "Data Blobs (EIP-4844)",
+        "Future Danksharding for Increased DA Capacity",
+        "Large Developer Ecosystem"
+      ],
+      "website": "https://ethereum.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum",
+    "Celestia"
+  ],
+  "marketPositioning": "Avail positions itself as a dedicated, horizontally scalable data availability layer and unification platform for the modular blockchain ecosystem. It differentiates itself through specific technical implementations like faster data availability verification for light clients via validity proofs and DAS, a focus on broad compatibility with various execution environments, and a unique multi-asset staking mechanism (Avail Fusion) for enhanced security. It competes directly with other dedicated DA layers like Celestia and EigenDA, while also complementing or offering an alternative to the DA capabilities of established L1s like Ethereum."
+}

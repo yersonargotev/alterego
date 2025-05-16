@@ -1,0 +1,104 @@
+{
+  "projectName": "burn",
+  "projectPurpose": "To provide a flexible, efficient, and portable deep learning framework.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "Web",
+    "Embedded Devices",
+    "Mobile",
+    "GPU Clusters"
+  ],
+  "mainFeatures": [
+    "Flexibility",
+    "Efficiency",
+    "Portability",
+    "Backend Agnostic (CPU, GPU, etc.)",
+    "Dynamic Computation Graphs",
+    "Automatic differentiation",
+    "Automatic kernel fusion",
+    "Intelligent memory management",
+    "Simplified training to deployment workflow",
+    "Written in Rust for memory safety and performance"
+  ],
+  "website": "https://github.com/tracel-ai/burn",
+  "alternatives": [
+    {
+      "name": "TensorFlow",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android",
+        "iOS",
+        "JavaScript"
+      ],
+      "mainFeatures": [
+        "Comprehensive ecosystem",
+        "Supports multiple languages (Python, C++, Java, JavaScript, R)",
+        "Flexible deployment (cloud, on-prem, mobile, edge)",
+        "Large-scale numerical computation",
+        "Automatic differentiation"
+      ],
+      "website": "https://www.tensorflow.org/"
+    },
+    {
+      "name": "PyTorch",
+      "license": "Open Source - BSD 3-Clause",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Pythonic API",
+        "Dynamic computation graph (eager execution)",
+        "Strong GPU acceleration",
+        "Robust ecosystem",
+        "Production ready tools"
+      ],
+      "website": "https://pytorch.org/"
+    },
+    {
+      "name": "JAX",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Composable function transformations (grad, jit, vmap, pmap)",
+        "NumPy-like interface",
+        "Automatic differentiation",
+        "JIT compilation via Open XLA",
+        "Designed for high-performance numerical computing"
+      ],
+      "website": "https://jax.readthedocs.io/en/latest/"
+    },
+    {
+      "name": "Apache MXNet",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Flexible programming model (imperative and symbolic)",
+        "Scalable distributed training",
+        "Supports multiple languages (Python, C++, Java, R, Scala, etc.)",
+        "Portable",
+        "Cloud support"
+      ],
+      "website": "https://mxnet.apache.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "TensorFlow",
+    "PyTorch"
+  ],
+  "marketPositioning": "Burn positions itself as a 'next generation' deep learning framework built in Rust, emphasizing flexibility, efficiency, and portability without compromise. It targets developers seeking alternatives to established Python-based frameworks like TensorFlow and PyTorch, particularly those who value performance, memory safety (inherent in Rust), and the ability to deploy models across a wide spectrum of devices, from embedded systems to large GPU clusters. Its focus on a backend-agnostic architecture, automatic kernel fusion, and simplified deployment workflow differentiates it, aiming to provide a more unified and performant experience across diverse hardware."
+}

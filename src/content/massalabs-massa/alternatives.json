@@ -1,0 +1,124 @@
+{
+  "projectName": "massa",
+  "projectPurpose": "To build a decentralized and scalable Layer 1 blockchain that solves the blockchain trilemma (scalability, decentralization, security) by providing high-throughput transactions, smart contracts (including autonomous ones), and decentralized web hosting.",
+  "platforms": [
+    "Cross-platform"
+  ],
+  "mainFeatures": [
+    "Decentralized and Scaled Layer 1 Blockchain",
+    "Autonomous Smart Contracts (ASCs)",
+    "On-chain Web Hosting (DeWeb)",
+    "Parallel Block Architecture (Blockclique)",
+    "Transaction Sharding",
+    "Proof-of-Stake Consensus"
+  ],
+  "website": "https://massa.net",
+  "alternatives": [
+    {
+      "name": "Ethereum",
+      "license": "Open Source (Various, including Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Smart Contract Platform (EVM)",
+        "Decentralized Applications (dApps)",
+        "Large Ecosystem",
+        "Proof-of-Stake Consensus",
+        "Token Standards (ERC-20, ERC-721)"
+      ],
+      "website": "https://ethereum.org"
+    },
+    {
+      "name": "Solana",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "High Transaction Throughput",
+        "Proof-of-Stake Consensus",
+        "Smart Contract Functionality",
+        "dApp Support",
+        "Focus on Scalability"
+      ],
+      "website": "https://solana.com"
+    },
+    {
+      "name": "Polkadot",
+      "license": "Open Source (Apache 2.0 for some components)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Interoperability (Parachains)",
+        "Shared Security",
+        "Nominated Proof-of-Stake Consensus",
+        "Forkless Runtime Upgrades"
+      ],
+      "website": "https://polkadot.network"
+    },
+    {
+      "name": "Cardano",
+      "license": "Free and Open-Source (Apache)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Peer-Reviewed Research Approach",
+        "Layered Architecture",
+        "Proof-of-Stake Consensus (Ouroboros)",
+        "Smart Contracts (Plutus)"
+      ],
+      "website": "https://cardano.org"
+    },
+    {
+      "name": "Algorand",
+      "license": "Open-source",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Pure Proof-of-Stake Consensus",
+        "Scalability",
+        "Security",
+        "Smart Contracts",
+        "Atomic Swaps"
+      ],
+      "website": "https://algorand.com"
+    },
+    {
+      "name": "NEAR Protocol",
+      "license": "Open Source (Apache 2.0, MIT)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Sharding (Nightshade)",
+        "Proof-of-Stake Consensus (Doomslug)",
+        "Human-Readable Account Names",
+        "Developer-Friendly (Rust, AssemblyScript)",
+        "Focus on Usability"
+      ],
+      "website": "https://near.org"
+    },
+    {
+      "name": "Cosmos",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Interoperability (IBC Protocol)",
+        "Cosmos SDK for Custom Blockchains",
+        "Tendermint Consensus",
+        "Sovereign Blockchains"
+      ],
+      "website": "https://cosmos.network"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "Massa positions itself as a high-performance Layer 1 blockchain specifically designed to solve the blockchain trilemma by offering a unique combination of parallel block processing and transaction sharding for scalability, coupled with a focus on true decentralization and security via its Proof-of-Stake mechanism and high Nakamoto coefficient. Its key differentiators are its Autonomous Smart Contracts (ASCs), which enable self-triggering, decentralized automation, and its on-chain web hosting (DeWeb), providing a fully decentralized platform for dApps and websites, aiming to eliminate reliance on centralized infrastructure and enhance censorship resistance compared to existing blockchain platforms."
+}

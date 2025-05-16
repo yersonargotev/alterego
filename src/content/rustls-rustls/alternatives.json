@@ -1,0 +1,137 @@
+{
+  "projectName": "rustls",
+  "projectPurpose": "To provide a secure, modern, and memory-safe implementation of the TLS (Transport Layer Security) protocol as a library for applications written in Rust.",
+  "platforms": [
+    "Cross-platform (Rust-supported targets)"
+  ],
+  "mainFeatures": [
+    "Implements TLS 1.2 and TLS 1.3",
+    "Focuses on cryptographic security with minimal configuration",
+    "Avoids unsafe features and obsolete cryptography by default",
+    "Pure Rust implementation for memory safety",
+    "Supports ECDSA, Ed25519, or RSA authentication",
+    "Supports modern cipher suites (AES-GCM, ChaCha20Poly1305)",
+    "Provides encrypted pipes; does not handle network I/O",
+    "Offers choice of cryptography providers"
+  ],
+  "website": "https://github.com/rustls/rustls",
+  "alternatives": [
+    {
+      "name": "OpenSSL",
+      "license": "Open Source (OpenSSL License and SSLeay License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "various others"
+      ],
+      "mainFeatures": [
+        "Comprehensive cryptographic library",
+        "Supports a wide range of protocols (including older versions)",
+        "Extensive feature set for certificate and key management",
+        "Widely used and mature"
+      ],
+      "website": "https://www.openssl.org/"
+    },
+    {
+      "name": "BoringSSL",
+      "license": "Open Source (OpenSSL-SSLeay dual-license, ISC license)",
+      "platforms": [
+        "Primarily used in Chromium, Android, Google services"
+      ],
+      "mainFeatures": [
+        "Fork of OpenSSL with focus on smaller codebase and safer API",
+        "Used and maintained by Google",
+        "Removes support for some older/weak features",
+        "Extensive fuzzing"
+      ],
+      "website": "https://boringssl.googlesource.com/boringssl/"
+    },
+    {
+      "name": "wolfSSL",
+      "license": "Commercial with GPLv2 option",
+      "platforms": [
+        "Embedded systems",
+        "RTOS",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Cloud",
+        "various others"
+      ],
+      "mainFeatures": [
+        "Lightweight and optimized for resource-constrained environments",
+        "Supports TLS 1.3 and DTLS 1.3",
+        "Small footprint and low memory usage",
+        "Offers an OpenSSL compatibility layer",
+        "FIPS 140-2/140-3 validated crypto library (wolfCrypt)"
+      ],
+      "website": "https://www.wolfssl.com/"
+    },
+    {
+      "name": "GnuTLS",
+      "license": "Open Source (LGPL)",
+      "platforms": [
+        "Linux",
+        "Unix-like systems"
+      ],
+      "mainFeatures": [
+        "Free software alternative to OpenSSL",
+        "Supports TLS 1.3 and DTLS",
+        "Supports various cryptographic algorithms",
+        "Provides C API and bindings for other languages"
+      ],
+      "website": "https://www.gnutls.org/"
+    },
+    {
+      "name": "mbed TLS",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Embedded systems",
+        "IoT devices"
+      ],
+      "mainFeatures": [
+        "Small code size and memory footprint",
+        "Readable codebase and clear API",
+        "Suitable for resource-constrained environments",
+        "Supports TLS 1.2 and DTLS"
+      ],
+      "website": "https://mbedtls.org/"
+    },
+    {
+      "name": "LibreSSL",
+      "license": "Open Source (ISC license)",
+      "platforms": [
+        "OpenBSD",
+        "various others"
+      ],
+      "mainFeatures": [
+        "Fork of OpenSSL with focus on code cleanup and security",
+        "Removes obsolete features and code",
+        "Aims for a more modern codebase"
+      ],
+      "website": "https://www.libressl.org/"
+    },
+    {
+      "name": "System-native TLS",
+      "license": "Varies by OS (Proprietary/Open Source)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Integrated with the operating system",
+        "Uses the system's certificate store",
+        "Updates handled by the OS vendor",
+        "Can have OS-dependent behavior"
+      ],
+      "website": "N/A"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "OpenSSL"
+  ],
+  "marketPositioning": "Rustls is positioned as a secure, modern, and memory-safe alternative to traditional TLS libraries, written in Rust. It differentiates itself by explicitly avoiding legacy and unsafe features, focusing on modern TLS standards (1.2 and 1.3), and leveraging Rust's safety guarantees. It appeals to developers in the Rust ecosystem and those prioritizing enhanced security and performance, offering competitive speed and lower memory usage compared to widely used C/C++ alternatives like OpenSSL."
+}

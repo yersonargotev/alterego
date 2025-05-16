@@ -1,0 +1,113 @@
+{
+  "projectName": "arceos",
+  "projectPurpose": "ArceOS is an experimental operating system project focused on building a highly modular OS kernel and framework using the Rust programming language. Its purpose is to explore and demonstrate the benefits of modularity and Rust's safety features in OS development, supporting various architectures and providing core OS components and drivers. It aims to be a base for building different forms of operating systems.",
+  "platforms": [
+    "x86_64",
+    "riscv64",
+    "aarch64",
+    "loongarch64",
+    "QEMU pc-q35 (x86_64)",
+    "QEMU virt (riscv64/aarch64/loongarch64)"
+  ],
+  "mainFeatures": [
+    "Experimental modular OS framework",
+    "Written in Rust",
+    "Supports multiple architectures (x86_64, riscv64, aarch64, loongarch64)",
+    "Multi-threading with various schedulers (FIFO, RR, CFS)",
+    "VirtIO net/blk/gpu drivers",
+    "TCP/UDP net stack using smoltcp",
+    "SMP scheduling",
+    "File system support",
+    "Interrupt driven device I/O",
+    "Async I/O",
+    "Compatible with Linux apps (source code compatibility)"
+  ],
+  "website": "https://github.com/rcore-os/arceos",
+  "alternatives": [
+    {
+      "name": "Redox OS",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "x86_64",
+        "ARM64",
+        "RISC-V",
+        "Virtual Machines (QEMU, VirtualBox, VMware)",
+        "Real Hardware"
+      ],
+      "mainFeatures": [
+        "Written in Rust",
+        "Microkernel architecture",
+        "Focus on safety, efficiency, and performance",
+        "Source code compatibility with Linux and BSD programs",
+        "Includes core utilities and a graphical shell (Orbital/COSMIC)"
+      ],
+      "website": "https://www.redox-os.org/"
+    },
+    {
+      "name": "Fuchsia OS",
+      "license": "Open Source (BSD, MIT, Apache 2.0)",
+      "platforms": [
+        "ARM64",
+        "x86-64",
+        "Embedded Devices (e.g., Google Nest Hub)",
+        "Smartphones",
+        "Tablets",
+        "Laptops",
+        "Desktop Computers"
+      ],
+      "mainFeatures": [
+        "Capability-based operating system",
+        "Based on the Zircon microkernel",
+        "Written in C++, Dart, Go, and Rust",
+        "Modular system architecture",
+        "Flutter-based user interface (Ermine)"
+      ],
+      "website": "https://fuchsia.dev/"
+    },
+    {
+      "name": "MINIX 3",
+      "license": "Open Source - BSD-3-Clause",
+      "platforms": [
+        "IA-32",
+        "ARM",
+        "Virtual Machines (Bochs, VMware, Virtual PC, VirtualBox, QEMU)"
+      ],
+      "mainFeatures": [
+        "Small, Unix-like operating system",
+        "Microkernel architecture",
+        "Designed for high reliability and fault tolerance",
+        "Targeted at embedded systems and education",
+        "Compatible with NetBSD userland"
+      ],
+      "website": "http://www.minix3.org/"
+    },
+    {
+      "name": "Zephyr OS",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "ARM (Cortex-M, Cortex-R, Cortex-A)",
+        "ARC",
+        "MIPS",
+        "Nios II",
+        "RISC-V",
+        "Xtensa",
+        "SPARC",
+        "x86",
+        "x86-64"
+      ],
+      "mainFeatures": [
+        "Small real-time operating system (RTOS)",
+        "Designed for resource-constrained and embedded devices",
+        "Highly configurable and modular kernel",
+        "Extensive suite of kernel services (multithreading, scheduling, memory management)",
+        "Rich connectivity options (Bluetooth, Wi-Fi, networking stacks)"
+      ],
+      "website": "https://www.zephyrproject.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Fuchsia OS",
+    "Zephyr OS"
+  ],
+  "marketPositioning": "ArceOS positions itself as a research-oriented, highly modular operating system framework built with Rust. Unlike monolithic kernels, it emphasizes a component-based design where kernel services can be used independently or combined to form various OS configurations. Its use of Rust highlights a focus on modern language features for safety and reliability, distinguishing it from C-based systems like MINIX 3 and Zephyr. While similar to Redox OS in its use of Rust, ArceOS appears more focused on the experimental and framework aspects, aiming to provide a flexible base for exploring different OS structures rather than presenting a complete, immediately usable desktop OS like Redox. Compared to Google's large-scale Fuchsia project, ArceOS is a smaller, academic-driven initiative exploring modularity and Rust in the OS space."
+}

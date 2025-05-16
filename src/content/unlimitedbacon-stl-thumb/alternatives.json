@@ -1,0 +1,179 @@
+{
+  "projectName": "stl-thumb",
+  "projectPurpose": "To generate thumbnail previews for 3D model files (STL, OBJ, 3MF) in file managers on Linux and Windows, improving file identification and management.",
+  "platforms": [
+    "Linux",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Generates thumbnails for STL, OBJ, and 3MF files",
+    "Integrates with file managers for previews",
+    "Fast and lightweight performance",
+    "Customizable rendering colors and background",
+    "Supports anti-aliasing"
+  ],
+  "website": "https://github.com/unlimitedbacon/stl-thumb",
+  "alternatives": [
+    {
+      "name": "MeshLab",
+      "license": "Open Source - GPL v2 or later",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Mesh editing and cleaning",
+        "3D model viewing and rendering",
+        "Format conversion (STL, OBJ, 3MF, etc.)",
+        "Measurement and analysis tools"
+      ],
+      "website": "http://www.meshlab.net/"
+    },
+    {
+      "name": "FreeCAD",
+      "license": "Open Source - LGPL2+",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Parametric 3D modeling",
+        "2D drafting",
+        "Modular architecture with workbenches",
+        "Import/Export of various formats (STEP, IGES, STL, OBJ, etc.)"
+      ],
+      "website": "https://www.freecad.org/"
+    },
+    {
+      "name": "Blender",
+      "license": "Open Source - GNU GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "3D modeling, sculpting, UV unwrapping",
+        "Animation and rigging",
+        "Rendering (Cycles, EEVEE)",
+        "Video editing and compositing",
+        "Simulation (fluids, cloth, etc.)"
+      ],
+      "website": "https://www.blender.org/"
+    },
+    {
+      "name": "PrusaSlicer",
+      "license": "Open Source - GNU GPL v3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Slicing for FFF and mSLA 3D printers",
+        "3D preview and G-code viewer",
+        "Automatic model repairing",
+        "Customizable supports and infill patterns"
+      ],
+      "website": "https://www.prusa3d.com/prusaslicer/"
+    },
+    {
+      "name": "UltiMaker Cura",
+      "license": "Open Source - LGPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Slicing engine for 3D printers",
+        "3D model and layer preview",
+        "Large marketplace for plugins and profiles",
+        "Integration with CAD software"
+      ],
+      "website": "https://ultimaker.com/software/ultimaker-cura/"
+    },
+    {
+      "name": "Papa's Best STL Thumbnails",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Windows Explorer thumbnail previews for STL",
+        "Fast thumbnail generation",
+        "Supports various STL file variations",
+        "Optional paid version in Microsoft Store"
+      ],
+      "website": "http://www.papas-best.com/stl-thumbnails.html"
+    },
+    {
+      "name": "Elektriktrick Quicklook for OS X",
+      "license": "Free (CC BY-NC-SA)",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "QuickLook previews for STL, DXF, GCode",
+        "Icon previews in Finder",
+        "Supports various OS X versions"
+      ],
+      "website": "http://www.elektriktrick.com/sw_quicklook.html"
+    },
+    {
+      "name": "Microsoft 3D Viewer",
+      "license": "Proprietary (Included with Windows)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "View 3D models and animations",
+        "Supports various 3D formats (STL, OBJ, 3MF, GLB, FBX, etc.)",
+        "Basic 3D model inspection",
+        "Simple user interface"
+      ],
+      "website": "https://www.microsoft.com/en-us/p/3d-viewer/9nblggh42j3x"
+    },
+    {
+      "name": "F3D",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (experimental)"
+      ],
+      "mainFeatures": [
+        "Fast and minimalist 3D viewer",
+        "Supports numerous 3D file formats (STL, OBJ, GLTF, etc.)",
+        "Thumbnail generation support",
+        "Command-line control"
+      ],
+      "website": "https://f3d.app/"
+    },
+    {
+      "name": "Orynt3D",
+      "license": "Free",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Organize 3D print files (STL, OBJ, 3MF)",
+        "Create custom thumbnail images",
+        "Tagging and categorization",
+        "Search and filter models"
+      ],
+      "website": "https://orynt3d.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Blender",
+    "UltiMaker Cura",
+    "PrusaSlicer"
+  ],
+  "marketPositioning": "Stl-thumb is positioned as a dedicated, fast, and lightweight open-source utility for generating 3D model thumbnails directly within the file explorers of Linux and Windows. Unlike full-featured 3D modeling or slicing software, its scope is narrow but focused on providing an efficient solution for visual file identification. It competes with other platform-specific thumbnailer tools by offering cross-platform support (Linux and Windows) and emphasizing its performance and minimal resource usage. Its open-source nature and specific utility make it a valuable tool for users heavily involved in 3D printing and design who need better file management capabilities at the operating system level."
+}

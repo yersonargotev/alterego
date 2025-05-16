@@ -1,0 +1,115 @@
+{
+  "projectName": "bevy",
+  "projectPurpose": "To provide a free and open-source, data-driven, and performant game engine built in Rust, focusing on simplicity and modularity for creating 2D and 3D games across various platforms.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "mainFeatures": [
+    "Data-driven architecture using a custom ECS",
+    "Built in Rust",
+    "Simple and modular design",
+    "Fast: Massively Parallel and Cache-Friendly ECS",
+    "Capable: Complete 2D and 3D feature set",
+    "Productive: Fast compile times"
+  ],
+  "website": "https://github.com/bevyengine/bevy",
+  "alternatives": [
+    {
+      "name": "Fyrox",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (WebAssembly)",
+        "Android (planned)"
+      ],
+      "mainFeatures": [
+        "Feature-rich 2D and 3D engine",
+        "Native editor with hot reloading",
+        "PBR rendering pipeline",
+        "Animation system",
+        "UI system"
+      ],
+      "website": "https://fyrox.rs/"
+    },
+    {
+      "name": "Godot Engine",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web (HTML5)",
+        "Consoles"
+      ],
+      "mainFeatures": [
+        "Integrated 2D and 3D engine",
+        "Node-based scene system and visual editor",
+        "Multiple programming language support (GDScript, C#, C++, GDExtension)",
+        "Built-in tools (animation, tilemap, shader editor)",
+        "Physics engine"
+      ],
+      "website": "https://godotengine.org/"
+    },
+    {
+      "name": "Unity",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "WebGL",
+        "PlayStation",
+        "Xbox",
+        "Nintendo Switch",
+        "VR/AR"
+      ],
+      "mainFeatures": [
+        "Comprehensive 2D and 3D tools",
+        "Visual editor and extensive asset store",
+        "C# scripting",
+        "Large community and ecosystem",
+        "Widely used across industries"
+      ],
+      "website": "https://unity.com/"
+    },
+    {
+      "name": "Unreal Engine",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "PlayStation",
+        "Xbox",
+        "Nintendo Switch",
+        "VR/AR"
+      ],
+      "mainFeatures": [
+        "High-fidelity 3D rendering",
+        "Visual scripting (Blueprint)",
+        "C++ programming",
+        "Robust toolset for AAA development",
+        "Used in film and other industries"
+      ],
+      "website": "https://www.unrealengine.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Unity",
+    "Unreal Engine"
+  ],
+  "marketPositioning": "Bevy is positioned as a modern, open-source, data-driven game engine built in Rust, emphasizing simplicity, modularity (via ECS and a plugin ecosystem), and performance. It differentiates itself from more established engines like Unity and Unreal Engine through its Rust foundation, focus on a code-centric and modular workflow, and a performant ECS. While it may be less feature-complete and mature than the major proprietary engines or even Godot which has a full editor, its strengths in performance, memory safety (due to Rust), and a growing ecosystem of plugins appeal to developers seeking more control and a modern, data-oriented approach to game development, particularly within the Rust community. It competes with other Rust engines like Fyrox but offers a different philosophy, favoring code and modularity over a fully integrated visual editor."
+}

@@ -1,0 +1,101 @@
+{
+  "projectName": "mako",
+  "projectPurpose": "To provide a high-performance, production-ready web asset bundling tool, leveraging the speed advantages of the Rust programming language.",
+  "platforms": [
+    "Likely Cross-platform (due to Rust)"
+  ],
+  "mainFeatures": [
+    "Web bundling",
+    "Extremely fast performance",
+    "Production-grade builds",
+    "Based on Rust"
+  ],
+  "website": "https://github.com/umijs/mako",
+  "alternatives": [
+    {
+      "name": "Webpack",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Module bundling (JS, CSS, HTML, images)",
+        "Highly configurable (loaders, plugins)",
+        "Code splitting",
+        "Hot Module Replacement (HMR)",
+        "Development server"
+      ],
+      "website": "https://webpack.js.org/"
+    },
+    {
+      "name": "Rollup",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Web",
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Efficient module bundling for libraries",
+        "Tree-shaking",
+        "Code-splitting",
+        "Plugin API",
+        "Supports various output formats"
+      ],
+      "website": "https://rollupjs.org/"
+    },
+    {
+      "name": "esbuild",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Extremely fast bundling",
+        "Built-in support (JS, CSS, TS, JSX)",
+        "Tree shaking, minification, source maps",
+        "API (CLI, JS, Go)",
+        "Local server, watch mode, plugins"
+      ],
+      "website": "https://esbuild.github.io/"
+    },
+    {
+      "name": "Vite",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Node.js",
+        "Deno",
+        "Bun"
+      ],
+      "mainFeatures": [
+        "Fast development server (Native ESM)",
+        "Hot Module Replacement (HMR)",
+        "Out-of-the-box support (TS, JSX, CSS)",
+        "Uses Rollup and esbuild for builds",
+        "Pluggable"
+      ],
+      "website": "https://vitejs.dev/"
+    },
+    {
+      "name": "Parcel",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Zero configuration",
+        "Fast builds (parallel processing)",
+        "Supports multiple asset types",
+        "Hot Module Replacement (HMR)"
+      ],
+      "website": "https://parceljs.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Webpack"
+  ],
+  "marketPositioning": "Mako positions itself as an extremely fast, production-grade web bundler, differentiating itself through its Rust foundation for performance. It aims to compete with existing bundlers by offering significantly faster build times while providing the reliability and features necessary for production environments. Its focus on speed aligns it with newer, performance-oriented tools like esbuild and Vite's build process, while its 'production-grade' claim suggests it seeks to be a viable alternative for complex applications traditionally built with tools like Webpack or Rollup."
+}

@@ -1,0 +1,117 @@
+{
+  "projectName": "anki",
+  "projectPurpose": "To provide a powerful, efficient, and customizable flashcard program that utilizes spaced repetition to help users memorize information effectively for the long term.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "FreeBSD",
+    "Android",
+    "iOS"
+  ],
+  "mainFeatures": [
+    "Spaced Repetition System (SM-2 and FSRS algorithms)",
+    "Content-agnostic flashcards (text, images, sound, video, LaTeX)",
+    "Synchronization across devices via AnkiWeb",
+    "Extensive add-on support",
+    "Support for various card types (cloze deletions, image occlusions)",
+    "Handles large card decks (100,000+ cards)",
+    "Large community-driven shared deck library",
+    "Customizable flashcard layouts and review timing"
+  ],
+  "website": "https://apps.ankiweb.net/",
+  "alternatives": [
+    {
+      "name": "SuperMemo",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Pioneering spaced repetition algorithm (SM algorithms)",
+        "Incremental reading",
+        "Rich media support",
+        "Knowledge tree structure",
+        "Various test types"
+      ],
+      "website": "https://supermemo.com/"
+    },
+    {
+      "name": "Quizlet",
+      "license": "Freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Easy flashcard creation",
+        "Diverse study modes and games",
+        "Large library of user-generated decks",
+        "AI-powered features (Magic Notes, Quick Summary)",
+        "Collaborative features"
+      ],
+      "website": "https://quizlet.com/"
+    },
+    {
+      "name": "Memrise",
+      "license": "Freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Focus on language learning",
+        "Spaced repetition system",
+        "Videos of native speakers",
+        "Gamified learning approach",
+        "AI chatbot (MemBot)"
+      ],
+      "website": "https://www.memrise.com/"
+    },
+    {
+      "name": "Mnemosyne",
+      "license": "Open Source - GNU GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Spaced repetition algorithm (based on early SuperMemo)",
+        "Supports rich media",
+        "Plugin support",
+        "Categorization of cards",
+        "Synchronization between devices"
+      ],
+      "website": "https://mnemosyne-proj.org/"
+    },
+    {
+      "name": "RemNote",
+      "license": "Freemium",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Integrated note-taking and spaced repetition",
+        "Hierarchical notes and bidirectional linking",
+        "PDF annotation",
+        "Flashcard creation within notes",
+        "AI-powered features"
+      ],
+      "website": "https://www.remnote.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Quizlet"
+  ],
+  "marketPositioning": "Anki is positioned as a powerful, highly customizable, open-source spaced repetition flashcard program. It is favored by serious learners, particularly in demanding fields, due to its robust algorithm, content flexibility, extensive add-on ecosystem, and ability to handle large data sets. While its interface is often considered less modern than some competitors, its power and customization options, coupled with cross-platform syncing and a strong community, distinguish it from more consumer-oriented or language-specific alternatives. It is primarily a dedicated memorization tool, unlike some alternatives that integrate flashcards into broader knowledge management systems."
+}

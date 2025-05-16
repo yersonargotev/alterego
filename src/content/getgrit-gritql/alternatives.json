@@ -1,0 +1,116 @@
+{
+  "projectName": "gritql",
+  "projectPurpose": "To provide a fast, scalable, and language-agnostic tool for developers to efficiently search, analyze (linting), and automatically refactor or modify codebases using a declarative query language.",
+  "platforms": [
+    "CLI",
+    "VS Code Extension"
+  ],
+  "mainFeatures": [
+    "Declarative query language for searching and modifying source code.",
+    "Easy to start with code snippets and metavariables.",
+    "Scales to large repositories (10M+ lines) using Rust and query optimization.",
+    "Built-in module system for reusing patterns (200+ standard patterns).",
+    "Language-agnostic: rewrite any target language (JavaScript/TypeScript, Python, JSON, Java, Terraform, Solidity, CSS, Markdown, YAML, Rust, Go, or SQL).",
+    "Includes auto-fix rules for faster remediation."
+  ],
+  "website": "https://github.com/getgrit/gritql",
+  "alternatives": [
+    {
+      "name": "Semgrep",
+      "license": "Open Source (GPLv3 core, commercial options)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (Docker)",
+        "CI/CD",
+        "IDE Plugins"
+      ],
+      "mainFeatures": [
+        "Lightweight static analysis for security, reliability, and performance.",
+        "Supports 30+ languages.",
+        "Uses pattern-based rules that look like code.",
+        "Includes autofix capabilities.",
+        "Integrates into CI/CD pipelines and IDEs."
+      ],
+      "website": "https://semgrep.dev/"
+    },
+    {
+      "name": "CodeQL",
+      "license": "Proprietary (Free for open source/research, commercial for enterprise)",
+      "platforms": [
+        "GitHub Integration",
+        "VS Code Extension",
+        "CLI"
+      ],
+      "mainFeatures": [
+        "Semantic code analysis engine.",
+        "Query code as data using QL.",
+        "Finds vulnerabilities across codebases.",
+        "Supports multiple languages.",
+        "Integrates with GitHub for code scanning."
+      ],
+      "website": "https://codeql.github.com/"
+    },
+    {
+      "name": "Sourcegraph Batch Changes",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Automate and track large-scale code changes across many repositories.",
+        "Create pull requests and track progress.",
+        "Use search queries and declarative specs for changes.",
+        "Useful for dependency upgrades, security patches, and refactoring."
+      ],
+      "website": "https://docs.sourcegraph.com/batch_changes"
+    },
+    {
+      "name": "jscodeshift",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Node.js (CLI)"
+      ],
+      "mainFeatures": [
+        "Toolkit for writing and running codemods for JavaScript/TypeScript.",
+        "Provides an API for querying and modifying code's AST.",
+        "Automate complex refactorings and code updates.",
+        "Based on Recast for preserving code style."
+      ],
+      "website": "https://github.com/facebook/jscodeshift"
+    },
+    {
+      "name": "gofmt",
+      "license": "Open Source (Go license)",
+      "platforms": [
+        "CLI"
+      ],
+      "mainFeatures": [
+        "Source code formatter for Go.",
+        "Enforces a standard code style.",
+        "Automatically fixes indentation and formatting.",
+        "Integrated with Go toolchain."
+      ],
+      "website": "https://golang.org/cmd/gofmt/"
+    },
+    {
+      "name": "ast-grep",
+      "license": "Open Source",
+      "platforms": [
+        "CLI"
+      ],
+      "mainFeatures": [
+        "Code structural search, lint, and rewriting.",
+        "Based on Tree-sitter for parsing.",
+        "Uses YAML for rules.",
+        "Supports multiple languages."
+      ],
+      "website": "https://ast-grep.github.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Semgrep",
+    "CodeQL"
+  ],
+  "marketPositioning": "GritQL is an open-source, declarative query language and engine built in Rust designed for efficiently searching, linting, and modifying source code across a wide range of programming languages. It aims to simplify complex code transformations and analysis tasks that typically require deep understanding of Abstract Syntax Trees (ASTs) or reliance on language-specific tooling. GritQL allows developers to define code patterns and transformations using a query syntax that resembles code snippets, employing metavariables to represent variable parts. This approach is intended to be more intuitive and easier to learn compared to traditional AST manipulation APIs or more complex query languages. Leveraging the performance characteristics of Rust, GritQL is built to scale effectively to very large codebases, enabling rapid analysis and rewriting of millions of lines of code in seconds. It includes a module system for reusing and sharing common code patterns and supports the inclusion of auto-fix rules to automatically address identified issues or apply desired code modifications. By providing a single, powerful tool and language for code analysis and transformation across languages like JavaScript/TypeScript, Python, Java, Go, Rust, and more, GritQL seeks to streamline developer workflows for tasks such as large-scale refactorings, API migrations, enforcing coding standards, and automated security or quality checks. Its design provides a middle ground between simple text-based search (like grep) and complex, language-specific codemod tools."
+}

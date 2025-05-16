@@ -1,0 +1,124 @@
+{
+  "projectName": "pyo3",
+  "projectPurpose": "To provide Rust bindings for the Python interpreter, enabling developers to write high-performance Python extension modules in Rust and embed Python code within Rust applications, facilitating seamless interoperability, data exchange, and error handling between the two languages.",
+  "platforms": [],
+  "mainFeatures": [
+    "Write native Python modules in Rust",
+    "Run Python code and modules from Rust",
+    "Provide high-level Rust bindings to the Python interpreter",
+    "Handle Python objects and GIL management",
+    "Handle Python exceptions and errors",
+    "Support building and distribution with tools like Maturin and setuptools-rust",
+    "Support conversion between Rust and Python types"
+  ],
+  "website": "https://github.com/PyO3/pyo3",
+  "alternatives": [
+    {
+      "name": "Cython",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Compile Python code to C/C++",
+        "Superset of Python with static typing",
+        "Easy interaction with C/C++ libraries",
+        "Generate Python extension modules",
+        "Good integration with NumPy"
+      ],
+      "website": "https://cython.org/"
+    },
+    {
+      "name": "CFFI",
+      "license": "Open Source - MIT or Apache 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Call C code from Python",
+        "Define C structures, types, and functions in Python",
+        "Supports in-line and out-of-line modes",
+        "Extensible foreign type system",
+        "Callback support"
+      ],
+      "website": "https://cffi.readthedocs.io/"
+    },
+    {
+      "name": "SWIG",
+      "license": "Open Source - Various (often including GPL)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Generate interfaces to C/C++ libraries for multiple scripting languages",
+        "Wrap C and C++ code",
+        "Support for C++ features",
+        "Customizable type conversion and exception handling",
+        "Generate extension modules from header files"
+      ],
+      "website": "http://www.swig.org/"
+    },
+    {
+      "name": "ctypes",
+      "license": "Open Source - PSF License",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Call functions in shared libraries/DLLs from Python",
+        "Create and manipulate C data types in Python",
+        "Interact with C code without writing C extensions",
+        "Suitable for small extensions"
+      ],
+      "website": "https://docs.python.org/3/library/ctypes.html"
+    },
+    {
+      "name": "pybind11",
+      "license": "Open Source - BSD-3-Clause",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Lightweight header-only library for C++11 bindings",
+        "Expose C++ types, functions, and classes in Python",
+        "Minimize boilerplate code",
+        "Automatic type conversion",
+        "Similar goals and syntax to Boost.Python"
+      ],
+      "website": "https://pybind11.readthedocs.io/"
+    },
+    {
+      "name": "Boost.Python",
+      "license": "Open Source - Boost Software License",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "C++ library for exposing C++ classes and functions to Python",
+        "Provides abstractions over the Python/C API",
+        "Allows creating Python modules similar to native ones",
+        "Part of the Boost C++ libraries"
+      ],
+      "website": "https://www.boost.org/doc/libs/release/libs/python/doc/index.html"
+    },
+    {
+      "name": "rust-cpython",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Rust bindings to the Python interpreter",
+        "Allows calling Python from Rust and vice-versa",
+        "Alternative to PyO3"
+      ],
+      "website": "https://github.com/dgriffin/rust-cpython"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Cython"
+  ],
+  "marketPositioning": "PyO3 is positioned as the leading and most idiomatic library for enabling interoperability between Python and Rust. It leverages Rust's strengths in performance and memory safety to build fast and safe Python extensions. While alternatives exist for extending Python with other languages (like Cython for Python-like syntax compiling to C/C++, CFFI/ctypes for C interfaces, and pybind11/Boost.Python for C++), PyO3 specifically targets Rust, offering a high-level, safety-conscious API and integration with the Rust ecosystem's tooling like Maturin. It competes directly with lower-level approaches like the Python C API and other language-specific binding generators by providing a modern, productive, and safe development experience for Rust developers working with Python."
+}

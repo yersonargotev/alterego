@@ -1,0 +1,96 @@
+{
+  "projectName": "nmuidi",
+  "projectPurpose": "To provide a faster and more efficient way to delete files and directories on Windows, especially large, deeply nested ones with many files, by using parallel processing.",
+  "platforms": [
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Parallelized directory deletion",
+    "Optimized for Windows performance",
+    "Faster than standard Windows methods for specific scenarios (large, nested directories)",
+    "Command-line interface",
+    "Available as a Rust package"
+  ],
+  "website": "https://github.com/Dillonb/nmuidi",
+  "alternatives": [
+    {
+      "name": "Standard Windows Deletion (File Explorer, del, rmdir / rd)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Basic file and directory deletion via GUI or command line",
+        "Simple and universally available",
+        "Integrated into the operating system",
+        "Handles standard deletion tasks"
+      ],
+      "website": "N/A (Built-in Windows functionality)"
+    },
+    {
+      "name": "PowerShell (Remove-Item)",
+      "license": "Proprietary (PowerShell Core is MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Scripting environment for automation",
+        "`Remove-Item` cmdlet for file system deletion",
+        "Supports complex filtering and parameters",
+        "Part of the Windows operating system"
+      ],
+      "website": "https://docs.microsoft.com/en-us/powershell/"
+    },
+    {
+      "name": "Robocopy (/PURGE or /MIR)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Robust file and directory copying and synchronization",
+        "Can delete by mirroring to an empty source or using /PURGE",
+        "Designed for handling large file sets and network resilience",
+        "Command-line utility"
+      ],
+      "website": "https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy"
+    },
+    {
+      "name": "rm (GNU Coreutils)",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via compatibility layers)"
+      ],
+      "mainFeatures": [
+        "Standard Unix/Linux command-line deletion",
+        "Recursive deletion options",
+        "Force deletion option",
+        "Widely available on Unix-like systems"
+      ],
+      "website": "https://www.gnu.org/software/coreutils/manual/coreutils.html#remove-invocation"
+    },
+    {
+      "name": "FastCopy",
+      "license": "Open Source - GPL 3",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Optimized file copy, deletion, and synchronization",
+        "Uses multi-threading for performance",
+        "Supports include/exclude filters",
+        "GUI and command-line interfaces"
+      ],
+      "website": "https://fastcopy.jp/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Standard Windows Deletion (File Explorer, del, rmdir)",
+    "PowerShell (Remove-Item)"
+  ],
+  "marketPositioning": "nmuidi is positioned as a highly specialized, performance-focused utility for Windows users who need significantly faster directory deletion, particularly for challenging structures like those found in software build environments (deeply nested, many small files). It differentiates itself from general-purpose built-in tools and other utilities by focusing solely on optimizing deletion speed through parallelization, accepting the trade-off of not including safety features like confirmation prompts."
+}

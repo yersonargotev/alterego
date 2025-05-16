@@ -1,0 +1,172 @@
+{
+  "projectName": "Bend",
+  "projectPurpose": "To provide a high-level programming language that simplifies the development of massively parallel applications for many-core architectures, such as GPUs, by automating the complexities of parallel execution.",
+  "platforms": [
+    "Cross-platform (requires Rust and HVM2 runtime)",
+    "Linux (NVIDIA GPUs currently supported)",
+    "WSL2 (for Windows users)",
+    "Web (via compilation to JavaScript for a separate version)"
+  ],
+  "mainFeatures": [
+    "Massively parallel execution",
+    "High-level abstraction",
+    "Automatic parallelism (no explicit threads, locks, etc.)",
+    "Scales effectively on many-core hardware like GPUs",
+    "Supports functional programming concepts (higher-order functions, recursion)",
+    "Two syntax styles (Python-like and ML/Haskell-like)"
+  ],
+  "website": "https://github.com/HigherOrderCO/Bend",
+  "alternatives": [
+    {
+      "name": "CUDA",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "GPU-accelerated libraries",
+        "Development tools (compiler, debugger, profiler)",
+        "C/C++ and Fortran interfaces",
+        "Supports multiple programming models"
+      ],
+      "website": "https://developer.nvidia.com/cuda-toolkit"
+    },
+    {
+      "name": "OpenMP",
+      "license": "Open Source (API standard)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Compiler directives for parallelism",
+        "Shared-memory multiprocessing support",
+        "Offloading to accelerators (including GPUs)",
+        "Supports C, C++, and Fortran",
+        "Work distribution and synchronization constructs"
+      ],
+      "website": "https://www.openmp.org/"
+    },
+    {
+      "name": "Haskell",
+      "license": "Open Source (various, e.g., BSD-3-Clause)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Functional programming language",
+        "Strong static typing",
+        "Concurrency and parallelism support via libraries",
+        "Deterministic parallelism features",
+        "High-level abstractions"
+      ],
+      "website": "https://www.haskell.org/"
+    },
+    {
+      "name": "Erlang",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Designed for concurrent, distributed, fault-tolerant systems",
+        "Lightweight processes",
+        "Asynchronous message passing (Actor Model)",
+        "Immutable data",
+        "Hot code loading"
+      ],
+      "website": "https://www.erlang.org/"
+    },
+    {
+      "name": "Go",
+      "license": "Open Source (BSD-3-Clause)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Plan 9",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Built-in concurrency (goroutines and channels)",
+        "Garbage collection",
+        "Fast compilation",
+        "Statically typed",
+        "Simple syntax"
+      ],
+      "website": "https://go.dev/"
+    },
+    {
+      "name": "Scala",
+      "license": "Open Source (Apache 2.0 License)",
+      "platforms": [
+        "JVM (Windows, macOS, Linux, etc.)"
+      ],
+      "mainFeatures": [
+        "Combines object-oriented and functional programming",
+        "Runs on the JVM",
+        "Parallel collections library",
+        "Akka for concurrent/distributed systems"
+      ],
+      "website": "https://www.scala-lang.org/"
+    },
+    {
+      "name": "Rust",
+      "license": "Open Source (MIT and Apache 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Others"
+      ],
+      "mainFeatures": [
+        "Memory safety and performance focus",
+        "Fearless concurrency via ownership system",
+        "Threads and synchronization primitives",
+        "Async/await for asynchronous programming",
+        "Libraries for data parallelism (e.g., Rayon)"
+      ],
+      "website": "https://www.rust-lang.org/"
+    },
+    {
+      "name": "Dask",
+      "license": "Open Source (BSD 3-Clause)",
+      "platforms": [
+        "Python (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Parallel computing library for Python",
+        "Integrates with NumPy and Pandas",
+        "Handles larger-than-memory datasets",
+        "Supports distributed computing",
+        "Dynamic task scheduling"
+      ],
+      "website": "https://www.dask.org/"
+    },
+    {
+      "name": "Apache Spark",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "JVM (runs on clusters, standalone)"
+      ],
+      "mainFeatures": [
+        "Unified engine for large-scale data processing",
+        "Fast in-memory computing",
+        "Supports batch and stream processing",
+        "APIs for Java, Scala, Python, R"
+      ],
+      "website": "https://spark.apache.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Spark",
+    "CUDA"
+  ],
+  "marketPositioning": "Bend positions itself as a novel high-level programming language that democratizes massively parallel computing, particularly on many-core architectures like GPUs. Unlike traditional low-level approaches (e.g., CUDA) or frameworks requiring explicit parallelism management, Bend aims to provide CUDA-like performance scaling automatically, abstracting away complexities like thread handling and synchronization. It combines the expressive power of functional/high-level languages with the performance potential of low-level parallelism, filling a niche between performance-focused but complex tools and high-level languages with less inherent massive parallelism capabilities. Its focus on automatic scaling and ease of use on heterogeneous hardware differentiates it from general-purpose concurrent languages and data processing frameworks."
+}

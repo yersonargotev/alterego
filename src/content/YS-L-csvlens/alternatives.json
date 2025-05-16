@@ -1,0 +1,143 @@
+{
+  "projectName": "csvlens",
+  "projectPurpose": "To provide a fast, efficient, and user-friendly command-line tool specifically designed for viewing and navigating through CSV files directly within the terminal, similar to how the `less` command is used for general text files.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Command-line CSV viewing",
+    "Less-like navigation and interface",
+    "Optimized for terminal use",
+    "Efficient handling of CSV structure (delimiters, quoting)",
+    "Built in Rust for performance"
+  ],
+  "website": "https://github.com/YS-L/csvlens",
+  "alternatives": [
+    {
+      "name": "VisiData",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Interactive terminal interface",
+        "Supports multiple tabular formats (CSV, TSV, JSON, Excel, etc.)",
+        "Filtering and sorting data",
+        "Summarizing data",
+        "Creating columns with Python expressions"
+      ],
+      "website": "https://visidata.org/"
+    },
+    {
+      "name": "qsv",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Blazing-fast performance for large datasets",
+        "Wide range of data manipulation commands",
+        "Supports multiple file formats (CSV, JSON, Parquet, Excel, etc.)",
+        "Composable commands via pipes",
+        "Built in Rust"
+      ],
+      "website": "https://qsv.dathere.com/"
+    },
+    {
+      "name": "csvkit",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Suite of command-line utilities for CSV",
+        "Convert to and from various formats (JSON, SQL, Excel)",
+        "Filtering, sorting, and joining CSV files",
+        "Perform SQL queries on CSV data",
+        "Python-based"
+      ],
+      "website": "https://csvkit.readthedocs.io/"
+    },
+    {
+      "name": "Miller (mlr)",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Processes various formats (CSV, TSV, JSON, etc.)",
+        "Provides verbs for data manipulation (sort, cut, filter)",
+        "Supports a domain-specific language",
+        "Handles name-indexed data",
+        "Efficient for large files by streaming data"
+      ],
+      "website": "https://miller.readthedocs.io/"
+    },
+    {
+      "name": "Tad",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast viewer for large CSV files",
+        "Desktop GUI",
+        "Filtering and sorting without full data load",
+        "Pivot capabilities",
+        "Free to use"
+      ],
+      "website": "https://www.tadviewer.com/"
+    },
+    {
+      "name": "Modern CSV",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast loading of large CSV files",
+        "Read-only viewer mode",
+        "CSV editing capabilities",
+        "Customizable interface",
+        "Supports various delimited formats"
+      ],
+      "website": "https://www.moderncsv.com/"
+    },
+    {
+      "name": "Standard Unix tools (`less`, `cat`, `grep`, `awk`, `sed`)",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Fundamental text processing",
+        "Pattern matching (`grep`)",
+        "Text transformation (`awk`, `sed`)",
+        "File concatenation and display (`cat`)",
+        "Interactive file viewing (`less`)"
+      ],
+      "website": null
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Microsoft Excel",
+    "Google Sheets"
+  ],
+  "marketPositioning": "csvlens is positioned as a lightweight, fast, and dedicated command-line *viewer* for CSV files, offering a `less`-like experience tailored for tabular data. It focuses on efficiently displaying and navigating CSVs directly in the terminal, particularly useful for large files where full loading in other applications might be slow. While alternatives like qsv and csvkit offer broader data manipulation, csvlens specializes in the viewing aspect, providing a simple yet powerful way to inspect CSV content using familiar terminal commands and leveraging Rust for performance."
+}

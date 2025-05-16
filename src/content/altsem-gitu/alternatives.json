@@ -1,0 +1,133 @@
+{
+  "projectName": "gitu",
+  "projectPurpose": "To provide a fast and intuitive terminal-based user interface (TUI) for Git, inspired by Magit, for users who prefer working in the terminal but are not Emacs users.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Staging/Unstaging (file, hunk, line)",
+    "Viewing commits and opening files in editor",
+    "Branching (checkout, create new)",
+    "Committing (commit, amend, fixup)",
+    "Fetching, Pulling, and Pushing",
+    "Logging (current, other branches)",
+    "Rebasing (interactive and non-interactive)",
+    "Resetting (soft, mixed, hard)",
+    "Reverting commits",
+    "Stashing changes",
+    "Syntax highlighting for diffs",
+    "Configurable keybindings and style",
+    "Mnemonic and Vim-like keybinds",
+    "Minimal dependencies and single binary"
+  ],
+  "website": "https://github.com/altsem/gitu",
+  "alternatives": [
+    {
+      "name": "Magit",
+      "license": "Open Source - GPL-3.0-or-later",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (requires Emacs)"
+      ],
+      "mainFeatures": [
+        "Seamless Emacs integration",
+        "Comprehensive Git functionality",
+        "Granular staging (hunk, line, region)",
+        "Mnemonic keybinding system",
+        "Highly extensible"
+      ],
+      "website": "https://magit.vc/"
+    },
+    {
+      "name": "tig",
+      "license": "Open Source - GPL-2.0-or-later",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Text-mode Git repository browser",
+        "Interactive staging at chunk level",
+        "Visual commit log and diff viewer",
+        "Tree view of repository",
+        "Can act as a pager for Git output"
+      ],
+      "website": "https://jonas.github.io/tig/"
+    },
+    {
+      "name": "lazygit",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Simple and intuitive terminal UI",
+        "Simplified Git commands via single keypresses",
+        "Interactive staging (file, hunk, line)",
+        "Branch and commit history management",
+        "Customizable keybindings"
+      ],
+      "website": "https://github.com/jesseduffield/lazygit"
+    },
+    {
+      "name": "GitKraken",
+      "license": "Proprietary (Free for non-commercial)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Visual commit graph",
+        "Drag-and-drop functionality",
+        "Built-in merge conflict editor",
+        "Integrations with hosting services (GitHub, GitLab, etc.)",
+        "Interactive rebase and undo/redo"
+      ],
+      "website": "https://www.gitkraken.com/"
+    },
+    {
+      "name": "SourceTree",
+      "license": "Proprietary (Free)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Visual commit history and branch diagrams",
+        "Supports Git and Mercurial",
+        "Staging and discarding by file, hunk, or line",
+        "Integrations with Atlassian products",
+        "In-app code comparison"
+      ],
+      "website": "https://www.sourcetreeapp.com/"
+    },
+    {
+      "name": "Tower",
+      "license": "Proprietary (Paid)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Comprehensive Git feature set",
+        "Powerful commit history viewer",
+        "Built-in merge conflict resolution",
+        "Undo capability for many operations",
+        "Integrations with hosting services"
+      ],
+      "website": "https://www.git-tower.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GitKraken",
+    "SourceTree"
+  ],
+  "marketPositioning": "Gitu positions itself as a fast, keyboard-centric Terminal User Interface (TUI) Git client. Its primary market is developers who prefer working within the terminal environment and are looking for a powerful, interactive Git client that goes beyond the standard command-line interface. By taking inspiration from Magit, it aims to offer a comprehensive suite of Git functionalities within the TUI, appealing to users who value efficiency and a text-based workflow but do not use Emacs or prefer a standalone TUI application over a GUI. It competes with other TUI clients like lazygit and tig by offering a potentially more complete 'porcelain' experience closer to that of Magit, while differentiating itself from graphical clients like GitKraken and SourceTree by remaining entirely within the terminal."
+}

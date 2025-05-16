@@ -1,0 +1,85 @@
+{
+  "projectName": "PPLSystem",
+  "projectPurpose": "To demonstrate a proof-of-concept technique for injecting unsigned code into Windows Protected Process Light (PPL) processes by leveraging COM remoting via a livedump obtained through NtDebugSystemControl.",
+  "platforms": [
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Injects unsigned DLLs into PPL processes",
+    "Uses NtDebugSystemControl to create a livedump",
+    "Extracts COM secret and context from livedump",
+    "Maps DLL into target process address space",
+    "Proof of concept bypassing traditional PPL injection methods"
+  ],
+  "website": "https://github.com/Slowerzs/PPLSystem",
+  "alternatives": [
+    {
+      "name": "Metasploit Framework",
+      "license": "Open Source (primarily BSD-style) and Commercial",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Extensive exploit database",
+        "Payload generation",
+        "Post-exploitation modules",
+        "Evasion techniques",
+        "Scanning and reconnaissance"
+      ],
+      "website": "https://www.metasploitframework.com/"
+    },
+    {
+      "name": "Cobalt Strike",
+      "license": "Proprietary/Commercial",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Adversary simulation",
+        "Stealthy beacons",
+        "Malleable C2",
+        "Post-exploitation tools",
+        "Reporting"
+      ],
+      "website": "https://www.cobaltstrike.com/"
+    },
+    {
+      "name": "Process Hacker",
+      "license": "Open Source (GPL v3)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Detailed process information",
+        "System monitoring",
+        "Manipulate processes/threads/modules/handles",
+        "Network connections",
+        "Disk activity"
+      ],
+      "website": "https://processhacker.sourceforge.io/"
+    },
+    {
+      "name": "Custom Kernel Drivers / Kernel-Mode Tools",
+      "license": "Varies (often proprietary or open source research)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Deep system access",
+        "Bypassing user-mode protections",
+        "Direct interaction with kernel objects",
+        "Low-level process manipulation"
+      ],
+      "website": "N/A (Category of tools/techniques)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Metasploit Framework",
+    "Cobalt Strike"
+  ],
+  "marketPositioning": "PPLSystem is a highly specialized proof-of-concept tool positioned in the niche area of advanced Windows offensive security research. It demonstrates a novel, non-traditional technique for injecting code into Protected Process Light (PPL) processes without relying on vulnerable drivers or common user-mode injection methods. Its uniqueness lies in leveraging NtDebugSystemControl and COM remoting via a livedump to achieve DLL mapping in a highly protected process context. It is a tool for researchers and advanced practitioners exploring cutting-edge bypass techniques rather than a general-purpose offensive security platform."
+}

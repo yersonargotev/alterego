@@ -1,0 +1,123 @@
+{
+  "projectName": "raiko",
+  "projectPurpose": "To provide a robust and flexible multi-proving system for blockchain networks (specifically Taiko and Ethereum) by supporting diverse cryptographic proof systems (SNARKs, STARKs) and hardware-based Trusted Execution Environments (TEEs) to enhance security and reliability through multi-proof generation and verification.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Various (depends on underlying prover/TEE hardware)"
+  ],
+  "mainFeatures": [
+    "Supports multiple proof systems (SNARKS, STARKS, TEE)",
+    "Acts as a multi-prover for Taiko and Ethereum blocks",
+    "Integrated environment for building, running, and benchmarking zkVM targets",
+    "Supports Risc0, SP1, and SGX provers currently",
+    "RISC-V based pipeline reusable across zkVM platforms"
+  ],
+  "website": "https://github.com/taikoxyz/raiko",
+  "alternatives": [
+    {
+      "name": "Polygon zkEVM",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "EVM equivalence (opcode-level compatibility)",
+        "ZK-Rollup architecture",
+        "Low gas fees and high throughput",
+        "Inherits Ethereum security"
+      ],
+      "website": "https://polygon.technology/solutions/polygon-zkevm/"
+    },
+    {
+      "name": "zkSync",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "ZK-Rollup architecture",
+        "Low gas fees",
+        "High transaction speed (tps)",
+        "Trustless and censorship-resistant"
+      ],
+      "website": "https://zksync.io/"
+    },
+    {
+      "name": "Scroll",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "EVM equivalence (bytecode-level compatibility)",
+        "zkRollup technology",
+        "High throughput and lower fees",
+        "Developer-friendly"
+      ],
+      "website": "https://scroll.io/"
+    },
+    {
+      "name": "StarkWare (StarkNet/Cairo)",
+      "license": "Open Source",
+      "platforms": [
+        "Web",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Uses STARK technology",
+        "Custom Cairo programming language for smart contracts",
+        "Focuses on unlimited scale and computational integrity",
+        "Open-sourced prover (Stone, Stwo)"
+      ],
+      "website": "https://starkware.co/"
+    },
+    {
+      "name": "Circom",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Domain-specific language for ZK circuits",
+        "Compiler to R1CS and witness generators",
+        "Modular circuit design",
+        "Integrates with SNARKJS for proof generation/verification"
+      ],
+      "website": "https://iden3.io/circom"
+    },
+    {
+      "name": "Trusted Execution Environments (TEEs) (e.g., Intel SGX, ARM TrustZone)",
+      "license": "Proprietary",
+      "platforms": [
+        "Hardware (CPU enclaves)"
+      ],
+      "mainFeatures": [
+        "Hardware-based isolation and security",
+        "Guarantees code and data confidentiality and integrity",
+        "Secure boot and authorized app execution",
+        "Attestation for verifying execution environment"
+      ],
+      "website": "Varies by vendor (e.g., intel.com, arm.com)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Polygon zkEVM",
+    "zkSync",
+    "Scroll"
+  ],
+  "marketPositioning": "Raiko positions itself as a specialized multi-prover infrastructure layer for blockchain networks, particularly focusing on ZK-Rollups like Taiko. Unlike comprehensive Layer 2 solutions that offer a full network stack, Raiko provides the core capability to generate and manage proofs using a combination of SNARK, STARK, and TEE technologies. This multi-proof approach is its key differentiator, aiming to provide enhanced security and reliability by reducing dependence on a single proving system. It serves as an integrated environment for developers working with diverse zkVM targets, contributing to the decentralization and resilience of the proof supply chain within the ZK scaling ecosystem.",
+  "expandedDescription": "Raiko is Taiko's multi-prover, specifically engineered to generate validity proofs for both Taiko and Ethereum blocks. The project is built around a 'multi-proofs' philosophy, supporting the integration of various underlying proof technologies, including zero-knowledge proof systems like SNARKs and STARKs, as well as hardware-based Trusted Execution Environments (TEEs). Currently, Raiko supports Risc0, SP1, and Intel SGX provers. It offers an integrated environment designed to streamline the process of building, running, and benchmarking different zkVM targets, abstracting away much of the complexity involved in integrating disparate ZK and TEE toolchains. This multi-faceted approach to proof generation aims to significantly enhance the security and reliability of verifiable computation for blockchain scaling solutions such as Taiko, providing redundancy and hedging against potential vulnerabilities inherent in any single proof system."
+}

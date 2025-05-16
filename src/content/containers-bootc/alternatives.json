@@ -1,0 +1,92 @@
+{
+  "projectName": "bootc",
+  "projectPurpose": "To provide a mechanism for installing, booting, and managing the lifecycle (specifically upgrades) of an operating system by packaging the OS root filesystem and potentially other components into a standard container image (OCI image format) and leveraging standard container registries and tools for distribution and updates. It aims to simplify the deployment and update process for host operating systems by adopting familiar container workflows.",
+  "platforms": [
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Boot operating system from OCI container image",
+    "Upgrade operating system by pulling new container images",
+    "Treat entire OS as an OCI container image",
+    "Leverage standard container registries and tooling"
+  ],
+  "website": "https://github.com/containers/bootc",
+  "alternatives": [
+    {
+      "name": "Fedora CoreOS",
+      "license": "MIT, Apache 2.0, various open-source",
+      "platforms": [
+        "x86_64",
+        "aarch64",
+        "s390x",
+        "ppc64le",
+        "Cloud (AWS, Azure, GCP)",
+        "Bare Metal"
+      ],
+      "mainFeatures": [
+        "Immutable file system",
+        "Automatic atomic updates (rpm-ostree)",
+        "Declarative provisioning (Ignition)",
+        "Container focused"
+      ],
+      "website": "https://getfedora.org/coreos/"
+    },
+    {
+      "name": "Flatcar Container Linux",
+      "license": "Apache 2.0, MIT, various open-source",
+      "platforms": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Equinix Metal",
+        "VMware",
+        "DigitalOcean",
+        "Hetzner",
+        "OpenStack",
+        "Bare Metal",
+        "Raspberry Pi 4"
+      ],
+      "mainFeatures": [
+        "Minimal OS image for containers",
+        "Immutable and read-only filesystem",
+        "Automatic atomic updates with rollback",
+        "Declarative provisioning (Ignition compatible)"
+      ],
+      "website": "https://www.flatcar-linux.org/"
+    },
+    {
+      "name": "NixOS",
+      "license": "MIT, various open-source",
+      "platforms": [
+        "Linux (x86_64, AArch64, i686)",
+        "macOS (x86_64, aarch64)"
+      ],
+      "mainFeatures": [
+        "Declarative system configuration",
+        "Atomic upgrades and rollbacks",
+        "Reproducible builds",
+        "Multi-user package management"
+      ],
+      "website": "https://nixos.org/"
+    },
+    {
+      "name": "OSTree",
+      "license": "LGPL v2+",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Git-like content-addressed object store for OS trees",
+        "Atomic deployment and rollback",
+        "Handles /etc and /var persistence",
+        "Userspace operation"
+      ],
+      "website": "https://ostreedev.github.io/ostree/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Fedora CoreOS",
+    "Flatcar Container Linux"
+  ],
+  "marketPositioning": "bootc is positioning itself as a tool or specification that enables operating systems to be built and managed using standard OCI container images and registries. Unlike full OS distributions like Fedora CoreOS or Flatcar that are built with immutable principles, bootc aims to make the container image itself the primary artifact for the host OS, allowing existing or custom OS builds to adopt this model and leverage existing container infrastructure and workflows for deployment and updates. Its market position is as an enabler or framework for OS-as-a-container, offering a different approach to packaging and deploying the host OS compared to monolithic immutable distributions."
+}

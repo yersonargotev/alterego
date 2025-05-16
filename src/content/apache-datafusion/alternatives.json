@@ -1,0 +1,127 @@
+{
+  "projectName": "Apache DataFusion",
+  "projectPurpose": "To provide a high-performance, embeddable, and extensible SQL query engine for building data processing systems and applications.",
+  "platforms": [
+    "Cross-platform (library/engine)"
+  ],
+  "mainFeatures": [
+    "SQL and DataFrame APIs",
+    "Vectorized, multi-threaded, streaming execution engine",
+    "Native support for Parquet, CSV, JSON, Avro, and Object Storage (S3, GCS)",
+    "Extensible architecture with custom functions, sources, and operators",
+    "Leverages Apache Arrow for in-memory processing"
+  ],
+  "website": "https://datafusion.apache.org/",
+  "alternatives": [
+    {
+      "name": "Apache Spark",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "YARN",
+        "Kubernetes",
+        "Mesos"
+      ],
+      "mainFeatures": [
+        "Unified engine for batch and stream processing",
+        "Spark SQL for SQL queries and DataFrames",
+        "MLlib for machine learning",
+        "GraphX for graph processing",
+        "Large ecosystem and integrations"
+      ],
+      "website": "https://spark.apache.org/"
+    },
+    {
+      "name": "Trino",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Distributed SQL query engine",
+        "Interactive analytics",
+        "Federated queries across multiple data sources",
+        "ANSI SQL compliant"
+      ],
+      "website": "https://trino.io/"
+    },
+    {
+      "name": "DuckDB",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "WebAssembly",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "In-process OLAP database system",
+        "Columnar storage",
+        "Fast analytical queries",
+        "Integrates with Python/R DataFrames",
+        "Directly reads Parquet, CSV, JSON files"
+      ],
+      "website": "https://duckdb.org/"
+    },
+    {
+      "name": "Polars",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "DataFrame library",
+        "Written in Rust for performance",
+        "Columnar and multi-threaded",
+        "Lazy execution and query optimization",
+        "Out-of-core processing for large datasets"
+      ],
+      "website": "https://www.pola.rs/"
+    },
+    {
+      "name": "PrestoDB",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Distributed SQL query engine",
+        "Fast interactive queries",
+        "Connects to various data sources (HDFS, S3, databases)",
+        "Standard SQL support"
+      ],
+      "website": "https://prestodb.io/"
+    },
+    {
+      "name": "Dremio",
+      "license": "Open Source (Community) / Proprietary (Enterprise)",
+      "platforms": [
+        "Linux",
+        "On-premises",
+        "Cloud (AWS, Azure, GCP)"
+      ],
+      "mainFeatures": [
+        "Data lakehouse platform",
+        "SQL engine directly on data lake storage (Iceberg, Parquet)",
+        "Data virtualization",
+        "Data reflections (query acceleration)",
+        "Self-service data access"
+      ],
+      "website": "https://www.dremio.com/"
+    }
+  ],
+  "mostWellKnownAlternative": "Apache Spark",
+  "marketPositioning": "Apache DataFusion is positioned as a high-performance, embeddable, and extensible SQL query engine written in Rust and deeply integrated with Apache Arrow. Unlike full database systems or distributed processing frameworks, DataFusion serves as a foundational library for developers to build custom data processing systems and applications. Its focus on embeddability, performance from Rust, and interoperability via Arrow distinguishes it from more monolithic or system-level alternatives. It targets developers who need a powerful query execution core within their own applications."
+}

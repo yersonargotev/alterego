@@ -1,0 +1,121 @@
+{
+  "projectName": "lading",
+  "projectPurpose": "To measure the performance and resilience of long-running programs, particularly daemons, under simulated, heavy load using synthetic, repeatable data generation.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Synthetic and repeatable data generation",
+    "Load testing for long-running programs (daemons)",
+    "Support for various protocols",
+    "Observation of target program resource consumption",
+    "Tools for inspecting captured metrics and validating generated data"
+  ],
+  "website": "https://github.com/DataDog/lading",
+  "alternatives": [
+    {
+      "name": "Apache JMeter",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Supports various protocols (HTTP, HTTPS, FTP, JDBC, etc.)",
+        "GUI for test plan creation and debugging",
+        "Scalable for simulating multiple users",
+        "Extensible via plugins",
+        "Provides visual analysis and reporting"
+      ],
+      "website": "https://jmeter.apache.org/"
+    },
+    {
+      "name": "Grafana k6",
+      "license": "Open Source - AGPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Developer-centric with JavaScript scripting",
+        "Designed for performance and reliability testing",
+        "Integrates with CI/CD pipelines",
+        "Efficient Go engine for high load",
+        "Cloud service available"
+      ],
+      "website": "https://k6.io/"
+    },
+    {
+      "name": "Locust",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Define user behavior with Python code",
+        "Distributed and scalable",
+        "Web-based UI for monitoring",
+        "Battle-tested for high user loads",
+        "Extensible"
+      ],
+      "website": "https://locust.io/"
+    },
+    {
+      "name": "Gatling",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Code-based scripting (Scala)",
+        "High-performance asynchronous architecture",
+        "Readable and maintainable simulations",
+        "Detailed and dynamic reports",
+        "Designed for continuous load testing"
+      ],
+      "website": "https://gatling.io/"
+    },
+    {
+      "name": "LoadRunner (OpenText Performance Engineering)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Comprehensive enterprise-level testing",
+        "Supports a wide range of applications and protocols",
+        "Advanced scripting capabilities",
+        "Extensive reporting and analysis",
+        "Designed for complex, high-volume testing"
+      ],
+      "website": "https://www.opentext.com/products/performance-engineering-loadrunner-family"
+    },
+    {
+      "name": "Mockaroo",
+      "license": "Freemium",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Generate realistic test data",
+        "Supports various formats (CSV, JSON, SQL, Excel)",
+        "Web-based user interface",
+        "API for programmatic data generation",
+        "Can generate data based on AI prompts"
+      ],
+      "website": "https://www.mockaroo.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache JMeter"
+  ],
+  "marketPositioning": "Lading is positioned as a specialized performance testing suite focused on long-running programs like daemons. While broader load testing tools exist (like JMeter, k6, and LoadRunner), lading's strength lies in its ability to generate highly specific, synthetic, and repeatable load tailored for testing daemon performance and resource consumption across various protocols. Its tooling for inspecting captured data and validating payloads, along with its use in Datadog's internal regression testing, suggests a focus on detailed, programmatic performance engineering rather than general web application load testing or GUI-based usage. It competes by offering a potentially more granular and controllable approach for specific system-level performance testing needs, particularly within a development workflow that involves daemons and services."
+}

@@ -1,0 +1,149 @@
+{
+  "projectName": "redis-rs",
+  "projectPurpose": "To provide a robust and idiomatic client library for interacting with Redis and other RESP-compliant databases from applications written in the Rust programming language.",
+  "platforms": [
+    "Cross-platform (where Rust is supported)"
+  ],
+  "mainFeatures": [
+    "High-level and low-level API for Redis commands",
+    "Support for Redis, Valkey, and other RESP-compliant databases",
+    "Customizable type conversion",
+    "Connection pooling (for sync)",
+    "Thread-safe and reusable connections (for async)",
+    "Automatic reconnections",
+    "RESP3 protocol support"
+  ],
+  "website": "https://github.com/redis-rs/redis-rs",
+  "alternatives": [
+    {
+      "name": "redis-py",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (where Python is supported)"
+      ],
+      "mainFeatures": [
+        "Support for all Redis data types",
+        "Pipeline and transaction support",
+        "Pub/sub messaging",
+        "Automatic encoding/decoding",
+        "Cluster mode support"
+      ],
+      "website": "https://github.com/redis/redis-py"
+    },
+    {
+      "name": "node-redis",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (where Node.js is supported)"
+      ],
+      "mainFeatures": [
+        "High performance",
+        "Supports latest Redis commands and features (Redis Stack, Redis 8)",
+        "Promise-based API",
+        "Pub/Sub",
+        "TLS support"
+      ],
+      "website": "https://github.com/redis/node-redis"
+    },
+    {
+      "name": "Jedis",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform (where Java is supported)"
+      ],
+      "mainFeatures": [
+        "Designed for performance and ease of use",
+        "Low-level API mapping to Redis commands",
+        "Connection pooling",
+        "Support for various Redis versions",
+        "Failover support"
+      ],
+      "website": "https://github.com/redis/jedis"
+    },
+    {
+      "name": "Lettuce",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform (where Java is supported)"
+      ],
+      "mainFeatures": [
+        "Asynchronous and synchronous APIs",
+        "Reactive programming support",
+        "Connection pooling",
+        "Cluster, Sentinel, and Pub/Sub support",
+        "TLS support"
+      ],
+      "website": "https://github.com/lettuce-io/lettuce"
+    },
+    {
+      "name": "go-redis",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (where Go is supported)"
+      ],
+      "mainFeatures": [
+        "Official Redis client for Go",
+        "Simple and easy-to-use API",
+        "Supports all Redis commands",
+        "Connection pooling",
+        "Pub/Sub, Transactions, Pipelining"
+      ],
+      "website": "https://github.com/redis/go-redis"
+    },
+    {
+      "name": "redis-rb",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (where Ruby is supported)"
+      ],
+      "mainFeatures": [
+        "Matches Redis API one-to-one",
+        "Idiomatic Ruby interface",
+        "Thread-safety",
+        "Pipelining",
+        "Sentinel support"
+      ],
+      "website": "https://github.com/redis/redis-rb"
+    },
+    {
+      "name": "Predis",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (where PHP is supported)"
+      ],
+      "mainFeatures": [
+        "Flexible and feature-complete",
+        "Supports client-side sharding and redis-cluster",
+        "Master-slave replication and Sentinel support",
+        "Command pipelining and transactions",
+        "TLS/SSL connections"
+      ],
+      "website": "https://github.com/predis/predis"
+    },
+    {
+      "name": "StackExchange.Redis",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (where .NET is supported)"
+      ],
+      "mainFeatures": [
+        ".NET client for Redis",
+        "High performance and low latency",
+        "Multiplexes connections",
+        "Supports Sentinel and Cluster",
+        "Asynchronous and synchronous operations"
+      ],
+      "website": "https://stackexchange.github.io/StackExchange.Redis/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "redis-py (Python)",
+    "node-redis / ioredis (Node.js)",
+    "Jedis / Lettuce (Java)",
+    "go-redis (Go)",
+    "redis-rb (Ruby)",
+    "Predis / phpredis (PHP)",
+    "StackExchange.Redis (C#/.NET)"
+  ],
+  "marketPositioning": "redis-rs is positioned as the leading, actively maintained, and feature-rich client library for interacting with Redis and other RESP-compliant databases specifically within the Rust programming ecosystem. It caters to Rust developers requiring a native, performant, and idiomatic solution for integrating Redis into their applications, offering both high-level ease of use and low-level protocol control."
+}

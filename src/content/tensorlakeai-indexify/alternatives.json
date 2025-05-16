@@ -1,0 +1,138 @@
+{
+  "projectName": "indexify",
+  "projectPurpose": "To provide an open-source, scalable, and real-time data infrastructure layer for processing, indexing, and extracting structured information from unstructured data, specifically to power Generative AI applications and agentic workflows.",
+  "platforms": [
+    "Cross-platform (requires Docker/Kubernetes or cloud deployment)",
+    "Python (for defining workflows)"
+  ],
+  "mainFeatures": [
+    "Real-time processing and serving engine for unstructured data",
+    "Structured information extraction and indexing",
+    "Orchestrates multi-stage data processing workflows using Python functions",
+    "Supports various data types (documents, text, videos, audio)",
+    "Integrates with multiple vector and structured databases (Qdrant, Pinecone, Weaviate, etc.)"
+  ],
+  "website": "https://getindexify.ai/",
+  "alternatives": [
+    {
+      "name": "Pinecone",
+      "license": "Proprietary",
+      "platforms": [
+        "Web (Cloud Service)"
+      ],
+      "mainFeatures": [
+        "Managed vector database",
+        "High-dimensional vector indexing and querying",
+        "Scalable and high-performance similarity search",
+        "Supports hybrid search",
+        "Optimized for AI applications and RAG"
+      ],
+      "website": "https://www.pinecone.io/"
+    },
+    {
+      "name": "Weaviate",
+      "license": "Open Source (Apache 2.0), Proprietary (Cloud Service)",
+      "platforms": [
+        "Docker",
+        "Kubernetes",
+        "Cloud (AWS, GCP, Azure)",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Open-source, AI-native vector database",
+        "Stores objects and vector embeddings",
+        "Modular and cloud-native architecture",
+        "Supports multi-modal data",
+        "Includes AI Agents for data automation"
+      ],
+      "website": "https://weaviate.io/"
+    },
+    {
+      "name": "Qdrant",
+      "license": "Open Source, Proprietary (Cloud Service)",
+      "platforms": [
+        "Docker",
+        "Kubernetes",
+        "Cloud",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Open-source vector search engine and database",
+        "Fast similarity search for high-dimensional embeddings",
+        "Supports advanced filtering and payload",
+        "Multi-language APIs",
+        "Scalable for large vector datasets"
+      ],
+      "website": "https://qdrant.tech/"
+    },
+    {
+      "name": "Chroma",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Embedded",
+        "Client/Server (Docker, Cloud Hosting)"
+      ],
+      "mainFeatures": [
+        "Lightweight, open-source vector database",
+        "Optimized for embedding storage and search",
+        "Developer-friendly and easy to embed",
+        "Integrates with ML/AI frameworks",
+        "Supports metadata filtering"
+      ],
+      "website": "https://www.trychroma.com/"
+    },
+    {
+      "name": "LanceDB",
+      "license": "Open Source",
+      "platforms": [
+        "Embedded (Python)",
+        "Serverless",
+        "Cloud"
+      ],
+      "mainFeatures": [
+        "Open-source, serverless vector database",
+        "Built on Lance columnar format",
+        "Efficient for multi-modal data (vectors, images, text)",
+        "Optimized for high-speed access",
+        "Supports embedded deployment"
+      ],
+      "website": "https://lancedb.com/"
+    },
+    {
+      "name": "Elasticsearch",
+      "license": "Proprietary (with Free and Paid tiers)",
+      "platforms": [
+        "Cross-platform (Self-hosted)",
+        "Cloud (Elastic Cloud)"
+      ],
+      "mainFeatures": [
+        "Distributed search and analytics engine",
+        "Handles structured, semi-structured, unstructured data",
+        "Includes vector search capabilities (kNN)",
+        "Supports hybrid search",
+        "Offers a full suite of search features"
+      ],
+      "website": "https://www.elastic.co/elasticsearch/"
+    },
+    {
+      "name": "Unstructured.io",
+      "license": "Proprietary (Cloud Service), Open Source (Library)",
+      "platforms": [
+        "Web (Cloud Service)",
+        "Library (Python)"
+      ],
+      "mainFeatures": [
+        "Extracts and transforms unstructured documents for AI",
+        "Handles various file types and sources",
+        "Provides RAG-as-a-Service",
+        "Automatically extracts text, images, tables",
+        "Outputs structured data for downstream systems"
+      ],
+      "website": "https://unstructured.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Elasticsearch"
+  ],
+  "marketPositioning": "Indexify positions itself not merely as a vector database or an extraction tool, but as an open-source, real-time engine that orchestrates the entire pipeline for processing, indexing, and serving unstructured data specifically for GenAI applications and agent workflows. Its core value proposition lies in simplifying the creation and deployment of complex, multi-stage data extraction and indexing workflows, acting as the connective tissue between raw unstructured data, AI models, and various storage backends (including vector databases). It focuses on providing a unified, scalable, and real-time infrastructure layer for data-intensive AI applications, abstracting away much of the underlying data plumbing complexity."
+}

@@ -1,0 +1,147 @@
+{
+  "projectName": "subtensor",
+  "projectPurpose": "To serve as the core blockchain layer for the Bittensor network, providing infrastructure for decentralized machine learning by managing consensus, handling transactions, recording network data, supporting sub-networks, and implementing the incentive/reward system.",
+  "platforms": [
+    "Linux",
+    "MacOS"
+  ],
+  "mainFeatures": [
+    "Runs Bittensor's consensus mechanism (hybrid PoW/PoS/Proof of Intelligence)",
+    "Advertises neuron information and IPs",
+    "Facilitates value transfer via TAO token",
+    "Manages the reward system for decentralized machine learning contributions",
+    "Logs critical network data (weights, consensus results, transactions, etc.)",
+    "Supports and coordinates independent sub-networks (subnets)",
+    "Enables neuron registration, staked weight management, and consensus participation"
+  ],
+  "website": "https://github.com/opentensor/subtensor",
+  "alternatives": [
+    {
+      "name": "Ethereum",
+      "license": "Open Source (GPL, MIT, etc.)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Smart contract platform (EVM)",
+        "Decentralized Applications (DApps)",
+        "Large developer community and ecosystem",
+        "Native cryptocurrency (ETH)",
+        "Proof-of-Stake consensus"
+      ],
+      "website": "https://ethereum.org/"
+    },
+    {
+      "name": "Solana",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "High transaction throughput",
+        "Low transaction costs",
+        "Proof-of-History (PoH) and Proof-of-Stake (PoS) consensus",
+        "Scalable architecture",
+        "Supports smart contracts"
+      ],
+      "website": "https://solana.com/"
+    },
+    {
+      "name": "Polkadot",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Cross-chain interoperability (Relay Chain and Parachains)",
+        "Shared security model",
+        "Customizable blockchains (Parachains)",
+        "On-chain governance",
+        "Forkless upgrades"
+      ],
+      "website": "https://polkadot.network/"
+    },
+    {
+      "name": "Cosmos",
+      "license": "Open Source (Apache 2.0, MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Focus on blockchain interoperability ('Internet of Blockchains')",
+        "Tendermint Core consensus engine",
+        "Cosmos SDK for building application-specific chains (Zones)",
+        "Inter-Blockchain Communication (IBC) protocol"
+      ],
+      "website": "https://cosmos.network/"
+    },
+    {
+      "name": "Substrate",
+      "license": "Open Source (Apache 2.0, MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Modular blockchain development framework",
+        "Customizable components (Pallets)",
+        "Forkless runtime upgrades",
+        "Flexible consensus mechanisms",
+        "Designed for building Polkadot parachains and standalone chains"
+      ],
+      "website": "https://www.substrate.io/"
+    },
+    {
+      "name": "Tendermint",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Byzantine Fault Tolerance (BFT) consensus engine",
+        "Instant finality",
+        "Modular architecture (separates consensus and application)",
+        "Used in Cosmos SDK",
+        "High performance"
+      ],
+      "website": "https://tendermint.com/"
+    },
+    {
+      "name": "Hyperledger Fabric",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Permissioned network for enterprise use",
+        "Modular and configurable architecture",
+        "Pluggable consensus mechanisms",
+        "Private data collections (channels)",
+        "Supports smart contracts in various languages (chaincode)"
+      ],
+      "website": "https://www.hyperledger.org/use/fabric"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "Subtensor is positioned as a specialized blockchain layer purpose-built for the Bittensor decentralized machine learning network. Unlike general-purpose blockchain platforms or broader blockchain frameworks, Subtensor is specifically designed to manage the unique consensus, data recording, and incentive mechanisms required for a network focused on decentralized artificial intelligence and the coordination of machine learning models across subnets. Its market position is centered on providing the core decentralized infrastructure for the Bittensor ecosystem, distinguishing itself through its direct support for incentivized machine intelligence and its role as the backbone for the network's dynamic structure."
+}

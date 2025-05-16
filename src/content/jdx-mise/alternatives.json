@@ -1,0 +1,124 @@
+{
+  "projectName": "mise",
+  "projectPurpose": "To provide a single, fast, and unified command-line tool for developers to manage their development environments, including tool versions, environment variables, and tasks, replacing the need for multiple disparate tools.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Polyglot tool version management (languages and tools)",
+    "Environment variable management per project/directory",
+    "Integrated task runner for project automation",
+    "Fast performance due to Rust implementation",
+    "Extensible with a plugin system",
+    "Supports multiple backends for tool installation"
+  ],
+  "website": "https://mise.jdxcode.com/",
+  "alternatives": [
+    {
+      "name": "asdf-vm",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Polyglot version manager",
+        "Plugin-based system",
+        "Manages multiple language runtimes and tools",
+        "Project-specific version files (.tool-versions)"
+      ],
+      "website": "https://asdf-vm.com/"
+    },
+    {
+      "name": "direnv",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Loads and unloads environment variables based on directory",
+        "Integrates with shell",
+        "Supports various languages and tools via extensions",
+        "Uses .envrc files for configuration"
+      ],
+      "website": "https://direnv.net/"
+    },
+    {
+      "name": "Task (go-task)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Task runner and build tool",
+        "Uses YAML for task definition (Taskfile.yml)",
+        "Single binary, no external dependencies",
+        "Cross-platform support",
+        "Conditional task execution"
+      ],
+      "website": "https://taskfile.dev/"
+    },
+    {
+      "name": "Volta",
+      "license": "Open Source - BSD-2-Clause",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "JavaScript tool manager",
+        "Manages Node.js, npm, and Yarn versions",
+        "Ensures consistent toolchain across projects",
+        "Fast performance (written in Rust)",
+        "Automatically switches tool versions by directory"
+      ],
+      "website": "https://volta.sh/"
+    },
+    {
+      "name": "Make",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Build automation tool",
+        "Uses Makefiles",
+        "Dependency tracking for files",
+        "Widely used for compiling and building software"
+      ],
+      "website": "https://www.gnu.org/software/make/"
+    },
+    {
+      "name": "Envio",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "CLI environment variable manager",
+        "Create encrypted profiles for environment variables",
+        "Load profiles into terminal sessions",
+        "Supports passphrase or GPG encryption"
+      ],
+      "website": "https://github.com/envio-cli/envio"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "asdf-vm",
+    "Make",
+    "nvm",
+    "direnv"
+  ],
+  "marketPositioning": "Mise is positioned as a modern, fast, and unified developer tool that consolidates the functionalities of polyglot version managers (like asdf), environment variable managers (like direnv), and task runners (like Make or npm scripts). Written in Rust for performance, it targets developers working in polyglot environments who seek to simplify their toolchain and environment setup with a single, integrated command-line interface and configuration file, offering an alternative to managing multiple disparate tools."
+}

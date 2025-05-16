@@ -1,0 +1,102 @@
+{
+  "projectName": "libdatadog",
+  "projectPurpose": "To serve as a foundational, shared code library written in Rust for building various Datadog agent and client libraries across different programming languages, centralizing common functionalities like continuous profiling.",
+  "platforms": [
+    "Rust",
+    "Used in Ruby and PHP libraries"
+  ],
+  "mainFeatures": [
+    "Provides a shared library",
+    "Written in Rust",
+    "Contains common code for Datadog's libraries",
+    "Used in implementing Datadog's Continuous Profilers",
+    "Currently used in other Datadog products (e.g., Ruby or PHP libraries)"
+  ],
+  "website": "https://github.com/DataDog/libdatadog",
+  "alternatives": [
+    {
+      "name": "New Relic",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Various via agents (Java, .NET, Go, Node.js, PHP, Python, Ruby, C SDK)"
+      ],
+      "mainFeatures": [
+        "Full-stack observability",
+        "APM, Infrastructure, Browser, Mobile monitoring",
+        "Distributed tracing",
+        "AI-driven insights"
+      ],
+      "website": "https://newrelic.com/"
+    },
+    {
+      "name": "Dynatrace",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Cloud",
+        "Containers",
+        "Various via OneAgent"
+      ],
+      "mainFeatures": [
+        "Full-stack observability with OneAgent",
+        "AI-driven root cause analysis (Davis AI)",
+        "Automated discovery and instrumentation",
+        "Real user monitoring"
+      ],
+      "website": "https://www.dynatrace.com/"
+    },
+    {
+      "name": "OpenTelemetry",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Various via language-specific SDKs"
+      ],
+      "mainFeatures": [
+        "Vendor-neutral instrumentation",
+        "Collection of traces, metrics, and logs",
+        "Standardized APIs and SDKs",
+        "Context propagation"
+      ],
+      "website": "https://opentelemetry.io/"
+    },
+    {
+      "name": "Elastic APM",
+      "license": "Open Source (with commercial options)",
+      "platforms": [
+        "Various via agents",
+        "Integrates with Elastic Stack"
+      ],
+      "mainFeatures": [
+        "APM agents for data collection",
+        "APM Server for data processing",
+        "Integration with Elasticsearch and Kibana",
+        "Distributed tracing"
+      ],
+      "website": "https://www.elastic.co/observability/application-performance-monitoring"
+    },
+    {
+      "name": "Honeycomb",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Various via instrumentation (integrates with OpenTelemetry)"
+      ],
+      "mainFeatures": [
+        "Observability platform",
+        "Focus on distributed tracing and high-cardinality data",
+        "Integrates with OpenTelemetry",
+        "Assists with instrumentation"
+      ],
+      "website": "https://www.honeycomb.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "New Relic",
+    "Dynatrace",
+    "Datadog"
+  ],
+  "marketPositioning": "libdatadog is positioned as a foundational, internal shared library within the Datadog observability ecosystem. It underpins Datadog's language-specific agents, particularly for performance-critical functions like continuous profiling, by providing a common, efficient core written in Rust. Its market positioning is tied to Datadog's overall strategy to offer a unified, high-performance observability platform across diverse technical stacks. The use of a shared Rust library likely enhances the consistency and efficiency of Datadog's data collection agents compared to solutions that might rely solely on language-specific implementations."
+}

@@ -1,0 +1,108 @@
+{
+  "projectName": "lan-mouse",
+  "projectPurpose": "To provide a free and open-source software solution for sharing a single mouse and keyboard across multiple computers on a local area network, acting as a software KVM switch.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Mouse and keyboard sharing via LAN",
+    "Functions as a Software KVM switch",
+    "Cross-platform compatibility (Windows, macOS, Linux)",
+    "Encrypted network traffic using DTLS",
+    "High performance due to being written in Rust",
+    "Goal of native frontends and interoperability with other software KVMs"
+  ],
+  "website": "https://github.com/feschber/lan-mouse",
+  "alternatives": [
+    {
+      "name": "Synergy",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Other Unix-like"
+      ],
+      "mainFeatures": [
+        "Share single mouse and keyboard",
+        "Shared clipboard",
+        "Cross-platform compatibility",
+        "TLS/SSL encryption",
+        "Customizable hotkeys"
+      ],
+      "website": "https://symless.com/synergy"
+    },
+    {
+      "name": "Mouse Without Borders",
+      "license": "Freeware",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Control up to 4 PCs",
+        "Drag-and-drop file transfer",
+        "Copy and paste text/objects",
+        "Customizable hotkeys",
+        "Simple setup"
+      ],
+      "website": "https://www.microsoft.com/en-us/garage/profiles/mouse-without-borders/"
+    },
+    {
+      "name": "Barrier",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "OpenBSD"
+      ],
+      "mainFeatures": [
+        "Share single mouse and keyboard",
+        "Shared clipboard",
+        "SSL encryption",
+        "Cross-platform",
+        "Forked from Synergy 1.9"
+      ],
+      "website": "https://github.com/debauchee/barrier"
+    },
+    {
+      "name": "Input Director",
+      "license": "Free for personal use, Commercial licenses required otherwise",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Control multiple Windows systems",
+        "Shared clipboard (including files)",
+        "Customizable hotkeys",
+        "Multi-monitor support",
+        "Profiles for different layouts"
+      ],
+      "website": "http://www.inputdirector.com/"
+    },
+    {
+      "name": "ShareMouse",
+      "license": "Freemium",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Control multiple computers",
+        "Drag-and-drop file transfer",
+        "Clipboard sync",
+        "AES encryption",
+        "Password protection"
+      ],
+      "website": "https://www.sharemouse.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Synergy",
+    "Mouse Without Borders"
+  ],
+  "marketPositioning": "Lan Mouse is an open-source software KVM switch that enables users to effortlessly share a single mouse and keyboard across multiple computers connected on a local area network. Written in Rust for enhanced performance, it provides a seamless experience, similar to Apple's Universal Control, allowing you to control multiple PCs by simply moving your cursor to the edge of a screen. The project prioritizes ease of use and a maintainable architecture, with a focus on developing native user interfaces and aiming for interoperability with established software KVM tools like Deskflow and Synergy. All network traffic is encrypted using DTLS for security. As a free and open-source alternative, Lan Mouse stands out against proprietary options, offering robust mouse and keyboard sharing capabilities without licensing costs for personal or commercial use, while also seeking to innovate and collaborate within the software KVM landscape."
+}

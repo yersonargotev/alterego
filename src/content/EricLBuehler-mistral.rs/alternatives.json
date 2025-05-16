@@ -1,0 +1,139 @@
+{
+  "projectName": "mistral.rs",
+  "projectPurpose": "To provide a high-performance, flexible, and easy-to-use library and serving solution for running inference with various Large Language Models (LLMs) on a range of hardware, with a particular focus on speed and efficiency through advanced techniques like quantization and hardware acceleration.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "accelerated hardware (NVIDIA GPUs, Apple Silicon, CPUs)"
+  ],
+  "mainFeatures": [
+    "Blazingly fast LLM inference",
+    "Support for Text, Vision, and Image Generation models",
+    "Extensive quantization support (2-8 bit, GGML, GPTQ, ISQ, etc.)",
+    "Strong hardware acceleration (CUDA, Metal, MKL, Accelerate)",
+    "LoRA and X-LoRA support",
+    "Speculative decoding",
+    "Rust async API, Python API, OpenAI compatible HTTP server",
+    "Device mapping for CPU+GPU or multi-GPU",
+    "Native tool calling support",
+    "Integrated agentic web search capabilities"
+  ],
+  "website": "https://github.com/EricLBuehler/mistral.rs",
+  "alternatives": [
+    {
+      "name": "llama.cpp",
+      "license": "MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "Android",
+        "CPU",
+        "GPU"
+      ],
+      "mainFeatures": [
+        "Efficient CPU inference",
+        "Quantization support (GGML, GGUF)",
+        "Highly portable to various hardware",
+        "Supports a wide range of models based on LLaMA and others",
+        "C++ implementation with bindings for other languages"
+      ],
+      "website": "https://github.com/ggerganov/llama.cpp"
+    },
+    {
+      "name": "Ollama",
+      "license": "MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Simplified local LLM execution and management",
+        "User-friendly CLI and API",
+        "OpenAI-compatible API",
+        "Focus on privacy and offline access",
+        "Easy model customization with Modelfiles"
+      ],
+      "website": "https://ollama.com/"
+    },
+    {
+      "name": "Text Generation Inference (TGI)",
+      "license": "HFOILv1.0",
+      "platforms": [
+        "Docker",
+        "GPU (NVIDIA, AMD, Intel, etc.)"
+      ],
+      "mainFeatures": [
+        "Production-ready LLM serving",
+        "High-throughput and low-latency",
+        "Continuous batching",
+        "Optimized for transformer architectures (FlashAttention, PagedAttention)",
+        "OpenAI Chat Completion API compatible"
+      ],
+      "website": "https://github.com/huggingface/text-generation-inference"
+    },
+    {
+      "name": "vLLM",
+      "license": "Apache 2.0",
+      "platforms": [
+        "GPU (NVIDIA, AMD, Intel, etc.)",
+        "CPU"
+      ],
+      "mainFeatures": [
+        "High-throughput and memory-efficient serving",
+        "PagedAttention for efficient KV cache",
+        "Continuous batching",
+        "OpenAI-compatible API server",
+        "Seamless Hugging Face model integration"
+      ],
+      "website": "https://github.com/vllm-project/vllm"
+    },
+    {
+      "name": "OpenLLM",
+      "license": "Apache 2.0",
+      "platforms": [
+        "Docker",
+        "Cloud",
+        "CPU",
+        "GPU"
+      ],
+      "mainFeatures": [
+        "Run open-source LLMs as OpenAI APIs",
+        "Built-in chat UI",
+        "Simplified cloud deployment (BentoCloud)",
+        "Supports Hugging Face and custom models",
+        "Integrates with state-of-the-art backends"
+      ],
+      "website": "https://github.com/bentoml/OpenLLM"
+    },
+    {
+      "name": "llm (rustformers)",
+      "license": "MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "CPU",
+        "GPU"
+      ],
+      "mainFeatures": [
+        "Rust library for LLM inference",
+        "Wraps base and model crates",
+        "CLI application",
+        "Uses GGML tensor library",
+        "Supports GGML-based models"
+      ],
+      "website": "https://github.com/rustformers/llm"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "llama.cpp",
+    "Ollama"
+  ],
+  "marketPositioning": "mistral.rs is positioned as a high-performance, Rust-native LLM inference engine emphasizing speed, broad hardware compatibility (including strong support for Apple silicon, NVIDIA, and CPUs), and support for diverse model types (text, vision, image generation). It competes directly with libraries like llama.cpp in providing efficient local inference but offers a pure Rust implementation and features like ISQ for easier model handling. Compared to production-focused solutions like vLLM and Hugging Face TGI, mistral.rs provides a more developer-centric approach with flexible APIs for integrating LLM capabilities into applications, while still offering competitive performance through advanced optimizations and quantization techniques. Its multi-modal capabilities and comprehensive hardware support differentiate it in the market for developers building applications that require fast, on-device or self-hosted LLM inference across various platforms."
+}

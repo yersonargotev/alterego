@@ -1,0 +1,149 @@
+{
+  "projectName": "AppFlowy-Cloud",
+  "projectPurpose": "To provide an open-source, AI-enhanced collaborative workspace platform for managing projects, creating wikis, and facilitating team collaboration with a focus on user data control.",
+  "platforms": [],
+  "mainFeatures": [
+    "Collaborative workspace",
+    "Project management",
+    "Wikis and knowledge base",
+    "Team collaboration",
+    "AI integration",
+    "User data control (Open Source)"
+  ],
+  "website": "https://github.com/AppFlowy-IO/AppFlowy-Cloud",
+  "alternatives": [
+    {
+      "name": "Notion",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Collaborative workspace",
+        "Note-taking",
+        "Wikis",
+        "Databases",
+        "Project & Task Management"
+      ],
+      "website": "https://www.notion.com/"
+    },
+    {
+      "name": "Coda",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Web",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "Docs, spreadsheets, applications blend",
+        "AI integration",
+        "Customizable building blocks",
+        "Automations",
+        "Templates"
+      ],
+      "website": "https://coda.io/"
+    },
+    {
+      "name": "ClickUp",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Task management",
+        "Project management",
+        "Documents and wikis",
+        "Goals",
+        "Automations"
+      ],
+      "website": "https://clickup.com/"
+    },
+    {
+      "name": "Confluence (Atlassian)",
+      "license": "Proprietary (Freemium, Paid tiers)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Collaborative knowledge base",
+        "Wiki",
+        "Document management",
+        "Team collaboration",
+        "Jira integration"
+      ],
+      "website": "https://www.atlassian.com/software/confluence"
+    },
+    {
+      "name": "Obsidian",
+      "license": "Freemium (Free for personal/commercial use, Paid for Sync/Publish)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Local-first markdown notes",
+        "Knowledge base",
+        "Bi-directional linking and graph view",
+        "Extensive plugin ecosystem",
+        "Optional Sync and Publish services"
+      ],
+      "website": "https://obsidian.md/"
+    },
+    {
+      "name": "Anytype",
+      "license": "Open Source (Protocols), Source Available (Applications)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Local-first and End-to-end encrypted",
+        "Personal knowledge base",
+        "Notes, tasks, and documents",
+        "Objects and Types structure",
+        "Self-hostable sync"
+      ],
+      "website": "https://anytype.io/"
+    },
+    {
+      "name": "Trilium Notes",
+      "license": "Open Source (AGPL-3.0 or later)",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS (unsupported)",
+        "Web (self-hosted)"
+      ],
+      "mainFeatures": [
+        "Hierarchical note-taking",
+        "Personal knowledge base",
+        "WYSIWYG and code editing",
+        "Note versioning",
+        "Self-hosted sync"
+      ],
+      "website": "https://github.com/TriliumNext/Notes"
+    }
+  ],
+  "mostWellKnownAlternative": "Notion",
+  "marketPositioning": "AppFlowy-Cloud is positioned as the leading open-source, AI-enhanced collaborative workspace alternative to proprietary tools like Notion. Its core value proposition lies in offering a feature-rich platform for project management, wikis, and team collaboration, combined with the crucial advantage of user data control inherent in its open-source nature. It competes directly with broad productivity tools but differentiates by catering specifically to users and organizations prioritizing data privacy, transparency, and the ability to self-host or customize."
+}

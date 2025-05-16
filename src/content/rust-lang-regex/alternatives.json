@@ -1,0 +1,100 @@
+{
+  "projectName": "regex",
+  "projectPurpose": "To provide a fast, safe, and efficient regular expression engine for the Rust programming language that guarantees linear time matching.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "Implementation of regular expressions for Rust",
+    "Uses finite automata for matching",
+    "Guarantees linear time complexity (O(m*n))",
+    "Supports a subset of Perl-like regex syntax (omitting look-around, backreferences for performance)",
+    "Provides search, find, split, and replace functionalities",
+    "Robust Unicode support",
+    "Input safety features",
+    "Bounded memory usage"
+  ],
+  "website": "https://github.com/rust-lang/regex",
+  "alternatives": [
+    {
+      "name": "PCRE (Perl Compatible Regular Expressions)",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Cross-platform (C library with bindings for many languages)"
+      ],
+      "mainFeatures": [
+        "Perl 5 compatible syntax",
+        "Supports a wide range of features including look-around and backreferences",
+        "Just-in-time compiler support (PCRE2)",
+        "Flexible memory management",
+        "UTF-8, UTF-16, UTF-32 support"
+      ],
+      "website": "https://www.pcre.org/"
+    },
+    {
+      "name": "RE2",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Cross-platform (C++ library with bindings for many languages)"
+      ],
+      "mainFeatures": [
+        "Fast, safe, thread-friendly matching",
+        "Guarantees linear time complexity",
+        "Uses a DFA-based engine",
+        "Supports most common Perl/PCRE features, but omits backreferences and lookarounds for safety/performance",
+        "Unicode support"
+      ],
+      "website": "https://github.com/google/re2"
+    },
+    {
+      "name": "Python re module",
+      "license": "Open Source - Python Software Foundation License",
+      "platforms": [
+        "Cross-platform (where Python runs)"
+      ],
+      "mainFeatures": [
+        "Built-in standard library module",
+        "Perl-like regex syntax",
+        "Search, match, split, and replace operations",
+        "Supports groups, backreferences, and lookarounds",
+        "Unicode support"
+      ],
+      "website": "https://docs.python.org/3/library/re.html"
+    },
+    {
+      "name": "Java java.util.regex package",
+      "license": "Open Source - GNU GPLv2 with Classpath exception",
+      "platforms": [
+        "Cross-platform (where Java runs)"
+      ],
+      "mainFeatures": [
+        "Built-in standard library package",
+        "Includes Pattern, Matcher, and PatternSyntaxException classes",
+        "Supports finding, displaying, and modifying text",
+        "Uses metacharacters and special characters",
+        "Supports flags for matching behavior"
+      ],
+      "website": "https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/regex/package-summary.html"
+    },
+    {
+      "name": "Oniguruma",
+      "license": "Open Source - BSD",
+      "platforms": [
+        "Cross-platform (C library with bindings for various languages)"
+      ],
+      "mainFeatures": [
+        "Modern regex library",
+        "Supports multiple character encodings",
+        "Supports multiple regex syntaxes",
+        "Used in Ruby (older versions)"
+      ],
+      "website": "https://github.com/kkos/oniguruma"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "PCRE",
+    "Python re module",
+    "Java java.util.regex"
+  ],
+  "marketPositioning": "The Rust `regex` crate is positioned as a high-performance, safe, and predictable regular expression engine for Rust. By utilizing finite automata and avoiding features like look-around and backreferences that can lead to unpredictable or exponential time complexity in traditional backtracking engines, it guarantees linear time matching and provides strong input safety. This makes it particularly suitable for applications where performance guarantees and protection against Regular Expression Denial of Service (ReDoS) attacks are critical, differentiating it from more feature-rich but potentially less predictable alternatives like PCRE or standard library implementations in other languages."
+}

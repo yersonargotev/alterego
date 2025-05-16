@@ -1,0 +1,83 @@
+{
+  "projectName": "postgresml",
+  "projectPurpose": "To enable developers to build AI-powered applications faster and more efficiently by bringing machine learning, natural language processing, and large language models directly into the PostgreSQL database using SQL, eliminating the need for separate ML infrastructure and data movement.",
+  "platforms": [
+    "Linux (Ubuntu)",
+    "macOS",
+    "Docker",
+    "Cloud (PostgresML Cloud)"
+  ],
+  "mainFeatures": [
+    "In-Database ML/AI execution within PostgreSQL",
+    "GPU Acceleration for AI/ML tasks",
+    "Support for NLP, ML, and LLM models (Hugging Face, OpenAI, etc.)",
+    "Built-in RAG (Retrieval Augmented Generation) pipeline (chunk, embed, rank, transform)",
+    "Vector Search via pgvector integration",
+    "High-performance inference (8-40X faster than HTTP-based serving)"
+  ],
+  "website": "https://postgresml.org",
+  "alternatives": [
+    {
+      "name": "MindsDB",
+      "license": "Open Source - Elastic License 2.0 (Also offers paid services)",
+      "platforms": [
+        "Cross-platform (Service)",
+        "Web Apps"
+      ],
+      "mainFeatures": [
+        "Integrates AI/ML with databases using a SQL-like interface",
+        "Supports over 200 integrations (databases, LLMs, apps)",
+        "Allows creating and serving AI models from enterprise data",
+        "Supports multiple languages (SQL, Python, JS, MongoQL)"
+      ],
+      "website": "https://mindsdb.com/"
+    },
+    {
+      "name": "Google BigQuery ML (BQML)",
+      "license": "Proprietary (Google Cloud Platform)",
+      "platforms": [
+        "Web (Google Cloud Platform)"
+      ],
+      "mainFeatures": [
+        "Create and execute ML models in BigQuery using SQL",
+        "Supports various built-in and external model types",
+        "Integrates with Google Cloud AI services (Vertex AI)",
+        "Serverless and scalable data warehouse ML"
+      ],
+      "website": "https://cloud.google.com/bigquery-ml"
+    },
+    {
+      "name": "Snowflake ML",
+      "license": "Proprietary (Snowflake Data Cloud), Apache-2.0 (snowflake-ml-python lib)",
+      "platforms": [
+        "Web (Snowflake Data Cloud)"
+      ],
+      "mainFeatures": [
+        "Tools for building and deploying ML models within Snowflake (Snowpark ML)",
+        "Supports data preprocessing, feature engineering, training, and MLOps",
+        "Includes Feature Store and Model Registry",
+        "Leverages Python frameworks (scikit-learn, XGBoost, LightGBM)"
+      ],
+      "website": "https://www.snowflake.com/data-cloud/machine-learning/"
+    },
+    {
+      "name": "Amazon Aurora Machine Learning",
+      "license": "Proprietary (Amazon Web Services)",
+      "platforms": [
+        "Web (Amazon Web Services)"
+      ],
+      "mainFeatures": [
+        "Adds ML-based predictions to applications using SQL",
+        "Integrates with AWS ML services (Sagemaker, Comprehend)",
+        "Compatible with Aurora PostgreSQL and MySQL",
+        "Provides access to a selection of ML algorithms"
+      ],
+      "website": "https://aws.amazon.com/rds/aurora/machine-learning/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Google BigQuery ML",
+    "Snowflake ML"
+  ],
+  "marketPositioning": "PostgresML is positioned as a unique, open-source solution that deeply integrates GPU-accelerated AI/ML capabilities directly into PostgreSQL as a native extension. Its core value proposition is enabling developers to leverage their existing PostgreSQL infrastructure and SQL knowledge to build AI applications and RAG pipelines without complex data pipelines or separate ML platforms. This in-database approach minimizes data movement, enhances security, and offers potentially higher performance for inference compared to external model serving. It stands apart from cloud-native database ML features by being open-source and self-hostable, and differs from platforms like MindsDB by being a native database extension rather than a separate service."
+}

@@ -1,0 +1,67 @@
+{
+  "projectName": "substrate",
+  "projectPurpose": "To provide a flexible, modular, and efficient framework for developers to build customized blockchain networks tailored to specific use cases, rather than being limited by the constraints of existing blockchain platforms, and to simplify the process of creating new blockchains.",
+  "platforms": [
+    " agnostic (framework for building blockchain networks)"
+  ],
+  "mainFeatures": [
+    "Modular architecture allowing for custom blockchain development",
+    "Flexible consensus mechanism selection",
+    "Runtime upgradeability without hard forks",
+    "Interoperability (especially within the Polkadot ecosystem)",
+    "Rust and WebAssembly (Wasm) compatibility",
+    "Extensive developer tooling and pre-built components (pallets)"
+  ],
+  "website": "https://github.com/paritytech/substrate",
+  "alternatives": [
+    {
+      "name": "Cosmos SDK",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "agnostic (framework for building blockchain networks)"
+      ],
+      "mainFeatures": [
+        "Modular architecture for application-specific blockchains",
+        "Inter-Blockchain Communication (IBC) protocol",
+        "Supports PoS and PoA consensus",
+        "Written in Golang"
+      ],
+      "website": "https://cosmos.network/sdk"
+    },
+    {
+      "name": "Hyperledger Fabric",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "agnostic (framework for enterprise distributed ledgers)"
+      ],
+      "mainFeatures": [
+        "Permissioned network",
+        "Modular and pluggable architecture",
+        "Support for smart contracts (chaincode) in multiple languages",
+        "Channels for data privacy and scalability"
+      ],
+      "website": "https://www.hyperledger.org/use/fabric"
+    },
+    {
+      "name": "Ethereum Development Ecosystem (Hardhat, Truffle, Remix, etc.)",
+      "license": "Open Source (various licenses)",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Comprehensive development environments (IDEs, testing)",
+        "Smart contract languages (Solidity, Vyper)",
+        "Deployment tools",
+        "Libraries for interacting with Ethereum (or EVM-compatible chains)"
+      ],
+      "website": "https://ethereum.org/developers/tools/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Ethereum"
+  ],
+  "marketPositioning": "Substrate is positioned as a highly flexible and modular framework for building custom blockchain networks, catering to 'blockchain innovators' who require more control and customization than traditional smart contract platforms like Ethereum offer. Its key differentiators are its Rust/Wasm runtime, forkless upgrades, and native interoperability capabilities, particularly within the Polkadot ecosystem. While competing with other blockchain SDKs like Cosmos SDK for building application-specific chains, Substrate emphasizes runtime flexibility and its connection to the Polkadot shared security model. It stands apart from enterprise-focused frameworks like Hyperledger Fabric by not being limited to permissioned networks and providing tools for a broader range of decentralized applications."
+}

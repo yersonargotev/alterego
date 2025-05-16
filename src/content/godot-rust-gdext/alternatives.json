@@ -1,0 +1,107 @@
+{
+  "projectName": "gdext",
+  "projectPurpose": "To provide Rust language bindings for the Godot Engine 4, enabling developers to write game logic and engine extensions in Rust with a focus on performance, type safety, and scalability.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android",
+    "iOS",
+    "Web",
+    "BSD"
+  ],
+  "mainFeatures": [
+    "Provides a Rust API for Godot 4",
+    "Focuses on type safety, scalability, and performance",
+    "Offers a pragmatic and idiomatic Rust API",
+    "Maps most Godot APIs to Rust",
+    "Supports using Rust types as first-class engine classes",
+    "Experimental support for Wasm, Android, and iOS",
+    "Includes hot-reload testing in CI"
+  ],
+  "website": "https://github.com/godot-rust/gdext",
+  "alternatives": [
+    {
+      "name": "GDScript",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web",
+        "BSD",
+        "XR"
+      ],
+      "mainFeatures": [
+        "High-level, dynamically typed (optional static typing) language",
+        "Simple syntax similar to Python",
+        "Tight editor integration",
+        "Built-in vector and transform types",
+        "Fast compilation and loading times"
+      ],
+      "website": "https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/index.html"
+    },
+    {
+      "name": "C#",
+      "license": "Open Source - MIT (.NET)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Statically typed, general-purpose language",
+        "Access to the .NET ecosystem and libraries",
+        "Stronger performance than GDScript",
+        "Mature tooling (IDE support, debugging)",
+        "Leverages the .NET platform"
+      ],
+      "website": "https://docs.godotengine.org/en/stable/tutorials/scripting/c_sharp/index.html"
+    },
+    {
+      "name": "C++ (via GDExtension)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "Web",
+        "BSD",
+        "XR"
+      ],
+      "mainFeatures": [
+        "Provides near-native performance",
+        "Allows extending Godot significantly",
+        "Can integrate third-party C++ libraries",
+        "Requires compiling external libraries",
+        "Leverages Godot's GDExtension C API"
+      ],
+      "website": "https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/index.html"
+    },
+    {
+      "name": "Community-Supported Language Bindings",
+      "license": "Varies (typically Open Source)",
+      "platforms": [
+        "Varies"
+      ],
+      "mainFeatures": [
+        "Allows using various other programming languages",
+        "Integration via the GDExtension API",
+        "Support level and features vary",
+        "May require additional setup and dependencies"
+      ],
+      "website": "https://github.com/Godot-Languages-Support/godot"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GDScript",
+    "C#"
+  ],
+  "marketPositioning": "Gdext is positioned as a high-performance, type-safe, and scalable alternative scripting/extension language for Godot Engine 4, specifically for developers who prefer Rust or require its unique guarantees regarding memory safety and concurrency. It competes with C++ GDExtension for performance-critical tasks and with C# for developers seeking a more robust type system and better performance than GDScript, offering Rust's distinct advantages within the Godot ecosystem. Its market is developers already familiar with or interested in Rust and using Godot, providing a means to combine Godot's rapid development features with Rust's system-level control and safety."
+}

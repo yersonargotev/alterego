@@ -1,0 +1,69 @@
+{
+  "projectName": "fas-rs",
+  "projectPurpose": "To provide a flexible and widely compatible performance optimization tool for Android devices by implementing Frame Aware Scheduling (FAS) in user space to intelligently adjust system resources based on real-time frame rendering needs.",
+  "platforms": [
+    "Android"
+  ],
+  "mainFeatures": [
+    "User-space Frame Aware Scheduling (FAS)",
+    "Optimizes performance based on frame rendering time",
+    "Near-universal compatibility and flexibility",
+    "Configurable target frame rates per application",
+    "Multiple performance modes (powersave, balance, performance, fast)",
+    "Built-in configuration merging system",
+    "Thermal control options"
+  ],
+  "website": "https://github.com/shadow3aaa/fas-rs",
+  "alternatives": [
+    {
+      "name": "MIUI Game Turbo (Xiaomi's Game Mode)",
+      "license": "Proprietary",
+      "platforms": [
+        "Android (Xiaomi devices)"
+      ],
+      "mainFeatures": [
+        "Performance optimization for games",
+        "Resource management (CPU, GPU allocation)",
+        "Network acceleration",
+        "Notification blocking",
+        "Frame rate stabilization (often includes FEAS on supported devices)"
+      ],
+      "website": "https://www.mi.com/"
+    },
+    {
+      "name": "Kernel Managers (e.g., Kernel Adiutor)",
+      "license": "Open Source (Varies, e.g., GPLv2 for Kernel Adiutor)",
+      "platforms": [
+        "Android (Requires Root)"
+      ],
+      "mainFeatures": [
+        "Control CPU governors and frequencies",
+        "Control I/O schedulers",
+        "Adjust thermal thresholds",
+        "Manage kernel-specific features",
+        "Apply custom profiles"
+      ],
+      "website": "https://github.com/Grarak/KernelAdiutor"
+    },
+    {
+      "name": "Android OS Default Scheduling",
+      "license": "Open Source (Apache License 2.0)",
+      "platforms": [
+        "Android"
+      ],
+      "mainFeatures": [
+        "Manages process scheduling (CFS)",
+        "Manages I/O operations (various schedulers)",
+        "Dynamically adjusts CPU frequency (various governors like schedutil)",
+        "Handles thermal management",
+        "Energy-aware scheduling (EAS)"
+      ],
+      "website": "https://source.android.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Built-in vendor game/performance modes",
+    "Android OS Default Scheduling"
+  ],
+  "marketPositioning": "fas-rs positions itself as a flexible and universally compatible user-space alternative to vendor-specific kernel-level frame-aware scheduling solutions like Xiaomi's FEAS. By operating in user space, it offers broader compatibility across different Android devices and kernels, appealing to users who desire fine-grained, customizable performance control for demanding applications, especially on devices lacking effective built-in optimizations."
+}

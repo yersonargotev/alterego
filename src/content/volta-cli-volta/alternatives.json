@@ -1,0 +1,71 @@
+{
+  "projectName": "volta",
+  "projectPurpose": "Volta's purpose is to provide a fast, reliable, and easy-to-use command-line tool for managing JavaScript development toolchains, specifically Node.js versions, package managers (npm, Yarn), and globally installed package binaries, on a per-project basis across different operating systems. It aims to ensure project consistency and simplify the process of switching between different tool versions for various projects.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Seamless, per-project version switching for Node.js, npm, Yarn, and package binaries.",
+    "Automatic version detection and switching based on project directory/configuration.",
+    "Cross-platform support (Windows, macOS, Linux).",
+    "Fast installation and execution built in Rust.",
+    "Stable global tool installation, pinning binaries to Node versions."
+  ],
+  "website": "https://volta.sh",
+  "alternatives": [
+    {
+      "name": "nvm (Node Version Manager)",
+      "license": "MIT",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Install and manage multiple Node.js versions.",
+        "Switch Node.js versions per shell.",
+        "Set default Node.js version.",
+        "Supports .nvmrc files for project versions.",
+        "Install global npm packages per Node version."
+      ],
+      "website": "https://github.com/nvm-sh/nvm"
+    },
+    {
+      "name": "fnm (Fast Node Manager)",
+      "license": "GPL-3.0-only",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast Node.js version switching and installation.",
+        "Cross-platform support.",
+        "Works with .node-version and .nvmrc files.",
+        "Single file, easy installation.",
+        "Built in Rust for speed."
+      ],
+      "website": "https://github.com/Schniz/fnm"
+    },
+    {
+      "name": "asdf (Extendable version manager)",
+      "license": "MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via WSL)"
+      ],
+      "mainFeatures": [
+        "Manage multiple language runtime versions via plugins.",
+        "Single CLI for multiple languages.",
+        "Per-project version switching using .tool-versions.",
+        "Supports existing config files like .nvmrc.",
+        "Automatically switches versions based on directory."
+      ],
+      "website": "https://asdf-vm.com/"
+    }
+  ],
+  "mostWellKnownAlternative": "nvm (Node Version Manager)",
+  "marketPositioning": "Volta positions itself as a modern, faster, and more comprehensive solution for managing the JavaScript/Node.js toolchain. It strongly emphasizes cross-platform support (including native Windows support), automatic project-based version switching via project configuration ('Toolchains as Code'), and a robust approach to managing global package binaries. While competing with Node.js specific version managers like nvm and fnm, Volta aims to manage the entire JS toolchain (Node, package managers, and binaries) in a unified and reliable way, making it particularly appealing for teams needing consistent environments across different operating systems."
+}

@@ -1,0 +1,127 @@
+{
+  "projectName": "rust-clippy",
+  "projectPurpose": "To provide a comprehensive static analysis tool (linter) for Rust code, helping developers identify common mistakes, improve code style, and write more idiomatic, efficient, and correct Rust.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Extensive collection of over 750 lints for Rust.",
+    "Lints categorized by type (correctness, style, performance, etc.).",
+    "Configurable lint levels to customize strictness.",
+    "Integration as a cargo subcommand (`cargo clippy`).",
+    "Ability to automatically apply suggestions/fixes for some lints."
+  ],
+  "website": "https://github.com/rust-lang/rust-clippy",
+  "alternatives": [
+    {
+      "name": "rustfmt",
+      "license": "Open Source (MIT/Apache 2.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Formats Rust code according to a standard style.",
+        "Ensures consistent code formatting.",
+        "Highly configurable formatting options."
+      ],
+      "website": "https://github.com/rust-lang/rustfmt"
+    },
+    {
+      "name": "SonarQube/SonarCloud/SonarLint",
+      "license": "Proprietary (Free tier for SonarLint and open source on SonarCloud)",
+      "platforms": [
+        "Web",
+        "IDE (SonarLint)"
+      ],
+      "mainFeatures": [
+        "Comprehensive static analysis for bugs, smells, vulnerabilities.",
+        "Supports multiple programming languages including Rust.",
+        "Integration with CI/CD pipelines.",
+        "Quality Gates for code quality enforcement."
+      ],
+      "website": "https://www.sonarsource.com/"
+    },
+    {
+      "name": "DeepSource",
+      "license": "Proprietary (Free tier for open source)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Automated code reviews and static analysis.",
+        "Detects issues like bugs, performance problems, anti-patterns.",
+        "Supports multiple languages including Rust.",
+        "Automated fixes for detected issues."
+      ],
+      "website": "https://deepsource.io/"
+    },
+    {
+      "name": "CodeScene",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Analyzes code quality and detects technical debt.",
+        "Uses behavioral code analysis.",
+        "Supports multiple languages including Rust.",
+        "CI/CD integration."
+      ],
+      "website": "https://codescene.com/"
+    },
+    {
+      "name": "Oxc",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Fast parser and linter written in Rust.",
+        "Aims to support multiple languages.",
+        "Analyzes Abstract Syntax Tree (AST)."
+      ],
+      "website": "https://github.com/oxc-project/oxc"
+    },
+    {
+      "name": "Biome",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Extremely fast linter and formatter written in Rust.",
+        "Aims to replace multiple frontend tools.",
+        "Supports various web languages (JS, TS, etc.)."
+      ],
+      "website": "https://biomejs.dev/"
+    },
+    {
+      "name": "PVS-Studio",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Static analysis for bugs and security weaknesses.",
+        "Primary support for C, C++, C#, Java.",
+        "Integrates with IDEs and CI systems.",
+        "Compliance with coding standards."
+      ],
+      "website": "https://pvs-studio.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SonarQube/SonarCloud"
+  ],
+  "marketPositioning": "Clippy is positioned as the essential, official, and community-driven linter for the Rust programming language. It is deeply integrated into the Rust ecosystem and development workflow, offering a comprehensive and highly configurable set of Rust-specific lints that go beyond basic formatting and compiler warnings. While commercial multi-language static analysis platforms exist, Clippy is the go-to open-source solution specifically tailored for Rust, widely adopted by the Rust community for improving code quality, catching subtle errors, and enforcing idiomatic practices."
+}

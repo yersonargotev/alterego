@@ -1,0 +1,159 @@
+{
+  "projectName": "typst",
+  "projectPurpose": "To provide a powerful and easy-to-learn markup-based typesetting system as a modern alternative to traditional tools like LaTeX and word processors.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Markup-based typesetting",
+    "Integrated scripting system",
+    "Math typesetting",
+    "Bibliography management",
+    "Fast compilation with instant preview",
+    "Friendly error messages",
+    "Consistent styling system"
+  ],
+  "website": "https://typst.app/",
+  "alternatives": [
+    {
+      "name": "LaTeX",
+      "license": "Open Source (Various, e.g., LPPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "High-quality typesetting",
+        "Extensive package ecosystem for customization",
+        "Powerful for complex mathematical formulas",
+        "Ideal for academic and technical documents",
+        "Stable and widely used in academia"
+      ],
+      "website": "https://www.latex-project.org/"
+    },
+    {
+      "name": "Microsoft Word",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "WYSIWYG interface",
+        "Widely used and familiar",
+        "Good for simple documents and letters",
+        "Collaboration features (with Microsoft 365)",
+        "Spell check and grammar tools"
+      ],
+      "website": "https://www.microsoft.com/en-us/microsoft-365/word"
+    },
+    {
+      "name": "Overleaf",
+      "license": "Freemium (Proprietary with free tier)",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Online collaborative LaTeX editor",
+        "Real-time collaboration",
+        "Integrated LaTeX compiler",
+        "Large template gallery",
+        "Version history"
+      ],
+      "website": "https://www.overleaf.com/"
+    },
+    {
+      "name": "Markdown",
+      "license": "Open Source (Various, e.g., MIT)",
+      "platforms": [
+        "Various (processed by many tools)"
+      ],
+      "mainFeatures": [
+        "Simple and easy syntax",
+        "Lightweight markup",
+        "Human-readable source",
+        "Easily convertible to other formats (HTML, PDF)",
+        "Widely used for documentation (e.g., GitHub)"
+      ],
+      "website": "https://daringfireball.net/projects/markdown/"
+    },
+    {
+      "name": "ConTeXt",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "TeX-based typesetting system",
+        "Consistent and unified design",
+        "Comprehensive features built-in (less reliance on external packages)",
+        "High level of control over layout and typography",
+        "Suitable for complex and structured documents"
+      ],
+      "website": "https://www.contextgarden.net/"
+    },
+    {
+      "name": "Adobe FrameMaker",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Designed for large, complex technical documents",
+        "Structured authoring (XML, DITA)",
+        "Robust publishing to multiple formats (PDF, HTML, etc.)",
+        "Advanced formatting and layout control",
+        "Conditional text and content reuse"
+      ],
+      "website": "https://www.adobe.com/products/framemaker.html"
+    },
+    {
+      "name": "LyX",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "WYSIWYM document processor (uses LaTeX engine)",
+        "User-friendly graphical interface",
+        "Equation editor",
+        "Supports complex document structures",
+        "Provides access to LaTeX power without direct code writing"
+      ],
+      "website": "https://www.lyx.org/"
+    },
+    {
+      "name": "TeXstudio",
+      "license": "Open Source (GPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Integrated writing environment for LaTeX",
+        "Syntax highlighting and error checking",
+        "Integrated PDF viewer with sync",
+        "Auto-completion and templates",
+        "Project management features"
+      ],
+      "website": "https://www.texstudio.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Microsoft Word",
+    "LaTeX"
+  ],
+  "marketPositioning": "Typst is positioned as a modern, powerful, and user-friendly alternative to traditional typesetting systems like LaTeX and word processors such as Microsoft Word. It targets users who need the power and high-quality output of LaTeX for complex documents (especially in technical and academic fields) but desire a significantly easier learning curve, faster workflow, and more intuitive syntax. It differentiates itself with its integrated scripting, consistent design, rapid compilation with instant previews, and clear error messages, addressing key pain points of LaTeX. Compared to WYSIWYG editors, Typst offers the benefits of a markup approach for structure, consistency, and handling complex elements more effectively."
+}

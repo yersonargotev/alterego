@@ -1,0 +1,105 @@
+{
+  "projectName": "insta",
+  "projectPurpose": "To provide a dedicated library for performing snapshot testing specifically within the Rust programming language environment.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "Snapshot testing for Rust",
+    "Comparison of test output to stored snapshots",
+    "Detection of unexpected changes or regressions",
+    "Integration with the Rust testing ecosystem"
+  ],
+  "website": "https://github.com/mitsuhiko/insta",
+  "alternatives": [
+    {
+      "name": "Jest",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Node.js",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Built-in snapshot testing",
+        "Zero configuration for most JavaScript projects",
+        "Parallel test execution",
+        "Integrated code coverage"
+      ],
+      "website": "https://jestjs.io/"
+    },
+    {
+      "name": "Verify",
+      "license": "Open Source - MIT",
+      "platforms": [
+        ".NET (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Snapshot testing for .NET objects and documents",
+        "Integration with multiple .NET testing frameworks (xUnit, NUnit, etc.)",
+        "Supports various data types (text, JSON, images)",
+        "Tools for managing and accepting snapshots"
+      ],
+      "website": "https://github.com/VerifyTests/Verify"
+    },
+    {
+      "name": "go-snaps",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Go (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Jest-like snapshot testing for Go",
+        "Supports structured and unstructured data",
+        "Generates diff views on failure",
+        "Can identify and clean obsolete snapshots"
+      ],
+      "website": "https://github.com/gkampitakis/go-snaps"
+    },
+    {
+      "name": "pytest-snapshot",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Python (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Snapshot testing plugin for pytest",
+        "Supports strings and bytes",
+        "Handles collections of strings and bytes",
+        "Control over snapshot file path and content"
+      ],
+      "website": "https://pypi.org/project/pytest-snapshot/"
+    },
+    {
+      "name": "pytest-regtest",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Python (Windows, macOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Regression testing plugin for pytest",
+        "Snapshot testing of various data types",
+        "Supports NumPy arrays and pandas DataFrames",
+        "Compares recorded output to reference output"
+      ],
+      "website": "https://pypi.org/project/pytest-regtest/"
+    },
+    {
+      "name": "SnapshotTesting",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Swift (iOS, macOS, tvOS, watchOS, Linux)"
+      ],
+      "mainFeatures": [
+        "Snapshot testing for any value type",
+        "Dozens of built-in snapshot strategies",
+        "Supports custom snapshot strategies",
+        "Inspired by Jest and iOSSnapshotTestCase"
+      ],
+      "website": "https://github.com/pointfreeco/swift-snapshot-testing"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Jest"
+  ],
+  "marketPositioning": "insta is positioned as a dedicated snapshot testing library specifically for the Rust programming language. It provides a native and idiomatic solution for Rust developers to easily implement snapshot testing within their projects, focusing purely on this testing paradigm rather than being a general testing framework. Its value lies in bringing a popular and effective testing technique, widely used in other ecosystems like JavaScript (Jest) and .NET (Verify), to the Rust development environment."
+}

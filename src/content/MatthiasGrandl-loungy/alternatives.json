@@ -1,0 +1,139 @@
+{
+  "projectName": "loungy",
+  "projectPurpose": "To provide a fast and efficient application launcher and productivity tool for macOS (with future Linux support planned), built with Rust and a GPU-accelerated UI framework, offering core functionalities and aiming for future extensibility through a plugin system.",
+  "platforms": [
+    "macOS",
+    "Linux (experimental)"
+  ],
+  "mainFeatures": [
+    "Launching apps",
+    "Calculator (including unit/currency/date conversions)",
+    "Task manager (killing processes)",
+    "macOS menu search",
+    "Clipboard manager (optional)",
+    "Tailscale peer list (optional)",
+    "Bitwarden password client (viewing only, optional)",
+    "Matrix Chat client (very early WIP, optional)"
+  ],
+  "website": "https://github.com/MatthiasGrandl/loungy",
+  "alternatives": [
+    {
+      "name": "Spotlight",
+      "license": "Proprietary (Bundled with macOS)",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "iPadOS",
+        "visionOS"
+      ],
+      "mainFeatures": [
+        "Application and file search",
+        "Quick calculations and conversions",
+        "Web search and Siri Suggestions",
+        "Access to system settings",
+        "Dictionary definitions"
+      ],
+      "website": "https://support.apple.com/en-us/HT204014"
+    },
+    {
+      "name": "Alfred",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Application and file search",
+        "Web search and custom searches",
+        "Calculator and dictionary",
+        "System commands",
+        "Workflows and extensions (Paid)"
+      ],
+      "website": "https://www.alfredapp.com/"
+    },
+    {
+      "name": "Raycast",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "macOS",
+        "Windows (waitlist)"
+      ],
+      "mainFeatures": [
+        "Application and file search",
+        "Extensive extensions and integrations",
+        "Snippets and clipboard history (Pro)",
+        "Window management",
+        "AI Chat (Pro)"
+      ],
+      "website": "https://www.raycast.com/"
+    },
+    {
+      "name": "Wox",
+      "license": "Open Source (GPL-3.0)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Application and file search",
+        "Web search",
+        "Plugin support (multiple languages)",
+        "Themes",
+        "Portable mode"
+      ],
+      "website": "http://www.wox.one/"
+    },
+    {
+      "name": "Ueli",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Application and file search",
+        "Web search and browser bookmarks",
+        "Calculator and unit converter",
+        "System commands",
+        "Workflows"
+      ],
+      "website": "https://ueli.app/"
+    },
+    {
+      "name": "Flow Launcher",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Application and file search",
+        "Web searches and browser bookmarks",
+        "System commands",
+        "Calculator",
+        "Plugin store"
+      ],
+      "website": "https://www.flowlauncher.com/"
+    },
+    {
+      "name": "PowerToys Run",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Application and file search",
+        "Calculator",
+        "Unit converter",
+        "System commands",
+        "Plugin support"
+      ],
+      "website": "https://learn.microsoft.com/en-us/windows/powertoys/run"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Alfred",
+    "Raycast"
+  ],
+  "marketPositioning": "Loungy is positioned as an emerging open-source application launcher for macOS, built with Rust and a GPU-accelerated UI framework for potential performance advantages. It aims to compete with established players like Alfred and Raycast by offering core launcher features and planning for future extensibility via a plugin system. As a 'work in progress,' it currently has a smaller feature set and limited platform support compared to mature alternatives but offers a glimpse into a launcher built with modern, performance-oriented technologies within the open-source ecosystem."
+}

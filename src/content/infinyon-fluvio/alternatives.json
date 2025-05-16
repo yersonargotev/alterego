@@ -1,0 +1,140 @@
+{
+  "projectName": "fluvio",
+  "projectPurpose": "To provide a modern, high-performance, and efficient distributed event streaming platform for developers to build responsive, data-intensive applications, particularly excelling in cloud-native and edge environments, offering integrated programmability and features for real-time data processing, analytics, and AI.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Event stream processing",
+    "Stream and process data in motion",
+    "Programmable data streaming (SmartModules, WebAssembly)",
+    "Stateful DataFlow (SDF) for stream processing pipelines",
+    "Cloud-native architecture (Kubernetes native, scalable, self-healing)",
+    "Edge-native capabilities (lightweight, efficient, ARM64 support)",
+    "AI-native features (data processing APIs for analytics and AI)",
+    "High performance and low latency",
+    "Lightweight and resource-efficient",
+    "Written in Rust"
+  ],
+  "website": "https://www.fluvio.io/",
+  "alternatives": [
+    {
+      "name": "Apache Kafka",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Distributed event streaming platform",
+        "High-throughput and low-latency messaging",
+        "Fault-tolerant with data replication",
+        "Scalable partitioned log model",
+        "Large ecosystem (Connect, Streams)"
+      ],
+      "website": "https://kafka.apache.org/"
+    },
+    {
+      "name": "Apache Pulsar",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Distributed pub-sub and streaming",
+        "Built-in geo-replication",
+        "Multi-tenancy",
+        "Tiered storage",
+        "Decoupled architecture"
+      ],
+      "website": "https://pulsar.apache.org/"
+    },
+    {
+      "name": "RabbitMQ",
+      "license": "Open Source - MPL / Proprietary",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Message broker",
+        "Supports multiple protocols (AMQP, MQTT, STOMP)",
+        "Flexible routing",
+        "Reliable message delivery",
+        "Good for message queuing"
+      ],
+      "website": "https://www.rabbitmq.com/"
+    },
+    {
+      "name": "NATS",
+      "license": "Open Source - Apache 2.0 / Proprietary",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "High-performance messaging",
+        "Simple pub/sub, request/reply, queueing",
+        "Lightweight and easy to use",
+        "JetStream for persistence and streaming",
+        "Cloud-native design"
+      ],
+      "website": "https://nats.io/"
+    },
+    {
+      "name": "Redpanda",
+      "license": "Source Available / Proprietary",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Kafka API compatible",
+        "High performance (C++ based)",
+        "Low latency",
+        "Simpler to manage than Kafka",
+        "Integrated developer tools"
+      ],
+      "website": "https://redpanda.com/"
+    },
+    {
+      "name": "Amazon Kinesis",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud-based (AWS)"
+      ],
+      "mainFeatures": [
+        "Fully managed real-time data streaming",
+        "Scalable data ingestion and processing",
+        "Integrates with AWS ecosystem",
+        "Various services (Data Streams, Firehose, Analytics)"
+      ],
+      "website": "https://aws.amazon.com/kinesis/"
+    },
+    {
+      "name": "Google Cloud Pub/Sub",
+      "license": "Proprietary",
+      "platforms": [
+        "Cloud-based (Google Cloud)"
+      ],
+      "mainFeatures": [
+        "Fully managed real-time messaging",
+        "Scalable and durable",
+        "Simple pub/sub model",
+        "Integrates with Google Cloud ecosystem"
+      ],
+      "website": "https://cloud.google.com/pubsub"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Kafka"
+  ],
+  "marketPositioning": "Fluvio positions itself as a modern, high-performance, and developer-centric distributed event streaming platform. It stands out by being built in Rust, emphasizing efficiency, low resource consumption, and suitability for both cloud-native and edge deployments. Unlike traditional JVM-based systems like Kafka, Fluvio offers a smaller footprint and aims for simpler operations. Its integrated WebAssembly-based programmability (SmartModules) and Stateful DataFlow capabilities provide unique differentiators for in-stream processing and building complex real-time data pipelines, particularly relevant for emerging AI and IoT use cases at the edge. It competes directly with other high-performance alternatives like Redpanda but differentiates itself through its Rust/WASM architecture and specific focus on edge and AI applications."
+}

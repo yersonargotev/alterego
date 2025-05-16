@@ -1,0 +1,81 @@
+{
+  "projectName": "cairo",
+  "projectPurpose": "To provide a programming language specifically designed for writing programs that can be formally verified and proven to have executed correctly, particularly in the context of zero-knowledge proofs (ZKPs) and blockchain scalability (specifically for StarkNet/StarkEx), making the creation of provable programs for general computation accessible.",
+  "platforms": [
+    "N/A (Programming Language)"
+  ],
+  "mainFeatures": [
+    "Turing-complete language for general computation",
+    "Creates provable programs using STARK proofs",
+    "Integrated with the StarkNet/StarkEx ecosystem",
+    "Supports verifiable computation settled on Ethereum",
+    "Designed for efficiency and developer-friendliness"
+  ],
+  "website": "https://github.com/starkware-libs/cairo",
+  "alternatives": [
+    {
+      "name": "Circom",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "N/A (Programming Language/Compiler)"
+      ],
+      "mainFeatures": [
+        "Domain-specific language for ZK circuits",
+        "Defines arithmetic circuits for ZKPs",
+        "Modular design with templates (circomLib)",
+        "Compiles to R1CS format",
+        "Used with various proving systems (e.g., Groth16)"
+      ],
+      "website": "https://github.com/iden3/circom"
+    },
+    {
+      "name": "Noir",
+      "license": "Open Source",
+      "platforms": [
+        "N/A (Programming Language/Compiler)"
+      ],
+      "mainFeatures": [
+        "Domain-specific language for privacy-preserving ZK programs",
+        "Rust-inspired syntax for developer friendliness",
+        "Proving-system-agnostic (compatible with various backends like Barretenberg, Halo2, Plonky2)",
+        "Compiles to an intermediate language (ACIR)",
+        "Supports recursive proving"
+      ],
+      "website": "https://noir-lang.org/"
+    },
+    {
+      "name": "Zinc",
+      "license": "Open Source",
+      "platforms": [
+        "N/A (Programming Language/Compiler)"
+      ],
+      "mainFeatures": [
+        "Programming language for zkSync smart contracts and SNARK circuits",
+        "Rust-like syntax",
+        "User-friendly, abstracts R1CS complexities",
+        "Emphasizes immutability",
+        "Supports Solidity interoperability on zkSync"
+      ],
+      "website": "https://github.com/matter-labs/zinc"
+    },
+    {
+      "name": "Solidity",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "EVM (Ethereum Virtual Machine) compatible blockchains"
+      ],
+      "mainFeatures": [
+        "Object-oriented, high-level language for smart contracts",
+        "Statically typed",
+        "Supports inheritance, libraries, and complex user-defined types",
+        "Widely used on Ethereum and other EVM chains",
+        "Large developer community and extensive tooling"
+      ],
+      "website": "https://soliditylang.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Solidity"
+  ],
+  "marketPositioning": "Cairo is positioned as a specialized, Turing-complete programming language tightly integrated with the StarkNet/StarkEx ecosystem for building scalable dApps on Ethereum using STARK proofs. While other ZKP languages like Circom and Noir offer more proving-system flexibility, Cairo is optimized for the STARK architecture and the StarkNet platform. Compared to general-purpose smart contract languages like Solidity, Cairo is explicitly designed for verifiable computation from the ground up, aiming to provide a developer-friendly yet powerful environment for creating provable programs and scaling Ethereum."
+}

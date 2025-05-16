@@ -1,0 +1,79 @@
+{
+  "projectName": "hubris",
+  "projectPurpose": "To provide a minimal, secure, and reliable operating system kernel for resource-constrained embedded hardware, emphasizing memory protection and message passing using the Rust language.",
+  "platforms": [],
+  "mainFeatures": [
+    "Lightweight kernel",
+    "Memory-protected",
+    "Message-passing architecture",
+    "Designed for deeply embedded systems",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/oxidecomputer/hubris",
+  "alternatives": [
+    {
+      "name": "FreeRTOS",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "ARM",
+        "Atmel AVR",
+        "RISC-V",
+        "x86",
+        "Many others (40+ architectures)"
+      ],
+      "mainFeatures": [
+        "Priority-based preemptive scheduling",
+        "Multiple memory allocation schemes",
+        "Inter-task communication (queues, semaphores, mutexes)",
+        "Low power tickless mode",
+        "Modular software libraries"
+      ],
+      "website": "https://www.freertos.org/"
+    },
+    {
+      "name": "Zephyr RTOS",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "ARM",
+        "Intel x86",
+        "ARC",
+        "NIOS II",
+        "RISC-V",
+        "Xtensa"
+      ],
+      "mainFeatures": [
+        "Highly configurable and modular",
+        "Preemptive multitasking",
+        "Real-time scheduling algorithms",
+        "Memory protection (MPU based)",
+        "Support for various communication protocols"
+      ],
+      "website": "https://www.zephyrproject.org/"
+    },
+    {
+      "name": "QNX Neutrino RTOS",
+      "license": "Proprietary",
+      "platforms": [
+        "x86-64",
+        "ARM32",
+        "ARM64",
+        "PowerPC",
+        "SH-4",
+        "StrongARM",
+        "XScale"
+      ],
+      "mainFeatures": [
+        "Microkernel architecture",
+        "Determinism and reliability",
+        "Memory protection through isolated processes",
+        "Scalability",
+        "Safety-certified editions available"
+      ],
+      "website": "https://blackberry.qnx.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "FreeRTOS"
+  ],
+  "marketPositioning": "Hubris is positioned as a lightweight, memory-safe RTOS for deeply embedded systems, differentiating itself primarily through its implementation in Rust, which provides inherent memory protection. While competing in the open-source embedded RTOS space with established players like FreeRTOS and Zephyr, Hubris emphasizes a stronger, compile-time approach to safety compared to their C/C++ based implementations that rely more on hardware features like MPUs. It targets applications where code robustness and security are critical, offering a potentially more reliable foundation than traditional C-based RTOSes without the complexity and cost of high-end commercial options like QNX."
+}

@@ -1,0 +1,94 @@
+{
+  "projectName": "sapling",
+  "projectPurpose": "To provide a scalable and user-friendly source control system capable of handling extremely large repositories while offering an improved developer experience compared to existing tools, with compatibility for Git.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Scalability for large repositories and monorepos",
+    "User-friendly interface and workflows",
+    "Git-compatible client for interacting with Git repositories",
+    "First-class support for working with stacks of commits",
+    "Interactive Smartlog (ISL) for history visualization",
+    "Easy undo functionality",
+    "No staging area with interactive partial commits"
+  ],
+  "website": "https://sapling-scm.com/",
+  "alternatives": [
+    {
+      "name": "Git",
+      "license": "Open Source - GPL-2.0-only",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Distributed architecture",
+        "Fast performance",
+        "Powerful branching and merging",
+        "Staging area",
+        "Support for various workflows"
+      ],
+      "website": "https://git-scm.com/"
+    },
+    {
+      "name": "Mercurial",
+      "license": "Open Source - GPL-2.0-or-later",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Unix-like"
+      ],
+      "mainFeatures": [
+        "Distributed architecture",
+        "High performance and scalability",
+        "Robust handling of binary files",
+        "Extensible via extensions",
+        "Intuitive command syntax"
+      ],
+      "website": "https://www.mercurial-scm.org/"
+    },
+    {
+      "name": "Apache Subversion (SVN)",
+      "license": "Open Source - Apache License",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Centralized architecture",
+        "Atomic commits",
+        "Support for directories as first-class objects",
+        "Easy branching and tagging",
+        "Workflow management"
+      ],
+      "website": "https://subversion.apache.org/"
+    },
+    {
+      "name": "Perforce Helix Core",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Unix"
+      ],
+      "mainFeatures": [
+        "Centralized or distributed workflows",
+        "Designed for large scale and binary assets",
+        "Granular access control and security",
+        "Advanced branching models (Streams)",
+        "Optimized for performance"
+      ],
+      "website": "https://www.perforce.com/products/helix-core"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Git"
+  ],
+  "marketPositioning": "Sapling is positioned as a highly scalable and user-friendly source control system designed to address the challenges of managing extremely large repositories (monorepos) while improving the developer experience, particularly for workflows involving commit stacks and history manipulation. Unlike traditional centralized systems like SVN and Perforce (in its core mode), Sapling is distributed. While competing with Git and Mercurial in the distributed VCS space, Sapling differentiates itself by focusing on superior scalability for massive codebases and enhanced usability features, including first-class support for commit stacks and intuitive history management via the Smartlog. Its Git compatibility allows it to serve as an alternative client for existing Git users and facilitates adoption."
+}

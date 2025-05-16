@@ -1,0 +1,98 @@
+{
+  "projectName": "warp",
+  "projectPurpose": "To provide a fast, easy-to-use, and highly composable web server framework in the Rust programming language using a Filter-based system.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Composable Filter system for defining endpoints",
+    "Path routing and parameter extraction",
+    "Header requirements and extraction",
+    "Query string deserialization",
+    "JSON and Form body processing",
+    "Multipart form data handling",
+    "Serving static files and directories",
+    "WebSockets support",
+    "Access logging",
+    "Gzip, Deflate, and Brotli compression",
+    "Built on Hyper (HTTP/1, HTTP/2, asynchronous)"
+  ],
+  "website": "https://github.com/seanmonstar/warp",
+  "alternatives": [
+    {
+      "name": "Actix Web",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Extremely fast performance",
+        "Type-safe request and response handling",
+        "HTTP/1.x and HTTP/2 support",
+        "WebSockets support",
+        "Middleware system"
+      ],
+      "website": "https://actix.rs/"
+    },
+    {
+      "name": "Rocket",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Focus on usability and type safety",
+        "Macro-based routing",
+        "Automatic form parsing and JSON handling",
+        "Integrated testing library",
+        "Request guards for access control"
+      ],
+      "website": "https://rocket.rs/"
+    },
+    {
+      "name": "Axum",
+      "license": "Open Source - MIT OR Apache-2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Ergonomic and modular design",
+        "Built on Tokio, Tower, and Hyper",
+        "Leverages the Tower middleware ecosystem",
+        "Macro-free routing API",
+        "Simple and predictable error handling"
+      ],
+      "website": "https://github.com/tokio-rs/axum"
+    },
+    {
+      "name": "Tide",
+      "license": "Open Source - Apache-2.0 OR MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Minimalist and easy to learn",
+        "Asynchronous by default",
+        "Middleware support",
+        "Routing system",
+        "Inspired by Express.js, Sinatra, Flask"
+      ],
+      "website": "https://github.com/http-rs/tide"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Actix Web",
+    "Axum"
+  ],
+  "marketPositioning": "Warp positions itself as a high-performance, super-easy, and notably composable web server framework for Rust, distinguished by its 'Filter' system. This system allows developers to define complex routing and request handling logic by composing smaller, reusable filter components, offering a functional approach that contrasts with the macro-based or more traditional handler-centric models of some competitors. By building on Hyper, it ensures a fast and robust HTTP foundation. Its market position emphasizes flexibility and fine-grained control through composition, appealing to developers who value this paradigm for building web services and APIs."
+}

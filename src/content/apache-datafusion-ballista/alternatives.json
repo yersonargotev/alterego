@@ -1,0 +1,87 @@
+{
+  "projectName": "datafusion-ballista",
+  "projectPurpose": "To provide a distributed query engine for executing analytical queries across a cluster, leveraging the Apache Arrow format.",
+  "platforms": [
+    "Cluster environments",
+    "Integrates with various data sources"
+  ],
+  "mainFeatures": [
+    "Distributed query execution",
+    "Built on Apache Arrow and DataFusion",
+    "Implemented in Rust"
+  ],
+  "website": "https://github.com/apache/datafusion-ballista",
+  "alternatives": [
+    {
+      "name": "Apache Spark",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cluster environments (YARN, Mesos, Kubernetes, standalone)",
+        "JVM",
+        "Python",
+        "R"
+      ],
+      "mainFeatures": [
+        "Unified analytics engine",
+        "Large-scale data processing",
+        "Spark SQL for structured data",
+        "In-memory computing"
+      ],
+      "website": "https://spark.apache.org/"
+    },
+    {
+      "name": "Trino",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cluster environments",
+        "JVM",
+        "Integrates with diverse data sources"
+      ],
+      "mainFeatures": [
+        "Distributed SQL query engine",
+        "Interactive analytics",
+        "Query data in place (connector-based)",
+        "ANSI SQL support"
+      ],
+      "website": "https://trino.io/"
+    },
+    {
+      "name": "Dremio",
+      "license": "Commercial with Open Source components",
+      "platforms": [
+        "Cluster environments (Kubernetes, YARN)",
+        "Cloud Services (AWS, Azure, GCP)",
+        "Integrates with data lakes and databases"
+      ],
+      "mainFeatures": [
+        "Data lakehouse platform",
+        "Self-service data",
+        "Query acceleration (Reflections)",
+        "Data virtualization"
+      ],
+      "website": "https://www.dremio.com/"
+    },
+    {
+      "name": "ClickHouse",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "FreeBSD",
+        "macOS (via Docker/compilation)",
+        "Server/Cluster deployments"
+      ],
+      "mainFeatures": [
+        "Columnar database management system",
+        "High-speed analytical query processing (OLAP)",
+        "Distributed processing",
+        "Real-time data ingestion"
+      ],
+      "website": "https://clickhouse.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Apache Spark",
+    "Trino"
+  ],
+  "marketPositioning": "Apache Arrow Ballista is positioned as a modern, high-performance distributed query engine built in Rust and deeply integrated with the Apache Arrow ecosystem. It targets users who require scalable analytical query processing and prioritize performance, Rust development, and leveraging the efficiency of Arrow's columnar format, differentiating itself from broader platforms like Spark or database-centric solutions like ClickHouse, and emphasizing its foundation on Arrow compared to other distributed query engines like Trino or Dremio."
+}

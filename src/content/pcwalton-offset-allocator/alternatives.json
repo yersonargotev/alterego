@@ -1,0 +1,79 @@
+{
+  "projectName": "offset-allocator",
+  "projectPurpose": "To provide a fast, simple, hard real time O(1) offset allocator in Rust for managing contiguous blocks of memory, particularly useful for sub-allocating GPU resources and other contiguous ranges in performance-critical applications.",
+  "platforms": [
+    "Cross-platform (where Rust is supported)"
+  ],
+  "mainFeatures": [
+    "Fast, simple, hard real time O(1) allocation and deallocation",
+    "Minimal fragmentation using 256 bins with 8-bit floating point distribution",
+    "Allocator metadata stored separately",
+    "Agnostic to allocated data type, works with contiguous memory blocks",
+    "Useful for sub-allocating GPU resources (heaps, buffers, arrays)"
+  ],
+  "website": "https://github.com/pcwalton/offset-allocator",
+  "alternatives": [
+    {
+      "name": "System (std::alloc::System)",
+      "license": "Open Source (Rust is MIT/Apache 2.0)",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Default allocator for Rust standard library",
+        "Uses operating system's default allocator (malloc/HeapAlloc)",
+        "General-purpose memory allocation"
+      ],
+      "website": "https://doc.rust-lang.org/std/alloc/struct.System.html"
+    },
+    {
+      "name": "Jemalloc (via tikv-jemallocator)",
+      "license": "Open Source (BSD/Apache 2.0/MIT)",
+      "platforms": [
+        "Cross-platform (most Unix-like systems, Windows)"
+      ],
+      "mainFeatures": [
+        "Reduces memory fragmentation",
+        "Scalable in high-concurrency scenarios",
+        "General-purpose global allocator option for Rust",
+        "Provides introspection capabilities"
+      ],
+      "website": "https://crates.io/crates/tikv-jemallocator"
+    },
+    {
+      "name": "gpu-allocator",
+      "license": "Open Source (MIT/Apache 2.0)",
+      "platforms": [
+        "Vulkan",
+        "DirectX 12",
+        "Metal"
+      ],
+      "mainFeatures": [
+        "Memory allocation specifically for GPU resources",
+        "Supports modern graphics APIs (Vulkan, DX12, Metal)",
+        "Handles different memory locations (CPU to GPU, etc.)",
+        "Designed for graphics resource management"
+      ],
+      "website": "https://crates.io/crates/gpu-allocator"
+    },
+    {
+      "name": "OffsetAllocator (C++)",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Platform-agnostic C++ library"
+      ],
+      "mainFeatures": [
+        "Fast O(1) offset allocation",
+        "Minimal fragmentation using floating point distribution bins",
+        "Suitable for GPU resources",
+        "Original implementation by Sebastian Aaltonen"
+      ],
+      "website": "https://github.com/sebbbi/OffsetAllocator"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "malloc/System Allocators",
+    "Jemalloc"
+  ],
+  "marketPositioning": "offset-allocator is positioned as a specialized, high-performance, real-time memory allocator within the Rust ecosystem, specifically targeting the efficient sub-allocation of contiguous memory blocks with guaranteed O(1) performance. Based on a proven C++ algorithm, it offers a distinct advantage over general-purpose allocators for scenarios requiring predictable, low-latency operations, such as managing GPU resources in graphics and game development. While other Rust crates exist for GPU allocation, offset-allocator's focus on the core O(1) offset allocation algorithm provides a unique selling point for developers prioritizing hard real-time performance for this specific memory management task."
+}

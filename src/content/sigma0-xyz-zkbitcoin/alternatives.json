@@ -1,0 +1,123 @@
+{
+  "projectName": "zkbitcoin",
+  "projectPurpose": "To enable zero-knowledge proofs and zero-knowledge applications (zkApps) on the Bitcoin network for enhanced privacy, scalability, and programmability, acting as a minimal Layer 2 solution leveraging Bitcoin for data availability.",
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Applies zero-knowledge proofs (ZKPs) to Bitcoin",
+    "Enables zero-knowledge applications (zkApps) on Bitcoin",
+    "Uses an off-chain multi-party computation committee for ZKP verification",
+    "Leverages a threshold signature wallet managed by the committee to sign transactions",
+    "Stores zkApp state and verifier keys on the Bitcoin blockchain (UTXOs) for data availability"
+  ],
+  "website": "https://github.com/sigma0-xyz/zkbitcoin",
+  "alternatives": [
+    {
+      "name": "ZeroSync",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Zero-knowledge light client for Bitcoin",
+        "Fast blockchain syncing via ZK verification",
+        "Aims to implement ZKPs on the Bitcoin base layer"
+      ],
+      "website": "https://zerosync.org/"
+    },
+    {
+      "name": "BitcoinOS (BitSNARK)",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Enables direct verification of zk-SNARK proofs on Bitcoin mainnet",
+        "Allows privacy-preserving smart contracts on Bitcoin",
+        "Facilitates cross-chain transfers without core protocol changes"
+      ],
+      "website": "https://www.bitcoinos.com/"
+    },
+    {
+      "name": "BitVM",
+      "license": "Open Source",
+      "platforms": [
+        "N/A (Framework)"
+      ],
+      "mainFeatures": [
+        "Framework for verifiable computation on Bitcoin",
+        "Enables more expressive smart contracts using fraud proofs",
+        "Leverages existing Bitcoin opcodes"
+      ],
+      "website": "https://github.com/BitVM/BitVM"
+    },
+    {
+      "name": "Rootstock (RSK)",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Web",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Smart contracts on Bitcoin via a sidechain",
+        "Two-way peg to BTC",
+        "EVM-compatible"
+      ],
+      "website": "https://rootstock.io/"
+    },
+    {
+      "name": "Liquid Network",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Bitcoin sidechain for faster transactions",
+        "Confidential Transactions for privacy",
+        "Issued Assets capability"
+      ],
+      "website": "https://liquid.net/"
+    },
+    {
+      "name": "zkSync Era",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Ethereum Layer 2 zk-rollup",
+        "Low transaction costs",
+        "High transaction throughput",
+        "EVM compatibility"
+      ],
+      "website": "https://zksync.io/"
+    },
+    {
+      "name": "StarkNet",
+      "license": "Open Source",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Ethereum Layer 2 zk-rollup",
+        "Uses STARK proofs",
+        "High scalability",
+        "Built using Cairo"
+      ],
+      "website": "https://www.starknet.io/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ZeroSync",
+    "BitcoinOS (BitSNARK)"
+  ],
+  "marketPositioning": "zkBitcoin is positioned as a pioneering project in the emerging field of bringing zero-knowledge proofs and verifiable computation (zkApps) directly to the Bitcoin network. It differentiates itself from traditional Bitcoin Layer 2s like Lightning or sidechains by focusing specifically on ZKPs for enhanced functionality and privacy. Its architecture, utilizing an off-chain MPC committee for verification and on-chain Bitcoin UTXOs for data availability, offers a unique approach compared to other ZK-on-Bitcoin efforts like ZeroSync (focused on light clients/base layer) or BitSNARK (focused on direct mainnet proof verification). It competes within the niche but growing market of enabling more complex and private applications on top of Bitcoin's secure base layer."
+}

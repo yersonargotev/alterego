@@ -1,0 +1,134 @@
+{
+  "projectName": "unfmt",
+  "projectPurpose": "To provide a compile-time Rust library for parsing strings based on a format string syntax, reversing the interpolation process of `format!`, and allowing extraction of structured data.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "Compile-time pattern matching",
+    "Reverses `format!` interpolation",
+    "Supports capturing values into variables or tuples",
+    "Type-safe extraction using `FromStr`",
+    "No runtime pattern compilation"
+  ],
+  "website": "https://github.com/mathematic-inc/unfmt",
+  "alternatives": [
+    {
+      "name": "regex",
+      "license": "MIT/Apache 2.0",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "General-purpose regular expression matching",
+        "Linear time matching guarantee",
+        "Supports capturing groups",
+        "Unicode aware"
+      ],
+      "website": "https://crates.io/crates/regex"
+    },
+    {
+      "name": "sscanf",
+      "license": "Unlicense",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Macro for `format!`-like string parsing",
+        "Extracts values into a tuple",
+        "Supports specifying types for extraction",
+        "Built on `regex`"
+      ],
+      "website": "https://crates.io/crates/sscanf"
+    },
+    {
+      "name": "prse",
+      "license": "MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "`parse!` macro with `format_args`-like syntax",
+        "Emphasis on speed and ease of use",
+        "Supports `FromStr` and custom `Parse` trait",
+        "Derive macro for custom types"
+      ],
+      "website": "https://crates.io/crates/prse"
+    },
+    {
+      "name": "nom",
+      "license": "MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Byte-oriented, zero-copy parser combinators",
+        "Tools for building safe and fast parsers",
+        "Reusable and testable parser components",
+        "Supports custom error types"
+      ],
+      "website": "https://crates.io/crates/nom"
+    },
+    {
+      "name": "combine",
+      "license": "MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Fast parser combinators",
+        "Zero-copy support",
+        "Works on arbitrary streams",
+        "Compositional parser building"
+      ],
+      "website": "https://crates.io/crates/combine"
+    },
+    {
+      "name": "simple-string-patterns",
+      "license": "MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Easy matching, splitting, and extracting strings",
+        "Avoids regular expressions",
+        "Focus on readability and minimal overhead",
+        "Basic matching methods (starts_with, contains)"
+      ],
+      "website": "https://crates.io/crates/simple-string-patterns"
+    },
+    {
+      "name": "glob-match",
+      "license": "MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Fast glob matching",
+        "Supports wildcards, character classes, brace expansion",
+        "Linear time matching",
+        "Captures matched ranges"
+      ],
+      "website": "https://crates.io/crates/glob-match"
+    },
+    {
+      "name": "fuzzy-matcher",
+      "license": "MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Fuzzy string matching",
+        "Returns match score and indices",
+        "Based on algorithms like Smith-Waterman",
+        "O(mn) time complexity"
+      ],
+      "website": "https://crates.io/crates/fuzzy-matcher"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Regular Expressions",
+    "sscanf"
+  ],
+  "marketPositioning": "unfmt is positioned as a specialized, compile-time string pattern matching library for Rust, specifically designed to reverse the `format!` interpolation process. Its key advantage lies in performing parsing at compile time, offering performance benefits and type safety over runtime-based solutions like general-purpose regular expressions or sscanf implementations that rely on them. While less flexible than full parser combinators or advanced regex engines, unfmt provides a lightweight, familiar-syntax approach for extracting data from fixed-format strings."
+}

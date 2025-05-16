@@ -1,0 +1,67 @@
+{
+  "projectName": "rc-zip",
+  "projectPurpose": "To provide a pure Rust library for reading standard ZIP and ZIP64 archive formats.",
+  "platforms": [
+    "Cross-platform (as a Rust library)"
+  ],
+  "mainFeatures": [
+    "Pure Rust implementation",
+    "Supports reading standard ZIP archives",
+    "Supports reading ZIP64 archives (large files)"
+  ],
+  "website": "https://github.com/fasterthanlime/rc-zip",
+  "alternatives": [
+    {
+      "name": "zip (Rust crate)",
+      "license": "Open Source (likely MIT or Apache 2.0, typical for Rust)",
+      "platforms": [
+        "Cross-platform (as a Rust library)"
+      ],
+      "mainFeatures": [
+        "Supports reading and writing ZIP files",
+        "Supports various compression methods (deflate, bzip2, zstd, lzma, xz)",
+        "Supports AES encryption/decryption"
+      ],
+      "website": "https://crates.io/crates/zip"
+    },
+    {
+      "name": "libzip",
+      "license": "Open Source (BSD 3-Clause License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Other Unix-like"
+      ],
+      "mainFeatures": [
+        "C library for reading, creating, modifying ZIP archives",
+        "Supports Zip64",
+        "Supports various compression methods (deflate, bzip2, LZMA, zstd)",
+        "Supports Winzip AES and legacy PKWARE encryption",
+        "Bindings available for multiple languages"
+      ],
+      "website": "https://libzip.org/"
+    },
+    {
+      "name": "7-Zip",
+      "license": "Open Source (GNU LGPL)",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS (CLI)"
+      ],
+      "mainFeatures": [
+        "High compression ratio, especially in 7z format",
+        "Supports packing/unpacking many formats including ZIP",
+        "Strong AES-256 encryption",
+        "Integrated with Windows Shell (GUI version)",
+        "Command-line version available"
+      ],
+      "website": "https://www.7-zip.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "7-Zip"
+  ],
+  "marketPositioning": "rc-zip is positioned as a focused, pure Rust library specifically for reading ZIP and ZIP64 archives. Unlike broader archiving tools or libraries that offer both reading and writing, or those that wrap C libraries, rc-zip emphasizes a native Rust implementation for the reading task. This pure-Rust approach may appeal to developers prioritizing code safety, control, or specific performance characteristics within the Rust ecosystem for large ZIP file consumption, rather than general-purpose archiving or creation."
+}

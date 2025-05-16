@@ -1,0 +1,70 @@
+{
+  "projectName": "lance",
+  "projectPurpose": "To provide a high-performance, columnar data format and storage layer specifically designed for Machine Learning (ML) and Large Language Models (LLMs), offering fast random access, integrated vector indexing, and data versioning.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Modern columnar data format",
+    "Optimized for ML/LLM workloads",
+    "Fast random access",
+    "Built-in vector indexing",
+    "Data versioning",
+    "Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch"
+  ],
+  "website": "https://github.com/lancedb/lance",
+  "alternatives": [
+    {
+      "name": "Apache Parquet",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Columnar storage format",
+        "Efficient compression and encoding",
+        "Supports complex data types",
+        "Widely integrated with big data frameworks"
+      ],
+      "website": "https://parquet.apache.org/"
+    },
+    {
+      "name": "Apache ORC",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Columnar storage format",
+        "High compression ratios",
+        "Predicate pushdown",
+        "Optimized for read-heavy workloads"
+      ],
+      "website": "https://orc.apache.org/"
+    },
+    {
+      "name": "Delta Lake",
+      "license": "Open Source - Apache License 2.0 (Core)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "ACID transactions",
+        "Time travel (data versioning)",
+        "Schema enforcement and evolution",
+        "Works on top of Parquet files"
+      ],
+      "website": "https://delta.io/"
+    }
+  ],
+  "mostWellKnownAlternative": "Apache Parquet",
+  "marketPositioning": "Lance positions itself as a modern, high-performance columnar data format specifically for ML/LLM workflows, designed to overcome limitations of traditional formats like Parquet. Its key advantages are significantly faster random access, native integrated vector indexing, and built-in data versioning. It aims to be the foundational data layer for ML applications requiring both efficient data storage and integrated vector search capabilities, while maintaining compatibility with existing data science tools."
+}

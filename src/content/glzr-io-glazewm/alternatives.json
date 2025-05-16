@@ -1,0 +1,113 @@
+{
+  "projectName": "glazewm",
+  "projectPurpose": "To provide Windows users with a keyboard-driven, tiling window management experience inspired by i3wm for enhanced productivity and window organization.",
+  "platforms": [
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Tiling window management",
+    "Keyboard-driven control",
+    "YAML configuration",
+    "Multi-monitor support",
+    "Customizable window rules",
+    "Workspace support"
+  ],
+  "website": "https://github.com/glzr-io/glazewm",
+  "alternatives": [
+    {
+      "name": "Microsoft PowerToys (FancyZones)",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Customizable window layouts (zones)",
+        "Snap windows into zones with Shift+drag or shortcuts",
+        "Multiple predefined and custom layouts",
+        "Override Windows Snap",
+        "Span zones across multiple monitors"
+      ],
+      "website": "https://github.com/microsoft/PowerToys"
+    },
+    {
+      "name": "AquaSnap",
+      "license": "Proprietary (Free basic version)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Window snapping to edges/corners",
+        "Window tiling (resizing adjacent windows)",
+        "Mouse and keyboard shortcuts",
+        "Multi-monitor support",
+        "Aero Shake and Snap inspired features"
+      ],
+      "website": "https://www.aquasnap.net/"
+    },
+    {
+      "name": "bug.n",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Dynamic tiling window manager",
+        "Inspired by dwm",
+        "Keyboard-driven control",
+        "Configurable",
+        "Multi-monitor support"
+      ],
+      "website": "https://github.com/bugn/bug.n/"
+    },
+    {
+      "name": "Komorebi",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Tiling window manager",
+        "Based on binary space partitioning",
+        "Requires external tools for keybindings",
+        "GUI version available (Komorebi UI)",
+        "Written in Rust"
+      ],
+      "website": "https://github.com/LGUG2Z/komorebi"
+    },
+    {
+      "name": "Divvy",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Grid-based window management",
+        "Define custom window areas",
+        "Resize and position via grid interface",
+        "Customizable keyboard shortcuts",
+        "Visual grid overlay"
+      ],
+      "website": "https://mizage.com/divvy/"
+    },
+    {
+      "name": "DisplayFusion",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Advanced multi-monitor taskbars",
+        "Customizable window management functions",
+        "Window snapping and tiling",
+        "TitleBar Buttons and shortcuts",
+        "Monitor splitting"
+      ],
+      "website": "https://www.displayfusion.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Microsoft PowerToys (FancyZones)"
+  ],
+  "marketPositioning": "GlazeWM is positioned as a free and open-source tiling window manager for Windows users seeking a minimalist, highly customizable, and keyboard-driven workflow akin to Linux tiling window managers like i3wm. It serves a niche audience on Windows that desires the efficiency of automatic window arrangement and workspace management over the traditional stacking or the more visually-oriented grid/snapping tools. Its direct inspiration from i3 sets it apart from general window snapping utilities, targeting power users and developers familiar with or migrating from command-line centric environments."
+}

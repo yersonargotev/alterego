@@ -1,0 +1,105 @@
+{
+  "projectName": "zoxide",
+  "projectPurpose": "To provide a faster, more intelligent, and user-friendly way to navigate the filesystem in the command line by learning user habits and allowing quick jumps to frequently accessed locations.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "BSD",
+    "Android",
+    "Supports all major shells"
+  ],
+  "mainFeatures": [
+    "Learns and ranks frequently used directories based on usage",
+    "Allows jumping to directories with partial path matching",
+    "Supports all major shells (Bash, Fish, Zsh, PowerShell, etc.)",
+    "Interactive directory selection with fzf",
+    "Fast performance due to being written in Rust",
+    "Minimal and ergonomic interface",
+    "Ability to import data from other jump tools like autojump and z"
+  ],
+  "website": "https://github.com/ajeetdsouza/zoxide",
+  "alternatives": [
+    {
+      "name": "autojump",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (community supported)",
+        "Supports Bash, Zsh, Fish, Tcsh, Clink"
+      ],
+      "mainFeatures": [
+        "Learns directories based on frequency of use",
+        "Jumps to directories with partial names",
+        "Supports multiple arguments for refinement",
+        "Can open directories in a file manager",
+        "Adjustable directory priority weighting"
+      ],
+      "website": "https://github.com/wting/autojump"
+    },
+    {
+      "name": "z (rupa/z)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Supports Bash, Zsh"
+      ],
+      "mainFeatures": [
+        "Jumps based on 'frecency' (frequency + recency)",
+        "Matches partial paths",
+        "Minimalist design"
+      ],
+      "website": "https://github.com/rupa/z"
+    },
+    {
+      "name": "fasd",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Supports POSIX-compliant shells"
+      ],
+      "mainFeatures": [
+        "Provides quick access to files and directories",
+        "Ranks files and directories by 'frecency'",
+        "Offers aliases for quick access (f, a, s, d)",
+        "Supports tab completion"
+      ],
+      "website": "https://github.com/clvv/fasd"
+    },
+    {
+      "name": "jump (gsamokovarov/jump)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Supports Bash, Zsh, Fish, PowerShell, Murex"
+      ],
+      "mainFeatures": [
+        "Learns directory navigation habits",
+        "Provides most visited directory for a search term",
+        "Supports 'deep jump' for nested paths",
+        "Can import data from autojump or z"
+      ],
+      "website": "https://github.com/gsamokovarov/jump"
+    },
+    {
+      "name": "Jumpy (ClementNerma/Jumpy)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Quickly jump to previously visited directories",
+        "Inspired by Zoxide",
+        "Aims to be lightweight and fast"
+      ],
+      "website": "https://github.com/ClementNerma/Jumpy"
+    }
+  ],
+  "mostWellKnownAlternative": "autojump",
+  "marketPositioning": "zoxide is positioned as a modern, fast, and user-friendly replacement for the standard `cd` command. Building upon the concepts of earlier directory jump tools like `autojump` and `z`, zoxide differentiates itself through its superior performance (written in Rust), broad shell compatibility, and a focus on a minimal, ergonomic interface. It targets users who want to streamline their command-line workflow and navigate their filesystem more efficiently by leveraging learned habits and providing quick jumping and interactive selection capabilities."
+}

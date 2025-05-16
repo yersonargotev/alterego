@@ -1,0 +1,103 @@
+{
+  "projectName": "hickory-dns",
+  "projectPurpose": "To provide a comprehensive, safe, and secure suite of tools and libraries for interacting with the Domain Name System (DNS), specifically a DNS client, server, and resolver, built using the Rust programming language.",
+  "platforms": [
+    "Cross-platform (where Rust is supported)"
+  ],
+  "mainFeatures": [
+    "DNS client, server, and resolver components",
+    "DNSSEC support",
+    "Dynamic Update (SIG0)",
+    "DNS over TLS (DoT), DNS over HTTPS (DoH), DNS over QUIC (DoQ)",
+    "ANAME record support",
+    "Written in Rust for memory safety and security"
+  ],
+  "website": "https://github.com/hickory-dns/hickory-dns",
+  "alternatives": [
+    {
+      "name": "BIND",
+      "license": "Open Source - MPL 2.0",
+      "platforms": [
+        "Unix-like",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Authoritative server",
+        "Recursive resolver",
+        "DNSSEC",
+        "Views (Split DNS)",
+        "Response Rate Limiting (RRL)"
+      ],
+      "website": "https://www.isc.org/bind/"
+    },
+    {
+      "name": "Unbound",
+      "license": "Open Source - BSD License",
+      "platforms": [
+        "Linux",
+        "BSD",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Validating, recursive, caching resolver",
+        "DNSSEC",
+        "DNS-over-TLS (DoT)",
+        "DNS-over-HTTPS (DoH)",
+        "Query Name Minimisation"
+      ],
+      "website": "https://nlnetlabs.nl/projects/unbound/about/"
+    },
+    {
+      "name": "dnsmasq",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Linux",
+        "Android",
+        "BSD",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "DNS forwarder",
+        "DHCP server",
+        "Caching",
+        "DNSSEC validation",
+        "Reads /etc/hosts"
+      ],
+      "website": "http://www.thekelleys.org.uk/dnsmasq/doc.html"
+    },
+    {
+      "name": "CoreDNS",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Plugin-based architecture",
+        "Kubernetes integration",
+        "DNSSEC",
+        "DNS over TLS, HTTP/2, gRPC"
+      ],
+      "website": "https://coredns.io/"
+    },
+    {
+      "name": "PowerDNS",
+      "license": "Open Source (GPLv2, Apache 2.0, MIT depending on component) and Commercial",
+      "platforms": [
+        "Linux",
+        "Unix-like",
+        "Windows (via third-party tools)"
+      ],
+      "mainFeatures": [
+        "Authoritative server and recursive resolver",
+        "Various database backends",
+        "DNSSEC",
+        "DNS over TLS, HTTPS, QUIC",
+        "DNS caching proxy (dnsdist)"
+      ],
+      "website": "https://www.powerdns.com/"
+    }
+  ],
+  "mostWellKnownAlternative": "BIND",
+  "marketPositioning": "Hickory DNS positions itself as a modern, safe, and secure alternative to established DNS implementations, leveraging the memory safety and performance characteristics of the Rust programming language. It provides a comprehensive suite of tools and libraries for building various DNS applications, from basic clients to complex servers and resolvers, with a strong emphasis on security through features like DNSSEC and support for encrypted DNS protocols (DoT, DoH, DoQ). While competing with widely adopted solutions like BIND, Unbound, and PowerDNS, its Rust foundation and focus on memory safety offer a distinct advantage for developers and organizations prioritizing these aspects."
+}

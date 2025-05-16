@@ -1,0 +1,130 @@
+{
+  "projectName": "mio",
+  "projectPurpose": "A low-level, non-blocking I/O library for the Rust programming language that provides an efficient and minimal layer over the operating system's I/O event notification mechanisms to enable the development of high-performance network applications and asynchronous I/O systems in Rust.",
+  "platforms": [
+    "Android (API level 21)",
+    "DragonFly BSD",
+    "FreeBSD",
+    "Linux",
+    "NetBSD",
+    "OpenBSD",
+    "Windows",
+    "iOS",
+    "macOS"
+  ],
+  "mainFeatures": [
+    "Fast, low-level I/O library focusing on non-blocking APIs and event notification",
+    "Non-blocking TCP, UDP, UDS support",
+    "I/O event queue backed by epoll, kqueue, and IOCP",
+    "Zero allocations at runtime",
+    "Platform specific extensions",
+    "Scalable readiness-based API"
+  ],
+  "website": "https://github.com/tokio-rs/mio",
+  "alternatives": [
+    {
+      "name": "Tokio",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "NetBSD",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Asynchronous runtime and task scheduler",
+        "Higher-level asynchronous I/O APIs (TCP, UDP, filesystem)",
+        "Timers and synchronization primitives",
+        "I/O driver backed by OS event queue"
+      ],
+      "website": "https://tokio.rs/"
+    },
+    {
+      "name": "libuv",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "NetBSD",
+        "OpenBSD",
+        "Solaris",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Full-featured event loop (epoll, kqueue, IOCP, event ports)",
+        "Asynchronous TCP and UDP sockets",
+        "Asynchronous file system operations",
+        "Child processes and signal handling",
+        "Thread pool"
+      ],
+      "website": "https://libuv.org/"
+    },
+    {
+      "name": "Boost.Asio",
+      "license": "Open Source - Boost Software License",
+      "platforms": [
+        "Cross-platform (Windows, macOS, Linux, etc.)"
+      ],
+      "mainFeatures": [
+        "Portable asynchronous I/O model for C++",
+        "Network programming (sockets, timers, etc.)",
+        "Support for various I/O paradigms (callbacks, futures, coroutines)",
+        "Integrates with the Boost ecosystem"
+      ],
+      "website": "https://think-async.com/"
+    },
+    {
+      "name": "Go net package",
+      "license": "Open Source - BSD-3-Clause License",
+      "platforms": [
+        "Cross-platform (Windows, macOS, Linux, BSD variants, Plan 9, Solaris)"
+      ],
+      "mainFeatures": [
+        "Portable interface for network I/O (TCP/IP, UDP)",
+        "Domain name resolution",
+        "Unix domain sockets",
+        "Basic Dial, Listen, and Accept functions"
+      ],
+      "website": "https://pkg.go.dev/net"
+    },
+    {
+      "name": "Python asyncio",
+      "license": "Open Source - Python Software Foundation License",
+      "platforms": [
+        "Cross-platform (Windows, macOS, Linux, etc.)"
+      ],
+      "mainFeatures": [
+        "Event loop",
+        "Coroutine support (async/await)",
+        "Network I/O (sockets)",
+        "Subprocess support",
+        "Synchronization primitives"
+      ],
+      "website": "https://docs.python.org/3/library/asyncio.html"
+    },
+    {
+      "name": "Popol",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Primarily Unix-based systems"
+      ],
+      "mainFeatures": [
+        "Minimal wrapper around poll()",
+        "Low dependency footprint",
+        "Supports standard library io::Read/io::Write",
+        "Designed for peer-to-peer networking"
+      ],
+      "website": "https://github.com/cloudhead/popol"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "libuv",
+    "Boost.Asio"
+  ],
+  "marketPositioning": "Mio is positioned as the fundamental building block for high-performance, non-blocking network applications in Rust, sitting below full asynchronous runtimes like Tokio. It offers a Rust-native, low-level abstraction over operating system I/O event notification mechanisms (epoll, kqueue, IOCP) with a focus on minimal overhead and zero runtime allocations. It serves as a direct competitor in purpose to established cross-platform C/C++ libraries like libuv and Boost.Asio, providing Rust developers with a performant and safe option for direct OS I/O interaction."
+}

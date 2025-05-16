@@ -1,0 +1,139 @@
+{
+  "projectName": "tquic",
+  "projectPurpose": "To provide a robust, efficient, and versatile library for implementing the QUIC network transport protocol (and HTTP/3 on top of it). It aims to be a foundational component for applications requiring high-performance, low-latency, and reliable data transfer over UDP, offering flexibility across various platforms and supporting advanced features like multipath communication and diverse congestion control.",
+  "platforms": [
+    "Linux",
+    "MacOS",
+    "FreeBSD",
+    "Windows",
+    "iOS",
+    "Android",
+    "Harmony"
+  ],
+  "mainFeatures": [
+    "High-performance and low-latency QUIC library",
+    "Lightweight design",
+    "Cross-platform compatibility",
+    "Implementation of IETF QUIC and HTTP/3 protocols",
+    "Supports various congestion control algorithms (CUBIC, BBR, COPA, BBRv3, BBRv1)",
+    "Supports Multipath QUIC",
+    "Provides APIs for Rust, C, and C++",
+    "Extensive testing for high quality and conformance",
+    "Easy to use with flexible configuration and observability",
+    "Written in Rust for memory safety"
+  ],
+  "website": "https://github.com/Tencent/tquic",
+  "alternatives": [
+    {
+      "name": "quiche",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Implementation of QUIC and HTTP/3",
+        "Low-level API in Rust",
+        "Provides a C API for integration",
+        "Used by Cloudflare",
+        "Focus on exposing QUIC complexity to applications"
+      ],
+      "website": "https://github.com/cloudflare/quiche"
+    },
+    {
+      "name": "quinn",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Pure-Rust implementation",
+        "Async-compatible (based on Tokio)",
+        "High-level API",
+        "Supports simultaneous client/server operation",
+        "Pluggable cryptography"
+      ],
+      "website": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "name": "s2n-quic",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Rust implementation of IETF QUIC",
+        "Simple and easy-to-use API",
+        "High configurability",
+        "Extensive automated testing",
+        "Integrates with s2n-tls"
+      ],
+      "website": "https://github.com/aws/s2n-quic"
+    },
+    {
+      "name": "lsquic",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "FreeBSD",
+        "macOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Implementation of QUIC and HTTP/3 in C",
+        "Used in LiteSpeed products",
+        "Supports multiple QUIC versions (v1, v2, drafts)",
+        "Client and server functionality",
+        "Low-level API"
+      ],
+      "website": "https://github.com/litespeedtech/lsquic"
+    },
+    {
+      "name": "ngtcp2",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "FreeBSD/iOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "IETF QUIC protocol implementation in C",
+        "TLS library agnostic design",
+        "Requires external HTTP/3 library (nghttp3)",
+        "Includes example client and server implementations",
+        "Supports various TLS backends"
+      ],
+      "website": "https://github.com/ngtcp2/ngtcp2"
+    },
+    {
+      "name": "MsQuic",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "General purpose, cross-platform QUIC implementation",
+        "Written in C and C++",
+        "Supports IETF QUIC (Draft-29 and v1)",
+        "Uses TLS 1.3",
+        "Supports CUBIC congestion control"
+      ],
+      "website": "https://github.com/microsoft/msquic"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "quiche",
+    "Chromium's QUIC implementation"
+  ],
+  "marketPositioning": "TQUIC positions itself as a high-performance, lightweight, and highly versatile cross-platform QUIC and HTTP/3 library. Leveraging Rust's memory safety, it differentiates itself through claims of superior performance and throughput, particularly in challenging network conditions, and a rich feature set including advanced congestion control algorithms and unique Multipath QUIC support. Its broad platform compatibility and multi-language API bindings (Rust, C, C++) make it suitable for a wide range of applications, from mobile to server-side, aiming to be a robust and high-quality alternative to existing C/C++ and Rust-based QUIC implementations, particularly for developers prioritizing performance, advanced features, and memory safety."
+}

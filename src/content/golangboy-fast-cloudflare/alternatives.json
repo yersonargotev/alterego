@@ -1,0 +1,100 @@
+{
+  "projectName": "fast-cloudflare",
+  "projectPurpose": "To scan Cloudflare IP addresses and identify the one with the fastest connection (lowest latency) from the user's location.",
+  "platforms": [],
+  "mainFeatures": [
+    "Scan Cloudflare IP ranges",
+    "Measure latency/speed to IP nodes",
+    "Identify and report the fastest IP node"
+  ],
+  "website": "https://github.com/golangboy/fast-cloudflare",
+  "alternatives": [
+    {
+      "name": "CFScanner",
+      "license": "Open Source - GPL-3.0 License",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "Android",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Scans Cloudflare CDN IP addresses",
+        "Checks domain filtering on specific IPs",
+        "Supports multiple platforms/languages",
+        "Pings IPs to find the fastest"
+      ],
+      "website": "https://github.com/MortezaBashsiz/CFScanner"
+    },
+    {
+      "name": "Cloudflare Clean IP Scanner (Web Tool)",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Scans for clean Cloudflare IPs",
+        "Allows setting maximum latency",
+        "Supports including/excluding IP ranges",
+        "Supports using regex for IP filtering"
+      ],
+      "website": "https://leen.cloud/clean-ip-scanner/"
+    },
+    {
+      "name": "fast-cf-ip-scanner (DevoTalk)",
+      "license": "Open Source",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Scans Cloudflare IPs",
+        "Performs HTTP request scanning",
+        "Performs TCP scanning",
+        "Monitors TCP traffic",
+        "Terminal ping functionality"
+      ],
+      "website": "https://github.com/DevoTalk/fast-cf-ip-scanner"
+    },
+    {
+      "name": "CloakQuest3r",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Uncovers true origin IP behind Cloudflare",
+        "Uses subdomain scanning techniques",
+        "Analyzes SSL certificates",
+        "Integrates with SecurityTrails API (optional)",
+        "Utilizes threaded scanning"
+      ],
+      "website": "https://github.com/spyboy-productions/CloakQuest3r"
+    },
+    {
+      "name": "Nmap",
+      "license": "Open Source - GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Port scanning",
+        "OS detection",
+        "Service detection",
+        "Vulnerability scanning (with NSE)",
+        "Network inventory"
+      ],
+      "website": "https://nmap.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "CFScanner",
+    "Nmap"
+  ],
+  "marketPositioning": "fast-cloudflare is a specialized, open-source tool focused specifically on identifying the fastest Cloudflare IP address for a user's location. While broader tools like Nmap can perform general network scanning, and others like CFScanner offer additional Cloudflare-specific features like filter checking, fast-cloudflare is positioned as a streamlined, performance-oriented utility dedicated to finding the optimal Cloudflare IP node for improved connection speed and access. Its implementation in Rust suggests a focus on efficiency."
+}

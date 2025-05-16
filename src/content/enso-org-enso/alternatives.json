@@ -1,0 +1,70 @@
+{
+  "projectName": "enso",
+  "projectPurpose": "To provide a programming language and environment that facilitates data transformation, data science, and data-driven applications through a hybrid visual and textual functional programming approach.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "mainFeatures": [
+    "Hybrid visual and textual programming interface",
+    "Functional programming paradigm",
+    "Designed for data transformation and analysis",
+    "Seamless switching between visual and textual editing"
+  ],
+  "website": "https://enso.org",
+  "alternatives": [
+    {
+      "name": "KNIME Analytics Platform",
+      "license": "Open Source - GPLv3 (with commercial extensions)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Visual workflow design",
+        "Large collection of nodes for data processing, ML, etc.",
+        "Integrated environment for data science",
+        "Extensible architecture"
+      ],
+      "website": "https://www.knime.com"
+    },
+    {
+      "name": "Alteryx",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Drag-and-drop workflow creation",
+        "Data blending and ETL",
+        "Spatial and predictive analytics",
+        "Reporting and output tools"
+      ],
+      "website": "https://www.alteryx.com"
+    },
+    {
+      "name": "Node-RED",
+      "license": "Open Source - Apache-2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Flow-based programming editor",
+        "Browser-based user interface",
+        "Large palette of nodes",
+        "Event-driven architecture for wiring services"
+      ],
+      "website": "https://nodered.org"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Alteryx",
+    "KNIME Analytics Platform"
+  ],
+  "marketPositioning": "Enso occupies a unique position by combining a hybrid visual/textual interface with a functional programming core, specifically targeting data-driven tasks. It differentiates itself from purely textual functional languages by offering visual accessibility and from traditional visual data workflow tools by providing a more general-purpose, deeply integrated programming experience with the benefits of a functional paradigm. It aims to bridge the gap for users who require both the power of code and the intuitiveness of visual design for data transformation and analysis."
+}

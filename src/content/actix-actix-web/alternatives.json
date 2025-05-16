@@ -1,0 +1,149 @@
+{
+  "projectName": "actix-web",
+  "projectPurpose": "Actix Web is a web framework designed to help developers build fast, robust, and scalable web applications and APIs using the Rust programming language. It focuses on high performance and leverages Rust's features for safety and concurrency.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "FreeBSD",
+    "OpenBSD"
+  ],
+  "mainFeatures": [
+    "Supports HTTP/1.x and HTTP/2",
+    "Powerful request routing with optional macros",
+    "Client/server WebSockets support",
+    "Transparent content compression/decompression",
+    "Middleware support",
+    "High performance (often benchmark leader in Rust)",
+    "Actor Model based"
+  ],
+  "website": "https://actix.rs/",
+  "alternatives": [
+    {
+      "name": "Rocket",
+      "license": "MIT License or Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "FreeBSD",
+        "OpenBSD"
+      ],
+      "mainFeatures": [
+        "Type-safe routing with macros",
+        "Form data handling",
+        "JSON support",
+        "Templating",
+        "WebSockets"
+      ],
+      "website": "https://rocket.rs/"
+    },
+    {
+      "name": "Axum",
+      "license": "MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Macro-free routing API",
+        "Declarative request parsing using extractors",
+        "Simple and predictable error handling",
+        "Integrates with Tower ecosystem for middleware",
+        "Built on Tokio, Tower, and Hyper"
+      ],
+      "website": "https://github.com/tokio-rs/axum"
+    },
+    {
+      "name": "Warp",
+      "license": "MIT License",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Composable filter system for defining request requirements",
+        "Built on Hyper for performance",
+        "HTTP/1 and HTTP/2 support",
+        "WebSockets support",
+        "Automatic compression"
+      ],
+      "website": "https://github.com/seanmonstar/warp"
+    },
+    {
+      "name": "Tide",
+      "license": "Apache-2.0 OR BSD-3-Clause OR MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Minimal and pragmatic design",
+        "Built for rapid development",
+        "Async-first",
+        "Middleware support",
+        "JSON handling"
+      ],
+      "website": "https://github.com/http-rs/tide"
+    },
+    {
+      "name": "Express.js",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Minimal and unopinionated",
+        "Robust routing",
+        "Middleware support",
+        "HTTP helpers",
+        "Focus on high performance"
+      ],
+      "website": "https://expressjs.com/"
+    },
+    {
+      "name": "Fiber",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Inspired by Express.js API",
+        "Built on Fasthttp for performance",
+        "Low memory footprint",
+        "Robust routing",
+        "WebSocket support"
+      ],
+      "website": "https://gofiber.io/"
+    },
+    {
+      "name": "FastAPI",
+      "license": "MIT License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "High performance",
+        "Fast to code with Python type hints",
+        "Automatic interactive API documentation",
+        "Data validation and serialization",
+        "Standards-based (OpenAPI, JSON Schema)"
+      ],
+      "website": "https://fastapi.tiangolo.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Express.js"
+  ],
+  "marketPositioning": "Actix Web is positioned as a leading high-performance web framework within the Rust ecosystem. It differentiates itself through its speed, achieved via an actor model and optimized asynchronous runtime. While competing with other Rust frameworks like Axum and Rocket, Actix Web often shows superior raw performance in benchmarks. Compared to popular frameworks in other languages (like Express.js, Fiber, or FastAPI), Actix Web leverages Rust's core strengths of memory safety and efficiency, appealing to developers prioritizing performance and reliability, albeit with Rust's inherent learning curve. It offers a comprehensive feature set for building demanding backend services, APIs, and web applications where speed, throughput, and safety are paramount."
+}

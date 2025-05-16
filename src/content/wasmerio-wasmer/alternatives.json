@@ -1,0 +1,119 @@
+{
+  "projectName": "Wasmer",
+  "projectPurpose": "To provide a universal, fast, and secure runtime for executing WebAssembly modules as lightweight containers across a wide range of platforms and within applications written in various programming languages.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "Cloud",
+    "Edge",
+    "IoT",
+    "Embedded"
+  ],
+  "mainFeatures": [
+    "Fast, secure, lightweight WebAssembly containers",
+    "Runs anywhere (Cloud, Desktop, Edge, IoT)",
+    "Embeddable in any programming language",
+    "Pluggable compilers (Singlepass, Cranelift, LLVM)",
+    "Supports JIT and AOT compilation",
+    "Supports WASI and WASIX"
+  ],
+  "website": "https://wasmer.io/",
+  "alternatives": [
+    {
+      "name": "Wasmtime",
+      "license": "Open Source (Apache 2.0, MIT)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Various others"
+      ],
+      "mainFeatures": [
+        "Fast execution (Cranelift)",
+        "Security focused",
+        "Configurable resource limits",
+        "Supports WASI",
+        "Embeddable in various languages"
+      ],
+      "website": "https://wasmtime.dev/"
+    },
+    {
+      "name": "WAMR (WebAssembly Micro Runtime)",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Embedded",
+        "IoT",
+        "Edge",
+        "TEE",
+        "Cloud Native",
+        "Various architectures"
+      ],
+      "mainFeatures": [
+        "Lightweight and small footprint",
+        "High performance (AOT and JIT modes)",
+        "Highly configurable",
+        "Supports WASI",
+        "Designed for resource-constrained environments"
+      ],
+      "website": "https://github.com/bytecodealliance/wamr"
+    },
+    {
+      "name": "WasmEdge",
+      "license": "Open Source (Apache 2.0)",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "RISC-V",
+        "Various others"
+      ],
+      "mainFeatures": [
+        "High performance for server-side",
+        "Supports WASI and Wasm proposals",
+        "Optimized for edge and cloud native",
+        "Extensible with host functions",
+        "Embeddable in multiple languages"
+      ],
+      "website": "https://wasmedge.org/"
+    },
+    {
+      "name": "Wasm3",
+      "license": "Open Source (MIT)",
+      "platforms": [
+        "Embedded systems",
+        "Microcontrollers",
+        "Highly portable"
+      ],
+      "mainFeatures": [
+        "Fast interpreter",
+        "Small footprint",
+        "Zero dependencies",
+        "Easily embeddable",
+        "Supports WASI"
+      ],
+      "website": "https://github.com/wasm3/wasm3"
+    },
+    {
+      "name": "V8",
+      "license": "Open Source (New BSD License)",
+      "platforms": [
+        "Integrated into Chrome",
+        "Node.js",
+        "Various others"
+      ],
+      "mainFeatures": [
+        "High-performance JavaScript and WebAssembly engine",
+        "Widely used in browsers and server-side",
+        "Includes JIT compilation",
+        "Strong security focus"
+      ],
+      "website": "https://v8.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "V8",
+    "Wasmtime"
+  ],
+  "marketPositioning": "Wasmer is positioned as a versatile, high-performance, and highly embeddable WebAssembly runtime that promotes Wasm modules as universal, lightweight containers. It emphasizes broad language support and the ability to run code securely and efficiently across a wide range of environments, from the cloud and edge to desktop and IoT, providing a modern alternative or complement to traditional container technologies."
+}

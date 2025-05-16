@@ -1,0 +1,107 @@
+{
+  "projectName": "phira",
+  "projectPurpose": "To provide a community-driven, open-source rhythm game inspired by Phigros, supporting custom and fanmade content.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android",
+    "iOS"
+  ],
+  "mainFeatures": [
+    "Phigros-inspired gameplay with dynamic judgment line",
+    "Supports custom beatmaps and fanmade charts",
+    "Multiplayer support",
+    "Exercise mode for practicing song sections",
+    "Open-source and community-driven"
+  ],
+  "website": "https://github.com/TeamFlos/phira",
+  "alternatives": [
+    {
+      "name": "osu!",
+      "license": "Freeware (Client), MIT (Community Contributions)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Large community and vast beatmap library",
+        "Multiple game modes (Standard, Taiko, Catch, Mania)",
+        "Online ranking and multiplayer",
+        "Customizable skins and effects",
+        "Beatmap editor"
+      ],
+      "website": "https://osu.ppy.sh/"
+    },
+    {
+      "name": "StepMania",
+      "license": "Open Source (MIT License)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Highly customizable dance game engine",
+        "Supports various input methods (dance pad, keyboard)",
+        "Large library of fan-created StepCharts",
+        "Themes and modifiers",
+        "Ideal for dance simulation"
+      ],
+      "website": "https://www.stepmania.com/"
+    },
+    {
+      "name": "Beat Saber",
+      "license": "Proprietary",
+      "platforms": [
+        "VR Platforms (Meta Quest, SteamVR, PlayStation VR)"
+      ],
+      "mainFeatures": [
+        "Immersive VR rhythm gameplay",
+        "Slash beats with lightsabers",
+        "Official music packs",
+        "Large modding community for custom songs",
+        "Various difficulty levels"
+      ],
+      "website": "https://www.beatsaber.com/"
+    },
+    {
+      "name": "Phigros",
+      "license": "Proprietary (Free-to-play)",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Dynamic judgment line gameplay",
+        "Four unique note types",
+        "Diverse official music library",
+        "Story mode progression",
+        "Attractive visual design"
+      ],
+      "website": "http://www.pigeon-games.com/phigros.html"
+    },
+    {
+      "name": "Arcaea",
+      "license": "Proprietary (Free-to-play)",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "3D note charting and perspective changes",
+        "Innovative 'Arc' notes using touch/gyroscope",
+        "Diverse music genres and artists",
+        "Compelling storyline and lore",
+        "Unlockable partners with unique abilities"
+      ],
+      "website": "https://www.lowiro.com/arcaea"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "osu!"
+  ],
+  "marketPositioning": "Phira positions itself as a community-driven, open-source alternative to the popular mobile rhythm game Phigros. It directly competes by replicating and building upon Phigros's unique gameplay mechanics, while differentiating itself through its open nature, explicit support for custom and fanmade content, and multi-platform availability. This appeals to players seeking the Phigros experience with greater content flexibility and a collaborative development model, contrasting with the more curated and commercial approach of its direct inspiration and other proprietary rhythm games. Compared to broad platforms like osu! or StepMania, Phira offers a more focused experience tailored to the Phigros style."
+}

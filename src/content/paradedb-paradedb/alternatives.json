@@ -1,0 +1,118 @@
+{
+  "projectName": "ParadeDB",
+  "projectPurpose": "To provide a search and analytics engine built on top of PostgreSQL that serves as a direct alternative to Elasticsearch, particularly for workloads requiring real-time updates and leveraging the benefits of a relational database foundation, thereby simplifying the data stack.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Built on Postgres",
+    "Real-time, update-heavy workload support",
+    "Full-text search with BM25 scoring",
+    "Dense and sparse vector search",
+    "Hybrid search",
+    "Fast analytics and faceting",
+    "Postgres SQL dialect",
+    "Zero ETL integration (Postgres replication, S3 compatibility)",
+    "ACID guarantees",
+    "Automatic index cleanup (Postgres vacuum integration)",
+    "Reliable data store (leverages Postgres for backups, HA, DR)",
+    "Geospatial data support (via PostGIS)",
+    "Cron jobs (via pg_cron)"
+  ],
+  "website": "https://www.paradedb.com/",
+  "alternatives": [
+    {
+      "name": "Elasticsearch",
+      "license": "Triple-licensed Elastic License, SSPL, AGPL (older versions)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Distributed search and analytics engine",
+        "Full-text search",
+        "Near real-time search",
+        "Scalable",
+        "Vector database capabilities"
+      ],
+      "website": "https://www.elastic.co/elasticsearch/"
+    },
+    {
+      "name": "Apache Solr",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Open-source enterprise search platform",
+        "Full-text search",
+        "Faceted search",
+        "Distributed architecture (SolrCloud)",
+        "REST-like APIs"
+      ],
+      "website": "https://solr.apache.org/"
+    },
+    {
+      "name": "OpenSearch",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Community-driven fork of Elasticsearch",
+        "Distributed search and analytics",
+        "Full-text search",
+        "Vector search",
+        "OpenSearch Dashboards for visualization"
+      ],
+      "website": "https://opensearch.org/"
+    },
+    {
+      "name": "ClickHouse",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "FreeBSD",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Column-oriented DBMS",
+        "High-performance OLAP",
+        "Real-time analytics",
+        "SQL query syntax",
+        "Scalability and distributed architecture"
+      ],
+      "website": "https://clickhouse.com/"
+    },
+    {
+      "name": "PostgreSQL",
+      "license": "Open Source - PostgreSQL License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Relational database",
+        "ACID transactions",
+        "Extensible (supports extensions)",
+        "Basic full-text search (built-in)",
+        "Vector storage (via pg_vector)"
+      ],
+      "website": "https://www.postgresql.org/"
+    }
+  ],
+  "mostWellKnownAlternative": "Elasticsearch",
+  "marketPositioning": "ParadeDB is positioned as a modern, open-source alternative to Elasticsearch, uniquely built on top of PostgreSQL. Its core value proposition lies in integrating advanced search and analytics capabilities (full-text, vector, hybrid search, fast analytics) directly into a robust relational database. This allows users, particularly those already invested in the Postgres ecosystem, to simplify their data infrastructure by avoiding the need for a separate search stack and complex ETL, while benefiting from PostgreSQL's ACID compliance, reliability, and familiar SQL interface. It targets users prioritizing real-time, update-heavy workloads who seek the operational simplicity and data consistency of a single database solution over managing distributed search systems like Elasticsearch or OpenSearch. Unlike analytical databases like ClickHouse, ParadeDB focuses on enhancing an operational RDBMS for search and analytics use cases."
+}

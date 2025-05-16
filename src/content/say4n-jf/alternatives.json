@@ -1,0 +1,150 @@
+{
+  "projectName": "jf",
+  "projectPurpose": "To provide a command-line tool for flattening JSON objects.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Flatten nested JSON objects and arrays",
+    "Command-line interface",
+    "Written in Rust"
+  ],
+  "website": "https://github.com/say4n/jf",
+  "alternatives": [
+    {
+      "name": "jq",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Filter, slice, and transform JSON data",
+        "Powerful DSL",
+        "Pretty-print JSON",
+        "Zero runtime dependencies",
+        "Can flatten JSON"
+      ],
+      "website": "https://stedolan.github.io/jq/"
+    },
+    {
+      "name": "gron",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Convert JSON to greppable assignments",
+        "Convert assignments back to JSON",
+        "Works with JSON and JSON Lines",
+        "Integrates with standard Unix tools"
+      ],
+      "website": "https://github.com/tomnomnom/gron"
+    },
+    {
+      "name": "flatten-json (Python)",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Python library)"
+      ],
+      "mainFeatures": [
+        "Flatten JSON objects into a dictionary",
+        "Useful for tabular formats",
+        "Command-line invocation",
+        "Can unflatten data"
+      ],
+      "website": "https://pypi.org/project/flatten-json/"
+    },
+    {
+      "name": "json-flatten (Python)",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Python library)"
+      ],
+      "mainFeatures": [
+        "Flatten JSON to key-value pairs",
+        "Supports dot notation and array indexing",
+        "Can unflatten data",
+        "Useful for HTML forms/query strings"
+      ],
+      "website": "https://pypi.org/project/json-flatten/"
+    },
+    {
+      "name": "flat (Node.js)",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Node.js library)"
+      ],
+      "mainFeatures": [
+        "Flatten nested JavaScript objects/JSON",
+        "Customizable delimiters",
+        "Can unflatten data",
+        "Lightweight library"
+      ],
+      "website": "https://github.com/hughsk/flat"
+    },
+    {
+      "name": "jsonflat (Node.js)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Node.js library)"
+      ],
+      "mainFeatures": [
+        "Flatten nested JSON objects",
+        "Uses customizable delimiters",
+        "Lightweight library",
+        "Flattens to a single level"
+      ],
+      "website": "https://github.com/kishor82/jsonflat"
+    },
+    {
+      "name": "jsonFlattener (Golang)",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Go binary)"
+      ],
+      "mainFeatures": [
+        "Command-line tool to flatten JSON",
+        "Uses path as keys",
+        "Written in Go"
+      ],
+      "website": "https://github.com/dariagolub/jsonFlattener"
+    },
+    {
+      "name": "json-flatten (Node.js CLI)",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Node.js CLI)"
+      ],
+      "mainFeatures": [
+        "Simple command-line tool",
+        "Flatten JSON",
+        "Uses JSON Pointer-style keys"
+      ],
+      "website": "https://github.com/hjmeijer/json-flatten"
+    },
+    {
+      "name": "Flatten Tool (Python)",
+      "license": "Open Source",
+      "platforms": [
+        "Cross-platform (Python library and CLI)"
+      ],
+      "mainFeatures": [
+        "Convert spreadsheets to JSON and back",
+        "Uses JSON Schema",
+        "Supports relationships",
+        "Command-line interface"
+      ],
+      "website": "https://flatten-tool.readthedocs.io/en/latest/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "jq"
+  ],
+  "marketPositioning": "jf is a command-line utility written in Rust designed specifically for flattening JSON data. It transforms nested JSON objects and arrays into a single-level structure, where keys are typically concatenated paths to the original values. This simplified format is particularly useful for processing JSON with traditional line-oriented Unix tools, importing data into tabular formats like CSV or databases, or generating flat configuration files. Developed in Rust, jf aims to provide a fast, efficient, and reliable solution for this common JSON manipulation task, offering a lightweight alternative to more general-purpose JSON processors or language-specific libraries, and enabling easy integration into shell scripts and automated workflows without external language runtime dependencies."
+}

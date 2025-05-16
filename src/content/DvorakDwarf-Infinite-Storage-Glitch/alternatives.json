@@ -1,0 +1,139 @@
+{
+  "projectName": "Infinite-Storage-Glitch",
+  "projectPurpose": "To provide an unconventional, potentially free, and large-scale cloud storage solution by encoding arbitrary files into videos and storing them on YouTube.",
+  "platforms": [],
+  "mainFeatures": [
+    "Uses YouTube as a storage backend",
+    "Allows storing of any file type",
+    "Leverages YouTube for potentially large-scale/\"infinite\" storage",
+    "Provides cloud storage-like upload and retrieval functionality"
+  ],
+  "website": "https://github.com/DvorakDwarf/Infinite-Storage-Glitch",
+  "alternatives": [
+    {
+      "name": "Dropbox",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "File sync and sharing",
+        "Cloud storage",
+        "Automatic backups",
+        "Version history",
+        "Collaboration tools"
+      ],
+      "website": "https://www.dropbox.com/"
+    },
+    {
+      "name": "Google Drive",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Web",
+        "Android",
+        "iOS",
+        "ChromeOS"
+      ],
+      "mainFeatures": [
+        "Cloud storage and syncing",
+        "Integration with Google Workspace apps",
+        "File sharing and collaboration",
+        "Generous free storage tier",
+        "Third-party integrations"
+      ],
+      "website": "https://www.google.com/drive/"
+    },
+    {
+      "name": "Microsoft OneDrive",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Web",
+        "iOS",
+        "Android",
+        "Xbox"
+      ],
+      "mainFeatures": [
+        "Cloud storage and syncing",
+        "Integration with Microsoft 365 apps",
+        "File sharing and collaboration",
+        "Files On-Demand",
+        "Version control"
+      ],
+      "website": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage"
+    },
+    {
+      "name": "Nextcloud",
+      "license": "Open Source - AGPLv3",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Self-hosted cloud storage",
+        "File sync and sharing",
+        "Collaboration tools",
+        "User management",
+        "Extensible via apps"
+      ],
+      "website": "https://nextcloud.com/"
+    },
+    {
+      "name": "ownCloud",
+      "license": "Open Source - AGPLv3 (Community), Proprietary (Enterprise)",
+      "platforms": [
+        "Web",
+        "Desktop clients",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Self-hosted cloud storage",
+        "File sync and sharing",
+        "User management",
+        "Integration with online office suites",
+        "Activity logging"
+      ],
+      "website": "https://owncloud.com/"
+    },
+    {
+      "name": "Syncthing",
+      "license": "Open Source - MPL 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "BSD",
+        "Solaris"
+      ],
+      "mainFeatures": [
+        "Decentralized peer-to-peer sync",
+        "No central server",
+        "End-to-end encryption",
+        "Real-time syncing",
+        "Configurable versioning"
+      ],
+      "website": "https://syncthing.net/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Google Drive",
+    "Dropbox",
+    "Microsoft OneDrive"
+  ],
+  "marketPositioning": "Infinite-Storage-Glitch is positioned as a highly unconventional and experimental cloud storage solution that uniquely leverages YouTube's infrastructure for storing arbitrary files. Its primary appeal lies in the potential for free, very large-scale storage by repurposing a popular public platform, differentiating it significantly from traditional proprietary and open-source cloud storage providers that operate dedicated infrastructure. It targets users interested in technical novelty and maximizing free resources rather than those seeking enterprise-grade features, seamless collaboration, or guaranteed reliability."
+}

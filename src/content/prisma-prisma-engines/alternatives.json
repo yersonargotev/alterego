@@ -1,0 +1,120 @@
+{
+  "projectName": "prisma-engines",
+  "projectPurpose": "To provide the core, high-performance engine components that power the Prisma ORM, handling database interactions, schema management, and query execution.",
+  "platforms": [],
+  "mainFeatures": [
+    "Database introspection",
+    "Schema management and migration generation",
+    "Efficient query execution",
+    "Low-level database interaction",
+    "Powering the Prisma ORM client"
+  ],
+  "website": "https://github.com/prisma/prisma-engines",
+  "alternatives": [
+    {
+      "name": "TypeORM",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Node.js",
+        "Browser",
+        "React Native",
+        "NativeScript",
+        "Expo",
+        "Electron"
+      ],
+      "mainFeatures": [
+        "Supports Active Record and Data Mapper patterns",
+        "Wide database support",
+        "Powerful query builder",
+        "Migrations",
+        "Transaction support"
+      ],
+      "website": "https://typeorm.io/"
+    },
+    {
+      "name": "Sequelize",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Node.js"
+      ],
+      "mainFeatures": [
+        "Promise-based",
+        "Supports multiple databases (PostgreSQL, MySQL, etc.)",
+        "Model definitions",
+        "Migrations",
+        "Associations"
+      ],
+      "website": "https://sequelize.org/"
+    },
+    {
+      "name": "Drizzle ORM",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Node.js",
+        "Vercel Edge Functions",
+        "Cloudflare Workers",
+        "Bun",
+        "Deno"
+      ],
+      "mainFeatures": [
+        "SQL-like query builder",
+        "Schema defined in TypeScript",
+        "No code generation step",
+        "Type-safe",
+        "Focus on performance"
+      ],
+      "website": "https://orm.drizzle.team/"
+    },
+    {
+      "name": "SQLAlchemy",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Python"
+      ],
+      "mainFeatures": [
+        "SQL Toolkit and ORM",
+        "Data Mapper pattern",
+        "Powerful SQL Expression Language",
+        "Connection pooling",
+        "Schema reflection"
+      ],
+      "website": "https://www.sqlalchemy.org/"
+    },
+    {
+      "name": "Hibernate ORM",
+      "license": "Open Source - Apache License 2.0 (LGPL 2.1 for older versions)",
+      "platforms": [
+        "Java (JVM)"
+      ],
+      "mainFeatures": [
+        "Object/Relational Mapping",
+        "Jakarta Persistence (JPA) compatibility",
+        "Powerful query language (HQL)",
+        "Caching",
+        "Transaction management"
+      ],
+      "website": "https://hibernate.org/orm/"
+    },
+    {
+      "name": "Entity Framework Core",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        ".NET (Windows, Linux, macOS, iOS, Android, Wasm)"
+      ],
+      "mainFeatures": [
+        "LINQ queries",
+        "Change tracking",
+        "Migrations",
+        "Supports various databases",
+        "Backed by Microsoft"
+      ],
+      "website": "https://docs.microsoft.com/en-us/ef/core/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Hibernate ORM (Java ecosystem)",
+    "SQLAlchemy (Python ecosystem)",
+    "Entity Framework Core (.NET ecosystem)"
+  ],
+  "marketPositioning": "Prisma ORM, powered by prisma-engines, positions itself as a modern, developer-centric ORM for the TypeScript/JavaScript ecosystem. It differentiates itself through a schema-first approach, strong end-to-end type safety, and a focus on developer experience with tools like Prisma Studio. While newer than established ORMs like TypeORM and Sequelize in the Node.js space, and ORMs in other languages like Hibernate and SQLAlchemy, Prisma targets developers building modern, data-driven applications, including those leveraging serverless architectures, by providing a streamlined and type-safe way to interact with databases."
+}

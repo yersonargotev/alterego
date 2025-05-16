@@ -1,0 +1,124 @@
+{
+  "projectName": "text-embeddings-inference",
+  "projectPurpose": "To provide a high-performance, efficient, and easy-to-use toolkit specifically designed for deploying and serving open-source text embedding and sequence classification models for inference.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Docker",
+    "Kubernetes"
+  ],
+  "mainFeatures": [
+    "Toolkit for deploying and serving open source text embeddings and sequence classification models",
+    "High-performance extraction for popular models (FlagEmbedding, Ember, GTE, E5)",
+    "No model graph compilation step",
+    "Token based dynamic batching",
+    "Optimized transformers code for inference using Flash Attention, Candle, and cuBLASLt",
+    "gRPC and HTTP APIs",
+    "Support for re-ranker and sequence classification models",
+    "Small docker images and fast boot times"
+  ],
+  "website": "https://github.com/huggingface/text-embeddings-inference",
+  "alternatives": [
+    {
+      "name": "TensorFlow Serving",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "Docker",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Serves TensorFlow models",
+        "Supports multiple models and model versions",
+        "Flexible gRPC and RESTful APIs",
+        "Supports various deployment environments"
+      ],
+      "website": "https://www.tensorflow.org/serving"
+    },
+    {
+      "name": "PyTorch Serve",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "Docker",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Serves PyTorch models",
+        "Supports dynamic batching",
+        "Provides management APIs",
+        "Integrates with logging and monitoring tools"
+      ],
+      "website": "https://pytorch.org/serve/"
+    },
+    {
+      "name": "NVIDIA Triton Inference Server",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Docker",
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Supports multiple frameworks (TensorFlow, PyTorch, ONNX, etc.)",
+        "Dynamic batching",
+        "Concurrent model execution",
+        "Optimized for NVIDIA GPUs"
+      ],
+      "website": "https://developer.nvidia.com/triton-inference-server"
+    },
+    {
+      "name": "LocalAI",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "OpenAI API compatible inference server",
+        "Supports various backends including Sentence Transformers for embeddings",
+        "GPU acceleration",
+        "Runs models locally or in air-gapped environments"
+      ],
+      "website": "https://localai.io/"
+    },
+    {
+      "name": "Infinity",
+      "license": "Open Source - Apache License 2.0",
+      "platforms": [
+        "Linux",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "Inference server for embedding models",
+        "Designed for speed and scalability",
+        "Supports various models",
+        "Offers a fast API"
+      ],
+      "website": "https://github.com/michaelfeil/infinity"
+    },
+    {
+      "name": "Hugging Face Inference Endpoints",
+      "license": "Proprietary (Managed Service)",
+      "platforms": [
+        "Web (Cloud-based)"
+      ],
+      "mainFeatures": [
+        "Managed service for deploying models",
+        "Supports autoscaling and scale-to-zero",
+        "Simplified deployment",
+        "Optimized for models from the Hugging Face Hub"
+      ],
+      "website": "https://huggingface.co/inference-endpoints"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "NVIDIA Triton Inference Server",
+    "TensorFlow Serving"
+  ],
+  "marketPositioning": "Text Embeddings Inference (TEI) is positioned as a specialized and highly optimized open-source inference solution specifically for text embedding and sequence classification models. Unlike general-purpose model servers, TEI is tailored to the unique demands of these models, focusing on high performance, low latency, and seamless integration with the Hugging Face ecosystem. It competes by offering best-in-class speed and efficiency for its specific domain, making it ideal for applications like semantic search and RAG built upon popular open-source embedding models."
+}

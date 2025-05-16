@@ -1,0 +1,144 @@
+{
+  "projectName": "oak",
+  "projectPurpose": "To provide a software platform for building distributed systems that offer meaningful control of data and externally verifiable claims about system behaviors, focusing on security, privacy, and transparent trustworthiness.",
+  "platforms": [],
+  "mainFeatures": [
+    "Meaningful control of data in distributed systems",
+    "Provides externally verifiable (or falsifiable) claims about system behaviors",
+    "Enables transparent trustworthiness in distributed environments",
+    "Software platform for building distributed systems"
+  ],
+  "website": "https://github.com/project-oak/oak",
+  "alternatives": [
+    {
+      "name": "Open Enclave SDK",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Unified API for multiple TEEs (Intel SGX, ARM TrustZone, AMD SEV)",
+        "Cross-platform support (cloud, hybrid, edge)",
+        "Enclave creation and management",
+        "Attestation and sealing"
+      ],
+      "website": "https://github.com/openenclave/openenclave"
+    },
+    {
+      "name": "Confidential Containers",
+      "license": "Open Source",
+      "platforms": [
+        "Kubernetes"
+      ],
+      "mainFeatures": [
+        "Enable cloud-native confidential computing",
+        "Protect containers and data using TEEs",
+        "Transparent deployment of unmodified containers",
+        "Support for multiple TEE and hardware platforms"
+      ],
+      "website": "https://github.com/confidential-containers"
+    },
+    {
+      "name": "Intel SGX SDK",
+      "license": "Proprietary",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Tools for developing applications for Intel SGX enclaves",
+        "Libraries for secure enclave operations",
+        "Debugging support",
+        "Attestation support"
+      ],
+      "website": "https://developer.intel.com/sgx"
+    },
+    {
+      "name": "Azure Confidential Computing",
+      "license": "Proprietary",
+      "platforms": [
+        "Microsoft Azure Cloud"
+      ],
+      "mainFeatures": [
+        "Confidential Virtual Machines (VMs)",
+        "Confidential Containers",
+        "Protects data in use using hardware-based TEEs",
+        "Integration with Azure services"
+      ],
+      "website": "https://azure.microsoft.com/en-us/solutions/confidential-computing/"
+    },
+    {
+      "name": "Google Cloud Confidential Computing",
+      "license": "Proprietary",
+      "platforms": [
+        "Google Cloud Platform"
+      ],
+      "mainFeatures": [
+        "Confidential VMs",
+        "Confidential GKE Nodes",
+        "Encrypts data while being processed",
+        "Utilizes AMD and Intel TEE technologies"
+      ],
+      "website": "https://cloud.google.com/confidential-computing"
+    },
+    {
+      "name": "Veracruz",
+      "license": "Open Source",
+      "platforms": [
+        "Various TEEs"
+      ],
+      "mainFeatures": [
+        "Collaborative computing over sensitive data",
+        "Focus on privacy-preserving computation",
+        "Supports multiple programming languages"
+      ],
+      "website": "https://github.com/bytecodealliance/veracruz/"
+    },
+    {
+      "name": "Edgeless Systems EGo",
+      "license": "Open Source",
+      "platforms": [
+        "Intel SGX (for Go applications)"
+      ],
+      "mainFeatures": [
+        "SDK for Go applications in enclaves",
+        "Builds on Open Enclave SDK",
+        "Attestation and sealing for Go apps"
+      ],
+      "website": "https://github.com/edgelesssys/ego"
+    },
+    {
+      "name": "Secure Multiparty Computation (MPC) Frameworks (e.g., MP-SPDZ)",
+      "license": "Open Source",
+      "platforms": [
+        "Various (software-based)"
+      ],
+      "mainFeatures": [
+        "Joint computation on private inputs",
+        "Inputs remain encrypted/secret during computation",
+        "Different protocols for varying security guarantees"
+      ],
+      "website": "https://github.com/data61/MP-SPDZ"
+    },
+    {
+      "name": "Distributed Ledger Technologies (DLT) with Privacy Features (e.g., Hyperledger Fabric)",
+      "license": "Open Source/Proprietary",
+      "platforms": [
+        "Various distributed environments"
+      ],
+      "mainFeatures": [
+        "Decentralized and immutable/controlled mutable ledgers",
+        "Cryptographic security",
+        "Privacy-enhancing features (private data, ZKPs)"
+      ],
+      "website": "https://www.hyperledger.org/use/fabric"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Open Enclave SDK",
+    "Azure Confidential Computing",
+    "Google Cloud Confidential Computing"
+  ],
+  "marketPositioning": "Project Oak positions itself as a foundational software platform for building distributed systems with a strong emphasis on meaningful data control and verifiable system behavior. Unlike some confidential computing solutions that primarily focus on protecting data in use within enclaves, Oak adds a layer of transparency and verifiability, allowing external parties to gain confidence in the computation's integrity and correctness within a distributed environment. This unique focus on verifiable claims about system behavior, in addition to data privacy, sets it apart from general-purpose confidential computing SDKs or cloud offerings and positions it for use cases requiring a higher level of trust and auditability in distributed data processing."
+}

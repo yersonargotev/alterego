@@ -1,0 +1,67 @@
+{
+  "projectName": "webx",
+  "projectPurpose": "To create and provide the necessary components (protocol, browser, rendering engine, search engine) for a new, alternative internet ecosystem distinct from the current World Wide Web.",
+  "platforms": [],
+  "mainFeatures": [
+    "Custom web browser",
+    "Custom HTML rendering engine",
+    "Custom search engine",
+    "Supports 'buss://' protocol",
+    "Uses HTML, CSS, and Lua for content"
+  ],
+  "website": "https://github.com/face-hh/webx",
+  "alternatives": [
+    {
+      "name": "IPFS",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Decentralized file storage",
+        "Peer-to-peer file sharing",
+        "Content addressing",
+        "High availability"
+      ],
+      "website": "https://ipfs.io/"
+    },
+    {
+      "name": "Freenet",
+      "license": "Open Source - GPLv2 or later",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Decentralized network",
+        "Anonymity and censorship resistance",
+        "Distributed data store",
+        "Browsing 'freesites'"
+      ],
+      "website": "https://freenetproject.org/"
+    },
+    {
+      "name": "Gemini",
+      "license": "Open Protocol (Clients/Servers vary)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (via proxies)"
+      ],
+      "mainFeatures": [
+        "Simple text-based protocol",
+        "Focus on privacy",
+        "Minimal formatting ('gemtext')",
+        "Requires dedicated clients"
+      ],
+      "website": "https://gemini.circumlunar.space/"
+    }
+  ],
+  "mostWellKnownAlternative": "IPFS",
+  "marketPositioning": "Webx is positioned as a radical, ground-up alternative to the existing World Wide Web stack. Unlike projects that enhance the current web (e.g., new browsers, search engines) or focus on specific aspects like decentralization of existing content (IPFS), anonymity (Freenet), or simplicity (Gemini), webx aims to build a completely parallel ecosystem with its own protocol ('buss://'), custom browser, custom rendering engine, and search engine, supporting rich content using HTML, CSS, and Lua. Its market is potentially composed of individuals or communities seeking a fundamentally different technical foundation for web-like communication and content."
+}

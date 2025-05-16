@@ -1,0 +1,114 @@
+{
+  "projectName": "ntex",
+  "projectPurpose": "To provide a flexible, high-performance, and composable framework in Rust for building various network-centric applications and services, including protocol servers and clients.",
+  "platforms": [
+    "Cross-platform (wherever Rust is supported)"
+  ],
+  "mainFeatures": [
+    "Framework for composable network services",
+    "Supports multiple async runtimes (compio, tokio, neon, neon-uring)",
+    "Provides components for various protocols (MQTT, AMQP, gRPC, HTTP)",
+    "Designed for building high-performance protocol servers & clients",
+    "Offers a unified API for various transport types"
+  ],
+  "website": "https://github.com/ntex-rs/ntex",
+  "alternatives": [
+    {
+      "name": "Tokio",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Event-driven, non-blocking I/O platform",
+        "Multithreaded task scheduler",
+        "Asynchronous TCP and UDP sockets",
+        "Reliable, asynchronous runtime",
+        "Focuses on performance, reliability, and scalability"
+      ],
+      "website": "https://tokio.rs/"
+    },
+    {
+      "name": "Actix Web",
+      "license": "Open Source - Apache 2.0 OR MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Powerful, pragmatic, and extremely fast web framework",
+        "Supports HTTP/1.x and HTTP/2",
+        "Powerful request routing",
+        "Client/server WebSockets support",
+        "Integrates with Actix actor framework"
+      ],
+      "website": "https://actix.rs/"
+    },
+    {
+      "name": "Axum",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Ergonomic and modular web framework built with Tokio, Tower, and Hyper",
+        "Macro-free routing API",
+        "Declarative request parsing using extractors",
+        "Leverages the Tower ecosystem for middleware",
+        "Simple and predictable error handling"
+      ],
+      "website": "https://github.com/tokio-rs/axum"
+    },
+    {
+      "name": "Warp",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform"
+      ],
+      "mainFeatures": [
+        "Composable web server framework based on Filters",
+        "Supports HTTP/1 and HTTP/2",
+        "Includes routing, header/query extraction, JSON/Form bodies",
+        "WebSockets support",
+        "Built on top of Hyper"
+      ],
+      "website": "https://github.com/seanmonstar/warp"
+    },
+    {
+      "name": "Netty",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform (Java-based)"
+      ],
+      "mainFeatures": [
+        "Asynchronous event-driven network application framework",
+        "For rapid development of high-performance protocol servers & clients",
+        "Supports various protocols (HTTP, HTTP/2, MQTT, AMQP, etc.)",
+        "Unified API for different transport types",
+        "Highly customizable thread model"
+      ],
+      "website": "https://netty.io/"
+    },
+    {
+      "name": "Kestrel",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Cross-platform web server for ASP.NET Core",
+        "High performance and lightweight",
+        "Supports HTTP/1.1, HTTP/2, HTTP/3, WebSockets",
+        "Seamless integration with ASP.NET Core",
+        "Default server for ASP.NET Core"
+      ],
+      "website": "https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Tokio (in Rust)",
+    "Netty (broader landscape)"
+  ],
+  "marketPositioning": "ntex is positioned as a flexible and high-performance framework for building a wide variety of composable networking services in Rust. Unlike web-specific frameworks that primarily focus on HTTP, ntex offers broader support for different network protocols (including MQTT, AMQP, and gRPC) and the flexibility to integrate with multiple asynchronous runtimes. This makes it suitable for diverse network applications beyond traditional web services, competing with general-purpose networking frameworks in other languages (like Netty) while leveraging Rust's strengths. Within the Rust ecosystem, it differentiates itself by providing a more protocol-agnostic and runtime-flexible foundation compared to frameworks tightly coupled to HTTP or a specific runtime."
+}

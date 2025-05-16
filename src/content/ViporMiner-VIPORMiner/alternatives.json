@@ -1,0 +1,121 @@
+{
+  "projectName": "VIPORMiner",
+  "projectPurpose": "To serve as a high-performance, stable, and multi-currency mining proxy and relay tool, optimizing the connection between miners and mining pools with features like low fees, precise ratio calculation, high concurrency support, and broad cryptocurrency compatibility.",
+  "platforms": [],
+  "mainFeatures": [
+    "Stable BTC and multi-currency proxy relay",
+    "Low developer fee (0.02%, no minimum miner count)",
+    "Almost lossless forwarding",
+    "Precise ratio (accurate proportion)",
+    "Supports millions of concurrent connections",
+    "Supports multiple cryptocurrencies (BTC, ETH, ETC, LTC, RVN, ERGO, CFX, KAS, IRON, CKB, KDA, ZEC, NEXA)",
+    "High performance",
+    "Easy one-click installation"
+  ],
+  "website": "https://github.com/ViporMiner/VIPORMiner",
+  "alternatives": [
+    {
+      "name": "CGMiner",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Supports various mining hardware (GPU, FPGA, ASIC)",
+        "Monitoring and overclocking capabilities",
+        "API monitoring",
+        "Supports different proxy mining methods",
+        "Scalable hash rate networking scheduler"
+      ],
+      "website": "http://ck.yp.to/software/cgminer.html"
+    },
+    {
+      "name": "BFGMiner",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Modular FPGA/ASIC miner",
+        "Dynamic clocking",
+        "Monitoring and remote interface",
+        "Built-in stratum and proxy server",
+        "Supports multiple algorithms"
+      ],
+      "website": "http://bfgminer.org/"
+    },
+    {
+      "name": "Awesome Miner",
+      "license": "Proprietary (with free tier)",
+      "platforms": [
+        "Windows",
+        "Linux (Remote Agent)"
+      ],
+      "mainFeatures": [
+        "Centralized management and monitoring of mining rigs",
+        "Profit switching",
+        "Supports multiple mining engines and pools",
+        "Web user interface",
+        "Remote management capabilities"
+      ],
+      "website": "https://www.awesomeminer.com/"
+    },
+    {
+      "name": "XMRig",
+      "license": "Open Source - GPLv3",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "High-performance CPU/GPU miner",
+        "Supports multiple algorithms (RandomX, KawPow, CryptoNight, GhostRider)",
+        "Includes a stratum proxy",
+        "Cross-platform compatibility",
+        "Open Source"
+      ],
+      "website": "https://xmrig.com/"
+    },
+    {
+      "name": "Braiins Farm Proxy",
+      "license": "Proprietary (Free of charge)",
+      "platforms": [
+        "Linux (Docker or standalone)"
+      ],
+      "mainFeatures": [
+        "Hashrate aggregation for data transfer reduction",
+        "Support for multiple pools simultaneously",
+        "Backup pool configuration",
+        "Network optimization",
+        "Configuration via GUI"
+      ],
+      "website": "https://braiins.com/farm/proxy"
+    },
+    {
+      "name": "Stratum Reference Implementation (SRI)",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Implementation of Stratum V2 protocol",
+        "SV2 proxy for miners",
+        "SV2 pool for operators",
+        "Modular design",
+        "Focus on security and efficiency"
+      ],
+      "website": "https://stratumprotocol.org/docs/latest/sv2-reference-implementation"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "CGMiner",
+    "Awesome Miner"
+  ],
+  "marketPositioning": "VIPORMiner is positioned as a high-performance, stable, and easy-to-use multi-currency mining proxy and relay, emphasizing its broad altcoin support, high concurrency handling, minimal and threshold-free developer fee, and 'almost lossless' efficiency. It targets miners and farms needing a robust intermediary that can handle diverse operations efficiently with a simple setup, differentiating itself from more general mining software or proxies with its specific blend of performance features, coin support, and a distinct fee structure.",
+  "expandedDescription": "VIPORMiner is a high-performance, multi-currency mining proxy and relay built with a focus on stability and efficiency. Designed to act as a robust intermediary between mining hardware and mining pools, it facilitates the mining of various cryptocurrencies, including BTC, ETH, ETC, LTC, RVN, ERGO, CFX, KAS, IRON, CKB, KDA, ZEC, and NEXA. The project highlights its 'almost lossless forwarding' and 'almost abnormal precise ratio' for accurate share reporting. It boasts the capability to easily support millions of concurrent connections, making it suitable for large-scale mining operations. VIPORMiner features a fixed, low developer fee of 0.02%, uniquely applied without a minimum threshold on the number of mining machines. The tool is engineered for high performance, having passed 1000G pressure tests, and offers a simple one-click installation process for ease of use. Written in Rust, it aims for speed and reliability, positioning itself as a powerful and user-friendly solution for miners seeking an optimized and versatile proxy for diverse mining activities."
+}

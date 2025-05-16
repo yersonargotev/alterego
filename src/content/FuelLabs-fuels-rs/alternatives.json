@@ -1,0 +1,101 @@
+{
+  "projectName": "fuels-rs",
+  "projectPurpose": "To provide a software development kit (SDK) in the Rust programming language for interacting with and building applications on the Fuel Network, including tools for smart contract development, network interaction, transaction management, and wallet functionality.",
+  "platforms": [
+    "Rust"
+  ],
+  "mainFeatures": [
+    "Compiling, deploying, and testing Sway contracts",
+    "Launching a local Fuel network",
+    "Crafting and signing transactions with hand-crafted scripts or contract calls",
+    "Generating type-safe Rust bindings of contract methods",
+    "CLI for common operations",
+    "Local test wallets",
+    "Wallet integration",
+    "Events querying/monitoring",
+    "Provides Fuel blockchain interaction support for Rust developers"
+  ],
+  "website": "https://github.com/FuelLabs/fuels-rs",
+  "alternatives": [
+    {
+      "name": "ethers-rs",
+      "license": "MIT OR Apache-2.0",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Ethereum JSON-RPC Client",
+        "Interacting and deploying smart contracts",
+        "Type safe smart contract bindings code generation",
+        "Querying past events",
+        "Wallet and signer implementations"
+      ],
+      "website": "https://github.com/gakonst/ethers-rs"
+    },
+    {
+      "name": "Solana Rust SDK (solana-sdk, solana-client)",
+      "license": "MIT",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Interacting with Solana nodes via JSON RPC API",
+        "Creating, signing, and broadcasting transactions",
+        "Wallet management (keypair generation, etc.)",
+        "Interacting with smart contracts (programs)",
+        "Fetching account information and balances"
+      ],
+      "website": "https://docs.rs/solana-sdk"
+    },
+    {
+      "name": "Polkadot SDK (formerly Substrate)",
+      "license": "Apache-2.0, GPL-3.0, Unlicense",
+      "platforms": [
+        "Rust",
+        "Web (JavaScript/TypeScript client libraries)"
+      ],
+      "mainFeatures": [
+        "Framework for building custom blockchains",
+        "Rust libraries for runtime development",
+        "Tools for interacting with Substrate-based chains",
+        "Transaction generation and signing (client libraries)",
+        "Node interaction via RPC"
+      ],
+      "website": "https://github.com/paritytech/polkadot-sdk"
+    },
+    {
+      "name": "Cosmos SDK (CosmRS)",
+      "license": "Apache-2.0",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Client library for Cosmos SDK chains",
+        "Wallet functionality and transaction signing",
+        "Building and parsing Cosmos SDK transaction messages",
+        "Support for interacting with CosmWasm smart contracts",
+        "RPC client for querying blockchain data"
+      ],
+      "website": "https://github.com/cosmos/cosmos-rust"
+    },
+    {
+      "name": "Azure Cosmos DB SDK for Rust (azure-data-cosmos)",
+      "license": "MIT OR Apache-2.0",
+      "platforms": [
+        "Rust"
+      ],
+      "mainFeatures": [
+        "Interact with Azure Cosmos DB for NoSQL accounts",
+        "Perform CRUD operations on databases, containers, and items",
+        "Query data in containers",
+        "Idiomatic Rust API",
+        "Supports Azure Active Directory authentication"
+      ],
+      "website": "https://github.com/Azure/azure-sdk-for-rust"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ethers-rs (for Ethereum ecosystem)"
+  ],
+  "marketPositioning": "fuels-rs is positioned as the primary and idiomatic Rust SDK for the Fuel Network, a modular execution layer for Ethereum rollups. Unlike general-purpose blockchain SDKs or those for other specific chains (like Ethereum, Solana, or Cosmos), fuels-rs is purpose-built to interface with Fuel's unique architecture, FuelVM, and the Sway programming language. Its market position emphasizes enabling Rust developers to leverage Fuel's claimed advantages in performance, parallel execution, and developer experience for building dApps and interacting with the Fuel ecosystem, providing deep integration with Sway contracts and Fuel-specific tooling."
+}

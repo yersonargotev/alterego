@@ -1,0 +1,68 @@
+{
+  "projectName": "bat",
+  "projectPurpose": "To provide a modern, enhanced command-line utility for viewing file contents, serving as a feature-rich alternative to the standard 'cat' command.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Syntax highlighting for many languages",
+    "Git integration (show modifications)",
+    "Automatic paging for large files",
+    "Show line numbers and grid borders",
+    "Concatenate multiple files with headers"
+  ],
+  "website": "https://github.com/sharkdp/bat",
+  "alternatives": [
+    {
+      "name": "cat",
+      "license": "GPL / BSD (Varies)",
+      "platforms": [
+        "Unix-like (Linux, macOS, BSD)",
+        "Windows (via ports/environments)"
+      ],
+      "mainFeatures": [
+        "Concatenate and print files",
+        "Display file content",
+        "Optional line numbering",
+        "Optional display of non-printing characters"
+      ],
+      "website": "N/A (Part of OS documentation/core utilities)"
+    },
+    {
+      "name": "less",
+      "license": "GNU GPL",
+      "platforms": [
+        "Unix-like (Linux, macOS, BSD)",
+        "Windows (via ports)"
+      ],
+      "mainFeatures": [
+        "View file contents page by page (paging)",
+        "Navigate forward and backward",
+        "Search within the file",
+        "Handle large files efficiently"
+      ],
+      "website": "N/A (Part of OS documentation/GNU)"
+    },
+    {
+      "name": "more",
+      "license": "BSD / GPL (Varies)",
+      "platforms": [
+        "Unix-like (Linux, macOS, BSD)",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "View file contents page by page",
+        "Navigate forward only",
+        "Basic search"
+      ],
+      "website": "N/A (Part of OS documentation)"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "cat",
+    "less"
+  ],
+  "marketPositioning": "bat positions itself as a modern, user-friendly, and feature-rich replacement for the standard 'cat' utility. It integrates capabilities typically found in separate tools (like syntax highlighters and pagers), such as automatic syntax highlighting, Git integration, and automatic paging, into a single command. This makes it a highly effective tool for developers and power users who frequently view code and text files in the terminal, offering a significantly enhanced viewing experience compared to the basic 'cat' or piping to 'less' and a highlighter."
+}

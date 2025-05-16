@@ -1,0 +1,146 @@
+{
+  "projectName": "asterinas",
+  "projectPurpose": "To provide a secure, fast, and general-purpose operating system kernel written in Rust that offers Linux-compatible ABI, serving as an alternative to the Linux kernel in security-sensitive environments while allowing the execution of unmodified Linux binaries.",
+  "platforms": [],
+  "mainFeatures": [
+    "Secure OS kernel",
+    "Fast performance",
+    "General-purpose",
+    "Written in Rust for memory safety",
+    "Linux-compatible ABI"
+  ],
+  "website": "https://github.com/asterinas/asterinas",
+  "alternatives": [
+    {
+      "name": "Linux Kernel",
+      "license": "Open Source - GPLv2 with Linux-syscall-note",
+      "platforms": [
+        "x86",
+        "ARM",
+        "RISC-V",
+        "PowerPC",
+        "Multiple others"
+      ],
+      "mainFeatures": [
+        "Monolithic architecture (with modularity)",
+        "Extensive hardware support",
+        "Vast driver ecosystem",
+        "Widely adopted for servers, desktops, mobile, embedded"
+      ],
+      "website": "https://www.kernel.org/"
+    },
+    {
+      "name": "FreeBSD Kernel",
+      "license": "Open Source - BSD 2-clause, 3-clause, 4-clause",
+      "platforms": [
+        "x86",
+        "ARM",
+        "PowerPC",
+        "RISC-V"
+      ],
+      "mainFeatures": [
+        "Monolithic architecture (with loadable modules)",
+        "Focus on stability, networking, security",
+        "Strong ZFS support",
+        "Linux binary compatibility layer"
+      ],
+      "website": "https://www.freebsd.org/"
+    },
+    {
+      "name": "Redox OS",
+      "license": "Open Source - MIT License",
+      "platforms": [
+        "x86-64",
+        "ARM64 (experimental)"
+      ],
+      "mainFeatures": [
+        "Microkernel design",
+        "Written in Rust",
+        "Unix-like (POSIX compatible)",
+        "Includes GUI (Orbital)"
+      ],
+      "website": "https://www.redox-os.org/"
+    },
+    {
+      "name": "MINIX 3",
+      "license": "Open Source - BSD 3-Clause License",
+      "platforms": [
+        "IA-32",
+        "ARM"
+      ],
+      "mainFeatures": [
+        "Microkernel architecture",
+        "Designed for reliability and self-healing",
+        "Unix-like",
+        "Used for education and embedded systems"
+      ],
+      "website": "http://www.minix3.org/"
+    },
+    {
+      "name": "Fuchsia (Zircon kernel)",
+      "license": "Open Source - BSD, MIT, Apache License 2.0",
+      "platforms": [
+        "ARM64",
+        "x86-64"
+      ],
+      "mainFeatures": [
+        "Capability-based microkernel",
+        "Designed for diverse devices",
+        "Event-driven programming",
+        "Written in C++, C, Assembly, Dart, Go, Rust, Python"
+      ],
+      "website": "https://fuchsia.dev/"
+    },
+    {
+      "name": "seL4",
+      "license": "Open Source - Modified BSD license",
+      "platforms": [
+        "ARM",
+        "x86",
+        "RISC-V",
+        "PowerPC",
+        "MIPS"
+      ],
+      "mainFeatures": [
+        "Formally verified microkernel",
+        "High assurance and security",
+        "Focus on embedded and safety-critical systems",
+        "High performance"
+      ],
+      "website": "https://sel4.systems/"
+    },
+    {
+      "name": "Windows Kernel (NT Kernel)",
+      "license": "Proprietary",
+      "platforms": [
+        "x86",
+        "x86-64",
+        "ARM64"
+      ],
+      "mainFeatures": [
+        "Hybrid kernel architecture",
+        "Widely used desktop/server OS",
+        "Extensive hardware/software compatibility",
+        "NTFS file system"
+      ],
+      "website": "https://www.microsoft.com/en-us/windows/"
+    },
+    {
+      "name": "macOS Kernel (XNU)",
+      "license": "Proprietary (partially open source via Darwin)",
+      "platforms": [
+        "x86-64",
+        "ARM64"
+      ],
+      "mainFeatures": [
+        "Hybrid kernel architecture (Mach + FreeBSD)",
+        "Used in Apple devices",
+        "Focus on user experience and performance",
+        "Hierarchical file system"
+      ],
+      "website": "https://www.apple.com/macos/"
+    }
+  ],
+  "mostWellKnownAlternative": "Linux Kernel",
+  "marketPositioning": "Asterinas positions itself as a modern, security-focused alternative kernel for scenarios demanding Linux compatibility but requiring enhanced memory safety and a smaller Trusted Computing Base than the traditional Linux kernel. By leveraging Rust and providing a Linux-compatible ABI, it targets niche applications like Trusted Execution Environments (TEEs) where the ability to run existing Linux binaries is crucial, but the security and reliability offered by a Rust-based kernel with a reduced attack surface are paramount. This differentiates it from general-purpose OS kernels (Linux, Windows, macOS) and other research kernels (Redox, MINIX, seL4) that may lack the direct Linux ABI compatibility or the same emphasis on Rust-driven memory safety."
+}

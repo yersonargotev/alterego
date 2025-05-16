@@ -1,0 +1,142 @@
+{
+  "projectName": "sshx",
+  "projectPurpose": "To provide a secure, fast, and user-friendly way for users to share their terminal sessions with others over the internet for collaborative work, debugging, teaching, and remote access through a web browser interface.",
+  "platforms": [
+    "macOS",
+    "Linux",
+    "Windows",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Collaborative live terminal sharing over the web",
+    "Fast and end-to-end encrypted communication",
+    "Real-time collaboration with remote cursors and chat",
+    "Multiplayer infinite canvas for multiple terminals",
+    "Lightweight server written in Rust",
+    "Cross-platform command-line tool for hosts",
+    "Ultra-fast mesh networking"
+  ],
+  "website": "https://sshx.io/",
+  "alternatives": [
+    {
+      "name": "tmate",
+      "license": "Open Source (TMate Open Source License), Proprietary options available",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Source"
+      ],
+      "mainFeatures": [
+        "Instant terminal sharing via SSH or web link",
+        "NAT traversal",
+        "Read-only and read/write sharing options",
+        "Based on tmux, inheriting multiplexing features",
+        "Self-hosting option"
+      ],
+      "website": "https://tmate.io/"
+    },
+    {
+      "name": "VS Code Live Share (Terminal Sharing)",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Share terminal sessions within VS Code",
+        "Collaborative editing and debugging integration",
+        "Read-only and read/write terminal modes",
+        "Share servers running on localhost",
+        "Integrated audio and text chat"
+      ],
+      "website": "https://visualstudio.microsoft.com/services/live-share/"
+    },
+    {
+      "name": "Upterm",
+      "license": "Open Source",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Instant terminal sharing over the web via SSH or WebSocket",
+        "Designed for remote pair programming and NAT traversal",
+        "Access control via authorized keys or hosting platform users",
+        "Host sessions with specific commands",
+        "Self-hostable server"
+      ],
+      "website": "https://github.com/owenthereal/upterm"
+    },
+    {
+      "name": "tty-share",
+      "license": "Open Source",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Simple terminal sharing over the web",
+        "Remote participant needs no tools (browser only)",
+        "Secure encrypted connection",
+        "Single binary for the host"
+      ],
+      "website": "https://tty-share.com/"
+    },
+    {
+      "name": "Termius (Terminal Sharing)",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Real-time terminal output sharing",
+        "Read/write collaboration mode for viewers",
+        "Share session via unique link",
+        "Uses WebRTC with TLS encryption",
+        "Integrated within a full-featured SSH client"
+      ],
+      "website": "https://termius.com/"
+    },
+    {
+      "name": "Datadog CoScreen (Collaborative Terminal)",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Collaborative terminal for up to 10 users",
+        "Near-zero latency transmission",
+        "Shared control and copy/paste",
+        "Secret-filtering feature",
+        "Integrated audio/video chat and screen sharing"
+      ],
+      "website": "https://www.datadoghq.com/product/coscreen/"
+    },
+    {
+      "name": "Warp (Live Collaboration)",
+      "license": "Proprietary",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Share terminal sessions live with teammates",
+        "Modern UI with command blocks",
+        "Intelligent autocomplete and sharable snippets",
+        "Integrated AI features",
+        "Command annotations"
+      ],
+      "website": "https://www.warp.dev/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "VS Code Live Share"
+  ],
+  "marketPositioning": "sshx is positioned as a fast, secure, and highly collaborative open-source solution for sharing terminal sessions over the web. Its core strength lies in providing a rich, real-time collaborative experience directly in the browser for guests, featuring elements like multiple terminals on an infinite canvas, remote cursors, and chat, which differentiate it from simpler terminal sharing tools. Unlike IDE-integrated solutions like VS Code Live Share or proprietary terminals like Warp, sshx offers web-based access for collaborators without requiring them to install specific desktop applications. Compared to other open-source terminal sharing tools like tmate or tty-share, sshx emphasizes a more interactive and visually rich web interface designed specifically for multiple participants working together. It targets developers, educators, and support teams needing a simple yet powerful way to share and collaborate on command-line tasks remotely."
+}

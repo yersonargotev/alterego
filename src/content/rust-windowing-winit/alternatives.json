@@ -1,0 +1,125 @@
+{
+  "projectName": "winit",
+  "projectPurpose": "To provide a foundational library in Rust for creating and managing operating system windows and handling related user input events across different platforms, primarily for graphical applications.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web"
+  ],
+  "mainFeatures": [
+    "Window creation and management",
+    "Handling window events (input, resize, etc.)",
+    "Cross-platform compatibility",
+    "Pure Rust implementation",
+    "Graphics context management (for APIs like OpenGL, Vulkan, Metal, Direct3D)"
+  ],
+  "website": "https://github.com/rust-windowing/winit",
+  "alternatives": [
+    {
+      "name": "SDL",
+      "license": "Open Source - zlib License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Nintendo Switch"
+      ],
+      "mainFeatures": [
+        "Low-level access to audio, keyboard, mouse, joystick, graphics hardware",
+        "Manages video, audio, input devices, threads",
+        "Handles OpenGL, Vulkan, Metal, Direct3D contexts",
+        "Provides 2D rendering acceleration",
+        "Networking and timer support"
+      ],
+      "website": "https://www.libsdl.org/"
+    },
+    {
+      "name": "GLFW",
+      "license": "Open Source - zlib/libpng License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "NetBSD",
+        "OpenBSD"
+      ],
+      "mainFeatures": [
+        "Lightweight library for OpenGL, OpenGL ES, Vulkan",
+        "Window, context, and surface creation",
+        "Joystick, keyboard, and mouse input handling",
+        "Support for multiple monitors and video modes",
+        "Simple, platform-independent API"
+      ],
+      "website": "https://www.glfw.org/"
+    },
+    {
+      "name": "SFML",
+      "license": "Open Source - zlib/png License",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "Android (Experimental)",
+        "iOS (Experimental)"
+      ],
+      "mainFeatures": [
+        "Cross-platform multimedia API",
+        "Windowing and input management",
+        "2D graphics hardware acceleration",
+        "Audio playback and recording",
+        "Networking capabilities"
+      ],
+      "website": "https://www.sfml-dev.org/"
+    },
+    {
+      "name": "Qt",
+      "license": "Proprietary, Open Source (GPL, LGPL)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "Embedded Systems"
+      ],
+      "mainFeatures": [
+        "Comprehensive GUI framework",
+        "Extensive set of widgets",
+        "Networking, database, multimedia support",
+        "Cross-platform development",
+        "IDE (Qt Creator)"
+      ],
+      "website": "https://www.qt.io/"
+    },
+    {
+      "name": "GTK",
+      "license": "Open Source - GNU Lesser General Public License (LGPL)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Web (Broadway)"
+      ],
+      "mainFeatures": [
+        "Cross-platform widget toolkit for GUIs",
+        "Set of graphical control elements (widgets)",
+        "Uses GObject for object orientation",
+        "Supports various backends (Wayland, X11, Win32, Quartz, Broadway)",
+        "Theme support and native look and feel"
+      ],
+      "website": "https://www.gtk.org/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "SDL",
+    "Qt"
+  ],
+  "marketPositioning": "Winit is positioned as a modern, safe, and lightweight foundational library for creating and managing operating system windows and handling input in pure Rust. It serves as a low-level layer for graphical applications that handle their own rendering using graphics APIs. Unlike broader multimedia libraries (SDL, SFML) or comprehensive GUI toolkits (Qt, GTK), winit focuses specifically on windowing and input, similar in scope to GLFW but with the key advantage of being implemented natively in Rust, appealing to developers prioritizing Rust's safety and ecosystem."
+}

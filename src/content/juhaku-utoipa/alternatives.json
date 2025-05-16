@@ -1,0 +1,100 @@
+{
+  "projectName": "utoipa",
+  "projectPurpose": "To provide Rust developers with a simple, fast, and efficient way to generate OpenAPI documentation directly from their Rust codebase using a code-first approach and compile-time processing.",
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Code-first approach for documentation generation",
+    "Compile-time documentation generation",
+    "Simple macros for annotating code",
+    "Provides Rust types for OpenAPI specification",
+    "Framework-agnostic design",
+    "Runtime modification of generated OpenAPI"
+  ],
+  "website": "https://github.com/juhaku/utoipa",
+  "alternatives": [
+    {
+      "name": "Aide",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Code-first OpenAPI generation for Rust",
+        "Tight integration with Rust web frameworks (especially Axum)",
+        "Uses schemars for JSON schema generation",
+        "Declarative API for documentation"
+      ],
+      "website": "https://github.com/tamasfe/aide"
+    },
+    {
+      "name": "Swagger UI",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Visualizes OpenAPI specifications",
+        "Generates interactive API documentation from spec files",
+        "User-friendly interface",
+        "Customizable appearance"
+      ],
+      "website": "https://swagger.io/tools/swagger-ui/"
+    },
+    {
+      "name": "OpenAPI Generator",
+      "license": "Open Source - Apache 2.0",
+      "platforms": [
+        "Cross-platform (Java-based CLI)"
+      ],
+      "mainFeatures": [
+        "Generates client libraries from OpenAPI specs",
+        "Generates server stubs from OpenAPI specs",
+        "Supports numerous programming languages (including Rust client)",
+        "Customizable code generation templates"
+      ],
+      "website": "https://openapi-generator.tech/"
+    },
+    {
+      "name": "ReDoc",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Generates interactive API documentation from OpenAPI specs",
+        "Modern three-column layout",
+        "Supports OpenAPI 2.0 and 3.0",
+        "Responsive design"
+      ],
+      "website": "https://github.com/Redocly/redoc"
+    },
+    {
+      "name": "Postman",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Comprehensive API testing tool",
+        "API design and development platform",
+        "Automated documentation generation from collections/schemas",
+        "Collaboration features"
+      ],
+      "website": "https://www.postman.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Swagger UI",
+    "Postman"
+  ],
+  "marketPositioning": "Utoipa is positioned as a native, efficient, and code-first solution for generating OpenAPI documentation specifically for the Rust ecosystem. Its compile-time generation and macro-based approach differentiate it from general-purpose OpenAPI tools like Swagger UI (which visualizes specs) or OpenAPI Generator (which typically generates code from specs). It competes more directly with other Rust-specific code-first documentation generators like Aide, emphasizing its simplicity, speed, and compile-time nature. It caters to Rust developers who prefer to keep their API documentation closely tied to their source code and automatically generated during the build process."
+}

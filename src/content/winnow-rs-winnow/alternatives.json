@@ -1,0 +1,82 @@
+{
+  "projectName": "winnow",
+  "projectPurpose": "To provide an easy-to-use library in Rust for building parsers using a combinator approach.",
+  "platforms": [
+    "Cross-platform (Rust library)"
+  ],
+  "mainFeatures": [
+    "Parser combinator library in Rust",
+    "Designed for ease of use ('Making parsing a breeze')",
+    "Provides functions and macros for building parsers",
+    "Idiomatic Rust approach to parsing"
+  ],
+  "website": "https://github.com/winnow-rs/winnow",
+  "alternatives": [
+    {
+      "name": "nom",
+      "license": "MIT OR Apache-2.0",
+      "platforms": [
+        "Cross-platform (Rust library)"
+      ],
+      "mainFeatures": [
+        "Byte-oriented, zero-copy parsing",
+        "Parser combinator library",
+        "Tools for binary and text formats",
+        "Streaming parser support",
+        "Macro and trait-based parser construction"
+      ],
+      "website": "https://github.com/Geal/nom"
+    },
+    {
+      "name": "pest",
+      "license": "Apache-2.0, MIT",
+      "platforms": [
+        "Cross-platform (Rust library and generator)"
+      ],
+      "mainFeatures": [
+        "PEG parser generator for Rust",
+        "Focus on simplicity, speed, and accessibility",
+        "Grammar definition using custom syntax",
+        "Generates Rust code",
+        "Online grammar fiddle for testing"
+      ],
+      "website": "https://pest.rs/"
+    },
+    {
+      "name": "ANTLR",
+      "license": "BSD License",
+      "platforms": [
+        "Cross-platform (Tool runs on JVM, generates code for various platforms/languages)"
+      ],
+      "mainFeatures": [
+        "Powerful parser generator (LL(*) algorithm)",
+        "Supports multiple target languages",
+        "Generates parse trees, listeners, and visitors",
+        "Uses Extended Backus\u2013Naur Form (EBNF)",
+        "Widely used in industry and academia"
+      ],
+      "website": "https://www.antlr.org/"
+    },
+    {
+      "name": "Flex & Bison",
+      "license": "Flex: BSD License, Bison: GNU General Public License (GPLv3+) with output exception",
+      "platforms": [
+        "Cross-platform (Unix-like systems natively, Windows via ports like WinFlexBison)"
+      ],
+      "mainFeatures": [
+        "Flex for lexical analysis (tokenizing)",
+        "Bison for parsing (grammar analysis)",
+        "Generate code in C, C++, Java, etc.",
+        "Based on LALR(1) by default (Bison)",
+        "Mature and widely used tools"
+      ],
+      "website": "https://www.gnu.org/software/bison/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "ANTLR",
+    "Flex & Bison"
+  ],
+  "marketPositioning": "Winnow is positioned as an easy-to-use, idiomatic Rust parser combinator library. It competes directly with other Rust combinator libraries like nom and combine, emphasizing developer experience ('a breeze'). It offers a different paradigm than Rust parser generators like pest and is focused specifically on the Rust ecosystem, unlike multi-language generators like ANTLR or Flex/Bison. Its success will depend on its specific combinators, performance, error handling, documentation, and how well it delivers on the promise of making parsing 'a breeze' compared to its competitors.",
+  "expandedDescription": "Winnow is a parsing library for Rust designed to simplify the process of building complex parsers. Leveraging the power and safety of Rust's type system and memory management, Winnow provides a set of parser combinators \u2013 small, composable functions and macros \u2013 that allow developers to construct parsers by combining simpler parsing logic. This approach enables building parsers directly within Rust code, offering flexibility and tight integration with the rest of the application. With a stated goal of 'making parsing a breeze,' Winnow aims to provide an intuitive and efficient developer experience, potentially offering refinements or alternative patterns compared to established Rust parser combinator libraries, while providing a distinct, code-centric alternative to grammar-file-based parser generators."
+}

@@ -1,0 +1,113 @@
+{
+  "projectName": "rust-bfield",
+  "projectPurpose": "To provide a Rust implementation of the B-field, a novel probabilistic key-value data structure optimized for space-efficient storage and querying, particularly useful for applications like associating k-mers with taxonomic IDs in bioinformatics.",
+  "platforms": [
+    "Cross-platform (Rust library)"
+  ],
+  "mainFeatures": [
+    "Implementation of the B-field probabilistic key-value data structure",
+    "Space-efficient storage of key-value pairs",
+    "Supports insertion and lookup operations",
+    "Tunable false positive rate for non-inserted keys",
+    "Designed for large numbers of keys and modest numbers of distinct values"
+  ],
+  "website": "https://github.com/onecodex/rust-bfield",
+  "alternatives": [
+    {
+      "name": "Rust-Bio",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Rust library)"
+      ],
+      "mainFeatures": [
+        "General bioinformatics algorithms and data structures",
+        "Sequence analysis (alignment, pattern matching)",
+        "Genomic file parsing (FASTA, FASTQ, BED)",
+        "Implementations of index structures (FM-index, suffix arrays)",
+        "Utilities for k-mer processing"
+      ],
+      "website": "https://github.com/rust-bio/rust-bio"
+    },
+    {
+      "name": "Needletail",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Rust library)"
+      ],
+      "mainFeatures": [
+        "Fast FASTA and FASTQ file parsing",
+        "Efficient k-mer processing (counting, canonicalization)",
+        "Minimal memory copying",
+        "Rust library for bioinformatics programs"
+      ],
+      "website": "https://github.com/onecodex/needletail"
+    },
+    {
+      "name": "Jellyfish",
+      "license": "Open Source - GPL v3",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Fast k-mer counting",
+        "Memory-efficient using a hash table",
+        "Multi-threaded execution",
+        "Supports k-mers up to 31bp",
+        "Command-line tool with bindings for scripting languages (Python, Ruby, Perl)"
+      ],
+      "website": "https://github.com/gmarcais/Jellyfish"
+    },
+    {
+      "name": "KMC",
+      "license": "Open Source - GPL v3",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Very fast k-mer counting",
+        "Disk-based (handles large datasets exceeding RAM)",
+        "Supports large k-mer lengths (up to 256)",
+        "Utilities for k-mer set operations (intersect, union, subtract)",
+        "Command-line tool with C++ and Python API"
+      ],
+      "website": "https://github.com/refresh-bio/KMC"
+    },
+    {
+      "name": "ntHash-rs",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Cross-platform (Rust library)"
+      ],
+      "mainFeatures": [
+        "Pure-Rust implementation of ntHash rolling hash",
+        "Efficient k-mer hashing for DNA sequences",
+        "Supports canonicalization of k-mer hashes"
+      ],
+      "website": "https://github.com/PetrNovak/nthash_rs"
+    },
+    {
+      "name": "oxli",
+      "license": "Open Source - BSD-3-Clause",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Rust library with Python interface for k-mer operations",
+        "K-mer counting",
+        "K-mer comparison (e.g., Jaccard index)",
+        "Built on sourmash Rust library"
+      ],
+      "website": "https://github.com/dib-lab/oxli"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Jellyfish",
+    "KMC"
+  ],
+  "marketPositioning": "rust-bfield is positioned as a specialized, highly space-efficient probabilistic key-value data structure implemented in Rust. It differentiates itself from traditional probabilistic structures like Bloom filters by enabling the association of values with keys, rather than just set membership testing. While existing tools like Jellyfish and KMC excel at exact k-mer counting, and general bioinformatics libraries like Rust-Bio offer a broad range of tools, rust-bfield fills a niche for applications requiring the probabilistic mapping of a massive number of keys (like k-mers) to a limited set of discrete values (like taxonomic IDs) with minimal memory footprint and controlled error rates. Its Rust implementation leverages performance and memory safety benefits within the bioinformatics ecosystem and potentially other domains with similar data characteristics."
+}

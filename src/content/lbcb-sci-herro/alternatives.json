@@ -1,0 +1,125 @@
+{
+  "projectName": "herro",
+  "projectPurpose": "To provide highly-accurate, haplotype-aware error correction for long Nanopore R10.4.1 and R9.4.1 reads using deep learning.",
+  "platforms": [],
+  "mainFeatures": [
+    "Highly-accurate error correction",
+    "Haplotype-aware correction",
+    "Utilizes deep learning (CNNs and self-attention)",
+    "Optimized for Nanopore R10.4.1 and R9.4.1 reads",
+    "Recommended for reads >= 10 kbps"
+  ],
+  "website": "https://github.com/lbcb-sci/herro",
+  "alternatives": [
+    {
+      "name": "Medaka",
+      "license": "Open Source - Oxford Nanopore Technologies Public License Version 1.0",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Consensus sequence generation (polishing)",
+        "Requires only basecalled data",
+        "Uses neural networks",
+        "Improved accuracy over graph-based methods (e.g., Racon)",
+        "GPU support for faster processing"
+      ],
+      "website": "https://github.com/nanoporetech/medaka"
+    },
+    {
+      "name": "Canu",
+      "license": "Open Source (details in README.licences)",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "De novo assembly of noisy reads",
+        "Includes a read correction step",
+        "Overlap-based error correction",
+        "Handles varying coverage levels",
+        "Designed for PacBio and Nanopore reads"
+      ],
+      "website": "https://github.com/marbl/canu"
+    },
+    {
+      "name": "wtdbg2",
+      "license": "Open Source",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "De novo assembly for long noisy reads",
+        "Builds consensus from intermediate assembly",
+        "Fast assembly speed",
+        "Uses a fuzzy Bruijn graph approach",
+        "Handles PacBio and Nanopore data"
+      ],
+      "website": "https://github.com/ruanjue/wtdbg2"
+    },
+    {
+      "name": "LoRDEC",
+      "license": "Open Source - CeCILL A license",
+      "platforms": [
+        "Linux",
+        "Mac OS X"
+      ],
+      "mainFeatures": [
+        "Hybrid error correction (uses short reads to correct long reads)",
+        "Builds a de Bruijn graph from short reads",
+        "Seeks corrective sequences in the graph",
+        "Efficient in terms of speed and memory",
+        "Can be used for PacBio and Nanopore reads"
+      ],
+      "website": "http://atgc.lirmm.fr/lordec"
+    },
+    {
+      "name": "LoRMA",
+      "license": "Open Source",
+      "platforms": [
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Self-correction for long reads",
+        "Iteratively uses LoRDEC for local correction",
+        "Uses long-range sequence similarity for correction",
+        "Clusters similar reads to detect similarity",
+        "Handles PacBio and Nanopore reads"
+      ],
+      "website": "http://lorma.gforge.inria.fr/"
+    },
+    {
+      "name": "NanoReviser",
+      "license": "Open Source",
+      "platforms": [],
+      "mainFeatures": [
+        "Error correction for Nanopore sequencing",
+        "Based on a deep learning algorithm",
+        "Aims to improve accuracy of MinION reads",
+        "Does not require short-read sequences",
+        "First reported standalone Nanopore error correction tool based on deep learning"
+      ],
+      "website": "https://github.com/BioinformaticsCSU/NanoReviser"
+    },
+    {
+      "name": "DeChat",
+      "license": "Open Source",
+      "platforms": [],
+      "mainFeatures": [
+        "Error correction for Nanopore R10 reads",
+        "Repeat- and haplotype-aware correction",
+        "Combines de Bruijn graphs and variant-aware multiple sequence alignment",
+        "Avoids read overcorrection",
+        "Designed for high accuracy or super accuracy basecalled reads"
+      ],
+      "website": "https://github.com/LuoGroup2023/DeChat"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Medaka",
+    "Canu",
+    "wtdbg2"
+  ],
+  "marketPositioning": "HERRO is positioned as a specialized, high-accuracy, haplotype-aware error correction tool for the latest generation of ultra-long Nanopore reads (R10.4.1/R9.4.1 >= 10 kbps). While other tools like Medaka, Canu, and wtdbg2 offer general Nanopore error correction or polishing, HERRO differentiates itself through its explicit focus on haplotype preservation in long reads and its specific deep-learning architecture. This makes it particularly valuable for applications like phased genome assembly where maintaining accurate representation of both haplotypes is crucial. It competes with other deep learning-based tools like NanoReviser and haplotype-aware correctors like DeChat, emphasizing its blend of accuracy, haplotype awareness, and optimization for current ultra-long read data."
+}

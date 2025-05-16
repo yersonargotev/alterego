@@ -1,0 +1,175 @@
+{
+  "projectName": "v86",
+  "projectPurpose": "To provide a functional x86 Personal Computer emulation environment that can run directly within a web browser, allowing users to run legacy operating systems and software without native installations.",
+  "platforms": [
+    "Web Browser"
+  ],
+  "mainFeatures": [
+    "x86 PC emulation",
+    "x86-to-wasm JIT compilation",
+    "Runs in the browser",
+    "Capable of booting various operating systems (Linux, Windows 98, DOS, etc.)"
+  ],
+  "website": "https://github.com/copy/v86",
+  "alternatives": [
+    {
+      "name": "Oracle VM VirtualBox",
+      "license": "Open Source (GPL v2), Proprietary (Extension Pack)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Solaris",
+        "FreeBSD",
+        "OpenSolaris",
+        "OS/2"
+      ],
+      "mainFeatures": [
+        "Supports a wide range of guest OS",
+        "Snapshotting",
+        "Drag-and-drop and Shared Folders",
+        "USB device support (with Extension Pack)",
+        "Remote Desktop Protocol (with Extension Pack)"
+      ],
+      "website": "https://www.virtualbox.org/"
+    },
+    {
+      "name": "QEMU",
+      "license": "Open Source (GPL-2.0-only)",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "Other UNIX"
+      ],
+      "mainFeatures": [
+        "Emulates various hardware architectures",
+        "Full system and user-mode emulation",
+        "Supports hardware virtualization acceleration",
+        "Flexible device model",
+        "Snapshotting and live migration"
+      ],
+      "website": "https://www.qemu.org/"
+    },
+    {
+      "name": "VMware Workstation Player",
+      "license": "Freemium (Free for personal non-commercial use)",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Runs multiple OS on a single PC",
+        "Supports many guest OS",
+        "VM isolation",
+        "Drag & Drop and Copy & Paste",
+        "USB support"
+      ],
+      "website": "https://www.vmware.com/products/workstation-player.html"
+    },
+    {
+      "name": "Bochs",
+      "license": "Open Source",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android",
+        "PlayStation 2",
+        "PSP"
+      ],
+      "mainFeatures": [
+        "Highly portable x86 PC emulator",
+        "Focuses on accuracy",
+        "Includes a debugger",
+        "Emulates various x86 CPUs and I/O devices",
+        "Custom BIOS"
+      ],
+      "website": "https://bochs.sourceforge.io/"
+    },
+    {
+      "name": "DOSBox",
+      "license": "Open Source (GPL-2.0-or-later)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BeOS",
+        "FreeBSD",
+        "RISC OS",
+        "Solaris",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Primarily for running MS-DOS software (games)",
+        "Emulates various graphics and sound cards",
+        "Includes a DOS-like command prompt",
+        "Supports dynamic instruction translation"
+      ],
+      "website": "https://www.dosbox.com/"
+    },
+    {
+      "name": "Halfix",
+      "license": "Open Source",
+      "platforms": [
+        "Native",
+        "Web Browser (via WebAssembly)"
+      ],
+      "mainFeatures": [
+        "Portable x86 emulator",
+        "Runs legacy operating systems",
+        "Supports x86-32 emulation",
+        "Emulates basic PC devices",
+        "Runs in the browser via WebAssembly"
+      ],
+      "website": "https://github.com/nepx/halfix"
+    },
+    {
+      "name": "PCjs Machines",
+      "license": "Open Source",
+      "platforms": [
+        "Web Browser"
+      ],
+      "mainFeatures": [
+        "JavaScript-based emulation of vintage PCs",
+        "Runs DOS, Windows, OS/2 in the browser",
+        "Emulates various vintage hardware",
+        "Archive of historical software"
+      ],
+      "website": "https://www.pcjs.org/"
+    },
+    {
+      "name": "WebVM",
+      "license": "Open Source (Likely)",
+      "platforms": [
+        "Web Browser"
+      ],
+      "mainFeatures": [
+        "Server-less x86-64 full-system emulation",
+        "Runs in browsers",
+        "Uses JIT compilation to WebAssembly"
+      ],
+      "website": "https://leaningtech.com/webvm/"
+    },
+    {
+      "name": "UTM",
+      "license": "Open Source",
+      "platforms": [
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Uses QEMU and Apple Virtualization",
+        "Runs various OS (Windows, Linux, macOS)",
+        "Emulates multiple processor architectures",
+        "macOS-native interface"
+      ],
+      "website": "https://getutm.app/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Oracle VM VirtualBox",
+    "VMware Workstation Player"
+  ],
+  "marketPositioning": "v86 is positioned as a highly accessible and portable x86 PC emulator that uniquely runs directly within a web browser. Unlike traditional desktop-based virtualization software (like VirtualBox, VMware, and QEMU) that require installation, or other browser emulators focused on older console hardware, v86 provides full x86 PC emulation capable of booting operating systems, leveraging WebAssembly for improved performance. This makes it ideal for quick access, educational purposes, and web-based demonstrations of legacy x86 environments, offering a distinct advantage in ease of use and accessibility directly through a web link."
+}

@@ -1,0 +1,79 @@
+{
+  "projectName": "sudo",
+  "projectPurpose": "To provide a command-line utility for Windows that allows users to quickly and easily run commands with elevated (administrator) privileges from a standard, unelevated command prompt or terminal session, replicating the familiar `sudo` experience from Unix-like operating systems.",
+  "platforms": [
+    "Windows"
+  ],
+  "mainFeatures": [
+    "Allows running elevated commands (as administrator) from an unelevated command line context.",
+    "Provides a familiar command-line experience similar to Unix/Linux sudo.",
+    "Integrates with User Account Control (UAC) for elevation prompts.",
+    "Supports running applications in a new elevated console window or within the current window.",
+    "Available for Windows 11 builds 26045 and later."
+  ],
+  "website": "https://github.com/microsoft/sudo",
+  "alternatives": [
+    {
+      "name": "runas",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Run programs as a different user.",
+        "Can be used to run programs as Administrator.",
+        "Supports specifying arguments to the program.",
+        "Can load or bypass the user profile of the secondary user."
+      ],
+      "website": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/runas"
+    },
+    {
+      "name": "gsudo",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Sudo equivalent for Windows with a similar user experience.",
+        "Elevates commands or shells with elevated permissions in the current or a new console window.",
+        "Integrates with UAC.",
+        "Supports various shells (Cmd, PowerShell, WSL, git-bash, etc.).",
+        "Handles exit codes, StdIn/Out/Err redirection."
+      ],
+      "website": "https://github.com/gerardog/gsudo"
+    },
+    {
+      "name": "Elevate",
+      "license": "Open Source or Freeware (License details vary)",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Executes a command with UAC privilege elevation.",
+        "Useful for working inside command prompts or batch files.",
+        "Starts a process in an elevated state from a non-elevated shell.",
+        "Can keep the current directory."
+      ],
+      "website": "N/A (No single authoritative current website found)"
+    },
+    {
+      "name": "PowerShell Start-Process -Verb runAs",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows"
+      ],
+      "mainFeatures": [
+        "Programmatically start processes with different verbs, including 'runAs' for elevation.",
+        "Can be used within scripts to achieve elevation.",
+        "Integrates with UAC.",
+        "Provides control over process creation."
+      ],
+      "website": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "runas",
+    "GUI Run as administrator"
+  ],
+  "marketPositioning": "Microsoft's \"Sudo for Windows\" is positioned as an official, modern command-line tool for streamlined privilege elevation on Windows, specifically targeting users familiar with the Unix/Linux `sudo` command. It differentiates itself from the traditional `runas` command by focusing on elevating the current user's process via UAC for single commands, providing a more ergonomic experience for this specific task. Its open-source nature and backing by Microsoft establish it as the official solution in this niche, complementing existing elevation methods rather than replacing them entirely."
+}

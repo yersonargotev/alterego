@@ -1,0 +1,136 @@
+{
+  "projectName": "stract",
+  "projectPurpose": "To provide an open-source, user-centric, and highly customizable web search engine with a focus on respecting user queries, privacy, and transparency, offering an alternative to mainstream search engines.",
+  "platforms": [
+    "Web"
+  ],
+  "mainFeatures": [
+    "Fully independent search index with its own crawler",
+    "Advanced query syntax (site:, intitle:, etc.)",
+    "DDG-style !bang syntax",
+    "Customizable search results using 'optics'",
+    "De-ranking websites with third-party trackers"
+  ],
+  "website": "https://stract.com",
+  "alternatives": [
+    {
+      "name": "Google Search",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Android",
+        "iOS",
+        "ChromeOS",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Comprehensive web index",
+        "Vast range of integrated services (Maps, Shopping, News, Images, Videos)",
+        "AI-powered features",
+        "Personalized search results",
+        "Advanced search operators"
+      ],
+      "website": "https://www.google.com/"
+    },
+    {
+      "name": "Bing",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Windows",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Web, image, video, news, and map search",
+        "Microsoft Rewards integration",
+        "Snapshots and deep links",
+        "AI-powered chat (Bing Chat Enterprise)"
+      ],
+      "website": "https://www.bing.com/"
+    },
+    {
+      "name": "DuckDuckGo",
+      "license": "Mixed (Core Proprietary, some components Open Source - Apache 2.0, Creative Commons)",
+      "platforms": [
+        "Web",
+        "Browser Extensions",
+        "Mobile Browsers (iOS, Android)",
+        "Desktop Browser (Mac, Windows)"
+      ],
+      "mainFeatures": [
+        "Privacy-focused (no tracking)",
+        "!bang commands",
+        "Instant Answers",
+        "Tracker blocking",
+        "Private mobile and desktop browsers"
+      ],
+      "website": "https://duckduckgo.com/"
+    },
+    {
+      "name": "Brave Search",
+      "license": "Mixed (Some components Open Source - MIT, part of Brave Browser - MPL)",
+      "platforms": [
+        "Web",
+        "Integrated into Brave Browser (Windows, macOS, Linux, Android, iOS)"
+      ],
+      "mainFeatures": [
+        "Independent index",
+        "Privacy-focused (no tracking or profiling)",
+        "Goggles (custom filters)",
+        "AI assistant integration (Leo)"
+      ],
+      "website": "https://search.brave.com/"
+    },
+    {
+      "name": "Startpage",
+      "license": "Proprietary",
+      "platforms": [
+        "Web",
+        "Browser Extensions",
+        "Mobile Apps (iOS, Android)"
+      ],
+      "mainFeatures": [
+        "Provides Google search results with privacy protection",
+        "Anonymous View (proxy browsing)",
+        "Private Language Translation",
+        "No IP address recording or tracking cookies"
+      ],
+      "website": "https://www.startpage.com/"
+    },
+    {
+      "name": "Ecosia",
+      "license": "Steward-owned (some content CC licensed)",
+      "platforms": [
+        "Web",
+        "Browser Extensions",
+        "Mobile Apps (iOS, Android)"
+      ],
+      "mainFeatures": [
+        "Uses search ad revenue to plant trees",
+        "Privacy-friendly (doesn't save searches, no tracking)",
+        "Transparent financial reports",
+        "Powered by renewable energy"
+      ],
+      "website": "https://www.ecosia.org/"
+    },
+    {
+      "name": "SearXNG",
+      "license": "Open Source - AGPL-3.0",
+      "platforms": [
+        "Web (Self-hostable or public instances)"
+      ],
+      "mainFeatures": [
+        "Metasearch engine (aggregates results from multiple sources)",
+        "Privacy-focused (no tracking or profiling)",
+        "Highly customizable",
+        "Supports various search categories"
+      ],
+      "website": "https://searxng.space/"
+    }
+  ],
+  "mostWellKnownAlternative": "Google Search",
+  "marketPositioning": "Stract is positioned as an open-source, independent, and highly customizable alternative web search engine for users, particularly tinkerers and developers, who seek greater control and transparency over their search experience. Unlike many privacy-focused alternatives that rely on major engines, Stract boasts its own independent index and crawler. Its unique 'optics' feature allows for deep personalization of results, differentiating it from the less customizable nature of mainstream search engines and even many privacy-focused options. It directly challenges the dominance of proprietary search by offering a fully open and controllable platform focused on respecting user intent and privacy."
+}

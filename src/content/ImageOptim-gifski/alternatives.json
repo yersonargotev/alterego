@@ -1,0 +1,101 @@
+{
+  "projectName": "gifski",
+  "projectPurpose": "To provide a high-quality, optimized command-line tool and library for creating GIF animations, focusing on maximizing visual fidelity through advanced color quantization.",
+  "platforms": [
+    "Command-line",
+    "Library"
+  ],
+  "mainFeatures": [
+    "High-quality GIF encoding",
+    "Based on libimagequant/pngquant technology",
+    "Advanced color quantization",
+    "Optimized for visual fidelity"
+  ],
+  "website": "https://github.com/ImageOptim/gifski",
+  "alternatives": [
+    {
+      "name": "FFmpeg",
+      "license": "LGPL / GPL",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Extensive audio/video/image format support",
+        "Command-line interface",
+        "Video to GIF conversion",
+        "Highly configurable"
+      ],
+      "website": "https://www.ffmpeg.org/"
+    },
+    {
+      "name": "ImageMagick",
+      "license": "Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD"
+      ],
+      "mainFeatures": [
+        "Image format conversion",
+        "Resizing and manipulation",
+        "Create GIFs from image sequences",
+        "Command-line and library interface"
+      ],
+      "website": "https://imagemagick.org/"
+    },
+    {
+      "name": "ezgif.com",
+      "license": "Proprietary",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "Online GIF maker and editor",
+        "Video to GIF converter",
+        "GIF optimizer",
+        "User-friendly web interface"
+      ],
+      "website": "https://ezgif.com/"
+    },
+    {
+      "name": "GIMP",
+      "license": "GPL-3.0-or-later",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Bitmap image editor",
+        "Supports layers and filters",
+        "Export to GIF with optimization",
+        "GUI application"
+      ],
+      "website": "https://www.gimp.org/"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "license": "Proprietary (Subscription)",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Professional image editing",
+        "Graphic design tools",
+        "Export/Save for Web to GIF",
+        "High-quality output options"
+      ],
+      "website": "https://www.adobe.com/products/photoshop.html"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "FFmpeg",
+    "ImageMagick"
+  ],
+  "marketPositioning": "gifski is positioned as a specialized, high-quality GIF encoder focused on achieving the best possible visual fidelity using advanced quantization techniques from libimagequant/pngquant. It competes with general-purpose tools like FFmpeg and ImageMagick by offering superior visual output for the challenging GIF format, particularly for converting video or rich image sequences. Its command-line/library nature targets developers and power users integrating it into workflows, differentiating it from GUI editors or simple online converters by emphasizing encoding quality."
+}

@@ -1,0 +1,117 @@
+{
+  "projectName": "microbin",
+  "projectPurpose": "To provide a lightweight, secure, and easy-to-deploy self-hosted web application that combines file sharing and URL shortening functionalities, giving users control over their data.",
+  "platforms": [
+    "Web (Self-hosted)",
+    "Docker"
+  ],
+  "mainFeatures": [
+    "Secure file sharing",
+    "URL shortening",
+    "Configurable",
+    "Self-contained and self-hosted",
+    "Lightweight and low resource usage",
+    "Easy to set up and use"
+  ],
+  "website": "https://github.com/szabodanika/microbin",
+  "alternatives": [
+    {
+      "name": "Nextcloud",
+      "license": "Open Source - AGPLv3",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile"
+      ],
+      "mainFeatures": [
+        "File synchronization and sharing",
+        "Collaboration tools (editing, chat, video calls)",
+        "Calendar and contacts management",
+        "Extensible via apps"
+      ],
+      "website": "https://nextcloud.com/"
+    },
+    {
+      "name": "Lufi",
+      "license": "Open Source - AGPL",
+      "platforms": [
+        "Web"
+      ],
+      "mainFeatures": [
+        "End-to-end encrypted file sharing (browser-based)",
+        "Expiring links",
+        "Password protection",
+        "Drag and drop uploads"
+      ],
+      "website": "https://framagit.org/fiat-tux/hat-softwares/lufi"
+    },
+    {
+      "name": "Shlink",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web (Self-hosted)",
+        "CLI",
+        "Docker"
+      ],
+      "mainFeatures": [
+        "URL shortening",
+        "Custom domains",
+        "Visit tracking and analytics",
+        "RESTful API",
+        "Progressive Web App (PWA) client"
+      ],
+      "website": "https://shlink.io/"
+    },
+    {
+      "name": "Polr",
+      "license": "Open Source - GPLv2",
+      "platforms": [
+        "Web (Self-hosted)"
+      ],
+      "mainFeatures": [
+        "URL shortening",
+        "Robust API",
+        "Modern, themable interface",
+        "Link statistics"
+      ],
+      "website": "https://polrproject.org/"
+    },
+    {
+      "name": "YOURLS",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Web (Self-hosted)"
+      ],
+      "mainFeatures": [
+        "URL shortening",
+        "Custom short keywords",
+        "Statistics",
+        "Developer API",
+        "Plugin architecture"
+      ],
+      "website": "https://yourls.org/"
+    },
+    {
+      "name": "Bitly",
+      "license": "Proprietary (Freemium)",
+      "platforms": [
+        "Web",
+        "Mobile",
+        "Browser Extension"
+      ],
+      "mainFeatures": [
+        "URL shortening",
+        "Branded links and custom domains (paid)",
+        "Link tracking and analytics",
+        "QR Code generation",
+        "Integrations"
+      ],
+      "website": "https://bitly.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Bitly",
+    "Nextcloud"
+  ],
+  "marketPositioning": "MicroBin is positioned as a secure, lightweight, and easy-to-deploy self-hosted web application uniquely combining essential file sharing and URL shortening functionalities. Unlike comprehensive suites like Nextcloud, it focuses on simplicity and minimal resource usage. Compared to dedicated tools like Shlink or Lufi, it offers a convenient blend of both capabilities in a single package. Its Rust foundation appeals to users prioritizing performance and safety in a self-hosted environment, serving as a privacy-conscious alternative to large commercial services like Bitly."
+}

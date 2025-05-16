@@ -1,0 +1,67 @@
+{
+  "projectName": "Tran",
+  "projectPurpose": "To provide a simple, fast, and efficient desktop utility for translating text selected by the user.",
+  "platforms": [
+    "Desktop (Implied cross-platform support via Rust, e.g., Windows, macOS, Linux)"
+  ],
+  "mainFeatures": [
+    "Selection-based translation",
+    "Simplicity",
+    "Speed"
+  ],
+  "website": "https://github.com/Borber/Tran",
+  "alternatives": [
+    {
+      "name": "Crow Translate",
+      "license": "Open Source - GPL-3.0",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Translate selected text via hotkey",
+        "Text-to-speech",
+        "Supports multiple translation engines",
+        "Translation history"
+      ],
+      "website": "https://crow-translate.github.io/"
+    },
+    {
+      "name": "DeepL Translator",
+      "license": "Proprietary (Free and Paid tiers)",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Mobile (iOS, Android)"
+      ],
+      "mainFeatures": [
+        "High-quality neural machine translation",
+        "Translate selected text via hotkey (Desktop apps)",
+        "Document translation",
+        "Glossary function"
+      ],
+      "website": "https://www.deepl.com/translator"
+    },
+    {
+      "name": "Google Translate",
+      "license": "Proprietary (Free)",
+      "platforms": [
+        "Web",
+        "Mobile (iOS, Android)",
+        "Browser Extensions"
+      ],
+      "mainFeatures": [
+        "Supports vast number of languages",
+        "Browser extensions for selection/page translation",
+        "Mobile app features (camera, conversation)",
+        "Text, voice, image, handwriting input"
+      ],
+      "website": "https://translate.google.com/"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Google Translate"
+  ],
+  "marketPositioning": "Tran positions itself as a minimalist, fast, and open-source desktop tool singularly focused on providing quick translations of selected text. It competes with more feature-rich open-source alternatives and the broader ecosystems of commercial giants like Google and DeepL by offering a lightweight, dedicated solution for users who prioritize speed and simplicity for on-the-fly text lookups on their desktop."
+}

@@ -1,0 +1,145 @@
+{
+  "projectName": "wgpu",
+  "projectPurpose": "To provide a modern, safe, and portable graphics and compute API for developers, primarily in the Rust ecosystem, by implementing the WebGPU standard and abstracting away the complexities of underlying native graphics APIs like Vulkan, Metal, Direct3D 12, and OpenGL, enabling high-performance graphics and GPU computation across various platforms, including native desktops/mobiles and the web.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android",
+    "iOS",
+    "WebAssembly (Web)"
+  ],
+  "mainFeatures": [
+    "Cross-platform graphics and compute API",
+    "Pure-Rust implementation",
+    "Safe API design",
+    "Based on the WebGPU standard",
+    "Native backends (Vulkan, Metal, D3D12, OpenGL)",
+    "WebAssembly backend (WebGPU, WebGL2)",
+    "Support for compute shaders",
+    "Multiple shader language support (WGSL, SPIR-V, GLSL)"
+  ],
+  "website": "https://github.com/gfx-rs/wgpu",
+  "alternatives": [
+    {
+      "name": "Dawn",
+      "license": "Open Source (BSD 3-Clause)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "WebAssembly (Web)"
+      ],
+      "mainFeatures": [
+        "WebGPU implementation",
+        "C++ API",
+        "Abstracts D3D12, Metal, Vulkan, OpenGL",
+        "Used as Chromium's WebGPU backend",
+        "Supports WGSL, SPIR-V, HLSL, MSL, GLSL"
+      ],
+      "website": "https://dawn.googlesource.com/dawn/"
+    },
+    {
+      "name": "Vulkan",
+      "license": "Open Standard (Khronos Group)",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Android",
+        "Nintendo Switch",
+        "macOS (via MoltenVK)",
+        "iOS (via MoltenVK)"
+      ],
+      "mainFeatures": [
+        "Low-overhead, explicit API",
+        "Cross-platform",
+        "Modern API design matching GPUs",
+        "Explicit memory management and synchronization",
+        "Supports compute shaders"
+      ],
+      "website": "https://www.khronos.org/vulkan/"
+    },
+    {
+      "name": "Metal",
+      "license": "Proprietary",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "iPadOS",
+        "tvOS",
+        "watchOS",
+        "visionOS"
+      ],
+      "mainFeatures": [
+        "Low-overhead API",
+        "Optimized for Apple hardware",
+        "Unified graphics and compute",
+        "Rich shading language (MSL)",
+        "Advanced debugging tools"
+      ],
+      "website": "https://developer.apple.com/metal/"
+    },
+    {
+      "name": "Direct3D 12",
+      "license": "Proprietary",
+      "platforms": [
+        "Windows",
+        "Xbox"
+      ],
+      "mainFeatures": [
+        "Low-level, explicit API",
+        "Optimized for Microsoft platforms",
+        "Close-to-hardware access",
+        "Supports compute shaders",
+        "Variable Rate Shading (VRS)"
+      ],
+      "website": "https://learn.microsoft.com/en-us/windows/win32/direct3d12/understanding-direct3d-12"
+    },
+    {
+      "name": "OpenGL",
+      "license": "Open Standard (Khronos Group)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS",
+        "WebAssembly (via WebGL)"
+      ],
+      "mainFeatures": [
+        "Widely adopted 2D/3D graphics API",
+        "Cross-platform",
+        "Higher-level API",
+        "Large ecosystem and community",
+        "Supports various shader languages (GLSL)"
+      ],
+      "website": "https://www.khronos.org/opengl/"
+    },
+    {
+      "name": "bgfx",
+      "license": "Open Source (BSD 2-clause)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "WebAssembly (Web)"
+      ],
+      "mainFeatures": [
+        "Graphics API agnostic abstraction",
+        "Cross-platform rendering library",
+        "Supports multiple rendering backends (D3D9-12, Metal, OpenGL, Vulkan, WebGPU, etc.)",
+        "Bring Your Own Engine/Framework style",
+        "C++ library"
+      ],
+      "website": "https://github.com/bkaradzic/bgfx"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Direct3D (DirectX)",
+    "Vulkan"
+  ],
+  "marketPositioning": "wgpu positions itself as a leading, safe, and performant WebGPU implementation in Rust. It serves as a crucial bridge for Rust developers aiming for modern GPU-accelerated graphics and computation across diverse native platforms (Windows, macOS, Linux, mobile) and the web. By abstracting lower-level, platform-specific APIs like Vulkan, Metal, and Direct3D 12, it simplifies cross-platform development while leveraging the performance benefits of these modern backends. Its adherence to the WebGPU standard also positions it as a natural successor or alternative to WebGL for web graphics and a strong choice for applications requiring a unified API across web and native environments. Compared to older APIs like OpenGL, it offers a more modern design aligned with current GPU architectures, and its Rust implementation provides inherent memory safety advantages over C/C++ alternatives."
+}

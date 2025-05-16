@@ -1,0 +1,94 @@
+{
+  "projectName": "miniquad",
+  "projectPurpose": "To provide a simple, low-level, cross-platform graphics rendering library for Rust.",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web (WASM)"
+  ],
+  "mainFeatures": [
+    "Cross-platform rendering API",
+    "Window creation and management",
+    "Input event handling",
+    "Minimalistic design"
+  ],
+  "website": "https://github.com/not-fl3/miniquad",
+  "alternatives": [
+    {
+      "name": "wgpu",
+      "license": "Open Source - Apache 2.0, MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "mainFeatures": [
+        "Cross-platform GPU API abstraction",
+        "Based on WebGPU standard",
+        "Supports WGSL, SPIR-V, GLSL shaders",
+        "Suitable for graphics and compute"
+      ],
+      "website": "https://github.com/gfx-rs/wgpu/"
+    },
+    {
+      "name": "ggez",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web (WASM - focus area)"
+      ],
+      "mainFeatures": [
+        "Lightweight 2D game framework",
+        "Inspired by L\u00d6VE2D",
+        "2D drawing, sound, resource loading",
+        "Event handling"
+      ],
+      "website": "https://ggez.rs/"
+    },
+    {
+      "name": "bevy",
+      "license": "Open Source - MIT OR Apache 2.0",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web (WASM)",
+        "iOS",
+        "Android"
+      ],
+      "mainFeatures": [
+        "Data-driven ECS game engine",
+        "2D and 3D rendering",
+        "Modular architecture",
+        "UI system"
+      ],
+      "website": "https://bevyengine.org/"
+    },
+    {
+      "name": "macroquad",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "HTML5 (Web)",
+        "Android",
+        "iOS"
+      ],
+      "mainFeatures": [
+        "Simple and easy-to-use 2D graphics",
+        "Inspired by raylib",
+        "Abstracts Rust complexities",
+        "Built on miniquad"
+      ],
+      "website": "https://github.com/not-fl3/macroquad"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "Bevy"
+  ],
+  "marketPositioning": "miniquad is a minimal, cross-platform rendering library for Rust developers. It provides a low-level API to handle window creation, input events, and graphics rendering across various platforms, including Windows, macOS, Linux, and Web (WASM). Designed as a foundational layer, miniquad abstracts away platform-specific complexities, making it suitable for building custom graphics applications or serving as the base for higher-level frameworks and game engines like macroquad."
+}

@@ -1,0 +1,135 @@
+{
+  "projectName": "amazon-q-developer-cli",
+  "projectPurpose": "To provide developers with an AI-powered assistant accessible directly within their terminal, allowing them to perform coding tasks and build applications using natural language instructions, thereby streamlining workflows and potentially reducing the need to remember complex commands or switch contexts to external tools or IDEs. It aims to bring 'agentic' capabilities to the command line environment.",
+  "platforms": [
+    "macOS",
+    "Linux",
+    "Windows (via WSL)"
+  ],
+  "mainFeatures": [
+    "Agentic AI experience in the terminal",
+    "Building applications using natural language",
+    "Natural language to executable shell code translation",
+    "Contextually relevant CLI autocompletion",
+    "Code transformation capabilities (e.g., for Java)"
+  ],
+  "website": "https://github.com/aws/amazon-q-developer-cli",
+  "alternatives": [
+    {
+      "name": "GitHub Copilot CLI",
+      "license": "Proprietary (part of GitHub Copilot subscription)",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Translate natural language to shell commands",
+        "Translate natural language to Git commands",
+        "Translate natural language to GitHub CLI commands",
+        "Explain commands"
+      ],
+      "website": "https://github.com/features/copilot/"
+    },
+    {
+      "name": "Codeium",
+      "license": "Freemium/Proprietary (with free tier)",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux (via IDE extensions)"
+      ],
+      "mainFeatures": [
+        "Code completion (single and multi-line)",
+        "In-line code generation and editing via natural language (Command)",
+        "Codebase awareness",
+        "Supports over 70 languages"
+      ],
+      "website": "https://www.codeium.com/"
+    },
+    {
+      "name": "Cursor",
+      "license": "Freemium/Proprietary",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "AI-powered code completion and generation",
+        "Chat interface for codebase interaction",
+        "Multi-file editing capabilities",
+        "Error correction and debugging assistance"
+      ],
+      "website": "https://cursor.sh/"
+    },
+    {
+      "name": "Aider",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via WSL)"
+      ],
+      "mainFeatures": [
+        "Pair programming with LLMs in the terminal",
+        "Edit code across multiple files",
+        "Git integration (automatic commits)",
+        "Supports various LLMs (cloud and local)"
+      ],
+      "website": "https://aider.chat/"
+    },
+    {
+      "name": "Mentat",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows (via WSL)"
+      ],
+      "mainFeatures": [
+        "CLI-based coding agent",
+        "Understands project context",
+        "Coordinates edits across multiple files",
+        "Generates and executes Python code from prompts"
+      ],
+      "website": "https://github.com/Mentat-AI/mentat"
+    },
+    {
+      "name": "Warp",
+      "license": "Proprietary (with free tier)",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "mainFeatures": [
+        "Intelligent terminal with built-in AI",
+        "Agent Mode for code tasks via natural language",
+        "Command suggestion and explanation",
+        "Collaborative features (Warp Drive)"
+      ],
+      "website": "https://www.warp.dev/"
+    },
+    {
+      "name": "OpenAI Codex CLI",
+      "license": "Open Source - MIT",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "mainFeatures": [
+        "Lightweight coding agent in the terminal",
+        "Read, modify, and run code locally",
+        "Supports multimodal inputs",
+        "Configurable automation modes (Suggest, Auto Edit, Full Auto)"
+      ],
+      "website": "https://github.com/openai/codex"
+    }
+  ],
+  "mostWellKnownAlternative": [
+    "GitHub Copilot"
+  ],
+  "marketPositioning": "Amazon Q Developer CLI is positioned as an agentic AI assistant providing a direct command-line interface for building applications using natural language. Its key differentiators include its deep integration within the terminal environment, its focus on agentic capabilities for multi-step tasks, and its strong tie-in with the AWS ecosystem, catering specifically to developers working on AWS.",
+  "expandedDescription": "Amazon Q Developer CLI is an agentic AI experience delivered directly in your terminal, designed to assist developers in building applications using natural language. It allows for interactive conversations, questions, and responses within the command line interface and translates natural language instructions into executable shell code snippets. The tool provides contextually aware autocompletion for a wide range of popular command-line tools, including Git, npm, Docker, and AWS CLIs. Beyond basic assistance, Amazon Q Developer CLI also offers advanced capabilities such as automated code transformations, particularly beneficial for modernizing Java applications by handling tasks like API updates and version migrations through batch processing. As a component of the broader Amazon Q Developer suite, it is integrated with AWS services, making it a compelling tool for developers deeply embedded in the AWS cloud environment. The project is currently available for macOS and Linux, with ongoing efforts for Windows support."
+}
