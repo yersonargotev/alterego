@@ -17,7 +17,10 @@ export default function Layout({ children }: { children: ReactNode }) {
   const blogs = getBlogs();
 
   return (
-    <SidebarProvider defaultOpen={true} className="grid h-dvh grid-rows-[auto_1fr]">
+    <SidebarProvider
+      defaultOpen={true}
+      className="grid h-dvh grid-rows-[auto_1fr]"
+    >
       {/* Wrapper for the entire layout */}
       <div className="flex h-full w-full">
         {/* Blog Sidebar */}
@@ -50,9 +53,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           </header>
 
           {/* Main content with scroll */}
-          <main className="flex-1 overflow-y-auto">
-            {children}
-          </main>
+          <main className="flex-1 overflow-y-auto">{children}</main>
         </div>
       </div>
     </SidebarProvider>
