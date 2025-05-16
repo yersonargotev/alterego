@@ -11,10 +11,10 @@ export default function Layout({ children }: { children: ReactNode }) {
       defaultOpen={true}
       className="grid h-dvh grid-rows-[auto_1fr]"
     >
-      <div className="row-span-2 flex">
+      <div className="flex h-full">
         <BlogSidebar blogs={blogs} />
-        <main className="flex flex-1 overflow-auto">
-          <div className="grid flex-1 px-4">{children}</div>
+        <main className="flex-1 overflow-auto">
+          <div className="flex-1 px-4">{children}</div>
         </main>
       </div>
     </SidebarProvider>

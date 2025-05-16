@@ -24,7 +24,7 @@ export default async function MorePage({
       // For server components, we need to handle this differently
       // We'll show an error message with a link back
       return (
-        <div className="container mx-auto py-8 text-center">
+        <div className="max-w-5xl mx-auto py-8 text-center">
           <h1 className="text-2xl font-bold text-red-500">
             Page Not Available
           </h1>
@@ -49,7 +49,7 @@ export default async function MorePage({
     const readmeContent = await fs.readFile(readmePath, 'utf-8');
 
     return (
-      <div className="container mx-auto py-8">
+      <div className="max-w-5xl mx-auto py-8">
         {/* Back button to main page */}
         <div className="mb-8">
           <Link
@@ -88,7 +88,7 @@ export default async function MorePage({
   } catch (error) {
     console.error('Error rendering page:', error);
     return (
-      <div className="container mx-auto py-12 text-center">
+      <div className="max-w-5xl mx-auto py-12 text-center">
         <h1 className="text-2xl font-bold text-red-500">
           Error Loading Content
         </h1>
