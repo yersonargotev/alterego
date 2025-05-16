@@ -4,9 +4,16 @@ import { Badge } from '@/components/ui/badge';
 interface BadgeProps {
     text: string;
     className?: string;
+    size?: 'sm' | 'md' | 'lg';
+    fixedWidth?: boolean;
 }
 
-const PlatformBadge: React.FC<BadgeProps> = ({ text, className }) => {
+const PlatformBadge: React.FC<BadgeProps> = ({
+    text,
+    className,
+    size = 'md',
+    fixedWidth = false
+}) => {
     const getBadgeStyle = () => {
         const isCloud = text.toLowerCase().includes('cloud');
         const isKubernetes = text.toLowerCase().includes('kubernetes');
@@ -28,17 +35,38 @@ const PlatformBadge: React.FC<BadgeProps> = ({ text, className }) => {
         return 'bg-slate-100 dark:bg-slate-800/40 hover:bg-slate-200 dark:hover:bg-slate-700/60';
     };
 
-    // Determinar el ancho máximo basado en la longitud del texto
-    const getMaxWidth = () => {
-        if (text.length > 15) return 'max-w-[200px]';
-        if (text.length > 10) return 'max-w-[150px]';
-        return 'max-w-[90px]';
+    // Size classes based on the size prop
+    const getSizeClasses = () => {
+        switch (size) {
+            case 'sm': return 'text-xs py-0.5 px-2';
+            case 'lg': return 'text-sm py-1 px-3';
+            default: return 'text-xs py-0.5 px-2.5'; // md
+        }
+    };
+
+    // Width classes based on fixedWidth prop
+    const getWidthClasses = () => {
+        if (!fixedWidth) return '';
+
+        switch (size) {
+            case 'sm': return 'w-20';
+            case 'lg': return 'w-32';
+            default: return 'w-24'; // md
+        }
     };
 
     return (
         <Badge
             variant="secondary"
-            className={`transition-colors ${getMaxWidth()} overflow-hidden ${getBadgeStyle()} ${className || ''}`}
+            className={`
+                transition-colors 
+                ${getSizeClasses()}
+                ${getWidthClasses()}
+                ${getBadgeStyle()} 
+                text-center
+                ${fixedWidth ? 'justify-center' : ''}
+                ${className || ''}
+            `}
             title={text}
         >
             <span className="truncate block">{text}</span>
