@@ -89,7 +89,7 @@ export function getBlogs(): BlogItem[] {
       if (matchingDir) {
         result.push({
           slug: matchingDir, // Use the actual directory name as slug
-          title: `${project.name} by ${project.author}`,
+          title: `${project.name.charAt(0).toUpperCase() + project.name.slice(1)} by ${project.author.charAt(0).toUpperCase() + project.author.slice(1)}`,
           author: project.author,
           name: project.name,
           description: project.description,
