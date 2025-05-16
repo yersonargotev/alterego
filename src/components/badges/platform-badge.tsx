@@ -1,7 +1,18 @@
+'use client';
+
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
+import { PlatformIcon, type Platform } from '@/components/icons/platforms';
+import { useTheme } from 'next-themes';
+import dynamic from 'next/dynamic';
+
+// Renderizado solo en cliente para evitar problemas de hidratación con SVG
+const ClientPlatformIcon = dynamic(() => Promise.resolve(PlatformIcon), {
+    ssr: false,
+});
 
 interface BadgeProps {
+    platform?: Platform;
     text: string;
     className?: string;
     size?: 'sm' | 'md' | 'lg';
@@ -9,38 +20,65 @@ interface BadgeProps {
 }
 
 const PlatformBadge: React.FC<BadgeProps> = ({
+    platform,
     text,
     className,
     size = 'md',
-    fixedWidth = false
+    fixedWidth = false,
 }) => {
-    const getBadgeStyle = () => {
-        const isCloud = text.toLowerCase().includes('cloud');
-        const isKubernetes = text.toLowerCase().includes('kubernetes');
-        const isDocker = text.toLowerCase().includes('docker');
-        const isSelfHosted = text.toLowerCase().includes('self-hosted');
-        const isMultiPlatform = text.toLowerCase().includes('multi-platform');
+    const { resolvedTheme } = useTheme();
+    const currentTheme = (resolvedTheme || 'light') as 'light' | 'dark';
 
-        if (isCloud && !isMultiPlatform)
-            return 'bg-blue-100 dark:bg-blue-900/20 hover:bg-blue-200 dark:hover:bg-blue-800/40';
-        if (isKubernetes)
-            return 'bg-indigo-100 dark:bg-indigo-900/20 hover:bg-indigo-200 dark:hover:bg-indigo-800/40';
-        if (isDocker)
-            return 'bg-sky-100 dark:bg-sky-900/20 hover:bg-sky-200 dark:hover:bg-sky-800/40';
-        if (isSelfHosted && !isMultiPlatform)
-            return 'bg-emerald-100 dark:bg-emerald-900/20 hover:bg-emerald-200 dark:hover:bg-emerald-800/40';
-        if (isMultiPlatform)
-            return 'bg-purple-100 dark:bg-purple-900/20 hover:bg-purple-200 dark:hover:bg-purple-800/40';
+    // Determine platform type from text if not explicitly provided
+    const determinePlatform = (): Platform => {
+        if (platform) return platform;
 
-        return 'bg-slate-100 dark:bg-slate-800/40 hover:bg-slate-200 dark:hover:bg-slate-700/60';
+        const textLower = text.toLowerCase();
+        if (textLower.includes('ios')) return 'ios';
+        if (textLower.includes('chrome')) return 'chrome';
+        if (textLower.includes('browser') || textLower.includes('web')) return 'browser';
+        if (textLower.includes('java')) return 'java';
+        if (textLower.includes('raspberry')) return 'raspberry';
+        if (textLower.includes('windows')) return 'windows';
+        if (textLower.includes('macos') || textLower.includes('mac os'))
+            return 'macos';
+        if (textLower.includes('apple') && !textLower.includes('android'))
+            return 'apple';
+        if (textLower.includes('linux')) return 'linux';
+        if (textLower.includes('android')) return 'android';
+        if (textLower.includes('docker')) return 'docker';
+        if (textLower.includes('kubernetes') || textLower.includes('k8s'))
+            return 'kubernetes';
+        if (textLower.includes('cloud')) return 'cloud';
+        if (textLower.includes('self') || textLower.includes('hosted'))
+            return 'self';
+
+        return 'desktop'; // default fallback
     };
+
+    const platformType = determinePlatform();
 
     // Size classes based on the size prop
     const getSizeClasses = () => {
         switch (size) {
-            case 'sm': return 'text-xs py-0.5 px-2';
-            case 'lg': return 'text-sm py-1 px-3';
-            default: return 'text-xs py-0.5 px-2.5'; // md
+            case 'sm':
+                return 'text-xs py-0.5 px-2';
+            case 'lg':
+                return 'text-sm py-1 px-3';
+            default:
+                return 'text-xs py-0.5 px-2.5'; // md
+        }
+    };
+
+    // Icon size classes based on badge size
+    const getIconSizeClasses = () => {
+        switch (size) {
+            case 'sm':
+                return 'w-3 h-3';
+            case 'lg':
+                return 'w-5 h-5';
+            default:
+                return 'w-4 h-4'; // md
         }
     };
 
@@ -49,9 +87,12 @@ const PlatformBadge: React.FC<BadgeProps> = ({
         if (!fixedWidth) return '';
 
         switch (size) {
-            case 'sm': return 'w-20';
-            case 'lg': return 'w-32';
-            default: return 'w-24'; // md
+            case 'sm':
+                return 'w-8';
+            case 'lg':
+                return 'w-12';
+            default:
+                return 'w-10'; // md
         }
     };
 
@@ -62,16 +103,18 @@ const PlatformBadge: React.FC<BadgeProps> = ({
                 transition-colors 
                 ${getSizeClasses()}
                 ${getWidthClasses()}
-                ${getBadgeStyle()} 
                 text-center
+                bg-transparent
                 ${fixedWidth ? 'justify-center' : ''}
                 ${className || ''}
             `}
             title={text}
         >
-            <span className="truncate block">{text}</span>
+            <div className={getIconSizeClasses()}>
+                <ClientPlatformIcon platform={platformType} theme={currentTheme} />
+            </div>
         </Badge>
     );
 };
 
-export default PlatformBadge; 
+export default PlatformBadge;

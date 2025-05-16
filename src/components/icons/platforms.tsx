@@ -7,6 +7,9 @@ import {
   Android,
   Docker,
   Kubernetes,
+  Chrome,
+  RaspberryPI,
+  Java,
 } from '@ridemountainpig/svgl-react';
 import { Cloudy, Monitor, PcCase } from 'lucide-react';
 
@@ -20,7 +23,12 @@ export type Platform =
   | 'desktop'
   | 'self'
   | 'cloud'
-  | 'macos';
+  | 'macos'
+  | 'ios'
+  | 'chrome'
+  | 'browser'
+  | 'raspberry'
+  | 'java';
 
 export interface PlatformIconsProps {
   platform: Platform;
@@ -67,6 +75,26 @@ const Icons = {
   macos: {
     light: AppleLight,
     dark: AppleDark,
+  },
+  ios: {
+    light: AppleLight,
+    dark: AppleDark,
+  },
+  chrome: {
+    light: Chrome,
+    dark: Chrome,
+  },
+  browser: {
+    light: Chrome,
+    dark: Chrome,
+  },
+  raspberry: {
+    light: RaspberryPI,
+    dark: RaspberryPI,
+  },
+  java: {
+    light: Java,
+    dark: Java,
   },
 };
 
