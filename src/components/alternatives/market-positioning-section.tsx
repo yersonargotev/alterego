@@ -19,21 +19,18 @@ const MarketPositioningSection: React.FC<MarketPositioningSectionProps> = ({ dat
                     {data.marketPositioning}
                 </p>
             </div>
-            {data.mostWellKnownAlternative &&
-                data.mostWellKnownAlternative.length > 0 && (
-                    <div className="mt-4 pt-4 border-t border-border/40 overflow-hidden">
-                        <p className="text-sm flex flex-wrap items-center gap-x-2 overflow-hidden">
-                            <span className="font-medium flex-shrink-0">
-                                Often compared with:
-                            </span>
-                            <span className="flex flex-wrap gap-1.5 overflow-hidden">
-                                {data.mostWellKnownAlternative.map((alt) => (
-                                    <ComparisonBadge key={alt} text={alt} />
-                                ))}
-                            </span>
-                        </p>
-                    </div>
-                )}
+            {data.mostWellKnownAlternative && (
+                <div className="mt-4 pt-4 border-t border-border/40 overflow-hidden">
+                    <p className="text-sm flex flex-wrap items-center gap-x-2 overflow-hidden">
+                        <span className="font-medium flex-shrink-0">
+                            Often compared with:
+                        </span>
+                        <span className="flex flex-wrap gap-1.5 overflow-hidden">
+                            <ComparisonBadge text={data.mostWellKnownAlternative} />
+                        </span>
+                    </p>
+                </div>
+            )}
         </section>
     );
 };

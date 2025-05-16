@@ -13,6 +13,6 @@ export interface AlternativesData {
   mainFeatures: string[];
   website: string;
   alternatives: Alternative[];
-  mostWellKnownAlternative: string[];
+  mostWellKnownAlternative: string;
   marketPositioning: string;
 }
