@@ -13,8 +13,6 @@ import {
   Settings2,
   SquareTerminal,
 } from 'lucide-react';
-
-import { BlogNav } from '@/components/blog-nav';
 import { NavMain } from '@/components/nav-main';
 import { NavProjects } from '@/components/nav-projects';
 import { NavUser } from '@/components/nav-user';
@@ -175,7 +173,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />
-        <BlogNav blogs={data.blogs} />
         <NavProjects projects={data.projects} />
       </SidebarContent>
       <SidebarFooter>
