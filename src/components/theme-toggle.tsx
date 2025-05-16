@@ -46,13 +46,18 @@ export function ThemeToggle() {
     }
   };
 
+  // Type guard for checking if startViewTransition is available
+  function supportsViewTransitions(): boolean {
+    return 'startViewTransition' in document;
+  }
+
   const toggleTheme = () => {
-    // @ts-ignore
-    if (!document.startViewTransition) {
+    if (!supportsViewTransitions()) {
       switchTheme();
     } else {
-      // @ts-ignore
-      document.startViewTransition(switchTheme);
+      // Using type assertion with Document interface
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (document as any).startViewTransition(switchTheme);
     }
   };
 
