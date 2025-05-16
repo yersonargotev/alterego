@@ -5,6 +5,7 @@ import { BookOpen } from 'lucide-react';
 import Link from 'next/link';
 
 import { BlogNav } from '@/components/blog-nav';
+import { BlogFilter } from '@/components/blog-filter';
 import type { BlogItem } from '@/lib/get-blogs';
 import {
   Sidebar,
@@ -19,6 +20,8 @@ export function BlogSidebar({
 }: React.ComponentProps<typeof Sidebar> & {
   blogs: BlogItem[];
 }) {
+  const [filteredBlogs, setFilteredBlogs] = React.useState<BlogItem[]>(blogs);
+
   return (
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
@@ -33,7 +36,8 @@ export function BlogSidebar({
         </Link>
       </SidebarHeader>
       <SidebarContent>
-        <BlogNav blogs={blogs} />
+        <BlogFilter blogs={blogs} onFilter={setFilteredBlogs} />
+        <BlogNav blogs={filteredBlogs} />
       </SidebarContent>
       <SidebarRail />
     </Sidebar>
