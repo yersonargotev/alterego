@@ -2,12 +2,13 @@
 
 import NextImage from 'next/image';
 import { cn } from '@/lib/utils';
+import { useState } from 'react';
 
 interface ImageProps {
   src: string;
   alt: string;
   caption?: string;
-  title?: string; // Optional title
+  title?: string;
   width?: number;
   height?: number;
   className?: string;
@@ -18,27 +19,38 @@ const Image = ({
   alt,
   caption,
   title,
-  width = 700,
-  height = 400,
+  width = 800,
+  height = 450,
   className,
 }: ImageProps) => {
+  const [isLoading, setLoading] = useState(true);
+
   return (
-    <figure className="w-full mb-4">
+    <figure className="w-full my-8">
       <div
-        className={cn('relative overflow-hidden rounded-md border', className)}
+        className={cn(
+          'relative overflow-hidden rounded-lg shadow-md border border-border',
+          isLoading ? 'bg-muted animate-pulse' : '',
+          className
+        )}
       >
         <NextImage
           src={src}
           alt={alt}
-          title={title || alt} // Use title if provided; fallback to alt
+          title={title || alt}
           width={width}
           height={height}
-          className="w-full h-auto"
+          className={cn(
+            'w-full h-auto transition-all duration-500',
+            isLoading ? 'scale-110 blur-sm' : 'scale-100 blur-0'
+          )}
+          onLoadingComplete={() => setLoading(false)}
           style={{ objectFit: 'cover' }}
+          priority={true}
         />
       </div>
       {caption && (
-        <figcaption className="text-sm text-muted-foreground mt-2 text-center">
+        <figcaption className="text-sm text-muted-foreground mt-3 text-center italic">
           {caption}
         </figcaption>
       )}

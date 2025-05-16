@@ -3,6 +3,7 @@ import path from 'node:path';
 import { Prose } from '@/components/mdx/prose-wrapper';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import Link from 'next/link';
+import ReadingProgress from '@/components/mdx/reading-progress';
 
 // Helper function to get content directories (reused from parent page)
 async function getContentDirectories() {
@@ -13,34 +14,17 @@ async function getContentDirectories() {
   return entries.filter((entry) => entry.isDirectory()).map((dir) => dir.name);
 }
 
-export default async function MorePage({
-  params,
-}: { params: { slug: string } }) {
+interface PageParams {
+  params: {
+    slug: string;
+  };
+  searchParams?: Record<string, string | string[]>;
+}
+
+export default async function MorePage({ params }: PageParams) {
   const { slug } = params;
 
   try {
-    // If slug is 'welcome' or 'about', redirect to main page as these don't have a "more" page
-    if (slug === 'welcome' || slug === 'about') {
-      // For server components, we need to handle this differently
-      // We'll show an error message with a link back
-      return (
-        <div className="max-w-5xl mx-auto py-8 text-center">
-          <h1 className="text-2xl font-bold text-red-500">
-            Page Not Available
-          </h1>
-          <p className="mt-4">This content doesn't have a detailed page.</p>
-          <div className="mt-6">
-            <Link
-              href={`/blog/${slug}`}
-              className="inline-block px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
-            >
-              Back to Main Page
-            </Link>
-          </div>
-        </div>
-      );
-    }
-
     // Load the readme.md file content
     const readmePath = path.join(
       process.cwd(),
@@ -49,56 +33,60 @@ export default async function MorePage({
     const readmeContent = await fs.readFile(readmePath, 'utf-8');
 
     return (
-      <div className="max-w-5xl mx-auto py-8">
-        {/* Back button to main page */}
-        <div className="mb-8">
-          <Link
-            href={`/blog/${slug}`}
-            className="inline-flex items-center px-4 py-2 text-blue-600 hover:text-blue-800"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="mr-2"
+      <>
+        <ReadingProgress />
+        <div className="container max-w-3xl mx-auto px-4 py-12">
+          {/* Back button to main page */}
+          <div className="mb-8">
+            <Link
+              href={`/blog/${slug}`}
+              className="group inline-flex items-center text-muted-foreground hover:text-foreground transition-colors duration-200"
             >
-              <path d="M19 12H5M12 19l-7-7 7-7" />
-            </svg>
-            Back to Overview
-          </Link>
-        </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="mr-2 group-hover:transform group-hover:-translate-x-1 transition-transform duration-200"
+              >
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+              <span>Back to Overview</span>
+            </Link>
+          </div>
 
-        {/* Display the README markdown content */}
-        <div className="border-t pt-8">
-          <h1 className="text-3xl font-bold mb-6 text-center">
-            More Information
-          </h1>
-          <Prose>
-            <MDXRemote source={readmeContent} />
-          </Prose>
+          {/* Display the README markdown content */}
+          <article className="bg-card rounded-lg shadow-sm p-8 border border-border">
+            <h1 className="head-text-md mb-8 text-center">
+              More Information
+            </h1>
+            <div className="w-full h-[1px] bg-border mb-8" />
+            <Prose className="text-card-foreground">
+              <MDXRemote source={readmeContent} />
+            </Prose>
+          </article>
         </div>
-      </div>
+      </>
     );
   } catch (error) {
     console.error('Error rendering page:', error);
     return (
-      <div className="max-w-5xl mx-auto py-12 text-center">
-        <h1 className="text-2xl font-bold text-red-500">
-          Error Loading Content
-        </h1>
-        <p className="mt-4">
-          The detailed content could not be loaded. Please try again later.
-        </p>
-        <div className="mt-6">
+      <div className="container max-w-3xl mx-auto px-4 py-12 text-center">
+        <div className="bg-card rounded-lg shadow-sm p-8 border border-destructive">
+          <h1 className="head-text-sm text-destructive mb-4">
+            Error Loading Content
+          </h1>
+          <p className="text-muted-foreground mb-6">
+            The detailed content could not be loaded. Please try again later.
+          </p>
           <Link
             href={`/blog/${slug}`}
-            className="inline-block px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+            className="inline-flex items-center px-4 py-2 rounded-md bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
           >
             Back to Main Page
           </Link>

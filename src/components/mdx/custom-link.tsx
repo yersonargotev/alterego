@@ -12,7 +12,7 @@ const CustomLink = ({
   const isExternalLink = href.startsWith('http');
 
   const className =
-    'text-primary hover:underline hover:text-primary/90 transition-colors';
+    'relative inline-flex items-center text-primary underline-offset-4 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 after:bg-current after:transition-all hover:after:w-full focus:outline-ring';
 
   if (isExternalLink) {
     return (
@@ -23,6 +23,20 @@ const CustomLink = ({
         className={className}
       >
         {children}
+        <svg
+          className="ml-1 h-3 w-3"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+          <polyline points="15 3 21 3 21 9" />
+          <line x1="10" y1="14" x2="21" y2="3" />
+        </svg>
       </a>
     );
   }

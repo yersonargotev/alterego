@@ -13,7 +13,12 @@ export function Prose({
 }) {
   return (
     <div
-      className={`prose prose-lg max-w-none dark:prose-invert ${className || ''}`}
+      className={`prose prose-lg max-w-none dark:prose-invert 
+      prose-headings:font-heading prose-headings:tracking-tight prose-headings:leading-tight
+      prose-a:text-primary prose-a:no-underline hover:prose-a:underline
+      prose-img:rounded-lg prose-img:shadow-sm
+      prose-blockquote:border-l-4 prose-blockquote:border-primary/20 prose-blockquote:bg-accent/50 prose-blockquote:p-4 prose-blockquote:rounded-r-lg
+      ${className || ''}`}
     >
       {children}
     </div>

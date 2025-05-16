@@ -278,7 +278,7 @@ const AlternativesDisplay: React.FC<AlternativesProps> = ({ data }) => {
                                     Often compared with:
                                 </span>
                                 <span className="flex flex-wrap gap-1.5 overflow-hidden">
-                                    {data.mostWellKnownAlternative.map((alt, index) => (
+                                    {data.mostWellKnownAlternative.map((alt) => (
                                         <ComparisonBadge key={alt} text={alt} />
                                     ))}
                                 </span>
