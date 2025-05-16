@@ -1,7 +1,7 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { Prose } from '@/components/mdx/prose-wrapper';
-import { MDXRemote } from 'next-mdx-remote/rsc';
+import ReactMarkdown from 'react-markdown';
 import Link from 'next/link';
 import ReadingProgress from '@/components/mdx/reading-progress';
 
@@ -67,7 +67,7 @@ export default async function MorePage({
             </h1>
             <div className="w-full h-[1px] bg-border mb-8" />
             <Prose className="text-card-foreground">
-              <MDXRemote source={readmeContent} />
+              <ReactMarkdown>{readmeContent}</ReactMarkdown>
             </Prose>
           </article>
         </div>
