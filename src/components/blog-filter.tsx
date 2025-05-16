@@ -14,47 +14,54 @@ import { Button } from '@/components/ui/button';
 
 interface BlogFilterProps {
     blogs: BlogItem[];
-    onFilter: (filteredBlogs: BlogItem[]) => void;
+    onFilter: (filteredBlogs: BlogItem[], searchTerm: string) => void;
 }
 
 export function BlogFilter({ blogs, onFilter }: BlogFilterProps) {
     const [searchQuery, setSearchQuery] = React.useState('');
     const [isSearchOpen, setIsSearchOpen] = React.useState(false);
+    const [isSearching, setIsSearching] = React.useState(false);
     const { state } = useSidebar();
     const isCollapsed = state === 'collapsed';
 
     const inputRef = React.useRef<HTMLInputElement>(null);
 
+    // Debounce para evitar demasiadas peticiones durante escritura rápida
+    const debouncedSearchTerm = useDebounce(searchQuery, 300);
+
+    // Efecto para manejar la búsqueda cuando cambia el término debounced
     React.useEffect(() => {
-        if (!searchQuery.trim()) {
-            // If search is empty, return all blogs
-            onFilter(blogs);
-            return;
-        }
+        const performSearch = async () => {
+            if (!debouncedSearchTerm.trim()) {
+                // Si la búsqueda está vacía, mostrar todos los blogs cargados
+                onFilter(blogs, '');
+                return;
+            }
 
-        const query = searchQuery.toLowerCase().trim();
+            try {
+                setIsSearching(true);
 
-        const filteredBlogs = blogs.filter((blog) => {
-            // Check title (which includes author and name)
-            if (blog.title.toLowerCase().includes(query)) return true;
+                // Buscar en todos los blogs disponibles en el servidor
+                const response = await fetch(`/api/blogs/search?q=${encodeURIComponent(debouncedSearchTerm)}`);
 
-            // Check name separately
-            if (blog.name.toLowerCase().includes(query)) return true;
+                if (!response.ok) {
+                    throw new Error(`API error: ${response.status}`);
+                }
 
-            // Check author separately 
-            if (blog.author.toLowerCase().includes(query)) return true;
+                const data = await response.json();
+                onFilter(data.blogs, debouncedSearchTerm);
+            } catch (error) {
+                console.error('Error al buscar blogs:', error);
+                // En caso de error, filtrar localmente como fallback
+                const filteredBlogs = filterBlogsLocally(blogs, debouncedSearchTerm);
+                onFilter(filteredBlogs, debouncedSearchTerm);
+            } finally {
+                setIsSearching(false);
+            }
+        };
 
-            // Check slug
-            if (blog.slug.toLowerCase().includes(query)) return true;
-
-            // Check description
-            if (blog.description.toLowerCase().includes(query)) return true;
-
-            return false;
-        });
-
-        onFilter(filteredBlogs);
-    }, [searchQuery, blogs, onFilter]);
+        performSearch();
+    }, [debouncedSearchTerm, blogs, onFilter]);
 
     // Close search if sidebar collapses and search was open
     React.useEffect(() => {
@@ -69,6 +76,19 @@ export function BlogFilter({ blogs, onFilter }: BlogFilterProps) {
             inputRef.current.focus();
         }
     }, [isSearchOpen]);
+
+    // Función de filtrado local como fallback
+    const filterBlogsLocally = (blogs: BlogItem[], query: string): BlogItem[] => {
+        const searchTerm = query.toLowerCase().trim();
+        return blogs.filter((blog) => {
+            if (blog.title?.toLowerCase().includes(searchTerm)) return true;
+            if (blog.name?.toLowerCase().includes(searchTerm)) return true;
+            if (blog.author?.toLowerCase().includes(searchTerm)) return true;
+            if (blog.slug?.toLowerCase().includes(searchTerm)) return true;
+            if (blog.description?.toLowerCase().includes(searchTerm)) return true;
+            return false;
+        });
+    };
 
     if (isCollapsed) {
         return (
@@ -108,6 +128,11 @@ export function BlogFilter({ blogs, onFilter }: BlogFilterProps) {
                                 }}
                                 onBlur={() => setIsSearchOpen(false)}
                             />
+                            {isSearching && (
+                                <div className="absolute right-2 top-1/2 h-4 w-4 -translate-y-1/2">
+                                    <div className="animate-spin rounded-full h-3 w-3 border-t-2 border-b-2 border-primary" />
+                                </div>
+                            )}
                         </div>
                     </div>
                 )}
@@ -126,7 +151,29 @@ export function BlogFilter({ blogs, onFilter }: BlogFilterProps) {
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                 />
+                {isSearching && (
+                    <div className="absolute right-2 top-1/2 h-4 w-4 -translate-y-1/2">
+                        <div className="animate-spin rounded-full h-3 w-3 border-t-2 border-b-2 border-primary" />
+                    </div>
+                )}
             </div>
         </div>
     );
+}
+
+// Hook de debounce para evitar demasiadas peticiones durante la escritura
+function useDebounce<T>(value: T, delay: number): T {
+    const [debouncedValue, setDebouncedValue] = React.useState<T>(value);
+
+    React.useEffect(() => {
+        const handler = setTimeout(() => {
+            setDebouncedValue(value);
+        }, delay);
+
+        return () => {
+            clearTimeout(handler);
+        };
+    }, [value, delay]);
+
+    return debouncedValue;
 } 

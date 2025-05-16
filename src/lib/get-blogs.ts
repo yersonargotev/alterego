@@ -106,3 +106,26 @@ export function getBlogs(): BlogItem[] {
 
   return result;
 }
+
+/**
+ * Get paginated blog posts for infinite scrolling
+ * @param page The page number to fetch (1-based)
+ * @param pageSize Number of items per page
+ * @returns Array of blog items for the requested page
+ */
+export function getPagedBlogs(page = 1, pageSize = 9): BlogItem[] {
+  const allBlogs = getBlogs();
+
+  const startIndex = (page - 1) * pageSize;
+  const endIndex = startIndex + pageSize;
+
+  return allBlogs.slice(startIndex, endIndex);
+}
+
+/**
+ * Get the total count of blog posts
+ * @returns Total number of blog posts
+ */
+export function getBlogsCount(): number {
+  return getBlogs().length;
+}

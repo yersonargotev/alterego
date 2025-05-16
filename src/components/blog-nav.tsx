@@ -14,7 +14,7 @@ import {
   useSidebar,
 } from '@/components/ui/sidebar';
 
-export function BlogNav({ blogs }: { blogs: BlogItem[] }) {
+export function BlogNav({ blogs, isLoading }: { blogs: BlogItem[], isLoading?: boolean }) {
   const pathname = usePathname();
   const { state } = useSidebar();
   const isCollapsed = state === 'collapsed';
@@ -25,7 +25,7 @@ export function BlogNav({ blogs }: { blogs: BlogItem[] }) {
       <SidebarMenu>
         {blogs.length === 0 ? (
           <div className={`px-3 py-2 text-sm text-muted-foreground ${isCollapsed ? "hidden" : ""}`}>
-            No blogs found
+            {isLoading ? "Cargando blogs..." : "No blogs found"}
           </div>
         ) : (
           blogs.map((blog) => {

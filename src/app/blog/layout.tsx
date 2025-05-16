@@ -1,6 +1,6 @@
 import { BlogSidebar } from '@/components/blog-sidebar';
 import { Sidebar, SidebarProvider } from '@/components/ui/sidebar';
-import { getBlogs } from '@/lib/get-blogs';
+import { getPagedBlogs } from '@/lib/get-blogs';
 import type { ReactNode } from 'react';
 import {
   Breadcrumb,
@@ -15,7 +15,8 @@ import { SidebarTrigger } from '@/components/ui/sidebar';
 import { ProtectedContent } from '@/components/auth/protected-content';
 
 export default function Layout({ children }: { children: ReactNode }) {
-  const blogs = getBlogs();
+  // Get initial set of blogs for the sidebar (first page)
+  const initialBlogs = getPagedBlogs(1, 20);
 
   return (
     <ProtectedContent>
@@ -27,7 +28,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <div className="flex h-full w-full">
           {/* Blog Sidebar */}
           <Sidebar collapsible="icon">
-            <BlogSidebar blogs={blogs} />
+            <BlogSidebar initialBlogs={initialBlogs} />
           </Sidebar>
 
           {/* Main content area with fixed header */}
