@@ -31,7 +31,7 @@ export default function Page() {
                 dividerText: 'text-muted-foreground',
               }
             }}
-            fallbackRedirectUrl={redirectUrl || '/dashboard'}
+            fallbackRedirectUrl={redirectUrl || '/blog'}
           />
         </div>
       </div>
