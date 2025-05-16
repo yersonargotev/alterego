@@ -12,8 +12,8 @@ const BlogPage = () => {
     avatar: blog.avatar,
     url: blog.url,
     description: blog.description,
-    language: 'Rust', // All projects are Rust
-    languageColor: '#dea584', // Rust color
+    language: blog.language,
+    languageColor: blog.languageColor,
     stars: blog.stars,
     forks: blog.forks,
   }));
