@@ -6,6 +6,9 @@ import type { AlternativesData } from '@/types/alternatives';
 import Link from 'next/link';
 import { ArrowRight, BookOpen } from 'lucide-react';
 
+// Force this page to be static at build time
+export const dynamic = 'force-static';
+
 // Helper function to get content directory names
 async function getContentDirectories() {
   const contentPath = path.join(process.cwd(), 'src/content');

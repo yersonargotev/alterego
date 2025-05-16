@@ -1,6 +1,9 @@
 import RepoCard, { type RepoCardProps } from '@/components/repo-card';
 import { getBlogs } from '@/lib/get-blogs';
 
+// Force this page to be static at build time
+export const dynamic = 'force-static';
+
 const BlogPage = () => {
   // Get blog items from the getBlogs function
   const blogs = getBlogs();

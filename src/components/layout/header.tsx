@@ -1,3 +1,5 @@
+'use client';
+
 import { SignInButton } from '@clerk/nextjs';
 import { SignUpButton } from '@clerk/nextjs';
 import { SignedOut } from '@clerk/nextjs';

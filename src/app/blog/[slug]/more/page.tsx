@@ -5,6 +5,9 @@ import { MDXRemote } from 'next-mdx-remote/rsc';
 import Link from 'next/link';
 import ReadingProgress from '@/components/mdx/reading-progress';
 
+// Force this page to be static at build time
+export const dynamic = 'force-static';
+
 // Helper function to get content directories (reused from parent page)
 async function getContentDirectories() {
   const contentPath = path.join(process.cwd(), 'src/content');
