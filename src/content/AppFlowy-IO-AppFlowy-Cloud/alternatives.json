@@ -1,7 +1,7 @@
 {
   "projectName": "AppFlowy-Cloud",
   "projectPurpose": "To provide an open-source, AI-enhanced collaborative workspace platform for managing projects, creating wikis, and facilitating team collaboration with a focus on user data control.",
-  "platforms": [],
+  "platforms": ["Web", "Windows", "macOS", "Linux", "Android", "iOS"],
   "mainFeatures": [
     "Collaborative workspace",
     "Project management",
@@ -15,13 +15,7 @@
     {
       "name": "Notion",
       "license": "Proprietary (Freemium)",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Android",
-        "iOS",
-        "Web"
-      ],
+      "platforms": ["Windows", "macOS", "Android", "iOS", "Web"],
       "mainFeatures": [
         "Collaborative workspace",
         "Note-taking",
@@ -34,10 +28,7 @@
     {
       "name": "Coda",
       "license": "Proprietary (Freemium)",
-      "platforms": [
-        "Web",
-        "Mobile"
-      ],
+      "platforms": ["Web", "Mobile"],
       "mainFeatures": [
         "Docs, spreadsheets, applications blend",
         "AI integration",
@@ -50,14 +41,7 @@
     {
       "name": "ClickUp",
       "license": "Proprietary (Freemium)",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux",
-        "Android",
-        "iOS",
-        "Web"
-      ],
+      "platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Web"],
       "mainFeatures": [
         "Task management",
         "Project management",
@@ -70,14 +54,7 @@
     {
       "name": "Confluence (Atlassian)",
       "license": "Proprietary (Freemium, Paid tiers)",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux",
-        "Android",
-        "iOS",
-        "Web"
-      ],
+      "platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Web"],
       "mainFeatures": [
         "Collaborative knowledge base",
         "Wiki",
@@ -90,13 +67,7 @@
     {
       "name": "Obsidian",
       "license": "Freemium (Free for personal/commercial use, Paid for Sync/Publish)",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux",
-        "Android",
-        "iOS"
-      ],
+      "platforms": ["Windows", "macOS", "Linux", "Android", "iOS"],
       "mainFeatures": [
         "Local-first markdown notes",
         "Knowledge base",
@@ -109,13 +80,7 @@
     {
       "name": "Anytype",
       "license": "Open Source (Protocols), Source Available (Applications)",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux",
-        "Android",
-        "iOS"
-      ],
+      "platforms": ["Windows", "macOS", "Linux", "Android", "iOS"],
       "mainFeatures": [
         "Local-first and End-to-end encrypted",
         "Personal knowledge base",
