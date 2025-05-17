@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react';
 import RepoCard, { type RepoCardProps } from '@/components/repo-card';
+import { RepoCardSkeletonGrid } from '@/components/repo-card-skeleton';
 import type { BlogItem } from '@/lib/get-blogs';
 
 const BlogPage = () => {
@@ -10,6 +11,7 @@ const BlogPage = () => {
   const [hasMore, setHasMore] = useState(true);
   const loaderRef = useRef<HTMLDivElement>(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [initialLoading, setInitialLoading] = useState(true);
 
   const loadMoreProjects = async () => {
     if (isLoading || !hasMore) return;
@@ -51,6 +53,7 @@ const BlogPage = () => {
       console.error('Error loading projects:', error);
     } finally {
       setIsLoading(false);
+      setInitialLoading(false);
     }
   };
 
@@ -87,7 +90,10 @@ const BlogPage = () => {
   return (
     <div className="max-w-7xl mx-auto w-full p-6 pb-16">
       <h1 className="head-text-lg mb-8 text-center">Rust Projects Showcase</h1>
-      {projects && projects.length > 0 ? (
+
+      {initialLoading ? (
+        <RepoCardSkeletonGrid />
+      ) : projects.length > 0 ? (
         <>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map((project, index) => (
@@ -114,9 +120,7 @@ const BlogPage = () => {
         </>
       ) : (
         <p className="text-center text-muted-foreground">
-          {isLoading
-            ? 'Cargando proyectos...'
-            : 'No hay proyectos para mostrar.'}
+          There are no projects to show.
         </p>
       )}
     </div>
