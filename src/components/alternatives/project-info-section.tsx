@@ -63,15 +63,17 @@ const ProjectInfoSection: React.FC<ProjectInfoSectionProps> = ({ data, repoInfo 
                             Website
                         </h3>
                     </div>
-                    <Link
-                        href={data.website}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-primary hover:text-primary/80 transition-colors flex items-center gap-1.5 group truncate"
-                    >
-                        <span className="truncate">{data.website}</span>
-                        <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 flex-shrink-0" />
-                    </Link>
+                    <div className="w-full overflow-hidden">
+                        <Link
+                            href={data.website}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:text-primary/80 transition-colors flex items-center gap-1.5 group w-full"
+                        >
+                            <span className="truncate max-w-[250px]">{data.website}</span>
+                            <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 flex-shrink-0" />
+                        </Link>
+                    </div>
                 </div>
                 <div className="flex-1 overflow-hidden">
                     <div className="flex items-center gap-2 mb-2">
