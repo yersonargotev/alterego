@@ -67,19 +67,19 @@ export default async function Page({
     const repoInfo = await findRepoInfo(alternativesData.projectName);
 
     return (
-      <Prose className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="mb-8">
+      <Prose className="max-w-5xl mx-auto px-3 sm:px-4 lg:px-8 py-8 sm:py-12 w-full overflow-hidden">
+        <div className="mb-6 sm:mb-8">
           <BackButton href="/blog" label="Back to Blog" />
         </div>
-        <header className="mb-10 text-center">
+        <header className="mb-8 sm:mb-10 text-center">
           <div className="inline-flex items-center gap-2 text-sm text-muted-foreground mb-3">
-            <BookOpen className="h-4 w-4" />
-            <span>Project Overview</span>
+            <BookOpen className="h-4 w-4 flex-shrink-0" />
+            <span className="break-words">Project Overview</span>
           </div>
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4 break-words bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
             {alternativesData.projectName}
           </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto break-words hyphens-auto">
             {alternativesData.projectPurpose}
           </p>
         </header>
@@ -88,13 +88,13 @@ export default async function Page({
         <AlternativesDisplay data={alternativesData} repoInfo={repoInfo ?? undefined} />
 
         {/* Add link to detailed page */}
-        <div className="mt-12 text-center">
+        <div className="mt-10 sm:mt-12 text-center">
           <Link
             href={`/blog/${slug}/more`}
-            className="inline-flex items-center gap-2 px-6 py-3 bg-secondary text-muted-foreground rounded-md hover:bg-secondary/90 transition-colors group"
+            className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-secondary text-muted-foreground rounded-md hover:bg-secondary/90 transition-colors group"
           >
-            <span>View More Information</span>
-            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            <span className="break-words">View More Information</span>
+            <ArrowRight className="h-4 w-4 flex-shrink-0 transition-transform group-hover:translate-x-1" />
           </Link>
         </div>
       </Prose>
@@ -102,11 +102,11 @@ export default async function Page({
   } catch (error) {
     console.error('Error rendering page:', error);
     return (
-      <div className="container mx-auto py-12 text-center">
-        <h1 className="text-2xl font-bold text-red-500">
+      <div className="container mx-auto py-8 sm:py-12 px-3 sm:px-4 text-center w-full">
+        <h1 className="text-xl sm:text-2xl font-bold text-red-500 break-words">
           Error Loading Content
         </h1>
-        <p className="mt-4">
+        <p className="mt-4 break-words">
           The requested content could not be loaded. Please try again later.
         </p>
       </div>

@@ -35,9 +35,9 @@ export default async function MorePage({
     return (
       <>
         <ReadingProgress />
-        <div className="container max-w-3xl mx-auto px-4 py-12">
+        <div className="container max-w-3xl mx-auto px-3 sm:px-4 py-8 sm:py-12 w-full overflow-hidden">
           {/* Back button to main page */}
-          <div className="mb-8">
+          <div className="mb-6 sm:mb-8">
             <Link
               href={`/blog/${slug}`}
               className="group inline-flex items-center text-muted-foreground hover:text-foreground transition-colors duration-200"
@@ -52,21 +52,21 @@ export default async function MorePage({
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="mr-2 group-hover:transform group-hover:-translate-x-1 transition-transform duration-200"
+                className="mr-2 flex-shrink-0 group-hover:transform group-hover:-translate-x-1 transition-transform duration-200"
               >
                 <path d="M19 12H5M12 19l-7-7 7-7" />
               </svg>
-              <span>Back to Overview</span>
+              <span className="break-words">Back to Overview</span>
             </Link>
           </div>
 
           {/* Display the README markdown content */}
-          <article className="bg-card rounded-lg shadow-sm p-8 border border-border">
-            <h1 className="head-text-md mb-8 text-center">
+          <article className="bg-card rounded-lg shadow-sm p-4 sm:p-6 md:p-8 border border-border w-full">
+            <h1 className="head-text-md mb-6 sm:mb-8 text-center break-words">
               More Information
             </h1>
-            <div className="w-full h-[1px] bg-border mb-8" />
-            <Prose className="text-card-foreground">
+            <div className="w-full h-[1px] bg-border mb-6 sm:mb-8" />
+            <Prose className="text-card-foreground max-w-full overflow-hidden break-words">
               <ReactMarkdown>{readmeContent}</ReactMarkdown>
             </Prose>
           </article>
@@ -76,17 +76,17 @@ export default async function MorePage({
   } catch (error) {
     console.error('Error rendering page:', error);
     return (
-      <div className="container max-w-3xl mx-auto px-4 py-12 text-center">
-        <div className="bg-card rounded-lg shadow-sm p-8 border border-destructive">
-          <h1 className="head-text-sm text-destructive mb-4">
+      <div className="container max-w-3xl mx-auto px-3 sm:px-4 py-8 sm:py-12 text-center w-full">
+        <div className="bg-card rounded-lg shadow-sm p-4 sm:p-8 border border-destructive">
+          <h1 className="head-text-sm text-destructive mb-4 break-words">
             Error Loading Content
           </h1>
-          <p className="text-muted-foreground mb-6">
+          <p className="text-muted-foreground mb-6 break-words">
             The detailed content could not be loaded. Please try again later.
           </p>
           <Link
             href={`/blog/${slug}`}
-            className="inline-flex items-center px-4 py-2 rounded-md bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+            className="inline-flex items-center px-3 sm:px-4 py-2 rounded-md bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
           >
             Back to Main Page
           </Link>

@@ -89,14 +89,14 @@ const BlogPage = () => {
   }, [hasMore, isLoading]);
 
   return (
-    <div className="max-w-7xl mx-auto w-full p-6 pb-16">
-      <h1 className="head-text-lg mb-8 text-center">Rust Projects Showcase</h1>
+    <div className="w-full max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 pb-12 overflow-hidden">
+      <h1 className="head-text-lg mb-6 sm:mb-8 text-center break-words">Rust Projects Showcase</h1>
 
       {initialLoading ? (
         <RepoCardSkeletonGrid />
       ) : projects.length > 0 ? (
         <>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 lg:gap-6 w-full">
             {projects.map((project, index) => (
               <RepoCard
                 key={`${project.url || project.name || project.author}-${index}`}
@@ -109,18 +109,18 @@ const BlogPage = () => {
           {hasMore && (
             <div
               ref={loaderRef}
-              className="flex justify-center mt-8 h-20 items-center"
+              className="flex justify-center mt-6 sm:mt-8 h-16 sm:h-20 items-center"
             >
               {isLoading ? (
-                <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-primary" />
+                <div className="animate-spin rounded-full h-6 w-6 sm:h-8 sm:w-8 border-t-2 border-b-2 border-primary flex-shrink-0" />
               ) : (
-                <div className="h-8" />
+                <div className="h-6 sm:h-8" />
               )}
             </div>
           )}
         </>
       ) : (
-        <p className="text-center text-muted-foreground">
+        <p className="text-center text-muted-foreground px-2">
           There are no projects to show.
         </p>
       )}
