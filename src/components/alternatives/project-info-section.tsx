@@ -1,4 +1,6 @@
-import React from 'react';
+'use client';
+
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { Globe, Server, Star, CheckSquare, ExternalLink, GitBranch } from 'lucide-react';
 import { PlatformBadge } from '@/components/badges';
@@ -15,25 +17,27 @@ interface ProjectInfoSectionProps {
 }
 
 const ProjectInfoSection: React.FC<ProjectInfoSectionProps> = ({ data, repoInfo }) => {
+    const [imgError, setImgError] = useState(false);
     return (
         <div className="rounded-lg border border-border/70 p-6 bg-card/50 backdrop-blur-sm">
             {repoInfo && (repoInfo.author || repoInfo.avatar || repoInfo.url) && (
                 <div className="flex flex-col md:flex-row items-start gap-6 mb-6 pb-6 border-b border-border/70">
                     <div className="flex items-center gap-4">
                         {repoInfo.avatar && (
-                            <div className="h-12 w-12 rounded-full overflow-hidden">
+                            <div className="flex items-center mb-3">
                                 <Image
-                                    src={repoInfo.avatar}
-                                    alt={repoInfo.author || 'Repository logo'}
-                                    width={48}
-                                    height={48}
-                                    className="object-cover"
+                                    src={imgError ? '/images/repo-image-not-found.webp' : repoInfo.avatar}
+                                    alt={`${repoInfo.author}'s avatar`}
+                                    width={40}
+                                    height={40}
+                                    className="rounded-md mr-3"
+                                    onError={() => setImgError(true)}
                                 />
                             </div>
                         )}
                         <div>
                             {repoInfo.author && (
-                                <p className="text-sm font-medium">{repoInfo.author}</p>
+                                <p className="text-sm font-medium">{`${repoInfo.author} / ${data.projectName}`}</p>
                             )}
                             {repoInfo.url && (
                                 <Link
