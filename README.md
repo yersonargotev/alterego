@@ -1,40 +1,12 @@
-
 # AlterEgo
 
 ## 🧑‍💻 Project Description
 
-AlterEgo is a web platform built with Next.js 15 and TypeScript that enables users to manage digital identities securely and flexibly. The main goal is to provide a modern experience for authentication, profile customization, and content management, following best practices in usability and security.
-The application uses a modular architecture and reusable components, leveraging Radix UI and Shadcn UI for an accessible, responsive interface. Dynamic content is managed via MDX, allowing users and admins to create and view rich documents. User experience and performance are prioritized by optimizing Web Vitals and using Next.js hybrid rendering (SSR and RSC).
-
-Key features include:
-
-- Secure sign-up and login with Clerk
-- User profile and preferences management
-- Rich content viewing and editing (MDX)
-- Modern, accessible, mobile-first UI
-- Real-time notifications and feedback with Sonner
+AlterEgo is a web application designed to help users discover Rust-based alternatives for their favorite software tools and libraries. It addresses the growing need for high-performance and memory-safe applications by curating a collection of Rust projects. Users can browse detailed project information, including features, licenses, and platform compatibility. The main goal is to provide a centralized platform for exploring the Rust ecosystem and finding suitable replacements for existing tools, thereby promoting the adoption of Rust.
 
 ## 🔐 Use of Clerk
 
-Clerk is integrated as the main authentication and user management provider in AlterEgo. The official Clerk SDK for Next.js is used, leveraging both UI components and hooks/helpers to protect routes and customize the user experience.
-
-Key Clerk implementations in the project:
-
-- User authentication:
-Clerk’s <SignIn />, <SignUp />, and <UserButton /> components handle sign-in, sign-up, and session management flows.
-
-- Route protection:
-The Next.js middleware (src/middleware.ts) uses Clerk to restrict access to private routes, ensuring only authenticated users can access certain pages or resources.
-
-- Profile management:
-Users can update their personal information and preferences through Clerk components integrated into the UI.
-
-- Personalization and roles:
-Clerk enables management of custom attributes and user roles, making it easy to create differentiated experiences based on user type.
-
-- SSR and RSC integration:
-Clerk integrates natively with Next.js hybrid rendering, allowing user information to be accessed both server-side and client-side.
-This integration ensures a seamless, secure, and scalable user experience, meeting modern standards for authentication and identity management.
+Clerk is integrated into AlterEgo for robust user authentication and session management. It handles the sign-in and sign-up processes, allowing users to create accounts and securely access the platform. Clerk's middleware is used to protect routes and manage user sessions across the application. The integration simplifies user management by leveraging Clerk's pre-built UI components for authentication flows, ensuring a seamless and secure experience for users.
 
 ## 🚀 Demo
 
