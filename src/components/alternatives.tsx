@@ -6,9 +6,14 @@ import MarketPositioningSection from '@/components/alternatives/market-positioni
 
 interface AlternativesProps {
     data: AlternativesData | null; // Allow data to be null initially
+    repoInfo?: {
+        author?: string;
+        avatar?: string;
+        url?: string;
+    };
 }
 
-const AlternativesDisplay: React.FC<AlternativesProps> = ({ data }) => {
+const AlternativesDisplay: React.FC<AlternativesProps> = ({ data, repoInfo }) => {
     if (!data) {
         return (
             <div className="flex justify-center items-center h-64">
@@ -20,7 +25,7 @@ const AlternativesDisplay: React.FC<AlternativesProps> = ({ data }) => {
     return (
         <section className="space-y-12">
             {/* Project Information Section */}
-            <ProjectInfoSection data={data} />
+            <ProjectInfoSection data={data} repoInfo={repoInfo} />
 
             {/* Alternatives Section */}
             {data.alternatives && data.alternatives.length > 0 && (

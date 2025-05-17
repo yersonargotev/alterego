@@ -19,6 +19,34 @@ async function getContentDirectories() {
   return entries.filter((entry) => entry.isDirectory()).map((dir) => dir.name);
 }
 
+// Helper function to find repository info in rust.json
+async function findRepoInfo(projectName: string) {
+  try {
+    const rustJsonPath = path.join(process.cwd(), 'src/lib/constants/rust.json');
+    const rustJsonContent = await fs.readFile(rustJsonPath, 'utf-8');
+    const rustData = JSON.parse(rustJsonContent);
+
+    // Find a matching project by name (case-insensitive)
+    const matchingRepo = rustData.find((repo: any) =>
+      repo.name.toLowerCase() === projectName.toLowerCase() ||
+      repo.description?.toLowerCase().includes(projectName.toLowerCase())
+    );
+
+    if (matchingRepo) {
+      return {
+        author: matchingRepo.author,
+        avatar: matchingRepo.avatar,
+        url: matchingRepo.url
+      };
+    }
+
+    return null;
+  } catch (error) {
+    console.error('Error finding repo info:', error);
+    return null;
+  }
+}
+
 export default async function Page({
   params
 }: {
@@ -34,6 +62,9 @@ export default async function Page({
     );
     const alternativesJson = await fs.readFile(alternativesPath, 'utf-8');
     const alternativesData: AlternativesData = JSON.parse(alternativesJson);
+
+    // Find repository information if available
+    const repoInfo = await findRepoInfo(alternativesData.projectName);
 
     return (
       <Prose className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -54,7 +85,7 @@ export default async function Page({
         </header>
 
         {/* Display the alternatives data using our component */}
-        <AlternativesDisplay data={alternativesData} />
+        <AlternativesDisplay data={alternativesData} repoInfo={repoInfo ?? undefined} />
 
         {/* Add link to detailed page */}
         <div className="mt-12 text-center">

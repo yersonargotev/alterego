@@ -34,7 +34,7 @@ const BlogPage = () => {
       if (blogs.length === 0) {
         setHasMore(false);
       } else {
-        // Map blog items to RepoCardProps
+        // Map blog items to RepoCardProps including repository info
         const newProjects: RepoCardProps[] = blogs.map((blog) => ({
           author: blog.author,
           name: blog.name,
@@ -45,6 +45,7 @@ const BlogPage = () => {
           languageColor: blog.languageColor,
           stars: blog.stars,
           forks: blog.forks,
+          repoUrl: blog.url, // Add repository URL
         }));
 
         setProjects((prev) => [...prev, ...newProjects]);

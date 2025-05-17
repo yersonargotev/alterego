@@ -16,6 +16,7 @@ export interface RepoCardProps {
   languageColor?: string;
   stars: number;
   forks: number;
+  repoUrl?: string; // Optional repository URL (if different from url)
   // currentPeriodStars: number; // Not directly displayed as "last commit"
   // builtBy?: { href: string; avatar: string; username: string }[]; // Not shown in the target image's main cards
   // sponsor?: string | null; // Not shown in the target image's main cards
@@ -31,14 +32,17 @@ const RepoCard: React.FC<RepoCardProps> = ({
   languageColor,
   stars,
   forks,
+  repoUrl,
 }) => {
   const [imgError, setImgError] = useState(false);
+  // Use repoUrl if provided, otherwise fallback to url
+  const githubUrl = repoUrl || url;
 
   return (
     <div className="relative rounded-lg border border-card bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out">
       {/* GitHub link in the bottom-right corner */}
       <Link
-        href={url}
+        href={githubUrl}
         target="_blank"
         rel="noopener noreferrer"
         className="absolute bottom-3 right-3 p-2 rounded-full bg-background hover:bg-muted transition-colors"

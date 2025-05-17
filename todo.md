@@ -1,11 +1,5 @@
-- [ ] Hacerlo para multiples lenguajes, como python, javascript, etc.
+- [x] Agregar botón para volver a la página /blog en /blog/[slug]/page.tsx
 
-- [ ] Cambiar de blog a projects o repos.
+- [x] Agregar skeleton loading en /blog
 
-- [ ] Hacerlo para que se pueda filtrar por lenguaje.
-
-- [ ] Hacerlo para que se pueda filtrar por tecnologia.
-
-- [ ] Hacerlo para que se pueda filtrar por categoria.
-
-- [ ] Hacerlo para que se pueda filtrar por tag.
+- [x] Agregar información de rust.json a /blog/[slug]/page.tsx
