@@ -5,6 +5,7 @@ import AlternativesDisplay from '@/components/alternatives';
 import type { AlternativesData } from '@/types/alternatives';
 import Link from 'next/link';
 import { ArrowRight, BookOpen } from 'lucide-react';
+import { BackButton } from '@/components/back-button';
 
 // Force this page to be static at build time
 export const dynamic = 'force-static';
@@ -36,6 +37,9 @@ export default async function Page({
 
     return (
       <Prose className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="mb-8">
+          <BackButton href="/blog" label="Back to Blog" />
+        </div>
         <header className="mb-10 text-center">
           <div className="inline-flex items-center gap-2 text-sm text-muted-foreground mb-3">
             <BookOpen className="h-4 w-4" />
