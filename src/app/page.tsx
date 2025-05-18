@@ -19,7 +19,7 @@ export default async function Home() {
     <main className="max-w-7xl mx-auto w-full p-6 pb-16">
       <div className="flex flex-col items-center text-center mb-16">
         <div className="mb-8">
-          <CrabAlteregoAnimation className="dark:invert" />
+          <CrabAlteregoAnimation className="dark:text-white" />
         </div>
         <h1 className="head-text-lg mb-8">
           Find Rust Alternatives for Your Favorite Projects
