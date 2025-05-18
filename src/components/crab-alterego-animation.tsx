@@ -61,8 +61,10 @@ const CrabAlteregoAnimation: React.FC<CrabAlteregoAnimationProps> = ({ className
     );
 
     return (
-        <div ref={containerRef} className={className}>
-            <AlteregoSVG style={{ width: '100%', height: 'auto', maxWidth: '300px' }} />
+        <div ref={containerRef} className={`flex justify-center items-center ${className}`}>
+            <div className="bg-transparent dark:bg-white rounded-full p-4 flex justify-center items-center">
+                <AlteregoSVG style={{ display: 'block', width: '100%', height: 'auto', maxWidth: '250px' }} />
+            </div>
         </div>
     );
 };
