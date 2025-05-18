@@ -20,7 +20,7 @@ export default async function Home() {
       <div className="flex flex-col items-center text-center mb-16">
         <CrabAlteregoAnimation />
         <h1 className="head-text-lg mb-8">
-          Find Rust Alternatives for Your Favorite Projects
+          Find <span className="text-accent">Rust</span> Alternatives for Your Favorite Projects
         </h1>
         <p className="text-xl max-w-3xl mb-10">
           Discover <span className="font-bold">blazingly fast™</span>{' '}
