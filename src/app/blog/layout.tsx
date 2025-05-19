@@ -22,7 +22,7 @@ export default function Layout({ children }: { children: ReactNode }) {
     <ProtectedContent>
       <SidebarProvider
         defaultOpen={false}
-        className="grid h-dvh grid-rows-[auto_1fr] max-w-full"
+        className="w-full h-full"
       >
         {/* Wrapper for the entire layout */}
         <div className="flex h-full w-full max-w-full overflow-x-hidden">
